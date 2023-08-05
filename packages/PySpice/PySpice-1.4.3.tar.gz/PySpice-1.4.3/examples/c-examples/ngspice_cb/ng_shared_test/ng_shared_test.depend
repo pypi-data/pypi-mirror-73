@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1365844799 source:d:\spice_general\ngspice_cb\ng_shared_test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<string.h>
+	<stdbool.h>
+	<pthread.h>
+	"../include/sharedspice.h"
+	<windows.h>
+	<dlfcn.h>
+	<unistd.h>
+	<ctype.h>
+
+1365013786 d:\spice_general\ngspice_cb\ng_shared_test\sharedspice.h
+
+1365842736 d:\spice_general\ngspice_cb\include\sharedspice.h
+
