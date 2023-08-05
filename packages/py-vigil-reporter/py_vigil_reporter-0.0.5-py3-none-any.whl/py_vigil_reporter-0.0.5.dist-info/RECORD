@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=RqxAacIXBElimwXZ1oILQwn9jBa6ZxeyeaVq5nzK4AA,115
+tests/test_vigil.py,sha256=Ces2vWRAItjAqd5M5g5frH6gHCpx2CIfkO03U5Rp1X0,2902
+vigil_reporter/__init__.py,sha256=XZu30jP6MguLBiZ3oaQmFEF7Sy5XOi_ly8Kh8Sgt_Ls,138
+vigil_reporter/reporter.py,sha256=V-cW9RH6JDfOedd1XGiYZcH9rlW7I1oR6jblj8vMNyc,2836
+py_vigil_reporter-0.0.5.dist-info/LICENSE,sha256=2LVo8dBAcO1Gjo6LTkuRkVkw3Y2LYR1c2PgrZ2eks1I,1290
+py_vigil_reporter-0.0.5.dist-info/METADATA,sha256=44LEOb9O4ofJhTi_YJXA-Dd7hbmifEUg5XzhYBN9Gsc,1876
+py_vigil_reporter-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_vigil_reporter-0.0.5.dist-info/top_level.txt,sha256=fywRfn1wP9G_WcJKFeNxvBo6IOUw6GrwOnDf1BgKHag,21
+py_vigil_reporter-0.0.5.dist-info/RECORD,,
