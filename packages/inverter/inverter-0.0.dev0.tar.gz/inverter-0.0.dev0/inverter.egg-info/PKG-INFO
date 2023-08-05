@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: inverter
+Version: 0.0.dev0
+Summary: Convert dataclass to other schemas
+Home-page: http://github.com/morpframework/inverter/
+Author: Izhar Firdaus
+Author-email: kagesenshi.87@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: dataclass converter
+Platform: UNKNOWN
