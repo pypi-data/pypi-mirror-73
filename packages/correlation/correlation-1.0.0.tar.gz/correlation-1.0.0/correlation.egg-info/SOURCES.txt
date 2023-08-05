@@ -1,0 +1,9 @@
+README.md
+correlation.py
+setup.py
+correlation.egg-info/PKG-INFO
+correlation.egg-info/SOURCES.txt
+correlation.egg-info/dependency_links.txt
+correlation.egg-info/requires.txt
+correlation.egg-info/top_level.txt
+correlation.egg-info/zip-safe
