@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: django-theme-installer
+Version: 0.1.4
+Summary: A Django theme installer
+Home-page: https://github.com/jefcolbi/django-theme-installer
+Author: jefcolbi
+Author-email: jefcolbi@mboatek.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: django
+
+
+# Django Theme Installer
+
+### Why?
+When you start a new Django project and you are not so good in HTML or don't want to waste your time or find a beautiful free theme, you manually copy it in your django project and start editing it.  
+Django Theme Installer do this work for you.
+
+### Installation
+    $ pip install django-theme-installer
+
+### Usage
+##### Via the client
+    $ theme_cl.py -n name -s /path/to/html/source/ -c /path/to/djangoproject/static/ -t /path/to/djangoproject/templates/
+
+##### Via the code
+    >>> th = ThemeInstaller(name, "/path/to/html/source/", "/path/to/djangoproject/static", "/path/to/djangoproject/templates"
+    >>> th.proceed()
+
+### Contributing
+Contributions are welcome, all PRs will be reviewed and merged.
+
+### License
+Feel free to use it as you want.
+
+
