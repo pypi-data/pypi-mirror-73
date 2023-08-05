@@ -1,0 +1,10 @@
+README.md
+setup.py
+mlmodels/__init__.py
+mlmodels/registermodels.py
+registermlmodels.egg-info/PKG-INFO
+registermlmodels.egg-info/SOURCES.txt
+registermlmodels.egg-info/dependency_links.txt
+registermlmodels.egg-info/not-zip-safe
+registermlmodels.egg-info/requires.txt
+registermlmodels.egg-info/top_level.txt
