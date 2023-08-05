@@ -1,0 +1,89 @@
+{
+    "guide": {
+        "title": "Documentation",
+        "toc": [
+            {"title": "Introduction", "content": "intro.html"},
+            {"title": "Grammar", "content": "grammar.html"},
+            {
+                "title": "Theory",
+                "content": "theory.html",
+                "children": [
+                    {"title": "Úvod", "link": "#sec-sect-valence-slovniky"},
+                    {
+                        "title": "Valency of verbs",
+                        "link": "#sec-sect-valence-teorie"
+                    },
+                    {
+                        "title": "Aktanty a volná doplnění ve FGP",
+                        "link": "#sec-sect-aktanty-volna",
+                        "children": [
+                            {
+                                "title": "Princip 'kognitivního' posouvání ",
+                                "link": "#sec-sect-aktanty-posouvani"
+                            },
+                            {
+                                "title": "Charakteristika aktantů",
+                                "link": "#sec-sect-character"
+                            },
+                            {
+                                "title": "Obligatornost vs. fakultativnost: dialogový test",
+                                "link": "#sec-sect-oblig-fakult"
+                            },
+                            {
+                                "title": "Valenční rámec ve FGP",
+                                "link": "#sec-sect-vr"
+                            },
+                            {
+                                "title": "Zachycení valence ve ",
+                                "link": "#sec-sect-vallex"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Alternace",
+                        "link": "#sec-sect-valence-alternace",
+                        "children": [
+                            {
+                                "title": "Gramatikalizované alternace",
+                                "link": "#sec-sect-gram-alternace"
+                            },
+                            {
+                                "title": "Reprezentace gramatikalizovaných alternací ve VALLEXu",
+                                "link": "#sec-sect-gram-rep"
+                            },
+                            {
+                                "title": "Lexikalizované alternace",
+                                "link": "#sec-sect-lexikal-alternace"
+                            },
+                            {
+                                "title": "Reprezentace lexikalizovaných alternací ve VALLEXu",
+                                "link": "#sec-sect-lex-rep"
+                            }
+                        ]
+                    },
+                    {"title": "References", "link": "#sec:biblio"}
+                ]
+            },
+            {
+                "title": "Guide",
+                "content": "guide.html",
+                "children": [{"title": "Searching", "content": "search.html"}]
+            },
+            {
+                "title": "Legal",
+                "content": "legal.html",
+                "children": [
+                    {"title": "License", "link": "#license"},
+                    {"title": "Privacy", "link": "#privacy"}
+                ]
+            }
+        ]
+    },
+    "topics": {
+        "search-form": {
+            "title": "Writing Search Queries",
+            "content": "search-form.html"
+        },
+        "about": {"title": "About NomVallex", "content": "about.html"}
+    }
+}

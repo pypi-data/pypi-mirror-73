@@ -1,0 +1,5 @@
+[console_scripts]
+vallex-cli=vallex.main:entry_point
+vallex-gui=vallex.main:gui_entry_point
+vallex-web=vallex.main:web_entry_point
+

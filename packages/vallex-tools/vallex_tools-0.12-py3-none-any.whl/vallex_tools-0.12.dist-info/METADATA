@@ -1,0 +1,211 @@
+Metadata-Version: 2.1
+Name: vallex-tools
+Version: 0.12
+Summary: A Python interface for working with vallency lexicon data.
+Home-page: https://verner.gitlab.io/pyvallex/
+License: MIT
+Keywords: nlp,lexicon,valency
+Author: Jonathan L. Verner
+Author-email: jonathan.verner@matfyz.cz
+Requires-Python: >=3.6
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Provides-Extra: server
+Provides-Extra: updater
+Requires-Dist: bsdiff4 (==1.1.5); extra == "updater"
+Requires-Dist: gunicorn (>=20.0.4,<21.0.0); extra == "server"
+Requires-Dist: jinja2
+Requires-Dist: pynacl; extra == "updater"
+Requires-Dist: pyqt5 (==5.14.1)
+Requires-Dist: pyqtwebengine (==5.14)
+Requires-Dist: setproctitle (>=1.1.10,<2.0.0); extra == "server"
+Project-URL: Documentation, https://verner.gitlab.io/pyvallex/
+Project-URL: Demo (readonly), http://quest.ms.mff.cuni.cz/nomvallex/
+Project-URL: Repository, https://gitlab.com/Verner/pyvallex
+Description-Content-Type: text/x-rst
+
+Vallex Tools
+============
+
+| A Python interface to various vallency lexicon (Vallex) data.
+| https://verner.gitlab.io/pyvallex/
+
+.. code-block:: bash
+
+    pip install vallex-tools
+
+
+Features
+--------
+- `MIT <https://en.wikipedia.org/wiki/MIT_License>`_ licensed
+- parses lexicon data in txt and json formats
+- provides a cli for working with the data (searching, printing histogram, converting between txt/json, running data tests)
+- infrastructure to run data tests
+- Qt(WebEngine) based ui (searching, simple editing)
+- web based interface (searching)
+
+Example Use
+-----------
+
+.. code-block:: python
+
+    from vallex import LexiconCollection, add_file_to_collection
+    from vallex.grep import parse_pattern, filter_db
+
+
+    # Create a collection of lexicons
+    coll = LexiconCollection()
+
+    # Load a lexicon and add it to the collections
+    add_file_to_collection(coll, open('v-vallex.txt', 'r', encoding='utf-8'))
+
+
+    # Filter the collection looking for lexical units which have ACT in their frame
+    pat = parse_pattern('frame.functor=ACT')
+    coll = filter_db(coll, pat)
+
+
+    # Print out the frame attribute of each lexical unit in the filtered
+    # collection
+    for lu in coll.lexical_units:
+        print(lu.frame)
+
+It also includes a cli interface:
+
+.. code-block:: bash
+
+    $ vallex-cli -i v-vallex.txt --filter frame,lemma,refl -- grep frame.functor=ACT
+
+      ...
+
+    * ŽRÁT SE
+      : id: blu-v-žrát-se-1
+      ~ impf: žrát se
+      + ACT(1;obl)CAUS(7,pro+4;typ)
+    #
+    # END ========== ../data-txt/v-vallex.txt ========== END
+
+    $ vallex-cli -i v-vallex.json --histogram frame.functor -- grep frame.functor=ACT
+
+      ...
+
+    NTT                                  (186/17819)
+    DPHR  *                               (286/17819)
+    DIR1  *                               (286/17819)
+    MANN  *                               (325/17819)
+    ORIG  *                               (382/17819)
+    DIR   **                              (484/17819)
+    EFF   ***                             (601/17819)
+    LOC   ***                             (606/17819)
+    DIR3  ***                             (610/17819)
+    BEN   ***                             (637/17819)
+    ADDR  ***                             (731/17819)
+    MEANS ****                            (809/17819)
+    PAT   ************************        (4836/17819)
+    ACT   ******************************* (6176/17819)
+
+
+Installing the command-line tools
+---------------------------------
+
+Unix
+####
+
+We suggest using the `pipx <https://pipxproject.github.io/pipx/>`_ or `pipsi <https://github.com/mitsuhiko/pipsi>`_ script installers:
+
+.. code-block:: bash
+
+    $ python3 -m pip install --user pipx
+    $ python3 -m pipx ensurepath
+    $ pipx install vallex-tools
+
+
+Alternatively, just create a Python3 virtualenv and run vallex-tools from there:
+
+.. code-block:: bash
+
+    $ python3 -m virtualenv -p `which python3` venv
+    $ . venv/bin/activate
+    (venv) $ pip install vallex-tools
+
+Assuming you used `pipx` to install vallex-tools, you can get bash command completion for `vallex-cli`,
+by putting the following line into your `.bashrc` or `.bash_profile`:
+
+.. code-block:: bash
+
+    eval $(pipx run vallex-cli completion)
+
+(For `pipsi`, replace `pipx` with `pipsi`. For the virtualenv, you need to first activate the virtualenv,
+then run the eval with just `vallex-cli` instead of pipx, and then deactivate the environment again).
+
+Windows
+#######
+
+Run the `install-win.ps1 <https://verner.gitlab.io/pyvallex/_static/install-win.ps1>`_ script in a
+`PowerShell` prompt. This script will download and install a Python interpretter into `C:\\vallex-tools`
+and the it will use it to install the `vallex-tools` package. Finally, it will put a shortcut to run
+the `vallex-gui` on the desktop. Using this method, all configuration & logs will live in the
+`C:\\vallex-tools` directory. To change this directory, you can edit the script and change the
+definition of the `$install_path` variable.
+
+Contributing
+------------
+
+Please see `Developer documentation <https://verner.gitlab.io/pyvallex/development.html>`_
+for documentation describing how to set-up your environment for working on vallex-tools.
+
+
+.. Obtaining Lexicon Data
+.. ----------------------
+..
+..
+.. Command Line Interface
+.. ----------------------
+..
+..
+.. Web Interface
+.. -------------
+..
+..
+.. Data Validation Tests
+.. ---------------------
+..
+.. REST API
+.. --------
+..
+.. Please see :doc:`REST API documentation <restapi>`.
+..
+.. Development
+.. -----------
+..
+.. Please see :doc:`Developer documentation <development>`.
+
+.. Documentation
+.. -------------
+
+.. Please see the :doc:`Intro` for more details.
+
+
+.. Bugs/Requests
+.. -------------
+
+.. Please use the `GitLab issue tracker <{{cookiecutter.bug_url}}>`_ to submit bugs or request features.
+
+
+.. Changelog
+.. ---------
+
+.. Consult the :doc:`Changelog <changelog>` page for fixes and enhancements of each version.
+
+

@@ -1,0 +1,1242 @@
+<div class="headerinfo">
+	<!-- This work has been supported by the grant P406/12/0557 of the Grant Agency of Czech Republic.<br/>-->
+	Tento text byl publikován jako součást knihy <a href="#bib:vallex16" class="href" title="Valenční slovník českých sloves VALLEX">(Lopatková et al., 2016)</a> vydané nakladatelstvím <a href="http://karolinum.cz/ink2_stat/index.jsp?include=podrobnosti&amp;id=17418&amp;jazyk=cs">Karolinum</a>.
+</div>
+<div id="veryfirst"></div>
+<p>
+
+
+<h1 class="part" id="sec-sect-teorie-a-heslo">Valence sloves a&nbsp;její zachycení ve slovníku <em>VALLEX</em></h1><hr/>
+<p>
+
+
+<div id="text-sect-valence-slovniky" class="textblock"> <!-- LEVEL: 1 -->
+<h1 id="sec-sect-valence-slovniky">Úvod</h1>
+
+<p>
+
+<p><p>
+Jazykový popis se tradičně dělí na dvě základní složky: gramatiku a&nbsp;lexikon. <em>Gramatika</em>
+popisuje zákonitosti přirozeného jazyka pomocí pravidel, která lze uplatnit na celé třídy slov, zatímco <em>lexikon</em> představuje
+inventář lexikálních jednotek s&nbsp;jejich specifickými charakteristikami.
+<p>Valence je typickým příkladem jazykového jevu na hranici mezi gramatikou a&nbsp;lexikonem.
+Valencí se označuje schopnost lexikální jednotky vázat na sebe určitý počet závislých jednotek.
+Její zásadní pozice v&nbsp;jazykovém systému je dána tím, že ačkoli jde o&nbsp;vlastnost lexikálně podmíněnou,
+sehrává centrální úlohu v&nbsp;syntaxi
+při utváření větné struktury <a class="href">(</a><a href="#bib:sgall-06" class="href" title="Sgall, P. (2006): Valence jako jádro jazykového systému.:  Slovo a slovesnost. 67(3), s.&nbsp;163&ndash;178.  ">Sgall, 2006</a><a class="href">)</a>.
+Valence se primárně vztahuje k&nbsp;významové rovině jazyka, tedy k&nbsp;hloubkové větné stavbě.
+Vyznačují se jí autosémantické slovní druhy: substantiva, adjektiva, některá adverbia a&nbsp;zejména slovesa,
+jež díky své valenci vytvářejí centrum věty.
+<p><p><p class="bigskip">
+<p><p class="noindent">
+Termín valence v&nbsp;lingvistické literatuře poprvé užil v&nbsp;polovině 20. století francouzský syntaktik Lucien
+Tesnière <a class="href">(</a><a href="#bib:tesnier-59" class="href" title="Tesnière, L. (1959): Eléments de syntaxe structurale.:  Paris, Librairie C. Klincksieck.  (Translation: Kahane, S. &ndash; Osborne, T. (2015)   Elements of Structural Syntax. Amsterdam &ndash; Philadelphia, John   Benjamins Publishing Company.)  ">1959</a><a class="href">)</a>.
+V&nbsp;současnosti náleží valence ke klíčovým konceptům mnoha lingvistických teorií, a&nbsp;to nejen
+teorií založených na závislostní koncepci,
+jmenujme za všechny Model Smysl↔Text <a class="href">(</a><a href="#bib:melcuk-88" class="href" title="Mel'čuk, I.&nbsp;A. (1988): Dependency Syntax: Theory and   Practice.  Albany, State University of New York Press.  ">Mel'čuk, 1988</a><a class="href">)</a>
+a&nbsp;Funkční generativní popis <a class="href">(</a><a href="#bib:SaS-86" class="href" title="Sgall, P. et&nbsp;al. (1986b): Úvod do syntaxe a   sémantiky.  Praha, Academia.  (Co-authors: Bémová, A. &ndash; Borota, J. &ndash; Hajičová, E. &ndash; Hajičová, I. &ndash; Jirků, P. &ndash; Panevová, J. &ndash; Plátek, M.   &ndash; Vrbová, J.)  ">Sgall et&nbsp;al., 1986b</a><a class="href">)</a>.
+Koncept valence dnes sehrává zásadní roli i&nbsp;ve vlivných postgenerativních
+teoriích,
+jako jsou Lexikálně-funkční gramatika (LFG) <a class="href">(</a><a href="#bib:bresnan-82" class="href" title="Bresnan, J. (1982): The Mental Representation of Grammatical   Relations.  Cambridge, MIT Press.  ">Bresnan, 1982</a><a class="href">;</a> <a href="#bib:bresnan-01" class="href" title="Bresnan, J. (2001): Lexical-Functional Syntax.:  Oxford, Blackwell.  ">Bresnan, 2001</a><a class="href">)</a>,
+Head-driven Phrase Structure Grammar (HPSG) <a class="href">(</a><a href="#bib:pollard-sag-94" class="href" title="Pollard, C. &ndash; Sag, I.&nbsp;A. (1994): Head-Driven Phrase   Structure Grammar.  Chicago &ndash; London, University of Chicago Press.  ">Pollard &ndash; Sag, 1994</a><a class="href">)</a> nebo Tree Adjoining Grammar (TAG)
+<a class="href">(</a><a href="#bib:joshi-75" class="href" title="Joshi, A.&nbsp;K. &ndash; Levy, L.&nbsp;S. &ndash; Takahashi, M. (1975):   Tree Adjunct Grammars.  Journal of Computer and System Sciences. 10(1), s.&nbsp;136&ndash;136.  ">Joshi et&nbsp;al., 1975</a><a class="href">;</a> <a href="#bib:joshi-tag" class="href" title="Joshi, A.&nbsp;K. (1985): Tree adjoining grammars: How much   context-sensitivity is required to provide reasonable structural   descriptions?  In Dowty, D. &ndash; Karttunen, L. &ndash; Zwicky,   A.&nbsp;M. (ed.) Natural Language Parsing: Psychological, Computational,   and Theoretical Perspectives, s.&nbsp;206&ndash;250. Cambridge, Cambridge University   Press.  ">Joshi, 1985</a><a class="href">)</a>.<a href="#fn1" id="fnmark1" class="footnote">1</a>
+<p><p class="bigskip">
+<p>
+<p class="noindent">
+Zhruba od 90. let 20. století jsou valenční teorie aplikovány na velká jazyková data.
+Lexikální zdroje obsahující informaci o&nbsp;valenci jsou vytvářeny s&nbsp;ohledem na možnosti dalšího využití valenční charakteristiky sloves
+(i&nbsp;dalších slovních druhů)
+jednak při budování syntakticky anotovaných korpusů (jako jsou níže zmíněné korpusy Penn Treebank a&nbsp;Pražský závislostní korpus (PDT)), jednak
+v&nbsp;nástrojích pro zpracování přirozeného jazyka. Valence hraje zásadní roli především v&nbsp;těch aplikacích, které
+pracují s&nbsp;významem, např. ve strojovém překladu, sumarizaci textu a&nbsp;automatické desambiguaci
+významů, pro něž jsou základními předpoklady
+syntaktická analýza a&nbsp;rozlišení významů jednotlivých slov.
+Formalizace, která tvorbu lexikálních zdrojů nutně provází, zároveň umožňuje ověření a&nbsp;kontrolu
+bezrozpornosti, konzistentnosti a&nbsp;teoretické i&nbsp;empirické adekvátnosti
+přijatých základních postulátů
+a&nbsp;jejich případnou modifikaci.
+<p><p class="bigskip">
+<p><p class="noindent">
+Pro ilustraci uveďme některé významné zahraniční projekty zaměřené na popis valence.
+<em>PropBank</em><a href="#fn2" id="fnmark2" class="footnote">2</a> je anglický projekt zaměřený na anotaci
+predikátových argumentových struktur sloves z&nbsp;Penn&nbsp;Treebanku<a href="#fn3" id="fnmark3" class="footnote">3</a> <a class="href">(</a><a href="#bib:propbank-02" class="href" title="Kingsbury, P. &ndash; Palmer, M. &ndash; Mitch, M. (2002):   Adding Predicate Argument Structure to the Penn TreeBank.  In The Second International Human Language Technology   Conference, HLT-02, San Diego, CA.  ">Kingsbury et&nbsp;al., 2002</a><a class="href">;</a> <a href="#bib:palmer-05" class="href" title="Palmer, M. &ndash; Gildea, D. &ndash; Kingsbury, P. (2005):   The Proposition Bank: An Annotated Corpus of Semantic Roles.  Computational Linguistics. 31(1), s.&nbsp;71&ndash;106.  ">Palmer et&nbsp;al., 2005</a><a class="href">)</a>. Tento projekt
+zohledňuje především syntaktické chování sloves. Argumenty sloves jsou obohaceny o&nbsp;sémantické role uložené v&nbsp;lexikální databázi
+<em>VerbNet</em>,<a href="#fn4" id="fnmark4" class="footnote">4</a> která vychází ze sémantické klasifikace sloves
+vytvořené B. Levinovou <a class="href">(</a><a href="#bib:levin-93" class="href" title="Levin, B.&nbsp;C. (1993): English Verb Classes and Alternations: A   Preliminary Investigation.  Chicago and London, The University of Chicago Press.  ">Levin, 1993</a><a class="href">)</a>. Sémantické třídy vymezené Levinovou jsou ve VerbNetu dále subklasifikovány a&nbsp;opatřeny
+syntaktickou informací <a class="href">(</a><a href="#bib:verbnet-2" class="href" title="Kipper, K. et&nbsp;al. (2006): Extensive Classifications of English   Verbs.  In Corino, E. &ndash; Marello, C. &ndash; Onesti, C.   (ed.) Proceedings of the XII EURALEX International Congress,   Turin.  (Co-authors: Korhonen, A. &ndash; Ryant, N. &ndash; Palmer,   M.).  ">Kipper et&nbsp;al., 2006</a><a class="href">)</a>.
+Jak PropBank, tak VerbNet je propojen v&nbsp;rámci projektu <em>SemLink</em>&thinsp;<a href="#fn5" id="fnmark5" class="footnote">5</a>
+<a class="href">(</a><a href="#bib:semlink-09" class="href" title="Palmer, M. (2009): Semlink: Linking PropBank, VerbNet and FrameNet.:  In Proceedings of the Generative Lexicon Conference, GenLex   2009, Pisa.  ">Palmer, 2009</a><a class="href">)</a>
+s&nbsp;lexikální databází <em>FrameNet</em>,<a href="#fn6" id="fnmark6" class="footnote">6</a>
+která představuje další sémanticky orientovaný lexikální zdroj, popisující valenci
+nejen anglických sloves, ale i&nbsp;substantiv, adjektiv a&nbsp;adverbií <a class="href">(</a><a href="#bib:baker-98" class="href" title="Baker, C.&nbsp;F. &ndash; Fillmore, C.&nbsp;J. &ndash; Lowe, J.&nbsp;B.   (1998): The Berkeley FrameNet project.  In COLING-ACL&rsquo;98: Proceedings of the   Conference, s.&nbsp;86&ndash;90, Montreal, Canada.  ">Baker et&nbsp;al., 1998</a><a class="href">;</a> <a href="#bib:framenet2" class="href" title="Fillmore, C.&nbsp;J. &ndash; Baker, C. &ndash; Sato, H. (2002):   Seeing Arguments through Transparent Structures.  In Rodríguez, M.&nbsp;G. &ndash; Araujo, C. P.&nbsp;S. (ed.)   Proceedings of the 3rd International Conference on Language Resources   and Evaluation, LREC 2002, s.&nbsp;787&ndash;791, Paris, ELRA.  ">Fillmore et&nbsp;al., 2002</a><a class="href">;</a> <a href="#bib:framenet-06" class="href" title="Ruppenhofer, J. et&nbsp;al. (2006): FrameNet II: Extended Theory and   Practice.  California, Berkeley, International Computer Science Institute.  (Co-authors: Ellsworth, M. &ndash; Petruck, M. R. L. &ndash; Johnson, C. R. &ndash; Scheffczyk, J.)  ">Ruppenhofer et&nbsp;al., 2006</a><a class="href">)</a>.
+<p>Z&nbsp;lexikálních zdrojů popisujících slovanské jazyky jmenujme především
+<em>Explanatory Combinatorial Dictionary of Modern Russian</em> <a class="href">(</a><a href="#bib:melcuk-84" class="href" title="Mel'čuk, I.&nbsp;A. &ndash; Zholkovsky, A.&nbsp;K. (1984):   Explanatory Combinatorial Dictionary of Modern Russian.  Vienna, Wiener Slawistischer Almanach.  ">Mel'čuk &ndash; Zholkovsky, 1984</a><a class="href">)</a>, představující lexikální komponentu
+Modelu Smysl↔Text <a class="href">(</a><a href="#bib:melcuk-88" class="href" title="Mel'čuk, I.&nbsp;A. (1988): Dependency Syntax: Theory and   Practice.  Albany, State University of New York Press.  ">Mel'čuk, 1988</a><a class="href">)</a>.
+Tento slovník, zachycující kromě syntagmatických vztahů
+(odpovídajících
+valenci) též paradigmatické vztahy mezi lexikálními jednotkami,
+patří bezesporu k&nbsp;nejpropracovanějším valenčním slovníkům.
+V&nbsp;současnosti vzniká rozsáhlá
+lexikální databáze polských sloves <em>Walenty</em>&thinsp;<a href="#fn7" id="fnmark7" class="footnote">7</a> s&nbsp;informací o
+subkategorizačních
+rámcích sloves
+doplněná o&nbsp;některé další syntaktické rysy <a class="href">(</a><a href="#bib:walenty" class="href" title="Przepiórkowski, A. et&nbsp;al. (2014): Walenty: Towards a comprehensive   valence dictionary of Polish.  In Calzolari, N. et&nbsp;al. (ed.) Proceedings of the Ninth   International Conference on Language Resources and Evaluation, LREC 2014,   s.&nbsp;2785&ndash;2792, Iceland, Reykjavík, ELRA.  (Co-authors: Hajnicz, E. &ndash; Patejuk, A. &ndash; Woliński, M. &ndash; Skwarski, F. &ndash; Świdziński, M.).  ">Przepiórkowski et&nbsp;al., 2014</a><a class="href">)</a>.
+Z&nbsp;polských valenčních slovníků jmenujme ještě
+rozsáhlý <em>Słownik syntaktyczno-generatywny czasowników polskich</em> s&nbsp;explicitním popisem valenční struktury polských sloves <a class="href">(</a><a href="#bib:polanski-92" class="href" title="Polański, K. (ed.) (1980&ndash;1992): Słownik   syntaktyczno-generatywny czasowników polskich.  Wrocław &ndash; Kraków, Zakład Narodowy Im. Ossoliński, Instytut   Języka Polskiego PAN.  ">Polański, 1980&ndash;1992</a><a class="href">)</a>. Bulharština má k&nbsp;dispozici
+do elektronické verze konvertovaný valenční slovník tisíce nejčastějších bulharských sloves vzniklý
+ na konci 80. let <a class="href">(</a><a href="#bib:popova-87" class="href" title="Popova, M. (1987): Kratăk valenten rečnik na glagolite v   săvremennia bălgarski knižoven ezik.  Sofia, Bulgarian Academy of Sciences Publishing House.  ">Popova, 1987</a><a class="href">;</a> <a href="#bib:balabanova-02" class="href" title="Balabanova, E. &ndash; Ivanova, K. (2002): Creating a   machine-readable version of Bulgarian valence dictionary (A case study of   CLaRK system application).  In Hinrichs, E. &ndash; Simov, K. (ed.)   Proceedings of the First Workshop on Treebanks and Linguistics   Theories, s.&nbsp;1&ndash;12, Sozopol, Bulgaria.  ">Balabanova &ndash; Ivanova, 2002</a><a class="href">)</a>.
+Pro slovenštinu byl na základě korpusového materiálu vytvořen <em>Valenčný slovník slovenských slovies na korpusovom základe</em> <a class="href">(</a><a href="#bib:ivanova-14" class="href" title="Ivanová, M. et&nbsp;al. (2014): Valenčný slovník   slovenských slovies na korpusovom základe.  Prešov, Filozofická fakulta Prešovskej univerzity v   Prešove.  (Co-authors: Sokolová, M. &ndash; Kyseľová,   M. &ndash; Perovská, V.)  ">Ivanová et&nbsp;al., 2014</a><a class="href">)</a>,
+navazující na <em>Valenčný slovník slovenských slovies</em> <a class="href">(</a><a href="#bib:niznik-sokolova-98" class="href" title="Nižníková, J. &ndash; Sokolová, M. (1998):   Valenčný slovník slovenských slovies.  Prešov, Filozofická fakulta Prešovskej univerzity v   Prešove.  ">Nižníková &ndash;   Sokolová, 1998</a><a class="href">)</a>
+a&nbsp;na <em>Valenčný slovník slovenských slovies 2. zväzok (na korpusovom základe)</em> <a class="href">(</a><a href="#bib:niznikova-06" class="href" title="Nižníková, J. (2006): Valenčný   slovník slovenských slovies. 2. zväzok (na korpusovom   základe).  Prešov, Filozofická fakulta Prešovskej univerzity v   Prešove.  ">Nižníková, 2006</a><a class="href">)</a>, do něhož se promítly nové teoretické poznatky z&nbsp;oblasti valence a&nbsp;detailně vypracovaná
+sémantická klasifikace sloves.
+<p><p class="bigskip">
+<p><p class="noindent">
+Předkládaný <em>Valenční slovník českých sloves</em> (dále též <em>VALLEX</em> 3.0)
+<a href="#fn8" id="fnmark8" class="footnote">8</a> poskytuje informace o&nbsp;valenční struktuře českých sloves v&nbsp;jejich jednotlivých významech,
+které charakterizuje pomocí glos a&nbsp;příkladů;
+tyto základní údaje jsou doplněny o&nbsp;některé další syntaktické a&nbsp;sémantické charakteristiky.
+<em>VALLEX</em> 3.0 zachycuje 4&thinsp;586 českých sloves náležejících 2&thinsp;722 lexémům, které odpovídají 6&thinsp;711 lexikálním jednotkám,
+tedy <span class="gloss">&bdquo;daným slovesům v&nbsp;daném významu&ldquo;</span>
+(počítáme-li vidové protějšky zvlášť, jde &ndash; bez iterativ, jež nejsou detailně zpracována &ndash; o&nbsp;10&thinsp;821 lexikálních jednotek).
+<p>Z&nbsp;českých valenčních slovníků dále uveďme především dva tištěné slovníky <em>Slovesa pro praxi</em> <a class="href">(</a><a href="#bib:SPP" class="href" title="Svozilová, N. &ndash; Prouzová, H. &ndash;   Jirsová, A. (1997): Slovesa pro praxi.   Valenční slovník nejčastějších   českých sloves.  Praha, Academia.  ">Svozilová et&nbsp;al., 1997</a><a class="href">)</a> a
+<em>Slovník slovesných, substantivních a&nbsp;adjektivních vazeb a&nbsp;spojení</em> <a class="href">(</a><a href="#bib:SPP2" class="href" title="Svozilová, N. &ndash; Prouzová, H. &ndash;   Jirsová, A. (2005): Slovník slovesných,   substantivních a&nbsp;adjektivních vazeb a spojení.  Praha, Academia.  ">Svozilová et&nbsp;al., 2005</a><a class="href">)</a>, vycházející z&nbsp;Danešovy koncepce větných vzorců <a class="href">(</a><a href="#bib:danes-hlavsa-87" class="href" title="Daneš, F. &ndash; Hlavsa, Z. (1987): Větné   vzorce v češtině.  Praha, Academia.  (Co-authors: Jirsová, A. &ndash; Macháčková, E. &ndash; Prouzová, H. &ndash; Svozilová, N.)  ">Daneš &ndash; Hlavsa, 1987</a><a class="href">)</a>.
+Z&nbsp;elektronických slovníků jmenujme (bohužel nikdy nezveřejněný)
+plně automaticky vytvořený <em>Český syntaktický lexikon</em>; tento slovník,
+vycházející z&nbsp;teoretického zázemí Funkčního generativního popisu, obsahuje
+kromě informace o&nbsp;valenční struktuře sloves též informaci o&nbsp;diatezích, reflexivitě a&nbsp;kontrole <a class="href">(</a><a href="#bib:skoumalova-01" class="href" title="Skoumalová, H. (2001): Czech Syntactic Lexicon.:  PhD thesis, Prague, Charles University in Prague.  ">Skoumalová, 2001</a><a class="href">)</a>.
+Stejný teoretický aparát využívá i&nbsp;slovník
+<em>PDT-Vallex</em><a href="#fn9" id="fnmark9" class="footnote">9</a> <a class="href">(</a><a href="#bib:pdtvallex-03" class="href" title="Hajič, J. et&nbsp;al. (2003): PDT-VALLEX: Creating a Large-coverage   Valency Lexicon for Treebank Annotation.  In Nivre, J. &ndash; Hinrichs, E. (ed.)   Proceedings of The Second Workshop on Treebanks and Linguistic   Theories, Vol. 9, s.&nbsp;57&ndash;68.  (Co-authors: Panevová,&nbsp;J. &ndash; Urešová,&nbsp;Z. &ndash; Bémová, A. &ndash; Kolářová, V. &ndash; Pajas, P.).  ">Hajič et&nbsp;al., 2003</a><a class="href">;</a> <a href="#bib:uresova-11" class="href" title="Urešová, Z. (2011): Valence sloves v Pražském   závislostním korpusu.  Praha, Ústav formální a aplikované lingvistiky.  ">Urešová, 2011</a><a class="href">)</a>,
+ popisující valenční charakteristiku všech výskytů sloves
+(a&nbsp;dále některých jmen a&nbsp;adjektiv) v&nbsp;Pražském závislostním korpusu<a href="#fn10" id="fnmark10" class="footnote">10</a> (PDT).
+Pro češtinu byla dále vyvinuta lexikální databáze <em>VerbaLex</em>, využívající konceptu synsetů (řad synonymních lexikálních jednotek sloves)
+z&nbsp;české verze EuroWordNetu,
+které byly obohaceny o&nbsp;informaci o&nbsp;jejich valenční struktuře <a class="href">(</a><a href="#bib:verbalex-05" class="href" title="Hlaváčková, D. &ndash; Horák, A. (2005):   Transformation of WordNet Czech Valency Frames into Augmented VALLEX-1.0   Format.  In Human Language Technologies as a Challenge for Computer   Science and Linguistics, s.&nbsp;310&ndash;313, Poznań, Wydawnictwo Poznańskie   Sp. z o.o. with cooperation of Fundacja Uniwersytetu im. A. Mickiewicza.  ">Hlaváčková &ndash;   Horák, 2005</a><a class="href">;</a> <a href="#bib:hlava-phd" class="href" title="Hlaváčková, D. (2008): Databáze slovesných   valenčních rámců VerbaLex.  Disertační práce, Brno, Masarykova univerzita v Brně,   Filozofická fakulta.  ">Hlaváčková, 2008</a><a class="href">)</a>.
+<p>
+
+<p></div> <!-- LEVEL: 1->1 -->
+
+
+<div id="text-sect-valence-teorie" class="textblock"> <!-- LEVEL: 1 -->
+<h1 id="sec-sect-valence-teorie">Valenční charakteristika sloves</h1>
+
+<p>
+
+<p><p>Při popisu valenční charakteristiky sloves vycházíme z&nbsp;valenční teorie Funkčního generativního popisu (FGP, viz zvláště
+ <a href="#bib:sgall-67" class="href" title="Sgall, P. (1967): Generativní popis jazyka a česká   deklinace.  Praha, Academia.  ">Sgall, 1967</a><a class="href">;</a> <a href="#bib:meaning" class="href" title="Sgall, P. &ndash; Hajičová, E. &ndash;   Panevová, J. (1986a): The Meaning of the   Sentence in Its Semantic and Pragmatic Aspects.  Dordrecht, Reidel.  ">Sgall et&nbsp;al., 1986a</a>),
+která navazuje na&nbsp;klasickou evropskou lingvistiku, především na&nbsp;L. Tesnièra <a class="href">(</a><a href="#bib:tesnier-59" class="href" title="Tesnière, L. (1959): Eléments de syntaxe structurale.:  Paris, Librairie C. Klincksieck.  (Translation: Kahane, S. &ndash; Osborne, T. (2015)   Elements of Structural Syntax. Amsterdam &ndash; Philadelphia, John   Benjamins Publishing Company.)  ">1959</a><a class="href">)</a>,
+a&nbsp;částečně na&nbsp;studie Fillmorovy
+<a class="href">(</a><a href="#bib:fillmore-case" class="href" title="Fillmore, C.&nbsp;J. (1968): The Case for Case.:  In Bach, E. &ndash; Harms, R.&nbsp;T. (ed.) Universals   in Linguistic Theory, s.&nbsp;1&ndash;88. New York, Holt, Rinehart and   Winston.  ">1968</a><a class="href">;</a> <a href="#bib:fillmore-case-re" class="href" title="Fillmore, C.&nbsp;J. (1977): The Case for Case Reopened.:  In Cole, P. &ndash; Sadock, J.&nbsp;M. (ed.) Syntax   and Semantics, vol. 8: Grammatical Relations, s.&nbsp;59&ndash;81. New York,   Academic Press.  ">1977</a><a class="href">)</a>.
+Stručně zde shrneme základní principy této valenční teorie,
+vypracované zejména J.&nbsp;Panevovou <a class="href">(</a><a href="#bib:panevova-74-5" class="href" title="Panevová, J. (1974&ndash;75): On Verbal Frames in Functional   Generative Description I&ndash;II.  The Prague Bulletin of Mathematical Linguistics. 22&ndash;23,   s.&nbsp;3&ndash;40, s. 17&ndash;52.  ">1974&ndash;75</a><a class="href">;</a> <a href="#bib:panevova-80" class="href" title="Panevová, J. (1980): Formy a funkce ve stavbě   české věty.  Praha, Academia.  ">1980</a><a class="href">)</a>.
+<p>Valence ve FGP primárně přináleží tektogramatické rovině, tedy rovině významové (hloubkové)
+stavby věty (k&nbsp;tektogramatické rovině viz především <a href="#bib:meaning" class="href" title="Sgall, P. &ndash; Hajičová, E. &ndash;   Panevová, J. (1986a): The Meaning of the   Sentence in Its Semantic and Pragmatic Aspects.  Dordrecht, Reidel.  ">Sgall et&nbsp;al., 1986a</a>).
+S&nbsp;valencí slovesa je spojena dvojí distinkce, a&nbsp;to (i) rozdíl
+mezi aktanty (argumenty, vnitřními doplněními) a&nbsp;volnými doplněními (adjunkty) a&nbsp;(ii) rozdíl mezi
+doplněními obligatorními a&nbsp;fakultativními.
+<p>
+
+<div id="text-sect-aktanty-volna" class="textblock"> <!-- LEVEL: 2 -->
+<h2 id="sec-sect-aktanty-volna">1&nbsp;&nbsp;Aktanty a&nbsp;volná doplnění ve FGP</h2>
+
+<p>
+
+<p>Valenční doplnění jsou ve FGP jednotkami tektogramatické roviny a&nbsp;jsou chápána jako funkce větných členů roviny povrchové syntaxe.
+Valenční doplnění jsou tříděna na&nbsp;aktanty a&nbsp;volná doplnění.
+Mezi <em>aktanty</em> patří doplnění tradičně chápaná jako objektová a&nbsp;dále ta doplnění, jejichž protějškem je povrchový subjekt.
+<em>Volná doplnění</em> jsou především doplnění adverbiálního typu.
+<a href="#fn11" id="fnmark11" class="footnote">11</a>
+Určitý druh doplnění je pak aktantem nebo volným doplněním ve&nbsp;všech svých výskytech.
+Doplnění jsou označována tzv. <em>funktory</em>, udávajícími typ syntakticko-sémantického vztahu valenčního doplnění k&nbsp;řídícímu slovesu.
+<p>FGP při studiu valence klade důraz na&nbsp;práci s&nbsp;operativními (testovatelnými) kritérii.
+Kritéria pro třídění slovesných valenčních doplnění byla formulována zejména Panevovou <a class="href">(</a><a href="#bib:panevova-74-5" class="href" title="Panevová, J. (1974&ndash;75): On Verbal Frames in Functional   Generative Description I&ndash;II.  The Prague Bulletin of Mathematical Linguistics. 22&ndash;23,   s.&nbsp;3&ndash;40, s. 17&ndash;52.  ">1974&ndash;75</a><a class="href">;</a> <a href="#bib:panevova-80" class="href" title="Panevová, J. (1980): Formy a funkce ve stavbě   české věty.  Praha, Academia.  ">1980</a><a class="href">)</a>:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li class="romanitem"><p>
+
+Může dané doplnění rozvíjet jedno sloveso (jeden jeho výskyt) víc než jednou (odhlížíme-li od&nbsp;koordinace a&nbsp;apozice)?&nbsp;
+
+	</li><li class="romanitem"><p>
+
+Může dané doplnění rozvíjet (a) jakékoli sloveso (odhlížíme-li od&nbsp;obsahových omezení), nebo (b) jen některá slovesa tvořící
+omezenou skupinu, která mohou být specifikována výčtem?
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Pokud doplnění může rozvíjet dané sloveso jen jednou a&nbsp;odpovídá charakteristice (iib), jde o&nbsp;<em>aktant</em>.
+FGP na základě empirických zkoumání rozlišuje celkem pět aktantů:
+Konatel&#8202;/&#8202;Aktor (dále též <span class="functorVR">ACT</span>),
+Patiens (<span class="functorVR">PAT</span>), Adresát (<span class="functorVR">ADDR</span>),
+Výsledek děje&nbsp;/&nbsp;Efekt (<span class="functorVR">EFF</span>) a&nbsp;Původ (<span class="functorVR">ORIG</span>).
+Aktanty jsou pro určité sloveso charakteristické, představují tak konstitutivní prvky jeho valenční struktury,
+např. <span class="example">Matěj<span class="functorvr">.ACT</span> daroval  dětem<span class="functorvr">.ADDR</span> mapu<span class="functorvr">.PAT</span>.</span>
+<span class="example">Prezident<span class="functorvr">.ACT</span> ho<span class="functorvr">.PAT</span> jmenoval generálem<span class="functorvr">.EFF</span>.</span>
+<span class="example">Petra<span class="functorvr">.PAT</span> od ní<span class="functorvr">.ORIG</span> dělily dva roky<span class="functorvr">.ACT</span>.</span>
+Podrobnější charakteristiku aktantů uvádíme níže.
+<p><p class="bigskip">
+<p class="noindent"> Pro <em>volná doplnění</em> platí  specifika (i) a&nbsp;(iia):
+volné doplnění může rozvíjet jakékoli sloveso (omezení na&nbsp;slučitelnost slovesa a&nbsp;volného doplnění
+je dáno spíše obsahovými vztahy než syntaktickými rysy),
+a&nbsp;to i&nbsp;více než jedenkrát, např.
+<span class="example">Včera<span class="functorvr">.TWHEN</span> večer<span class="functorvr">.TWHEN</span> jsem šel pozdě<span class="functorvr">.TWHEN</span> spát.</span>,
+<span class="example">Prostírání najdeš v&nbsp;příborníku<span class="functorvr">.LOC</span> ve&nbsp;druhé polici<span class="functorvr">.LOC</span> dole<span class="functorvr">.LOC</span>.</span>
+K&nbsp;valenční struktuře slovesa (v&nbsp;užším slova smyslu) volná doplnění náleží pouze tehdy, pokud
+je jejich výskyt obligatorní (viz níže), srov. valenční doplnění místa <span class="functorVR">LOC</span> ve větě
+<span class="example">Na zimu ptáky umístí v&nbsp;zateplené místnosti<span class="functorvr">.LOC</span>.</span>
+vs. nevalenční <span class="functorVR">LOC</span> <span class="example">Pracoval na zahradě<span class="functorvr">.LOC</span></span>.
+Volná doplnění jsou (na rozdíl od aktantů) sémanticky distinktivní.
+Jejich úplný seznam
+lze najít v&nbsp;monografii Panevové et. al <a class="href">(</a><a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">2014</a><a class="href">)</a>; seznam volných doplnění,
+která mohou být valenční, je uveden níže v&nbsp;<a href="GUIDE.html#sec-sect-functors" class="href">odd.&nbsp;GUIDE > 3.2</a>
+(a&nbsp;to včetně jejich prototypické morfematické charakteristiky).
+<p>Další rozdíl mezi aktanty a&nbsp;volnými doplněními se týká jejich povrchové realizace: zatímco aktanty  v&nbsp;povrchové struktuře
+věty obvykle nabývají vlivem slovesa
+určité formy, tj. jejich morfematické vyjádření je
+určováno požadavky řídícího slovesa (tzv. rekcí) (např.
+<span class="example">rozbít sklenici, bránit výstavbě, doufat ve vítězství</span>),
+forma volných doplnění typicky není řízena slovesem, ale bývá dána jejich významem, např. <span class="example">děti přišly domů&nbsp;/&nbsp;do školy&nbsp;/&nbsp;na hřiště</span>.
+<p><p class="bigskip">
+<p class="noindent">
+Vedle těchto dvou typů závislostních vztahů, tedy aktantů a&nbsp;volných doplnění, je vhodné uvažovat též o&nbsp;třetím typu,
+o&nbsp;tzv. <em>kvazivalenčních doplněních</em>,
+která vykazují hybridní chování: sdílejí některé rysy s&nbsp;aktanty (i)&ndash;(iii)
+a&nbsp;jiné s&nbsp;volnými doplněními (iv)&ndash;(vi) (více viz <a href="#bib:06-insight" class="href" title="Lopatková, M. &ndash; Panevová, J. (2006): Recent   Developments in the Theory of Valency in&nbsp;the&nbsp;Light of the Prague Dependency   Treebank.  In Šimková, M. (ed.) Insight into Slovak   and Czech Corpus Linguistics, s.&nbsp;83&ndash;92. Bratislava, Veda.  ">Lopatková &ndash; Panevová, 2006</a><a class="href">;</a> <a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a>):
+
+<p><p class="smallskip">
+<ul class="other">
+
+	<li class="romanitem"><p>
+		 jde o&nbsp;rekční doplnění sloves,
+
+	</li><li class="romanitem"><p>
+		 vyskytují se&nbsp;u&nbsp;omezené skupiny sloves,
+
+	</li><li class="romanitem"><p>
+		 jeden výskyt slovesa nemohou rozvíjet více než jedenkrát,
+
+	</li><li class="romanitem"><p>
+		 jsou sémanticky homogenní,
+
+	</li><li class="romanitem"><p>
+		 nepodléhají tzv. posouvání (viz následující oddíl) a
+
+	</li><li class="romanitem"><p>
+		 ve&nbsp;většině případů jsou fakultativní (test pro rozlišení obligatorních a&nbsp;fakultativních doplnění představujeme  níže).
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Rysy kvazivalenčních doplnění vykazují následující typy doplnění: Překážka
+(<span class="functorVR">OBST</span>), např.
+<span class="example">poranit se o&nbsp;střep<span class="functorvr">.OBST</span></span>,
+Prostředník (<span class="functorVR">MED</span>), např. <span class="example">zatahat někoho za rukáv<span class="functorvr">.MED</span></span>,<a href="#fn12" id="fnmark12" class="footnote">12</a>
+Rozdíl (<span class="functorVR">DIFF</span>), např. <span class="example">inflace se&nbsp;zvýšila o&nbsp;5&nbsp;%<span class="functorvr">.DIFF</span></span>,
+a&nbsp;Záměr (<span class="functorVR">INTT</span>), např. <span class="example">jít do&nbsp;lesa na&nbsp;jahody<span class="functorvr">.INTT</span>, jít nakoupit<span class="functorvr">.INTT</span>.</span>
+<p>
+
+<div id="text-sect-aktanty-posouvani" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-aktanty-posouvani">1.1&nbsp;&nbsp;Princip <span class="gloss">&bdquo;kognitivního&ldquo;</span> posouvání</h3>
+
+<p>
+
+<p>Při klasifikaci aktantů se u&nbsp;slovesa v&nbsp;daném významu přihlíží k&nbsp;počtu aktantů,
+k&nbsp;jejich sémantice (týká se&nbsp;především třetího až&nbsp;pátého aktantu), k&nbsp;analogii s&nbsp;dalšími slovesy a&nbsp;též k&nbsp;jejich morfematické realizaci.
+V&nbsp;zásadě platí, že&nbsp;první dva aktanty, <span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">PAT</span>, jsou určovány syntakticky,
+zatímco pro určení dalších aktantů se&nbsp;zohledňují sémantická kritéria. FGP se tak vyhýbá dvěma krajnostem:
+(i) subjektivismu v&nbsp;určování doplnění
+pouze na základě sémantických rysů doplnění bez ohledu na jeho povrchovou realizaci
+<a class="href">(</a><a href="#bib:fillmore-case" class="href" title="Fillmore, C.&nbsp;J. (1968): The Case for Case.:  In Bach, E. &ndash; Harms, R.&nbsp;T. (ed.) Universals   in Linguistic Theory, s.&nbsp;1&ndash;88. New York, Holt, Rinehart and   Winston.  ">Fillmore, 1968</a><a class="href">;</a> <a href="#bib:fillmore-case-re" class="href" title="Fillmore, C.&nbsp;J. (1977): The Case for Case Reopened.:  In Cole, P. &ndash; Sadock, J.&nbsp;M. (ed.) Syntax   and Semantics, vol. 8: Grammatical Relations, s.&nbsp;59&ndash;81. New York,   Academic Press.  ">Fillmore, 1977</a><a class="href">)</a> a&nbsp;(ii) čistě syntaktickému vymezení doplnění, které nezohledňuje
+vztah doplnění ke slovesu <a class="href">(</a><a href="#bib:tesnier-59" class="href" title="Tesnière, L. (1959): Eléments de syntaxe structurale.:  Paris, Librairie C. Klincksieck.  (Translation: Kahane, S. &ndash; Osborne, T. (2015)   Elements of Structural Syntax. Amsterdam &ndash; Philadelphia, John   Benjamins Publishing Company.)  ">Tesnière, 1959</a><a class="href">)</a>.
+<p><p>U&nbsp;slovesa s&nbsp;jediným aktantem je tento aktant označen jako <span class="functorVR">ACT</span> bez ohledu na to,
+jakou kognitivní roli nese s&nbsp;ním korespondující situační participant,<a href="#fn13" id="fnmark13" class="footnote">13</a>
+srov.
+<span class="example">Kameníci<span class="functorvr">.ACT</span> drtili kámen na drobný štěrk.</span>,
+<span class="example">Petr<span class="functorvr">.ACT</span> se chvěje zimou.</span>,
+<span class="example">Otec<span class="functorvr">.ACT</span> trpěl bolestmi.</span>,
+<span class="example">Vítr<span class="functorvr">.ACT</span> rozbil okno.</span> i
+<span class="example">Okno<span class="functorvr">.ACT</span> se rozbilo.</span>
+(kde jako <span class="functorVR">ACT</span> označujeme doplnění odpovídající participantům s&nbsp;kognitivními rolemi <span class="sempart">&bdquo;Agens&ldquo;</span>,
+<span class="sempart">&bdquo;Nositel děje&ldquo;</span>, <span class="sempart">&bdquo;Nositel stavu&ldquo;</span>, <span class="sempart">&bdquo;Kauzátor&ldquo;</span>
+a&nbsp;<span class="sempart">&bdquo;Zasažený objekt&ldquo;</span>).
+Sloveso se&nbsp;dvěma aktanty pak má ve&nbsp;valenčním rámci vždy <span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">PAT</span>, např.
+<span class="example">Jan<span class="functorvr">.ACT</span> rozbil vázu<span class="functorvr">.PAT</span>.</span>,
+<span class="example">Kniha<span class="functorvr">.ACT</span> patří Petrovi<span class="functorvr">.PAT</span>.</span>
+a&nbsp;<span class="example">Jan<span class="functorvr">.ACT</span> blahopřál Petrovi<span class="functorvr">.PAT</span> k&nbsp;narozeninám.</span>
+bez ohledu na sémantickou interpretaci,
+která plyne z&nbsp;lexikální povahy slovesa a&nbsp;slova, jež pozici aktantu zaujímá
+(zde jako <span class="functorVR">PAT</span> označen po řadě <span class="sempart">&bdquo;Zasažený objekt&ldquo;</span>, <span class="sempart">&bdquo;Posesor&ldquo;</span>
+a&nbsp;<span class="sempart">&bdquo;Recipient&ldquo;</span>).
+<p><p>Pokud tedy sloveso ve&nbsp;své sémantické struktuře participant s&nbsp;rolí <span class="sempart">&bdquo;Agenta&ldquo;</span>,
+<span class="sempart">&bdquo;Nositele děje&#8202;/&#8202;stavu&ldquo;</span>, <span class="sempart">&bdquo;Kauzátora&ldquo;</span> a/nebo <span class="sempart">&bdquo;Zasažený objekt&ldquo;</span> nemá,
+podléhají jeho aktanty  tzv. <em>kognitivnímu posouvání</em>:
+u&nbsp;slovesa s&nbsp;jedinou valenční pozicí je daný aktant strukturován jako <span class="functorVR">ACT</span>;
+u&nbsp;slovesa se dvěma pozicemi jsou aktanty strukturovány jako <span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">PAT</span>;
+slovesa se třemi a&nbsp;více valenčními pozicemi mají v&nbsp;rámci nutně <span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">PAT</span>,
+  u&nbsp;dalších valenčních pozic rozhoduje sémantika slovesa, sémantika jeho doplnění (a&nbsp;částečně i&nbsp;jejich morfematická forma),
+např. <span class="example">Kniha<span class="functorvr">.ACT</span> vyšla.</span>
+(jako <span class="functorVR">ACT</span> je strukturován aktant odpovídající participantu s&nbsp;kognitivní rolí <span class="sempart">&bdquo;Zasaženého objektu&ldquo;</span>),
+<span class="example">Váza<span class="functorvr">.ACT</span> se&nbsp;rozbila.</span>
+(<span class="functorVR">ACT</span> jako <span class="sempart">&bdquo;Zasažený objekt&ldquo;</span>) a
+<span class="example">Otec postavil dům<span class="functorvr">.PAT</span> z&nbsp;cihel.</span>
+(<span class="functorVR">PAT</span> jako  <span class="sempart">&bdquo;Výsledek děje&ldquo;</span>),
+<span class="example">Jeník vyrostl z&nbsp;chlapce v&nbsp;muže<span class="functorvr">.PAT</span>.</span>
+(<span class="functorVR">PAT</span> jako <span class="sempart">&bdquo;Výsledek děje&ldquo;</span>),
+<span class="example">Nemoc pochází z&nbsp;viru<span class="functorvr">.PAT</span>.</span>
+(<span class="functorVR">PAT</span> jako <span class="sempart">&bdquo;Původce stavu&ldquo;</span>),
+<span class="example">Petr bratrovi<span class="functorvr">.PAT</span> věřil.</span>
+(<span class="functorVR">PAT</span> jako <span class="sempart">&bdquo;Recipient&ldquo;</span>),
+<span class="example">Agentura Baltic News Service patří severským firmám<span class="functorvr">.PAT</span>.</span>
+(<span class="functorVR">PAT</span> jako  <span class="sempart">&bdquo;Posesor&ldquo;</span>)
+(více viz zejména&nbsp;<a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a>).
+<p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-character" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-character">1.2&nbsp;&nbsp;Charakteristika aktantů</h3>
+
+<p>
+
+<p>Aktanty lze na základě výše zmíněných principů charakterizovat následujícím způsobem:
+<p><p class="smallskip">
+<ul class="other">
+	<li><p>
+		<b>Aktor&#8202;/&#8202;Konatel (funktor <span class="functorVR">ACT</span>).</b>
+    Valenční doplnění Konatel je
+    (levovalenční) aktant, který je vymezen jako první aktant slovesa &ndash; označuje doplnění
+    zaplňující první syntaktickou pozici slovesa, např.
+    <span class="example">Maminka<span class="functorvr">.ACT</span> upekla koláč.</span>,
+    <span class="example">Voda<span class="functorvr">.ACT</span> naplnila jámu.</span>,
+    <span class="example">Kniha<span class="functorvr">.ACT</span> vyšla</span>.
+    Jedná se o&nbsp;doplnění v&nbsp;aktivní konstrukci typicky vyjadřované
+    v&nbsp;povrchověsyntaktické pozici
+     subjektu (v&nbsp;případě pasivní
+    konstrukce se jedná o&nbsp;doplnění se stejným sémantickým vztahem ke slovesu, např.
+    <span class="example">Nakladatelství<span class="functorvr">.ACT</span> Odeon vydalo knihu.</span>
+    i&nbsp;<span class="example">Kniha byla vydána nakladatelstvím<span class="functorvr">.ACT</span> Odeon.</span>).
+    Ze sémantického hlediska Konatel typicky odpovídá široce pojatému
+    <span class="sempart">&bdquo;Agentu&ldquo;</span>, <span class="sempart">&bdquo;Nositeli děje&#8202;/&#8202;stavu&ldquo;</span>, <span class="sempart">&bdquo;Kauzátoru&ldquo;</span>,  příp. <span class="sempart">&bdquo;Proživateli&ldquo;</span>.
+<p>    Je-li jeden z&nbsp;aktantů vyjádřen dativní nebo akuzativní formou (a&nbsp;druhý nominativní
+    formou), přihlíží se též k&nbsp;sémantice aktantu: vyjadřuje-li aktant
+    s&nbsp;dativní  či akuzativní formou <span class="sempart">&bdquo;Proživatele&ldquo;</span>, hodnotí se tento aktant jako Konatel
+    (a&nbsp;aktant v&nbsp;nominativu jako Patiens), např.
+    <span class="example">Kniha se mi<span class="functorvr">.ACT</span> líbila.</span>,
+    <span class="example">Bolela ho<span class="functorvr">.ACT</span> hlava</span>.
+<p>
+	</li><li><p>
+		<b>Patiens (funktor <span class="functorVR">PAT</span>).</b>
+    Valenční doplnění  Patiens je
+    (pravovalenční) aktant, který je vymezen jako druhý aktant slovesa
+     &ndash; označuje doplnění
+    zaplňující druhou syntaktickou pozici slovesa, např.
+    <span class="example">Marie postavila vázu<span class="functorvr">.PAT</span> na stůl.</span>,
+    <span class="example">Maminka upekla koláč<span class="functorvr">.PAT</span>.</span>,
+    <span class="example">Kniha patří Janovi<span class="functorvr">.PAT</span>.</span>,
+    <span class="example">Jan se vzdal odměny<span class="functorvr">.PAT</span>.</span>,
+    <span class="example">Petr se učil zahradníkem<span class="functorvr">.PAT</span>.</span>,
+    <span class="example">Vyprávěl nám o&nbsp;dovolené<span class="functorvr">.PAT</span>.</span>
+    Jedná se o&nbsp;doplnění v&nbsp;aktivní konstrukci
+    prototypicky vyjadřované v&nbsp;povrchověsyntaktické pozici přímého objektu
+   (v&nbsp;případě pasivní
+    konstrukce se jedná o&nbsp;doplnění se stejným sémantickým vztahem, např.
+    <span class="example">Nakladatelství Odeon vydalo knihu<span class="functorvr">.PAT</span>.</span>
+    i&nbsp;<span class="example">Kniha<span class="functorvr">.PAT</span> byla vydána nakladatelstvím Odeon.</span>).
+    Sémanticky Patiens prototypicky koresponduje  s&nbsp;participantem s&nbsp;kognitivní rolí <span class="sempart">&bdquo;Zasaženého objektu&ldquo;</span>.
+<p>    Vyjadřuje-li aktant realizovaný dativní nebo akuzativní formou <span class="sempart">&bdquo;Proživatele&ldquo;</span> a&nbsp;má-li druhý aktant formu nominativu, hodnotí se aktant v&nbsp;nominativu jako Patiens
+    (a&nbsp;dativní nebo akuzativní aktant jako Konatel), např.
+    <span class="example">Kniha se mi líbila<span class="functorvr">.PAT</span>.</span>,
+    <span class="example">Bolela ho hlava<span class="functorvr">.PAT</span></span>.
+<p>
+
+	</li><li><p>
+		<b>Výsledek děje&nbsp;/&nbsp;Efekt (funktor <span class="functorVR">EFF</span>).</b>
+    Valenční doplnění Efekt je (pravovalenční) aktant,
+    který se  uplatňuje u&nbsp;sloves se třemi (a&nbsp;více) syntaktickými
+    pozicemi.
+    Funktor <span class="functorVR">EFF</span> je přiřazován zejména doplněním obsazujícím třetí
+    syntaktickou pozici u&nbsp;sloves; tato pozice odpovídá jednak
+    <span class="gloss">&bdquo;doplňku doplňovacímu&ldquo;</span>
+    (viz doplněk u&nbsp;tzv.&nbsp;sloves neplnovýznamových, <a href="#bib:smi-66" class="href" title="Šmilauer, V. (1966): Novočeská skladba.:  Praha, SPN.  ">Šmilauer, 1966</a>),
+    jednak jde o&nbsp;druhý věcný předmět
+    sémanticky odpovídající <span class="sempart">&bdquo;Výsledku děje&ldquo;</span>.
+    Obecně
+    vyjadřuje vlastnost nebo stav, které má za
+    jistého děje entita odpovídající Patientu  nebo které se mu jistým dějem přisuzují,
+    např.  <span class="example">Považoval Pavla za odborníka<span class="functorvr">.EFF</span>.</span>,
+    <span class="example">Jmenovali ho ředitelem<span class="functorvr">.EFF</span>.</span>,
+    <span class="example">My tomu říkáme efekt<span class="functorvr">.EFF</span> sněhové  koule.</span>,
+    <span class="example">Petr přeložil knihu do češtiny<span class="functorvr">.EFF</span>.</span>,
+    <span class="example">Svazovali kmeny do voru<span class="functorvr">.EFF</span>.</span>
+<p>
+	</li><li><p>
+		<b>Adresát (funktor <span class="functorVR">ADDR</span>).</b>
+    Valenční doplnění  Adresát je
+    (pravovalenční) aktant, který je vymezen jako aktant slovesa
+    typicky
+    vyjadřující participant s&nbsp;kognitivní rolí <span class="sempart">&bdquo;Recipienta&ldquo;</span>, např.
+    <span class="example">Otec dal dceři<span class="functorvr">.ADDR</span> k&nbsp;narozeninám knížku.</span>,
+    <span class="example">Řekl synovi<span class="functorvr">.ADDR</span> pravdu.</span>,
+    <span class="example">Bratrovi<span class="functorvr">.ADDR</span> nezaplatili dohodnutou mzdu.</span>,
+    <span class="example">Celé dětství soupeřil o&nbsp;matčinu přízeň s&nbsp;bratrem<span class="functorvr">.ADDR</span>.</span>
+    Funktor <span class="functorVR">ADDR</span> se uplatňuje u&nbsp;sloves se
+    třemi (a&nbsp;více) valenčními pozicemi. Jeho charakteristickým rysem je
+    životnost. Typicky jde o&nbsp;doplnění vyjadřované v&nbsp;povrchověsyntaktické pozici nepřímého objektu,
+    např. <span class="example">Předal knihu Janovi<span class="functorvr">.ADDR</span>.</span>,
+    <span class="example">Kniha byla předána Janovi<span class="functorvr">.ADDR</span>.</span>
+<p><p>
+	</li><li><p>
+		<b>Původ (funktor <span class="functorVR">ORIG</span>).</b>
+    Valenční doplnění Původ je (pravovalenční) aktant, který je
+    vymezen jako aktant slovesa vyjadřující participant s&nbsp;kognitivní rolí <span class="sempart">&bdquo;Původce děje&#8202;/&#8202;stavu&ldquo;</span>, např.
+    <span class="example">Vyrábějí ze dřeva<span class="functorvr">.ORIG</span> stoly i&nbsp;židle.</span>,
+    <span class="example">Slyšel o&nbsp;neštěstí od sousedů<span class="functorvr">.ORIG</span>.</span>,
+    <span class="example">Nevzal od něj<span class="functorvr">.ORIG</span> za práci peníze.</span>
+    Funktor <span class="functorVR">ORIG</span> se uplatňuje u&nbsp;sloves se třemi (a&nbsp;více)
+    valenčními pozicemi.
+	</li>
+</ul><p>
+<p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-oblig-fakult" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-oblig-fakult">1.3&nbsp;&nbsp;Obligatornost vs. fakultativnost: dialogový test</h3>
+
+<p>
+
+<p>Druhou distinkcí spojenou s&nbsp;valencí je rozdíl mezi doplněními obligatorními a&nbsp;fakultativními; tato distinkce
+reflektuje různou významovou těsnost jednotlivých doplnění.
+<p>Neobsazením
+některých pozic dochází k&nbsp;porušení významové úplnosti, což může
+vést i&nbsp;k&nbsp;porušení gramatické správnosti věty,  např.
+<span class="example">*Petr dává.</span>,
+<span class="example">*Marie nenávidí.</span>,
+<span class="example">*Jan se choval</span>.
+Doplnění obsazující takové valenční pozice se nazývají
+obligatorní.<a href="#fn14" id="fnmark14" class="footnote">14</a>
+Jiné valenční pozice jsou sice pro dané sloveso charakteristické, jejich neobsazením
+však nevzniká významově ani
+gramaticky narušená věta, např. <span class="example">Zvonila (na něj), nikdo ale nepřišel otevřít.</span>,
+<span class="example">Eva se najedla (ovoce).</span>,
+<span class="example">Dívka píše (mamince) dopis</span>.
+Takové valenční pozice se označují jako fakultativní.
+<p>Ostatní pozice s&nbsp;velmi volným vztahem ke slovesu
+bývají obvykle označovány jako volné či též fakultativní, např.
+<span class="example">Jana se procházela (po lese).</span>,
+<span class="example">Petr se budil (časně).</span>,
+<span class="example">Eva si četla (pro své potěšení).</span>,
+i&nbsp;když v&nbsp;teoretickém popisu bývají do
+valence slovesa (v&nbsp;širším smyslu) též často zahrnovány.
+<p><p class="bigskip">
+<p><p class="noindent">
+Pro určení obligatornosti a&nbsp;fakultativnosti doplnění se ve FGP používá
+tzv. <em>dialogový test</em> formulovaný Panevovou (<a href="#bib:panevova-74-5" class="href" title="Panevová, J. (1974&ndash;75): On Verbal Frames in Functional   Generative Description I&ndash;II.  The Prague Bulletin of Mathematical Linguistics. 22&ndash;23,   s.&nbsp;3&ndash;40, s. 17&ndash;52.  ">Panevová, 1974&ndash;75</a>; viz též <a href="#bib:panevova-80" class="href" title="Panevová, J. (1980): Formy a funkce ve stavbě   české věty.  Praha, Academia.  ">Panevová, 1980</a>).
+Dialogový test se&nbsp;užívá zejména k&nbsp;potvrzení nebo vyvrácení hypotézy,
+že&nbsp;určité doplnění je významově obligatorní,
+avšak není přítomno (tj. je vypuštěno) na&nbsp;rovině povrchové syntaxe.
+Dialogový test využívá podstatného rozdílu mezi otázkou po&nbsp;něčem,
+co má být posluchači známé, a&nbsp;otázkou po&nbsp;doplňující informaci.
+Na&nbsp;otázku po&nbsp;obligatorním členu slovesa mluvčí nemůže odpovědět <span class="example">Nevím</span>.
+Dialogový test lze demonstrovat na&nbsp;následujícím dialogu:
+<br /> A: <span class="example">Jan právě přišel.</span>
+<br /> B: <span class="example">Kam?</span>
+<br /> A: <span class="example">*Nevím.</span>
+<p class="smallskip">
+<p><p class="noindent"> Takový dialog se&nbsp;nejeví jako smysluplný. Bylo by ho možné pokládat za&nbsp;smysluplný jen za&nbsp;určitých okolností,
+kdy se&nbsp;posluchač přeslechl nebo je z&nbsp;kontextu zřejmé, že&nbsp;jeho otázka  <span class="example">Kam?</span> je
+eliptická (posluchač ví, na&nbsp;jaké místo Jan přišel, ale ptá se&nbsp;po&nbsp;bližším určení místa).
+Otázka <span class="example">Kam?</span> tak má zcela jiný charakter než otázky po&nbsp;doplňující informaci typu <span class="example">Odkud?</span>, <span class="example">Proč?</span> apod.
+Odpovědi <span class="example">Nevím.</span> na&nbsp;otázku po&nbsp;doplňující informaci nečiní dialog nijak deviantním, srov.:
+<br /> A: <span class="example">Jan právě přišel.</span>
+<br /> B: <span class="example">Odkud?&nbsp;/&nbsp;Proč?&nbsp;/&nbsp;S&nbsp;kým?</span>
+<br /> A: <span class="example">Nevím.</span>
+<p class="smallskip">
+<p><p class="noindent"> Jestliže odpověď <span class="example">Nevím.</span> na&nbsp;otázku po&nbsp;určitém doplnění slovesa není možná,
+je takové doplnění chápáno jako doplnění na&nbsp;tektogramatické rovině obligatorní,
+které však může být z&nbsp;povrchové struktury věty za&nbsp;určitých podmínek vypuštěno.
+<p>Dialogovým testem lze také zjistit, že&nbsp;určitá doplnění objektového typu (odpovídající aktantům, viz výše)
+nejsou dle uvedeného testu obligatorní,
+ačkoli je zřejmé, že&nbsp;patří k&nbsp;valenčnímu rámci slovesa;
+smysluplnost dialogu není odpovědí <span class="example">Nevím.</span> porušena v&nbsp;případě, že&nbsp;mluvčí odpovídá posluchači na&nbsp;otázku po&nbsp;fakultativním aktantu.
+Při otázce po&nbsp;obligatorních aktantech odpověď mluvčího <span class="example">Nevím.</span> možná není, srov.:
+<br /> A: <span class="example">Koupil nové auto.</span>
+<br />  B: <span class="example">Od&nbsp;koho?</span>
+<br /> A: <span class="example">Nevím.</span>
+<br /> B: <span class="example">Kdo?</span>
+<br /> A: <span class="example">*Nevím.</span>
+<p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-vr" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-vr">1.4&nbsp;&nbsp;Valenční rámec ve FGP</h3>
+
+<p>
+
+<p>Do&nbsp;struktury valenčního rámce patří všechny
+aktanty bez ohledu na&nbsp;jejich obligatornost a&nbsp;ta volná doplnění, která jsou obligatorní;
+v&nbsp;tomto smyslu lze hovořit o&nbsp;standardním valenčním rámci.
+Tento standardní valenční rámec je vhodné dále rozšířit o&nbsp;kvazivalenční doplnění (obligatorní i&nbsp;fakultativní).
+<p>Lze&nbsp;tedy rozlišovat doplnění valenční
+(aktanty a&nbsp;obligatorní volná doplnění) a&nbsp;doplnění kvazivalenční
+(doplnění těchto dvou typů tvoří obohacený valenční rámec), a&nbsp;dále doplnění nevalenční (fakultativní volná doplnění).
+Předpokládáme, že&nbsp;fakultativní volná doplnění mohou být specifikována pro celé
+sémantické skupiny sloves jako jejich typická rozvití.
+<p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-vallex" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-vallex">1.5&nbsp;&nbsp;Zachycení valence ve <em>VALLEX</em>u</h3>
+
+<p>
+
+<p>Centrálním pojmem, ze kterého slovník <em>VALLEX</em>
+při popisu valenční charakteristiky sloves vychází, je pojem lexému<a href="#fn15" id="fnmark15" class="footnote">15</a> <a class="href">(</a><a href="#bib:filipec-cermak-85" class="href" title="Filipec, J. &ndash; Čermák, F. (1985):   Česká lexikologie.  Praha, Academia.  ">Filipec &ndash; Čermák, 1985</a><a class="href">;</a> <a href="#bib:cruse-86" class="href" title="Cruse, D.&nbsp;A. (1986): Lexical Semantics.:  Cambridge, Cambridge University Press.  ">Cruse, 1986</a><a class="href">)</a>.
+<em>Lexém</em> zde chápeme jako abstraktní formálně-významovou jednotku usouvztažňující:
+<p><p class="smallskip">
+<ol>
+
+	<li class="romanitem"><p>
+		 formální složku, tj. množinu všech <em>slovesných forem</em>, a
+
+	</li><li class="romanitem"><p>
+		 významovou složku, reprezentovanou množinou <em>lexikálních jednotek</em><a href="#fn16" id="fnmark16" class="footnote">16</a>
+odpovídajících jednotlivým významům slovesa.
+
+	</li>
+</ol><p>
+<p class="smallskip">
+<p class="noindent">
+Lexikální formy jsou tedy všechny morfematické formy slovesa (celé
+jeho paradigma), zatímco lexikální
+jednotky chápeme jako <span class="gloss">&bdquo;komplexní
+jednotky s&nbsp;(relativně) stálými, diskrétními sémantickými
+vlastnostmi&ldquo;</span> <a class="href">(</a><a href="#bib:cruse-86" class="href" title="Cruse, D.&nbsp;A. (1986): Lexical Semantics.:  Cambridge, Cambridge University Press.  ">Cruse, 1986</a><a class="href">)</a>, které nesou informaci o&nbsp;syntaktických a&nbsp;sémantických rysech
+slovesa v&nbsp;určitém významu; stručně řečeno jde o&nbsp;<span class="gloss">&bdquo;dané slovo v&nbsp;daném významu&ldquo;</span> (<a href="#fig:lexeme" class="href">obr.&nbsp;1</a>).
+<p><p><p>
+
+<div class="center"><p class="noindent">
+<img class="figure" src="static/help/obr-lexem.png" width="400px" alt="lexem"/>
+<br/><div class="caption" id="fig:lexeme"><p class="noindent">Obrázek 1: Lexém, slovesné formy a&nbsp;lexikální jednotky (sloveso <span class="lemma">odpovídat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">odpovědět<span class="asp up">pf</span></span>).</div>
+
+</div><p>
+
+<p><p class="noindent">
+Valenční charakteristika je vlastní jednotlivým významům slovesa,
+tedy jednotlivým lexikálním jednotkám (nikoli celému lexému), např.
+<span class="example">Petr dětem odpovídá na otázky smíchem.</span>
+(lexikální jednotka s&nbsp;významem <span class="gloss">&bdquo;dávat odpověď&ldquo;</span>),
+<span class="example">Pokožka odpovídá na podráždění zarudnutím.</span>
+(lexikální jednotka s&nbsp;významem <span class="gloss">&bdquo;reagovat&ldquo;</span>),
+<span class="example">Rodiče odpovídají za své děti.</span>
+(lexikální jednotka s&nbsp;významem <span class="gloss">&bdquo;mít odpovědnost&ldquo;</span>)
+a&nbsp;<span class="example">Navrhované řešení odpovídá požadavkům zadavatele.</span>
+(lexikální jednotka s&nbsp;významem <span class="gloss">&bdquo;být ve shodě&nbsp;/&nbsp;v souladu; korespondovat&ldquo;</span>).
+Každá lexikální jednotka
+ve <em>VALLEX</em>u tedy nese svou valenční charakteristiku ve formě (právě jednoho)
+valenčního rámce.<a href="#fn17" id="fnmark17" class="footnote">17</a>
+<p>Valenční rámec &ndash; ve shodě s&nbsp;valenční teorií FGP &ndash; sestává
+ze sledu valenčních pozic, charakterizovaných
+funktorem a&nbsp;obligatorností. K&nbsp;této základní informaci (náležící tektogramatické rovině) přistupuje též informace o&nbsp;morfematické formě;
+morfematická vyjádření určující povrchověsyntaktickou realizaci (rekčních) valenčních doplnění
+odpovídají nepříznakovým užitím slovesa, tedy jeho užitím v&nbsp;aktivním, nerecipročním a&nbsp;nereflexivním tvaru,<a href="#fn18" id="fnmark18" class="footnote">18</a>
+např. sloveso <span class="lemma">odpovídat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">odpovědět<span class="asp up">pf</span></span>
+ve významu <span class="gloss">&bdquo;mít odpovědnost&ldquo;</span>
+je charakterizováno valenčním rámcem  <span class="functorVR">ACT</span><span class="formval down">1</span> <span class="functorVR">ADDR</span><span class="formval down">3</span> <span class="functorVR">PAT</span><span class="formval down">za+4</span>,
+sloveso <span class="lemma">zaplatit<span class="asp up">pf</span></span>
+ve významu <span class="gloss">&bdquo;poskytnout platbu&ldquo;</span> má valenční rámec  <span class="functorVR">ACT</span><span class="formval down">1</span> <span class="functorVR">ADDR</span><span class="formval down">3</span> <span class="functorVR">PAT</span><span class="formval down">4</span> <span class="functorVR">EFF</span><span class="formval down">od+2, za+4</span>.
+(Povrchová) vypustitelnost valenčních doplnění ve slovníku <em>VALLEX</em> zachycena není.
+<p>Valenční rámec je ve <em>VALLEX</em>u primárně tvořen aktanty (obligatorními i&nbsp;fakultativními),
+kvazivalenčními doplněními (obligatorními i&nbsp;fakultativními) a&nbsp;obligatorními volnými doplněními.
+Fakultativní volná doplnění (ač do valenčního rámce dle principů valenční teorie FGP nenáleží)
+jsou zachycena (především) u&nbsp;celých sémantických skupin lexikálních jednotek v&nbsp;případě,
+že jde o&nbsp;jejich prototypická rozvití; např. valenční rámec sloves
+<span class="lemma">kupovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">koupit<span class="asp up">pf</span></span>,
+<span class="lemma">pronajímat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">pronajmout<span class="asp up">pf</span></span>,
+<span class="lemma">najímat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">najmout<span class="asp up">pf</span></span>,
+<span class="lemma">přijímat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">přijmout<span class="asp up">pf</span></span> a&nbsp;
+<span class="lemma">pobírat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">pobrat<span class="asp up">pf</span></span>
+ve smyslu <span class="gloss">&bdquo;získávat&ldquo;</span>, sestávající ze
+tří aktantů  <span class="functorVR">ACT</span><span class="formval down">1</span> <span class="functorVR">PAT</span><span class="formval down">4</span> <span class="functorVR">ORIG</span><span class="formval down">od+2</span>,
+je obohacen o&nbsp;typické doplnění <span class="functorVR">RCMP</span><span class="formval down">za+4</span>.
+<p>Vedle klíčové valenční charakteristiky ve formě valenčního rámce zachycuje
+<em>VALLEX</em>
+řadu dalších syntaktických a&nbsp;syntakticko-sémantických informací,
+jako je kontrola či syntakticko-sémantická třída slovesa. Další informací je možnost lexikální jednotky tvořit
+příznakové konstrukce diatezí, reciprocity a&nbsp;reflexivity.
+<p>Podrobný popis slovníkového hesla uvádíme
+v&nbsp;kapitole&nbsp;<a href="GUIDE.html#sec-sect-heslo" class="href">GUIDE</a>.
+</div> <!-- LEVEL: 3->2 -->
+</div> <!-- LEVEL: 3->2 -->
+
+
+<div id="text-sect-valence-alternace" class="textblock"> <!-- LEVEL: 2 -->
+<h2 id="sec-sect-valence-alternace">2&nbsp;&nbsp;Alternace</h2>
+
+<p>
+
+<p>Jeden význam slovesa je typicky charakterizován jedním valenčním rámcem.
+Jazyk však často umožňuje
+sémanticky blízké významy syntakticky strukturovat různým způsobem.
+Tyto rozdílné strukturace jsou manifestovány změnami ve valenční struktuře sloves,
+pro něž se užívá termín <em>alternace</em> (viz především <a href="#bib:levin-93" class="href" title="Levin, B.&nbsp;C. (1993): English Verb Classes and Alternations: A   Preliminary Investigation.  Chicago and London, The University of Chicago Press.  ">Levin, 1993</a>).
+Alternace jsou charakteristické pro vztahy mezi rozdílnými (i) povrchověsyntaktickými strukturacemi téže lexikální jednotky slovesa, např.
+<span class="example">Petr oznámil rodičům datum svatby.</span> &ndash; <span class="example">Rodičům bylo (Petrem&nbsp;/&nbsp;od Petra) oznámeno datum svatby.</span>
+(viz dále gramatikalizované alternace)
+nebo (ii) hloubkověsyntaktickými strukturacemi téhož slovesného lexému,
+např.
+<span class="example">Sedláci nakládali seno na vozy.</span> &ndash; <span class="example">Sedláci nakládali vozy senem.</span>
+(viz dále lexikalizované alternace).
+Alternace tak představují různorodý jazykový jev, který vyžaduje komplexní syntaktický popis.
+V&nbsp;rámci FGP byly alternace popsány zejména v&nbsp;pracích Panevové a&nbsp;Kettnerové (viz zejm. <a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a><a class="href">;</a> <a href="#bib:kettnerova-14" class="href" title="Kettnerová, V. (2014):   Lexikálně-sémantické konverze ve   valenčním slovníku.  Praha, Karolinum.  ">Kettnerová, 2014</a>); jejich
+lexikografický model byl navržen autory <em>VALLEX</em>u <a class="href">(</a><a href="#bib:euralex-12" class="href" title="Kettnerová, V. &ndash; Lopatková, M. &ndash;   Bejček, E. (2012): The Syntax-Semantics Interface of Czech   Verbs in the Valency Lexicon.  In Fjeld, R.&nbsp;V. &ndash; Torjusen, J.&nbsp;M. (ed.)   Proceedings of the XV EURALEX International Congress,   s.&nbsp;434&ndash;443, Oslo, Norway, Department of Linguistics and Scandinavian   Studies, University of Oslo.  ">Kettnerová et&nbsp;al., 2012</a><a class="href">;</a> <a href="#bib:lex-alter-13" class="href" title="Kettnerová, V. &ndash; Lopatková, M. (2013):   Lexikalizované alternace v češtině.  Linguistica Copernicana. 9(1), s.&nbsp;31&ndash;64.  ">Kettnerová &ndash; Lopatková, 2013</a><a class="href">;</a> <a href="#bib:diateze-KS-man" class="href" title="Lopatková, M. &ndash; Vernerová, A. &ndash;   Kettnerová, V. (2016): Diateze ve Valenčním   slovníku českých sloves VALLEX.  In Skwarska, K. (ed.) Výzkum slovesné   valence ve slovanských zemích, s.&nbsp;151&ndash;169. Praha, Slovanský   ústav AV ČR.  ">Lopatková et&nbsp;al., 2016</a><a class="href">)</a>.
+<p><p>Pro účely lexikografické reprezentace alternací českých sloves ve  <em>VALLEX</em>u vycházíme z&nbsp;tzv. alternačního modelu slovníku,
+který je založen na rozdělení lexikonu na slovníkovou (datovou) a&nbsp;gramatickou (pravidlovou) komponentu.
+V&nbsp;<em>datové komponentě</em> je každá lexikální jednotka slovesa charakterizována jedním  valenčním rámcem, který popisuje
+tzv. nepříznakové užití dané lexikální jednotky, tedy její užití aktivní, nereflexivní a&nbsp;nereciproční.<a href="#fn19" id="fnmark19" class="footnote">19</a>
+U&nbsp;každé relevantní lexikální jednotky slovesa je ve zvláštním atributu vyznačena možnost aplikace
+příslušných alternací. <em>Gramatická komponenta</em>, představující část celkové gramatiky jazyka,
+obsahuje pravidla, která popisují jednotlivé změny ve valenční struktuře sloves. Tato pravidla v&nbsp;případě alternací typu (i) umožňují
+z&nbsp;valenčního rámce uvedeného v&nbsp;datové komponentě slovníku odvodit morfematická, příp. lexikální vyjádření
+charakterizující příznaková užití lexikálních jednotek sloves
+(tedy užití pasivní, reflexivní a&nbsp;reciproční), v&nbsp;případě alternací typu (ii) umožňují určit,
+která valenční doplnění příslušných lexikálních jednotek odpovídají týmž situačním participantům.
+<a href="#fn20" id="fnmark20" class="footnote">20</a>
+<p><p><p><h5>Typy alternací.</h5><p>
+<p>Z&nbsp;hlediska třídění alternací se ukázala jako zásadní distinkce
+situačního a&nbsp;strukturního významu slovesa (viz především <a href="#bib:apresjan-92" class="href" title="Apresjan, Y.&nbsp;D. (1992): Lexical Semantics: User's Guide to   Contemporary Russian Vocabulary.  Ann Arbor, MI, Karoma Publishers.  ">Apresjan, 1992</a><a class="href">;</a> <a href="#bib:melcuk-04" class="href" title="Mel'čuk, I.&nbsp;A. (2004): Actants in Semantics and Syntax I.:  Linguistics. 42(1), s.&nbsp;1&ndash;66.  ">Mel'čuk, 2004</a><a class="href">;</a> <a href="#bib:kovacova-05" class="href" title="Kováčová, K. (2005): Konverzívnost jako   systémový vztah.  Disertační práce, Praha, Univerzita Karlova v Praze,   Filozofická fakulta.  ">Kováčová, 2005</a><a class="href">;</a> <a href="#bib:kettnerova-14" class="href" title="Kettnerová, V. (2014):   Lexikálně-sémantické konverze ve   valenčním slovníku.  Praha, Karolinum.  ">Kettnerová, 2014</a>).
+<em>Situační význam</em><a href="#fn21" id="fnmark21" class="footnote">21</a> představuje abstraktní
+model konkrétní události dějové nebo statické povahy (ať již se jedná o&nbsp;událost reálnou,
+či fiktivní);
+jeho jednotky
+(tj. účastníky situace) označujeme jako <em>situační participanty</em>, které zde vymezujeme víceméně intuitivně pomocí
+ kognitivních rolí.<a href="#fn22" id="fnmark22" class="footnote">22</a> Způsob, jakým jsou situační participanty
+jazykově strukturovány v&nbsp;hloubkové struktuře věty, určuje podobu strukturního významu. <em>Strukturní význam</em>
+v&nbsp;tomto pojetí odpovídá valenční struktuře slovesa, popisované valenčním rámcem. Jednotky strukturního významu
+představují jednotlivá <em>valenční doplnění</em> slovesa.
+<p>Každá lexikální jednotka je jedinečným způsobem
+charakterizována situačním a&nbsp;strukturním významem, tedy počtem a&nbsp;typem situačních participantů a&nbsp;valenčních doplnění, včetně jejich vzájemné
+korespondence, tj. uspořádání situačních participantů do valenčního rámce slovesa. Změna v&nbsp;situačním a/nebo strukturním významu
+vede k&nbsp;vyčlenění samostatné lexikální jednotky.
+<p><p>Na základě jazykových prostředků, které se na alternacích
+podílejí, rozlišujeme dva typy alternací, a&nbsp;to:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+
+<b>gramatikalizované alternace</b>, založené na užití specifických gramatických prostředků,
+např. <span class="example">Číšník vysypal popel z&nbsp;popelníku.</span> &ndash;
+<span class="example">Popel z&nbsp;popelníku byl vysypán (od číšníka&nbsp;/&nbsp;číšníkem).</span>
+či <span class="example">Petr potkal Marii v&nbsp;divadle.</span> &ndash;
+<span class="example">Petr a&nbsp;Marie se potkali v&nbsp;divadle.</span>, a
+
+	</li><li><p>
+
+<b>lexikalizované alternace</b>, spojené se změnou lexikální jednotky,
+např. <span class="example">Číšník vysypal popel z&nbsp;popelníku</span>. &ndash; <span class="example">Číšník vysypal popelník</span>.
+	</li>
+</ul><p>
+<p><p>
+
+<div id="text-sect-gram-alternace" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-gram-alternace">2.1&nbsp;&nbsp;Gramatikalizované alternace</h3>
+
+<p>
+
+<p>Gramatikalizované alternace charakterizují
+vztahy mezi rozdílnými povrchověsyntaktickými
+strukturacemi téže lexikální jednotky slovesa.
+Korespondence situačních participantů a&nbsp;valenčních doplnění je u&nbsp;gramatikalizovaných alternací typicky
+zachována,<a href="#fn23" id="fnmark23" class="footnote">23</a> mění se však přiřazení valenčních doplnění povrchověsyntaktickým pozicím <a class="href">(</a><a href="#bib:euralex-12" class="href" title="Kettnerová, V. &ndash; Lopatková, M. &ndash;   Bejček, E. (2012): The Syntax-Semantics Interface of Czech   Verbs in the Valency Lexicon.  In Fjeld, R.&nbsp;V. &ndash; Torjusen, J.&nbsp;M. (ed.)   Proceedings of the XV EURALEX International Congress,   s.&nbsp;434&ndash;443, Oslo, Norway, Department of Linguistics and Scandinavian   Studies, University of Oslo.  ">Kettnerová et&nbsp;al., 2012</a><a class="href">;</a> <a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a><a class="href">)</a>.
+Tyto změny jsou motivovány změnou hierarchizace větné struktury <a class="href">(</a><a href="#bib:danes-85" class="href" title="Daneš, F. (1985): Věta a text.:  Praha, Academia.  ">Daneš, 1985</a><a class="href">)</a>.
+<p>Změny ve valenčním rámci sloves se v&nbsp;případě gramatikalizovaných alternací typicky
+omezují na změny v&nbsp;morfematickém vyjádření valenčních
+doplnění zasažených změnami v&nbsp;přiřazení povrchověsyntaktickým pozicím, příp. na změny v&nbsp;jejich lexikálním vyjádření;
+počet, typ i&nbsp;obligatornost valenčních doplnění zůstávají zachovány,
+srov. <span class="example">Obecní úřad<span class="functorvr">.ACT</span> mladé rodině<span class="functorvr">.ADDR</span> přidělil byt<span class="functorvr">.PAT</span>.</span> &ndash;
+<span class="example">Mladá rodina<span class="functorvr">.ADDR</span> dostala (od obecního úřadu)<span class="functorvr">.ACT</span> přidělen byt<span class="functorvr">.PAT</span>.</span>,
+kde se situační participanty <span class="sempart">&bdquo;Donor&ldquo;</span>, <span class="sempart">&bdquo;Recipient&ldquo;</span> a&nbsp;<span class="sempart">&bdquo;Objekt&ldquo;</span> a
+jejich korespondence
+s&nbsp;valenčními doplněními <span class="functorVR">ACT</span>, <span class="functorVR">ADDR</span> a&nbsp;<span class="functorVR">PAT</span> nemění, mění se však přiřazení <span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">ADDR</span> povrchověsyntaktickým pozicím:
+v&nbsp;prvním případě <span class="functorVR">ACT</span> obsazuje pozici subjektu a&nbsp;<span class="functorVR">ADDR</span> pozici nepřímého objektu,
+ve druhém případě je <span class="functorVR">ACT</span> odsunut do méně prominentní pozice nepřímého objektu, zatímco
+do prominentní pozice subjektu se přesouvá <span class="functorVR">ADDR</span> (<a href="#fig:gram-alternace" class="href">obr.&nbsp;2</a>).
+<p>
+
+<div class="center"><p class="noindent">
+<img class="figure" src="static/help/obr-diateze.png" width="680px" alt="diateze"/>
+<br/><div class="caption" id="fig:gram-alternace"><p class="noindent">Obrázek 2: Vzájemné přiřazení situačních participantů a&nbsp;valenčních doplnění povrchověsyntaktickým pozicím v&nbsp;příkladu recipientní pasivní
+diateze <span class="example">Obecní úřad<span class="functorvr">.ACT</span> mladé rodině<span class="functorvr">.ADDR</span> přidělil byt<span class="functorvr">.PAT</span>.</span>
+&ndash; <span class="example">Mladá rodina<span class="functorvr">.ADDR</span> dostala (od obecního úřadu)<span class="functorvr">.ACT</span> přidělen byt<span class="functorvr">.PAT</span>.</span></div>
+
+</div><p>
+
+<p><p>Změny v&nbsp;morfematické formě valenčních doplnění slovesa, odrážející změny v&nbsp;jejich povrchověsyntaktickém vyjádření,
+příp. změny v&nbsp;jejich lexikálním obsazení,
+jsou v&nbsp;případě gramatikalizovaných alternací natolik pravidelné, že je lze
+popisovat pomocí formálních pravidel.
+<p><p>Ke gramatikalizovaným změnám v&nbsp;češtině jsou ve <em>VALLEX</em>u řazeny diateze <a class="href">(</a><a href="#bib:diateze-KS-man" class="href" title="Lopatková, M. &ndash; Vernerová, A. &ndash;   Kettnerová, V. (2016): Diateze ve Valenčním   slovníku českých sloves VALLEX.  In Skwarska, K. (ed.) Výzkum slovesné   valence ve slovanských zemích, s.&nbsp;151&ndash;169. Praha, Slovanský   ústav AV ČR.  ">Lopatková et&nbsp;al., 2016</a><a class="href">)</a>, reflexivita a&nbsp;též reciprocita.
+<p><p><h5>Diateze.</h5><p>
+Diateze, které představují centrální typ gramatikalizovaných alternací, jsou podmíněny užitím specifického morfologického významu slovesa
+a&nbsp;jsou obvykle spojeny s&nbsp;odsunutím situačního participantu odpovídajícího <span class="functorVR">ACT</span>
+z&nbsp;prominentní syntaktické pozice subjektu. Panevová
+ pro češtinu vymezuje celkem pět typů diatezí <a class="href">(</a><a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a><a class="href">)</a>:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<b>pasivní</b> <br />
+    např. <span class="example">Evropská unie navrhla nová pravidla pro azylanty.</span>
+    &ndash;
+    <span class="example">Evropskou unií byla  navržena nová pravidla pro azylanty.</span>
+<p>
+	</li><li><p>
+		<b>rezultativní</b> <br />
+ (i) typ <b>prostý</b> <br />
+ např. <span class="example">Matka uvařila babičce oběd.</span>
+    &ndash;
+    <span class="example">Oběd (pro babičku) je (již) uvařen.</span>&nbsp;/&nbsp;<span class="example">(Pro babičku) je (již) uvařeno.</span> <br />
+   (ii) typ <b>posesivní</b><br />
+   např. <span class="example">Matka uvařila babičce oběd.</span>
+    &ndash;
+    <span class="example">Babička má (od matky) uvařen oběd.</span>&nbsp;/&nbsp;<span class="example">Babička má (od matky) uvařeno.</span>
+     nebo
+    <span class="example">Matka má (pro babičku) uvařen oběd.</span>&nbsp;/&nbsp;<span class="example">Matka má (pro babičku) uvařeno.</span>
+<p>
+	</li><li><p>
+		<b>recipientní pasivní</b> <br />
+    např. <span class="example">Otec zaplatil Petrovi jazykový kurz.</span>
+    &ndash;
+    <span class="example">Petr  dostal od otce zaplacen jazykový kurz.</span>
+<p>
+	</li><li><p>
+		<b>deagentní</b> <br /> např. <span class="example">Radní plánovali stavbu nové školy.</span>
+    &ndash;
+    <span class="example">Plánovala se stavba nové školy.</span>
+<p>
+	</li><li><p>
+		<b>dispoziční</b> <br /> např. <span class="example">Jan studoval matematiku.</span>
+    &ndash;
+    <span class="example">Janovi se matematika studovala lehko.</span>
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Pravidla popisující diateze jsou zachycena v&nbsp;gramatické komponentě slovníku, zde část&nbsp;<a href="GRAMMAR.html#sec-sect-grammarcomp" class="href">GRAMMAR</a>, kapitola&nbsp;<a href="GRAMMAR.html#sec-sect-diateze" class="href">GRAMMAR > 1</a>.
+<p><p><p><h5>Reflexivita.</h5><p>
+<p>Okrajovým typem gramatikalizovaných alternací jsou alternace spojené s&nbsp;vlastní (syntaktickou) reflexivitou.
+V&nbsp;reflexivních konstrukcích
+reflexivní osobní zájmeno vyjadřuje referenční
+totožnost aktantu v&nbsp;subjektové pozici (typicky Konatele (<span class="functorVR">ACT</span>), <a href="#sec-sect-aktanty-volna" class="href">odd.&nbsp;1</a>) a&nbsp;aktantu vyjádřeného daným reflexivem,
+např. <span class="example">Petr se viděl v&nbsp;zrcadle. ≈ Petr viděl sám sebe (= Petra) v&nbsp;zrcadle</span>.
+<a href="#fn24" id="fnmark24" class="footnote">24</a>
+<p>Pokud je v&nbsp;reflexivních konstrukcích přítomen doplněk uvozený spojkou <span class="example">jako</span>,
+dochází ve většině výskytů ke změně jeho morfematického vyjádření v&nbsp;závislosti na
+formě reflexivního osobního zájmena: v&nbsp;konstrukcích s&nbsp;dlouhou formou reflexiva <span class="example">sebe</span>
+se doplněk shoduje s&nbsp;daným reflexivem (stejně jako v&nbsp;případě,
+že je daná valenční pozice vyjádřena jménem či nereflexivním osobním zájmenem),
+zatímco ve struktuře s&nbsp;klitickým reflexivem <span class="example">se</span> se shoduje se subjektem.
+Srovnejme např. rozdíly ve shodě doplňku <span class="example">jako bůh&nbsp;/&nbsp;jako boha</span> (<span class="functorVR">EFF</span>),
+který se v&nbsp;konstrukci s&nbsp;dlouhým reflexivem <span class="example">Picasso vnímal sebe<span class="functorvr">.PAT</span> jako boha<span class="functorvr">.EFF</span> umění.</span>
+shoduje s&nbsp;objektem
+<span class="example">sebe</span> (<span class="functorVR">PAT</span>),
+zatímco v&nbsp;konstrukcích s&nbsp;klitickou formou <span class="example">Picasso<span class="functorvr">.ACT</span> se vnímal jako bůh<span class="functorvr">.EFF</span> umění.</span> se shoduje se subjektem <span class="example">Picasso</span>
+(<span class="functorVR">ACT</span>)
+(k&nbsp;tomuto typu konstrukcí viz <a href="#bib:wagner-14" class="href" title="Wagner, R. (2014): A case of collision in principles of language   description.  The Prague Bulletin of Mathematical Linguistics. 101,   s.&nbsp;123&ndash;146.  ">Wagner, 2014</a><a class="href">;</a> <a href="#bib:kett-refl-15" class="href" title="Kettnerová, V. &ndash; Lopatková, M. &ndash;   Panevová, J. (2015): Shoda doplňku v reflexivních   konstrukcích v&nbsp;češtině.  Slovo a slovesnost. 76(3), s.&nbsp;198&ndash;214.  ">Kettnerová et&nbsp;al., 2015</a>).
+<p>Postavení této změny je v&nbsp;rámci gramatikalizovaných alternací výjimečné:
+zasažené valenční doplnění (<span class="functorVR">EFF</span> či <span class="functorVR">COMPL</span>) zůstává i&nbsp;při změně morfematické realizace (na rozdíl od diatezí či reciprocity)
+stále přiřazeno téže povrchověsyntaktické pozici, totiž doplňku.
+Přesto reflexivita (podobně jako diateze a&nbsp;reciprocita) vyvolává změny v&nbsp;závislostní struktuře věty,
+a&nbsp;to změnu v&nbsp;závislosti doplňku; mechanismus alternací je tak vhodným nástrojem pro popis i&nbsp;tohoto typu změny.
+<a href="#fn25" id="fnmark25" class="footnote">25</a>
+<p><h5>Reciprocita.</h5><p>
+<p>Na pomezí gramatikalizovaných a&nbsp;lexikalizovaných alternací stojí reciprocita. Tuto alternaci charakterizují &ndash; podobně jako
+lexikalizované alternace &ndash; změny v&nbsp;korespondenci situačních participantů a&nbsp;valenčních doplnění, z&nbsp;nichž vyplývají změny v&nbsp;povrchovém
+vyjádření zasažených členů valenčního rámce. Řazení reciprocity ke gramatikalizovaným alternacím však opodstatňuje hned několik skutečností:
+reciprocita je vyjadřována specifickými gramatickými prostředky, změny v&nbsp;povrchověsyntaktické strukturaci zasažených
+valenčních doplnění jsou dostatečně pravidelné, jejich počet ani typ se nemění.
+<p>Reciprocitu charakterizujeme jako operaci, při níž
+vstupují dva situační participanty (ojediněle více participantů) do vztahu symetrie.
+V&nbsp;reciproční konstrukci  každý ze zasažených situačních participantů koresponduje se dvěma (či více) valenčními doplněními,
+srov.
+<span class="example">Petr<span class="functorvr">.ACT</span><span class="functorvr">(1)</span> nařkl Pavla<span class="functorvr">.ADDR</span><span class="functorvr">(4)</span> z&nbsp;podvodu a&nbsp;Pavel<span class="functorvr">.ACT</span><span class="functorvr">(1)</span> nařkl Petra<span class="functorvr">.ADDR</span><span class="functorvr">(4)</span> z&nbsp;podvodu.</span> &ndash;
+<span class="example">(Petr a&nbsp;Pavel)<span class="functorvr">.ACT</span><span class="functorvr">(1)</span> se<span class="functorvr">.ADDR</span><span class="functorvr">(4)</span> vzájemně nařkli z&nbsp;podvodu.</span>,
+kde v&nbsp;nereciproční konstrukci situační participanty <span class="sempart">&bdquo;Mluvčí&ldquo;</span> a&nbsp;<span class="sempart">&bdquo;Recipient&ldquo;</span>
+odpovídají po řadě valenčním doplněním Konatel (<span class="functorVR">ACT</span>) a&nbsp;Adresát (<span class="functorVR">ADDR</span>),
+zatímco v&nbsp;reciproční konstrukci oba tyto situační participanty odpovídají jak Konateli (<span class="functorVR">ACT</span>), tak Adresátu (<span class="functorVR">ADDR</span>);
+v&nbsp;povrchověsyntaktické  struktuře je <span class="functorVR">ACT</span> vyjádřen koordinací a&nbsp;<span class="functorVR">ADDR</span>
+reflexivním osobním zájmenem v&nbsp;akuzativu, vyjadřujícím koreferenci s&nbsp;<span class="functorVR">ACT</span> (<a href="#fig:reciprocita" class="href">obr.&nbsp;3</a>).
+<p>
+
+<div class="center"><p class="noindent">
+<img class="figure" src="static/help/obr-reciprocita.png" width="680px" alt="reciprocita"/>
+<br/><div class="caption" id="fig:reciprocita"><p class="noindent">Obrázek 3: Vzájemné přiřazení situačních participantů a&nbsp;valenčních doplnění při reciprocitě <span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">ADDR</span> v&nbsp;příkladu
+<span class="example">Petr<span class="functorvr">.ACT</span> nařkl Pavla<span class="functorvr">.ADDR</span> z&nbsp;podvodu a&nbsp;Pavel<span class="functorvr">.ACT</span> nařkl Petra<span class="functorvr">.ADDR</span> z&nbsp;podvodu.</span> &ndash;
+<span class="example">(Petr a&nbsp;Pavel)<span class="functorvr">.ACT</span> se<span class="functorvr">.ADDR</span> vzájemně nařkli z&nbsp;podvodu.</span></div>
+
+</div><p>
+
+<p><p>Valenční doplnění obsazující hierarchicky výše postavenou pozici je v&nbsp;reciproční konstrukci vyjádřeno plurálem, koordinační skupinou,
+příp. kolektivem;
+jde buď o&nbsp;pozici subjektu (je-li jedno ze zasažených valenčních doplnění vyjadřováno v&nbsp;nerecipročních konstrukcích subjektem,
+srov. <span class="example">Petr<span class="functorvr">.ACT</span><span class="functorvr">(1)</span> četl Marii<span class="functorvr">.ADDR</span><span class="functorvr">(3)</span> pohádky.</span> &ndash; <span class="example">(Petr a&nbsp;Marie)<span class="functorvr">.ACT</span><span class="functorvr">(1)</span> si
+(navzájem) četli pohádky.</span>),
+nebo o&nbsp;pozici přímého objektu (není-li subjekt reciprocitou zasažen,
+srov. <span class="example">Článek porovnává prognózu<span class="functorvr">.PAT</span><span class="functorvr">(4)</span> se skutečností<span class="functorvr">.EFF</span><span class="functorvr">(s+7)</span> z&nbsp;hlediska geotechnických podmínek výstavby tunelu.</span>
+&ndash; <span class="example">Článek porovnává (prognózu a&nbsp;skutečnost)<span class="functorvr">.PAT</span><span class="functorvr">(4)</span> z&nbsp;hlediska geotechnických podmínek výstavby tunelu.</span>).
+Syntaktická pozice níže postaveného valenčního doplnění je typicky vyjádřena
+reflexivním osobním zájmenem v&nbsp;morfematickém tvaru, kterým je dané doplnění charakterizováno ve valenčním rámci popisujícím nereciproční konstrukci.
+Toto reflexivní osobní zájmeno je v&nbsp;případě, že je reciprocitou zasažen subjekt, obvykle  přítomno obligatorně,
+srov. <span class="example">Petr<span class="functorvr">.ACT</span><span class="functorvr">(1)</span> informoval Marii<span class="functorvr">.ADDR</span><span class="functorvr">(4)</span> o&nbsp;výsledcích voleb.</span>
+&ndash; <span class="example">Petr a&nbsp;Marie se<span class="functorvr">.ADDR</span><span class="functorvr">(4)</span> (navzájem) informovali o&nbsp;výsledcích voleb.</span>
+<a href="#fn26" id="fnmark26" class="footnote">26</a>
+V&nbsp;případě, že subjekt zasažen není,
+je syntaktická pozice níže postaveného doplnění buď fakultativní, srov.
+<span class="example">Nejsou schopni odlišit sestru<span class="functorvr">.PAT</span><span class="functorvr">(4)</span> od bratra<span class="functorvr">.ORIG</span><span class="functorvr">(od+2)</span>.</span>
+&ndash; <span class="example">Nejsou schopni (bratra a&nbsp;sestru)<span class="functorvr">.PAT</span><span class="functorvr">(4)</span> (od sebe)<span class="functorvr">.ORIG</span><span class="functorvr">(od+2)</span> odlišit.</span>,
+nebo je
+z&nbsp;reciproční konstrukce  vypuštěna,
+srov. <span class="example">Ráda kombinuje světlé barvy<span class="functorvr">.PAT</span><span class="functorvr">(4)</span> s&nbsp;tmavými barvami<span class="functorvr">.EFF</span><span class="functorvr">(s+7)</span>.</span>
+&ndash; <span class="example">Ráda kombinuje (světlé a&nbsp;tmavé barvy)<span class="functorvr">.PAT</span><span class="functorvr">(4)</span>.</span>
+<p>Reciprocita je primárně signalizována výše zmíněnými změnami ve vyjádření
+zasažených valenčních doplnění, reflexivním osobním zájmenem a&nbsp;dále též
+adverbii <span class="example">spolu</span>, <span class="example">navzájem</span>, <span class="example">vzájemně</span>, <span class="example">dohromady</span>, příp. výrazem <span class="example">mezi sebou</span>.
+Kombinace uvedených prostředků vyjadřujících reciprocitu je značně variabilní a&nbsp;je ovlivněna
+především skutečností, zda má sloveso reflexivní podobu, a&nbsp;též možností slovesa tvořit syntaktickou reflexivitu.
+<a href="#fn27" id="fnmark27" class="footnote">27</a>
+<p>Reprezentaci reciprocity v&nbsp;rámci FGP popisují především Panevová <a class="href">(</a><a href="#bib:pan-rec-99" class="href" title="Panevová, J. (1999): Česká reciproční   zájmena a slovesná valence.  Slovo a slovesnost. 60(4), s.&nbsp;269&ndash;275.  ">1999</a><a class="href">;</a> <a href="#bib:pan-rec-cz-07" class="href" title="Panevová, J. (2007): Znovu o reciprocitě.:  Slovo a slovesnost. 68(2), s.&nbsp;91&ndash;100.  ">2007</a><a class="href">)</a> a&nbsp;Panevová a&nbsp;Mikulová <a class="href">(</a><a href="#bib:pan-rec-pbml-07" class="href" title="Panevová, J. &ndash; Mikulová, M. (2007): On   Reciprocity.  The Prague Bulletin of Mathematical Linguistics. 87,   s.&nbsp;27&ndash;40.  ">2007</a><a class="href">)</a>;
+z&nbsp;významných teoretických studií uveďme zejména práce <a href="#bib:konig-08" class="href" title="König, E. &ndash; Gast, V. (2008): Reciprocals and   Reflexives. Theoretical and Typological Explorations.  Berlin &ndash; New York, Mouton de Gruyter.  ">König &ndash; Gast (2008)</a> a&nbsp;<a href="#bib:nedjalkov-07" class="href" title="Nedjalkov, V.&nbsp;P. (2007): Typology of Reciprocal Constructions.:  Amsterdam &ndash; Philadelphia, John Benjamins Publishing Company.  ">Nedjalkov (2007)</a>. K&nbsp;popisu reciprocity
+ve <em>VALLEX</em>u viz <a href="GUIDE.html#sec-sect-reciprocity" class="href">odd.&nbsp;GUIDE > 4.4</a> a&nbsp;kapitolu&nbsp;<a href="GRAMMAR.html#sec-sect-gram-reciprocity" class="href">GRAMMAR > 3</a>.
+<p>Reciproční konstrukce je možné třídit na základě valenčních doplnění vstupujících do symetrického vztahu, srov.
+reciprocitu <span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">ADDR</span> v&nbsp;příkladu <span class="example">Petr a&nbsp;Marie se pořád hádají.</span>,
+<span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">PAT</span> v&nbsp;příkladu <span class="example">Petr a&nbsp;Jan se vnímali jako soupeři.</span>,
+<span class="functorVR">PAT</span> a&nbsp;<span class="functorVR">ORIG</span> v&nbsp;příkladu <span class="example">Lékaři od sebe oddělili siamská dvojčata.</span>,
+<span class="functorVR">ACT</span> a&nbsp;<span class="functorVR">DIR3</span> v&nbsp;příkladu <span class="example">Letadla se k&nbsp;sobě nebezpečně přiblížila</span>.
+Do vztahu symetrie mohou výjimečně vstoupit i&nbsp;tři situační participanty (a&nbsp;jim odpovídající valenční doplnění), např.
+<span class="example">Petr, Jan a&nbsp;Pavel&nbsp;/&nbsp;Chlapci se sobě navzájem představili.</span>
+<a href="#fn28" id="fnmark28" class="footnote">28</a>
+<p><p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-gram-rep" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-gram-rep">2.2&nbsp;&nbsp;Reprezentace gramatikalizovaných alternací ve <em>VALLEX</em>u</h3>
+
+<p>
+
+<p><h5>Datová komponenta.</h5><p>
+Lexikální jednotka slovesa vytvářející v&nbsp;rámci gramatikalizovaných alternací rozdílné povrchověsyntaktické strukturace je
+v&nbsp;datové komponentě lexikonu charakterizována jediným valenčním rámcem.
+Morfematické formy valenčních doplnění
+vyznačené v&nbsp;tomto valenčním rámci odpovídají aktivní,  nereflexivní a&nbsp;nereciproční konstrukci,<a href="#fn29" id="fnmark29" class="footnote">29</a> kterou považujeme za nepříznakový
+člen gramatikalizovaných alternací.
+<p>Možnost lexikálních jednotek slovesa vytvářet jednotlivé gramatikalizované alternace nelze odvodit pomocí pravidel
+pouze na základě jejich syntaktické struktury, jelikož je dána i&nbsp;jejich lexikálním významem,
+příp. též sémantickými rysy jmen lexikálně vyjadřujících jejich valenční doplnění.
+Např.
+slovesa
+<span class="lemma">přidělovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">přidělit<span class="asp up">pf</span></span> a&nbsp;
+<span class="lemma">odnímat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">odejmout<span class="asp up">pf</span></span>
+mají totožný valenční rámec
+<span class="functorVR">ACT</span><span class="formval down">1</span> <span class="functorVR">ADDR</span><span class="formval down">3</span> <span class="functorVR">PAT</span><span class="formval down">4</span>;
+zatímco
+sloveso
+<span class="lemma">přidělovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">přidělit<span class="asp up">pf</span></span>
+recipientní pasivní diatezi umožňuje,
+např. <span class="example">Novomanželé dostali přidělen byt.</span>,
+sloveso
+<span class="lemma">odnímat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">odejmout<span class="asp up">pf</span></span>
+do této diateze nevstupuje, např.
+*<span class="example">Dělníci dostali odňaty peníze.</span>
+<p><p>Aplikovatelnost jednotlivých gramatikalizovaných alternací tak musí být u&nbsp;každé relevantní
+lexikální jednotky vyznačena v&nbsp;datové komponentě slovníku.
+Pro účely popisu gramatikalizovaných alternací jsou do slovníku <em>VALLEX</em> zavedeny následující atributy:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+
+<span class="verbattr">diat</span> pro diateze,
+
+	</li><li><p>
+
+<span class="verbattr">refl</span> pro vlastní (syntaktickou) reflexivitu,
+
+	</li><li><p>
+
+<span class="verbattr">recipr</span> pro reciprocitu.
+	</li>
+</ul><p>
+<p class="bigskip">
+<p class="noindent">
+V&nbsp;případě <em>diatezí</em> a&nbsp;<em>reciprocity</em> poskytuje současná verze slovníku <em>VALLEX</em>
+v&nbsp;zásadě úplnou informaci o&nbsp;možnostech vstupovat do alternací.<a href="#fn30" id="fnmark30" class="footnote">30</a>
+<em>Reflexivita</em> je  zachycena pouze v&nbsp;případech,
+kdy je možné referenční totožnost některého valenčního doplnění s&nbsp;aktantem v&nbsp;subjektové pozici
+vyjádřit klitickou formou reflexivního osobního zájmena
+(nezachycují se tedy ty případy reflexivity, ve kterých je gramatikalizována
+dlouhá varianta reflexiva, tedy genitiv, lokál, instrumentál a&nbsp;předložkové pády).
+Vzhledem k&nbsp;víceznačnosti klitik,
+která činí problémy jak (zejména nerodilým) mluvčím češtiny,
+tak při automatickém zpracování jazyka,
+dostala reflexivita vyjádřená klitiky v&nbsp;lexikografickém zpracování přednost.
+<p>Hodnoty jednotlivých atributů pro zachycení možnosti lexikální jednotky vstupovat
+do příslušných gramatikalizovaných alternací jsou uvedeny v&nbsp;<a href="GUIDE.html#sec-sect-diat" class="href">odd.&nbsp;GUIDE > 4.2</a>, <a href="GUIDE.html#sec-sect-reflexivity" class="href">GUIDE > 4.3</a> a&nbsp;<a href="GUIDE.html#sec-sect-reciprocity" class="href">GUIDE > 4.4</a>.
+<p><p><h5>Gramatická komponenta.</h5><p>
+V&nbsp;gramatické komponentě slovníku (představující tu část celkové gramatiky jazyka, která bezprostředně souvisí s&nbsp;lexikonem)
+jsou uložena pravidla umožňující z&nbsp;nepříznakového valenčního rámce,  uvedeného v&nbsp;datové komponentě slovníku,
+odvodit morfematická vyjádření pro příznaková užití lexikálních jednotek sloves (odvozený valenční rámec).<a href="#fn31" id="fnmark31" class="footnote">31</a>
+Zdůrazněme, že v&nbsp;případě gramatikalizovaných alternací je počet, typ a&nbsp;obligatornost valenčních doplnění zachována;
+<a href="#fn32" id="fnmark32" class="footnote">32</a>
+mění se pouze morfematická vyjádření těch členů rámce, které podléhají změnám v&nbsp;přiřazení povrchověsyntaktickým pozicím, případně jejich vyjádření lexikální.
+Tyto změny jsou natolik pravidelné, že je lze popisovat formálními pravidly, která zde uvádíme
+v&nbsp;části&nbsp;<a href="GRAMMAR.html#sec-sect-grammarcomp" class="href">GRAMMAR</a>,&nbsp;Gramatická komponenta.
+<p><p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-lexikal-alternace" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-lexikal-alternace">2.3&nbsp;&nbsp;Lexikalizované alternace</h3>
+
+<p>
+
+<p>Lexikalizované alternace
+spojují odlišné lexikální jednotky téhož slovesného lexému,
+které se vyznačují totožným situačním významem, avšak odlišují se ve strukturním významu <a class="href">(</a><a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a><a class="href">)</a>. V&nbsp;těchto případech je
+stejná množina situačních participantů pokaždé jiným způsobem
+rozmístěna do valenčního rámce: alternace tak umožňují strukturovat označovanou situaci pokaždé z&nbsp;hlediska jiného účastníka situace,
+srov. např. změnu v&nbsp;přiřazení situačních participantů
+<span class="sempart">&bdquo;Obsah&ldquo;</span> (<span class="example">mouka</span>) a&nbsp;<span class="sempart">&bdquo;Kontejner&ldquo;</span> (<span class="example">pytle</span>)
+v&nbsp;příkladech <span class="example">Jan naplnil mouku<span class="functorvr">.PAT</span> do pytlů<span class="functorvr">.DIR3</span>.</span> &ndash; <span class="example">Jan
+naplnil pytle<span class="functorvr">.PAT</span> moukou<span class="functorvr">.EFF</span>.</span>,
+kde v&nbsp;prvním užití <span class="sempart">&bdquo;Obsahu&ldquo;</span>
+odpovídá <span class="functorVR">PAT</span> a&nbsp;<span class="sempart">&bdquo;Kontejneru&ldquo;</span> směrové doplnění <span class="example">Kam?</span> <span class="functorVR">DIR3</span>,
+zatímco ve druhém případě jim odpovídá po řadě <span class="functorVR">EFF</span> a&nbsp;<span class="functorVR">PAT</span> (<a href="#fig:lex-alternace" class="href">obr.&nbsp;4</a>).
+Asymetrie v&nbsp;korespondenci mezi situačními participanty a&nbsp;valenčními doplněními
+v&nbsp;důsledku vede též ke změnám v&nbsp;povrchověsyntaktickém vyjádření zasažených participantů.
+<p>
+
+<div class="center"><p class="noindent">
+<img class="figure" src="static/help/obr-konverze.png" width="680px" alt="konverze"/>
+<br/><div class="caption" id="fig:lex-alternace"><p class="noindent">Obrázek 4: Vzájemné přiřazení situačních participantů a&nbsp;valenčních doplnění v&nbsp;příkladu lokativní konverze
+<span class="example">Jan naplnil mouku<span class="functorvr">.PAT</span> do pytlů<span class="functorvr">.DIR3</span>.</span> &ndash; <span class="example">Jan
+naplnil pytle<span class="functorvr">.PAT</span> moukou<span class="functorvr">.EFF</span>.</span></div>
+
+</div><p>
+
+<p>Změny ve valenčním rámci slovesa u&nbsp;lexikalizovaných alternací jsou velmi rozmanité, a&nbsp;to i&nbsp;v&nbsp;rámci homogenních  sémantických skupin sloves.
+Tyto změny mohou zasahovat počet valenčních doplnění, jejich typ (tedy funktor) i&nbsp;obligatornost, srov.
+<span class="example">Vyklidili již poničené stroje a&nbsp;odpadky<span class="functorvr">.PAT.Obsah</span> z&nbsp;areálu pivovaru<span class="functorvr">.DIR1.Kontejner</span>.</span>
+&ndash; <span class="example">Areál pivovaru<span class="functorvr">.PAT.Kontejner</span> již vyklidili od poničených strojů a&nbsp;odpadků<span class="functorvr">.ORIG.Obsah</span>.</span>,
+kde se mění jak funktory, tak obligatornost
+valenčních doplnění korespondujících se situačními participanty <span class="sempart">&bdquo;Obsah&ldquo;</span> a&nbsp;<span class="sempart">&bdquo;Kontejner&ldquo;</span>,
+dále též <span class="example">Vysypal popel<span class="functorvr">.PAT.Obsah</span> z&nbsp;popelníku<span class="functorvr">.DIR1.Kontejner</span>.</span> &ndash; <span class="example">Vysypal popelník<span class="functorvr">.PAT.Kontejner</span>.</span>,
+kde participant <span class="sempart">&bdquo;Obsah&ldquo;</span>, přiřazený v&nbsp;prvním případě <span class="functorVR">PAT</span>, ve druhém případě neodpovídá žádnému valenčnímu doplnění, a&nbsp;tak ho nelze ani povrchově vyjádřit.
+<p><p class="bigskip">
+<p class="noindent">
+K&nbsp;lexikalizovaným alternacím v&nbsp;češtině náleží podle Kettnerové a&nbsp;Lopatkové <a class="href">(</a><a href="#bib:lex-alter-13" class="href" title="Kettnerová, V. &ndash; Lopatková, M. (2013):   Lexikalizované alternace v češtině.  Linguistica Copernicana. 9(1), s.&nbsp;31&ndash;64.  ">2013</a><a class="href">)</a>:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+
+ <b>lexikálněsémantické konverze</b> <br />
+např. <span class="example">Sedláci nakládali seno na vozy.</span> &ndash; <span class="example">Sedláci nakládali vozy senem.</span>,
+<span class="example">Barva pustila z&nbsp;kalhot.</span> &ndash; <span class="example">Kalhoty pustily (barvu).</span>
+
+	</li><li><p>
+
+<b>rozdílná strukturní realizace téhož situačního participantu</b> <br />
+ např.
+ <span class="example">Kateřina rychle sešla ze schodů dělících vyvýšenou tribunu od kolbiště.</span> &ndash; <span class="example">Kateřina rychle sešla schody dělící vyvýšenou tribunu od kolbiště.</span>
+
+	</li><li><p>
+
+<b>strukturní rozpad situačního participantu na dvě valenční doplnění</b> <br />
+ např. <span class="example">Petr viděl, jak Jan odchází.</span> &ndash; <span class="example">Petr viděl Jana, jak odchází.</span>,
+<span class="example">Jan říkal, že je Eva chytrá.</span> &ndash; <span class="example">Jan říkal o&nbsp;Evě, že je chytrá.</span>
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Lexikálněsémantické konverze představují centrální typ lexikalizovaných alternací; jde o&nbsp;konverzní změny:
+prominentní povrchověsyntaktická pozice subjektu nebo
+přímého objektu je zasažena permutací dvou situačních participantů (více viz <a href="#bib:kettnerova-14" class="href" title="Kettnerová, V. (2014):   Lexikálně-sémantické konverze ve   valenčním slovníku.  Praha, Karolinum.  ">Kettnerová, 2014</a>).  Rozdílná strukturní realizace téhož situačního participantu a
+strukturní rozpad situačního participantu představují alternace nekonverzní povahy, kdy je změnou zasažena pouze jedna povrchověsyntaktická pozice.
+
+<p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-lex-rep" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-lex-rep">2.4&nbsp;&nbsp;Reprezentace lexikalizovaných alternací ve <em>VALLEX</em>u</h3>
+
+<p>
+
+<p>
+<h5>Datová komponenta.</h5><p>
+Vzhledem k&nbsp;okolnosti, že lexikalizované alternace spojují rozdílné lexikální jednotky téhož slovesného lexému,
+odpovídají těmto alternacím v&nbsp;datové části slovníku dvě lexikální jednotky, reprezentované odlišnými valenčními rámci.
+U&nbsp;každé relevantní jednotky je
+zvláštním atributem vyznačena účast dané jednotky na alternaci. Pro&nbsp;jednotlivé typy alternací byly zavedeny následující
+atributy:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+
+<span class="verbattr">conv</span> pro lexikálněsémantické konverze,
+
+	</li><li><p>
+
+<span class="verbattr">multiple</span> pro rozdílnou strukturní realizaci téhož situačního participantu,
+
+	</li><li><p>
+
+<span class="verbattr">split</span> pro strukturní rozpad téhož situačního participantu.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Hodnotou těchto atributů je množina kognitivních rolí těch situačních participantů,
+které podléhají změnám v&nbsp;přiřazení valenčním doplněním; dále je zde pomocí symbolů
+<span class="verbattr">I</span> a&nbsp;<span class="verbattr">II</span>
+označeno, o&nbsp;kterou konstrukci z&nbsp;alternujícího páru se jedná. V&nbsp;případě atributu <span class="verbattr">conv</span> jde o&nbsp;dvě
+kognitivní role,  identifikující dva situační participanty, u&nbsp;atributů <span class="verbattr">multiple</span> a&nbsp;<span class="verbattr">split</span> o&nbsp;roli jedinou,
+odpovídající jednomu participantu;
+ např. u&nbsp;lexikálních jednotek slovesa
+ <span class="lemma">nakládat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">naložit<span class="asp up">pf</span></span>
+s&nbsp;významy <span class="gloss">&bdquo;umisťovat&ldquo;</span>  a&nbsp;<span class="gloss">&bdquo;plnit&ldquo;</span> je vyznačen atribut
+<span class="verbattr">conv</span>, jehož hodnotou je dvojice kognitivních rolí <span class="sempart">&bdquo;Locatum&ldquo;</span>&ndash;<span class="sempart">&bdquo;Location&ldquo;</span>, srov.
+<span class="example">Sedlák nakládal seno<span class="functorvr">.PAT.Locatum</span> na vůz<span class="functorvr">.DIR3.Location</span>.</span> &ndash;
+<span class="example">Sedlák nakládal vůz<span class="functorvr">.PAT.Location</span> senem<span class="functorvr">.EFF.Locatum</span>.</span>;
+dvě lexikální jednotky slovesa
+<span class="lemma">vycházet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vyjít<span class="asp up">pf</span></span>
+s&nbsp;významem <span class="gloss">&bdquo;stoupat&ldquo;</span> spojuje
+atribut <span class="verbattr">multiple</span> s&nbsp;hodnotou <span class="sempart">&bdquo;Goal&ldquo;</span>, srov. <span class="example">Petr rychle vyšel na kopec<span class="functorvr">.DIR3.Goal</span>.</span>
+&ndash; <span class="example">Petr rychle vyšel kopec<span class="functorvr">.PAT.Goal</span>.</span>;
+sloveso <span class="lemma">vidět<span class="asp up">impf</span></span>
+má u&nbsp;dvou lexikálních jednotek s&nbsp;významem <span class="gloss">&bdquo;vnímat zrakem&ldquo;</span> vyznačen atribut <span class="verbattr">split</span>
+s&nbsp;hodnotou <span class="sempart">&bdquo;Stimul&ldquo;</span>, srov. <span class="example">Jan vidí, (že chlapec přichází)<span class="functorvr">.PAT.Stimul</span>.</span>  &ndash;
+<span class="example">Jan vidí chlapce<span class="functorvr">.PAT.Stimul</span>, (že přichází)<span class="functorvr">.EFF.Stimul</span></span>.
+<p>U&nbsp;každé lexikální jednotky je součástí atributu vyznačujícího některou z&nbsp;lexikalizovaných alternací odkaz k&nbsp;té lexikální jednotce,
+která vytváří s&nbsp;danou lexikální jednotkou alternující dvojici.
+<p>
+<h5>Gramatická komponenta.</h5><p>
+V&nbsp;gramatické komponentě slovníku jsou uložena pravidla určující změny v&nbsp;korespondenci situačních participantů
+a&nbsp;valenčních doplnění, jednotlivá pravidla uvádíme v&nbsp;části&nbsp;<a href="GRAMMAR.html#sec-sect-grammarcomp" class="href">GRAMMAR</a>,&nbsp;Gramatická komponenta.
+Například pro výše uvedenou alternaci <span class="verbattr">conv</span> typu <span class="sempart">&bdquo;Locatum&ldquo;</span>&ndash;<span class="sempart">&bdquo;Location&ldquo;</span> pravidlo zachycuje jednak
+změnu v&nbsp;korespondenci participantu <span class="sempart">&bdquo;Locatum&ldquo;</span> z&nbsp;<span class="functorVR">PAT</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">I</span>) na <span class="functorVR">EFF</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">II</span>), jednak změnu v&nbsp;korespondenci participantu <span class="sempart">&bdquo;Location&ldquo;</span> z&nbsp;<span class="functorVR">DIR3</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">I</span>) na
+  <span class="functorVR">PAT</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">II</span>);
+u&nbsp;alternace <span class="verbattr">multiple</span> <span class="sempart">&bdquo;Goal&ldquo;</span> pravidlo popisuje změnu v&nbsp;korespondenci daného participantu z&nbsp;<span class="functorVR">DIR3</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">I</span>) na
+<span class="functorVR">PAT</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">II</span>) a&nbsp;u&nbsp;alternace <span class="verbattr">split</span> <span class="sempart">&bdquo;Stimul&ldquo;</span>
+jde o&nbsp;změnu v&nbsp;přiřazení uvedeného participantu z&nbsp;doplnění <span class="functorVR">PAT</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">I</span>) na dvojici doplnění <span class="functorVR">PAT</span> a&nbsp;<span class="functorVR">EFF</span> (v&nbsp;konstrukci&nbsp;<span class="verbattr">II</span>).
+Změny v&nbsp;povrchověsyntaktickém vyjádření situačních
+participantů podléhajících změnám v&nbsp;přiřazení valenčním doplněním
+jsou dány morfematickou formou vyznačenou v&nbsp;příslušných valenčních rámcích v&nbsp;datové komponentě slovníku.
+<p><p></div> <!-- LEVEL: 3->END -->
+</div> <!-- LEVEL: 3->END -->
+</div> <!-- LEVEL: 3->0 -->
+
+<hr />
+<h3 id="sec:footnotes">Poznámky</h3>
+<ul class="footnotes">
+	<li id="fn1"><a href="#fnmark1">^</a>[1] Zvláště v&nbsp;LFG a&nbsp;TAG se
+ využívá namísto termínů valenční struktura označení (predikátová) argumentová struktura.</li>
+	<li id="fn2"><a href="#fnmark2">^</a>[2] <a href="http://verbs.colorado.edu/verb-index/index.php">http://verbs.colorado.edu/verb-index/index.php</a></li>
+	<li id="fn3"><a href="#fnmark3">^</a>[3] <a href="http://www.cis.edu/&nbsp;treebank">http://www.cis.edu/&nbsp;treebank</a></li>
+	<li id="fn4"><a href="#fnmark4">^</a>[4] <a href="http://verbs.colorado.edu/&nbsp;mpalmer/projects/verbnet.html">http://verbs.colorado.edu/&nbsp;mpalmer/projects/verbnet.html</a></li>
+	<li id="fn5"><a href="#fnmark5">^</a>[5] <a href="https://verbs.colorado.edu/semlink/">https://verbs.colorado.edu/semlink/</a></li>
+	<li id="fn6"><a href="#fnmark6">^</a>[6] <a href="https://framenet.icsi.berkeley.edu/fndrupal">https://framenet.icsi.berkeley.edu/fndrupal</a></li>
+	<li id="fn7"><a href="#fnmark7">^</a>[7] <a href="http://zil.ipipan.waw.pl/Walenty">http://zil.ipipan.waw.pl/Walenty</a></li>
+	<li id="fn8"><a href="#fnmark8">^</a>[8] <a href="http://ufal.mff.cuni.cz/vallex/3.0">http://ufal.mff.cuni.cz/vallex/3.0</a></li>
+	<li id="fn9"><a href="#fnmark9">^</a>[9] <a href="http://lindat.mff.cuni.cz/services/PDT-Vallex/">http://lindat.mff.cuni.cz/services/PDT-Vallex/</a></li>
+	<li id="fn10"><a href="#fnmark10">^</a>[10] <a href="http://ufal.mff.cuni.cz/prague-dependency-treebank">http://ufal.mff.cuni.cz/prague-dependency-treebank</a></li>
+	<li id="fn11"><a href="#fnmark11">^</a>[11] Klasifikace valenčních doplnění na aktanty a&nbsp;volná doplnění
+víceméně odpovídá Tesnièrově distinkci  aktanty
+(actants) vs. cirkumstanty (circonstants) <a class="href">(</a><a href="#bib:tesnier-59" class="href" title="Tesnière, L. (1959): Eléments de syntaxe structurale.:  Paris, Librairie C. Klincksieck.  (Translation: Kahane, S. &ndash; Osborne, T. (2015)   Elements of Structural Syntax. Amsterdam &ndash; Philadelphia, John   Benjamins Publishing Company.)  ">Tesnière, 1959</a><a class="href">)</a>. Také se v&nbsp;zásadě shoduje
+s&nbsp;dělením na komplementy aktantové (mimo komplementy adverbiální) a&nbsp;adjunkty <a class="href">(</a><a href="#bib:grepl-karlik-98" class="href" title="Grepl, M. &ndash; Karlík, P. (1998): Skladba   češtiny.  Olomouc, Votobia.  ">Grepl &ndash; Karlík, 1998</a><a class="href">;</a> <a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002</a><a class="href">)</a>.
+V&nbsp;termínech Mluvnice češtiny&nbsp;3 aktanty  odpovídají
+těm participantům intenčního pole, které jsou realizovány jako subjekt
+nebo komplementy předmětové a&nbsp;kvalifikační;
+volná doplnění pak odpovídají komplementům adverbiálním,
+která mohou (viz dále obligatorní volná doplnění) i&nbsp;nemusí (fakultativní volná doplnění)
+být součástí intenčního pole <a class="href">(</a><a href="#bib:mluvnice3" class="href" title="Daneš, F. &ndash; Grepl, M. &ndash; Hlavsa, Z. (ed.)   (1987): Mluvnice češtiny 3.  Praha, Academia.  ">Daneš et&nbsp;al., 1987</a><a class="href">)</a>.</li>
+	<li id="fn12"><a href="#fnmark12">^</a>[12] Doplnění <span class="functorVR">MED</span> není v&nbsp;současnosti ve <em>VALLEX</em>u zachyceno.</li>
+	<li id="fn13"><a href="#fnmark13">^</a>[13] K&nbsp;situačním participantům viz <a href="#sec-sect-valence-alternace" class="href">odd.&nbsp;2</a>.</li>
+	<li id="fn14"><a href="#fnmark14">^</a>[14] Jde o&nbsp;obligatornost na tektogramatické (významové) rovině.
+Na povrchověsyntaktické rovině může docházet k&nbsp;systémovému elidování některých členů rámce &ndash; jde především o&nbsp;případy zevšeobecnění aktantu,
+např. <span class="example">Do této buchty se dává sůl.</span>,
+<span class="example">Psali to v&nbsp;novinách.</span>,
+<span class="example">Tancovalo se do rána.</span>
+(všeobecný <span class="functorVR">ACT</span>),
+<span class="example">Až Jana uvaří, půjde uklízet.</span>
+(všeobecný <span class="functorVR">PAT</span>) (viz zejm. <a href="#bib:danes-71" class="href" title="Daneš, F. (1971): Větné členy obligatorní,   potenciální a fakultativní.  In Komárek, M. (ed.) Miscellanea Linguistica,   16 / Acta Universitatis Palackianae Olomucensis. Facultas   philosophica. Philologica. Supplementum, s.&nbsp;131&ndash;138. Ostrava, Profil.  ">Daneš, 1971</a><a class="href">;</a> <a href="#bib:jpa-vrez-vseob" class="href" title="Panevová, J. &ndash; Řezníčková, V.   (2001): K možnému pojetí všeobecnosti aktantu.  In Hladká, Z. &ndash; Karlík, P. (ed.)   Čeština &ndash; univerzália a specifika 3,   s.&nbsp;139&ndash;146.  ">Panevová &ndash;   Řezníčková, 2001</a>),
+a&nbsp;o&nbsp;systémové vypuštění obligatorního volného doplnění u&nbsp;některých sloves,
+např. <span class="example">Petr už odešel.</span>
+(=  z&nbsp;místa daného kontextem, <span class="functorVR">DIR1</span>).
+
+Povrchovým vypuštěním obligatorního valenčního doplnění jsou i&nbsp;případy aktuální elipsy, např.
+<span class="example">Odpověděl už Jan Petře na dopis? Odpověděl.</span> (= <span class="example">Jan<span class="functorvr">.ACT</span> Petře<span class="functorvr">.ADDR</span> na dopis<span class="functorvr">.PAT</span> už odpověděl.</span>).</li>
+	<li id="fn15"><a href="#fnmark15">^</a>[15] U
+polysémních lexémů též označovaný jako
+hyperlexém <a class="href">(</a><a href="#bib:filipec-cermak-85" class="href" title="Filipec, J. &ndash; Čermák, F. (1985):   Česká lexikologie.  Praha, Academia.  ">Filipec &ndash; Čermák, 1985</a><a class="href">)</a>.</li>
+	<li id="fn16"><a href="#fnmark16">^</a>[16] V české jazykovědě
+        označovaných též jako základní
+        lexikální jednotky, monosémní/monosémické lexémy či lexie
+        <a class="href">(</a><a href="#bib:filipec-cermak-85" class="href" title="Filipec, J. &ndash; Čermák, F. (1985):   Česká lexikologie.  Praha, Academia.  ">Filipec &ndash; Čermák, 1985</a><a class="href">;</a> <a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002</a><a class="href">)</a>.</li>
+	<li id="fn17"><a href="#fnmark17">^</a>[17] Zjišťujeme, že platí nepřímo úměrný vztah mezi počtem lexémů a&nbsp;počtem jim odpovídajících lexikálních jednotek (a&nbsp;tedy valenčních rámců):
+největší počet slovesných lexémů má jedinou lexikální jednotku,
+mnoho sloves má několik málo lexikálních jednotek,
+naopak malé množství sloves vykazuje vysoký počet lexikálních jednotek
+<a class="href">(</a><a href="#bib:zz-phd" class="href" title="Žabokrtský, Z. (2005): Valency Lexicon of Czech   Verbs.  PhD thesis, Prague, Charles University in Prague.  ">Žabokrtský, 2005</a><a class="href">)</a>.
+Obecně platí, že slovesa vyznačující se složitým valenčním chováním patří ke slovesům s&nbsp;vysokou frekvencí v&nbsp;korpusu <a class="href">(</a><a href="#bib:bojar-05" class="href" title="Bojar, O. &ndash; Semecký, J. &ndash;   Benešová, V. (2005): VALEVAL: Testing VALLEX   Consistency and Experimenting with Word-Frame Disambiguation.  The Prague Bulletin of Mathematical Linguistics. 83, s.&nbsp;5&ndash;17.  ">Bojar et&nbsp;al., 2005</a><a class="href">)</a>.</li>
+	<li id="fn18"><a href="#fnmark18">^</a>[18] Výjimku tvoří
+jednak inherentně reciproční a&nbsp;odvozená reciproční slovesa, jednak
+reflexiva tantum a&nbsp;odvozená reflexiva,
+která jsou zachycena v&nbsp;samostatných lexikálních jednotkách,
+a&nbsp;tedy charakterizována vlastním valenčním rámcem, více viz <a href="#sec-sect-valence-alternace" class="href">odd.&nbsp;2</a>, <a href="GUIDE.html#sec-sect-refllexemes" class="href">GUIDE > 2.4</a> a&nbsp;<a href="GUIDE.html#sec-sect-reciprocity" class="href">GUIDE > 4.4</a>.</li>
+	<li id="fn19"><a href="#fnmark19">^</a>[19]
+Výjimku tvoří jednak inherentně reciproční a&nbsp;odvozená reciproční slovesa <a class="href">(</a><a href="#bib:pan-rec-99" class="href" title="Panevová, J. (1999): Česká reciproční   zájmena a slovesná valence.  Slovo a slovesnost. 60(4), s.&nbsp;269&ndash;275.  ">Panevová, 1999</a><a class="href">;</a> <a href="#bib:pan-rec-pbml-07" class="href" title="Panevová, J. &ndash; Mikulová, M. (2007): On   Reciprocity.  The Prague Bulletin of Mathematical Linguistics. 87,   s.&nbsp;27&ndash;40.  ">Panevová &ndash; Mikulová, 2007</a><a class="href">)</a>,
+jednak  reflexiva tantum a&nbsp;odvozená reflexiva <a class="href">(</a><a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002</a><a class="href">)</a>,
+která jsou ve slovníku <em>VALLEX</em> zachycena v&nbsp;samostatných lexikálních jednotkách,
+více viz <a href="GUIDE.html#sec-sect-refllexemes" class="href">odd.&nbsp;GUIDE > 2.4</a> a&nbsp;též <a href="GUIDE.html#sec-sect-reflexivity" class="href">odd.&nbsp;GUIDE > 4.3</a> a&nbsp;<a href="GUIDE.html#sec-sect-reciprocity" class="href">GUIDE > 4.4</a>.</li>
+	<li id="fn20"><a href="#fnmark20">^</a>[20] Vedle termínu <span class="gloss">&bdquo;valenční rámec&ldquo;</span>, explicitně popisujícího nepříznakové užití slovesa,  používáme
+též termín <span class="gloss">&bdquo;příznakový valenční rámec&ldquo;</span>, jde však jen o&nbsp;technické označení pro popis morfematické, příp. lexikální realizace valenčních doplnění
+v&nbsp;příznakových konstrukcích.</li>
+	<li id="fn21"><a href="#fnmark21">^</a>[21] Název situační význam zde volíme pro zjednodušení výkladu s&nbsp;vědomím toho, že striktně vzato z&nbsp;hlediska FGP
+situační význam nepředstavuje jazykově strukturovanou část významu slovesa,
+ale odpovídá situačnímu (kognitivnímu) obsahu.</li>
+	<li id="fn22"><a href="#fnmark22">^</a>[22] Zatímco inventář jednotek nižších jazykových rovin je více či méně spolehlivě vymezen, pro plán
+obsahu není ve FGP metajazyk vybudován.</li>
+	<li id="fn23"><a href="#fnmark23">^</a>[23] Výjimku tvoří reciproční konstrukce, kde je vztah mezi situačními participanty a&nbsp;valenčními doplněními složitější, viz níže.</li>
+	<li id="fn24"><a href="#fnmark24">^</a>[24] Vlastní syntaktickou reflexivitu,
+kterou popisujeme jako možné užití
+
+
+
+
+
+
+některých lexikálních jednotek,  např.
+<span class="example">Petr se zranil, aby nemusel nastoupit vojenskou službu. ≈ Petr sám sebe (= Petra) zranil,
+aby nemusel nastoupit vojenskou službu.</span>,
+odlišujeme jednak od sekundární reflexivizace  sloves
+jakožto slovotvorného procesu, který s&nbsp;sebou nese
+významovou změnu (slovesa vzniklá sekundární reflexivizací vyjadřují oproti
+svým nereflexivním protějškům samovolnou či bezděčnou činnost,
+srov. <span class="example">Petr se zranil při pádu ze skály.</span>,
+<a href="GUIDE.html#sec-sect-refllexemes" class="href">odd.&nbsp;GUIDE > 2.4</a>), jednak od sekundární reciprokalizace,
+srov. <span class="example">Jan se líbal s&nbsp;Petrou.</span>,
+<a href="GUIDE.html#sec-sect-reciprocity" class="href">odd.&nbsp;GUIDE > 4.4</a>.
+Sekundární reflexiva a&nbsp;reciproka zachycujeme
+v&nbsp;samostatných lexémech (<a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002, s.&nbsp;414</a>, více viz zde kapitolu&nbsp;<a href="GUIDE.html#sec-sect-heslo" class="href">GUIDE</a>).</li>
+	<li id="fn25"><a href="#fnmark25">^</a>[25] Pravidla popisující reflexivitu jsou zachycena v&nbsp;gramatické komponentě slovníku, zde část&nbsp;<a href="GRAMMAR.html#sec-sect-grammarcomp" class="href">GRAMMAR</a>,  kapitola&nbsp;<a href="GRAMMAR.html#sec-sect-gram-reflexivity" class="href">GRAMMAR > 2</a>.</li>
+	<li id="fn26"><a href="#fnmark26">^</a>[26] Výjimku tvoří některá inherentní reciproka a&nbsp;dále též reflexivní slovesa s&nbsp;dativním či genitivním <span class="functorVR">ADDR</span>,
+viz <a href="GRAMMAR.html#sec-3-1-2-4" class="href">odd.&nbsp;GRAMMAR > 3.1.2.4</a>, <a href="GRAMMAR.html#sec-3-1-2-1b" class="href">GRAMMAR > 3.1.2.1b</a> a&nbsp;<a href="GRAMMAR.html#sec-3-1-2-3" class="href">GRAMMAR > 3.1.2.3</a>.</li>
+	<li id="fn27"><a href="#fnmark27">^</a>[27] Pravidla popisující reciprocitu jsou zachycena v&nbsp;gramatické komponentě slovníku, zde část&nbsp;<a href="GRAMMAR.html#sec-sect-grammarcomp" class="href">GRAMMAR</a>, kapitola&nbsp;<a href="GRAMMAR.html#sec-sect-gram-reciprocity" class="href">GRAMMAR > 3</a>.</li>
+	<li id="fn28"><a href="#fnmark28">^</a>[28] Tento typ reciprocity není
+pro češtinu dostatečně prozkoumán; ve slovníku <em>VALLEX</em> je zachycen pouze u&nbsp;dvou lexikálních jednotek sloves
+<span class="lemma">představovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">představit<span class="asp up">pf</span></span> a&nbsp;<span class="lemma">seznamovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">seznámit<span class="asp up">pf</span></span>.</li>
+	<li id="fn29"><a href="#fnmark29">^</a>[29] Viz <a href="#fn19" class="href">poznámku pod čarou&nbsp;19</a> výše.</li>
+	<li id="fn30"><a href="#fnmark30">^</a>[30] Vzhledem k&nbsp;velkému rozsahu
+dat byl pro zpracování diatezí zvolen poloautomatický přístup založený na korpusových datech a
+jejich předzpracování pomocí heuristických pravidel;
+<em>VALLEX</em> tak nezachycuje (teoretický)
+potenciál lexikálních jednotek vstupovat do jednotlivých diatezí,
+ale indikuje tuto možnost u&nbsp;těch lexikálních jednotek, u&nbsp;nichž se ji podařilo
+doložit v&nbsp;datech Českého národního korpusu,
+a&nbsp;to v&nbsp;celém nereferenčním korpusu SYN;
+podrobnější popis lze nalézt v&nbsp;práci Lopatkové et al. <a class="href">(</a><a href="#bib:diateze-KS-man" class="href" title="Lopatková, M. &ndash; Vernerová, A. &ndash;   Kettnerová, V. (2016): Diateze ve Valenčním   slovníku českých sloves VALLEX.  In Skwarska, K. (ed.) Výzkum slovesné   valence ve slovanských zemích, s.&nbsp;151&ndash;169. Praha, Slovanský   ústav AV ČR.  ">2016</a><a class="href">)</a>.</li>
+	<li id="fn31"><a href="#fnmark31">^</a>[31] Korpusová data dokládají možnost
+(alespoň v&nbsp;omezené míře) kombinovat různé typy gramatikalizovaných alternací,
+srov. <span class="example">Sňatek dětí byl předem dohodnut oběma rodinami</span>. Tato možnost zatím není pro češtinu dostatečně zpracována,
+při pravidlovém popisu gramatikalizovaných alternací ji proto nepostihujeme (s&nbsp;vědomím toho, že zasluhuje další výzkum).</li>
+	<li id="fn32"><a href="#fnmark32">^</a>[32] Výjimku představuje přítomnost obligatorního <span class="functorVR">MANN</span> v&nbsp;příznakových konstrukcích dispoziční diateze a&nbsp;u&nbsp;některých sloves též přítomnost obligatorního <span class="functorVR">BEN</span> v&nbsp;příznakových konstrukcích
+recipientní pasivní diateze.</li>
+</ul>
+
+<hr />
+<h3 id="sec:biblio">Seznam literatury</h3>
+<ul class="biblio">
+	<li id="bib:apresjan-92"><span class="bib-note">Apresjan (1992)</span><br /><span class="capsname">Apresjan</span>, Y.&nbsp;D. (1992): <em>Lexical Semantics: User's Guide to   Contemporary Russian Vocabulary</em>.  Ann Arbor, MI, Karoma Publishers.  </li>
+	<li id="bib:baker-98"><span class="bib-note">Baker et&nbsp;al. (1998)</span><br /><span class="capsname">Baker</span>, C.&nbsp;F. &ndash; <span class="caps">Fillmore</span>, C.&nbsp;J. &ndash; Lowe, J.&nbsp;B.   (1998): The Berkeley FrameNet project.  In <em>COLING-ACL&rsquo;98: Proceedings of the   Conference</em>, s.&nbsp;86&ndash;90, Montreal, Canada.  </li>
+	<li id="bib:balabanova-02"><span class="bib-note">Balabanova &ndash; Ivanova (2002)</span><br /><span class="capsname">Balabanova</span>, E. &ndash; Ivanova, K. (2002): Creating a   machine-readable version of Bulgarian valence dictionary (A case study of   CLaRK system application).  In <span class="caps">Hinrichs</span>, E. &ndash; <span class="caps">Simov</span>, K. (ed.)   <em>Proceedings of the First Workshop on Treebanks and Linguistics   Theories</em>, s.&nbsp;1&ndash;12, Sozopol, Bulgaria.  </li>
+	<li id="bib:bojar-05"><span class="bib-note">Bojar et&nbsp;al. (2005)</span><br /><span class="capsname">Bojar</span>, O. &ndash; Semecký, J. &ndash;   <span class="caps">Benešová</span>, V. (2005): VALEVAL: Testing VALLEX   Consistency and Experimenting with Word-Frame Disambiguation.  <em>The Prague Bulletin of Mathematical Linguistics</em>. 83, s.&nbsp;5&ndash;17.  </li>
+	<li id="bib:bresnan-82"><span class="bib-note">Bresnan (1982)</span><br /><span class="capsname">Bresnan</span>, J. (1982): <em>The Mental Representation of Grammatical   Relations</em>.  Cambridge, MIT Press.  </li>
+	<li id="bib:bresnan-01"><span class="bib-note">Bresnan (2001)</span><br /><span class="capsname">Bresnan</span>, J. (2001): <em>Lexical-Functional Syntax</em>.:  Oxford, Blackwell.  </li>
+	<li id="bib:cruse-86"><span class="bib-note">Cruse (1986)</span><br /><span class="capsname">Cruse</span>, D.&nbsp;A. (1986): <em>Lexical Semantics</em>.:  Cambridge, Cambridge University Press.  </li>
+	<li id="bib:danes-71"><span class="bib-note">Daneš (1971)</span><br /><span class="capsname">Daneš</span>, F. (1971): Větné členy obligatorní,   potenciální a fakultativní.  In <span class="caps">Komárek</span>, M. (ed.) <em>Miscellanea Linguistica</em>,   16 / <em>Acta Universitatis Palackianae Olomucensis. Facultas   philosophica. Philologica. Supplementum</em>, s.&nbsp;131&ndash;138. Ostrava, Profil.  </li>
+	<li id="bib:danes-85"><span class="bib-note">Daneš (1985)</span><br /><span class="capsname">Daneš</span>, F. (1985): <em>Věta a text</em>.:  Praha, Academia.  </li>
+	<li id="bib:danes-hlavsa-87"><span class="bib-note">Daneš &ndash; Hlavsa (1987)</span><br /><span class="capsname">Daneš</span>, F. &ndash; Hlavsa, Z. (1987): <em>Větné   vzorce v češtině</em>.  Praha, Academia.  (Co-authors: <span class="caps">Jirsová</span>, A. &ndash; <span class="caps">Macháčková</span>, E. &ndash; <span class="caps">Prouzová</span>, H. &ndash; <span class="caps">Svozilová</span>, N.)  </li>
+	<li id="bib:mluvnice3"><span class="bib-note">Daneš et&nbsp;al. (1987)</span><br /><span class="capsname">Daneš</span>, F. &ndash; <span class="caps">Grepl</span>, M. &ndash; Hlavsa, Z. (ed.)   (1987): <em>Mluvnice češtiny 3.</em>  Praha, Academia.  </li>
+	<li id="bib:filipec-cermak-85"><span class="bib-note">Filipec &ndash; Čermák (1985)</span><br /><span class="capsname">Filipec</span>, J. &ndash; Čermák, F. (1985):   <em>Česká lexikologie</em>.  Praha, Academia.  </li>
+	<li id="bib:fillmore-case"><span class="bib-note">Fillmore (1968)</span><br /><span class="capsname">Fillmore</span>, C.&nbsp;J. (1968): The Case for Case.:  In <span class="caps">Bach</span>, E. &ndash; <span class="caps">Harms</span>, R.&nbsp;T. (ed.) <em>Universals   in Linguistic Theory</em>, s.&nbsp;1&ndash;88. New York, Holt, Rinehart and   Winston.  </li>
+	<li id="bib:fillmore-case-re"><span class="bib-note">Fillmore (1977)</span><br /><span class="capsname">Fillmore</span>, C.&nbsp;J. (1977): The Case for Case Reopened.:  In <span class="caps">Cole</span>, P. &ndash; <span class="caps">Sadock</span>, J.&nbsp;M. (ed.) <em>Syntax   and Semantics</em>, vol. 8: Grammatical Relations, s.&nbsp;59&ndash;81. New York,   Academic Press.  </li>
+	<li id="bib:framenet2"><span class="bib-note">Fillmore et&nbsp;al. (2002)</span><br /><span class="capsname">Fillmore</span>, C.&nbsp;J. &ndash; <span class="caps">Baker</span>, C. &ndash; Sato, H. (2002):   Seeing Arguments through Transparent Structures.  In <span class="caps">Rodríguez</span>, M.&nbsp;G. &ndash; <span class="caps">Araujo</span>, C. P.&nbsp;S. (ed.)   <em>Proceedings of the 3rd International Conference on Language Resources   and Evaluation, LREC 2002</em>, s.&nbsp;787&ndash;791, Paris, ELRA.  </li>
+	<li id="bib:grepl-karlik-98"><span class="bib-note">Grepl &ndash; Karlík (1998)</span><br /><span class="capsname">Grepl</span>, M. &ndash; Karlík, P. (1998): <em>Skladba   češtiny</em>.  Olomouc, Votobia.  </li>
+	<li id="bib:pdtvallex-03"><span class="bib-note">Hajič et&nbsp;al. (2003)</span><br /><span class="capsname">Hajič</span>, J. et&nbsp;al. (2003): PDT-VALLEX: Creating a Large-coverage   Valency Lexicon for Treebank Annotation.  In <span class="caps">Nivre</span>, J. &ndash; <span class="caps">Hinrichs</span>, E. (ed.)   <em>Proceedings of The Second Workshop on Treebanks and Linguistic   Theories</em>, Vol. 9, s.&nbsp;57&ndash;68.  (Co-authors: <span class="caps">Panevová</span>,&nbsp;J. &ndash; <span class="caps">Urešová</span>,&nbsp;Z. &ndash; <span class="caps">Bémová</span>, A. &ndash; <span class="caps">Kolářová</span>, V. &ndash; <span class="caps">Pajas</span>, P.).  </li>
+	<li id="bib:hlava-phd"><span class="bib-note">Hlaváčková (2008)</span><br /><span class="capsname">Hlaváčková</span>, D. (2008): <em>Databáze slovesných   valenčních rámců VerbaLex</em>.  Disertační práce, Brno, Masarykova univerzita v Brně,   Filozofická fakulta.  </li>
+	<li id="bib:verbalex-05"><span class="bib-note">Hlaváčková &ndash;   Horák (2005)</span><br /><span class="capsname">Hlaváčková</span>, D. &ndash; Horák, A. (2005):   Transformation of WordNet Czech Valency Frames into Augmented VALLEX-1.0   Format.  In <em>Human Language Technologies as a Challenge for Computer   Science and Linguistics</em>, s.&nbsp;310&ndash;313, Poznań, Wydawnictwo Poznańskie   Sp. z o.o. with cooperation of Fundacja Uniwersytetu im. A. Mickiewicza.  </li>
+	<li id="bib:ivanova-14"><span class="bib-note">Ivanová et&nbsp;al. (2014)</span><br /><span class="capsname">Ivanová</span>, M. et&nbsp;al. (2014): <em>Valenčný slovník   slovenských slovies na korpusovom základe</em>.  Prešov, Filozofická fakulta Prešovskej univerzity v   Prešove.  (Co-authors: <span class="caps">Sokolová</span>, M. &ndash; <span class="caps">Kyseľová</span>,   M. &ndash; <span class="caps">Perovská</span>, V.)  </li>
+	<li id="bib:joshi-tag"><span class="bib-note">Joshi (1985)</span><br /><span class="capsname">Joshi</span>, A.&nbsp;K. (1985): Tree adjoining grammars: How much   context-sensitivity is required to provide reasonable structural   descriptions?  In <span class="caps">Dowty</span>, D. &ndash; <span class="caps">Karttunen</span>, L. &ndash; <span class="caps">Zwicky</span>,   A.&nbsp;M. (ed.) <em>Natural Language Parsing: Psychological, Computational,   and Theoretical Perspectives</em>, s.&nbsp;206&ndash;250. Cambridge, Cambridge University   Press.  </li>
+	<li id="bib:joshi-75"><span class="bib-note">Joshi et&nbsp;al. (1975)</span><br /><span class="capsname">Joshi</span>, A.&nbsp;K. &ndash; <span class="caps">Levy</span>, L.&nbsp;S. &ndash; Takahashi, M. (1975):   Tree Adjunct Grammars.  <em>Journal of Computer and System Sciences</em>. 10(1), s.&nbsp;136&ndash;136.  </li>
+	<li id="bib:encykl"><span class="bib-note">Karlík et&nbsp;al. (2002)</span><br /><span class="capsname">Karlík</span>, P. &ndash; <span class="caps">Nekula</span>, M. &ndash; Pleskalová,   J. (ed.) (2002): <em>Encyklopedický slovník češtiny</em>.  Praha, Nakladatelství Lidové noviny.  </li>
+	<li id="bib:kettnerova-14"><span class="bib-note">Kettnerová (2014)</span><br /><span class="capsname">Kettnerová</span>, V. (2014):   <em>Lexikálně-sémantické konverze ve   valenčním slovníku</em>.  Praha, Karolinum.  </li>
+	<li id="bib:lex-alter-13"><span class="bib-note">Kettnerová &ndash; Lopatková (2013)</span><br /><span class="capsname">Kettnerová</span>, V. &ndash; Lopatková, M. (2013):   Lexikalizované alternace v češtině.  <em>Linguistica Copernicana</em>. 9(1), s.&nbsp;31&ndash;64.  </li>
+	<li id="bib:euralex-12"><span class="bib-note">Kettnerová et&nbsp;al. (2012)</span><br /><span class="capsname">Kettnerová</span>, V. &ndash; Lopatková, M. &ndash;   <span class="caps">Bejček</span>, E. (2012): The Syntax-Semantics Interface of Czech   Verbs in the Valency Lexicon.  In <span class="caps">Fjeld</span>, R.&nbsp;V. &ndash; <span class="caps">Torjusen</span>, J.&nbsp;M. (ed.)   <em>Proceedings of the XV EURALEX International Congress</em>,   s.&nbsp;434&ndash;443, Oslo, Norway, Department of Linguistics and Scandinavian   Studies, University of Oslo.  </li>
+	<li id="bib:kett-refl-15"><span class="bib-note">Kettnerová et&nbsp;al. (2015)</span><br /><span class="capsname">Kettnerová</span>, V. &ndash; Lopatková, M. &ndash;   <span class="caps">Panevová</span>, J. (2015): Shoda doplňku v reflexivních   konstrukcích v&nbsp;češtině.  <em>Slovo a slovesnost</em>. 76(3), s.&nbsp;198&ndash;214.  </li>
+	<li id="bib:propbank-02"><span class="bib-note">Kingsbury et&nbsp;al. (2002)</span><br /><span class="capsname">Kingsbury</span>, P. &ndash; <span class="caps">Palmer</span>, M. &ndash; Mitch, M. (2002):   Adding Predicate Argument Structure to the Penn TreeBank.  In <em>The Second International Human Language Technology   Conference, HLT-02</em>, San Diego, CA.  </li>
+	<li id="bib:verbnet-2"><span class="bib-note">Kipper et&nbsp;al. (2006)</span><br /><span class="capsname">Kipper</span>, K. et&nbsp;al. (2006): Extensive Classifications of English   Verbs.  In <span class="caps">Corino</span>, E. &ndash; <span class="caps">Marello</span>, C. &ndash; <span class="caps">Onesti</span>, C.   (ed.) <em>Proceedings of the XII EURALEX International Congress</em>,   Turin.  (Co-authors: <span class="caps">Korhonen</span>, A. &ndash; <span class="caps">Ryant</span>, N. &ndash; <span class="caps">Palmer</span>,   M.).  </li>
+	<li id="bib:konig-08"><span class="bib-note">König &ndash; Gast (2008)</span><br /><span class="capsname">König</span>, E. &ndash; Gast, V. (2008): <em>Reciprocals and   Reflexives. Theoretical and Typological Explorations</em>.  Berlin &ndash; New York, Mouton de Gruyter.  </li>
+	<li id="bib:kovacova-05"><span class="bib-note">Kováčová (2005)</span><br /><span class="capsname">Kováčová</span>, K. (2005): <em>Konverzívnost jako   systémový vztah</em>.  Disertační práce, Praha, Univerzita Karlova v Praze,   Filozofická fakulta.  </li>
+	<li id="bib:levin-93"><span class="bib-note">Levin (1993)</span><br /><span class="capsname">Levin</span>, B.&nbsp;C. (1993): <em>English Verb Classes and Alternations: A   Preliminary Investigation</em>.  Chicago and London, The University of Chicago Press.  </li>
+	<li id="bib:06-insight"><span class="bib-note">Lopatková &ndash; Panevová (2006)</span><br /><span class="capsname">Lopatková</span>, M. &ndash; Panevová, J. (2006): Recent   Developments in the Theory of Valency in&nbsp;the&nbsp;Light of the Prague Dependency   Treebank.  In <span class="caps">Šimková</span>, M. (ed.) <em>Insight into Slovak   and Czech Corpus Linguistics</em>, s.&nbsp;83&ndash;92. Bratislava, Veda.  </li>
+	<li id="bib:diateze-KS-man"><span class="bib-note">Lopatková et&nbsp;al. (2016)</span><br /><span class="capsname">Lopatková</span>, M. &ndash; Vernerová, A. &ndash;   <span class="caps">Kettnerová</span>, V. (2016): Diateze ve Valenčním   slovníku českých sloves VALLEX.  In <span class="caps">Skwarska</span>, K. (ed.) <em>Výzkum slovesné   valence ve slovanských zemích</em>, s.&nbsp;151&ndash;169. Praha, Slovanský   ústav AV ČR.  </li>
+	<li id="bib:melcuk-88"><span class="bib-note">Mel'čuk (1988)</span><br /><span class="capsname">Mel'čuk</span>, I.&nbsp;A. (1988): <em>Dependency Syntax: Theory and   Practice</em>.  Albany, State University of New York Press.  </li>
+	<li id="bib:melcuk-04"><span class="bib-note">Mel'čuk (2004)</span><br /><span class="capsname">Mel'čuk</span>, I.&nbsp;A. (2004): Actants in Semantics and Syntax I.:  <em>Linguistics</em>. 42(1), s.&nbsp;1&ndash;66.  </li>
+	<li id="bib:melcuk-84"><span class="bib-note">Mel'čuk &ndash; Zholkovsky (1984)</span><br /><span class="capsname">Mel'čuk</span>, I.&nbsp;A. &ndash; Zholkovsky, A.&nbsp;K. (1984):   <em>Explanatory Combinatorial Dictionary of Modern Russian</em>.  Vienna, Wiener Slawistischer Almanach.  </li>
+	<li id="bib:nedjalkov-07"><span class="bib-note">Nedjalkov (2007)</span><br /><span class="capsname">Nedjalkov</span>, V.&nbsp;P. (2007): <em>Typology of Reciprocal Constructions</em>.:  Amsterdam &ndash; Philadelphia, John Benjamins Publishing Company.  </li>
+	<li id="bib:niznikova-06"><span class="bib-note">Nižníková (2006)</span><br /><span class="capsname">Nižníková</span>, J. (2006): <em>Valenčný   slovník slovenských slovies. 2. zväzok (na korpusovom   základe)</em>.  Prešov, Filozofická fakulta Prešovskej univerzity v   Prešove.  </li>
+	<li id="bib:niznik-sokolova-98"><span class="bib-note">Nižníková &ndash;   Sokolová (1998)</span><br /><span class="capsname">Nižníková</span>, J. &ndash; Sokolová, M. (1998):   <em>Valenčný slovník slovenských slovies</em>.  Prešov, Filozofická fakulta Prešovskej univerzity v   Prešove.  </li>
+	<li id="bib:semlink-09"><span class="bib-note">Palmer (2009)</span><br /><span class="capsname">Palmer</span>, M. (2009): Semlink: Linking PropBank, VerbNet and FrameNet.:  In <em>Proceedings of the Generative Lexicon Conference, GenLex   2009</em>, Pisa.  </li>
+	<li id="bib:palmer-05"><span class="bib-note">Palmer et&nbsp;al. (2005)</span><br /><span class="capsname">Palmer</span>, M. &ndash; <span class="caps">Gildea</span>, D. &ndash; Kingsbury, P. (2005):   The Proposition Bank: An Annotated Corpus of Semantic Roles.  <em>Computational Linguistics</em>. 31(1), s.&nbsp;71&ndash;106.  </li>
+	<li id="bib:panevova-74-5"><span class="bib-note">Panevová (1974&ndash;75)</span><br /><span class="capsname">Panevová</span>, J. (1974&ndash;75): On Verbal Frames in Functional   Generative Description I&ndash;II.  <em>The Prague Bulletin of Mathematical Linguistics</em>. 22&ndash;23,   s.&nbsp;3&ndash;40, s. 17&ndash;52.  </li>
+	<li id="bib:panevova-80"><span class="bib-note">Panevová (1980)</span><br /><span class="capsname">Panevová</span>, J. (1980): <em>Formy a funkce ve stavbě   české věty</em>.  Praha, Academia.  </li>
+	<li id="bib:pan-rec-99"><span class="bib-note">Panevová (1999)</span><br /><span class="capsname">Panevová</span>, J. (1999): Česká reciproční   zájmena a slovesná valence.  <em>Slovo a slovesnost</em>. 60(4), s.&nbsp;269&ndash;275.  </li>
+	<li id="bib:pan-rec-cz-07"><span class="bib-note">Panevová (2007)</span><br /><span class="capsname">Panevová</span>, J. (2007): Znovu o reciprocitě.:  <em>Slovo a slovesnost</em>. 68(2), s.&nbsp;91&ndash;100.  </li>
+	<li id="bib:mluvnice-14"><span class="bib-note">Panevová et&nbsp;al. (2014)</span><br /><span class="capsname">Panevová</span>, J. et&nbsp;al. (2014): <em>Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu</em>.  Praha, Karolinum.  (Co-authors: <span class="caps">Hajičová</span>, E. &ndash; <span class="caps">Kettnerová</span>, V. &ndash; <span class="caps">Lopatková</span>, M. &ndash; <span class="caps">Mikulová</span>,   M. &ndash; <span class="caps">Ševčíková</span>, M.)  </li>
+	<li id="bib:pan-rec-pbml-07"><span class="bib-note">Panevová &ndash; Mikulová (2007)</span><br /><span class="capsname">Panevová</span>, J. &ndash; Mikulová, M. (2007): On   Reciprocity.  <em>The Prague Bulletin of Mathematical Linguistics</em>. 87,   s.&nbsp;27&ndash;40.  </li>
+	<li id="bib:jpa-vrez-vseob"><span class="bib-note">Panevová &ndash;   Řezníčková (2001)</span><br /><span class="capsname">Panevová</span>, J. &ndash; Řezníčková, V.   (2001): K možnému pojetí všeobecnosti aktantu.  In <span class="caps">Hladká</span>, Z. &ndash; <span class="caps">Karlík</span>, P. (ed.)   <em>Čeština &ndash; univerzália a specifika 3</em>,   s.&nbsp;139&ndash;146.  </li>
+	<li id="bib:polanski-92"><span class="bib-note">Polański (1980&ndash;1992)</span><br /><span class="capsname">Polański</span>, K. (ed.) (1980&ndash;1992): <em>Słownik   syntaktyczno-generatywny czasowników polskich</em>.  Wrocław &ndash; Kraków, Zakład Narodowy Im. Ossoliński, Instytut   Języka Polskiego PAN.  </li>
+	<li id="bib:pollard-sag-94"><span class="bib-note">Pollard &ndash; Sag (1994)</span><br /><span class="capsname">Pollard</span>, C. &ndash; Sag, I.&nbsp;A. (1994): <em>Head-Driven Phrase   Structure Grammar</em>.  Chicago &ndash; London, University of Chicago Press.  </li>
+	<li id="bib:popova-87"><span class="bib-note">Popova (1987)</span><br /><span class="capsname">Popova</span>, M. (1987): <em>Kratăk valenten rečnik na glagolite v   săvremennia bălgarski knižoven ezik</em>.  Sofia, Bulgarian Academy of Sciences Publishing House.  </li>
+	<li id="bib:walenty"><span class="bib-note">Przepiórkowski et&nbsp;al. (2014)</span><br /><span class="capsname">Przepiórkowski</span>, A. et&nbsp;al. (2014): Walenty: Towards a comprehensive   valence dictionary of Polish.  In <span class="caps">Calzolari</span>, N. et&nbsp;al. (ed.) <em>Proceedings of the Ninth   International Conference on Language Resources and Evaluation, LREC 2014</em>,   s.&nbsp;2785&ndash;2792, Iceland, Reykjavík, ELRA.  (Co-authors: <span class="caps">Hajnicz</span>, E. &ndash; <span class="caps">Patejuk</span>, A. &ndash; <span class="caps">Woliński</span>, M. &ndash; <span class="caps">Skwarski</span>, F. &ndash; <span class="caps">Świdziński</span>, M.).  </li>
+	<li id="bib:framenet-06"><span class="bib-note">Ruppenhofer et&nbsp;al. (2006)</span><br /><span class="capsname">Ruppenhofer</span>, J. et&nbsp;al. (2006): <em>FrameNet II: Extended Theory and   Practice</em>.  California, Berkeley, International Computer Science Institute.  (Co-authors: <span class="caps">Ellsworth</span>, M. &ndash; <span class="caps">Petruck</span>, M. R. L. &ndash; <span class="caps">Johnson</span>, C. R. &ndash; <span class="caps">Scheffczyk</span>, J.)  </li>
+	<li id="bib:sgall-67"><span class="bib-note">Sgall (1967)</span><br /><span class="capsname">Sgall</span>, P. (1967): <em>Generativní popis jazyka a česká   deklinace</em>.  Praha, Academia.  </li>
+	<li id="bib:sgall-06"><span class="bib-note">Sgall (2006)</span><br /><span class="capsname">Sgall</span>, P. (2006): Valence jako jádro jazykového systému.:  <em>Slovo a slovesnost</em>. 67(3), s.&nbsp;163&ndash;178.  </li>
+	<li id="bib:SaS-86"><span class="bib-note">Sgall et&nbsp;al. (1986b)</span><br /><span class="capsname">Sgall</span>, P. et&nbsp;al. (1986b): <em>Úvod do syntaxe a   sémantiky</em>.  Praha, Academia.  (Co-authors: <span class="caps">Bémová</span>, A. &ndash; <span class="caps">Borota</span>, J. &ndash; <span class="caps">Hajičová</span>, E. &ndash; <span class="caps">Hajičová</span>, I. &ndash; <span class="caps">Jirků</span>, P. &ndash; <span class="caps">Panevová</span>, J. &ndash; <span class="caps">Plátek</span>, M.   &ndash; <span class="caps">Vrbová</span>, J.)  </li>
+	<li id="bib:meaning"><span class="bib-note">Sgall et&nbsp;al. (1986a)</span><br /><span class="capsname">Sgall</span>, P. &ndash; Hajičová, E. &ndash;   <span class="caps">Panevová</span>, J. (1986a): <em>The Meaning of the   Sentence in Its Semantic and Pragmatic Aspects</em>.  Dordrecht, Reidel.  </li>
+	<li id="bib:skoumalova-01"><span class="bib-note">Skoumalová (2001)</span><br /><span class="capsname">Skoumalová</span>, H. (2001): <em>Czech Syntactic Lexicon</em>.:  PhD thesis, Prague, Charles University in Prague.  </li>
+	<li id="bib:smi-66"><span class="bib-note">Šmilauer (1966)</span><br /><span class="capsname">Šmilauer</span>, V. (1966): <em>Novočeská skladba</em>.:  Praha, SPN.  </li>
+	<li id="bib:SPP"><span class="bib-note">Svozilová et&nbsp;al. (1997)</span><br /><span class="capsname">Svozilová</span>, N. &ndash; Prouzová, H. &ndash;   <span class="caps">Jirsová</span>, A. (1997): <em>Slovesa pro praxi.   Valenční slovník nejčastějších   českých sloves</em>.  Praha, Academia.  </li>
+	<li id="bib:SPP2"><span class="bib-note">Svozilová et&nbsp;al. (2005)</span><br /><span class="capsname">Svozilová</span>, N. &ndash; Prouzová, H. &ndash;   <span class="caps">Jirsová</span>, A. (2005): <em>Slovník slovesných,   substantivních a&nbsp;adjektivních vazeb a spojení</em>.  Praha, Academia.  </li>
+	<li id="bib:tesnier-59"><span class="bib-note">Tesnière (1959)</span><br /><span class="capsname">Tesnière</span>, L. (1959): <em>Eléments de syntaxe structurale</em>.:  Paris, Librairie C. Klincksieck.  (Translation: <span class="caps">Kahane</span>, S. &ndash; <span class="caps">Osborne</span>, T. (2015)   <em>Elements of Structural Syntax.</em> Amsterdam &ndash; Philadelphia, John   Benjamins Publishing Company.)  </li>
+	<li id="bib:uresova-11"><span class="bib-note">Urešová (2011)</span><br /><span class="capsname">Urešová</span>, Z. (2011): <em>Valence sloves v Pražském   závislostním korpusu</em>.  Praha, Ústav formální a aplikované lingvistiky.  </li>
+	<li id="bib:wagner-14"><span class="bib-note">Wagner (2014)</span><br /><span class="capsname">Wagner</span>, R. (2014): A case of collision in principles of language   description.  <em>The Prague Bulletin of Mathematical Linguistics</em>. 101,   s.&nbsp;123&ndash;146.  </li>
+	<li id="bib:zz-phd"><span class="bib-note">Žabokrtský (2005)</span><br /><span class="capsname">Žabokrtský</span>, Z. (2005): <em>Valency Lexicon of Czech   Verbs</em>.  PhD thesis, Prague, Charles University in Prague.  </li>
+</ul>
+<hr />
+<h2>Obsah</h2>
+<ul class="toc">
+	<li>&nbsp;<a href="#sec-sect-valence-slovniky" class="href">Úvod</a></li>
+	<li>&nbsp;<a href="#sec-sect-valence-teorie" class="href">Valenční charakteristika sloves</a></li>
+	<li>1&nbsp;<a href="#sec-sect-aktanty-volna" class="href">Aktanty a&nbsp;volná doplnění ve FGP</a></li>
+	<li>1.1&nbsp;<a href="#sec-sect-aktanty-posouvani" class="href">Princip <span class='gloss'>&bdquo;kognitivního&ldquo;</span> posouvání</a></li>
+	<li>1.2&nbsp;<a href="#sec-sect-character" class="href">Charakteristika aktantů</a></li>
+	<li>1.3&nbsp;<a href="#sec-sect-oblig-fakult" class="href">Obligatornost vs. fakultativnost: dialogový test</a></li>
+	<li>1.4&nbsp;<a href="#sec-sect-vr" class="href">Valenční rámec ve FGP</a></li>
+	<li>1.5&nbsp;<a href="#sec-sect-vallex" class="href">Zachycení valence ve <em>VALLEX</em>u</a></li>
+	<li>2&nbsp;<a href="#sec-sect-valence-alternace" class="href">Alternace</a></li>
+	<li>2.1&nbsp;<a href="#sec-sect-gram-alternace" class="href">Gramatikalizované alternace</a></li>
+	<li>2.2&nbsp;<a href="#sec-sect-gram-rep" class="href">Reprezentace gramatikalizovaných alternací ve <em>VALLEX</em>u</a></li>
+	<li>2.3&nbsp;<a href="#sec-sect-lexikal-alternace" class="href">Lexikalizované alternace</a></li>
+	<li>2.4&nbsp;<a href="#sec-sect-lex-rep" class="href">Reprezentace lexikalizovaných alternací ve <em>VALLEX</em>u</a></li>
+	<li><a href="#sec:biblio" class="href">Seznam literatury</a></li>
+</ul>
