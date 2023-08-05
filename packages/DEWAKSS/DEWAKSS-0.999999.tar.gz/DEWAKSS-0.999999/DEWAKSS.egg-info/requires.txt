@@ -1,0 +1,9 @@
+sparse-dot-mkl
+umap-learn==0.3.10
+scipy
+sklearn
+pandas
+scanpy>=1.5.1
+scvelo
+matplotlib
+seaborn
