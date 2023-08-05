@@ -1,0 +1,16 @@
+shapeandshare/dicebox/core/__init__.py,sha256=em3nCYuSupGbirXjZ60Rq_TiY5Fv6QrATpJXNKkYCm4,102
+shapeandshare/dicebox/core/dicebox_network.py,sha256=Uj717Edbj3U01r4Z7A5GfYYgJ-VKxjn-oW14NCNdWWg,18347
+shapeandshare/dicebox/core/evolutionary_optimizer.py,sha256=SR18_wNlWBEIo7RB1hkGk85PizAn_pDouS7hVvt-9ng,11513
+shapeandshare/dicebox/core/config/__init__.py,sha256=6rD0z17azHVHglpvW7SRh4RrDiosSeKL4PLLgNJNx3A,78
+shapeandshare/dicebox/core/config/base_config.py,sha256=LVxg_q5Kb-QHOmITVDcS3swbY1lK2b_Ep9JhUy7jl7M,12343
+shapeandshare/dicebox/core/config/dicebox_config.py,sha256=wpDaftZZd2h6gHpv7l3pS8tlnfnejNyiAxeF8RMeJ4I,19943
+shapeandshare/dicebox/core/connectors/__init__.py,sha256=gz6QYbhaOguiL58maQK3d8jnrqTSN_N37QVNu42kZZo,117
+shapeandshare/dicebox/core/connectors/filesystem_connecter.py,sha256=rJQPu5rk5JKOus_d3EaK6xffMaTR5dx9Sy7MRpQBp98,11062
+shapeandshare/dicebox/core/connectors/sensory_service_connector.py,sha256=c6jQ6v3YkE47wX9AxqU3dwYugGvsejM9aZSNGABv5Fw,11543
+shapeandshare/dicebox/core/utils/__init__.py,sha256=HTxCVaw1TLgpHMH8guB3hHYQ80cX6_fSEoPT_hz2Y8w,23
+shapeandshare/dicebox/core/utils/helpers.py,sha256=FRqbHCxih0GBkFcKniKO4yqP-baNYgNpAyWo_8N3SHc,1776
+shapeandshare_dicebox_core-2.1.0.dist-info/LICENSE.txt,sha256=NeNnfRxdZ15FNHopeWFS721Fgyvru1q-AczuA0UpeAg,1073
+shapeandshare_dicebox_core-2.1.0.dist-info/METADATA,sha256=eY9UvkiUGyzWQn9fV1hrqpP2KhQ2IEHDUbOF5oX9mKY,3545
+shapeandshare_dicebox_core-2.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shapeandshare_dicebox_core-2.1.0.dist-info/top_level.txt,sha256=WFyhC7YObzATLBZwxcWyW4SzBm91pDad4Ci-e-pAr8I,14
+shapeandshare_dicebox_core-2.1.0.dist-info/RECORD,,
