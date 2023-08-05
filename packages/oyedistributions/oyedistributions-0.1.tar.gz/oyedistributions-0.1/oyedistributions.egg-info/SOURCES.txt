@@ -1,0 +1,10 @@
+setup.py
+oyedistributions/Binomialdistribution.py
+oyedistributions/Gaussiandistribution.py
+oyedistributions/Generaldistribution.py
+oyedistributions/__init__.py
+oyedistributions.egg-info/PKG-INFO
+oyedistributions.egg-info/SOURCES.txt
+oyedistributions.egg-info/dependency_links.txt
+oyedistributions.egg-info/not-zip-safe
+oyedistributions.egg-info/top_level.txt
