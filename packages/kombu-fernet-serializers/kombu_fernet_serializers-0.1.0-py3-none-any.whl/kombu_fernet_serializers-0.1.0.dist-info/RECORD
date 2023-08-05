@@ -1,0 +1,12 @@
+kombu_fernet/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+kombu_fernet/serializers/__init__.py,sha256=EqSiFKBB1nAL_F4uPICFknOS0BlmnUhMY6B9hrz8Z_A,1080
+kombu_fernet/serializers/json.py,sha256=wTSNtwVNvSS6px24wmgjP_OK6Vuv9Gd1LfChudmp5Xo,326
+kombu_fernet/serializers/msgpack.py,sha256=k9_Ge6msHF8DYPJeWQ0SEV3uswVeBoXOsK3q_prQkTA,948
+kombu_fernet/serializers/pickle.py,sha256=pqQXENPedxVwt5wId2UeFEGWyozYoyM8v4pup0J5waY,961
+kombu_fernet/serializers/yaml.py,sha256=RIiTzPwGw-KyWTFM-Rn-YW9mnIHMzfE6keRcaSol9UM,773
+kombu_fernet_serializers-0.1.0.dist-info/LICENSE,sha256=hzIUbQMhgxC9_syPsTSJ8s91H6R72lHA3dAA-5oPBOU,1070
+kombu_fernet_serializers-0.1.0.dist-info/METADATA,sha256=l4a4Gyjb4OLrmaP2dxTG_QIi-iXSwRsai2ZA_akOgKw,1690
+kombu_fernet_serializers-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kombu_fernet_serializers-0.1.0.dist-info/entry_points.txt,sha256=4snQD6G5Rr5VJvq6vrGkmXj0Q6HPbBTqc0YHRVfBn3c,263
+kombu_fernet_serializers-0.1.0.dist-info/top_level.txt,sha256=CJXNZJt-oOxa2J1-F5MZQg8Ej0Akbaz_Z8sDAKnMhlU,13
+kombu_fernet_serializers-0.1.0.dist-info/RECORD,,
