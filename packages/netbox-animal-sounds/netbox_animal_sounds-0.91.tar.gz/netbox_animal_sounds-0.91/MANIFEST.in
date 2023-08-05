@@ -1,0 +1,3 @@
+include netbox_animal_sounds/templates/*
+include netbox_animal_sounds/templates/inc/*
+recursive-include netbox_animal_sounds/ *.html
