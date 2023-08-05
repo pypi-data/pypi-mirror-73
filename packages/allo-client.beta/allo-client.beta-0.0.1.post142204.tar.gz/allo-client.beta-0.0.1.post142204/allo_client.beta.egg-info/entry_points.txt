@@ -1,0 +1,4 @@
+[console_scripts]
+allo = allo.core:launch
+allo-install = allo.ansible:AlloAnsible.do_install_dependencies
+
