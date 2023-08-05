@@ -1,0 +1,7 @@
+README.rst
+setup.py
+colorthistext.egg-info/PKG-INFO
+colorthistext.egg-info/SOURCES.txt
+colorthistext.egg-info/dependency_links.txt
+colorthistext.egg-info/not-zip-safe
+colorthistext.egg-info/top_level.txt
