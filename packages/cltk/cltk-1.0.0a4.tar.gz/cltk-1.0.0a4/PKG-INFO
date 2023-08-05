@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: cltk
+Version: 1.0.0a4
+Summary: The Classical Language Toolkit
+Home-page: http://cltk.org
+License: MIT
+Keywords: nlp,ai,nltk,latin,greek
+Author: Kyle P. Johnson
+Author-email: kyle@kyle-p-johnson.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Religion
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Classifier: Natural Language :: German
+Classifier: Natural Language :: Greek
+Classifier: Natural Language :: Latin
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: boltons (>=20.0.0,<21.0.0)
+Requires-Dist: fasttext (>=0.9.1,<0.10.0)
+Requires-Dist: gensim (>=3.8.1,<4.0.0)
+Requires-Dist: gitpython (>=3.0,<4.0)
+Requires-Dist: greek-accentuation (>=1.2.0,<2.0.0)
+Requires-Dist: nltk (>=3.5,<4.0)
+Requires-Dist: python-Levenshtein (>=0.12.0,<0.13.0)
+Requires-Dist: requests (>=2.22.0,<3.0.0)
+Requires-Dist: stanza (>=1.0.0,<2.0.0)
+Requires-Dist: toml (>=0.10.1,<0.11.0)
+Requires-Dist: tqdm (>=4.41.1,<5.0.0)
+Project-URL: Documentation, https://cltk.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/cltk/cltk
+Description-Content-Type: text/x-rst
+
+.. image:: https://travis-ci.org/cltk/cltk.svg?branch=master
+    :target: https://travis-ci.org/cltk/cltk
+
+About
+-----
+
+Experimental CLTK with new ``NLP()`` class.
+
+Installation
+------------
+
+.. code-block:: bash
+
+   $ pip install cltk
+
+
+Documentation
+-------------
+
+``$ make docs``
+
+
+Development
+-----------
+
+The following steps will give you a working development environment.
+
+Python setup
+============
+
+Use ``pyenv`` to manage Python versions and ``poetry`` for package builds.
+
+* Install ``pyenv``:
+   - First time installation; ``curl https://pyenv.run | bash``
+   - To update: ``pyenv update``
+   - Resource: `Managing Multiple Python Versions With pyenv <https://realpython.com/intro-to-pyenv/>`_
+* Install supported versions of the Python language through ``pyenv`` into a dedicated virtualenv:
+   - ``$ pyenv install --list | grep 3.8``
+   - ``$ pyenv install 3.8.3`` (or whatever is latest)
+   - ``$ pyenv virtualenv 3.8.3 cltk``
+   - ``$ pyenv local cltk``. Open a new window and this should be activated (check with ``$ python --version``).
+* Install ``poetry`` to support packaging: ``$ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python`` (`<https://poetry.eustace.io/docs/>`_)
+* Install dependencies in ``poetry.lock``: ``$ poetry install``
+* Install Stanford NLP models: ``$ poetry run python scripts/download_misc_dependencies.py``
+* Install Graphiz (necessary for building docs): https://graphviz.gitlab.io/download/
+
+
+Packaging
+=========
+
+* Validate structure of ``pyproject.toml``: ``$ poetry check``
+* Update project version with ``poetry``: ``$ poetry version prepatch`` (e.g., ``1.0.0`` to ``1.0.1-alpha.0``)
+   - For minor version: ``$ poetry version preminor`` (``1.0.0`` to ``1.1.0-alpha.0``)
+   - For major version: ``$ poetry version premajor`` (``1.0.0`` to ``2.0.0-alpha.0``)
+* Update all dependencies to latest version (optional): ``$ make updateDependencies``
+* Make package (sdist and wheel): ``$ make build``
+* Check typing: ``$ make typing``
+   - View report at ``.mypy_cache/index.html``
+* Run linter: ``$ make lint``
+   - View report at ``pylint/pylint.html``
+* Auto-format code: ``$ make format``
+* Build docs: ``$ make docs``
+   - View docs at ``docs/_build/html/index.html``
+* Make UML diagrams: ``$ make uml``
+   - View diagrams at ``docs/classes.png`` and ``docs/packages.png``
+* Run the above at each commit  with ``pre-commit``: ``$ poetry run pre-commit install`` (just once)
+* Run tests: ``$ make test``
+* Publish pre-release (permissions required): ``$ make uploadTest``
+* Install from TestPyPI: ``$ make installPyPITest``
+* Repeat the above as necessary
+* Bump version: ``$ poetry version patch`` (e.g., ``1.0.1-alpha.0`` to ``1.0.1``)
+   - For minor version: ``$ poetry version minor`` (``1.0.1-alpha.0`` to ``1.1.0``)
+   - For major version: ``$ poetry version major`` (``1.0.1-alpha.0`` to ``2.0.0``)
+   - If you need to publish multiple versions of an alpha pre-release, run ``$ poetry version prerelease`` (e.g., ``1.0.1-alpha.0`` to ``1.0.1-alpha.1`` to ``1.0.1-alpha.2``)
+* Publish to PyPI (permissions required): ``$ make upload``
+
