@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: flat-tree
+Version: 0.0.1a6
+Summary: Utilities for navigating flat trees
+Home-page: https://github.com/hyperpy/flat-tree
+Keywords: hypercore,hypercore-protocol
+Author: Decentral1se
+Author-email: hi@decentral1.se
+Maintainer: Decentral1se
+Maintainer-email: hi@decentral1.se
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: attrs (>=19.3.0,<20.0.0)
+Project-URL: Repository, https://github.com/hyperpy/flat-tree
+Description-Content-Type: text/markdown
+
+# flat-tree
+
+[![Build Status](https://drone.autonomic.zone/api/badges/hyperpy/flat-tree/status.svg)](https://drone.autonomic.zone/hyperpy/flat-tree)
+
+## Utilities for navigating flat trees
+
+```sh
+$ pip install flat-tree
+```
+
+> Flat Trees are the core data structure that power Hypercore feeds. They allow
+> us to deterministically represent a tree structure as a vector. This is
+> particularly useful because vectors map elegantly to disk and memory. Because
+> Flat Trees are deterministic and pre-computed, there is no overhead to using
+> them. In effect this means that Flat Trees are a specific way of indexing
+> into a vector more than they are their own data structure. This makes them
+> uniquely efficient and convenient to implement in a wide range of languages.
+
