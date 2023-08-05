@@ -1,0 +1,11 @@
+opportunity_scraper/__init__.py,sha256=tXNI8CYBjMMTmHSPl1pMadp0svTsL88R1zwHYlJRQMA,1482
+opportunity_scraper/govuk.py,sha256=quTzja-mgl8G5Lx3XDgY4Z30KhO0OVOS_I0T8AfqueA,3899
+opportunity_scraper/ktn.py,sha256=p6KFHSiVzqseV8KTCLMo-qnZB1inqrghSTGwAY95i6U,4917
+opportunity_scraper/opportunity.py,sha256=5wO7_awegm4iW5tdlCbppFV2WeYaohfO_uhQyokyW3c,835
+opportunity_scraper/settings.py,sha256=4aqb99vGC5PkiDUD1FH_F_y8XqZPGbsDDAUq8sHHOoI,635
+opportunity_scraper-0.1.6.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+opportunity_scraper-0.1.6.dist-info/METADATA,sha256=YgXsU0p7G6YdcpfjbH1AColfbEYE16ekFUBReJmI67c,4796
+opportunity_scraper-0.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+opportunity_scraper-0.1.6.dist-info/entry_points.txt,sha256=yI-8cia_CSRme0TlhU7QMU335nvuKht7QLwStrR2JbQ,65
+opportunity_scraper-0.1.6.dist-info/top_level.txt,sha256=zOmPfs4YnZMNhavKGnhVRxeW0bx3_jsBLaEvL6MEFHc,20
+opportunity_scraper-0.1.6.dist-info/RECORD,,
