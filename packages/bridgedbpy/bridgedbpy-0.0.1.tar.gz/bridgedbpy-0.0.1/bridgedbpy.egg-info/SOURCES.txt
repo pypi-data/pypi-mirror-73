@@ -1,0 +1,8 @@
+README.md
+bridgedbpy.py
+setup.py
+bridgedbpy.egg-info/PKG-INFO
+bridgedbpy.egg-info/SOURCES.txt
+bridgedbpy.egg-info/dependency_links.txt
+bridgedbpy.egg-info/requires.txt
+bridgedbpy.egg-info/top_level.txt
