@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: vertibird
+Version: 0.0.1
+Summary: A really, really simple Python virtualization module which interfaces directly with QEMU. Screw using libvirt.
+Home-page: https://github.com/naphthasl/vertibird
+Author: Naphtha Nepanthez
+Author-email: naphtha@lotte.link
+License: MIT
+Description: 
+        Vertibird is a dead-simple virtualization library based around direct access to
+        QEMU. Because I couldn't be bothered to figure out how the hell the crappy
+        libvirt C bindings work. I also couldn't be bothered to write a million lines
+        of XML. Screw that.
+        
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
