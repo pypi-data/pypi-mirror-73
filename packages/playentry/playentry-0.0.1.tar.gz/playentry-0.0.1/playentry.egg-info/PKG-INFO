@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: playentry
+Version: 0.0.1
+Summary: Python Playentry API Wrapper
+Home-page: https://github.com/COIN-KR/playentry
+Author: coin_kr, ArpaAP
+Author-email: insert0012@gmail.com, arpa1705@gmail.com
+License: GPL
+Description: # entry.py
+        Python Playentry API Wrapper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
