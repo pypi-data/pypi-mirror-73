@@ -1,0 +1,3 @@
+[console_scripts]
+yamlgen = yamlgen.__main__:main
+
