@@ -1,0 +1,13 @@
+README.md
+setup.py
+tiky.py
+tik_data/__init__.py
+tik_data/color/__init__.py
+tik_data/license/__init__.py
+tiky.egg-info/PKG-INFO
+tiky.egg-info/SOURCES.txt
+tiky.egg-info/dependency_links.txt
+tiky.egg-info/entry_points.txt
+tiky.egg-info/not-zip-safe
+tiky.egg-info/requires.txt
+tiky.egg-info/top_level.txt
