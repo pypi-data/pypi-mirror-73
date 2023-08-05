@@ -1,0 +1,11 @@
+pyartifacts/__init__.py,sha256=bOnqstFVEPVaKNzLJ0TMdh-52TtDMAVVLvfL-TB6M7Q,1473
+pyartifacts/artifact.py,sha256=DDSLZVgMnj2dxFR2s1Ae6qp_XwyvHiGBhM4PcKqAz3s,7385
+pyartifacts/artifact_schema.json,sha256=y_j1YQ6VmNgty0pnk7bbNzPF1bm_xID_oYg17QCvvow,4278
+pyartifacts/definitions.py,sha256=qK8uPBIw8AY8BJnn_CuSbKQGnw3abbeGsNlDiPsk1uM,1788
+pyartifacts/registry.py,sha256=X-ImNAk35NActaLor4PWfkjqKvSS9-vMMyszLeZYpHc,4116
+pyartifacts/variables.py,sha256=f_Qs5A3c6vQOmtZiQKcZOh-P5yz0nR7NzQwGVHH8e78,5974
+pyartifacts-0.12.5.dist-info/LICENSE,sha256=QO_wVqmWUy2ggriQ_N1V4ruUv0KjqVVfb_1P_gMerA8,1067
+pyartifacts-0.12.5.dist-info/METADATA,sha256=gCe3fwK6kmP7ECq-9b3Mu4Dx2LoJZeYxWMaMbvyHkPk,1641
+pyartifacts-0.12.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyartifacts-0.12.5.dist-info/top_level.txt,sha256=aLEOy95R8HgAz3XXefEE8ZhiWREpQFVzctTrsUEin0I,12
+pyartifacts-0.12.5.dist-info/RECORD,,
