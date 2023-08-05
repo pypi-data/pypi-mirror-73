@@ -1,0 +1,15 @@
+__init__.py,sha256=u7Lqhu_yEWS-dOSziQHP3MxB2uQBOwxbbxjn2rwl6PA,46
+wiktionaryparser.py,sha256=bmKVR6M3YfURcUzoKop6pZA6bbGrPSJ4nkGwSJrK9uA,12890
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/context.py,sha256=JBYHudcZ8eqcYrFwS3-jEyGDFWFnQXWDHUHdX5JvsTA,154
+tests/test.py,sha256=DDvTH_Ra9s7KWnnLCDOzJfYhGHiJnekRo3EHRLZT1rM,922
+utils/__init__.py,sha256=3w4RJd_d40raFfQZ13XSak2o7tmv69zOv01pJuJJ1a0,52
+utils/utils.py,sha256=EBwWH7IihT43wpbqpA_Om6OtOmobu2Z0svUbPYLdlyY,2837
+wiktionaryparser_ml-0.0.1.data/data/readme/readme.md,sha256=ZjEgYOWD0y3Qf2M7TxSkc6qZpXpKchlD9jOMRHIr-1w,2038
+wiktionaryparser_ml-0.0.1.data/data/requirements/requirements.txt,sha256=y9LGzyGWVBGqElsQa0iBk5tLMAUppBsu-GJmEfjVmEA,55
+wiktionaryparser_ml-0.0.1.data/data/testOutput/testOutput.json,sha256=QCRhKNd4mZq6fSEtWn3cR1E7fz8zTFOUPA4J2h_SwFc,43936
+wiktionaryparser_ml-0.0.1.dist-info/LICENSE.txt,sha256=uV9fgVj9ec4uQHkOmGR9T6Hkc4Xtj6Juy3A8dS0nUP0,1099
+wiktionaryparser_ml-0.0.1.dist-info/METADATA,sha256=OU6HAul7XkYZIK_Md5TUGUxNBPTUlQEExZJdL4a8Mjg,2675
+wiktionaryparser_ml-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wiktionaryparser_ml-0.0.1.dist-info/top_level.txt,sha256=OL1hRxU6f56dm40Y3mPPA5X83M2By_1pHFPf860R8Og,13
+wiktionaryparser_ml-0.0.1.dist-info/RECORD,,
