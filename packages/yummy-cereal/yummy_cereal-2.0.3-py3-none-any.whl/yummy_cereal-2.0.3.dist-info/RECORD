@@ -1,0 +1,17 @@
+yummy_cereal/__init__.py,sha256=0ChkhTpl9Lv3jEGckgts7pey0lAkxzYWW0suZP-vFRI,375
+yummy_cereal/exceptions.py,sha256=h-P5wCOVtyLtwiTW9_EU4u7Fq5Equt8l5FMxTcVPKBM,1730
+yummy_cereal/protocols.py,sha256=V6wm2aCuOOIYnfTI2az9cB4axCU3Z43gO3MrmP1QP0g,538
+yummy_cereal/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yummy_cereal/parsers/annotations_parser.py,sha256=jsr0DG-_-G6_WLpgZ8Fk8RbDTBIfyKnPC7h3c4FamZs,5080
+yummy_cereal/parsers/validated_parser.py,sha256=zVAThBHV-e7i-hJ2Fubvp4vyh4wfltEklv9XPmmAZWA,803
+yummy_cereal/serializers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yummy_cereal/serializers/annotations_serializer.py,sha256=7EbfPDntveUQX-IUXJ4pku-VjiFyvsfYYVLyujEUjRw,4547
+yummy_cereal/serializers/validated_serializer.py,sha256=MBD6p7Crncqs7KIU2VK-oKWwl7sArtZxeUvliDOyHf4,789
+yummy_cereal/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yummy_cereal/utils/annotations.py,sha256=WTj6969Kvj02jjbbjntb9pVs7eyAIK505_cr2ujyCr4,1561
+yummy_cereal/utils/formatters.py,sha256=p7KrGYjD3b4Ls_GTlIkJy9PuhcqYf-r0hAOQWa5sb_8,1128
+yummy_cereal-2.0.3.dist-info/LICENSE.md,sha256=VKeuwXvFCZe-znYAjmB6lP-3eZ0LFwC0c95wUA4U_k4,1071
+yummy_cereal-2.0.3.dist-info/METADATA,sha256=_pKo7Dhp7sWsKii9X4AMQXimGOQBmQ6C9YGOnd3hk_k,6775
+yummy_cereal-2.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+yummy_cereal-2.0.3.dist-info/top_level.txt,sha256=A5VKVsQcAwKEeRr042SjhRVGNyHJ7Vs1VCPF26ujYQk,13
+yummy_cereal-2.0.3.dist-info/RECORD,,
