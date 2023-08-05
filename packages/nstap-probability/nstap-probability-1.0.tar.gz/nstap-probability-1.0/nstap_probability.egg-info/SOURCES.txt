@@ -1,0 +1,10 @@
+setup.py
+nstap-probability/Binomialdistribution.py
+nstap-probability/Gaussiandistribution.py
+nstap-probability/Generaldistribution.py
+nstap-probability/__init__.py
+nstap_probability.egg-info/PKG-INFO
+nstap_probability.egg-info/SOURCES.txt
+nstap_probability.egg-info/dependency_links.txt
+nstap_probability.egg-info/not-zip-safe
+nstap_probability.egg-info/top_level.txt
