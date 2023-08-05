@@ -1,0 +1,8 @@
+README.md
+setup.py
+ginkgopy/__init__.py
+ginkgopy/print_str.py
+ginkgopy.egg-info/PKG-INFO
+ginkgopy.egg-info/SOURCES.txt
+ginkgopy.egg-info/dependency_links.txt
+ginkgopy.egg-info/top_level.txt
