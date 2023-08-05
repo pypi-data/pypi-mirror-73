@@ -1,0 +1,11 @@
+click
+ffmpeg-python
+filterpy
+opencv-python-headless
+numpy
+Pillow
+requests
+scikit-image
+scikit-learn>=0.21
+torch
+torchvision
