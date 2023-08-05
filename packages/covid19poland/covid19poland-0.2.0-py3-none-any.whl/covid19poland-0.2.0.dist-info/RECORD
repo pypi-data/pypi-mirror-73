@@ -1,0 +1,15 @@
+covid19poland/PLtwitter.py,sha256=Zes2D8VaYzf7rH9YmaNj5wE_2GCgYouAM2EH4suoZ7c,18999
+covid19poland/PLwiki.py,sha256=08jWY2v1zaBUaOGYaHDn3-X8V1t0vgoxXTG7OHpE42M,3161
+covid19poland/__init__.py,sha256=3N6XTQ8_7I-AIshGOgRKxQi7eM-0clgS49d5HJAq5js,421
+covid19poland/offline.py,sha256=ae-7MzxJhPPo8LfpiHy4UJ_PauoKZC46utwGfU0_zyc,2399
+covid19poland/parse.py,sha256=TWr35DbeFpQ2_gUMdVJPud_8M73GHplmPKckBJpAboQ,1283
+covid19poland/data/2020-03.json,sha256=YjDqE1OoOkoEYfAxqRF91hzvjYxV8PL7hOwHD63J0fw,13214
+covid19poland/data/2020-04.json,sha256=pp2qjuLCDZuUucRiPGzSS69kORdvNdvXADn6TfeWBOQ,140476
+covid19poland/data/2020-05.json,sha256=FI-8wPq0GXgEFy9wMDQLqDB3vQNPekcdsYqfqLUefuA,100264
+covid19poland/data/2020-06.json,sha256=mEUPem316L3I4cTyt7spmGx0Fs-fb-akBzEQ1afVLJM,94789
+covid19poland/data/NUTS_PL.csv,sha256=-QngwxkT5nocarpf_YOTjwYswrZ08Ck8rnQvN4wvtGE,219282
+covid19poland-0.2.0.dist-info/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+covid19poland-0.2.0.dist-info/METADATA,sha256=ZbxbfRT2-JtwGUxhKETmTKVUkFJ7Y8bt-8i37Ab07aY,3856
+covid19poland-0.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+covid19poland-0.2.0.dist-info/top_level.txt,sha256=_baHUDYwbW1hUYpV93e4vHw6pQA0SumSdc1cll0O5dQ,14
+covid19poland-0.2.0.dist-info/RECORD,,
