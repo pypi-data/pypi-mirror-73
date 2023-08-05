@@ -1,0 +1,10 @@
+setup.py
+Mayank769_Dist/Binomialdistribution.py
+Mayank769_Dist/Gaussiandistribution.py
+Mayank769_Dist/Generaldistribution.py
+Mayank769_Dist/__init__.py
+Mayank769_dist.egg-info/PKG-INFO
+Mayank769_dist.egg-info/SOURCES.txt
+Mayank769_dist.egg-info/dependency_links.txt
+Mayank769_dist.egg-info/not-zip-safe
+Mayank769_dist.egg-info/top_level.txt
