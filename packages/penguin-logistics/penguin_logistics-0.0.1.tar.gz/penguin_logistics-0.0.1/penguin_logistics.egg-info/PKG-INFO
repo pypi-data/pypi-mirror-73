@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: penguin-logistics
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: Find the Penguin Logistics puzzle!
+        寻找企鹅物流运单号！
+        
+        ```shell
+        python -m penguin_logistics 12345
+        ```
+        
+        Replace `12345` with your initial track number.
+        将`12345`替换为初始单号即可！
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
