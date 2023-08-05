@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+grvlms_stripe.egg-info/PKG-INFO
+grvlms_stripe.egg-info/SOURCES.txt
+grvlms_stripe.egg-info/dependency_links.txt
+grvlms_stripe.egg-info/entry_points.txt
+grvlms_stripe.egg-info/requires.txt
+grvlms_stripe.egg-info/top_level.txt
+grvlmsstripe/__about__.py
+grvlmsstripe/__init__.py
+grvlmsstripe/plugin.py
+grvlmsstripe/patches/.gitignore
+grvlmsstripe/patches/openedx-lms-common-settings
+grvlmsstripe/templates/stripe/apps/.gitignore
+grvlmsstripe/templates/stripe/build/.gitignore
+grvlmsstripe/templates/stripe/hooks/.gitignore

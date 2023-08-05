@@ -1,0 +1,20 @@
+PAYMENT_PROCESSORS = (
+  'ecommerce.extensions.payment.processors.stripe.Stripe',
+)
+
+PAYMENT_PROCESSOR_CONFIG = {
+  'edx': {
+    'stripe': {
+        'publishable_key': '{{ STRIPE_PUBLISHABLE_KEY }}',
+        'secret_key': '{{ STRIPE_SECRET_KEY }}',
+        'country': '',
+    },
+  },
+  'openedx': {
+    'stripe': {
+        'publishable_key': '{{ STRIPE_PUBLISHABLE_KEY }}',
+        'secret_key': '{{ STRIPE_SECRET_KEY }}',
+        'country': '',
+    },
+  },
+}
