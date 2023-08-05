@@ -1,0 +1,80 @@
+running sdist
+running egg_info
+writing demographer.egg-info/PKG-INFO
+writing requirements to demographer.egg-info/requires.txt
+writing dependency_links to demographer.egg-info/dependency_links.txt
+writing top-level names to demographer.egg-info/top_level.txt
+reading manifest file 'demographer.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'demographer.egg-info/SOURCES.txt'
+running check
+creating demographer-1.0.2
+creating demographer-1.0.2/demographer
+creating demographer-1.0.2/demographer.egg-info
+creating demographer-1.0.2/demographer/cli
+creating demographer-1.0.2/demographer/data
+creating demographer-1.0.2/demographer/tflm
+copying files to demographer-1.0.2...
+copying LICENSE.txt -> demographer-1.0.2
+copying MANIFEST.in -> demographer-1.0.2
+copying README.md -> demographer-1.0.2
+copying get_data.sh -> demographer-1.0.2
+copying indorg.sh -> demographer-1.0.2
+copying out.txt -> demographer-1.0.2
+copying requirements.txt -> demographer-1.0.2
+copying setup.cfg -> demographer-1.0.2
+copying setup.py -> demographer-1.0.2
+copying test_python23.sh -> demographer-1.0.2
+copying test_python_2or3.sh -> demographer-1.0.2
+copying demographer/__init__.py -> demographer-1.0.2/demographer
+copying demographer/baseline_dataset.py -> demographer-1.0.2/demographer
+copying demographer/combo_dataset.py -> demographer-1.0.2/demographer
+copying demographer/demog_dexp.py -> demographer-1.0.2/demographer
+copying demographer/demographer.py -> demographer-1.0.2/demographer
+copying demographer/encoders.py -> demographer-1.0.2/demographer
+copying demographer/encoders_selfreport.py -> demographer-1.0.2/demographer
+copying demographer/ethnicity.py -> demographer-1.0.2/demographer
+copying demographer/ethnicity_neural.py -> demographer-1.0.2/demographer
+copying demographer/ethnicity_selfreport_neural.py -> demographer-1.0.2/demographer
+copying demographer/experiment_runner.py -> demographer-1.0.2/demographer
+copying demographer/experiment_runner_selfreport.py -> demographer-1.0.2/demographer
+copying demographer/gender.py -> demographer-1.0.2/demographer
+copying demographer/gender_c.py -> demographer-1.0.2/demographer
+copying demographer/gender_neural.py -> demographer-1.0.2/demographer
+copying demographer/indorg.py -> demographer-1.0.2/demographer
+copying demographer/indorg_dataset.py -> demographer-1.0.2/demographer
+copying demographer/indorg_neural.py -> demographer-1.0.2/demographer
+copying demographer/indorg_temp_dataset.py -> demographer-1.0.2/demographer
+copying demographer/infer_ethnicity_selfreport.py -> demographer-1.0.2/demographer
+copying demographer/infer_neural_indorg.py -> demographer-1.0.2/demographer
+copying demographer/label_mapping.py -> demographer-1.0.2/demographer
+copying demographer/mnist.py -> demographer-1.0.2/demographer
+copying demographer/naacl_twitter.py -> demographer-1.0.2/demographer
+copying demographer/rebalance.py -> demographer-1.0.2/demographer
+copying demographer/selfreport_dataset.py -> demographer-1.0.2/demographer
+copying demographer/train_ethnicity_selfreport.py -> demographer-1.0.2/demographer
+copying demographer/train_neural_indorg.py -> demographer-1.0.2/demographer
+copying demographer/train_simple_indorg.py -> demographer-1.0.2/demographer
+copying demographer/transformer.py -> demographer-1.0.2/demographer
+copying demographer/transformer_indorg.py -> demographer-1.0.2/demographer
+copying demographer/transformer_selfreport.py -> demographer-1.0.2/demographer
+copying demographer/utils.py -> demographer-1.0.2/demographer
+copying demographer.egg-info/PKG-INFO -> demographer-1.0.2/demographer.egg-info
+copying demographer.egg-info/SOURCES.txt -> demographer-1.0.2/demographer.egg-info
+copying demographer.egg-info/dependency_links.txt -> demographer-1.0.2/demographer.egg-info
+copying demographer.egg-info/requires.txt -> demographer-1.0.2/demographer.egg-info
+copying demographer.egg-info/top_level.txt -> demographer-1.0.2/demographer.egg-info
+copying demographer/cli/__init__.py -> demographer-1.0.2/demographer/cli
+copying demographer/cli/__main__.py -> demographer-1.0.2/demographer/cli
+copying demographer/cli/process_names.py -> demographer-1.0.2/demographer/cli
+copying demographer/cli/process_tweets.py -> demographer-1.0.2/demographer/cli
+copying demographer/data/census_gender_dct.python2.p -> demographer-1.0.2/demographer/data
+copying demographer/data/census_gender_dct.python3.p -> demographer-1.0.2/demographer/data
+copying demographer/data/nam_dict.txt.gz -> demographer-1.0.2/demographer/data
+copying demographer/tflm/__init__.py -> demographer-1.0.2/demographer/tflm
+copying demographer/tflm/input_dataset.py -> demographer-1.0.2/demographer/tflm
+copying demographer/tflm/optimizer.py -> demographer-1.0.2/demographer/tflm
+copying demographer/tflm/symbol_table.py -> demographer-1.0.2/demographer/tflm
+Writing demographer-1.0.2/setup.cfg
+Creating tar archive
+removing 'demographer-1.0.2' (and everything under it)
