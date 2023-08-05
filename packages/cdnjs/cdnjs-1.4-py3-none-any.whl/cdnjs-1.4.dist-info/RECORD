@@ -1,0 +1,9 @@
+cdnjs/__init__.py,sha256=pTQUD4z-gbO5ObiQNzu4lIET-9nUwSDzbWsXHb3iBDY,13558
+cdnjs/settings.py,sha256=BUjd8-oUEHiECxND3LvVl6j8mxWFNXazLpRioDWi6u4,418
+cdnjs/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdnjs/templatetags/cdnjstag.py,sha256=6n_B_cs32gblwQN2rXxm5doOspUT9-7-OQ1s61gtkCg,416
+cdnjs-1.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+cdnjs-1.4.dist-info/METADATA,sha256=Sats1fsZ8_0aGDm7-bGq85EUZpFaZavG6SLp-Vz6Jfc,3992
+cdnjs-1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cdnjs-1.4.dist-info/top_level.txt,sha256=rltzIR2LrIyIAfRJYQKX5TLcT6Y3VWKJqU9kG_xFAz4,6
+cdnjs-1.4.dist-info/RECORD,,
