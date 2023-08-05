@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: amshan
+Version: 0.4.0
+Summary: Decode norwegian AMS-smart meter data stream from meter HAN port
+Home-page: https://github.com/toreamun/amshan
+Author: Tore Amundsen
+Author-email: tore@amundsen.org
+License: UNKNOWN
+Keywords: meter,han,ams,aidon,kaifa,kamstrup,cosem,hdlc,fast frame check
+Platform: POSIX
+Platform: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: construct
+Provides-Extra: serial
+Requires-Dist: pyserial-asyncio (>=0.4) ; extra == 'serial'
+
+# AMSHAN
+
+Package to help decode smart power meter data stream
+of Cosem HDLC frames.
+
+The package supports formats of Aidon, Kaifa and Kamstrum
+meters used in Norway (see https://www.nek.no/info-ams-han-utviklere/).
+
+
