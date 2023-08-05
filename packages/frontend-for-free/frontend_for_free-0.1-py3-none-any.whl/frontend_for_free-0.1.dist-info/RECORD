@@ -1,0 +1,14 @@
+fffbnf.py,sha256=1feuAXQIIrO7cKYJTBrswxpKFzP-bmH5JWdLOfN1QoM,8766
+fffbnf_parser.py,sha256=e_N6D-4CSJ3vumgDaptubesEHaVozEUTauSWajQBTkA,130979
+ffflex.py,sha256=rmwxqWIarINk4KLBnHmHgLh_3agOZOkWJfD8U8pxIDU,5022
+ffflex_parser.py,sha256=N75hpSYg0vwCkws6BLuta-B1bKX254yTI8apcZ9bS-o,22749
+ffflex_template.py,sha256=FZPIOf92sxOU3Sc7hhJ80B6XD7h8up0UyPYMQ5qJnos,3088
+fffmain.py,sha256=KHijXGCCBNTozbEZBUrcHK3g9dTyBzeySNfrBjMM4HI,1958
+fffparser_template.py,sha256=uaDMDgvcSVwiLwv3xjBsFycQQ4FcfZy8xZqDnIol_E4,2331
+fffpylinker.py,sha256=0yfXIoMIdw2SH5x4cOjdNDoL6P8j9cSwxV00DPZj9Eo,7773
+frontend_for_free-0.1.dist-info/LICENSE,sha256=-zxX77DFPT0VEfWaza71rlz3D6TyJgIpCiP2fGTHIhA,1545
+frontend_for_free-0.1.dist-info/METADATA,sha256=MWxZNPnJ9gVbGFQrobK7TQGQkoUlT0gR0FSdE3FM64g,2555
+frontend_for_free-0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+frontend_for_free-0.1.dist-info/entry_points.txt,sha256=LXxUDauiLZlA-WX_zFNoGCuCsmB_qH049D4fbeC4fKM,115
+frontend_for_free-0.1.dist-info/top_level.txt,sha256=mWem2WatlCtCUV6LdzcrqqgvOcxJpL6MKJuft5IViPs,97
+frontend_for_free-0.1.dist-info/RECORD,,
