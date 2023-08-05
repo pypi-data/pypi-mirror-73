@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fastbook-questions
+Version: 0.0.3
+Summary: Extract Questions from FastBook Notebooks
+Home-page: https://github.com/wooduk/fastbook-questions/tree/master/
+Author: Stephen Wood
+Author-email: sgwooduk@gmail.com
+License: Apache Software License 2.0
+Description: # fastbook-questions
+        > A tiny script to extract the end-of-chapter fastbook questions to their own notebooks.
+        
+        
+        This file will become your README and also the index of your documentation.
+        
+        ## Install
+        
+        `pip install git+fastbook_questions`
+        
+        ## How to use
+        
+        Call `fastbook_extract` from the command line to extract all the questions to their own notebooks with cells for your answers.
+        
+        Optional Arguments:
+        
+        `fastbook_extract src_path dst_path collate` 
+        
+Keywords: fastai fastbook
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
