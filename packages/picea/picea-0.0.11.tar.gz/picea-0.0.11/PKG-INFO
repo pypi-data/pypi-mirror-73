@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: picea
+Version: 0.0.11
+Summary: A lightweight python library for working with             trees and sequence collections
+Home-page: https://github.com/holmrenser/picea
+Author: Rens Holmer
+Author-email: rens.holmer@wur.nl
+License: MIT
+Description: UNKNOWN
+Platform: Windows
+Platform: Windows Cygwin
+Platform: GNU/Linux
+Platform: MacOS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Utilities
