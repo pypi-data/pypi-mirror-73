@@ -1,0 +1,8 @@
+d3m_interface/__init__.py,sha256=PGmtFdzGiwlSutLfhESkrti4T_sXb1Q_Cj_ydCwbbiA,37
+d3m_interface/automl_interface.py,sha256=lqR49dB-QS4LHid8Y_tsRmeWX1sp0dE6JIbxfl4Sfxs,11638
+d3m_interface/basic_ta3.py,sha256=Bn6pr67raTMromPechmnrEIUx3kVWph6xpEy6O1TFYM,7007
+d3m_interface/data_converter.py,sha256=sMqfCVd2ru_3b7uyDIba3aUSdBWa17R0-CrsBNPKJdw,4242
+d3m_interface-0.1.8.dist-info/METADATA,sha256=oFDT_LeHwkEg25RK9fPN9w_E6-FXg6hG9XTLQBQBBJQ,1442
+d3m_interface-0.1.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+d3m_interface-0.1.8.dist-info/top_level.txt,sha256=9Q7VfeEhJrxUbsKX4kUffHnC-1kP-nbK5NIGQnc21d8,14
+d3m_interface-0.1.8.dist-info/RECORD,,
