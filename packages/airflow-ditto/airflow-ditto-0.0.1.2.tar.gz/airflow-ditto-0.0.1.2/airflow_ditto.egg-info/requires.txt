@@ -1,0 +1,8 @@
+deepdiff==4.3.2
+networkx
+apache-airflow<=2.*,>=1.10.10
+matplotlib
+airflow-hdinsight
+boto3
+parameterized
+alchemy-mock
