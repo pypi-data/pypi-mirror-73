@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+*.sqlite3
+env/
+build/
+dist/
+django_adminlte_full.egg-info/
