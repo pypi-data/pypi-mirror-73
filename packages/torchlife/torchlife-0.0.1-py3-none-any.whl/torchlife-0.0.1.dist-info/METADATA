@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: torchlife
+Version: 0.0.1
+Summary: Deep Learning for Survival Analysis
+Home-page: https://github.com/sachinruk/torchlife
+Author: Sachinthaka Abeywardana
+Author-email: sachinra@it.usyd.edu.au
+License: Apache Software License 2.0
+Keywords: Survival Analysis,Deep Learning,PyTorch,Fastai
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastai
+Requires-Dist: torch (>=1.2.0)
+Requires-Dist: torchvision
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# TorchLife
+> Survival Analysis using pytorch
+
+
+This library takes a deep learning approach to Survival Analysis.
+
+## Install
+
+`pip install torchlife`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+
