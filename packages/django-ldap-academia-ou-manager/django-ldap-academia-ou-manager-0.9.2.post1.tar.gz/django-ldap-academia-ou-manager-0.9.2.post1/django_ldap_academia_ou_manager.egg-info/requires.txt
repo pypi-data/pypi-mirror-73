@@ -1,0 +1,5 @@
+bcrypt>=3.1.4
+Django<4,>3
+django-admin-rangefilter>=0.3.9
+passlib>=1.7.1
+chardet
