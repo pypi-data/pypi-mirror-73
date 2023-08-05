@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cartosky
+Version: 0.1
+Summary: Python tools for making skymaps
+Home-page: https://github.com/kadrlica/cartosky
+Author: Alex Drlica-Wagner
+Author-email: kadrlica@fnal.gov
+License: UNKNOWN
+Keywords: python astronomy plotting
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: cartopy (>=0.18.0)
+Requires-Dist: ephem
+Requires-Dist: healpy (>1.10.2)
+Requires-Dist: astropy
+Requires-Dist: pandas
+
+See https://github.com/kadrlica/cartosky
+
+
