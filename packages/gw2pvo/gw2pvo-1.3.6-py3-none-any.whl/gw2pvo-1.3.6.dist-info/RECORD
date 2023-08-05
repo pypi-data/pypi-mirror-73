@@ -1,0 +1,14 @@
+gw2pvo/__init__.py,sha256=-9QCGAVWO6Sp6cPdaOsPD8Qy9_kOdgAWXLn7xzprt4E,67
+gw2pvo/__main__.py,sha256=mUH3UmdW20tWRxchGJHm9f371rKPO0KhyjMcNPqF2mA,8722
+gw2pvo/average.py,sha256=jqPyQN1k9LMLPvzUvFv2g8cvUmZHUdSrZxq_uAwCAx4,705
+gw2pvo/ds_api.py,sha256=B7DKwAW_B0x3bgt7PCraoeHs6bCWF5S6PtzBHPCM-E0,2051
+gw2pvo/gw_api.py,sha256=Vj55C2uyF6CiQppZXuqA4CUg_ocDAe51JTq3UB8QvIU,7397
+gw2pvo/gw_csv.py,sha256=DGSi11QGmodHtCWKZpcZOKAD_YBiFOgUa8Yhei9q9HE,1631
+gw2pvo/netatmo_api.py,sha256=wzKZANtVn-C1tuttLpuI2kYZ8S8nG4a4xzprKr0Rsjk,4028
+gw2pvo/pvo_api.py,sha256=5F3JfA7_oEgQVNse-q1jA8QxebdTkt6NPrTNOEXvxgE,3200
+gw2pvo-1.3.6.dist-info/LICENSE,sha256=J7gYNrLzJ7DpNOAT6J_trxgAJFK3PEPDqtMFNCw-6xQ,1066
+gw2pvo-1.3.6.dist-info/METADATA,sha256=QXzI5yrFBBTzth9rkv0J-s7OhVUoAN5Hl-YVq0lICA0,9542
+gw2pvo-1.3.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gw2pvo-1.3.6.dist-info/entry_points.txt,sha256=fyEJ51TX2V9-kJ_5w0Dcxe44IHi7nhiXM3-ZGyOKpIw,48
+gw2pvo-1.3.6.dist-info/top_level.txt,sha256=IxxxAk9GfdIwEURdd12tM-1UbRTPceV_UnlTj2uleEo,7
+gw2pvo-1.3.6.dist-info/RECORD,,
