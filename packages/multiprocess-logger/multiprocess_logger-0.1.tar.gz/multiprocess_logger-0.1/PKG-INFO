@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: multiprocess_logger
+Version: 0.1
+Summary: 一个安全可靠高效的进程间日志处理器  A safe, reliable and efficient inter process log processor
+Home-page: https://gitee.com
+Author: liuyancong
+Author-email: lyc456789@163.com
+License: MIT
+Description: 一个安全可靠高效的进程间日志处理器  A safe, reliable and efficient inter process log processor
+Platform: UNKNOWN
