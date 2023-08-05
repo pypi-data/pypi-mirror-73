@@ -1,0 +1,16 @@
+README.md
+setup.py
+bin/make_combined_NHANES_data.py
+nhanes/__init__.py
+nhanes/get_NHANES_from_R.py
+nhanes/load.py
+nhanes/utils.py
+nhanes.egg-info/PKG-INFO
+nhanes.egg-info/SOURCES.txt
+nhanes.egg-info/dependency_links.txt
+nhanes.egg-info/top_level.txt
+nhanes/combined_data/2017-2018/NHANES_data_2017-2018.tsv
+nhanes/combined_data/2017-2018/NHANES_metadata_2017-2018.tsv
+nhanes/combined_data/2017-2018/NHANES_variable_coding_2017-2018.pkl
+nhanes/config/datasets.json
+nhanes/config/vars_to_keep.json
