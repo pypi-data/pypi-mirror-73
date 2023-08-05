@@ -1,0 +1,12 @@
+requests==2.22.0
+furl==1.0.1
+gelreportmodels==7.4.1
+enum34==1.1.6
+future==0.17.1
+
+[pandas]
+pandas==1.0.5
+
+[test]
+mock==3.0.5
+pytest==4.6.4
