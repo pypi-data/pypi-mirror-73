@@ -1,0 +1,15 @@
+small_nn/__init__.py,sha256=NDRweC-rYAClNyP5FwSC6LeyEmsALzle_nX2iKGL3ag,114
+small_nn/data.py,sha256=VwteMMMijNPsLfsBXrxQhkqCGozUryk3m8JEUcU6cmk,285
+small_nn/layer.py,sha256=YFZF7LiYHlda4j8eA9ehio6yrIz1U5lhV3QYQOrn-yM,355
+small_nn/models.py,sha256=iPddte1PQ3W1jze9JL8uQHtrbE7xhckB4H8g6oRYvgY,271
+small_nn/network.py,sha256=C3_qNTTTEOIt-Iu8OITKikbnI2yEB3gKPYYfGf0mYPc,3463
+small_nn/setup.py,sha256=HM7hvpYf-FjcwJmkyucMLh8lYOrb525zNlnHz-06EK4,572
+small_nn/model/__init__.py,sha256=IBt2wfzt00idrhz1MM5Uy4FKqju4EzmI3kqz1lmG9fY,54
+small_nn/model/layer.py,sha256=YFZF7LiYHlda4j8eA9ehio6yrIz1U5lhV3QYQOrn-yM,355
+small_nn/model/model.py,sha256=hccTBaXWFyCrswpeMkZSjY1qEC8REhdRvJlhgCzqI9g,201
+small_nn/model/models.py,sha256=lICVg6ezgcYiO_4L3GEouAr_JbtmpP5D8RbwwG2qgCQ,247
+small_nn_jcanode-0.0.1.dist-info/LICENSE,sha256=yZ9jglGy9CAEnPYWbZ2GIcxMtfiy0Zs_L1OZPtZ2LWY,1063
+small_nn_jcanode-0.0.1.dist-info/METADATA,sha256=IIBGjuOTVDBNhiJKH3reBDG87643giQZm_ozFOjlkwU,459
+small_nn_jcanode-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+small_nn_jcanode-0.0.1.dist-info/top_level.txt,sha256=NjwjZGZm7CUEugji_nXtnEizCdqnmKMsWKsjuTCmuGI,9
+small_nn_jcanode-0.0.1.dist-info/RECORD,,
