@@ -1,0 +1,14 @@
+crypto_candlesticks/__init__.py,sha256=EO9czUF8qLypRIwGvPctLy8QbQR_A8Oa_YDShMi-EcE,399
+crypto_candlesticks/bitfinex_connector/__init__.py,sha256=T7G-BIGmqbufye1QLgRjrsngI-nn51HHpoFVVMZRjw0,401
+crypto_candlesticks/bitfinex_connector/connector.py,sha256=5coZhQvWflG02763jXLu_u1s2vx9sFU3ZW7nVTPbmbU,2040
+crypto_candlesticks/database.py,sha256=hVE14OvTx-jxgo9zspghYWzVx58Izu00o2PLcc9ofZI,3027
+crypto_candlesticks/get_data.py,sha256=DyCYtO4hBtz0DLQHTAAC7rDARERMm6mcGo5kXvzH_gc,4878
+crypto_candlesticks/interface.py,sha256=r0Hy0922tpkSYLLwYZc34uTqtFeCFGKAXCVVL4ZZmOc,2634
+crypto_candlesticks/validate_symbol.py,sha256=Oan6PmIN3liUXCK_fGnznbJj47Jof4QVxA0N2XMs1Tw,233
+crypto_candlesticks/🎁/🐰.txt,sha256=wG7CIWXzSVkQrzvqCq_MlQB9U-wfPwtnQCCi1LTmWE8,44
+crypto_candlesticks/🎁/🚀.jpg,sha256=tXkxjCj8Q1hX1EPPBFBZXwWNAC7J-w25H4wKNvJ4_WY,197897
+crypto_candlesticks-0.1.0.dist-info/entry_points.txt,sha256=tWOhTH8JtbYyUdng53IpYLO2ojF7lAruT6_lsQh78LA,74
+crypto_candlesticks-0.1.0.dist-info/LICENSE,sha256=XOWymWFtiF1g9V8ypFFfFgVcVb61GOpg7xNMMRuvRx4,1056
+crypto_candlesticks-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+crypto_candlesticks-0.1.0.dist-info/METADATA,sha256=CP2p8vfy3pAYsvVD258o45fCh5Qd2u-pEk-oOMAItsI,5831
+crypto_candlesticks-0.1.0.dist-info/RECORD,,
