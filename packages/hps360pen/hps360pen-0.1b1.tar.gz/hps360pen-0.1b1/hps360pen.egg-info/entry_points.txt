@@ -1,0 +1,3 @@
+[console_scripts]
+hps360pen = gusbite.hps360.hps360pen:hps360pen
+
