@@ -1,0 +1,10 @@
+ttcrpy/cgrid2d.cp36-win_amd64.pyd,sha256=jcdPA4_FVnPLq8-8QobEMiLMfeMSMZZKcduLWFVOcJ4,226816
+ttcrpy/cgrid3d.cp36-win_amd64.pyd,sha256=cEKXNVu9i9xWyGi1_9lNOtrnwQFk9BAcycI3ujGqFZM,266240
+ttcrpy/cmesh2d.cp36-win_amd64.pyd,sha256=f5JIlqARGMqNUzlEELog2tvzDTRMTw7x4nyX7dKo7oE,253952
+ttcrpy/cmesh3d.cp36-win_amd64.pyd,sha256=w3OjNbfCqY18sIE3g1KM5IPi7gYofvFoW-LVLkw_d6s,404480
+ttcrpy/rgrid.cp36-win_amd64.pyd,sha256=jNbk0G2f5t546vYVmRV8aUWoC-oWNBp5WB6vakCd8f8,1164800
+ttcrpy/tmesh.cp36-win_amd64.pyd,sha256=LecAefMuGnFV80ZTodBx8RCbGR84RVc_XJbV3dLos2g,1318912
+ttcrpy-0.3.7.dist-info/METADATA,sha256=m6OiRL-V9Czv1_PlLJcc33-ulAEP9D2SinxgWppCfco,8537
+ttcrpy-0.3.7.dist-info/WHEEL,sha256=Mp7cNSJkwOccBZaxEtyYhlze1HXRCLLX3tIlVLTix2E,106
+ttcrpy-0.3.7.dist-info/top_level.txt,sha256=rVRT_PtxzkjsbCuy6G2RycwkgIyrzyt3zF3EbRaAvOI,7
+ttcrpy-0.3.7.dist-info/RECORD,,
