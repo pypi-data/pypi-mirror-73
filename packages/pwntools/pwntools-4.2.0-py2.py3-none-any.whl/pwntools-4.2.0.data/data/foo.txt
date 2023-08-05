@@ -1,0 +1,16 @@
+================================================================================
+= Started at 2020-07-04T00:31:47                                               =
+= sys.argv = [                                                                 =
+=   '/opt/hostedtoolcache/Python/3.8.3/x64/lib/python3.8/site-packages/sphinx/__main__.py',=
+=   '-b',                                                                      =
+=   'doctest',                                                                 =
+=   'docs/source',                                                             =
+=   'docs/build/doctest',                                                      =
+= ]                                                                            =
+================================================================================
+2020-07-04T00:31:47:DEBUG:pwnlib.context:Hello!
+2020-07-04T00:31:47:INFO:pwnlib.context:Hello again!
+2020-07-04T00:31:47:INFO:pwnlib.context:Hello from foo!
+2020-07-04T00:31:47:INFO:pwnlib.tubes.remote.remote.139977132151712:Opening connection to google.com on port 80
+2020-07-04T00:31:47:INFO:pwnlib.tubes.remote.remote.139977132151712:Opening connection to google.com on port 80: Trying 172.217.13.78
+2020-07-04T00:31:47:INFO:pwnlib.tubes.remote.remote.139977132151712:Opening connection to google.com on port 80: Failed
