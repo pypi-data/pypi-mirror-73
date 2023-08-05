@@ -1,0 +1,5 @@
+[console_scripts]
+container_inspector = container_inspector.cli:container_inspector
+container_inspector_dockerfile = container_inspector.cli:container_inspector_dockerfile
+container_inspector_squash = container_inspector.cli:container_inspector_squash
+
