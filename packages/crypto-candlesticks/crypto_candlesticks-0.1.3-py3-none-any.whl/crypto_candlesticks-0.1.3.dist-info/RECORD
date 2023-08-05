@@ -1,0 +1,12 @@
+crypto_candlesticks/__init__.py,sha256=-fDZ9SOYjpNDJZWsI3eyGUjNh-98FV0FmE04eOt5mHE,414
+crypto_candlesticks/bitfinex_connector/__init__.py,sha256=eCY2r2ZUt3_t-KaB8FnQTtezerDw7iJXAUnWHN0jNZo,416
+crypto_candlesticks/bitfinex_connector/connector.py,sha256=hrajqIOqP6KJF9DINWxKottJ2hkigvdzwaRZ4EZdOn8,2108
+crypto_candlesticks/database.py,sha256=EMSA6KpTcBP-YLFcVAI-6lIRlevc3Qy4XUH4hleS7Rw,3114
+crypto_candlesticks/get_data.py,sha256=xoLWfjIXn2K41Te_1321WiRGss9Px4vKDnILs9lytF8,5035
+crypto_candlesticks/interface.py,sha256=3WlzJ3RCw8hd4qNA-YR3I3BZMK3a4dZUFxi4-Az1ezs,2739
+crypto_candlesticks/validate_symbol.py,sha256=wxhC5PKpo2d6RSLbnZ-Fc9hxxmvGOsHV2XADU2kxPUY,250
+crypto_candlesticks-0.1.3.dist-info/entry_points.txt,sha256=tWOhTH8JtbYyUdng53IpYLO2ojF7lAruT6_lsQh78LA,74
+crypto_candlesticks-0.1.3.dist-info/LICENSE,sha256=fkZSUJn2PbmQNusz176FvE9-nYmzx8ovt7siNHXZgoM,1075
+crypto_candlesticks-0.1.3.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+crypto_candlesticks-0.1.3.dist-info/METADATA,sha256=TGDbPGnll8-bZuUqG8USVhYvhysaa31hCY86sqVo7vs,5983
+crypto_candlesticks-0.1.3.dist-info/RECORD,,
