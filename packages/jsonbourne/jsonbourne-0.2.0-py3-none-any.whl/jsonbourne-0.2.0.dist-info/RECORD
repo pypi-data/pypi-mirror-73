@@ -1,0 +1,15 @@
+jsonbourne/__init__.py,sha256=u8WabjAvyLA7ac-L2j8IMH8DpUQrwSJ7_T4EJQ5rNgA,768
+jsonbourne/_import.py,sha256=RDiioG4Pvp1Y5hssQiT63u2pmroMgym6IeQsglVZBCY,890
+jsonbourne/core.py,sha256=IsCmJHfoweUYzjUwNE2ITfgsFVxf7EgapHw-bVadlfs,23223
+jsonbourne/json.py,sha256=Wtz0wCQiuVxu3a0pGXKb74PjNm58NLSZHJxSiLEqeZU,150
+jsonbourne/jsonlib/__init__.py,sha256=Tcu5NJ1WOpAF8AkggePmvrS8xaZldQLOoV7w6-N28h4,50
+jsonbourne/jsonlib/_json_stdlib.py,sha256=qWauzpUOl9reXRH4ghSR5FoeIuPjHVSq-5ucgK0uEyw,1144
+jsonbourne/jsonlib/_orjson.py,sha256=A4GYEycLhUD7FUs3F8QKtPRTD9o7S4Rj756WCEA8W9A,1198
+jsonbourne/jsonlib/_rapidjson.py,sha256=pxGzZHaOuC0bCNXE2Bf8daIwFKYzHOpmJ7i9PJOzfJY,1201
+jsonbourne/jsonlib/base.py,sha256=O9LHI5K-ylGBJ7qQqiC-CtIHAMHRFzII4EAgHmcz3Ro,1472
+jsonbourne/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonbourne/types.py,sha256=Wqx7ihuBdPDFqj15ILCaitV2C_Hpx75ESALVudmMIQM,612
+jsonbourne-0.2.0.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+jsonbourne-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+jsonbourne-0.2.0.dist-info/METADATA,sha256=IcFSVPpLByRUVB-hxZwdfgbGpOVGtDKDbfOCYfdx9N8,374
+jsonbourne-0.2.0.dist-info/RECORD,,
