@@ -1,0 +1,10 @@
+setup.py
+distributions_akash_v123/Binomialdistribution.py
+distributions_akash_v123/Gaussiandistribution.py
+distributions_akash_v123/Generaldistribution.py
+distributions_akash_v123/__init__.py
+distributions_akash_v123.egg-info/PKG-INFO
+distributions_akash_v123.egg-info/SOURCES.txt
+distributions_akash_v123.egg-info/dependency_links.txt
+distributions_akash_v123.egg-info/not-zip-safe
+distributions_akash_v123.egg-info/top_level.txt
