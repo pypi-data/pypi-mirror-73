@@ -1,0 +1,10 @@
+slackflow/__init__.py,sha256=fNuUNd54P-7ww6qn46jMuWPipoUuVBLxB-yOKaeInaA,1726
+slackflow/airflow.py,sha256=QGH5CiqtwLXD7UvVvq9fNyYxZMgdF2SC52TxtKd_0Fg,513
+slackflow/constants.py,sha256=ft8r2Q9qrTj-lxnoUeupr9wvTktS7efwHhELMIhrkyY,413
+slackflow/models.py,sha256=DKyEegO6e3NF4uhr5KSQlaVhhWHa6gofORL2i-qP4hk,1240
+slackflow/slack.py,sha256=yIVEEDQ-JUtyiXurzMr3F9kxuwUhsCqBvopXAbHc0V8,1419
+slackflow-0.0.4.data/scripts/slackflow-run,sha256=3BES3PZYeo2xVEJ3QFunyrTcbId9H6VPN-z22R9EHDw,58
+slackflow-0.0.4.dist-info/METADATA,sha256=SNgAyBqkNeJj3wgADws-ogr8BPyjQ7_3ogSZeJ4e_4c,1045
+slackflow-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slackflow-0.0.4.dist-info/top_level.txt,sha256=scx6c7Bg6aouIDJBNn4kts7VnS4ZqAIaCx2Dn4FI4kk,10
+slackflow-0.0.4.dist-info/RECORD,,
