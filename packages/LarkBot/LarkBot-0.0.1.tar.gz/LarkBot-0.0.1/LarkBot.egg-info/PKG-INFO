@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: LarkBot
+Version: 0.0.1
+Summary: A sdk of Lark
+Home-page: https://github.com/xiehengjian/LarkBot
+Author: Xie Hengjian
+Author-email: xiehengjian@outlook.com
+License: UNKNOWN
+Description: <!--
+         * @Author: your name
+         * @Date: 2020-07-04 22:28:30
+         * @LastEditTime: 2020-07-04 22:28:33
+         * @LastEditors: Please set LastEditors
+         * @Description: In User Settings Edit
+         * @FilePath: /feishuBot/README.md
+        --> 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
