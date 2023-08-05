@@ -1,0 +1,17 @@
+README.md
+setup.py
+fretboardgtr/__init__.py
+fretboardgtr/chordgtr.py
+fretboardgtr/constants.py
+fretboardgtr/fretboardgtr.py
+fretboardgtr/scalegtr.py
+fretboardgtr.egg-info/PKG-INFO
+fretboardgtr.egg-info/SOURCES.txt
+fretboardgtr.egg-info/dependency_links.txt
+fretboardgtr.egg-info/requires.txt
+fretboardgtr.egg-info/top_level.txt
+tests/__init__.py
+tests/test_chordgtr.py
+tests/test_fretboardgtr.py
+tests/test_integrate.py
+tests/test_scalegtr.py
