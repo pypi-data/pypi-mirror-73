@@ -1,0 +1,5 @@
+ALL = "all"
+MODIFY = "modify"
+MONITOR = "monitor"
+OWNERSHIP = "ownership"
+USAGE = "usage"

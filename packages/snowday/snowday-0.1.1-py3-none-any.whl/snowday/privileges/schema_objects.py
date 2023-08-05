@@ -1,0 +1,6 @@
+SELECT = "select"
+INSERT = "insert"
+UPDATE = "update"
+DELETE = "delete"
+TRUNCATE = "truncate"
+REFERENCES = "references"
