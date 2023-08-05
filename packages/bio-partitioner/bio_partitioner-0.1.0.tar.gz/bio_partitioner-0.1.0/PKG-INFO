@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bio_partitioner
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/david30907d/bio-partitioner
+Author: davidtnfsh
+Author-email: davidtnfsh@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.7.0
+Provides-Extra: dev

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./bio_partitioner/__init__.py
+./bio_partitioner/base.py
+./bio_partitioner/factory.py
+bio_partitioner.egg-info/PKG-INFO
+bio_partitioner.egg-info/SOURCES.txt
+bio_partitioner.egg-info/dependency_links.txt
+bio_partitioner.egg-info/requires.txt
+bio_partitioner.egg-info/top_level.txt
