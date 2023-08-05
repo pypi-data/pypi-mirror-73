@@ -1,0 +1,4 @@
+[console_scripts]
+protonvpn-gui = linux_gui.protonvpn_gui:init
+protonvpn-tray = linux_gui.indicator:ProtonVPNIndicator
+
