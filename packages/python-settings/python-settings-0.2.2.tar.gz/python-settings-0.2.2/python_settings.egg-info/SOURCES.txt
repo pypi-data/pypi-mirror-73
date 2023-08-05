@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+python_settings/__init__.py
+python_settings/exceptions.py
+python_settings.egg-info/PKG-INFO
+python_settings.egg-info/SOURCES.txt
+python_settings.egg-info/dependency_links.txt
+python_settings.egg-info/top_level.txt
+python_settings/tests/__init__.py
+python_settings/tests/test_python_settings.py
+python_settings/tests/settings/__init__.py
+python_settings/tests/settings/base_settings.py
+python_settings/tests/settings/development_settings.py
+python_settings/tests/settings/lazy_settings.py
