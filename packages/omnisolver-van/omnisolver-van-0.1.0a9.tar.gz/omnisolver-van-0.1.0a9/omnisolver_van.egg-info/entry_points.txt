@@ -1,0 +1,3 @@
+[omnisolver]
+van = omnisolver.van
+
