@@ -1,0 +1,13 @@
+awherepy/__init__.py,sha256=pRXQYPpeqIhK3yPekodiwRjZdB63XchmyoWy8p_cImo,2954
+awherepy/agronomics.py,sha256=wvKN8CzKyj82wT6nMz-36-Pp6Sgp1IV2QRnFlLNMXLw,29136
+awherepy/crops.py,sha256=W2nfgFa_NoNFieNIBic8bQb4xDeZaf2LOZ3_xbLHvmA,5120
+awherepy/fields.py,sha256=TK0C2bx4oEbH_TMmX63f1bDApRRqzspnVdG73eEZzSI,19332
+awherepy/grids.py,sha256=ZG2qMN7xav9g-i5y6vc-bH_kGdFyFGeGTArSMSXAWKU,12949
+awherepy/models.py,sha256=a7D2cUzvMQJY_wMf8hGgCXcwoshFz2JIV7EKYr-vj34,20121
+awherepy/plantings.py,sha256=Cc-y3AOWDIMeadrgSl0UT8u3pSQcEB0dht2jOpX2s8k,24962
+awherepy/weather.py,sha256=SroGtLZLdmgSxbnfi9hKjWRHkqyMS2ETZBYuy0GsNwY,34338
+awherepy-0.1.0.dist-info/LICENSE,sha256=C2ckZtqPH6eKU0Mfi-0626bWuJ_KckHmiVbkMLmNulU,1550
+awherepy-0.1.0.dist-info/METADATA,sha256=_quWyC67rdv-g1gTTJ1yFYRJmL6-lt6ifw6VbwchFlI,13228
+awherepy-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+awherepy-0.1.0.dist-info/top_level.txt,sha256=pFcUTpBetQ4E-zFxYVUMt3ac0tYVj7dnAnKIi_GwDxg,9
+awherepy-0.1.0.dist-info/RECORD,,
