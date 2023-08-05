@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: colorthistext
+Version: 0.2
+Summary: Lib to color text.
+Home-page: https://gitlab.com/kelvium/colorthistext
+Author: Kelvium
+Author-email: contact@kelvium.design
+License: MIT
+Description: Example:
+           import colorthistext
+        
+           print(colorthistext.color('Colored text', colorthistext.Background.WHITE, colorthistext.Foreground.BLACK, colorthistext.Style.DIM))
+        
+Platform: UNKNOWN
