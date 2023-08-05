@@ -1,0 +1,4 @@
+requests
+bridgedbpy
+beautifulsoup4
+pandas
