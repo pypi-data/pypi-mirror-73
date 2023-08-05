@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: Phoenix-python
+Version: 2020.7.3
+Summary: This is a pip-installable package for executing java and python programs together.
+Home-page: https://github.com/Sam-Arora
+Author: Sam Arora
+Author-email: phoenix.language.official@gmail.com
+License: MIT
+Description: # Phoenix-python
+        ----
+        [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/Sam-Arora)
+        This is a pip-installable package for executing java and python programs together.
+        
+          - Use Java & Python Libraries Together.
+          - Executing Various Applications in Admin & Non-Admin Mode (Requires JDK Installation in the System).
+          - Can Use Virtual Java & Python Environment
+        
+        Installation
+        ----
+        `pip install Phoenix-python`
+        
+        Phoenix-python requires [Python 3.4.0](https://www.python.org/downloads/release/python-340/) to run.
+        
+        Importing Package
+        ----
+        `import Phoenix`
+        
+        `import Phoenix as p`
+        
+        `from Phoenix import App_Runtime_User,App_Execute_Admin,App_Execute_User,App_Execute_Admin`
+        `from Phoenix import Java_Path,Java_Execute,Java_Save,Java_Delete,VE_Java_Execute`
+        `from Phoenix import Python_Path,Python_Execute,Python_Save,Python_Delete,VE_Python_Execute`
+        
+        Usage
+        ----
+        ### Example 1 (Python -> Python Execution)
+            import Phoenix as p
+            text="""
+            x=5
+            y=x+9
+            print('Hello From Phoenix-python',y)"""
+            print(p.Python_Path.getPythonLocation()[0])
+            p.Python_Save.Save_Py(text,"hello")
+            print("Hello from default python")
+            print(p.Python_Execute.ExecutePy("hello.py","")[0])
+            p.Python_Delete.DeleteFile("hello.py")
+            
+        ### Output
+            C:\Python\
+            Hello from default python
+            Hello From Phoenix-python 14
+            
+        ### Example 2 (Python -> Java Execution)
+            import Phoenix as p
+            text="""class hello{
+            public static void main(String a[]){
+            System.out.println("Hello From Java");
+            }
+            }"""
+            print(p.Java_Path.getJDKLocation()[0])
+            p.Java_Save.Save_Java(text,"hello")
+            print("Hello from Python")
+            p.Java_Execute.CompileJava("hello.java","")[0]
+            print(p.Java_Execute.ExecuteJava("hello","")[0])
+            p.Java_Delete.DeleteFile("hello")
+            
+        ### Output
+            C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.252-2\
+            Hello from Python
+            Hello From Java
+            
+        ### More Examples Coming Soon
+        
+        
+Keywords: Phoenix,Java,Python,Java-Python Integration,phoenix,java,python,java-python integration
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
