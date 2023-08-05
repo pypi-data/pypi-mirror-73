@@ -1,0 +1,26 @@
+{
+    "__metadata__": {
+        "service_key": "",
+        "service_endpoint": "",
+        "service_version": ""
+    },
+    "requests": {
+        "": {
+            "method": "",
+            "url": "",
+            "description": "",
+            "dtype": ""
+        }
+    },
+    "models": {
+        "": {
+            "__metadata__": {
+                "class": ""
+            },
+            "global_champion_ids": {
+                "key": "",
+                "dtype": ""
+            }
+        }
+    }
+}

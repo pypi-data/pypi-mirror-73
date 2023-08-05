@@ -1,0 +1,35 @@
+
+{
+    "__metadata__": {
+        "service_key": "league",
+        "service_product": "lol",
+        "service_endpoint": "league",
+        "service_version": "v4"
+    },
+    "requests": {
+        "get_league": {
+            "method": "GET",
+            "url": "leagues/${league_id}"
+        },
+        "get_entries": {
+            "method": "GET",
+            "url": "entries/${queue}/${tier}/${division}"
+        },
+        "get_summoner_entries": {
+            "method": "GET",
+            "url": "entries/by-summoner/${summoner_id}"
+        },
+        "get_master_league": {
+            "method": "GET",
+            "url": "masterleagues/by-queue/${queue}"
+        },
+        "get_grandmaster_league": {
+            "method": "GET",
+            "url": "grandmasterleagues/by-queue/${queue}"
+        },
+        "get_challenger_league": {
+            "method": "GET",
+            "url": "challengerleagues/by-queue/${queue}"
+        }
+    }
+}
