@@ -1,0 +1,7 @@
+README.md
+setup.py
+krate/__init__.py
+krate.egg-info/PKG-INFO
+krate.egg-info/SOURCES.txt
+krate.egg-info/dependency_links.txt
+krate.egg-info/top_level.txt

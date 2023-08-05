@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: krate
+Version: 0.0.1
+Summary: All things data.
+Home-page: https://github.com/BenedictWilkinsAI/krate
+Author: Benedict Wilkins
+Author-email: brjw@hotmail.co.uk
+License: GNU3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
