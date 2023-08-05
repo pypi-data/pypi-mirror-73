@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: qbc_weather
+Version: 1.0.0
+Summary: Get The Weather App
+Home-page: https://www.shinelab.cn/
+Author: Charles
+Author-email: charles@shinelab.cn
+License: MIT
+Description: Get the weather forecast for the next 15 days
+Keywords: pip3,weather,weathers,python3,python,weather forecast
+Platform: UNKNOWN
