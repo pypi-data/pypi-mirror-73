@@ -1,0 +1,16 @@
+__init__.py
+readme.md
+requirements.txt
+setup.py
+wiktionaryparser.py
+tests/__init__.py
+tests/context.py
+tests/test.py
+tests/testOutput.json
+utils/__init__.py
+utils/utils.py
+wiktionaryparser_ml.egg-info/PKG-INFO
+wiktionaryparser_ml.egg-info/SOURCES.txt
+wiktionaryparser_ml.egg-info/dependency_links.txt
+wiktionaryparser_ml.egg-info/requires.txt
+wiktionaryparser_ml.egg-info/top_level.txt
