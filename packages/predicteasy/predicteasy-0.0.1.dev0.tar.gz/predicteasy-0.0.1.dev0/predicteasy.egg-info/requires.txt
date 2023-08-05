@@ -1,0 +1,14 @@
+tqdm
+numpy
+scipy
+numpy
+click
+pandas
+textblob
+PyYAML
+pyfiglet
+PrettyTable
+scikit-learn
+
+[test]
+pytest

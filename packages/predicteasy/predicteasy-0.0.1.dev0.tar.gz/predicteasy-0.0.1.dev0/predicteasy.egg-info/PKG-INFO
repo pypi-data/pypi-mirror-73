@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: predicteasy
+Version: 0.0.1.dev0
+Summary: Auto ML simplified
+Home-page: https://github.com/cleverinsight
+Author: Bastin Robins .J
+Author-email: robin@cleverinsight.co
+License: BSD
+Download-URL: https://github.com/CleverInsight/predicteasy/releases
+Project-URL: Bug Tracker, https://github.com/CleverInsight/predicteasy
+Project-URL: Documentation, https://predicteasy.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/CleverInsight/predicteasy
+Description: PredictEasy is an exclusive python autoML library and command line utility that helps any developer to transform raw data into a machine-learning format. 
+Keywords: AutoML,Automated Data Storyteller,Data Wrangler,Data Preprocessing,Machine Learning,Hot Encoder,Outlier Detection
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: test

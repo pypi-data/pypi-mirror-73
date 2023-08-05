@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+predicteasy/__init__.py
+predicteasy.egg-info/PKG-INFO
+predicteasy.egg-info/SOURCES.txt
+predicteasy.egg-info/dependency_links.txt
+predicteasy.egg-info/entry_points.txt
+predicteasy.egg-info/not-zip-safe
+predicteasy.egg-info/requires.txt
+predicteasy.egg-info/top_level.txt
+predicteasy/core/__init__.py
+predicteasy/core/nlp/__init__.py
+predicteasy/core/nlp/sentiment.py
+predicteasy/core/nlp/spelling.py
+predicteasy/core/nlp/summarize.py
