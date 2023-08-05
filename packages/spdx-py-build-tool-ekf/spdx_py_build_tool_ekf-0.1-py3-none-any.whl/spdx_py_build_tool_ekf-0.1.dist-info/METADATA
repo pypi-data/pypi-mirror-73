@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: spdx-py-build-tool-ekf
+Version: 0.1
+Summary: Support a continuous integration (CI) generation of SPDX files by creating a plugins or extensions to build tools
+Home-page: https://github.com/spdx/
+Author: Ekong Obie Philip
+Author-email: ekongobiephilip@gmail.com
+Maintainer: Ekong Obie Philip
+Maintainer-email: ekongobiephilip@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: checksumdir (==1.2.0)
+Requires-Dist: isodate (==0.6.0)
+Requires-Dist: pip (==9.0.1)
+Requires-Dist: pkg-resources (==0.0.0)
+Requires-Dist: ply (==3.11)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: rdflib (==5.0.0)
+Requires-Dist: setuptools (==39.0.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: spdx-tools
+
+Python Pip build tool
+
+
