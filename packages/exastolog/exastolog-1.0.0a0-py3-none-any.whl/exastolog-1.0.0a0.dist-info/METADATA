@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: exastolog
+Version: 1.0.0a0
+Summary: A library for the exact calculation of stationary states of MaBoSS models
+Home-page: UNKNOWN
+Author: Vincent Noel
+Author-email: contact@vincent-noel.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: boolean.py
+Requires-Dist: networkx
+
+UNKNOWN
+
+
