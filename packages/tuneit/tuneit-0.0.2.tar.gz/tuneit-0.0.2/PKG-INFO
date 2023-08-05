@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tuneit
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://tuneit.readthedocs.io/en/latest
+Author: Simone Bacchio
+Author-email: s.bacchio@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/sbacchio/tuneit
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: graph
+Provides-Extra: all

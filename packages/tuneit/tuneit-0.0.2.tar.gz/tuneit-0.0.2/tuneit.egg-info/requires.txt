@@ -1,0 +1,11 @@
+dill
+dataclasses
+python-varname
+tabulate
+numpy
+
+[all]
+graphviz
+
+[graph]
+graphviz
