@@ -1,0 +1,7 @@
+setup.py
+example_pkg_catalinux.egg-info/PKG-INFO
+example_pkg_catalinux.egg-info/SOURCES.txt
+example_pkg_catalinux.egg-info/dependency_links.txt
+example_pkg_catalinux.egg-info/top_level.txt
+prj1/__init__.py
+prj1/prj1.py
