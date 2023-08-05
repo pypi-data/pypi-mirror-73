@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: Conolist
+Version: 0.12
+Summary: Work with paths with extra tools from command line interface simple.
+Home-page: https://github.com/E-RROR/conolist
+Author: Sina Farhadi
+Author-email: sina.farhadi.cyber@gmail.com
+License: MIT
+Description: ## Conolist
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
