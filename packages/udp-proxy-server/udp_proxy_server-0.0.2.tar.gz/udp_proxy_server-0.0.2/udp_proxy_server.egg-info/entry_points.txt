@@ -1,0 +1,3 @@
+[console_scripts]
+udp2tcp = udp_proxy_server.cli:udp2tcp
+
