@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: teuthology
+Version: 1.0.0
+Summary: Ceph test framework
+Home-page: https://github.com/ceph/teuthology
+Author: Inktank Storage, Inc.
+Author-email: ceph-qa@ceph.com
+License: MIT
+Description: ===================================================
+        `Teuthology` -- The Ceph integration test framework
+        ===================================================
+        
+        
+        Welcome! Teuthology's documentation is primarily hosted at `docs.ceph.com
+        <http://docs.ceph.com/teuthology/docs/>`__.
+        
+        You can also look at docs `inside this repository <docs/>`__, but note that
+        GitHub's `RST <http://docutils.sourceforge.net/rst.html>`__ rendering is quite
+        limited. Mainly that means that links between documents will be broken.
+        
+Keywords: teuthology test ceph cluster
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Filesystems
+Requires-Python: >=3.6
+Provides-Extra: orchestra
+Provides-Extra: test
