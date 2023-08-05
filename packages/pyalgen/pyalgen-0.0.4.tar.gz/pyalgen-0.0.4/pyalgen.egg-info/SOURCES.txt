@@ -1,0 +1,14 @@
+README.md
+setup.py
+pyalgen/__init__.py
+pyalgen/crossover.py
+pyalgen/genetic.py
+pyalgen/mutation.py
+pyalgen/population.py
+pyalgen/selection.py
+pyalgen/test_functions.py
+pyalgen.egg-info/PKG-INFO
+pyalgen.egg-info/SOURCES.txt
+pyalgen.egg-info/dependency_links.txt
+pyalgen.egg-info/requires.txt
+pyalgen.egg-info/top_level.txt
