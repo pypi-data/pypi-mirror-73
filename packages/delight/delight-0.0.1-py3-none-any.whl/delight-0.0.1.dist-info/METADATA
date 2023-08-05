@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: delight
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: http://github.com/LinxiFan/delight
+Author: Jim Fan
+License: mit
+Keywords: Deep Learning,Reinforcement Learning,Computer Vision
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+
+UNKNOWN
+
+
