@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ca-bundle
+Version: 0.1.1
+Summary: No more SSL errors because of unset REQUESTS_CA_BUNDLE.
+Home-page: https://github.com/matusf/ca-bundle/
+License: MIT
+Keywords: ssl,ca-certificates,requests
+Author: Matúš Ferech
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/matusf/ca-bundle/
+Description-Content-Type: text/markdown
+
+# CA-bundle
+
+No more `SSLError`s because of unset `REQUESTS_CA_BUNDLE`.
+
+This package searches through common locations of SLL certificates on linux and sets
+the first existing location to `REQUESTS_CA_BUNDLE` and `HTTPLIB2_CA_CERTS` environment variables.
+
+## Installation
+
+```sh
+pip install ca-bundle
+```
+
+## Usage
+
+```python
+import ca_bundle
+
+ca_bundle.install()
+```
+
+Inspired by [Go's implementation](https://golang.org/src/crypto/x509/root_linux.go).
+
