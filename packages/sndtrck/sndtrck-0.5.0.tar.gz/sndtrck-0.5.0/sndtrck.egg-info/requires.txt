@@ -1,0 +1,13 @@
+numpy
+bpf4>=0.7
+loristrck
+sounddevice
+pyqt5
+pyqtgraph
+notifydict
+appdirs
+pysdif3
+ctcsound
+pyliblo3
+emlib
+miniaudio
