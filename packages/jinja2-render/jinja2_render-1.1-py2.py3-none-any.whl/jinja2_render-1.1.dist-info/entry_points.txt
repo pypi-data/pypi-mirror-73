@@ -1,0 +1,3 @@
+[console_scripts]
+jinja2-render = jinja2_render:main
+
