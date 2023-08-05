@@ -1,0 +1,3 @@
+[console_scripts]
+one2one = yxs_one2one:main
+

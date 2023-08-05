@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yxs-one2one
+Version: 1.1
+Summary: Generate 1-1 blocking data
+Home-page: https://github.com/blacksong
+Author: Blacksong
+Author-email: blacksong@yeah.net
+License: UNKNOWN
+Platform: python 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click
+
+UNKNOWN
+
+
