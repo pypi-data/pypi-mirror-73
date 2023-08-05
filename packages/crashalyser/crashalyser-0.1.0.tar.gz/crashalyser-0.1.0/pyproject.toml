@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "crashalyser"
+version = "0.1.0"
+description = ""
+authors = ["Ross Cousens <rcousens@kixeye.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+python-crontab = "^2.5.1"
+croniter = "^0.3.34"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+crashalyser = "crashalyser.cli:cli"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
