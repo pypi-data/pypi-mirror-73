@@ -1,0 +1,11 @@
+scikit-learn
+datetime
+pandas
+numpy
+ipywidgets
+IPython
+scipy
+calendar
+datefinder
+pyod
+lightgbm
