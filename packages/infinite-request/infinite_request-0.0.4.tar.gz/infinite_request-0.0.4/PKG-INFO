@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: infinite_request
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # infinite_request
+        
+        Request a URL until it returns!
+        
+        ```python
+        from infinite_request import infinite_request
+        
+        print(infinite_request('www.google.com'))
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
