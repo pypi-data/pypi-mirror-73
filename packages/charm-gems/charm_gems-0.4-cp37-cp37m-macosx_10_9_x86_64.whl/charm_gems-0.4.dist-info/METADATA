@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: charm-gems
+Version: 0.4
+Summary: Something descriptive
+Home-page: https://github.com/simnibs/charm-gems
+Author: Oula Puonti and Koen Van Leemput
+Author-email: oulap@drcmr.dk
+License: GPL3
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
