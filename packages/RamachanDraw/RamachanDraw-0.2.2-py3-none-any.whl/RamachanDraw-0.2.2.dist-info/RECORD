@@ -1,0 +1,10 @@
+RamachanDraw/__init__.py,sha256=1oZx4O33UzFR5cMBgv2rxDaji5ReWNOkNXb98tOBrew,129
+RamachanDraw/fetch_PDB.py,sha256=5Y7LZYZgvqwCOkoqOVUdwXGN68efC5VrOq1iWzWhXRk,135
+RamachanDraw/phi_psi.py,sha256=OmKiMB1awUMunzwRFO5t54DkYTRNkmCDEHnaPr73ALs,1335
+RamachanDraw/plot_residues.py,sha256=6hh2chsnxOoCznSTDd5Wl3jj4teTUSuX7uaSe4007_o,2830
+RamachanDraw/data/density_estimate.dat,sha256=EohOYf-zjvitXj_cv3BgloQ0P47AiPLl3nxC59Noa9A,80000
+RamachanDraw-0.2.2.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+RamachanDraw-0.2.2.dist-info/METADATA,sha256=P9d_Lqt2g861IOurcCrBNIw-XJTu3P4TrHaJ2LksQh0,3901
+RamachanDraw-0.2.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+RamachanDraw-0.2.2.dist-info/top_level.txt,sha256=PhiJ5igvdtjZjH__l8AW6MM-KkmDtOV2LPk4mUdOIBk,13
+RamachanDraw-0.2.2.dist-info/RECORD,,
