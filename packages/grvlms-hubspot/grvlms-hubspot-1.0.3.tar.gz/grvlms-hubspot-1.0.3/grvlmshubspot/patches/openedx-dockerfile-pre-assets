@@ -1,0 +1,6 @@
+  
+# Install Hubspot Integration app
+ARG HUBSPOT_VERSION=open-release/ironwood.master
+RUN export DJANGO_SETTINGS_MODULE=$SERVICE_VARIANT.envs.$SETTINGS
+RUN echo "Loading settings $DJANGO_SETTINGS_MODULE"
+RUN pip install -e git+https://github.com/groovetch/edx-hubspot.git@$HUBSPOT_VERSION#egg=hubspot
