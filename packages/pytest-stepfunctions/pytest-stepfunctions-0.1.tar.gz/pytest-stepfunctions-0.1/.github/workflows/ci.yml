@@ -1,0 +1,31 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run the tests
+        env:
+          PYTEST_STEPFUNCTIONS_PYTHON_IMAGE_TAG: ${{ matrix.python-version }}
+        run: |
+          make test
+      - name: Run the lint
+        env:
+          PYTEST_STEPFUNCTIONS_PYTHON_IMAGE_TAG: ${{ matrix.python-version }}
+        run: |
+          make lint
+      - uses: codecov/codecov-action@v1
+        with:
+          name: codecov-${{ matrix.python-version }}
