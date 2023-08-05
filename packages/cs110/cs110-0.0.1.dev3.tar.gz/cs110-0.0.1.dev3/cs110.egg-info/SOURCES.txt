@@ -1,0 +1,16 @@
+AUTHORS
+ChangeLog
+README.rst
+helloworld.py
+requirements.txt
+setup.cfg
+setup.py
+cs110/__init__.py
+cs110/client.py
+cs110.egg-info/PKG-INFO
+cs110.egg-info/SOURCES.txt
+cs110.egg-info/dependency_links.txt
+cs110.egg-info/not-zip-safe
+cs110.egg-info/pbr.json
+cs110.egg-info/requires.txt
+cs110.egg-info/top_level.txt
