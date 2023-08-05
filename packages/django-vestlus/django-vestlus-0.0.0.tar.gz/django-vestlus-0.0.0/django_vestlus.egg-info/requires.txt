@@ -1,0 +1,5 @@
+django>=2.2
+django-polymorphic==2.1.2
+django-crispy-forms>=1.9.1
+django-haystack>=2.8.1
+djangorestframework>=3.7.7

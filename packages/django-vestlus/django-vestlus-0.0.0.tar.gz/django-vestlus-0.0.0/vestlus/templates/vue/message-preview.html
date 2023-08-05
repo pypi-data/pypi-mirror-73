@@ -1,0 +1,23 @@
+<template id="message-item-template">
+    <div class="message-item">
+    <span v-if="$route.params.slug">
+      <h3>
+        <router-link
+                v-bind:to="'/message/' + $route.params.slug + '/'"
+                v-html="$store.getters.getMessageBySlug($route.params.slug)['name']"
+        ></router-link>
+      </h3>
+
+      <div v-html="$store.getters.getMessageBySlug($route.params.slug)['content']"></div>
+    </span>
+
+    <span v-else>
+      <h3>
+        <router-link v-bind:to="'/message/' + slug + '/'" v-html="name"></router-link>
+     </h3>
+
+      <div v-html="content"></div>
+      <hr/>
+    </span>
+    </div>
+</template>

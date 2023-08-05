@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8153158-4244-4921-9935-e5fd2482db5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../chat/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/actions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/inlines/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/inlines/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/inlines/membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/inlines/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/admin/permissions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/fixtures/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/forms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/forms/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/forms/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/forms/membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/forms/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/leh_chat.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/leh_chat.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/leh_chat.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/leh_chat.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/leh_chat.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/middleware/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/middleware/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/managers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/managers/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/managers/membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/managers/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/managers/reaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/signals/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/signals/create_membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/tests/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/models/validators/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/mixins/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/mixins/chat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/mixins/exclude.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/mixins/expandable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/tests/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/tests/group_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/serializers/tests/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/channel_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/channel_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/membership_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/membership_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/message_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templates/message_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/templatetags/json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/channel_detail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/channel_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/membership_detail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/membership_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/message_detail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/message_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/views/routes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/membership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/permissions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/permissions/is_admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/permissions/is_member.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/permissions/is_owner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/permissions/is_sender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/viewsets/router.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1bpRr8cqYgMzzPClS8Wnzv9b2q5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8153158-4244-4921-9935-e5fd2482db5d" name="Default Changelist" comment="" />
+      <created>1589327244436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589327244436</updated>
+      <workItem from="1589327245774" duration="566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="303" key="SettingsEditor" timestamp="1589327276520">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="0" y="303" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1589327276520" />
+  </component>
+</project>
