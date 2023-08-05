@@ -1,0 +1,12 @@
+texproject/__init__.py,sha256=WYx6JHshPnCbrdv_F4Qrr4bWiKGmloZZR0O4vCmzIQM,211
+texproject/__main__.py,sha256=2hAzW5BpaDOWMJMOG9fiiPFOs57lDOI5JueU8lMxoyE,64
+texproject/filesystem.py,sha256=CLFONH7uVG-pO2Bh3pyYHB5LQ4g-2pS8xxgtHX_wdGA,1212
+texproject/parse.py,sha256=ICe0tERzRXpE7YEVxfdrlX8fjzP4_j-XBewj6VSqe8Q,4232
+texproject/scripts.py,sha256=glQP8fn9fVpaxba617Qzi1Y5OBWNsblTyF90hbIwNqw,3242
+texproject/template.py,sha256=8ygbCR0AEbDDCKUBhxDRE2JpHWMO2FzMZU9qHVMaFuQ,3832
+texproject-0.1.dist-info/LICENSE,sha256=UskeTcqwpJ6D74GUOi-4LnDfDftaZzTf2T4zYwx0LyM,1067
+texproject-0.1.dist-info/METADATA,sha256=wKDKnLi2dU3nlmSe-dwnb3_EhQfnX6gHEY58rQbBUYY,641
+texproject-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+texproject-0.1.dist-info/entry_points.txt,sha256=Nf8kPYitZwN4dT0IKpD3daELKDHdSexACny521q7BH4,50
+texproject-0.1.dist-info/top_level.txt,sha256=iuC8gLoVD3Pgu5HkcTlEGqnDLQjaxxfEod-FGlR4iXs,11
+texproject-0.1.dist-info/RECORD,,

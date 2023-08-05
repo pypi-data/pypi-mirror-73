@@ -1,0 +1,3 @@
+[console_scripts]
+tpr = texproject.__main__:main
+
