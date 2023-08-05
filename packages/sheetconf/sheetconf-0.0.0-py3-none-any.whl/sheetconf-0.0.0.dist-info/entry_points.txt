@@ -1,0 +1,3 @@
+
+      [console_scripts]
+      sheetconf = sheetconf.cli:main
