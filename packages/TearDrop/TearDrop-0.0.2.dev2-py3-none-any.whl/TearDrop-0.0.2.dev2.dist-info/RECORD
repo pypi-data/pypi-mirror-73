@@ -1,0 +1,12 @@
+teardrop/__init__.py,sha256=2imb0l4UKW9cIUOV7oKQpSYZTRZrxNtb2L147IuIyHk,422
+teardrop/_about.py,sha256=SaGYP-O6lSvSxt5ZNVmycDfhJz_Igb1P9leSDqiGxfE,201
+teardrop/data_tools.py,sha256=50Zcy7VNsseK_Y_YMY3PHAqWfppTzIBxRBZ1Kmg6dRA,341
+teardrop/linear_models.py,sha256=0WtmKB5DT8mP9_CPf8qYuWvQ9be9jWFZ6ubm5xXAEYg,1445
+teardrop/neural_models.py,sha256=4SH3z5GCVIm3kIhCCtK9Vwk2aFF7bwbbXNWk2DwzUu0,6983
+teardrop/optimizers.py,sha256=uM_KEXkNm9AM08tvm1gBPKWeNAZglQTUVlmNPLgpuAA,1236
+teardrop/preprocessing.py,sha256=__OaHblayb_53sWyNcaktM-rcBqUkBNOUaMbi2pe2J4,468
+TearDrop-0.0.2.dev2.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+TearDrop-0.0.2.dev2.dist-info/METADATA,sha256=UcbkI9ovgyt7aQ1WyLd5OqqeZXx6uYwBAKGVr-VI6ZE,1658
+TearDrop-0.0.2.dev2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+TearDrop-0.0.2.dev2.dist-info/top_level.txt,sha256=Gd5igV9jhSEfZLGcfa08nE3TobGrEHbW2yrQL86y-Ok,9
+TearDrop-0.0.2.dev2.dist-info/RECORD,,

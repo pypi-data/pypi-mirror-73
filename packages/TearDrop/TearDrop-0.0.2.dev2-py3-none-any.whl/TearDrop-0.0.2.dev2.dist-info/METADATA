@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: TearDrop
+Version: 0.0.2.dev2
+Summary: Python algorithms used to perform machine learning.
+Home-page: https://gitlab.com/dec0ded/teardrop
+Author: Dec0Ded
+Author-email: 4323565-dec0ded@users.noreply.gitlab.com
+License: LGPL-3.0-ONLY
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: > 3.7.4
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: pandas (>=1.0.1)
+
+# TearDrop
+
+TearDrop project contains many useful various machine learning algorithms and models. You can
+find there anything from Linear regression, KNN, SVMs up to deep learning and LSTMs. 
+
+## Installation
+Installing from pypi using `pip`:
+```
+pip install teardrop
+# or you can do this
+python3 -m pip install teardrop
+```
+You can also install it directly from our [repository](https://gitlab.com/dec0ded/teardrop):
+```
+pip install git+https://gitlab.com/dec0ded/teardrop
+```
+
+## Example code
+Using TearDrop you can easily create many various neural nets, e.g. Dense neural network.
+```python
+from teardrop.layers.core import Dense
+from teardrop.neural_models import Sequential
+
+net = Sequential(loss='mse', optimizer='sgd')
+net.add(Dense(10, activation='relu', input_shape=5))
+net.add(Dense(1, activation='sigmoid'))
+```
+And voila! We've created a basic network which is able to take inputs with shape `(N, 5)`
+and returns output with shape `(N, 1)`.
+
+For more examples and better description, check our [documentation](https://dec0ded.gitlab.io/teardrop).
+
