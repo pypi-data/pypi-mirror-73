@@ -1,0 +1,19 @@
+dev:
+  grpc:
+    ip: "10.64.56.235"
+    port: "8088"
+
+sit:
+  grpc:
+    ip: "10.64.56.235"
+    port: "8088"
+
+stg:
+  grpc:
+    ip: "cmp-proxy-api-stg.hupu.io"
+    port: "80"
+
+prd:
+  grpc:
+    ip: "cmp-proxy-api.hupu.io"
+    port: "80"
