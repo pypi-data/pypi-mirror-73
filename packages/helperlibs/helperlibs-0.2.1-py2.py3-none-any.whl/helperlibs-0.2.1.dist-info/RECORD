@@ -1,0 +1,17 @@
+helperlibs/__init__.py,sha256=Ui79YHRxRfg2Yk8f7S1RGQcYuTAo3-YJSMGCUb8i3gI,18
+helperlibs/bio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helperlibs/bio/featurematch.py,sha256=SQ0QDoiAUIfv5wnVa8wYKHDp22umk_jI6Hygo-gIJcI,4925
+helperlibs/bio/seqio.py,sha256=E3LHbQJ82MkZyLYd65HMyfYbmD5-jLtWOIin9g0nb48,6598
+helperlibs/tests/__init__.py,sha256=CBPTBCd6kR2fFg4rC4x4-P8_8JDWSVrXj6nnjmAYk7k,196
+helperlibs/tests/bio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helperlibs/tests/bio/test_featurematch.py,sha256=bkqTxQySFSm-9rja-BR2XrPiW6zwawPeb8U-wqTAMKc,6422
+helperlibs/tests/bio/test_seqio.py,sha256=YmKjytvUJsMTGssc1dodhLXsii5BKuMRQATpSxwyjqk,12323
+helperlibs/tests/wrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helperlibs/tests/wrappers/test_io.py,sha256=O9E2rnfrfbP7uE7mdTtnV7zkQ4cEqZhjnYkOb-pJuRw,4788
+helperlibs/wrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helperlibs/wrappers/io.py,sha256=vZKGCL6fgvwVKZEw_XSR8enV9ExXZhpJgJclaRk-GSg,1798
+helperlibs-0.2.1.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+helperlibs-0.2.1.dist-info/METADATA,sha256=HWArce_xHyLEWDnc_l0LLSiXBH2z_4lFFS4L7RHg4Dk,1834
+helperlibs-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+helperlibs-0.2.1.dist-info/top_level.txt,sha256=A0bSGqVm-oN5dpbNnEmvg-bBcQfA037HQBSEpxmRISM,11
+helperlibs-0.2.1.dist-info/RECORD,,
