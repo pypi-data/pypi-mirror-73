@@ -1,0 +1,11 @@
+humanizationdb/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+humanizationdb/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+humanizationdb/core/db.py,sha256=9EfK4kyDZIFfmZv_djw2HEUHLsjdb6nZZMn2SJ-H8D8,14278
+humanizationdb/core/db_entry.py,sha256=CWI1OlzYUCSngdLFXApCyXX_pW-CIZcLXyrRbrmmbos,7949
+humanizationdb/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+humanizationdb/utils/exceptions.py,sha256=oRwL8PK51_YLtUi2RFthLvrFgrpHJ4kHrPq2qsPjLhU,211
+humanizationdb-0.0.2.dist-info/LICENSE,sha256=Nq-4F1mCrvny36R0KWcxOjnUdjALGSM8sy90G92SR2k,1141
+humanizationdb-0.0.2.dist-info/METADATA,sha256=thr2lT7ADpwjaXYwkwOLPbsXUXU7DGMr7O0ZF8zbygc,646
+humanizationdb-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+humanizationdb-0.0.2.dist-info/top_level.txt,sha256=GXxy6pzpix-UGEpaCWAAmduijkKi3eF47IBQDF4KzzA,15
+humanizationdb-0.0.2.dist-info/RECORD,,
