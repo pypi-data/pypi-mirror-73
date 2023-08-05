@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: transparency
+Version: 0.0.1
+Summary: Project to explain models
+Home-page: https://github.com/imanbio/transparency
+Author: Iman Haji & Alvin Henrick
+Author-email: iman.bio@gmail.com,share.code@aol.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.11)
+Requires-Dist: pandas (>=1.0.5)
+Requires-Dist: scikit-learn (>=0.23.1)
+
+UNKNOWN
+
+
