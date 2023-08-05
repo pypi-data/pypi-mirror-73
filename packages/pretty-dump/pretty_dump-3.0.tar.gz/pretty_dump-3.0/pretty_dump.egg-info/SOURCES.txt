@@ -1,0 +1,13 @@
+README.rst
+setup.py
+freeze/__init__.py
+freeze/fpprint.c
+freeze/fpprint.py
+freeze/version.py
+freeze/xfreeze.c
+freeze/xfreeze.py
+pretty_dump.egg-info/PKG-INFO
+pretty_dump.egg-info/SOURCES.txt
+pretty_dump.egg-info/dependency_links.txt
+pretty_dump.egg-info/requires.txt
+pretty_dump.egg-info/top_level.txt
