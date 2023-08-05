@@ -1,0 +1,2 @@
+recursive-include grvlmshubspot/patches *
+recursive-include grvlmshubspot/templates *

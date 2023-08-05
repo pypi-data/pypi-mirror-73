@@ -1,0 +1,11 @@
+HUBSPOT_FEATURES = {
+  ENABLE_HUBSPOT_INTEGRATION: True,
+  ENABLE_HUBSPOT_SEND_CONTACTS: True,
+  HUBSPOT_API_KEY: "{{ HUBSPOT_API_KEY }}",
+  HUBSPOT_CONTACT_FIELDS: ["email", "first_name", "last_name"],
+  HUBSPOT_CONTACT_MAPPING_FIELDS: {
+      "email": "email",
+      "first_name": "firstname",
+      "last_name": "lastname"
+  }
+}
