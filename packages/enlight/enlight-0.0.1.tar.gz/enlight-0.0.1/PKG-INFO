@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: enlight
+Version: 0.0.1
+Summary: Fast and lightweight vision-based RL framework
+Home-page: http://github.com/LinxiFan/enlight
+Author: Jim Fan
+License: mit
+Description: UNKNOWN
+Keywords: Deep Learning,Reinforcement Learning,Computer Vision
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
