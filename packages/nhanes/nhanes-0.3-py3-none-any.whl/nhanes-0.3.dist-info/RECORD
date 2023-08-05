@@ -1,0 +1,15 @@
+nhanes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nhanes/get_NHANES_from_R.py,sha256=adBhPxZE9dA4rsV1tgJxQYNyfarMLMC2YcCB8vPlNbk,92
+nhanes/load.py,sha256=xchnCn9F4vd6rg5CSOLOu3RL1zpacrBAjx8ISilq8jc,2341
+nhanes/utils.py,sha256=f9gRlHkuCxJzPb7w76A9QbJ2oG5Kb-aezcILd04DC2I,3368
+nhanes/combined_data/2017-2018/NHANES_data_2017-2018.tsv,sha256=qQUOjjjIAvZ4d0ZGsmQFkwhm8Jp_BvApvjixfnK5blA,9358997
+nhanes/combined_data/2017-2018/NHANES_metadata_2017-2018.tsv,sha256=FPY9-qhgiQxVqjsekcS04vL212QIMd-LxhI0PWNqkrg,69205
+nhanes/combined_data/2017-2018/NHANES_variable_coding_2017-2018.pkl,sha256=LPR11dfSufsO8HbF6CKB_fBwK4BraHChXzTceTQJu5I,662251
+nhanes/config/datasets.json,sha256=ehJgshuZOa997JroBXrWB8FVuHlsg2uiqdeMBqvWOFo,181
+nhanes/config/vars_to_keep.json,sha256=PhdyEzy6HqT9qSl9tGzRsA_8-ge7qjudGo86BbwKu-Y,3253
+nhanes-0.3.data/scripts/make_combined_NHANES_data.py,sha256=ubNaIqoXtZZQZ-8pUgQpjbWzovZU_4LJ1Ccn1J2QKv4,14937
+nhanes-0.3.dist-info/LICENSE,sha256=2xPDVzbSs3SmtHOB4WYqfZAm2NO1wYvTYHV9Z3aG1_U,1070
+nhanes-0.3.dist-info/METADATA,sha256=iKD5CnTlu7Zoh9NVesjFPxZgMZJRTrjhYJP2JBDQW1c,748
+nhanes-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nhanes-0.3.dist-info/top_level.txt,sha256=sQkv8sResgnMOX79b9HFgYK2sgA4ZeYhcM4DlnuKom0,7
+nhanes-0.3.dist-info/RECORD,,
