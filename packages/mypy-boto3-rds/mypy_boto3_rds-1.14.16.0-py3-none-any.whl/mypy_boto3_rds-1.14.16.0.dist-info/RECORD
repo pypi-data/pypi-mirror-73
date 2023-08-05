@@ -1,0 +1,12 @@
+mypy_boto3_rds/__init__.py,sha256=23TWYd9L3Airmpy7s_ma74fBmuFW41j6NkWrAhkDLK4,11043
+mypy_boto3_rds/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_rds/client.py,sha256=W92dIov5v-jTED7hK50lcZtwSc1D0VQsmqljfH_osY8,98481
+mypy_boto3_rds/paginator.py,sha256=M03UzekKTl3s6RrWf9h2YqGLccqB7rWos4FlT02lkrU,36338
+mypy_boto3_rds/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_rds/type_defs.py,sha256=72DsLhf_dYgkx49kr9QnNFw4-Uj_qfsfEYVuJAaH318,56705
+mypy_boto3_rds/version.py,sha256=FyuBX8gOE2WY9b3exZkDMMUksf1zaDSnPhse7rGjQa0,57
+mypy_boto3_rds/waiter.py,sha256=AnmS0ahr0Qby_fClMdQuZNPIpKpIHZEmdT3Ss_f0VXE,7275
+mypy_boto3_rds-1.14.16.0.dist-info/METADATA,sha256=RKNk9kCefRNQREu0g3lYfz_5XB36js0qoFF9zxPa1eI,11679
+mypy_boto3_rds-1.14.16.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_rds-1.14.16.0.dist-info/top_level.txt,sha256=Z3YaNnOrbh8L_jrCOShyI3GWW7NmhpWNVQQDmGV2B_E,15
+mypy_boto3_rds-1.14.16.0.dist-info/RECORD,,
