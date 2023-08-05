@@ -1,0 +1,14 @@
+navx/__init__.py,sha256=I3EfhFk0671PXByqSBLFVAT2qQKhKSPaXWSarYEApgU,181
+navx/_init_navx.py,sha256=LUTHQr2l8fi-_FBS7WjKn8Xu_Bq3peAv1H-XV_3LeqU,259
+navx/_navx.cpython-37m-darwin.so,sha256=VmFgaJ773_-1hgvklwBYb8DnoFpdcSUIRV0_Nxhwhzw,457344
+navx/pkgcfg.py,sha256=j06aaXxITtTAimFkqAvJw67rh-XEb3GsvtvWtiKyt-E,510
+navx/version.py,sha256=ONAteFYHpH6D1GUutdj8WljeN5JdquzrmaWG65hF468,119
+navx/rpy-include/rpygen/__AHRS.hpp,sha256=EH_kZymFah9LlWC-dNbXd4SMg9CvV3szc0fGxI98BXY,1197
+navx/src/0001-Fix-C-simulation.patch,sha256=hd0DA6Ck0iWTXea3gQ6YWmP0ZEa9s2p3kZ053H-1qAI,788
+navx/src/rpy/AHRS.cpp.inl,sha256=UErnMAFjdWz_kkF9b2pC1bbALmuk4ZrplBQvAEUlOdQ,1836
+navx/src/rpy/navx.cpp,sha256=-ps1JNZOCudo2Tdn2-MCroRzBITqjY2PDNr9HaM23y8,78
+robotpy_navx-2020.2.3.dist-info/METADATA,sha256=b0bRWlS06OybDUX_GZqye-3HLO2wIWHjIFdtAqbLfOw,862
+robotpy_navx-2020.2.3.dist-info/WHEEL,sha256=3MaGW2p97bAuypYB82dW_j_Lc_Fni2yOyOJA9oupd_4,111
+robotpy_navx-2020.2.3.dist-info/entry_points.txt,sha256=Im8vyBFPApHT9ZQHjRs1eSuq31vu82sDeEokkzmLvts,35
+robotpy_navx-2020.2.3.dist-info/top_level.txt,sha256=fZ__Sq0qmUGRb-fuF9VYjzwNwNyJIKTdY0CKWaD_xYQ,5
+robotpy_navx-2020.2.3.dist-info/RECORD,,
