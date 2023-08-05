@@ -1,0 +1,12 @@
+README.md
+setup.py
+small_nn/__init__.py
+small_nn/data.py
+small_nn/layer.py
+small_nn/models.py
+small_nn/network.py
+small_nn/setup.py
+small_nn_jcanode.egg-info/PKG-INFO
+small_nn_jcanode.egg-info/SOURCES.txt
+small_nn_jcanode.egg-info/dependency_links.txt
+small_nn_jcanode.egg-info/top_level.txt
