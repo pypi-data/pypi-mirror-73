@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+notcologger/__init__.py
+notcologger.egg-info/PKG-INFO
+notcologger.egg-info/SOURCES.txt
+notcologger.egg-info/dependency_links.txt
+notcologger.egg-info/top_level.txt
+notcologger.egg-info/zip-safe
