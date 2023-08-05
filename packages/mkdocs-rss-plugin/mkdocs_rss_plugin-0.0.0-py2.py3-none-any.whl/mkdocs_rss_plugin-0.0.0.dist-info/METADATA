@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mkdocs-rss-plugin
+Version: 0.0.0
+Summary: Generates a static RSS feed using git log.
+Home-page: UNKNOWN
+Author: Julien Moura
+Author-email: ingeoveritas@protonmail.com
+License: GPL3
+Project-URL: Bug Reports, https://github.com/Guts/mkdocs-rss-plugin/issues/
+Project-URL: Source, https://github.com/Guts/mkdocs-rss-plugin/
+Keywords: mkdocs rss git plugin
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: GitPython (==3.1.*)
+Requires-Dist: Jinja2 (<3,>=2)
+Requires-Dist: mkdocs (<2,>=1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# MkDocs RSS plugin
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+Use [git log](https://git-scm.com/docs/git-log) to generates RSS 2.0 feeds.
+
+For further information, [see the documentation](https://guts.github.io/mkdocs-rss-plugin/).
+
+
