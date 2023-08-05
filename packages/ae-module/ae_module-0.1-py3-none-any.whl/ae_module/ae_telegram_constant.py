@@ -1,0 +1,65 @@
+# -*- coding: utf-8 -*-
+import enum
+
+from dotenv import load_dotenv
+
+import os
+
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(dotenv_path=os.path.join(cur_dir, '..', 'telegram.env'), encoding='utf-8')
+
+TELEGRAM_CHANNEL_증시의신 = '뉴스보다 빠른 ☆증시의 神☆'
+TELEGRAM_CHANNEL_ID_증시의신 = 1072366578
+TELEGRAM_CHANNEL_공시정보 = '공시정보 알림'
+TELEGRAM_CHANNEL_ID_공시정보 = 1090469835
+TELEGRAM_CHANNEL_주식_공시알리미 = '주식 공시알리미'
+TELEGRAM_CHANNEL_ID_주식_공시알리미 = 1320253325
+TELEGRAM_CHANNEL_아이투자_텔레그램 = '아이투자 텔레그램'
+TELEGRAM_CHANNEL_ID_아이투자_텔레그램 = 1136299484
+TELEGRAM_TEST_CHANNEL_NAME = os.getenv('TELEGRAM_TEST_CHANNEL_NAME')
+CHAT_ID_AFRICA_ELEPHANT = os.getenv('CHAT_ID_AFRICA_ELEPHANT')
+CHAT_ID_AFRICA_ELEPHANT_ERROR = os.getenv('CHAT_ID_AFRICA_ELEPHANT_ERROR')
+CHAT_ID_STOCK_NOTI = os.getenv('CHAT_ID_STOCK_NOTI')
+
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_API_SESSION = os.getenv('TELEGRAM_API_SESSION')
+TELEGRAM_API_SESSION_HEROKU = os.getenv('TELEGRAM_API_SESSION_HEROKU')
+TELEGRAM_API_ID = os.getenv('TELEGRAM_API_ID')
+TELEGRAM_API_HASH = os.getenv('TELEGRAM_API_HASH')
+
+TELEGRAM_CMD_STX = '%&@)'
+TELEGRAM_CMD_ETX = '&!)!'
+
+TELEGRAM_CMD_SPLIT = '|'
+TELEGRAM_ARG_SPLIT = '^'
+
+# telegram protocol
+# TELEGRAM_CMD_STX|CMD|arg_count|arg1^arg2^arg3|TELEGRAM_CMD_ETX
+
+class TELEGRAM_COMMAND(enum.Enum):
+    # DB UPDATE KWDB
+    CMD_DB_UPDATE_KWDB_DAILY = 100
+    CMD_DB_UPDATE_KWDB_INVESTOR = 101
+    CMD_DB_UPDATE_KWDB_TOTAL = 102
+    CMD_DB_UPDATE_KWDB_MINUTE = 104
+
+    # DB UPDATE WEB
+    CMD_DB_UPDATE_WEB_KRX_MARKET1 = 200 # krx 시총정보
+    CMD_DB_UPDATE_WEB_KRX_MARKET2 = 201 # krx 상장법인목록
+    CMD_DB_UPDATE_WEB_NAVER_SISE = 202  # naver 상승율
+    CMD_DB_UPDATE_WEB_NAVER_MANAGER = 203   # naver 관리종목
+
+    # DB UPDATE THEME
+    CMD_DB_UPDATE_EBEST = 300
+
+
+    CMD_DB_UPDATE_MAX = 999
+
+    # ORDER - TBD
+    CMD_ORDER_BUY_STOCK = 1000
+
+    # DATA UPDATE MACHINE RUNNING
+    CMD_DATA_UPDATE_CORREL  = 2000 # correl drawing
+
+    # MANAGE
+    CMD_MANAGE_CHCHE_CLEAR = 3000
