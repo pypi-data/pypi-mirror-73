@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+loducode_maytapi/__init__.py
+loducode_maytapi/utils.py
+loducode_maytapi.egg-info/PKG-INFO
+loducode_maytapi.egg-info/SOURCES.txt
+loducode_maytapi.egg-info/dependency_links.txt
+loducode_maytapi.egg-info/requires.txt
+loducode_maytapi.egg-info/top_level.txt
