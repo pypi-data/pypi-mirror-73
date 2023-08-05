@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+CodeSimilarity/__init__.py
+CodeSimilarity/GetSimilarity/__init__.py
+CodeSimilarity/GetSimilarity/tfSimilarity.py
+CodeSimilarity/GetSimilarity/data/hit_stopwords.txt
+Code_similarity.egg-info/PKG-INFO
+Code_similarity.egg-info/SOURCES.txt
+Code_similarity.egg-info/dependency_links.txt
+Code_similarity.egg-info/top_level.txt
+code_similarity.egg-info/PKG-INFO
+code_similarity.egg-info/SOURCES.txt
+code_similarity.egg-info/dependency_links.txt
+code_similarity.egg-info/requires.txt
+code_similarity.egg-info/top_level.txt
