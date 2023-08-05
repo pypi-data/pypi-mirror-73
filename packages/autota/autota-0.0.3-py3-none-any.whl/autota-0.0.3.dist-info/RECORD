@@ -1,0 +1,11 @@
+autota/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autota/generator.py,sha256=X5aeLqFqUk-WVGFPzvEnxROHuNK3F-TTbxBsBV_DXT8,2577
+autota/grader.py,sha256=boiOH3LnTDC7opuDR27SX_WL7-ZME3V4bNL7aJ-zCX4,2263
+autota/model.py,sha256=ghYT67sHmsoQFMImdAZLT1Xe8FkwwDy9mmeJbIASnrM,8782
+autota/recommender.py,sha256=hLG89HmSFOdy4IAMRH1MEcdZtOzz9TnxykwuHclW058,1196
+autota/util.py,sha256=DiyIoplWXPLF32E3c1nrudaxJRDxNr6576tyTsUYBcw,3556
+autota-0.0.3.dist-info/LICENSE,sha256=79DYu6N9KJSr4uTO7oiOJxUOng-XgZe9KuE0JD7D4_c,1085
+autota-0.0.3.dist-info/METADATA,sha256=kXfX5KZQOlASiSQilTsDy2_g7Eooze0kJT4LS62pnwc,2256
+autota-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+autota-0.0.3.dist-info/top_level.txt,sha256=v36WDmGgy24KyK6gZxaLdwT4HPSAodzzgExNLhJr_mA,7
+autota-0.0.3.dist-info/RECORD,,
