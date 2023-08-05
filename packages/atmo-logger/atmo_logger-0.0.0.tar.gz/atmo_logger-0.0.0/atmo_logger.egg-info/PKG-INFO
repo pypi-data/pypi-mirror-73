@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: atmo-logger
+Version: 0.0.0
+Summary: Logging for Atmosphere, modeled after threepio by jmatt.
+Home-page: https://github.com/cyverse/atmo_logger
+Author: cyverse
+Author-email: atmodevs@gmail.com
+License: The University of Arizona
+Description: 
+        atmo_logger None
+        Logging for Atmosphere, modeled after jmatt's threepio.
+        To install use pip install git+git://github.com/cyverse/atmo_logger
+        ----
+        # atmo_logger
+        Atmosphere logger, modeled after jmatt's [threepio](https://github.com/jmatt/threepio/). 
+        
+        ----
+        For more information, please see: https://github.com/cyverse/atmo_logger
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Logging
+Description-Content-Type: text/markdown
