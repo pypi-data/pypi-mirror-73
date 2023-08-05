@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lazytype
+Version: 0.1.0
+Summary: Type wrappers for typing; module loading deferred till __init__.
+Home-page: https://github.com/stefco/lazytype
+License: UNKNOWN
+Author: Stefan Trklja Countryman
+Author-email: stefan.countryman@gmail.com
+Requires-Python: >=3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
