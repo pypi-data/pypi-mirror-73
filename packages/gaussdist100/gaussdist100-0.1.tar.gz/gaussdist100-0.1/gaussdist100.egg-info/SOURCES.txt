@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+license.txt
+setup.py
+gaussdist100/Binomialdistribution.py
+gaussdist100/Gaussiandistribution.py
+gaussdist100/Generaldistribution.py
+gaussdist100/__init__.py
+gaussdist100.egg-info/PKG-INFO
+gaussdist100.egg-info/SOURCES.txt
+gaussdist100.egg-info/dependency_links.txt
+gaussdist100.egg-info/not-zip-safe
+gaussdist100.egg-info/top_level.txt
