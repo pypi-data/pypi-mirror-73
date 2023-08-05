@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: commandict
+Version: 0.1.4
+Summary: Use Daum dic via CLI
+Home-page: http://github.com/nellag/commandict
+Author: nellaG
+Author-email: seirios0107@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Requires-Dist: click (<7.0.1,>=7.0)
+Requires-Dist: beautifulsoup4 (<4.7.2,>=4.7.1)
+Requires-Dist: requests (<2.23.0,>=2.22.0)
+
+UNKNOWN
+
+
