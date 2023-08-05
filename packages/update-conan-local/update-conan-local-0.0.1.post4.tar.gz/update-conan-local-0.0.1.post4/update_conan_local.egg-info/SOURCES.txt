@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+update-conan-local/__init__.py
+update-conan-local/find_cache.py
+update_conan_local.egg-info/PKG-INFO
+update_conan_local.egg-info/SOURCES.txt
+update_conan_local.egg-info/dependency_links.txt
+update_conan_local.egg-info/top_level.txt
