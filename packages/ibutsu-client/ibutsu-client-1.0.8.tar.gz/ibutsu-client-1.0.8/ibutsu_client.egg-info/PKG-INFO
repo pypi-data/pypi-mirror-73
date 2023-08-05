@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: ibutsu-client
+Version: 1.0.8
+Summary: Ibutsu API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Description:     A system to store and query test results  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Ibutsu API
+Platform: UNKNOWN
