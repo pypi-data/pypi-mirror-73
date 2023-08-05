@@ -1,0 +1,9 @@
+setup.py
+distributions_gungz/Binomialdistribution.py
+distributions_gungz/Gaussiandistribution.py
+distributions_gungz/Generaldistribution.py
+distributions_gungz/__init__.py
+distributions_gungz.egg-info/PKG-INFO
+distributions_gungz.egg-info/SOURCES.txt
+distributions_gungz.egg-info/dependency_links.txt
+distributions_gungz.egg-info/top_level.txt
