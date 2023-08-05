@@ -1,0 +1,16 @@
+README.md
+setup.py
+new/__init__.py
+new/main.py
+new/replace.py
+new/repo.py
+new/template.py
+new_project.egg-info/PKG-INFO
+new_project.egg-info/SOURCES.txt
+new_project.egg-info/dependency_links.txt
+new_project.egg-info/entry_points.txt
+new_project.egg-info/top_level.txt
+tests/__init__.py
+tests/replace_test.py
+tests/repo_test.py
+tests/template_test.py
