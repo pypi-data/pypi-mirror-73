@@ -1,0 +1,13 @@
+README.rst
+pyproject.toml
+setup.py
+telegen_definitions/__init__.py
+telegen_definitions/__main__.py
+telegen_definitions/endpoints.py
+telegen_definitions/generated.py
+telegen_definitions/multipart_encoder.py
+telegen_definitions/types.py
+telegen_definitions.egg-info/PKG-INFO
+telegen_definitions.egg-info/SOURCES.txt
+telegen_definitions.egg-info/dependency_links.txt
+telegen_definitions.egg-info/top_level.txt
