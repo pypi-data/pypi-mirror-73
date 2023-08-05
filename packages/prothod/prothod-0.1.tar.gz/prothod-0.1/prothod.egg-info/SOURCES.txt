@@ -1,0 +1,10 @@
+setup.py
+ppbank_cli/extract_docx.py
+ppbank_cli/inter.py
+ppbank_cli/ppbank.py
+ppbank_cli/test.py
+prothod.egg-info/PKG-INFO
+prothod.egg-info/SOURCES.txt
+prothod.egg-info/dependency_links.txt
+prothod.egg-info/requires.txt
+prothod.egg-info/top_level.txt
