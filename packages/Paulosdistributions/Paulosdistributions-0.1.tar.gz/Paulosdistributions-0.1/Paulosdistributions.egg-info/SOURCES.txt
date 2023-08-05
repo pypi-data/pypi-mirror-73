@@ -1,0 +1,10 @@
+setup.py
+Paulosdistributions/Binomialdistribution.py
+Paulosdistributions/Gaussiandistribution.py
+Paulosdistributions/Generaldistribution.py
+Paulosdistributions/__init__.py
+Paulosdistributions.egg-info/PKG-INFO
+Paulosdistributions.egg-info/SOURCES.txt
+Paulosdistributions.egg-info/dependency_links.txt
+Paulosdistributions.egg-info/not-zip-safe
+Paulosdistributions.egg-info/top_level.txt
