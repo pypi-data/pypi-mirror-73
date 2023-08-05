@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: SimpleEconomy
+Version: 0.0.1
+Summary: Very easy to use discord.py economy creator
+Home-page: UNKNOWN
+Author: MrStretch
+Author-email: markustraus@gmail.com
+License: MIT
+Description: Only available for testing purposes
+        
+        Change Log
+        ===========
+        
+        0.0.1 (06/07/2020)
+        ------------------
+        - First Release
+Keywords: Ecomomy,Simple
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
