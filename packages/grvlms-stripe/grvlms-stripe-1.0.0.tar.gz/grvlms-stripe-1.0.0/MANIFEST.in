@@ -1,0 +1,2 @@
+recursive-include grvlmsstripe/patches *
+recursive-include grvlmsstripe/templates *
