@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: fake_web_events
+Version: 0.1.0
+Summary: Generator of semi-random fake web events. 
+Home-page: https://github.com/andresionek91/fake-web-events
+Author: Andre Sionek
+Author-email: andresionek91@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/andresionek91/fake-web-events/blob/master/README.md
+Description: UNKNOWN
+Keywords: fake,web events,events
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
