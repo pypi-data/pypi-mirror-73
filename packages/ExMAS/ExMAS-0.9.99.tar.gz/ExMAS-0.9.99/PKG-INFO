@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ExMAS
+Version: 0.9.99
+Summary: Exact Matching of Attractive Shared rides (ExMAS) Kucharski R, Cats O TransResB, 2020 139 2020 285-310
+Home-page: https://github.com/RafalKucharskiPK/ExMAS
+Author: Rafal Kucharski
+Author-email: rkucharski@pk.edu.pl
+License: MIT
+Download-URL: https://github.com/RafalKucharskiPK/ExMAS/archive/0.9.9.tar.gz
+Description: UNKNOWN
+Keywords: MaaS,transportation,shared mobility
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
