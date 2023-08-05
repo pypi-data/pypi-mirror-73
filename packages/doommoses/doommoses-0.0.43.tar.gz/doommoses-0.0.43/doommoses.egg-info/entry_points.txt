@@ -1,0 +1,3 @@
+
+[console_scripts]
+doommoses=doommoses.cli:cli
