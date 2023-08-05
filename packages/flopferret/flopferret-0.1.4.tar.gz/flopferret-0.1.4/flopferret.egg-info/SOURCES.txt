@@ -1,0 +1,15 @@
+README.md
+setup.py
+flopferret/__init__.py
+flopferret/board_texture.py
+flopferret/hand_range.py
+flopferret/main_window.py
+flopferret/percent_display.py
+flopferret/range_selector.py
+flopferret/saved_ranges.py
+flopferret.egg-info/PKG-INFO
+flopferret.egg-info/SOURCES.txt
+flopferret.egg-info/dependency_links.txt
+flopferret.egg-info/entry_points.txt
+flopferret.egg-info/requires.txt
+flopferret.egg-info/top_level.txt

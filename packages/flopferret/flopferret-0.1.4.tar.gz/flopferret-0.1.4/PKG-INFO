@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: flopferret
+Version: 0.1.4
+Summary: A Texas Hold'em board texture analyzer
+Home-page: https://github.com/JulianAndrews/pyeval7
+License: MIT
+Description: FlopFerret
+        ==========
+        Texas Hold'em board texture analyzer.
+        
+        Installation
+        ------------
+        
+        ### Debian with Python 3.7, Ubuntu with Python 3.6, MacoOS
+        
+        Download the the latest release [here](https://github.com/JulianAndrews/flopferret/releases).
+        
+        For Ubuntu you'll need a version with a Python 3.6 package, and for Debian
+        Python 3.7. The MacOS install includes a bundled python interpreter.
+        
+        ### Windows
+        
+        Download the Alpha release
+        [here](https://github.com/julianandrews/flopferret/releases/tag/v0.1-alpha).
+        
+        ### Other versions of Linux
+        
+        Make sure you have pip installed for Python 3.6, 3.7, or 3.8 `pip --version`
+        should let you know). Then:
+        
+            pip install flopferret
+        
+        should be all you need. On Linux systems I recommend
+        
+            pip install --user flopferret
+        
+        Better yet, install it in a virtualenv, and link the `flopferret` binary to
+        somewhere on your path.
+        
+Keywords: poker equity
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment
+Description-Content-Type: text/markdown
