@@ -1,0 +1,3 @@
+[console_scripts]
+savetube = Savetube.__main__:main
+
