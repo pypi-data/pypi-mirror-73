@@ -1,0 +1,11 @@
+clockblocks/__init__.py,sha256=z4eM1xf2l_habq2kuVq8vsOok5vJ6uxumUnHbcy3P0k,896
+clockblocks/clock.py,sha256=6DKLWF6E0Jygh46-_Dlr0UQuNBihzoeSiqOLpq16qoQ,82004
+clockblocks/clockblocks.py,sha256=IKsCJJ39a3lq2t4p2kZn9kcjgjGCKrTJvEnz-aV7Bfw,43808
+clockblocks/debug.py,sha256=a_1kAy_pzBHUC22vdnqJs9367juDmGYJZTOYcwKisDc,4692
+clockblocks/tempo_envelope.py,sha256=UlGdfut9gdloyZXoSygB0NKexHESfvKGjW4f9Bk5lTs,57714
+clockblocks/utilities.py,sha256=a3Svc0kU5ZoB5xLQAtb1AyBrFcnF-yEwHaQoxSf0JZ0,5723
+clockblocks-0.5.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+clockblocks-0.5.1.dist-info/METADATA,sha256=5wPurBa-8llkwxBO4NYqd76FnV-toAnlmKPLadyBSec,2659
+clockblocks-0.5.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+clockblocks-0.5.1.dist-info/top_level.txt,sha256=X1i_RMiJpXmbgDd7-gFVhGMIyeyO34pFTr7SwBYjxfU,12
+clockblocks-0.5.1.dist-info/RECORD,,
