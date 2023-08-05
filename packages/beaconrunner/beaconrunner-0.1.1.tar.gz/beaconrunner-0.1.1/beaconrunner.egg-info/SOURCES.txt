@@ -1,0 +1,17 @@
+README.md
+setup.py
+beaconrunner/__init__.py
+beaconrunner/brlib.py
+beaconrunner/cadCADsupSUP.py
+beaconrunner/eth2.py
+beaconrunner/network.py
+beaconrunner/specs.py
+beaconrunner/validatorlib.py
+beaconrunner.egg-info/PKG-INFO
+beaconrunner.egg-info/SOURCES.txt
+beaconrunner.egg-info/dependency_links.txt
+beaconrunner.egg-info/requires.txt
+beaconrunner.egg-info/top_level.txt
+beaconrunner/validators/ASAPValidator.py
+beaconrunner/validators/PrudentValidator.py
+beaconrunner/validators/__init__.py
