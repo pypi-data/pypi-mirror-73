@@ -1,0 +1,10 @@
+vaecompare/__init__.py,sha256=X0NLCSRb5pKgncks5reUZaY8FHJxoAg8KoMQxnhyEis,120
+vaecompare/compare.py,sha256=sNU19cdOjauW-1RCWgIuhlwGe1zsE96oF2M052v-u5E,2350
+vaecompare/estimate.py,sha256=NId2aa_PCRDGxtJETMOaP1tN1sOeBqRiv9nttPnYI68,19926
+vaecompare/htest.py,sha256=qkJbIAPj7i3D0EIktlHT8FylnKWEZ3ROCCPGmGZZYYQ,3821
+vaecompare/utils.py,sha256=PweioLSNDpDV6fCsJ5pnj1DK2hq4Cf5NrHm0sWwWC3c,3441
+vaecompare-1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+vaecompare-1.0.dist-info/METADATA,sha256=o2q2zahhN8OMjB-tNG3w4wfE0KmUCNeWQEFKwkazhYw,394
+vaecompare-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vaecompare-1.0.dist-info/top_level.txt,sha256=B9fquOw_Lius18hHQS_vRMZgx2LjmSBqP5s4hM0NIqc,11
+vaecompare-1.0.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vaecompare
+Version: 1.0
+Summary: Density comparison using variational autoencoders
+Home-page: UNKNOWN
+Author: Marco Inacio
+Author-email: pythonpackages@marcoinacio.com
+License: GPL3
+Keywords: variational autoencoders,density comparison,neural networks
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: sstudy
+
+UNKNOWN
+
+
