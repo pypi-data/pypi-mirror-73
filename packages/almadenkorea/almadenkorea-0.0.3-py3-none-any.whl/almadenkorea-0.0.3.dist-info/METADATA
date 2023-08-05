@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: almadenkorea
+Version: 0.0.3
+Summary: almaden package
+Home-page: https://github.com/BaeJin/almadenkorea
+Author: tajinbae
+Author-email: bjin86@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/BaeJin/almadenkorea/archive/master.zip
+Keywords: sql
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Requires-Dist: pandas
+Requires-Dist: pymysql
+
+UNKNOWN
+
+
