@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: validpar
+Version: 1.0.0
+Summary: 用于参数校验
+Home-page: UNKNOWN
+Author: 王哈哈
+Author-email: mail65656@163.com
+License: UNKNOWN
+Description: 用于做参数的校验
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
