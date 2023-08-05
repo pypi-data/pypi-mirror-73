@@ -1,0 +1,9 @@
+aiohttp<3.7.0,>=3.6.0
+beautifulsoup4>=4.8.0
+rsa<4.0
+betterproto>=1.2.3
+
+[docs]
+sphinx==3.0.1
+sphinxcontrib_trio==1.1.1
+sphinxcontrib-websupport
