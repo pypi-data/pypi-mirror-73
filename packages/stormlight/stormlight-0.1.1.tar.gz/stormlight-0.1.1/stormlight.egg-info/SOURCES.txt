@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+stormlight/__init__.py
+stormlight/analysis.py
+stormlight/datasets.py
+stormlight/modeling.py
+stormlight/processing.py
+stormlight/utils.py
+stormlight.egg-info/PKG-INFO
+stormlight.egg-info/SOURCES.txt
+stormlight.egg-info/dependency_links.txt
+stormlight.egg-info/requires.txt
+stormlight.egg-info/top_level.txt
