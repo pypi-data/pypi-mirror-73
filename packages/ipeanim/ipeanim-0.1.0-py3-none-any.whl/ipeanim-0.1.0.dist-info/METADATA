@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ipeanim
+Version: 0.1.0
+Summary: This package demonstrates building and publishing Python Packages with GitHubs infrastructure
+Home-page: UNKNOWN
+Author: Sören Wegener
+Author-email: wegener92@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/soerface/ipeanim
+Project-URL: Bug Tracker, https://github.com/soerface/ipeanim/issues
+Project-URL: Documentation, https://github.com/soerface/ipeanim/blob/master/README.md
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pbr (==5.4.4)
+
+# ipeanim
+
+`ipeanim` is a thin wrapper around `iperender`. It allows you to render
+multiple images from a single .ipe file.
+
+Ipe is a free drawing editor created by Otfried Cheong: http://ipe.otfried.org/
+
+[ipeanim on PyPI](https://pypi.org/project/ipeanim)
+
+## Installation
+
+Install Ipe and libipe from http://ipe.otfried.org/
+
+Install this package either via pip:
+
+    pip install ipeanim
+
+Or just download the "ipeanim" file from here and put it in your path. It only requires python 3.7+.
+
+## Usage
+
+    $ ipeanim path/to/file.ipe
+    $ ipeanim --help
+
+[![Tests Status](https://github.com/soerface/ipeanim/workflows/CI/badge.svg)](https://github.com/soerface/ipeanim/actions?query=workflow%3ACI)
+
+
+
