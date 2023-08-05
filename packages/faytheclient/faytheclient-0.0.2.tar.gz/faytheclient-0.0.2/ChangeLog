@@ -1,0 +1,40 @@
+CHANGES
+=======
+
+0.0.2
+-----
+
+* Add new APIs
+* Update to be compabtible with Faythe v0.4.0 and up
+* Update README
+* Add create scaler & list scalers example
+
+0.0.1
+-----
+
+* Replace the previous name
+* Remove badge's style
+* Add PyPi version badge
+* Remove Changelog, it's annoying
+* Update setup.cfg
+* Update Changelog
+* Add version and rename package
+* Fix typo
+* Update README
+* Add example
+* Add Changelog
+* Add AUTHORS
+* Change data to json in request
+* Update README
+* Generate url
+* Add docstring
+* Add scalers, healers, silences methods
+* Update client
+* Update faytheclient
+* Update Pipfiles
+* Init faytheclient
+* Init setup
+* Add Apache 2 License
+* Add pipenv files
+* Add gitignore
+* Initial commit
