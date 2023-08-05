@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ReactivePy
+Version: 1.1.0.dev0
+Summary: Reactive properties and owners for Python classes.
+Home-page: https://github.com/Dan6erbond/ReactivePy
+Author: Dan6erbond
+Author-email: moravrav@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: reactive python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ReactivePy
+
+A simple library to manage reactive properties within an object using custom descriptors and update methods.
+
+## About ReactivePy
+
+ReactivePy lets you create objects that contain reactive properties. Those can be updated in bulk, which allows ReactivePy to notify its observers of changes. The callback can then read the history, update value as well as the name of the attribute.
+
+```python
+from reactive import ReactiveOwner, ReactiveProperty
+
+class Foo(ReactiveOwner):
+    def __init__(self):
+        super().__init__()
+        self.name = ReactiveProperty("Foo")
+        self.age = ReactiveProperty(6)
+
+foo = Foo()
+
+def on_update(*args):
+    for arg in args: print(arg.name, "updated to", arg)
+
+def on_name_update(curr: Any, org: Any):
+    print("Name updated from", org, "to", curr)
+
+foo.on_update(on_update, foo.name, foo.age)
+foo.name.on_update(on_name_update)
+
+foo._bulk_update({"name": "name", "value": "Bar"},
+                  {"name": "age", "value": 12})
+```
+
+
