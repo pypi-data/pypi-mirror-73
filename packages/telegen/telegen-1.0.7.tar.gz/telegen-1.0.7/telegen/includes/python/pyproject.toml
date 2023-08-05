@@ -1,0 +1,8 @@
+[build-system]
+build-backend = "setuptools.build_meta:_BACKEND"
+requires = ["setuptools", "wheel"]
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "mypy"
+]
