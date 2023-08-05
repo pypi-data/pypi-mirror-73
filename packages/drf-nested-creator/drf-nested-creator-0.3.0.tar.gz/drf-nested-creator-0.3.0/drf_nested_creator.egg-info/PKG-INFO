@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: drf-nested-creator
+Version: 0.3.0
+Summary: Django Rest Framework nested serializers and model creator
+Home-page: https://github.com/UtkucanBykl/drf-nested-creator
+Author: Utkucan Bıyıklı
+Author-email: utkucanbykl@gmail.com
+License: MIT
+Description: # drf-nested-creator
+        Django Rest Framework nested serializers and model creator
+        
+Keywords: django,djangorestframework,serializers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
