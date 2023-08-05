@@ -1,0 +1,5 @@
+setup.py
+libpy_frame_reader.egg-info/PKG-INFO
+libpy_frame_reader.egg-info/SOURCES.txt
+libpy_frame_reader.egg-info/dependency_links.txt
+libpy_frame_reader.egg-info/top_level.txt
