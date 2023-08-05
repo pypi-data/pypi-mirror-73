@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hickory
+Version: 0.1
+Summary: 🕰 Hickory, dickory, dock. The mouse ran up the clock.
+Home-page: https://github.com/maxhumber/hickory
+Author: Max Humber
+Author-email: max.humber@gmail.com
+License: MIT
+Description: # hickory
+        🕰 Hickory, dickory, dock. The mouse ran up the clock.
+        
+Keywords: schedule,cron,crontab
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
