@@ -1,0 +1,14 @@
+pickle
+os
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+base64
+email
+bs4
+re
+itertools
+selenium
+pandas
+csv
+pyfiglet
