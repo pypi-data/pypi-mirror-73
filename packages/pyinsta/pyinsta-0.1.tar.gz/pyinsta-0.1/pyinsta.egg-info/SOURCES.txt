@@ -1,0 +1,12 @@
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pyinsta/__init__.py
+pyinsta/download.py
+pyinsta.egg-info/PKG-INFO
+pyinsta.egg-info/SOURCES.txt
+pyinsta.egg-info/dependency_links.txt
+pyinsta.egg-info/requires.txt
+pyinsta.egg-info/top_level.txt
