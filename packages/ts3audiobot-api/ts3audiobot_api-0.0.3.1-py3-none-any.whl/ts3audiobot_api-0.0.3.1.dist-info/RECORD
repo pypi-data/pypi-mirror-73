@@ -1,0 +1,9 @@
+ts3audiobot_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ts3audiobot_api/commands.py,sha256=_nirNntqP9PyN8IklCavdiWOHYXOqfFpHEmlrpeDWro,4009
+ts3audiobot_api/ts3audiobot.py,sha256=_xfFQXK5X-7WVtLrKHtILcRJECaK2rxTM-2ST0woVqQ,2101
+ts3audiobot_api/ts3commandcaller.py,sha256=2YDq4Lv3VS7r9FhX8SsI7gdC-MrMNu0er8TTylNt5IE,4294
+ts3audiobot_api-0.0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ts3audiobot_api-0.0.3.1.dist-info/METADATA,sha256=-32iEdANaUcb9Jm0fKGTvsQVs15thnXFeTU2tQ0Xsk0,586
+ts3audiobot_api-0.0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ts3audiobot_api-0.0.3.1.dist-info/top_level.txt,sha256=0AELmxXRgla7sckbVJxF8kk5m5Tv8a2e_jPLIZk3CXk,16
+ts3audiobot_api-0.0.3.1.dist-info/RECORD,,
