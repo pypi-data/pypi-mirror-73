@@ -1,0 +1,4 @@
+
+      [console_scripts]
+      ravenml=ravenml.cli:cli
+    
