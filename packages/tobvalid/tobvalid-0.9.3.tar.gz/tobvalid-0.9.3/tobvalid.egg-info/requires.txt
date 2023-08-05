@@ -1,0 +1,8 @@
+pandas
+fire
+matplotlib
+numpy
+scipy
+gemmi>=0.3.8
+seaborn
+statsmodels>=0.11.1
