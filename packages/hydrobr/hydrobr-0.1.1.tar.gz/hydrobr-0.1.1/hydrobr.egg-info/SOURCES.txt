@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+hydrobr/__init__.py
+hydrobr/get_data.py
+hydrobr/graphics.py
+hydrobr/preprocessing.py
+hydrobr/save.py
+hydrobr.egg-info/PKG-INFO
+hydrobr.egg-info/SOURCES.txt
+hydrobr.egg-info/dependency_links.txt
+hydrobr.egg-info/requires.txt
+hydrobr.egg-info/top_level.txt
