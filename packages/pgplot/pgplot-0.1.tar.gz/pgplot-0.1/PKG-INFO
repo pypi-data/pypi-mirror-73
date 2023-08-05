@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pgplot
+Version: 0.1
+Summary: Graphing functionality, integrated with pygame!
+Home-page: https://github.com/JSanders02/pgplot
+Author: Jack Sanders
+Author-email: jacksanders404@gmail.com
+License: MIT
+Download-URL: https://github.com/JSanders02/pgplot/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Graphs,Pygame,plotting
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
