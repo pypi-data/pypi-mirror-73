@@ -1,0 +1,12 @@
+ms3/__init__.py,sha256=WI4u9Lu0lY3_Q3jZmWoQxDzzWA2BXGzXgkEQm-CiVz0,384
+ms3/bs4_measures.py,sha256=aR8J49ZmvBpkCFUZB9_whFAIiGJywaNfe7AIas8hK0M,23636
+ms3/bs4_parser.py,sha256=UlZVEOE9uKReu2H2PnWXbxdK29NqM7htZEWhZtlCeMg,12305
+ms3/logger.py,sha256=tZHURY2MEkgcECcHBc6ZccwyUVaLmO4iY5fm-OewG-U,3942
+ms3/score.py,sha256=6Yxpjiye9GSsespUvUjGzeZfqAWneMRlWqZccKf9XrE,4588
+ms3/skeleton.py,sha256=HzP8ZaFmlsD06DHXxhUevsl0pfDPp3JC2znYGsYJQU4,2802
+ms3-0.1.1.dist-info/AUTHORS.rst,sha256=M2ub4ZFeBVQ-hnsVYfrxRdpl09X-cYbZRdwgo0-LwYA,90
+ms3-0.1.1.dist-info/LICENSE.txt,sha256=k4AGzBSEdwkr-U1RP-RACAn9RARW_gcp3TaVk2WXdpI,34500
+ms3-0.1.1.dist-info/METADATA,sha256=LUIz3hDwlGUNr1n03tcmkIwPqeSxwNe-zm6VbDPcuv8,1092
+ms3-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ms3-0.1.1.dist-info/top_level.txt,sha256=sM9ePSXCl-HMHnznFBtekbGNuEtX1l4PVZwDwq-nbp4,4
+ms3-0.1.1.dist-info/RECORD,,
