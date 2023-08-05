@@ -1,0 +1,7 @@
+include README.rst
+include requirements.txt
+recursive-include django_microsip_base templates *
+recursive-include django_microsip_base static *
+recursive-include django_microsip_base media *
+recursive-include django_microsip_base *.pyc
+recursive-include django_microsip_base __init__.py
