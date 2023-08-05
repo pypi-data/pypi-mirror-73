@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: segutils
+Version: 0.0.0
+Summary: Common utilities for image processing, segmentation, and detection
+Home-page: https://github.com/tacos-galore/segutils
+Author: Guy Azran
+Author-email: guyazran@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+Requires-Dist: m
+Requires-Dist: a
+Requires-Dist: h
+Requires-Dist: o
+Requires-Dist: t
+Requires-Dist: s
+
+# segutils
+Common utilities for image processing, segmentation, and detection.
+
+## About
+This library contains many useful utilities for image processing, mostly for preprocessing and visualizations for
+computer vision tasks such as object detection and segmentation. These utilities aim to have a flowing and unified
+API in order to make the transition between the different stages data handling during these tasks.   
+
+## Install
+`$ pip install segutils`
+
+## The Mission
+There are many utilities out there for handling performing preprocessing and visualizations for computer vision tasks.
+Most of these utilities are scattered among many different tools found all over the web, and the rest are incomplete
+gist files and small repositories which are always lacking, none of which are on PyPi. The mission is to make a
+unified toolkit for all of these tools that will follow one API logic and sensible defaults and put an end to
+proprietary visualization code.
+
+Contributions are all welcome. There is much work to be done. 
+
+
