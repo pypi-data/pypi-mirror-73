@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: aktime
+Version: 0.1.0
+Summary: Function time calculator
+Home-page: https://github.com/AustinKuture/AKTime.git
+Author: Kuture
+Author-email: kuture@163.com
+License: MIT Licence
+Description: Function time calculator
+Keywords: pip,aktime,TimeCalcu,timetool,kuture
+Platform: any
