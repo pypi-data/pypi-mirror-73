@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: AdresseParser
+Version: 0.1.0
+Summary: Parser d'adresses françaises
+Home-page: UNKNOWN
+Author: Maxime Challon
+Author-email: maxime.challon@gmail.com
+License: UNKNOWN
+Keywords: adresse France
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: French
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Education
+
+#PyAddresseParser
+Parser d'addresses françaises.
+
+#Lancement
+
+Vous pouvez l'installer avec pip:
+```bash
+pip install AdresseParser
+```
+Exemple d'utilisation en console Python:
+```bash
+>>> from AdresseParser import AdresseParser
+>>> adr_parser = AdresseParser()
+>>> result = adr_parser.parse("88 rue de rivoli 75002 paris")
+>>> print(result)
+{'numero': '88', 'rue': {'type': 'RUE', 'nom': 'RIVOLI'}, 'code_postal': '75002', 'ville': {'arrondissement': 2, 'nom': 'PARIS'}, 'departement': {'numero': 75, 'nom': 'Paris'}, 'region': 'Île-de-France', 'pays': 'France'}
+>>> print(result['rue'])
+{'type': 'RUE', 'nom': 'RIVOLI'}
+>>> print(result['ville']['arrondissement'])
+2
+```
+
