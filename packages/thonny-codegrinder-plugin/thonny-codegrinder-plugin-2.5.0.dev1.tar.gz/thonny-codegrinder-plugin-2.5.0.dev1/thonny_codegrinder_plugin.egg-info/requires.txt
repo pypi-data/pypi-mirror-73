@@ -1,0 +1,4 @@
+requests>=2.21
+semver>=2.10
+thonny>=3.0
+websocket-client>=0.57
