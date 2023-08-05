@@ -1,0 +1,6 @@
+README.md
+setup.py
+progressionarithmetic.egg-info/PKG-INFO
+progressionarithmetic.egg-info/SOURCES.txt
+progressionarithmetic.egg-info/dependency_links.txt
+progressionarithmetic.egg-info/top_level.txt
