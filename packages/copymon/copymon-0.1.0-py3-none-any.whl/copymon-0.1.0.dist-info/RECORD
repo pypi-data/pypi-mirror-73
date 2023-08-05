@@ -1,0 +1,11 @@
+copymon/__init__.py,sha256=pSbXKovoIRBAQ7ESGIcC03i9SswkNewg-4C-K463IEM,74
+copymon/__main__.py,sha256=VAEBEdaAe5gAbZVK30S_63cAC71J4vcUrJG7F-5AePs,92
+copymon/copymon.py,sha256=yh_-QKbXXKRqWBKnECdgGnwhhj1-GUkqimdAl4DxNT0,7302
+copymon/main.py,sha256=WArZKd7RDBec24lUxtHAz2z7Dpu3RqUcQTOEWj4506w,410
+copymon/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+copymon-0.1.0.dist-info/LICENSE,sha256=5pk-GF-Kg9o31MNMAcFdsiCf1Vaxc9t9jr58_j11Sto,1064
+copymon-0.1.0.dist-info/METADATA,sha256=J7Xlgn9bRFK3qfxKu7sz7_U1_x5H-rP8j7BKeDBxxu8,5251
+copymon-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+copymon-0.1.0.dist-info/entry_points.txt,sha256=CirtHI6CnkwXwhC2xyo2aIypMc7FjBcsnFU6toAe4GE,42
+copymon-0.1.0.dist-info/top_level.txt,sha256=4MFNkYxTuuHtDQR8Quu5kYRt3mJbum4NLrJ3Vczu-2s,8
+copymon-0.1.0.dist-info/RECORD,,
