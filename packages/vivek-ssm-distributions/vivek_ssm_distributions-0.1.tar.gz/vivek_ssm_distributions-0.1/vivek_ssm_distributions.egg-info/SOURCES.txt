@@ -1,0 +1,10 @@
+setup.py
+vivek_ssm_distributions/Binomialdistribution.py
+vivek_ssm_distributions/Gaussiandistribution.py
+vivek_ssm_distributions/Generaldistribution.py
+vivek_ssm_distributions/__init__.py
+vivek_ssm_distributions.egg-info/PKG-INFO
+vivek_ssm_distributions.egg-info/SOURCES.txt
+vivek_ssm_distributions.egg-info/dependency_links.txt
+vivek_ssm_distributions.egg-info/not-zip-safe
+vivek_ssm_distributions.egg-info/top_level.txt
