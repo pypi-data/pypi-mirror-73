@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+./currencyfield/__init__.py
+./currencyfield/fields.py
+./currencyfield/utils.py
+django_currency_field.egg-info/PKG-INFO
+django_currency_field.egg-info/SOURCES.txt
+django_currency_field.egg-info/dependency_links.txt
+django_currency_field.egg-info/requires.txt
+django_currency_field.egg-info/top_level.txt
