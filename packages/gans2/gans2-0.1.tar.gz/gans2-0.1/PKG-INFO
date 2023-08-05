@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gans2
+Version: 0.1
+Summary: GANs-2.0
+Home-page: UNKNOWN
+Author: Tomasz Latkowski
+License: UNKNOWN
+Description: Generative Adversarial Networks in TensorFlow 2.0.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tensorflow
