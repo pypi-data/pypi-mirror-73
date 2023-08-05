@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+type_asserter/__init__.py
+type_asserter/type_asserter.py
+type_asserter.egg-info/PKG-INFO
+type_asserter.egg-info/SOURCES.txt
+type_asserter.egg-info/dependency_links.txt
+type_asserter.egg-info/requires.txt
+type_asserter.egg-info/top_level.txt

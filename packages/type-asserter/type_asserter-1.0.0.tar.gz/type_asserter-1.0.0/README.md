@@ -1,0 +1,75 @@
+# Type Asserter: A tool to type
+
+This package enforces the functions' *type hints* at runtime, making sure that the types of the actual parameters and the return value match the types specified in the function signature.
+
+# Installation
+
+The source code is currently hosted on GitHub at: https://github.com/ValerioNeriGit/type_asserter
+
+Binary installers for the latest released version are available at the Python package index.
+
+```bash
+pip3 install type_asserter
+```
+
+# Usage
+
+Define your function using the Python3.8 type hints and add the *@enforce_type_hints* decorator
+
+```python
+from type_asserter import enforce_type_hints
+
+
+@enforce_type_hints
+def power(num: int, pow: int, verbose: bool = False) -> int:
+    result = num ** pow
+
+    if verbose:
+        print("The result is:", result)
+
+    return result
+
+
+power(3, 4, verbose=True)
+```
+
+When one or more type mismatches are found, for each mismatched parameter is shown its name (as in the function's signature, its expected type, and its actual type:
+```
+TypeError: Parameter's type mismatch
+   Parameter's name: num, expected: <class 'int'> but got: <class 'str'>
+   Parameter's name: pow, expected: <class 'int'> but got: <class 'str'>
+```
+
+## Performance
+
+The package endeavors to impact as little as possible on the performance of your program, but still, it introduces some overhead.
+
+You can disable the type check in order to maximize performance setting ***disable=True*** as in the example below
+
+If you want to disable the type check for 
+
+```python
+from type_asserter import enforce_type_hints
+
+
+@enforce_type_hints(disable=True)
+def power(num: int, pow: int) -> int:
+    return  num ** pow
+```
+
+## Show a warning instead of an error
+
+It is possible to set ***warning_instead_of_error=True*** in order to have a non-interrupting warning instead of a TypeError, as in the example below.
+
+```python
+from type_asserter import enforce_type_hints
+
+
+@enforce_type_hints(warning_instead_of_error=True)
+def power(num: int, pow: int) -> int:
+    return  num ** pow
+```
+
+## Author
+
+**Valerio Neri**  - [github](https://github.com/ValerioNeriGit)
