@@ -1,0 +1,11 @@
+setup.py
+rac_distributions/Binomialdistribution.py
+rac_distributions/Gaussiandistribution.py
+rac_distributions/Generaldistribution.py
+rac_distributions/__init__.py
+rac_distributions/setup.py
+rac_distributions.egg-info/PKG-INFO
+rac_distributions.egg-info/SOURCES.txt
+rac_distributions.egg-info/dependency_links.txt
+rac_distributions.egg-info/not-zip-safe
+rac_distributions.egg-info/top_level.txt
