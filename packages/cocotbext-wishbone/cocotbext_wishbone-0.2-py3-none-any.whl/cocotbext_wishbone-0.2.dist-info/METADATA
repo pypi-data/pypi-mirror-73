@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cocotbext-wishbone
+Version: 0.2
+Summary: Cocotb Wishbone modules
+Home-page: UNKNOWN
+Author: Staf Verhaegen, Mathias Kreider
+Author-email: staf@stafverhaegen.be, m.kreider@gsi.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Requires-Dist: cocotb
+
+UNKNOWN
+
+
