@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: libpy_frame_reader
+Version: 1.1
+Summary: Encapsulate frame_reader for Python
+Home-page: https://git.supremind.info/wusong/media-utils/tree/forPy/forPython
+Author: Wu song
+Author-email: wusong@supremind.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
