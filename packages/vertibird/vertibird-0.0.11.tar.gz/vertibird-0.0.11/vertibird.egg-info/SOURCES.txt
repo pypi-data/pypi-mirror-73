@@ -1,0 +1,8 @@
+README.md
+setup.py
+vertibird.py
+vertibird.egg-info/PKG-INFO
+vertibird.egg-info/SOURCES.txt
+vertibird.egg-info/dependency_links.txt
+vertibird.egg-info/requires.txt
+vertibird.egg-info/top_level.txt
