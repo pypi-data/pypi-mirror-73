@@ -1,0 +1,9 @@
+sphinx>=1.8
+
+[sphinx]
+myst-parser[sphinx]
+
+[testing]
+pytest
+pytest-regressions
+beautifulsoup4
