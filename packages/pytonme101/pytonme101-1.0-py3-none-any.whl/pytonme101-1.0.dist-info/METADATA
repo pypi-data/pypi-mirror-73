@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pytonme101
+Version: 1.0
+Summary: It squares the number
+Home-page: https://github.com/ruelagnes111/pytonme101
+Author: Ruel Agnes
+Author-email: ruelagnes101@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+Ruel Agnes Square
+It takes an integer as an input and prints it square.
+
+Installation
+pip install pytonme101
+
+How to use it?
+Open terminal and type square and then input the integer
+
+License
+ยฉ 2020 Ruel Agnes
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
