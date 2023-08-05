@@ -1,0 +1,7 @@
+README.md
+setup.py
+infinite_request/__init__.py
+infinite_request.egg-info/PKG-INFO
+infinite_request.egg-info/SOURCES.txt
+infinite_request.egg-info/dependency_links.txt
+infinite_request.egg-info/top_level.txt
