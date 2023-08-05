@@ -1,0 +1,9 @@
+README.md
+setup.py
+phonetizer_google/Phonetizer.py
+phonetizer_google/__init__.py
+phonetizer_google.egg-info/PKG-INFO
+phonetizer_google.egg-info/SOURCES.txt
+phonetizer_google.egg-info/dependency_links.txt
+phonetizer_google.egg-info/not-zip-safe
+phonetizer_google.egg-info/top_level.txt
