@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: rucio-jupyterlab
+Version: 0.1.0
+Summary: JupyterLab extension for integrating Rucio
+Home-page: https://github.com/didithilmy/rucio-jupyterlab
+Author: Muhammad Aditya Hilmy
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Jupyter
+Description-Content-Type: text/markdown
+Requires-Dist: jupyterlab (~=2.0)
+Requires-Dist: peewee (~=3.0)
+Requires-Dist: jsonschema (~=3.0)
+
+# Rucio JupyterLab Extension
+
+![Github Actions Status](https://github.com/didithilmy/rucio-jupyterlab/workflows/Build/badge.svg)
+
+This is a JupyterLab extension that integrates with [Rucio - Scientific Data Management](https://github.com/rucio/rucio) to allow users to access some of Rucio's capabilities directly from the JupyterLab interface.
+
+
+This extension is composed of a Python package named `rucio_jupyterlab`
+for the server extension and a NPM package named `rucio-jupyterlab`
+for the frontend extension.
+
+
+## Requirements
+
+* JupyterLab >= 2.0
+
+## Install
+
+Note: You will need NodeJS to install the extension.
+
+```bash
+pip install rucio_jupyterlab
+jupyter lab build
+```
+
+## Configuration
+
+See [CONFIGURATION.md](CONFIGURATION.md)
+
+## Troubleshoot
+
+If you are seeing the frontend extension but it is not working, check
+that the server extension is enabled:
+
+```bash
+jupyter serverextension list
+```
+
+If the server extension is installed and enabled but you are not seeing
+the frontend, check the frontend is installed:
+
+```bash
+jupyter labextension list
+```
+
+If it is installed, try:
+
+```bash
+jupyter lab clean
+jupyter lab build
+```
+
