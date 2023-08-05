@@ -1,0 +1,44 @@
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="pyTextMiner", # Replace with your own username
+    version="1.1.11",
+    author="Min Song",
+    author_email="min.song@yonsei.ac.kr",
+    description="A text mining tool for Korean and English",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/MinSong2/pyTextMiner",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        "gensim==3.8.1",
+        "konlpy==0.5.1",
+        "krwordrank==1.0.2",
+        "kss==1.3.1",
+        "lxml==4.5.0",
+        "matplotlib==3.2.1",
+        "mecab==0.996.2",
+        "networkx==2.4",
+        "nltk==3.4.5",
+        "numpy==1.16.6",
+        "pycrfsuite-spacing==1.0.2",
+        "scikit-learn==0.22.2.post1",
+        "scipy==1.4.1",
+        "seaborn==0.10.1",
+        "selenium==3.141.0",
+        "soynlp==0.0.493",
+        "soylemma==0.2.0",
+        "tensorflow==1.14.0",
+        "torch",
+        "chatspace==1.0.1",
+    ],
+    python_requires='>=3.6',
+)
