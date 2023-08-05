@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+qbc_box/__init__.py
+qbc_box/ide_box.py
+qbc_box/native_box.py
+qbc_box.egg-info/PKG-INFO
+qbc_box.egg-info/SOURCES.txt
+qbc_box.egg-info/dependency_links.txt
+qbc_box.egg-info/top_level.txt
