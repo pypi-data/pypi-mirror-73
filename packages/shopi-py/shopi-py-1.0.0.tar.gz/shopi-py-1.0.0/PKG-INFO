@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shopi-py
+Version: 1.0.0
+Summary: An unnofical python package to interact with shopify stores
+Home-page: UNKNOWN
+Author: Arnav Chawla
+Author-email: arnavchawla23@gmail.com
+License: UNKNOWN
+Description: # Python-Shopify
+        Unnofficial Shopify API for python projects
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
