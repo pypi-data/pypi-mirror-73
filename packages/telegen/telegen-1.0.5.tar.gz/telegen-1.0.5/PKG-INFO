@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: telegen
+Version: 1.0.5
+Summary: A CLI tool that generates code by parsing the Telegram Bot API page
+Home-page: https://gitlab.com/strychnide/telegen
+Author: Alessandro Cerruti
+Author-email: strychnide@protonmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://strychnide.gitlab.io/telegen
+Project-URL: Issues, https://gitlab.com/strychnide/telegen/-/issues
+Project-URL: Source, https://gitlab.com/strychnide/telegen
+Description: Telegen
+        #######
+        
+        .. code::
+        
+            usage: telegen [-h] [--overwrite] language [src]
+        
+            A CLI tool that generates code by parsing the Telegram Bot API page
+        
+            positional arguments:
+            language         Output language
+            src              Source file (will be fetched if not passed)
+        
+            optional arguments:
+            -h, --help       show this help message and exit
+            --overwrite, -o  Delete conflicting files before emitting (default: exit)
+        
+        
+        Docs
+        ==========
+        
+        https://strychnide.gitlab.io/telegen
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: doc

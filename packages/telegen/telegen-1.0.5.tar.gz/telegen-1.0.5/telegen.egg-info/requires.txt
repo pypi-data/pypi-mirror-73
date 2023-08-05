@@ -1,0 +1,6 @@
+black
+lxml
+
+[doc]
+sphinx
+sphinx_rtd_theme
