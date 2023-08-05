@@ -1,0 +1,51 @@
+# Olivar
+Olivar is an open source pipeline for comprehensive design of primer and probe sets for pathogen 
+sequences. Our pipeline relies on the state-of-the-art primer generating software, and incorporates 
+low frequency variant information to ensure robust sensitivity and specificity for rapidly evolving 
+pathogens. Additionally, our software provides visualization and validation capabilities to aid fast 
+evaluation of the output probe and primer sets.
+
+### Install
+To use Olivar, simply clone the repository and ensure that the requrements below are installed and in the system path.
+
+### Requirements
+* Biopython
+* Pandas
+* Jinja2
+* Parsnp
+* Primer3
+* Blast
+* MAFFT
+* PyVCF
+* pysam
+
+#### Additional requirements for simulation
+1.  Samtools
+2.  Minimap2
+3.  Bowtie2
+4.  Lofreq
+
+### Usage
+To run Olivar and generate probes and primers for a set of sequences and a reference, 
+
+```
+olivar /path/to/reference.fasta /path/to/input_genomes/ --email <your_email>
+```
+
+If you have a set of read datasets you'd like to use to simulate more input data: 
+```
+olivar /path/to/reference.fasta /path/to/input_genomes/ \
+    --simulate /path/to/read_directories
+    --csv      /path/to/read_metadata.csv
+    --email <your_email>
+```
+NCBI may throttle your blast queries if you only provide your email. If you have an API, you can provide that instead to have a higher allowance. Alternatively, you can supply a local blast database location via `--blastdb <database_location>`.
+
+You can skip the generation of primers by adding the `--probes-only` flag. Please see the `--help`
+documentation for more arguments.
+
+
+### Output
+The final output reports are present in `output/final_report`. In `output`, intermediate directories 
+for the other modules' output is present as well.
+

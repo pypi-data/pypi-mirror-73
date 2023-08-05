@@ -1,0 +1,16 @@
+pip
+pipdeptree
+pandas
+certifi
+chardet
+docopt
+idna
+pipreqs
+requests
+urllib3
+yarg
+biopython
+jinja2
+pysam
+pyvcf
+tqdm
