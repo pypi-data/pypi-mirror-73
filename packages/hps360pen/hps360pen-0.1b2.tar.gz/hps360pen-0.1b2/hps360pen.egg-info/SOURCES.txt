@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gusbite/__init__.py
+gusbite/hps360/__init__.py
+gusbite/hps360/hps360pen.py
+hps360pen.egg-info/PKG-INFO
+hps360pen.egg-info/SOURCES.txt
+hps360pen.egg-info/dependency_links.txt
+hps360pen.egg-info/entry_points.txt
+hps360pen.egg-info/requires.txt
+hps360pen.egg-info/top_level.txt
