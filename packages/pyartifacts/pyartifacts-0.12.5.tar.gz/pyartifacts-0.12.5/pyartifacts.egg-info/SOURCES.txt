@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+pyartifacts/__init__.py
+pyartifacts/artifact.py
+pyartifacts/artifact_schema.json
+pyartifacts/definitions.py
+pyartifacts/registry.py
+pyartifacts/variables.py
+pyartifacts.egg-info/PKG-INFO
+pyartifacts.egg-info/SOURCES.txt
+pyartifacts.egg-info/dependency_links.txt
+pyartifacts.egg-info/not-zip-safe
+pyartifacts.egg-info/requires.txt
+pyartifacts.egg-info/top_level.txt
