@@ -1,0 +1,9 @@
+pgraphdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgraphdb/commands.py,sha256=6j9WDMdkD9KRw-t-3SKmzNX4Ha5inXIKLfdBEs9VZaE,1907
+pgraphdb/ui.py,sha256=fk7GpLvLYhQuuR8ixQXGLES7BLRx33wSW-AIsqvozDA,5489
+pgraphdb/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+pgraphdb-0.0.1.dist-info/METADATA,sha256=Q2QUWS_o1Id2uZWRtYPK5cOb4BBsTBpXfhQP6grtB04,490
+pgraphdb-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pgraphdb-0.0.1.dist-info/entry_points.txt,sha256=IwDiV8JbJorCHuBHBUCWVDUT-swFlTQAWLRHTxTXSVY,47
+pgraphdb-0.0.1.dist-info/top_level.txt,sha256=pYGUb2irK0XhXMlUosG9MkPx05JGieabKuxWaQXUwRo,9
+pgraphdb-0.0.1.dist-info/RECORD,,
