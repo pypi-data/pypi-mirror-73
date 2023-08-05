@@ -1,0 +1,9 @@
+README.md
+setup.py
+nicolettepdf/__init__.py
+nicolettepdf/pdf2image.py
+nicolettepdf/pdf2text.py
+nicolettepdf.egg-info/PKG-INFO
+nicolettepdf.egg-info/SOURCES.txt
+nicolettepdf.egg-info/dependency_links.txt
+nicolettepdf.egg-info/top_level.txt
