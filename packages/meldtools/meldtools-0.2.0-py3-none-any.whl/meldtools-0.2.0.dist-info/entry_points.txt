@@ -1,0 +1,3 @@
+[console_scripts]
+meldtools=meldtools.__main__:main
+
