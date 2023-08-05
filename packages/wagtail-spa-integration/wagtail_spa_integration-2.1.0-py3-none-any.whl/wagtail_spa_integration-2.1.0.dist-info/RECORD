@@ -1,0 +1,12 @@
+wagtail_spa_integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_spa_integration/headless_preview_api.py,sha256=FLsdrVUc9hM0h04lm7WctfHFlczii5ndSKBagh_i790,1226
+wagtail_spa_integration/serializers.py,sha256=Ylj__eTKUMfjtxWkWWk4vV910s884AtHpsSnpexrwBE,253
+wagtail_spa_integration/templates/wagtailadmin/pages/_preview_button_on_edit.html,sha256=jHFSbGw3tr-eIEaeBRrNyZT0TuEY4rOxkJXSLuKqDyA,423
+wagtail_spa_integration/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_spa_integration/templatetags/wagtail_spa_integration_tags.py,sha256=s3O6iA0uPEJy6ndFIrreAP_MG-jV9aAY5BWr1o1tNbs,324
+wagtail_spa_integration/tests.py,sha256=7NFDs6hEQLekbZlu0UHL_bbGzICLEC48jH5ZMwdwYfc,7332
+wagtail_spa_integration/utils.py,sha256=keqEvqUm0qQy6e7-5Y3VNStlrYo0KFz1f7Fj8lHHDb4,501
+wagtail_spa_integration/views.py,sha256=bIOrCOufldFUu4WpjJZBK5SOKlwYYlx6NqqY7SsUEEE,9731
+wagtail_spa_integration-2.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+wagtail_spa_integration-2.1.0.dist-info/METADATA,sha256=ORiH8GLmtpYpGCsPCGfD9myGdttG7gqIRci7LdYMqmc,929
+wagtail_spa_integration-2.1.0.dist-info/RECORD,,
