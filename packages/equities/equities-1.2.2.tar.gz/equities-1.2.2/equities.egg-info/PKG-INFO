@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: equities
+Version: 1.2.2
+Summary: equities aims to democratize access to publically avaliable financial data. sec data scrapper/parser/cleaner 
+Home-page: https://github.com/ljc-codes/art-engine.git
+Author: Luigi Charles
+Author-email: ljwcharles@gmail.com
+License: UNKNOWN
+Description: 
+        # 🦅 Equities
+        
+        ## Overview: 
+        
+            equities is a python library that allows easy access to the SEC's XLBR dataset.
+            Parsed data is stored locally for ease of use. Data is returned in pandas
+            dataframes. 
+        
+        ## TUTORIAL: 
+        
+        The equities library consists of two central objects, Universe and Company. 
+        
+        ## Universe: 
+        
+        A Universe should be thought of as a set of Companies. The universe object gives us the ability to download,
+        access and purge our data. 
+        
+            from equities.objects import Universe
+        
+            universe = Universe()
+        
+        #### Downloading Data:
+        
+        On first use the universe is empty as we have not downloaded data. Before calling the download function we can 
+        optionally supply the universe with an array of quarters and limit to the number of companies parsed. 
+        
+            quarters = ["2019q1","2019q2","2019q3","2019q4","2020q1"] # quarters to be downloaded
+            num_companies = 50 # limits parsing to first 50 companies. 
+        
+        If no optional arguments are supplied, we will proceed to download the entire dataset and parse all companies. 
+        
+        To download data we call
+        
+            universe.download(quarters=quarters,num_companies=num_companies)
+        
+        The requested data will then be downloaded and saved locally. This means that anytime you reinstantiate the 
+        universe object, python remembers what you have already parsed.
+        
+        #### Core Functionality:
+        
+        To see the number of companies in the universe we can do: 
+        
+            print(len(universe))
+        
+        Universe objects are indexable by a "CIK" or "Central Index Key" number. This is the unique identifier used by 
+        the sec to identify companies. To get a full list of the cik numbers in the universe one can do: 
+        
+            print(universe.ciks)
+        
+        A dataframe summary of all companies in the universe is included in:
+        
+            print(universe.properties())
+        
+        To access the first company in the above list you can do: 
+        
+            first_cik = universe.ciks[0]
+            print(universe[first_cik])
+        
+        This returns a Company Object.
+        
+        
+        ## Company: 
+        
+        A Company object should be thought of as an abstract representation of a real company. Every 
+        company must have an associated Universe of origin. 
+        
+            from equities.object import Company
+        
+        #### Accessing the Financial Statements
+        
+        Consider the first Company in our universe, universe[first_cik]. It is a Company object. 
+        
+            company = universe[first_cik]
+        
+        Dataframes of the company's financial statements over the universe in question is given by: 
+        
+            company.income()      # income statement dataframe
+        
+            company.balance()     # Balancesheet dataframe
+        
+            company.cash()        # Cash Flow Statement dataframe
+        
+            company.equity()      # Consolidatad Equity dataframe
+        
+        
+        #### Additional Company Methods
+        
+            company.name()        # Returns company name
+            company.division()    # Company division group
+            company.industry()    # Returns company industry group
+            company.sic()         # Returns company sic group
+            
+        
+            
+        
+        
+        
+        
+        
+Keywords: sec stock stockmarket equities equity scrapper parser pandas
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
