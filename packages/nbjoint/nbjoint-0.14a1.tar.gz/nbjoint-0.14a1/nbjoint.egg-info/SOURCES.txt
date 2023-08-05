@@ -1,0 +1,7 @@
+README.md
+nbjoint.py
+setup.py
+nbjoint.egg-info/PKG-INFO
+nbjoint.egg-info/SOURCES.txt
+nbjoint.egg-info/dependency_links.txt
+nbjoint.egg-info/top_level.txt
