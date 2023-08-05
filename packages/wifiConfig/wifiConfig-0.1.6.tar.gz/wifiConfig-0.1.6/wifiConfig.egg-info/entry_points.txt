@@ -1,0 +1,3 @@
+[console_scripts]
+wifiConfig = wifiConfig.__init__:main
+
