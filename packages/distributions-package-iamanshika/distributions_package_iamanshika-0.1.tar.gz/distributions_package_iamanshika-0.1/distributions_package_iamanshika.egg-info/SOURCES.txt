@@ -1,0 +1,10 @@
+setup.py
+distributions_package_iamanshika/Binomialdistribution.py
+distributions_package_iamanshika/Gaussiandistribution.py
+distributions_package_iamanshika/Generaldistribution.py
+distributions_package_iamanshika/__init__.py
+distributions_package_iamanshika.egg-info/PKG-INFO
+distributions_package_iamanshika.egg-info/SOURCES.txt
+distributions_package_iamanshika.egg-info/dependency_links.txt
+distributions_package_iamanshika.egg-info/not-zip-safe
+distributions_package_iamanshika.egg-info/top_level.txt
