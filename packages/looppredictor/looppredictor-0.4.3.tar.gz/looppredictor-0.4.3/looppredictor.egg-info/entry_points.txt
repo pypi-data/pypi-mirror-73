@@ -1,0 +1,5 @@
+[console_scripts]
+classifyloops = looppredictor.classifyloops:main
+customized_gbrt_trainer = looppredictor.customized_gbrt_trainer:main
+looppredictor = looppredictor.looppredictor:main
+
