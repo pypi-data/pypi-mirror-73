@@ -1,0 +1,13 @@
+locald/__init__.py,sha256=IevKo-lIG6O2jrRLMpxI2fVqqqAMfynwgqrhQ90kpIY,54
+locald/cli.py,sha256=sIhUtdyO782vxCkFvsGmSns9gy3ZlTtPO38657zBVjI,3903
+locald/client.py,sha256=zuGv4MIoU0U_Dw0MIkB7Xejh8L7wTE-r8YS30Dlwz98,2164
+locald/compat.py,sha256=bm3FNwDod2SUh6aZAoDl8hVyHtdzKGV0Fpe95a5B9R0,513
+locald/config.py,sha256=BHMGl1dZfuhGOO-kQ53j5rytGRtcgZP0NNQ9ZJbr_DU,1940
+locald/server.py,sha256=v3E3oL5iZciFcQ8E6IaVdZqCyegpdSSwZdjGdGJYmOU,9986
+locald/service.py,sha256=4ecVlKBuQdtpeslkiY_9tn_rmbU35AFVEJQuuIqt9LQ,3197
+locald-0.5.data/scripts/locald,sha256=_v4KuuwnFZgG20A-qH9Pu31X1iZo3JCICPpqi8Eg2iA,119
+locald-0.5.dist-info/LICENSE,sha256=F0pWvlQJrqW5DW61F_PdcG8_9EFHt8NT9DzVf1kFHHM,1057
+locald-0.5.dist-info/METADATA,sha256=8hNv4HjoCCBzDdD9GkqloUT8YoYEbNK83HgtNbXcG0k,751
+locald-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+locald-0.5.dist-info/top_level.txt,sha256=lbS3IyH3F7r6tJtQ2HCCafHcIYPthfgHhDRpZ5EYAuk,7
+locald-0.5.dist-info/RECORD,,
