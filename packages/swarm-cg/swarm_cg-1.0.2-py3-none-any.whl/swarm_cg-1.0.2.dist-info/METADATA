@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: swarm-cg
+Version: 1.0.2
+Summary: Tools for automatic parametrization of bonded terms in coarse-grained molecular models, with respect to an all-atom trajectory
+Home-page: https://github.com/GMPavanLab/Swarm-CG
+Author: Charly Empereur-mot
+Author-email: charly.empereur@gmail.com
+License: MIT
+Keywords: gromacs,coarse-grain,molecular model,optimization
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: scipy (>=1.2.2)
+Requires-Dist: pyemd (>=0.5.1)
+Requires-Dist: matplotlib (>=2.2.4)
+Requires-Dist: fst-pso (>=1.4.12)
+Requires-Dist: MDAnalysis (>=1.0.0)
+
+# Swarm-CG
+
+Swarm-CG is designed for the optimization of bonded terms in coarse-grained (CG) molecular models, *with respect to a reference all-atom (AA) trajectory*. The package is designed for usage with Gromacs and contains 3 routines for:
+
+1. Evaluating the bonded parametrization of a CG model
+2. Optimizing bonded terms of a CG model
+3. Monitoring an optimization procedure
+
+### Publication
+
+```
+Swarm-CG: Automatic Parametrization of Bonded Terms in Coarse-Grained Models of Simple to Complex Molecules via Fuzzy Self-Tuning Particle Swarm Optimization
+C. Empereur-Mot, L. Pesce, D. Bochiocchio, C. Perego, G.M. Pavan, ChemRxiv
+```
+
+### Installation & Usage
+
+```
+# pick one
+pip install swarm-cg
+pip3 install swarm-cg
+
+# commands description
+scg_evaluate -h
+scg_optimize -h
+scg_monitor -h
+```
+
+### 1. Evaluate bonded parametrization of a CG model
+
+```
+scg_evaluate -aa_tpr G1_DATA/aa_topol.tpr -aa_traj G1_DATA/aa_traj.xtc -cg_map G1_DATA/cg_map.ndx -cg_itp G1_DATA/cg_model.itp -cg_tpr G1_OPTI_mode1_200ns_valid/longer_run.tpr -cg_traj G1_OPTI_mode1_200ns_valid/longer_run.xtc
+```
+
+This is particularly useful to assess the need to run an optimization procedure (assuming one has an initial CG model). It is also suited to the assesssment of geometrical changes triggered by a modification of CG beads types (defining non-bonded parameters) or after manually editing bonded parameters in a CG model. This command also provides publication-quality figures to support the parametrization of your models.
+
+### 2. Optimize bonded terms of a CG model
+
+For optimizing bonded parameters of a model according to a reference AA trajectory, using the example data of PAMAM G1:
+
+```
+scg_optimize -in_dir G1_DATA/ -gmx gmx_2018.6_p
+```
+
+Which will use all default filenames of the software and is *exactly identical* to this command:
+
+```
+scg_optimize -aa_tpr G1_DATA/aa_topol.tpr -aa_traj G1_DATA/aa_traj.xtc -cg_map G1_DATA/cg_map.ndx -cg_itp G1_DATA/cg_model.itp -cg_gro G1_DATA/start_conf.gro -cg_top G1_DATA/system.top -cg_mdp_mini G1_DATA/mini.mdp -cg_mdp_equi G1_DATA/equi.mdp -cg_mdp_md G1_DATA/md.mdp -gmx gmx_2018.6_p
+```
+
+We recommend to first prepare files in a directory to be fed to SwarmCG using argument -in_dir.
+
+### 3. Monitor an ongoing CG model optimization
+
+Optimization procedures can be monitored at any point during execution by producing a graphical summary of bonded terms tried together with model score, radius of gyration (Rg) and solvent accessible surface area (SASA). At all times, the best available model is already accessible in the optimization producedure output folder. 
+
+```
+scg_monitor -opti_dir MODEL_OPTI__STARTED_03-07-2020_10h_12m_15s -gmx gmx_2018.6_p
+```
+
+
+
+
