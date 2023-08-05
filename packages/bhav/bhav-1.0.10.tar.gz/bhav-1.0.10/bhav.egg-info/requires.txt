@@ -1,0 +1,8 @@
+Click
+requests
+python-dotenv
+PyInquirer
+flask
+pandas
+marshmallow
+flask_cors

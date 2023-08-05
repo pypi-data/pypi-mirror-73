@@ -1,0 +1,54 @@
+Metadata-Version: 1.2
+Name: bhav
+Version: 1.0.10
+Summary: CLI to download End of day Stock data from BSE and NSE
+Home-page: https://gitlab.com/sw8fbar/bhav
+Author: Ajay Sharma
+Author-email: deal.ajay@gmail.com
+License: LICENSE.txt
+Description: ## bhav is a command line application to download EOD stock data from the BSE / NSE indexes based on our experience fetching this data over the last decade
+        
+        ## Installation:
+        
+        `pip3 install --user bhav`
+        
+        ## Usage:
+        
+        ### Download BSE bhavcopy for a specific date (YYYYMMDD)
+        `bhav bse 20200101`
+        
+        ### Download NSE bhavcopy for a specific date (YYYYMMDD)
+        `bhav nse 20200101`
+        
+        ### if remote file is zipped
+        `bhav nse 20200101 -z`
+        
+        ### Download for date range
+        `bhav nse --start-date 20200101 -z ( fetch from start date to today)`
+        `bhav nse --start-date 20200101 --end-date 20200105 -z`
+        
+        ## Most configuration options should help adjust to changes in the way these files are distributed by the exchanges as well as formats. 
+        `bhav conf --help for configuration options`
+        
+        ### Get current configuration
+        `bhav conf ls`
+        
+        ### Configure output directory
+        `bhav conf update -o /path/to/output/dir`
+        
+        ### Configure NSE URL format
+        `bhav conf update -n https://archive.nseindia.com/content/historical/EQUITIES/#-#year#-#/#n#month#n#/cm#-#day#-##n#month#n##-#year#-#bhav.csv.zip`
+        #### numeric values of day / month / year are represented by patterns like #-#year#-#
+        #### month names are represented by patterns like #n#month#n#
+        
+        ### Configure BSE URL format
+        `bhav conf update -b http://www.bseindia.com/download/BhavCopy/Equity/EQ#-#day#-##-#month#-##-#YY#-#_CSV.zip`
+        
+        ### Configure BSE CSV header format. If the date column is not provided in the file, it will be automatically added.
+        `bhav conf update -B 'SYMBOL,NAME,SC_GROUP,SC_TYPE,OPEN,HIGH,LOW,CLOSE,LAST,PREVCLOSE,NO_TRADES,VOLUME,NET_TURNOV,TDCLOINDI'`
+        
+        ### Configure NSE CSV header format.
+        `bhav conf update -B 'SYMBOL,SERIES,OPEN,HIGH,LOW,CLOSE,LAST,PREVCLOSE,VOLUME,TOTTRDVAL,DATE,TOTALTRADES,ISIN'`
+        
+Platform: UNKNOWN
+Requires-Python: >=3
