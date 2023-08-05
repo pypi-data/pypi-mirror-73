@@ -1,0 +1,14 @@
+.gitignore
+.travis.yml
+README.rst
+apache_license_check.py
+pyproject.toml
+setup.cfg
+setup.py
+tox.ini
+apache_license_check.egg-info/PKG-INFO
+apache_license_check.egg-info/SOURCES.txt
+apache_license_check.egg-info/dependency_links.txt
+apache_license_check.egg-info/entry_points.txt
+apache_license_check.egg-info/requires.txt
+apache_license_check.egg-info/top_level.txt
