@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: dash_tabulator
+Version: 0.0.2
+Summary: Dash Plotly component providing Tabulator tables
+Home-page: UNKNOWN
+Author: patrick oleary <pjaol+dash@pjaol.com>
+Author-email: UNKNOWN
+License: MIT
+Description: Package: dashTabulator
+        Title: Dash Plotly component providing Tabulator tables
+        Version: 0.0.2
+        Description: Dash Plotly component providing Tabulator tables
+        Depends: R (>= 3.0.2)
+        Imports: 
+        Suggests: 
+        License: MIT + file LICENSE
+        URL: https://github.com/preftech/dash-tabulator
+        BugReports: https://github.com/preftech/dash-tabulator/issues
+        Encoding: UTF-8
+        LazyData: true
+        KeepSource: true
+        
+Platform: UNKNOWN
+Classifier: Framework :: Dash
