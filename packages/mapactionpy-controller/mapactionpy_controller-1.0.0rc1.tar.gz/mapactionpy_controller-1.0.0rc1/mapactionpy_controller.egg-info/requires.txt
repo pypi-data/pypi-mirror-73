@@ -1,0 +1,9 @@
+chevron
+humanfriendly
+jsonpickle
+jsonschema
+pycountry<=19.8.18
+requests
+pyyaml
+six
+slugify
