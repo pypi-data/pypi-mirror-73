@@ -1,0 +1,13 @@
+Release/_swigwrapper.cp35-win_amd64.exp,sha256=iO2vZZ8A-cY5dQ497xLZqr_brKjJdGbx8pXEQ_qSQKE,808
+Release/_swigwrapper.cp35-win_amd64.lib,sha256=o0kenILzfRwrvTlC5cKG289zQJCTZ4aKDQC43UFucRc,2088
+Release/swigwrapper_wrap.obj,sha256=0YmRS674chtrBMSABXFIt0rbPsXOGhSfclaKN8-sDRE,6572790
+ds_ctcdecoder/__init__.py,sha256=XlLZ5yh0a60GMk80v1XBkcjk4tTRGjwkh_HY3hc9fng,6091
+ds_ctcdecoder/_swigwrapper.cp35-win_amd64.pyd,sha256=eQEEvc69AzrWFpf9K6RfGDBn25HNJyS4txZuZOWnEgE,1979904
+ds_ctcdecoder/swigwrapper.py,sha256=O9Z3XJo1xhsfeKHE-9xhjPL1XiefphSSwCUhGe1EBsk,24910
+ds_ctcdecoder-0.9.0a1.dist-info/COPYING,sha256=YQjAU7pQZsQEzQQgBlmXRCeu5DasxF0uXuE4fJCQLkk,407
+ds_ctcdecoder-0.9.0a1.dist-info/LICENSE.paddlepaddle,sha256=O_UaRClbh6spD2RX45RTNMPvtHI6-Ds04ehaYoExueo,11582
+ds_ctcdecoder-0.9.0a1.dist-info/LICENSE.parlance,sha256=6IVBD4piG9KNcgM94zo6spP9pbgXFoV9QmqtEw9R2sg,1135
+ds_ctcdecoder-0.9.0a1.dist-info/METADATA,sha256=jxYjjguZEZ7IqyoyZvn8klZBkDLqz3a1d443pHJWv5U,226
+ds_ctcdecoder-0.9.0a1.dist-info/WHEEL,sha256=gVvMRrLrLpj9gcCf1pGXdht1T11gigD8qAXbQWBpk54,106
+ds_ctcdecoder-0.9.0a1.dist-info/top_level.txt,sha256=pMN8n0pT5rtjb6n5ifcWwTUpqmGp9chcNfSe1FCFgic,14
+ds_ctcdecoder-0.9.0a1.dist-info/RECORD,,
