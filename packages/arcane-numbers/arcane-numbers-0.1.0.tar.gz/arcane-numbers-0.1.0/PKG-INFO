@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: arcane-numbers
+Version: 0.1.0
+Summary: Format numbers
+Author: Arcane
+Author-email: product@arcane.run
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# Arcane numbers
+
+This package help us format numbers
+
+## Test
+`poetry run pytest tests`
+
