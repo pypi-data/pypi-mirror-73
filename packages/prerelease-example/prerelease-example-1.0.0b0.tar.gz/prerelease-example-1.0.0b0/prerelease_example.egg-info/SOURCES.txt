@@ -1,0 +1,5 @@
+setup.py
+prerelease_example.egg-info/PKG-INFO
+prerelease_example.egg-info/SOURCES.txt
+prerelease_example.egg-info/dependency_links.txt
+prerelease_example.egg-info/top_level.txt
