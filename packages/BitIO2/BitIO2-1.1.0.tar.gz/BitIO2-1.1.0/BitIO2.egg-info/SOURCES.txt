@@ -1,0 +1,8 @@
+README.md
+bitio.py
+setup.py
+BitIO2.egg-info/PKG-INFO
+BitIO2.egg-info/SOURCES.txt
+BitIO2.egg-info/dependency_links.txt
+BitIO2.egg-info/requires.txt
+BitIO2.egg-info/top_level.txt
