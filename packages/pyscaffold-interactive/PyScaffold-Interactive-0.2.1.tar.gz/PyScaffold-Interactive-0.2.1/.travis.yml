@@ -1,0 +1,75 @@
+# Travis configuration file using the build matrix feature
+# Read more under http://docs.travis-ci.com/user/build-configuration/
+# THIS SCRIPT IS SUPPOSED TO BE AN EXAMPLE. MODIFY IT ACCORDING TO YOUR NEEDS!
+
+# sudo: false
+# language: python
+# python:
+#     - "3.5"
+#     - "3.6"
+#     - "3.7"
+# install: pip install tox-travis coveralls coverage
+# before_script:
+#   - git config --global user.email "jariwala@uw.edu"
+#   - git config --global user.name "Sarthak Jariwala"
+# script:
+#   - python setup.py develop
+#   - tox
+#   - |
+#     if [[ "$COVERAGE" == "true" ]]; then
+#       pre-commit install
+#       pre-commit run --all-files
+#     fi
+# after_success:
+#   - if [[ "$COVERAGE" == "true" ]]; then coveralls || echo "failed"; fi
+# after_script:
+#   - coveralls
+#   - coverage report
+#   - travis-cleanup
+# cache:
+#   pip: true
+#   directories:
+#     - $HOME/miniconda
+
+language: python
+os: linux
+dist: xenial
+
+matrix:
+  include:
+    - python: "3.6"
+      env: NOXSESSION="tests-3.6"
+    - python: "3.7"
+      env: NOXSESSION="tests-3.7"
+    - os: windows
+      language: bash
+      env: NOXSESSION="tests-3.7"
+      before_install:
+        - export TRAVIS_PYTHON_VERSION=3.7
+        - choco install python --version $TRAVIS_PYTHON_VERSION
+        - export PATH="/C/Python37:/C/Python37/Scripts:$PATH"
+install:
+  # - pip install --upgrade pip setuptools
+  - pip install git+https://github.com/cs01/nox.git@5ea70723e9e6#egg=nox
+
+before_script:
+  - git config --global user.email "jariwala@uw.edu"
+  - git config --global user.name "Sarthak Jariwala"
+
+script:
+  - nox --non-interactive --session "$NOXSESSION"
+  - |
+    if [[ "$COVERAGE" == "true" ]]; then
+      pre-commit install
+      pre-commit run --all-files
+    fi
+after_success:
+  - if [[ "$COVERAGE" == "true" ]]; then coveralls || echo "failed"; fi
+after_script:
+  - coveralls
+  - coverage report
+  - travis-cleanup
+cache:
+  pip: true
+  directories:
+    - $HOME/miniconda
