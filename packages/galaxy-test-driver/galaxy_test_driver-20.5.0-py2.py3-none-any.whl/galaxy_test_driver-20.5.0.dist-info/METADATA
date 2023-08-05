@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: galaxy-test-driver
+Version: 20.5.0
+Summary: Galaxy Test Driver
+Home-page: https://github.com/galaxyproject/galaxy
+Author: Galaxy Project and Community
+Author-email: galaxy-committers@lists.galaxyproject.org
+License: AFL
+Keywords: galaxy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Academic Free License (AFL)
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Testing
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: galaxy-app
+Requires-Dist: galaxy-data
+Requires-Dist: galaxy-test-base
+Requires-Dist: galaxy-tool-util
+Requires-Dist: galaxy-util
+Requires-Dist: galaxy-web-apps
+Requires-Dist: galaxy-web-framework
+Requires-Dist: nose
+Requires-Dist: pytest
+Requires-Dist: pyyaml
+Requires-Dist: sqlalchemy-utils
+Requires-Dist: six
+
+
+.. image:: https://badge.fury.io/py/galaxy-test-driver.svg
+   :target: https://pypi.org/project/galaxy-test-driver/
+
+
+
+Overview
+--------
+
+The Galaxy_ test driver package.
+
+* Free software: Academic Free License version 3.0
+* Code: https://github.com/galaxyproject/galaxy
+
+.. _Galaxy: http://galaxyproject.org/
+
+
+
+
+History
+-------
+
+.. to_doc
+
+---------------------
+20.5.0 (2020-07-04)
+---------------------
+
+* First release from the 20.05 branch of Galaxy.
+
+
