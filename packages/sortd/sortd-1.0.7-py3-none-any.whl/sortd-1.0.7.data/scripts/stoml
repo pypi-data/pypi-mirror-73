@@ -1,0 +1,28 @@
+#!python
+
+from sys import stderr, stdin, stdout
+
+from toml import dump, load
+from toml.decoder import TomlDecodeError
+
+from libs.lib import recur_sort, sig_trap
+
+
+def main() -> None:
+    try:
+        toml = load(stdin)
+    except TomlDecodeError:
+        print("parse error!", file=stderr)
+        exit(1)
+    else:
+        new = recur_sort(toml)
+        dump(new, stdout)
+
+
+try:
+    sig_trap()
+    main()
+except KeyboardInterrupt:
+    exit(130)
+except BrokenPipeError:
+    exit(13)
