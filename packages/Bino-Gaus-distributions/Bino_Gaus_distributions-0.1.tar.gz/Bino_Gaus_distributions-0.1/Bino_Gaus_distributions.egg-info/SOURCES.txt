@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+Bino_Gaus_distributions/Binomialdistribution.py
+Bino_Gaus_distributions/Gaussiandistribution.py
+Bino_Gaus_distributions/Generaldistribution.py
+Bino_Gaus_distributions/__init__.py
+Bino_Gaus_distributions.egg-info/PKG-INFO
+Bino_Gaus_distributions.egg-info/SOURCES.txt
+Bino_Gaus_distributions.egg-info/dependency_links.txt
+Bino_Gaus_distributions.egg-info/not-zip-safe
+Bino_Gaus_distributions.egg-info/top_level.txt
