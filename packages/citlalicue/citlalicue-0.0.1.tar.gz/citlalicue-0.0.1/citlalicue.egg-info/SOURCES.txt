@@ -1,0 +1,6 @@
+README.md
+setup.py
+citlalicue.egg-info/PKG-INFO
+citlalicue.egg-info/SOURCES.txt
+citlalicue.egg-info/dependency_links.txt
+citlalicue.egg-info/top_level.txt
