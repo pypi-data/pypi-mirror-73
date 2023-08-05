@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+
+from argparse import ArgumentParser, Namespace
+from json import JSONDecodeError, dump, load
+from locale import strxfrm
+from signal import SIG_DFL, SIGPIPE, signal
+from sys import stderr, stdin, stdout
+from typing import Any
+
+
+def recur_sort(data: Any) -> Any:
+    if type(data) is dict:
+        return {k: recur_sort(data[k]) for k in sorted(data, key=strxfrm)}
+    elif type(data) is list:
+        return [recur_sort(el) for el in data]
+    else:
+        return data
+
+
+def parse_args() -> Namespace:
+    parser = ArgumentParser()
+    parser.add_argument("-i", "--indent", type=int, default=2)
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    try:
+        json = load(stdin)
+    except JSONDecodeError:
+        print("parse error!", file=stderr)
+        exit(1)
+    else:
+        new = recur_sort(json)
+        dump(new, stdout, indent=args.indent)
+
+
+try:
+    signal(SIGPIPE, SIG_DFL)
+    main()
+except KeyboardInterrupt:
+    exit(130)
+except BrokenPipeError:
+    exit(13)
