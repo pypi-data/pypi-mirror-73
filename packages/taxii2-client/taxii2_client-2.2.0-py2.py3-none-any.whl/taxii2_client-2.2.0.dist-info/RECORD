@@ -1,0 +1,11 @@
+taxii2client/__init__.py,sha256=QhZdxkNrhkKRqaPu9oMDhzA5ajZt6DPedolfUjebOQA,412
+taxii2client/common.py,sha256=d7PhpGbR8arvFS9jEGWvjn1nj__X-8QG__7M7SmRI4U,14810
+taxii2client/exceptions.py,sha256=xORj8aIx36XtwngcWuOfVNvJoMVz4lTB2XQc9NJnRHY,681
+taxii2client/version.py,sha256=RDmlCw66J3HiFHhyRQEwat9Za4y7YQy01STYOVoGIDI,23
+taxii2client/v20/__init__.py,sha256=bWHenMIV7T9Kqj7prnGVVxadoaEvB2jRRcjB5XFHyJ4,29048
+taxii2client/v21/__init__.py,sha256=UOISgE1NVrPVLnXW2v7ZeN8HlaeqAJvy64N0ATjzs6U,28073
+taxii2_client-2.2.0.dist-info/LICENSE,sha256=5dK9iplZR41TW-6fBx9GvoQFNcdeo2xReysuLkZQB5o,1517
+taxii2_client-2.2.0.dist-info/METADATA,sha256=4P6ILjYUMPNN9aoNTnpC8AE7nRYIZq-2W9hq-4osZlc,11127
+taxii2_client-2.2.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+taxii2_client-2.2.0.dist-info/top_level.txt,sha256=cryAYAKTEiYJHwfsY5K7OfD2m-ON9ETcUJ_5W9VyqBg,13
+taxii2_client-2.2.0.dist-info/RECORD,,
