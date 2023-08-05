@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-platformpicker
+Version: 1.0
+Summary: Platform picker extension for Sphinx
+Home-page: UNKNOWN
+Author: whitequark
+Author-email: whitequark@whitequark.org
+License: MIT
+Project-URL: Documentation, https://sphinxcontrib-platformpicker.readthedocs.io/
+Project-URL: Source Code, https://github.com/whitequark/sphinxcontrib-platformpicker
+Project-URL: Bug Tracker, https://github.com/whitequark/sphinxcontrib-platformpicker/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+Requires-Dist: Sphinx (>=2.0)
+
+Platform picker extension for Sphinx
+====================================
+
+The platform picker extension provides a Sphinx directive that marks certain sections of the documentation as platform-specific. Readers can then select the section for the platform they're interested in.
+
+Documentation
+-------------
+
+See the `full documentation <http://sphinxcontrib-platformpicker.readthedocs.io>`_ for details.
+
+Acknowledgements
+----------------
+
+This extension is based on the `sphinxcontrib-contentui <https://github.com/ulrobix/sphinxcontrib-contentui>`_ extension by Robert Khaliullov.
+
+License
+-------
+
+sphinxcontrib-platformpicker is distributed under the terms of the `MIT License <LICENSE.txt>`_.
+
+
