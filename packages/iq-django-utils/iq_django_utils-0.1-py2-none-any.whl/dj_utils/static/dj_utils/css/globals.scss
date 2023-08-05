@@ -1,0 +1,345 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/breakpoints";
+
+$font-sizes: (
+  "medium", "xx-small", "x-small", "small", "large", "x-large",
+  "xx-large", "smaller", "larger", "initial", "inherit"
+);
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    @each $size in $font-sizes {
+      .g-font-size#{$infix}-#{$size} { font-size: #{$size} !important; }
+    }
+  }
+}
+
+/* Borders */
+$border-sides: ("top", "right", "bottom", "left");
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .g-brd#{$infix} { border-style: solid; }
+
+    @each $side in $border-sides {
+      .g-brd#{$infix}-#{$side} { border-#{$side}-style: solid; }
+    }
+  }
+}
+
+$border-widths: ("thin", "medium", "thick");
+$border-px: ( 1, 2, 3, 4, 5);
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+      @each $width in $border-widths {
+        .g-brd#{$infix}-#{$width} { border-width: #{$width}; }
+      }
+      @each $width in $border-px {
+        .g-brd#{$infix}-#{$width} { border-width: #{$width}px; }
+      }
+  }
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    @each $side in $border-sides {
+      @each $width in $border-widths {
+        .g-brd-#{$side}#{$infix}-#{$width} { border-#{$side}-width: #{$width}; }
+      }
+    }
+  }
+}
+
+$g_base: 16; // 16px base font size
+$g_spacers: (0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 16, 20, 30, 32, 40, 48, 50, 60, 64, 80, 100, 120, 160); // in pixels
+
+$g_neg_spacers: (-160, -120, -100, -80, -64, -60, -50, -48, -40, -32, -30, -20, -16, -15, -12, -10, -8, -6, -5, -4, -3, -2, -1,); // in pixels
+
+$g_x_size: (10, 20, 30, 40, 50, 60, 70, 80, 90, 100); // per cent
+
+$g_neg_x_size: (-100, -90, -80, -70, -60, -50, -40, -30, -20, -10); // per cent
+
+$g_grid_cols: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12); // grid cols
+
+/* global margin + spacing */
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    /*  media - margin + spacing positive */
+    @each $prop, $abbrev in (margin: m, padding: p) {
+      @each $size in $g_spacers {
+        .g-#{$abbrev}#{$infix}-#{$size} { #{$prop}: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size},
+        .g-#{$abbrev}t#{$infix}-#{$size} { #{$prop}-top: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size},
+        .g-#{$abbrev}r#{$infix}-#{$size} { #{$prop}-right: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size},
+        .g-#{$abbrev}b#{$infix}-#{$size} { #{$prop}-bottom: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size},
+        .g-#{$abbrev}l#{$infix}-#{$size} { #{$prop}-left: #{$size/$g_base}rem !important; }
+      }
+    }
+
+    /* bleeding */
+    .g-ml#{$infix}-bleed { margin-left: -15px !important; }
+    .g-mr#{$infix}-bleed { margin-right: -15px !important; }
+
+    /*  media - negative margin */
+    @each $prop, $abbrev in (margin: m) {
+      @each $size in $g_neg_spacers {
+        .g-#{$abbrev}#{$infix}-#{$size} { #{$prop}: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size},
+        .g-#{$abbrev}t#{$infix}-#{$size} { #{$prop}-top: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size},
+        .g-#{$abbrev}r#{$infix}-#{$size} { #{$prop}-right: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size},
+        .g-#{$abbrev}b#{$infix}-#{$size} { #{$prop}-bottom: #{$size/$g_base}rem !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size},
+        .g-#{$abbrev}l#{$infix}-#{$size} { #{$prop}-left: #{$size/$g_base}rem !important; }
+
+      }
+    }
+
+
+    /* positive per centage spacing in per cent and per cent viewport size (h/w)*/
+    @each $prop, $abbrev in (margin: m, padding: p) {
+      @each $size in $g_x_size {
+        .g-#{$abbrev}#{$infix}-#{$size}x { #{$prop}: #{$size}% !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size}x,
+        .g-#{$abbrev}t#{$infix}-#{$size}x { #{$prop}-top: #{$size}% !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size}x,
+        .g-#{$abbrev}r#{$infix}-#{$size}x { #{$prop}-right: #{$size}% !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size}x,
+        .g-#{$abbrev}b#{$infix}-#{$size}x { #{$prop}-bottom: #{$size}% !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size}x,
+        .g-#{$abbrev}l#{$infix}-#{$size}x { #{$prop}-left: #{$size}% !important; }
+      }
+    }
+
+    /* negative per centage margin */
+    @each $prop, $abbrev in (margin: m) {
+      @each $size in $g_neg_x_size {
+
+        .g-#{$abbrev}#{$infix}-#{$size}x { #{$prop}: #{$size}% !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size}x,
+        .g-#{$abbrev}t#{$infix}-#{$size}x { #{$prop}-top: #{$size}% !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size}x,
+        .g-#{$abbrev}r#{$infix}-#{$size}x { #{$prop}-right: #{$size}% !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size}x,
+        .g-#{$abbrev}b#{$infix}-#{$size}x { #{$prop}-bottom: #{$size}% !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size}x,
+        .g-#{$abbrev}l#{$infix}-#{$size}x { #{$prop}-left: #{$size}% !important; }
+      }
+    }
+
+    /*  margin in grid column width */
+    @each $prop, $abbrev in (margin: m) {
+      @each $size in (1, 2, 3, 4, 5, 6) {
+        $w : 100/12*$size;
+
+        .g-#{$abbrev}#{$infix}-#{$size}cw { #{$prop}: #{$w}vw !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size}cw,
+        .g-#{$abbrev}t#{$infix}-#{$size}cw { #{$prop}-top: #{$w}vw !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size}cw,
+        .g-#{$abbrev}r#{$infix}-#{$size}cw { #{$prop}-right: #{$w}vw !important; }
+
+        .g-#{$abbrev}y#{$infix}-#{$size}cw,
+        .g-#{$abbrev}b#{$infix}-#{$size}cw { #{$prop}-bottom: #{$w}vw !important; }
+
+        .g-#{$abbrev}x#{$infix}-#{$size}cw,
+        .g-#{$abbrev}l#{$infix}-#{$size}cw { #{$prop}-left: #{$w}vw !important; }
+      }
+    }
+    /*  negative margin in grid column width */
+    @each $prop, $abbrev in (margin: m) {
+      @each $size in (1, 2, 3, 4, 5, 6) {
+        $w : -100/12*$size;
+
+        .g-#{$abbrev}#{$infix}--#{$size}cw { #{$prop}: #{$w}vw !important; }
+
+        .g-#{$abbrev}y#{$infix}--#{$size}cw,
+        .g-#{$abbrev}t#{$infix}--#{$size}cw { #{$prop}-top: #{$w}vw !important; }
+
+        .g-#{$abbrev}x#{$infix}--#{$size}cw,
+        .g-#{$abbrev}r#{$infix}--#{$size}cw { #{$prop}-right: #{$w}vw !important; }
+
+        .g-#{$abbrev}y#{$infix}--#{$size}cw,
+        .g-#{$abbrev}b#{$infix}--#{$size}cw { #{$prop}-bottom: #{$w}vw !important; }
+
+        .g-#{$abbrev}x#{$infix}--#{$size}cw,
+        .g-#{$abbrev}l#{$infix}--#{$size}cw { #{$prop}-left: #{$w}vw !important; }
+      }
+    }
+
+  }
+}
+
+/* global width + min-width, max-width, height, min-height.. in px, per cent
+ * viewport width, viewport height */
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    /* g-w-lg-100 */
+    @each $prop, $abbrev in (width: w, height: h) {
+      @each $size in $g_spacers {
+        .g-#{$abbrev}#{$infix}-#{$size} { #{$prop}: #{$size/$g_base}rem !important; }
+      }
+    }
+
+    /* min/max width g-min-w-md-80 or g-max-w-xl-120 */
+    @each $prop, $abbrev in (min-width: min-w, max-width: max-w,
+        min-height: min-h, max-height: max-h) {
+      @each $size in $g_spacers {
+        .g-#{$abbrev}#{$infix}-#{$size} { #{$prop}: #{$size/$g_base}rem; }
+      }
+    }
+
+    /* per cent: g-w-60x
+     * per cent outer element
+     * per cent viewport size */
+    @each $prop, $abbrev in (width: w) {
+      @each $size in $g_x_size {
+        .g-#{$abbrev}#{$infix}-#{$size}x { #{$prop}: #{$size}% !important; }
+        .g-#{$abbrev}#{$infix}-#{$size}vw { #{$prop}: #{$size}vw !important; }
+      }
+    }
+    /* per cent: g-min-w-md-80x or g-max-w-xl-100x
+     * per cent outer element
+     * per cent viewport size */
+    @each $prop, $abbrev in (min-width: min-w, max-width: max-w) {
+      @each $size in $g_x_size {
+        .g-#{$abbrev}#{$infix}-#{$size}x { #{$prop}: #{$size}#{'%'} }
+        .g-#{$abbrev}#{$infix}-#{$size}vw { #{$prop}: #{$size}vw }
+      }
+    }
+
+    /* per cent: g-h-60x
+     * per cent outer element
+     * per cent viewport size */
+    @each $prop, $abbrev in (height: h) {
+      @each $size in $g_x_size {
+        .g-#{$abbrev}#{$infix}-#{$size}x { #{$prop}: #{$size}% !important; }
+        .g-#{$abbrev}#{$infix}-#{$size}vh { #{$prop}: #{$size}vh !important; }
+      }
+    }
+    /* per cent: g-min-h-md-80x or g-max-h-xl-100x
+     * per cent outer element
+     * per cent viewport size */
+    @each $prop, $abbrev in (min-height: min-h, max-height: max-h) {
+      @each $size in $g_x_size {
+        .g-#{$abbrev}#{$infix}-#{$size}x { #{$prop}: #{$size}#{'%'} }
+        .g-#{$abbrev}#{$infix}-#{$size}vh { #{$prop}: #{$size}vh }
+      }
+    }
+
+  }
+}
+
+/* global width + min-width, max-width, height, min-height.. in grid column
+ * width: e.g. 2 col min-width -> g-min-w-md-2cw
+ * 6 col short golden ratio height: g-h-6cwfis
+ * col width in golden ratio short: fis
+ * col width in golden ratio long: fil
+ */
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $prop, $abbrev in (width: w, height: h) {
+      @each $size in $g_grid_cols {
+        $fi : 1.6180339887;
+        $w : 100/12*$size;
+
+        .g-#{$abbrev}#{$infix}-#{$size}cw { #{$prop}: #{$w}vw !important; }
+
+        .g-#{$abbrev}#{$infix}-#{$size}cwfis { #{$prop}: #{$w/$fi}vw !important; }
+
+        .g-#{$abbrev}#{$infix}-#{$size}cwfil { #{$prop}: #{$w*$fi}vw !important; }
+      }
+    }
+
+    @each $prop, $abbrev in (min-width: min-w, max-width: max-w,
+        min-height: min-h, max-height: max-h) {
+      @each $size in $g_grid_cols {
+        $fi : 1.6180339887;
+        $w : 100/12*$size;
+
+        .g-#{$abbrev}#{$infix}-#{$size}cw { #{$prop}: #{$w}vw; }
+
+        .g-#{$abbrev}#{$infix}-#{$size}cwfis { #{$prop}: #{$w/$fi}vw; }
+
+        .g-#{$abbrev}#{$infix}-#{$size}cwfil { #{$prop}: #{$w*$fi}vw; }
+      }
+    }
+
+  }
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .g-w#{$infix}-fit-content { width: fit-content; }
+  }
+}
+
+.g-img-bg-cover {
+  background-color: white;
+  background: no-repeat center center;
+
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+$g_zidxs: (-2, -1, 1, 2);
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $prop, $abbrev in (z-index: zx) {
+      @each $size in $g_zidxs {
+        .g-#{$abbrev}#{$infix}-#{$size} { #{$prop}: #{$size}; position: absolute; }
+      }
+    }
+    .g-zx#{$infix}-0 { z-index: initial; }
+  }
+}
+
+$g_textcols: (1, 2, 3);
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    /* text column count */
+    @each $size in $g_textcols {
+      .g-text-col#{$infix}-#{$size} { column-count: #{$size}; }
+    }
+  }
+}

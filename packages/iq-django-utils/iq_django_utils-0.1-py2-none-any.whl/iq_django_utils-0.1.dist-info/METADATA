@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: iq-django-utils
+Version: 0.1
+Summary: Django-Utils - a Product by InQuant
+Home-page: http://www.inquant.de
+Author: Lutz Mende
+Author-email: lutz.mende@inquant.de
+License: GPL
+Keywords: django utils helpers
+Platform: UNKNOWN
+
+README.txt TBD
+
+Changelog
+=========
+
+0.1 (2018-12-18)
+----------------
+    - created first public release
+
+
