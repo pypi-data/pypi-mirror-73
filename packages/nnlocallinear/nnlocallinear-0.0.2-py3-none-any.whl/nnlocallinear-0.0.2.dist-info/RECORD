@@ -1,0 +1,9 @@
+nnlocallinear/__init__.py,sha256=v9ypmtutPTH41Jynd5Xs_AEtRko2jFPN0lt73rHO4Wo,145
+nnlocallinear/core.py,sha256=EAuDMKf5AF4UyD96yMm7BlD-IlWbP--Q14UejYd7XxA,152
+nnlocallinear/lmethods.py,sha256=KwWjIcCMtpljDWHBW8CpT3iNFP_viDLvL2wsak2bMVg,29824
+nnlocallinear/predict.py,sha256=8q5yZ0BEhGYis6Z5wKoyYQR5shGriVn54gBJTpcStYY,21048
+nnlocallinear-0.0.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+nnlocallinear-0.0.2.dist-info/METADATA,sha256=GribizuBG2PZlOzr7KYMylhFVTtVaLeGH8NxayWfmwE,374
+nnlocallinear-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nnlocallinear-0.0.2.dist-info/top_level.txt,sha256=-6jVJ0zxrnXH_PQ4FieWbaZBTK_8sdSHUHdVcMZ-9U8,14
+nnlocallinear-0.0.2.dist-info/RECORD,,
