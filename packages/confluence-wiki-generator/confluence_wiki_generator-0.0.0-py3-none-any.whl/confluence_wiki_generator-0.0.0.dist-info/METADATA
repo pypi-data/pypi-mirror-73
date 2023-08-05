@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: confluence-wiki-generator
+Version: 0.0.0
+Summary: A Confluence Wiki markup generator
+Home-page: https://github.com/cjclifford/confluence-wiki-generator
+Author: Cuan Clifford
+Author-email: cliffordcuan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
