@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: snowday
+Version: 0.1.0
+Summary: Tools for making Snowflake administration feel like a snow day.
+Home-page: https://github.com/bostata/snowday
+License: GPL-2.0
+Keywords: snowflake,data warehouse
+Author: Jacob Thomas
+Author-email: jake@bostata.com
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Framework :: Flake8
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Project-URL: Repository, https://github.com/bostata/snowday
+Description-Content-Type: text/markdown
+
+# snowday
+
+Make every day a ❄️ day.
+
+
+### Installation
+
+```
+pip install snowday
+```
+
+
+### Usage
+
+
