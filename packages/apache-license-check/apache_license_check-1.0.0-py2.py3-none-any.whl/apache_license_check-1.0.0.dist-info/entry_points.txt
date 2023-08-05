@@ -1,0 +1,3 @@
+[console_scripts]
+apache-license-check = apache_license_check:cli
+
