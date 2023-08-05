@@ -1,0 +1,9 @@
+miscutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miscutils/logging_config.py,sha256=qAFfyU8upJI0nZB9-k68GxIXOjfl6CPO1p28O7ovgrQ,3753
+miscutils/middleware.py,sha256=JzPCpDjgZs1z9enP6an6al1XkH7oodbbXcglkZETMYI,2873
+miscutils/testing.py,sha256=MG7mfwFp_fHdi8dVlNI97vIbcd0u9k2sHP9ZC21gcNs,644
+miscutils/timer.py,sha256=hDCBV8se2UtL16CnmIxwcDTqW3VwaxLtsArGwsRwr04,1168
+misc_utils_py-0.2.0.dist-info/LICENSE,sha256=Rj-i7ftXfj1bCdV0HSHfrg2OGBQlT09wxWuBy9ODsSA,11343
+misc_utils_py-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+misc_utils_py-0.2.0.dist-info/METADATA,sha256=VO2aBsY24ANYT1c8NXfOXzZQgMIfftdSl6um6DzN8Lg,3496
+misc_utils_py-0.2.0.dist-info/RECORD,,
