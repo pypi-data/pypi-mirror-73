@@ -1,0 +1,3 @@
+[console_scripts]
+focusedme = focusedme.__main__:main
+
