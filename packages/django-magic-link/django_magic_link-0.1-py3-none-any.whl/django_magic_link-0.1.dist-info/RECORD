@@ -1,0 +1,16 @@
+magic_link/__init__.py,sha256=t1r_csgTH5pGFVuCRXvMxpVoHu9IAZfGyP7h5Mvnc6o,58
+magic_link/admin.py,sha256=2foiNVr4zwLGfLlepRF72WNbO7-OCZn0uJtrdgcEQ7Y,1336
+magic_link/apps.py,sha256=jhq2yl37iw_0jZiQRvezDroTJdbYvBGoWFGZYPDK9CI,131
+magic_link/exceptions.py,sha256=bErr6TcTcDcxNNwXrlwp5UsFjVIrgx7Rauo8vCCr7h0,188
+magic_link/migrations/0001_initial.py,sha256=qI-5qnRSyOWuKTpHzwd7uM3ULtlpm0dULAhK8vdszYs,4947
+magic_link/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_link/models.py,sha256=3X2gWx9tk8YkVbPrP_zzFZ4wATxgo1MEkwUJElWCD1U,6203
+magic_link/settings.py,sha256=-TivfGh-nXBuSqU8jrDy8Gau49CUtO_wBfbjsMU3kv0,509
+magic_link/templates/error.html,sha256=bIJHtSTQaoO9Xdc-zc-8USy2-xxOWNofw5vh-3Fb6Kw,150
+magic_link/templates/logmein.html,sha256=pW8Db7FfH8VftaoypzkbUKjIHQrbO298aPdLbPUjx2c,1125
+magic_link/urls.py,sha256=CTUSH2bdeg46NUXQ4D7Pq5-9IpWb3dDMbuE5nRncKp8,151
+magic_link/views.py,sha256=hPcnKpmnJNgbJBjkVmzcbGFx4TJX5P_1pb13lY3tTWU,2275
+django_magic_link-0.1.dist-info/LICENSE,sha256=Pg-AVb8HD6XJZn52p0p3tjxjJKv92gfGnwrakjFEkp8,1065
+django_magic_link-0.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+django_magic_link-0.1.dist-info/METADATA,sha256=tZiqedkD-AtdOIaREoiAKD1KDoKBNrmTFoe-yqeL6f0,5281
+django_magic_link-0.1.dist-info/RECORD,,
