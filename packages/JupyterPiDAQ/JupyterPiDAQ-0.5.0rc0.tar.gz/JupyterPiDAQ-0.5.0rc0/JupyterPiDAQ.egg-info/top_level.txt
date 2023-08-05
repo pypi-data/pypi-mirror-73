@@ -1,0 +1,6 @@
+Boards
+ChannelSettings
+DAQProc
+DAQinstance
+Sensors
+Tests
