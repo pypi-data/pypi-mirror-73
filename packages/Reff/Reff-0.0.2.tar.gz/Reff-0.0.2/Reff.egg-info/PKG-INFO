@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: Reff
+Version: 0.0.2
+Summary: effective reproduction number
+Home-page: https://github.com/tt-nakamura/Reff
+Author: Takahiro Nakamura
+Author-email: a41757@gmail.com
+License: UNKNOWN
+Description: # Reff: effective reproduction number
+        ```
+        Reff(data, si_mean, si_sd, tau=7, conf=0.95, mu=5):
+        input:
+          data = daily number of incidence
+          si_mean = mean of serial interval
+          si_sd = standard deviation of serial interval
+          tau = length of time window (integer in days)
+          conf = confidence level of estimated Reff
+          mu = mean of prior ditribution of Reff
+        return:
+          R = daily Reff of shape (3,len(data))
+          R[0:3] = median, min, max
+        reference:
+          A. Cori et al
+            American Journal of Epidemiology 178 (2013) 1505
+              Web Appendix 1
+        ```
+        # example code:
+        ```
+        import numpy as np
+        import pandas as pd
+        import matplotlib.pyplot as plt
+        from Reff import Reff
+        
+        # data from:
+        # https://github.com/nychealth/coronavirus-data
+        data = pd.read_csv('case-hosp-death.csv')
+        t = np.array(pd.to_datetime(data['DATE_OF_INTEREST']))
+        c = np.array(data['CASE_COUNT'])
+        R = Reff(c, 6.3, 4.2)
+        plt.semilogy(t, R.T)
+        plt.show()
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
