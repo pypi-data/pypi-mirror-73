@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: yify-grabber
+Version: 0.1.0
+Summary: Command line tool for downloading subtitles from yify
+Home-page: https://github.com/CW4RR10R/yify-grabber
+Author: W4RR10R
+Author-email: arunptndpl@gmail.com
+License: MIT
+Description: # yify-grabber
+        Command line tool for downloading yify subtitles
+        
+        ### Installation
+        ```bash
+           pip install yify-grabber
+        ```
+        ### Usage
+        ```bash
+           yify [-h] [-n NAME] [-u URL]
+         ```
+Keywords: yify,yts,subtitle,W4RR10R,yify grabber
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

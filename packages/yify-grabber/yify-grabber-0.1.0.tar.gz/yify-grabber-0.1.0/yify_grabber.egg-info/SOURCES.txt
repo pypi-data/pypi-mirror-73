@@ -1,0 +1,9 @@
+README.md
+setup.py
+yify/__init__.py
+yify_grabber.egg-info/PKG-INFO
+yify_grabber.egg-info/SOURCES.txt
+yify_grabber.egg-info/dependency_links.txt
+yify_grabber.egg-info/entry_points.txt
+yify_grabber.egg-info/requires.txt
+yify_grabber.egg-info/top_level.txt
