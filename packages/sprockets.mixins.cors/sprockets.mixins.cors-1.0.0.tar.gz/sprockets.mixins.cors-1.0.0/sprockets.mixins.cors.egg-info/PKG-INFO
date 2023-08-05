@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: sprockets.mixins.cors
+Version: 1.0.0
+Summary: Tornado RequestHandler mix-in for implementing a CORS enabled endpoint.
+Home-page: https://github.com/sprockets/sprockets.mixins.cors.git
+Author: AWeber Communications, Inc.
+Author-email: api@aweber.com
+License: BSD
+Description: 
+        sprockets.mixins.cors
+        =====================
+        This library exposes a mix-in that adds some useful CORS_ hooks over
+        a basic ``tornado.web.RequestHandler``.
+        
+        .. _CORS: http://www.w3.org/TR/cors/
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
