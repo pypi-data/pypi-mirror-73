@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "tensorbank"
+version = "0.1.0"
+description = "a collection of assorted algorithms expressed in Tensors."
+authors = ["Paul Shved <pavel.shved@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "http://github.com/pshved/tensorbank"
+packages = [{include = "tensorbank"}]
+documentation = "https://tensorbank.readthedocs.io/"
+repository = "https://github.com/pshved/tensorbank"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tensorflow = ">=2.0"
+numpy = "^1.19.0"
+
+[tool.poetry.dev-dependencies]
+sphinx = "^3.1.2"
+sphinx-rtd-theme = "^0.5.0"
+sphinx-autobuild = "^0.7.1"
+pytest = "^5.4.3"
+
+[build-system]
+requires = ["poetry>=1.0", "rtd-poetry-tmp"]
+build-backend = "rtd_poetry_tmp"
