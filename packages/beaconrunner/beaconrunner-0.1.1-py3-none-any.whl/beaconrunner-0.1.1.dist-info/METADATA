@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: beaconrunner
+Version: 0.1.1
+Summary: Agent-based simulation environment for eth2
+Home-page: https://github.com/barnabemonnot/beaconrunner
+Author: Barnabé Monnot
+Author-email: barnabe.monnot@ethereum.org
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: eth2spec
+Requires-Dist: cadCAD
+
+# Beacon Runner
+
+An agent-based model of [eth2](https://github.com/ethereum/eth2.0-specs).
+
+
