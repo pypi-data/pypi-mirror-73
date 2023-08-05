@@ -1,0 +1,3 @@
+2020-07-06 12:24:23,105 DEBUG __init__(): where: /tmp/tmp4tsw96tv/test_1 
+2020-07-06 12:24:23,107 DEBUG __init__(): folders: ['/home/agp/Documents/me/code/brotation/tests'] 
+2020-07-06 12:24:23,116 DEBUG __init__(): config: {'compression': 'xz', 'folders': '/home/agp/Documents/me/code/brotation/tests', 'where': '/tmp/tmp4tsw96tv/test_1'} 
