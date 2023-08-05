@@ -1,0 +1,1 @@
+DelpyWidget@git+https://github.com/Edwauline/DelpyWidget.git
