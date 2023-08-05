@@ -1,0 +1,10 @@
+setup.py
+Mahsanul_distributions/Binomialdistribution.py
+Mahsanul_distributions/Gaussiandistribution.py
+Mahsanul_distributions/Generaldistribution.py
+Mahsanul_distributions/__init__.py
+Mahsanul_distributions.egg-info/PKG-INFO
+Mahsanul_distributions.egg-info/SOURCES.txt
+Mahsanul_distributions.egg-info/dependency_links.txt
+Mahsanul_distributions.egg-info/not-zip-safe
+Mahsanul_distributions.egg-info/top_level.txt
