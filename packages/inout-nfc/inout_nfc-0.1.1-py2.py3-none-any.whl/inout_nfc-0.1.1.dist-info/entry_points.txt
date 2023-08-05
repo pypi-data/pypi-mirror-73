@@ -1,0 +1,3 @@
+[console_scripts]
+inout_nfc = inout_nfc.cli:main
+
