@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: json-context
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # json_context
+        
+        Use JSON as context!
+        
+        ```python
+        from json_context import json_context
+        
+        with json_context('cache.json') as cache:
+        	print(cache)
+        	... ... ...
+        	cache.write()
+        	... ... ...
+        ```
+        
+        `json_context` will read the specified JSON file and write the changes!
+        
+        You can use `write()` to manually write the changes any time!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
