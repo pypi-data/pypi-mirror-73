@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+setup.py
+vaecompare/__init__.py
+vaecompare/compare.py
+vaecompare/estimate.py
+vaecompare/htest.py
+vaecompare/utils.py
+vaecompare.egg-info/PKG-INFO
+vaecompare.egg-info/SOURCES.txt
+vaecompare.egg-info/dependency_links.txt
+vaecompare.egg-info/requires.txt
+vaecompare.egg-info/top_level.txt
