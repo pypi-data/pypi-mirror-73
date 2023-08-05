@@ -1,0 +1,230 @@
+Metadata-Version: 2.1
+Name: coldcms
+Version: 0.1.0rc3
+Summary: A CMS optimized for low consumption
+Home-page: https://coldcms.hashbang.fr
+Author: Hashbang
+Author-email: contact@hashbang.fr
+License: GNU AFFERO GENERAL PUBLIC LICENSE version 3
+Project-URL: Documentation, https://coldcms.readthedocs.io/en/latest/
+Project-URL: Code, https://gitlab.com/hashbangfr/coldcms
+Description: =======
+        ColdCMS
+        =======
+        
+        .. image:: coldcms/static/svg/coldcms.svg
+            :width: 100
+            :height: 100
+            :alt: ColdCMS logo
+        
+        .. image:: https://badge.fury.io/py/coldcms.svg
+        
+        .. image:: https://readthedocs.org/projects/pip/badge/
+        
+        .. image:: https://gitlab.com/hashbangfr/coldcms/badges/master/pipeline.svg
+        
+        .. image:: https://gitlab.com/hashbangfr/coldcms/badges/master/coverage.svg
+        
+        
+        Goal
+        ====
+        
+        A fully functional CMS optimized for low consumption.
+        
+        `Read blog posts <https://coldcms.hashbang.fr>`_ about this.
+        
+        
+        Benchmark
+        =========
+        
+        `Benchmark details to Coldcms <https://gitlab.com/hashbangfr/coldcms/-/blob/master/benchmark/README.rst>`_
+        
+        
+        Description
+        ===========
+        ColdCMS is a `Django <https://www.djangoproject.com>`_ project based on `Wagtail CMS <https://wagtail.io>`_ and `Bulma <https://bulma.io>`_ CSS framework.
+        
+        The admin can edit websites through an intuitive and user-friendly interface. Different types of pages are pre-designed, making it possible to have a nice-looking website without spending hours on it.
+        
+        ColdCMS is especially designed for people who want to reduce the impact of their use of digital technologies on the environnement.
+        
+        The client website consists of static pages, built with `Wagtail bakery <https://github.com/wagtail/wagtail-bakery>`_. The website pages are generated and updated when necessary (e.g. when the admin publishes or modifies content).
+        
+        Among other optimizations, the size of CSS files is reduced and unused CSS code is removed, using `PurgeCSS <https://github.com/FullHuman/purgecss>`_ and `clean-css <https://github.com/jakubpawlowicz/clean-css-cli>`_.
+        
+        ColdCMS supports Python >= 3.6.
+        
+        
+        How to use ColdCMS?
+        ===================
+        
+        - **You have access to a ColdCMS instance and you want to create a website**:
+        
+            You can find the user documentation here:
+        
+                - `English documentation <https://coldcms.readthedocs.io/en/latest/>`_
+                - `Documentation en français <https://coldcms.readthedocs.io/fr/latest/>`_
+        
+        - **You want to install ColdCMS**:
+        
+            You have two options: docker installation or manual installation.
+        
+            1. **Docker installation**
+        
+                Make sure docker is installed and the daemon is running.
+        
+                The following command will:
+        
+                1. remove all running instances of the project
+                2. build new images based on the modifications you've made
+                3. run the project in a production-like environment
+        
+                .. code-block:: shell
+        
+                    production/clean.sh && production/build.sh && production/run.sh
+        
+            2. **Manual installation**
+        
+                (This has only been tested on Linux environments.)
+        
+                Install ColdCMS with pypi:
+        
+                .. code-block:: shell
+        
+                    pip install coldcms
+        
+                Run the quick launch command:
+        
+                .. code-block:: shell
+        
+                    python -m coldcms
+        
+                Before this command you can set the following environment variables :
+        
+                    - ``RUN_DJANGO_MIGRATION=0``: do not run the migrations
+        
+                    - ``SETUP_INITIAL_DATA=0``: do not setup the initial data, in case you want to keep the data you already have in your coldcms database
+        
+                    - ``COLLECT_STATIC=0``: do not collect the static files. Don't set that variable to 0 if it is your first time launching ColdCMS.
+        
+                    - ``CREATE_SUPERUSER=0``: do not create a new superuser (you can have several superuser at a time, but not with the same username or email)
+        
+                Example : ``CREATE_SUPERUSER=0 python -m coldcms`` will run the migrations, setup some new initial data, but will not create a new superuser.
+        
+        - **You are a developer and you want to contribute to ColdCMS**
+        
+            Clone the gitlab repository, and read the **Dev** section below to install the ColdCMS development environment.
+        
+            Follow the `contribution guidelines <https://gitlab.com/hashbangfr/coldcms/-/blob/master/CONTRIBUTING.rst>`_.
+        
+        
+        Dev
+        ===
+        
+        (This has only been tested on Linux environments.)
+        
+        1. Install the dependencies
+        ---------------------------
+        
+        Install ``libjpeg`` and ``zlib``, needed to work with images through the ``Pillow`` library.
+        If you have a debian-based distribution, use the following commands:
+        
+        .. code-block:: shell
+        
+            sudo apt-get install zlib1g-dev
+            sudo apt-get install libjpeg-dev
+        
+        Also, please install PurgeCSS and clean-css, to reduce the size of CSS files:
+        
+        .. code-block:: shell
+        
+            npm install -g purgecss@2.1.0 clean-css-cli@4.3.0
+        
+        And to continue with javascript, please install static dependencies :
+        
+        .. code-block:: shell
+        
+            (cd coldcms/static/ && npm i --save-dev)
+        
+        We use sass to transpile sass files to CSS. Make sure that the binary `sass` from the `sassc` package is present in your $PATH. In debian-based distributions, run the following:
+        
+        .. code-block:: shell
+        
+            sudo apt-get install sassc
+        
+        Finally, run:
+        
+        .. code-block:: shell
+        
+            pip install -r requirements_dev.txt
+        
+        
+        2. Create a database 
+        --------------------
+        
+        By default, ``./manage.py migrate`` will create a sqlite3 database named ``coldcms``.
+        
+            - If you want to use a different database engine, you can specify it in the environment variable ``DB_URL``. Make sure you have the proper database driver for the engine you want to use.
+            - If you want to use a different name for your sqlite database, you can specify it in the environment variable ``DB_NAME`` (useless for some engines as it is directly specified in the url - see table below).
+        
+        As advised in the `django documentation <https://docs.djangoproject.com/en/3.0/intro/tutorial02/#database-setup>`_, if you’re new to databases, or you’re just interested in trying ColdCMS, use the default sqlite3 database, it is included in Python, so you won’t need to install anything else to support your database. When starting your first real project, however, you may want to use a more scalable database like PostgreSQL, to avoid database-switching headaches down the road.
+        
+        +-------------+--------------------------------------------------+
+        | Engine      | DB_URL                                           |
+        +=============+==================================================+
+        | PostgreSQL  | ``postgres://USER:PASSWORD@HOST:PORT/NAME``      |
+        +-------------+--------------------------------------------------+
+        | PostGIS     | ``postgis://USER:PASSWORD@HOST:PORT/NAME``       |
+        +-------------+--------------------------------------------------+
+        | MSSQL       | ``mssql://USER:PASSWORD@HOST:PORT/NAME``         |
+        +-------------+--------------------------------------------------+
+        | MySQL       | ``mysql://USER:PASSWORD@HOST:PORT/NAME``         |
+        +-------------+--------------------------------------------------+
+        | MySQL (GIS) | ``mysqlgis://USER:PASSWORD@HOST:PORT/NAME``      |
+        +-------------+--------------------------------------------------+
+        | SQLite      | ``sqlite:///PATH``                               |
+        +-------------+--------------------------------------------------+
+        | SpatiaLite  | ``spatialite:///PATH``                           |
+        +-------------+--------------------------------------------------+
+        | Oracle      | ``oracle://USER:PASSWORD@HOST:PORT/NAME``        |
+        +-------------+--------------------------------------------------+
+        | Oracle (GIS)| ``oraclegis://USER:PASSWORD@HOST:PORT/NAME``     |
+        +-------------+--------------------------------------------------+
+        | Redshift    | ``redshift://USER:PASSWORD@HOST:PORT/NAME``      |
+        +-------------+--------------------------------------------------+
+        
+        Replace PATH, USER, PASSWORD, HOST, PORT and NAME with the correct values.
+        
+        `Source <https://github.com/jacobian/dj-database-url/blob/master/README.rst>`_
+        
+        For example, if you want to use PostgreSQL :
+        
+        .. code-block:: shell
+        
+            systemctl status postgresql # make sure postgresql is running
+            createdb coldcms # create the coldcms postgres database
+            sudo -u postgres psql
+            CREATE USER username PASSWORD 'password';
+            ALTER ROLE username WITH SUPERUSER;
+            \q
+            export DB_URL="postgres://username:password@localhost:5432/coldcms"
+            
+        
+        3. Launch the development server
+        --------------------------------
+        
+        .. code-block:: shell  
+            
+            ./manage.py migrate
+            ./manage.py collectstatic
+            ./manage.py compilemessages
+            ./manage.py createsuperuser
+            ./manage.py setup_initial_data # optional - loads data of a basic home page
+            ./manage.py runserver
+        
+            
+        
+Keywords: cms,django,wagtail,performance,ecology
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: doc
