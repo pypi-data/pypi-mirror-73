@@ -1,0 +1,13 @@
+.gitignore
+README.rst
+setup.py
+.github/workflows/python-publish.yml
+cocotbext/wishbone/__init__.py
+cocotbext/wishbone/driver.py
+cocotbext/wishbone/monitor.py
+cocotbext/wishbone/version.py
+cocotbext_wishbone.egg-info/PKG-INFO
+cocotbext_wishbone.egg-info/SOURCES.txt
+cocotbext_wishbone.egg-info/dependency_links.txt
+cocotbext_wishbone.egg-info/requires.txt
+cocotbext_wishbone.egg-info/top_level.txt
