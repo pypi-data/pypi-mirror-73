@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: modelmock
+Version: 0.1.1
+Summary: A simple mock model generator
+Home-page: https://github.com/acegik/modelmock
+Author: acegik
+License: GPL-3.0
+Download-URL: https://github.com/acegik/modelmock/downloads
+Keywords: mock,model,jsonschema
+Platform: UNKNOWN
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
+Requires-Dist: numpy
+Requires-Dist: shortuuid (<2,>=1)
+
+UNKNOWN
+
+
