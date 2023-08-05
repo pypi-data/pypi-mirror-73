@@ -1,0 +1,9 @@
+swarm_bus/__init__.py,sha256=vW6lihVUPAMnTLyKqTXzovB6dPwhOpcyTDVaKOcgkOQ,83
+swarm_bus/bus.py,sha256=3I0tnkprCJGrAoMAuhVEhCoEURGiqvhUKCN2cPp6LHA,14551
+swarm_bus/patching.py,sha256=r7vCGzL5z6cfHtkXlvpZNtO5EQ00Xz6Q0sCT7qwSFHc,4781
+swarm_bus-4.2.dist-info/DESCRIPTION.rst,sha256=N61Jv4nRjszQODL4lm80ng0L2GKdYMm--BkEC1vvFj4,2048
+swarm_bus-4.2.dist-info/METADATA,sha256=IbLXc-h18VMNJGxW3svWLLDq7iUA-hrcpaDGR7jI7FM,2685
+swarm_bus-4.2.dist-info/RECORD,,
+swarm_bus-4.2.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+swarm_bus-4.2.dist-info/metadata.json,sha256=iZe166ZaQY31Eo22Qy2cX2rfsti7asqiPHlGEyun2Wg,828
+swarm_bus-4.2.dist-info/top_level.txt,sha256=o3lb_R7vVJgvE9-RIVAbJlUgoHjWPxFSCacRLluVH-Q,10
