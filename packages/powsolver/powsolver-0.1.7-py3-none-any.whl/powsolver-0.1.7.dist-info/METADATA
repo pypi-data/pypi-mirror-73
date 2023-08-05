@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: powsolver
+Version: 0.1.7
+Summary: Proof of Work solver mainly for CTF challenges
+Home-page: http://github.com/apogiatzis/powsolver
+Author: Antreas Pogiatzis
+Author-email: pogiatzis.c.a@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Description-Content-Type: text/markdown
+Requires-Dist: dill (==0.3.2)
+Requires-Dist: multiprocess (==0.70.10)
+Requires-Dist: parse (==1.15.0)
+Requires-Dist: pathos (==0.2.6)
+Requires-Dist: pox (==0.2.8)
+Requires-Dist: ppft (==1.6.6.2)
+Requires-Dist: six (==1.15.0)
+
+# PoWSolver (WIP)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+
+
+A proof of work puzzle solver mainly for CTF challenges and whatnot.
+
+
+## Getting Started
+
+You can get started using `powsolver` by installing it through pip.
+
+```
+pip install powsolver
+```
+
+## Usage
+
+The main component of the powsolver package is the `PoWSolver` class which encapsulates the main functionality.
+
+Here is a basic usage example of the powsolver:
+
+```python
+from powsovler import PoWSolver
+
+solver = PoWSolver()
+solver.parse(
+    "Please submit a printable string X, such that {alg}(X)[{start:d}:] = {target} and len(X) = {len}",
+    "Please submit a printable string X, such that sha256(X)[-6:] = 86d113 and len(X) = 11"
+)
+sol = solver.sol()
+```
+
+Exampled of more elaborated usage can be found in the [examples](./examples/)  folder.
+
+## Running the tests
+
+### :TODO:
+
+## Contributing
+
+Any PRs are welcome!
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/apogiatzis/powsolver/tags). 
+
+## Authors
+
+* **Antreas Pogiatzis** - *Initial work* 
+
+See also the list of [contributors](https://github.com/apogiatzis/powsolver/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+
+
