@@ -1,0 +1,10 @@
+README.md
+setup.py
+to_ico/__init__.py
+to_ico/to_ico.py
+to_ico.egg-info/PKG-INFO
+to_ico.egg-info/SOURCES.txt
+to_ico.egg-info/dependency_links.txt
+to_ico.egg-info/entry_points.txt
+to_ico.egg-info/requires.txt
+to_ico.egg-info/top_level.txt

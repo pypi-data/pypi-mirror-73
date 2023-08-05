@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: to-ico
+Version: 1.1
+Summary: A small png to ico convertor script. Just type 'to-ico' in console.
+Home-page: https://github.com/amshinski/to-ico
+Author: amshinski
+Author-email: amshinski@gmail.com
+License: UNKNOWN
+Description: # to-ico
+        
+        Small script that converts png image to ico.
+        
+        Usage: type 'to-ico' in the console and choose the images to convert.
+        
+Keywords: ico,console,convert,image
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
