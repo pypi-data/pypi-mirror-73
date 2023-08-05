@@ -1,0 +1,3 @@
+[console_scripts]
+yatb=yatb.console:yatb
+
