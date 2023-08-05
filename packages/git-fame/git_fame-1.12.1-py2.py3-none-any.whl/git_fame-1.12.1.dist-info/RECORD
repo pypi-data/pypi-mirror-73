@@ -1,0 +1,11 @@
+gitfame/__init__.py,sha256=A8h9PMGjDVcAHrJotRGaUmqww9IfB_XBwy7G_E2ChOg,348
+gitfame/__main__.py,sha256=iQJvI4tj7ZIop4sJSvdofQonwjnR1HZt7F5AAaxGHgs,74
+gitfame/_gitfame.py,sha256=t00PDR-oi_OLkNtUzWKRS0wehMkow_PLDalESdy7IPo,15768
+gitfame/_utils.py,sha256=KEzVzfhp6BusmLVMs8Mt7xZ070vsISS7kLKQrCgOeB4,6445
+gitfame/git-fame.1,sha256=RixvQdECabtlwUPS1VfNVhpYXk5JU19dNpj1z8R3XgQ,3158
+git_fame-1.12.1.dist-info/LICENCE,sha256=V8xLuoDq9sFq0UjOzjD4JoMUlI5Q6Q1X0CtV89pvgmI,394
+git_fame-1.12.1.dist-info/METADATA,sha256=KYbEqEsOGSHDzamAaJBrEH4inF178uZPTjZZtAZfnUA,16016
+git_fame-1.12.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+git_fame-1.12.1.dist-info/entry_points.txt,sha256=DXLMVezW25njv7HkdxJ79GyGXFzZcOWC-anBtXtKEZk,43
+git_fame-1.12.1.dist-info/top_level.txt,sha256=e7i8EN7NEv0MSRIDvjIoJLZCO3qUYVvJoMjKwtMGXBw,8
+git_fame-1.12.1.dist-info/RECORD,,
