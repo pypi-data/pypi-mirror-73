@@ -1,0 +1,10 @@
+torch>=1.5.0
+holidays
+numpy
+pandas
+scipy
+tqdm
+pydantic
+matplotlib
+python-rapidjson
+tensorboard
