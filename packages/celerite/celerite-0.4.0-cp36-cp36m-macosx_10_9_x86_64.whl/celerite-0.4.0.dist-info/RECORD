@@ -1,0 +1,16 @@
+celerite/__init__.py,sha256=EpEulPBw4LQM0UqVR0gFxTX9SEZD1GLk6UuF8Vhnsgg,903
+celerite/build.py,sha256=yJ4TbyDTuHjquY7fpWqqZg37tDwjfeCwRypvmYBW2T8,4822
+celerite/celerite.py,sha256=jBGvMIiH8mFMz4cCa84gneZ99ksxFpYdrUyf29v96SA,19496
+celerite/modeling.py,sha256=08CAeSRqlN4ERk8AgLuVgKRWbtnpsMOeX7rKEd-t5wk,14153
+celerite/plot_setup.py,sha256=pjUgMYmvQ1jEkxLbkROyZvn2y3Bki5kNKDB8N_va47E,1041
+celerite/solver.cpp,sha256=yMKx_SMFTXek8MUw6LYgjCFMBNFgeywhBjKJwWWXr_k,21030
+celerite/solver.cpython-36m-darwin.so,sha256=NizP3RQn2XGYEPBFZc9-cV932sdPyrSd87QxZNE6FYk,1529092
+celerite/terms.py,sha256=pjZwYDEuX3iaTQ2hsMBx28agZWk5ilLf2OxyRj0H4xY,17837
+celerite/timer.py,sha256=yh2-JKzvyUM_83wFcRD-nzm7-lWoRTb_J2KAEylYGTc,321
+celerite-0.4.0.dist-info/AUTHORS.rst,sha256=zOSgrKkXU9EBlF449O3-r8Qhe13LnUblwOBLdxoxyHU,219
+celerite-0.4.0.dist-info/LICENSE,sha256=y0AfQE6X1t3pt7LTyHYGhrRorW7XvrrIiCBWt2KEfr8,1102
+celerite-0.4.0.dist-info/METADATA,sha256=9c_zkRZ4lih6m_z1pgRXBa8H3KXANuDsibiKItag7Ok,2426
+celerite-0.4.0.dist-info/WHEEL,sha256=lSU0w45QqfDJHTuhFZouPsIyI-GSJHfRV-2E-9aUKe4,110
+celerite-0.4.0.dist-info/top_level.txt,sha256=butom7gmdQDjIHk5T--v0UFY9y3tpNMWqw2eVt1S0Hg,9
+celerite-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+celerite-0.4.0.dist-info/RECORD,,
