@@ -1,0 +1,19 @@
+#!/usr/bin/python3 -u
+# BOTLIB - the bot library !
+#
+#
+
+from bot.csl import execute
+from bot.krn import k
+from bot.prs import parse_cli
+
+def main():
+    c = parse_cli()
+    if c.txt:
+        return k.cmd(c.origtxt)
+    if c.mods:
+        k.start()
+        k.init(c.mods)
+        k.wait()
+
+execute(main)
