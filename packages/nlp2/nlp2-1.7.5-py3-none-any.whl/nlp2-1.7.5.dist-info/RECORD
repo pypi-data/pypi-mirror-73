@@ -1,0 +1,11 @@
+nlp2/__init__.py,sha256=YM3oGZWv-k748sWC8xiZP-Kc-86V16edl5NEcRpg0TI,106
+nlp2/file.py,sha256=xxyB9Qx-n1Ot6_1Yn5yrNG1rLaiwG5ztI0HU1ltOkDU,2639
+nlp2/panel.py,sha256=8PG6nBNA22oJLVJY0pcpMFvitf5oxTQU42Ceqe9kjME,3718
+nlp2/rand.py,sha256=FKJ_LMaUTWNAO1UtewUG6nGQL7Lnm2JJNBzGxk9Ykl0,760
+nlp2/text.py,sha256=MZxOJEuZ8ulqGaE8t7QJx0XtDBsUQTY2CqfQ4mWurOc,4693
+nlp2/vectorize.py,sha256=_5JXzi7iaIyIaF7dnWEeDjnx4N14BeMlzXOECll_ByI,1495
+nlp2-1.7.5.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+nlp2-1.7.5.dist-info/METADATA,sha256=luWdgYBizoTXiRSZDO-6Au7DWUCN5On0nviYguZLe58,827
+nlp2-1.7.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+nlp2-1.7.5.dist-info/top_level.txt,sha256=umftVtZX-bxG346T38WOttYOU9q1RifwAncqWvBNZ4M,5
+nlp2-1.7.5.dist-info/RECORD,,
