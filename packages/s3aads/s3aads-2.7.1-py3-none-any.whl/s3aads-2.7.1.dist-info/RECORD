@@ -1,0 +1,9 @@
+s3aads/__init__.py,sha256=__wuQnwk4MZTik8twbkCjy5BwyCh-oMipevEEO48AQ0,79
+s3aads/database.py,sha256=1ZfkTCF1reaZUo5zHLGgDgd8PtFLDl9vcM9zMztqyxw,968
+s3aads/resources.py,sha256=z2n1K5QDzrFalRFE1YNk_1NrSQVHMoF5-n01Rxs8l_0,79
+s3aads/table.py,sha256=VXERSMnnZrxhQLoj96zyBz90aw39TOAPRuQdg0EiM_w,4376
+s3aads-2.7.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+s3aads-2.7.1.dist-info/METADATA,sha256=WcaETqNH7nj_O947t1MQIoYwhJ84oDOQkz7PwGFEW14,7434
+s3aads-2.7.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+s3aads-2.7.1.dist-info/top_level.txt,sha256=LiCzQXL8nYSrlY-VfhGBnKF1iZVnbW7_ddHxG7_hBm0,7
+s3aads-2.7.1.dist-info/RECORD,,
