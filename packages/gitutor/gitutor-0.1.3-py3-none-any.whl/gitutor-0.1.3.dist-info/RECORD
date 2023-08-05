@@ -1,0 +1,7 @@
+gitutor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/cli.py,sha256=iQ0LU65FO6xboW2Q-8PT0YinnScCcoYvxulPe_A-nN8,560
+gitutor/commands.py,sha256=vC92XGQDvB0YiluE1AcAHBFUGcAdh4ZMTX0BClaETUY,220
+gitutor-0.1.3.dist-info/entry_points.txt,sha256=sMdUBXtRBSWUPpevWcSohy7WOt42FGHib36AUefX5cw,31
+gitutor-0.1.3.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+gitutor-0.1.3.dist-info/METADATA,sha256=zKr1VNEyr11QiEArFZsV8WseAPxtl2rMfE7qd7eI8Lw,410
+gitutor-0.1.3.dist-info/RECORD,,
