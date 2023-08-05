@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dgm1
+Version: 0.0.4
+Summary: DEM from NRW (Germany)
+Home-page: https://github.com/JRoehrig/dgm1
+Author: Jackson Roehrig
+Author-email: Jackson.Roehrig@th-koeln.de
+License: MIT
+Download-URL: https://github.com/JRoehrig/dgm1
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: gdal
+
+Processing Digitales Geländemodel (Digital Elevation Model) data from NRW (Germany)
+
+
