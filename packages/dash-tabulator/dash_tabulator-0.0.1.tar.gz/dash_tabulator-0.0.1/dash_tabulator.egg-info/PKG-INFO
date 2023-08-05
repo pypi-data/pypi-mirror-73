@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash-tabulator
+Version: 0.0.1
+Summary: Dash Plotly component providing Tabulator tables
+Home-page: UNKNOWN
+Author: patrick oleary <pjaol+dash@pjaol.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash
