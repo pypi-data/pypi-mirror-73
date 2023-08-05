@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: russel-python-interface
+Version: v0.1a
+Summary: Russel communication wrapper allows easier integration into other projects.
+Home-page: https://bitbucket.org/revol-xut/russel-python-interface/
+Author: revol-xut
+Author-email: revol-xut@protonmail.com
+License: GPL-2.0
+Description: UNKNOWN
+Keywords: russel,cluster,communication wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
