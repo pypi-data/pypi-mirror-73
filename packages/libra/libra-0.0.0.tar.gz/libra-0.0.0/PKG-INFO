@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: libra
+Version: 0.0.0
+Summary: Deep Learning in fluent one-liners
+Home-page: https://github.com/Palashio/libra
+Author: Palash Shah
+Author-email: ps9cmk@virginia.edu
+License: MIT
+Description: 
+        Libra is a machine learning API that makes building and deploying models as simple as a one-line function call. 
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: visualize
+Provides-Extra: tests
