@@ -1,0 +1,3 @@
+[console_scripts]
+cfg_load = cfg_load.cli:entry_point
+
