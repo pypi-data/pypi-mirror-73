@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+PyLinearSolver/IterativeSolvers.py
+PyLinearSolver/__init__.py
+PyLinearSolver.egg-info/PKG-INFO
+PyLinearSolver.egg-info/SOURCES.txt
+PyLinearSolver.egg-info/dependency_links.txt
+PyLinearSolver.egg-info/requires.txt
+PyLinearSolver.egg-info/top_level.txt
