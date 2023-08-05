@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: simple-assertions
+Version: 0.1.0
+Summary: Assertion library (skeleton) inspired from `assertpy` but without batteries
+Home-page: UNKNOWN
+Author: Ninad Mhatre
+Author-email: ninad.mhatre@gmail.com
+License: BSD
+Download-URL: https://github.com/assertpy/assertpy/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: test,testing,assert,assertion,simple-assertions,simpleassertions,nose,nosetests,unittest
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
