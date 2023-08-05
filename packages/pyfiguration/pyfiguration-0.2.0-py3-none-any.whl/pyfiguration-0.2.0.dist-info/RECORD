@@ -1,0 +1,15 @@
+pyfiguration/__init__.py,sha256=UwWn3614TaVxcrNwvkJKypdz32QLsw75zi2UK6UrJ5s,147
+pyfiguration/cli.py,sha256=mTIL_2LUVEjr1rUxOOmWTcZ3uyhP8sJVXPWnRYrRcY0,10512
+pyfiguration/configuration.py,sha256=kvToe72yKnrLkChItP-VlB8W75x9L3QSH5xqRBNAYuU,10762
+pyfiguration/pyfiguration.py,sha256=YALRXLGD66woLXKoTmT8aSt8SmaQYUZtSefkImh6fzk,11819
+pyfiguration/utils.py,sha256=as9R1FdKiCke45RUhTw6Na0Ga1VOTUPNkM7AI58J6PU,1855
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli_config.py,sha256=msF1HPzzVZbemcLXHn3kSzZWlvrZ1tahgai1ZxmSujo,521
+tests/test_cli_module.py,sha256=K5w_ryrqbaI-JzfIe6MNr-mq6uGXYHPvSEum51q2H9E,480
+tests/test_utils.py,sha256=GbVqzvt4rieVcyZXPBlH3EYi47_0k6V7GYv_ygPUwkc,581
+pyfiguration-0.2.0.dist-info/LICENSE.md,sha256=fA0IhvYPL208Wa3jrAZmMwVlw-VOdv3bzNgf0MNkzug,1052
+pyfiguration-0.2.0.dist-info/METADATA,sha256=m3rEqiL1GfknAlfskt9FlQud1hx_6VUN88I8ngU-INE,4896
+pyfiguration-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyfiguration-0.2.0.dist-info/entry_points.txt,sha256=lSBUq8sj5vvWZ7xwIeLN5Yv0P5aMcMXT5rU4G4qJIc4,73
+pyfiguration-0.2.0.dist-info/top_level.txt,sha256=X86V22SeZ-NRs1GGhKxrQ6wG6TdOMp_c5hfwg991USg,19
+pyfiguration-0.2.0.dist-info/RECORD,,
