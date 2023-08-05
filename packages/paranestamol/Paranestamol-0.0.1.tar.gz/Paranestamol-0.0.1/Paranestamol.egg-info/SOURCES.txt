@@ -1,0 +1,10 @@
+setup.py
+Paranestamol.egg-info/PKG-INFO
+Paranestamol.egg-info/SOURCES.txt
+Paranestamol.egg-info/dependency_links.txt
+Paranestamol.egg-info/requires.txt
+Paranestamol.egg-info/top_level.txt
+paranestamol/__init__.py
+paranestamol/__main__.py
+paranestamol/plt_managers.py
+paranestamol/samples_model.py

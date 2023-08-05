@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: Paranestamol
+Version: 0.0.1
+Summary: A QtQuick-based nested sampling visualisation tool.
+Home-page: https://github.com/appetrosyan/paranestamol
+Author: Aleksandr Petrosyan
+Author-email: a-p-petrosyan@yandex.ru
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
