@@ -1,0 +1,3 @@
+[console_scripts]
+pydoc2md = pydoc2md.cli:run
+
