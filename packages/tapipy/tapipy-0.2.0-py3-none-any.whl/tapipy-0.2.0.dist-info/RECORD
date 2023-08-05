@@ -1,0 +1,15 @@
+tapipy/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+tapipy/errors.py,sha256=QsK1gYJ2TeaKaQPl7wUhl7wY6dtaRBsjMx32muqgmoI,1622
+tapipy/resources/openapi_v3-actors.yml,sha256=RZZyh8dgQnhge895CgRl2yhY1_3LhV-o8WpDyPppPJI,34279
+tapipy/resources/openapi_v3-authenticator.yml,sha256=ZcspVKQVPPw1rLWrMizMrwN5Rpm7LspKFMZwEF6iBEg,8832
+tapipy/resources/openapi_v3-files.yml,sha256=VEUEIJXy-BSxg7KLP8U67IDfNq980n12zYiymVUXuNM,18070
+tapipy/resources/openapi_v3-meta.yml,sha256=IhkUX6T5MBpXtPRctNFGzNCZW2s0i2k5VmDSsSj4HRM,20251
+tapipy/resources/openapi_v3-sk.yml,sha256=uLXc_QhE8dzHPjEzu_v_KKxmosA4ME2rtSHlxbaourI,101109
+tapipy/resources/openapi_v3-streams.yml,sha256=LM2JuERWGknU8gbJ6s76r6lHUtnhproJEn7WRmSGVj0,86031
+tapipy/resources/openapi_v3-systems.yml,sha256=urLndN8xJtbtOnuwoyfJkXEeE2_B-RveVclbnxZkhxs,27992
+tapipy/resources/openapi_v3-tenants.yml,sha256=2Q1agUp6kLdn4eVTsOVg1GePGYW2bHEGuAjQ7AI-NEU,16308
+tapipy/resources/openapi_v3-tokens.yml,sha256=_Y6MgP8UpUS6ZjHUAUMa3t9Skb1_FMhNINptSpQlqAQ,5144
+tapipy/tapis.py,sha256=R-jsxLPEBO4dS2MgumabQx2eCp1Roqh7DvJoldgRtJU,43524
+tapipy-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+tapipy-0.2.0.dist-info/METADATA,sha256=ktal_R7aV_TG5dF5rIWmU21528Of-JIAz9mtgpRvbv0,2594
+tapipy-0.2.0.dist-info/RECORD,,
