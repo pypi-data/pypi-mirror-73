@@ -1,0 +1,12 @@
+README.md
+setup.py
+rhymepy/__init__.py
+rhymepy/apis.py
+rhymepy/main.py
+rhymepy/parse.py
+rhymepy.egg-info/PKG-INFO
+rhymepy.egg-info/SOURCES.txt
+rhymepy.egg-info/dependency_links.txt
+rhymepy.egg-info/entry_points.txt
+rhymepy.egg-info/requires.txt
+rhymepy.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+colored
+requests
+
+[Native rhymes matching via the pronouncing module.]
+pronouncing
