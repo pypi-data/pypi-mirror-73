@@ -1,0 +1,6 @@
+README.md
+setup.py
+pylambdarest.egg-info/PKG-INFO
+pylambdarest.egg-info/SOURCES.txt
+pylambdarest.egg-info/dependency_links.txt
+pylambdarest.egg-info/top_level.txt
