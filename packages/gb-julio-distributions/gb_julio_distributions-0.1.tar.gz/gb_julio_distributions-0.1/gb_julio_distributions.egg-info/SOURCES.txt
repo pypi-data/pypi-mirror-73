@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gb_julio_distributions/Binomialdistribution.py
+gb_julio_distributions/Gaussiandistribution.py
+gb_julio_distributions/Generaldistribution.py
+gb_julio_distributions/__init__.py
+gb_julio_distributions.egg-info/PKG-INFO
+gb_julio_distributions.egg-info/SOURCES.txt
+gb_julio_distributions.egg-info/dependency_links.txt
+gb_julio_distributions.egg-info/not-zip-safe
+gb_julio_distributions.egg-info/top_level.txt
