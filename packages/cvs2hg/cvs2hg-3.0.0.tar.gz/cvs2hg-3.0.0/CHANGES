@@ -1,0 +1,17 @@
+
+3.0.0
+--------------------------------
+
+General cleanup from non-cvs2hg related parts, renaming to cvs2hg,
+dropping various irrelevant or non-maintained doc parts, tests
+partially cleaned up and partially removed to be used against
+Mercurial only. Setup.py updated to properly package or install
+the tool. All modules and scripts which could conflict with 
+cvs2svn renamed.
+
+
+Older history
+--------------------------------
+
+This project forks cvs2svn, see cvs2svn history.
+
