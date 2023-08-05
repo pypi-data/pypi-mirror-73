@@ -1,0 +1,27 @@
+{
+    "cal_meta": "",
+    "cal_meth": "grid-fit",
+    "cal_path": "/Users/Admin/PycharmProjects/08-plenopticam/plenopticam/examples/data/calidata_new.tar",
+    "dir_remo": 0,
+    "lfp_path": "/Users/Admin/PycharmProjects/08-plenopticam/plenopticam/examples/data/gradient_rose_far.lfr",
+    "opt_arti": 1,
+    "opt_awb_": 1,
+    "opt_cali": 1,
+    "opt_colo": 1,
+    "opt_cont": 1,
+    "opt_dbug": 0,
+    "opt_lier": 1,
+    "opt_pflu": 1,
+    "opt_prnt": 1,
+    "opt_refi": 1,
+    "opt_refo": 1,
+    "opt_rota": 1,
+    "opt_sat_": 1,
+    "opt_view": 1,
+    "opt_vign": 1,
+    "ptc_leng": 3,
+    "ran_refo": [
+        0,
+        1
+    ]
+}
