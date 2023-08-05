@@ -1,0 +1,15 @@
+numpy
+zmq
+
+[dev]
+h5py
+
+[doc]
+Sphinx
+sphinx-argparse
+
+[test]
+pandas
+pexpect
+pytest
+pytest-env

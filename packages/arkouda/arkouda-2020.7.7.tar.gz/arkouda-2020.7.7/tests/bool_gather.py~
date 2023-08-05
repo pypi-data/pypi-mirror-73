@@ -1,0 +1,21 @@
+import arkouda as ak
+
+def pretest(N):
+    """To trigger the gather bug, it seems to be necessary to read/generate a large array of strings, possibly slice it, and hash it. It might have something to do with the fact that the string bytes are uint8 and not necessarily word-aligned. The slice and hash are both moving this potentially non-aligned data over the network."""
+    s = ak.random_strings_uniform(1, 20, 2*N)
+    ss = s[:N]
+    h = ss.hash()
+    return h
+
+def test(inputSize, outputSize, dt, trials):
+    """This test sometimes triggers the bug. In each trial, it performs two identical gathers from bool arrays, where each index may be gathered more than once, and compares the results. They should be the same, but in some cases they differ"""
+    bag = ak.randint(0, 2, inputSize, dtype=dt)
+    inds = ak.randint(0, inputSize, outputSize, dtype=ak.int64)
+    res = []
+    t1 = bag[inds]
+    for trial in range(trials):
+        t2 = bag[inds]
+        res.append((t1 == t2).all())
+        t1 = t2
+    return res
+
