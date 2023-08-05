@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+m2/__init__.py
+m2/beats2audio/__init__.py
+m2/beats2audio/cli.py
+m2/beats2audio/click.wav
+m2/beats2audio/defaults.py
+m2/beats2audio/separator.mp3
+m2_beats2audio.egg-info/PKG-INFO
+m2_beats2audio.egg-info/SOURCES.txt
+m2_beats2audio.egg-info/dependency_links.txt
+m2_beats2audio.egg-info/entry_points.txt
+m2_beats2audio.egg-info/namespace_packages.txt
+m2_beats2audio.egg-info/requires.txt
+m2_beats2audio.egg-info/top_level.txt

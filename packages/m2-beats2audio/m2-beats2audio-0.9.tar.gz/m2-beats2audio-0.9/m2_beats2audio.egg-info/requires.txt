@@ -1,0 +1,5 @@
+pydub
+python-gflags
+python-magic
+numpy
+scipy
