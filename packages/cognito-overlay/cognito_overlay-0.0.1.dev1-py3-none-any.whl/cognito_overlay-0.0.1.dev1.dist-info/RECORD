@@ -1,0 +1,9 @@
+src/__init__.py,sha256=ytwRSn0IN60_JvUniL_WggHnFC5KslQQkfuKvLgZn84,24
+src/_auth.py,sha256=ETNXvuaXwqArrIIOEsRw2EBdOWMQXy3Fk-lpCeOhmX8,385
+src/_config.py,sha256=sh3vsVLkd0PZbjqm7A3QQoTeqqArxT10nJIRQA1TWCQ,252
+src/_defaults.py,sha256=wwuh_DYfu5AobjMSg_nUo6-_LltaZMtfBnYlIOmiRLE,22
+src/users.py,sha256=f3htT6gYmC5vV0Ngp-7OFbTXP7lJKUWkAmMGwdCTJzI,1731
+cognito_overlay-0.0.1.dev1.dist-info/METADATA,sha256=DI7ob1cm6I2Mag_tdfI-z_XpORBy654vp_A-ga-WQUg,1066
+cognito_overlay-0.0.1.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cognito_overlay-0.0.1.dev1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+cognito_overlay-0.0.1.dev1.dist-info/RECORD,,
