@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ms3
+Version: 0.1.2
+Summary: A parser for annotated MuseScore 3 files.
+Home-page: https://github.com/laserjeyes/ms3
+Author: Johannes Hentschel
+Author-email: johannes.hentschel@epfl.ch
+License: gpl3
+Project-URL: Documentation, https://laserjeyes.github.io/ms3/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Requires-Dist: pandas
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+===
+ms3
+===
+
+
+A parser for annotated MuseScore 3 files.
+
+
+Description
+===========
+
+The parser is able to store lists of notes and other events in a music score to TSV files together with their positions (measure & beat). At a later point, it will be possible to add events from TSV files to a score.
+
+
+Note
+====
+
+This project has been set up using PyScaffold 3.2.3. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+
