@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: tokenflow
+Version: 0.1.0
+Summary: tokenizer
+Home-page: https://github.com/howl-anderson/tokenflow
+Author: Xiaoquan Kong
+Author-email: u1mail2me@gmail.com
+License: Apache Software License 2.0
+Keywords: tokenflow
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# tokenflow
+
+
+[![](https://img.shields.io/pypi/v/tokenflow.svg)](https://pypi.python.org/pypi/tokenflow)
+
+[![](https://img.shields.io/travis/howl-anderson/tokenflow.svg)](https://travis-ci.org/howl-anderson/tokenflow)
+
+[![Documentation Status](https://readthedocs.org/projects/tokenflow/badge/?version=latest)](https://tokenflow.readthedocs.io/en/latest/?badge=latest)
+
+
+
+
+tokenizer
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://tokenflow.readthedocs.io.
+
+
+## Features
+
+* TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter).
+
+
+=======
+History
+=======
+
+0.1.0 (2020-07-08)
+------------------
+
+* First release on PyPI.
+
+
