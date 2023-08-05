@@ -1,0 +1,14 @@
+README.md
+setup.py
+example_pkg_jcanode.egg-info/PKG-INFO
+example_pkg_jcanode.egg-info/SOURCES.txt
+example_pkg_jcanode.egg-info/dependency_links.txt
+example_pkg_jcanode.egg-info/top_level.txt
+small_nn/Network.py
+small_nn/__init__.py
+small_nn/data.py
+small_nn/layer.py
+small_nn/models.py
+small_nn/network.py
+small_nn/setup.py
+small_nn/model/__init__.py
