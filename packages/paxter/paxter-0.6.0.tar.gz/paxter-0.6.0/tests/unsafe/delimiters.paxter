@@ -1,0 +1,23 @@
+@python##"
+    def foo(text):
+        text = flatten(text)
+        return f"({text})"
+"##\
+It is recommended to escape @verb"@" sign by configuring
+the symbol command @verb"@@" to render into a single @verb"@" symbol.
+Alternatively, to escape @verb"@@", you may write @verb"@@".
+To write the above verbatim command, you may write @verb#"@verb"@@""#.
+To write the above verbatim command, you may write @verb##"@verb#"@verb"@@""#"##.
+To write the above verbatim command, you may write @verb###"@verb##"@verb#"@verb"@@""#"##"###.
+
+Suppose that we define the following function:
+@verb###"@python##"
+    def foo(text):
+        text = flatten(text)
+        return f"({text})"
+"##"###
+
+Then the code
+    @verb####"@foo{@foo#{}}#@foo##{}#}##@foo###{}##}###}"####
+will produce
+    @foo{@foo#{}}#@foo##{}#}##@foo###{}##}###}
