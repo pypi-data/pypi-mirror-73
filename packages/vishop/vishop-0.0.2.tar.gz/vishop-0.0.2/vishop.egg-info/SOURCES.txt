@@ -1,0 +1,13 @@
+README.md
+setup.py
+vishop/__about__.py
+vishop/__init__.py
+vishop/__main__.py
+vishop/core.py
+vishop.egg-info/PKG-INFO
+vishop.egg-info/SOURCES.txt
+vishop.egg-info/dependency_links.txt
+vishop.egg-info/entry_points.txt
+vishop.egg-info/not-zip-safe
+vishop.egg-info/requires.txt
+vishop.egg-info/top_level.txt
