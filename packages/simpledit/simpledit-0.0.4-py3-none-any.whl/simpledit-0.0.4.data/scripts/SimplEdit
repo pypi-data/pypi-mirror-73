@@ -1,0 +1,4 @@
+#!python
+
+from simpledit import gui
+gui.RunApp()
