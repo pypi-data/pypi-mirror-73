@@ -1,0 +1,5 @@
+PyInquirer
+requests>=2.16.0
+gitpython
+PyYAML
+progressbar2
