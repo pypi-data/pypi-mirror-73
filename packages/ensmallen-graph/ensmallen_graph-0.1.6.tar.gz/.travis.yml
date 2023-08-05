@@ -1,0 +1,82 @@
+language: rust
+
+# pyo3 currently is only supported by the nightly version
+rust:
+  - nightly
+
+# Cache cargo symbols for faster build
+cache: cargo
+
+# In future we could also add windows testing
+jobs:
+  include:
+    - os: linux
+      dist: bionic
+    - os: osx
+      osx_image: "xcode11.5"
+    - os: windows
+      before_install:
+        - choco install python --version 3.7.0
+        - python -m pip install --upgrade pip
+      env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
+
+# Dependencies of kcov, used by coverage
+addons:
+  apt:
+    packages:
+      - libiberty-dev
+      - zlib1g-dev
+      - libcurl4-openssl-dev
+      - libelf-dev
+      - libdw-dev
+      - binutils-dev
+      - gcc
+      - cmake # also required for cargo-update
+      - python3
+      - python3-pip
+      - python3-setuptools
+
+before_script:
+  - export PATH=$HOME/.cargo/bin:$PATH
+  - cargo install cargo-update || echo "cargo-update already installed"
+  - cargo install-update -a # update outdated cached binaries
+  - |
+    if [ "$TRAVIS_OS_NAME" = "windows" ]; then
+      python -m pip install maturin pytest coveralls
+      python -m pip install -r requirements.txt
+    else
+      python3 -m pip install maturin pytest coveralls
+      python3 -m pip install -r requirements.txt
+    fi
+# the main build
+script:
+  # Build, test, bench the graph crate
+  - cargo build --verbose --all --manifest-path=graph/Cargo.toml
+  - cargo test --verbose --all --manifest-path=graph/Cargo.toml
+  # Clearing up target directory
+  - rm -fdr target
+  # Build the bindings
+  - maturin build --release
+  - |
+    if [ "$TRAVIS_OS_NAME" = "windows" ]; then
+      # Install the binding
+      python -m pip install --user --upgrade ./target/wheels/*.whl
+      # Run the python tests
+      python -m pytest -s ./pytests
+    else
+      # Install the binding
+      python3 -m pip install --user --upgrade ./target/wheels/*.whl
+      # Run the python tests
+      python3 -m pytest -s ./pytests
+    fi
+
+after_success:
+  - |
+    if [ "$TRAVIS_OS_NAME" = "linux" ]; then
+      git clone https://github.com/SimonKagstrom/kcov.git
+      cd kcov
+      mkdir build; cd build; cmake ..; make -j4; sudo make install
+      cd ../..
+      cd ./graph && bash coverage.sh
+      bash <(curl -s https://codecov.io/bash)
+    fi
