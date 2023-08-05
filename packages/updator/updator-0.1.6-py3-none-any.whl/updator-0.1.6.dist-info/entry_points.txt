@@ -1,0 +1,3 @@
+[console_scripts]
+updator=updator:main
+
