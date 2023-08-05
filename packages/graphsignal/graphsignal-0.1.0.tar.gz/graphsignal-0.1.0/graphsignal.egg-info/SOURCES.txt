@@ -1,0 +1,7 @@
+README.rst
+setup.py
+graphsignal/__init__.py
+graphsignal.egg-info/PKG-INFO
+graphsignal.egg-info/SOURCES.txt
+graphsignal.egg-info/dependency_links.txt
+graphsignal.egg-info/top_level.txt
