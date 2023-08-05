@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tradex-common-python
+Version: 0.1
+Summary: common for tradex project using python language
+Home-page: UNKNOWN
+Author: HiepNtt
+Author-email: tuanhiep1232@gmail.com
+License: UNKNOWN
+Description: # Common python lib
+        
+        support kafka
+        python 3.7.1
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
