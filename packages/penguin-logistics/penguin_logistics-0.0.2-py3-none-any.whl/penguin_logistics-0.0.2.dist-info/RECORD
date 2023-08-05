@@ -1,0 +1,10 @@
+penguin_logistics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+penguin_logistics/__main__.py,sha256=rfquyoQcjez58g6Hsy7WPYLipzG1xM9DpSJAq3YhUjw,313
+penguin_logistics/batch/__init__.py,sha256=DgI55vjZ0hKlguVDzZw0EGV7Kjl6-sh21fwsXgO5MWk,959
+penguin_logistics/core/__init__.py,sha256=3co3-5KnbdjXLlY0pqKpVN0Kp3GqjxHQFB1dOVpB9Fs,261
+penguin_logistics/fake_cache/__init__.py,sha256=KIWcpp2PVJO6COsYk_2pyFxarDwTFVMxnvOuSvugTAI,288
+penguin_logistics/parallel/__init__.py,sha256=C-zioA-TOeBWheXdmqoxE_H6CvJk9uGInPpl-Sqr9pU,249
+penguin_logistics-0.0.2.dist-info/METADATA,sha256=qh_v6QQKFzAxOO9Y6In_MbR7Ypxb3636FGg3imykDpI,556
+penguin_logistics-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+penguin_logistics-0.0.2.dist-info/top_level.txt,sha256=xWDRJFWVHEK7B3G5BnhcPhwoNSPN24DE7YaTSLJS-WM,18
+penguin_logistics-0.0.2.dist-info/RECORD,,
