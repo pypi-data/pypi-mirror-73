@@ -1,0 +1,11 @@
+future
+networkx>=2.0
+numpy
+scipy
+
+[develop]
+pytest>=3.6,<5.0
+pytest-cov
+roman
+sphinx<2.0
+sphinx_rtd_theme
