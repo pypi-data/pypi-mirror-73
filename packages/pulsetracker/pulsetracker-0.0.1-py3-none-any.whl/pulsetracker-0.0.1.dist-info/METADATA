@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pulsetracker
+Version: 0.0.1
+Summary: A simple algorithm to monitor heartrate using any mobile phone with a camera and flash.
+Home-page: UNKNOWN
+Author: Akil M Hylton
+Author-email: hyltonakil@gmail.com
+License: UNKNOWN
+Project-URL: CoronaTracker, https://coronatrackerbeta.com/
+Project-URL: Source Code, https://github.com/akilhylton/pulsetracker
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: pyrebase
+Requires-Dist: setuptools
+
+UNKNOWN
+
+
