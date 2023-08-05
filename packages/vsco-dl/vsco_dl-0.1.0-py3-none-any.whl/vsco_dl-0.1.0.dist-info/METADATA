@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: vsco-dl
+Version: 0.1.0
+Summary: Tool for downloading VSCO user images and journals
+Home-page: https://github.com/tecome/vsco-dl
+Author: tecome
+Author-email: tecome@protonmail.com
+License: UNKNOWN
+Keywords: vsco dl scrape download image
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# vsco-dl
+
+vsco-dl allows you to scrape and download a VSCO user's images and journals.
+
+### Installation
+
+To install vsco-dl:
+
+```bash
+$ pip install vsco-dl
+```
+
+To update vsco-dl:
+
+```
+ $ pip install vsco-dl --upgrade
+```
+
+
+## Usage
+
+To download a user's images:
+```
+ $ vsco-dl -i <username>
+```
+*Images are by default downloaded into* `./<username>`
+
+To download a user's journals:
+```
+ $ vsco-dl -j <username>
+```
+*Journals are by default downloaded into* `./<username>/journal/<journal name>`
+
+To download both images and journals:
+```
+ $ vsco-dl -a <username>
+```
+
+To download multiple users at once:
+```
+ $ vsco-dl -i -f <filename>
+```
+*This file must contain one username per line. Blank lines are skipped*
+
+
+## Options
+
+|Option|Description|
+|---|---|
+|-i, --images|Scrape and download user's images
+|-j, --journals|Scrape and download user's journals
+|-a, --all|Scrape and download both images and journals from user
+|-f, --filename|Specify filename containing multiple usernames to download
+|-o, --output|Set output directory for user. `%u` will be replaced by the username.
+|--journal-name|Set the directory name for journals to be downloaded into (default is `journal`)
+|-w, --max-workers|Set max download workers (default is 5)
+
+
+## License
+
+This project is licensed under the GNU GPLv3 License - see [LICENSE](LICENSE) for details
+
+
+
