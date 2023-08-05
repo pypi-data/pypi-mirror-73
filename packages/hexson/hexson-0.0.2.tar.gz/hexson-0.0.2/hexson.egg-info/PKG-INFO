@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hexson
+Version: 0.0.2
+Summary: Json library which enable user to parse and dump data with hex escape
+Home-page: https://github.com/wonderqs/hexson
+Author: Qiushi Yang
+Author-email: i@listenwhat.com
+Maintainer: Qiushi Yang
+Maintainer-email: i@listenwhat.com
+License: Apache-2.0
+Description: Hexson
+        ======
+        
+        Json library which enable user to parse and dump data with hex escape.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/x-rst
