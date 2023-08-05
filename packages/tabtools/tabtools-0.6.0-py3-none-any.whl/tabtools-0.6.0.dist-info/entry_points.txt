@@ -1,0 +1,6 @@
+[console_scripts]
+ttmap = tabtools.scripts:ttmap
+ttplot = tabtools.scripts:ttplot
+ttreduce = tabtools.scripts:ttreduce
+ttsort = tabtools.scripts:ttsort
+
