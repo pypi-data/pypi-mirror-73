@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hypermodern-pypras
+Version: 0.1.0
+Summary: The hypermodern Python Pras' project
+Home-page: https://gitlab.com/prasetiyohadi/hypermodern-pypras
+License: MIT
+Keywords: hypermodern
+Author: Prasetiyo Hadi Purwoko
+Author-email: pras@deuterion.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: desert (>=2020.1.6,<2021.0.0)
+Requires-Dist: marshmallow (>=3.6.1,<4.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Project-URL: Repository, https://gitlab.com/prasetiyohadi/hypermodern-pypras
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/prasetiyohadi/hypermodern-pypras/workflows/Tests/badge.svg)](https://github.com/prasetiyohadi/hypermodern-pypras/actions?workflow=Tests)
+[![Codecov](https://codecov.io/gh/prasetiyohadi/hypermodern-pypras/branch/master/graph/badge.svg)](https://codecov.io/gh/prasetiyohadi/hypermodern-pypras)
+[![PyPI](https://img.shields.io/pypi/v/hypermodern-python.svg)](https://pypi.org/project/hypermodern-python/)
+
+# hypermodern-pypras
+
+The exercise project created as implementation of companion repository for the Hypermodern Python article series<br>
+https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+

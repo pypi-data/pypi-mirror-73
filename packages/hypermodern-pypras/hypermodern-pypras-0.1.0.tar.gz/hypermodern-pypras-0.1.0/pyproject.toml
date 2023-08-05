@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "hypermodern-pypras"
+version = "0.1.0"
+description = "The hypermodern Python Pras' project"
+authors = ["Prasetiyo Hadi Purwoko <pras@deuterion.net>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/prasetiyohadi/hypermodern-pypras"
+repository = "https://gitlab.com/prasetiyohadi/hypermodern-pypras"
+keywords = ["hypermodern"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "^2.23.0"
+marshmallow = "^3.6.1"
+desert = "^2020.1.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.2"
+coverage = {extras = ["toml"], version = "^5.1"}
+pytest-cov = "^2.9.0"
+pytest-mock = "^3.1.0"
+flake8 = "^3.8.3"
+black = "^19.10b0"
+flake8-black = "^0.2.0"
+flake8-import-order = "^0.18.1"
+flake8-bugbear = "^20.1.4"
+flake8-bandit = "^2.1.2"
+safety = "^1.9.0"
+mypy = "^0.782"
+pytype = {version = "^2020.6.26", python = "3.7"}
+typeguard = "^2.9.1"
+flake8-annotations = "^2.1.0"
+flake8-docstrings = "^1.5.0"
+darglint = "^1.4.1"
+xdoctest = "^0.12.0"
+sphinx = "^3.1.1"
+sphinx-autodoc-typehints = "^1.11.0"
+codecov = "^2.1.7"
+
+[tool.poetry.scripts]
+hypermodern-pypras = "hypermodern_pypras.console:main"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["hypermodern_pypras"]
+
+[tool.coverage.report]
+show_missing = true
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
