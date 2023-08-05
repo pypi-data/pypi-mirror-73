@@ -1,0 +1,3 @@
+psutil<6,>=5
+pythonping<2,>=1
+requests<3,>=2
