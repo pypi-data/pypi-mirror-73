@@ -1,0 +1,10 @@
+setup.py
+distributions_disha_first/Binomialdistribution.py
+distributions_disha_first/Gaussiandistribution.py
+distributions_disha_first/Generaldistribution.py
+distributions_disha_first/__init__.py
+distributions_disha_first.egg-info/PKG-INFO
+distributions_disha_first.egg-info/SOURCES.txt
+distributions_disha_first.egg-info/dependency_links.txt
+distributions_disha_first.egg-info/not-zip-safe
+distributions_disha_first.egg-info/top_level.txt
