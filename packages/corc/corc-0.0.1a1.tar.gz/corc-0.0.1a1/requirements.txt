@@ -1,0 +1,7 @@
+oci
+ansible
+kubernetes
+PyYAML
+boto3
+jobio
+flatten_dict
