@@ -1,0 +1,62 @@
+# crabby
+crabby is a collection of various scripts used in the Nusbaum lab's python analysis.
+
+What is crabby?
+-------------
+
+more details about it here blah blah blah:
+
+```python
+
+from crabby.io import loadspike2
+from typing import Iterator
+
+def fib(n: int) -> Iterator[int]:
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a + b
+```
+See the documentation for more examples.
+
+crabby is in development; some features are missing and there may be bugs.
+See 'Development status' below.
+
+Requirements
+------------
+scipy
+
+numpy
+
+pandas
+
+matplotlib
+
+seaborn
+
+pandastable
+
+brian2
+
+neo
+
+
+Quick start
+-----------
+
+crabby can be installed using pip:
+
+    $ pip install crabby
+
+If you want to run the latest version of the code, you can install from git:
+
+    $mkdir crabby
+    $cd crabby
+    $git clone https://github.com/LoganJF/crabby.git .
+    $python setup.py install
+
+
+Development status
+------------------
+Beta testing currently 0.0.1
+
