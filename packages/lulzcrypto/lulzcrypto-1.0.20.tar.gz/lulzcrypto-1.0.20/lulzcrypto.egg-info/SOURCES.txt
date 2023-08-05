@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+lulzcrypto/__init__.py
+lulzcrypto.egg-info/PKG-INFO
+lulzcrypto.egg-info/SOURCES.txt
+lulzcrypto.egg-info/dependency_links.txt
+lulzcrypto.egg-info/not-zip-safe
+lulzcrypto.egg-info/requires.txt
+lulzcrypto.egg-info/top_level.txt
