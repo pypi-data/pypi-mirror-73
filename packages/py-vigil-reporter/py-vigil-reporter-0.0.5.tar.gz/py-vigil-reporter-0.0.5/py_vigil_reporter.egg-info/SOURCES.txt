@@ -1,0 +1,11 @@
+README.md
+setup.py
+py_vigil_reporter.egg-info/PKG-INFO
+py_vigil_reporter.egg-info/SOURCES.txt
+py_vigil_reporter.egg-info/dependency_links.txt
+py_vigil_reporter.egg-info/requires.txt
+py_vigil_reporter.egg-info/top_level.txt
+tests/__init__.py
+tests/test_vigil.py
+vigil_reporter/__init__.py
+vigil_reporter/reporter.py
