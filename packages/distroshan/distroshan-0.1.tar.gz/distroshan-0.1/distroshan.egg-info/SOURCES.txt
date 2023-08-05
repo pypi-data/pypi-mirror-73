@@ -1,0 +1,10 @@
+setup.py
+distroshan/Binomialdistribution.py
+distroshan/Gaussiandistribution.py
+distroshan/Generaldistribution.py
+distroshan/__init__.py
+distroshan.egg-info/PKG-INFO
+distroshan.egg-info/SOURCES.txt
+distroshan.egg-info/dependency_links.txt
+distroshan.egg-info/not-zip-safe
+distroshan.egg-info/top_level.txt
