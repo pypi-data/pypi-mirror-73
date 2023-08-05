@@ -1,0 +1,4 @@
+seagen
+numpy
+numba
+h5py
