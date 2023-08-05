@@ -1,0 +1,5 @@
+Click
+boto3
+pyyaml
+tabulate
+jinja2
