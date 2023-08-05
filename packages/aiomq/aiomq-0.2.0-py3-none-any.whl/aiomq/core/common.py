@@ -1,0 +1,4 @@
+ITEM_STATUS_READY = 'ready'
+ITEM_STATUS_PENDING = 'pending'
+ITEM_STATUS_DONE = 'done'
+ITEM_STATUS_ERROR = 'error'
