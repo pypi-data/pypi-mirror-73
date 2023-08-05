@@ -1,0 +1,13 @@
+pyaml>=17.12.1
+requests
+
+[all]
+pyaml>=17.12.1
+requests
+
+[test]
+pytest
+requests
+
+[validate]
+pybtex

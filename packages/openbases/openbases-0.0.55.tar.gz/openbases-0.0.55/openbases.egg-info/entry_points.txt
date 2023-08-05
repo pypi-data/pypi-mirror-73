@@ -1,0 +1,6 @@
+[console_scripts]
+ob-badge = openbases.cli.badges:main
+ob-icons = openbases.cli.icons:main
+ob-paper = openbases.cli.papers:main
+ob-validate = openbases.cli.validate:main
+
