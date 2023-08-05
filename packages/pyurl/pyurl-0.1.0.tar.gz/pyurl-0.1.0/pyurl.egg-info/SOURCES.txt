@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyurl/__init__.py
+pyurl/pyurl.py
+pyurl.egg-info/PKG-INFO
+pyurl.egg-info/SOURCES.txt
+pyurl.egg-info/dependency_links.txt
+pyurl.egg-info/entry_points.txt
+pyurl.egg-info/requires.txt
+pyurl.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pyurl.py
