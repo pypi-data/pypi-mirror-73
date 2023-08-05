@@ -1,0 +1,12 @@
+qiskit
+bitstring
+ddt
+nxpd
+setuptools
+numpy
+scipy
+bitarray
+scikit-learn
+sympy
+pydot
+pandas

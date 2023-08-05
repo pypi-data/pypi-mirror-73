@@ -1,0 +1,4 @@
+qiskit
+bitstring
+ddt
+nxpd
