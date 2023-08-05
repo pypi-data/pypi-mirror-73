@@ -1,0 +1,11 @@
+README.md
+setup.py
+pycubescrambler/__init__.py
+pycubescrambler/non.py
+pycubescrambler/nxn.py
+pycubescrambler/side.py
+pycubescrambler.egg-info/PKG-INFO
+pycubescrambler.egg-info/SOURCES.txt
+pycubescrambler.egg-info/dependency_links.txt
+pycubescrambler.egg-info/requires.txt
+pycubescrambler.egg-info/top_level.txt
