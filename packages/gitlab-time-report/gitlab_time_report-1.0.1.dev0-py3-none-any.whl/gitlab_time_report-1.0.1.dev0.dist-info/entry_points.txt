@@ -1,0 +1,3 @@
+[console_scripts]
+gitlab-time-report=gitlab_time_report.time_report:main
+
