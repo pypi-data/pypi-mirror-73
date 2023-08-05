@@ -1,0 +1,7 @@
+setup.py
+kaddle/__init__.py
+kaddle.egg-info/PKG-INFO
+kaddle.egg-info/SOURCES.txt
+kaddle.egg-info/dependency_links.txt
+kaddle.egg-info/requires.txt
+kaddle.egg-info/top_level.txt
