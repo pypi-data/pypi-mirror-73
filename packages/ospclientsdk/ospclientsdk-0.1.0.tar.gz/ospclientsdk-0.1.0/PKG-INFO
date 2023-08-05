@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: ospclientsdk
+Version: 0.1.0
+Summary: An SDK like wrapper around the openstackclient.
+Home-page: https://github.com/Dannyb48/ospclientsdk
+Author: Danny Baez
+Author-email: danny.baez.jr@gmail.com
+License: GPLv3
+Description: 
+            ospclientsdk provides an sdk like wrapper API around the openstackclient.
+            It removes the need to write boiler plate code around subprocess to execute
+            openstack cli commands.
+            
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
