@@ -1,0 +1,9 @@
+[console_scripts]
+funicorn = funicorn.cli:start
+funicorn-add = funicorn.cli:add_workers
+funicorn-idle = funicorn.cli:worker_idle
+funicorn-restart = funicorn.cli:worker_restart
+funicorn-resume = funicorn.cli:worker_resume
+funicorn-status = funicorn.cli:status
+funicorn-terminate = funicorn.cli:worker_terminate
+
