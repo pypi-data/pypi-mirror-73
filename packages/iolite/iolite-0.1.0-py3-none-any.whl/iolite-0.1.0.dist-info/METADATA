@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: iolite
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/huntzhan/iolite
+Author: Hunt Zhan
+Author-email: huntzhan.dev@gmail.com
+Requires-Python: >=3.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: tqdm (>=4.47.0,<5.0.0)
+Project-URL: Repository, https://github.com/huntzhan/iolite
+Description-Content-Type: text/markdown
+
+# iolite
+
+TODO
+
