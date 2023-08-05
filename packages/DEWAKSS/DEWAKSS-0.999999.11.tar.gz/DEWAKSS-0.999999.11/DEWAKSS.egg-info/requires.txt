@@ -1,0 +1,10 @@
+sparse-dot-mkl
+umap-learn
+pynndescent
+scipy
+sklearn
+pandas
+scanpy>=1.5.1
+scvelo
+matplotlib
+seaborn
