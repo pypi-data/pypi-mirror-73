@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+Conolist.egg-info/PKG-INFO
+Conolist.egg-info/SOURCES.txt
+Conolist.egg-info/dependency_links.txt
+Conolist.egg-info/entry_points.txt
+Conolist.egg-info/not-zip-safe
+Conolist.egg-info/top_level.txt
+src/__init__.py
+src/commands.py
+src/conolist.py
+src/getpathfiles.py
+src/menu.py
+src/selector.py
