@@ -1,0 +1,13 @@
+README.md
+setup.py
+humanizationdb/__init__.py
+humanizationdb.egg-info/PKG-INFO
+humanizationdb.egg-info/SOURCES.txt
+humanizationdb.egg-info/dependency_links.txt
+humanizationdb.egg-info/requires.txt
+humanizationdb.egg-info/top_level.txt
+humanizationdb/core/__init__.py
+humanizationdb/core/db.py
+humanizationdb/core/db_entry.py
+humanizationdb/utils/__init__.py
+humanizationdb/utils/exceptions.py

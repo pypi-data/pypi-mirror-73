@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: humanizationdb
+Version: 0.0.1
+Summary: Database service for antibody humanization
+Home-page: https://github.com/SchubertLab/HumanizationDB
+Author: Jannis Köckritz
+Author-email: jannis.koeckritz@helmholtz-muenchen.de
+License: UNKNOWN
+Description: # HumanizationDB
+        Database service for antibody humanization
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
