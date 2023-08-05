@@ -1,0 +1,8 @@
+mpu[io]>=0.15.0
+pytz>=2018.4
+PyYAML>=4.2b1
+requests>=2.18.4
+six>=1.11.0
+
+[all]
+boto3
