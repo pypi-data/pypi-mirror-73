@@ -1,0 +1,8 @@
+currencyfield/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+currencyfield/fields.py,sha256=r4t8Z5ikFyIYBvQynbCPF32qcQjtiDUhqVF9wVqvXvI,511
+currencyfield/utils.py,sha256=6k3bR6w5G0sgzRP59qbK3IyWbxjPGW7BPqQ0_sarOGI,3372
+django_currency_field-0.1.1.dist-info/LICENSE,sha256=jtQyLJZnLLBOQHQrdWZG6WDnqu1eqToJf-7v1_a81lM,1070
+django_currency_field-0.1.1.dist-info/METADATA,sha256=iaIU8DxCrcEgXkoBgDkOkHd6kxMv9OPbYkCfJnpZNq4,655
+django_currency_field-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_currency_field-0.1.1.dist-info/top_level.txt,sha256=_bQ6JMundOvMQm-GKN8szSoEAt9_pjrsWUw68dnCUdQ,14
+django_currency_field-0.1.1.dist-info/RECORD,,
