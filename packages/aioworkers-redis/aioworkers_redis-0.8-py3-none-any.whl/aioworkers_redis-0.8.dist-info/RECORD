@@ -1,0 +1,10 @@
+aioworkers_redis/__init__.py,sha256=PcLrKt-Le-nYsdlP4tVppiG7ZVKOYcDn4wMsXvtWXeo,86
+aioworkers_redis/base.py,sha256=xNBPz0A1_xqxnDfIwVUkleiTNMiOFX3pV_GKbFr2P3Q,5680
+aioworkers_redis/queue.py,sha256=NqEWmbCgRhu4Hnxz4uWsks7MDmuVXti4S9DDjdnPHy0,3757
+aioworkers_redis/storage.py,sha256=Ahg-HzekOVPEzkhnZ91KCwE1jzghdsmfuwIXueoQyZU,4257
+aioworkers_redis/version.py,sha256=6F4VTLkQWksn2hUQDt2ZPiT1KV5B41I37qjBBaYLptg,20
+aioworkers_redis-0.8.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+aioworkers_redis-0.8.dist-info/METADATA,sha256=dNis611k_-FEa7k8vTeTEL09xT5HDy351a0dOj_tRAI,3374
+aioworkers_redis-0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aioworkers_redis-0.8.dist-info/top_level.txt,sha256=vWa4-8zLfi0wfT195hANhDsBhzXfzGiBkzRFrvMw3uI,17
+aioworkers_redis-0.8.dist-info/RECORD,,
