@@ -1,0 +1,3 @@
+[console_scripts]
+asyncapi-subscriber=asyncapi:run_subscriber
+
