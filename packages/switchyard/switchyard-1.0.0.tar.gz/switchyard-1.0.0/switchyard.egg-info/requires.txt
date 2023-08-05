@@ -1,0 +1,4 @@
+cffi>=1.14.0
+colorama>=0.4.3
+networkx>=2.4
+psutil>=5.7.0
