@@ -1,0 +1,13 @@
+sacrebleu.py,sha256=TSIBqZhlSiv4D8gtw3OPQtBdy93OMXsUrpn-Comzu6s,43987
+sacrebleu/__init__.py,sha256=Jga5OaxmsNzwRZtclG_8ZN7JgXDdga2S14Qs-jUmOe0,1356
+sacrebleu/__main__.py,sha256=pfyRSFlacQgXQb2mVQE1a3FLohp5KnB7FFxoJW-al7I,1062
+sacrebleu/compat.py,sha256=o-WyuOAc5v-o7VeBWEbv8sY-ulVKYOL06ED4Q6BXqrE,5094
+sacrebleu/dataset.py,sha256=DPu8lTx8QjUUz-ng9e3N0TUbi07ENds-n2bICknD6CA,68398
+sacrebleu/sacrebleu.py,sha256=lRqqWezjiqDWnot6ac4ST-676F-dX01KmJR-WABij5c,17209
+sacrebleu/utils.py,sha256=slxh-tvWk_u5mLsIBs064SlNzZynYF3ND8hby5h3QtQ,13498
+sacrebleu-1.4.11.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sacrebleu-1.4.11.dist-info/METADATA,sha256=qRFVjgmpGUqu5skvo71hTvDBSs0l0R3yHTmdQyTld_U,1223
+sacrebleu-1.4.11.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sacrebleu-1.4.11.dist-info/entry_points.txt,sha256=uED4OpN2kYOu1rvdX7b2Tkgn_amajJc_6yV_2B8z4Sk,56
+sacrebleu-1.4.11.dist-info/top_level.txt,sha256=H3cpHXPQtQtVbKIwDN8Au2t8nwrTQlA9omGuoF7tJOA,10
+sacrebleu-1.4.11.dist-info/RECORD,,
