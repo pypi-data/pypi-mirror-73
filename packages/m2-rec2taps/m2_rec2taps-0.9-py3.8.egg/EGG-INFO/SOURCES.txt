@@ -1,0 +1,14 @@
+README.md
+setup.py
+m2/__init__.py
+m2/rec2taps/__init__.py
+m2/rec2taps/cli.py
+m2/rec2taps/defaults.py
+m2/rec2taps/errors.py
+m2_rec2taps.egg-info/PKG-INFO
+m2_rec2taps.egg-info/SOURCES.txt
+m2_rec2taps.egg-info/dependency_links.txt
+m2_rec2taps.egg-info/entry_points.txt
+m2_rec2taps.egg-info/namespace_packages.txt
+m2_rec2taps.egg-info/requires.txt
+m2_rec2taps.egg-info/top_level.txt
