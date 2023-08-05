@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jax-data
+Version: 0.1.1
+Summary: Native data handling for JAX
+Home-page: https://github.com/Ashrit-Yarava/jax-data.git
+License: MIT
+Keywords: jax,jax-data,data,dataset,datahandling
+Author: Ashrit Yarava
+Author-email: ashrity01@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: jax (>=0.1.72,<0.2.0)
+Requires-Dist: jaxlib (>=0.1.51,<0.2.0)
+Requires-Dist: numpy (>=1.19.0,<2.0.0)
+Project-URL: Repository, https://github.com/Ashrit-Yarava/jax-data.git
+Description-Content-Type: text/markdown
+
+# Jax Datasets
+---
+## data
+---
+To load data, first subclass the `jax_data.Dataset` class, implementing the __len__ and __getitem__ methods.
+The `jax_data.Dataloader` class is a simplified adaptation of torch.utils.data.DataLoader.
+
