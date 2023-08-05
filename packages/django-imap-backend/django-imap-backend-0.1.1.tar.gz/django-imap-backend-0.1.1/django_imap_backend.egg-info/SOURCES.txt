@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_imap_backend/__init__.py
+django_imap_backend/backend.py
+django_imap_backend/client.py
+django_imap_backend/version.py
+django_imap_backend.egg-info/PKG-INFO
+django_imap_backend.egg-info/SOURCES.txt
+django_imap_backend.egg-info/dependency_links.txt
+django_imap_backend.egg-info/requires.txt
+django_imap_backend.egg-info/top_level.txt
