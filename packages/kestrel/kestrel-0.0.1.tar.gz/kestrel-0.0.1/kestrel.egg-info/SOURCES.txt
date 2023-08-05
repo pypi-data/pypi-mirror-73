@@ -1,0 +1,10 @@
+README.md
+setup.py
+kestrel/__init__.py
+kestrel/lib.py
+kestrel.egg-info/PKG-INFO
+kestrel.egg-info/SOURCES.txt
+kestrel.egg-info/dependency_links.txt
+kestrel.egg-info/requires.txt
+kestrel.egg-info/top_level.txt
+test/test_kestrel.py

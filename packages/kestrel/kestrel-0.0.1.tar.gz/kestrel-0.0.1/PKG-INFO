@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kestrel
+Version: 0.0.1
+Summary: A tool for detecting trash in images and videos
+Home-page: https://github.com/senofsky/kestrel
+Author: Mark V Senofsky
+Author-email: mark.v.senofsky@gmail.com
+License: LICENSE
+Description: # kestrel
+        A library for detecting litter in a video stream
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
