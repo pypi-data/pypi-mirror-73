@@ -1,0 +1,111 @@
+{
+    "sidebar_links": [
+        {
+            "title": "Grammar",
+            "link": "http://ufal.mff.cuni.cz/vallex/3.1/grammar.html",
+            "icon": ""
+        },
+        {
+            "title": "Guide",
+            "link": "http://ufal.mff.cuni.cz/vallex/3.1/guide.html",
+            "icon": ""
+        },
+        {
+            "title": "Theory",
+            "link": "http://ufal.mff.cuni.cz/vallex/3.1/theory.html",
+            "icon": ""
+        },
+        {
+            "title": "About",
+            "link": "http://ufal.mff.cuni.cz/vallex/3.1/about.html",
+            "icon": ""
+        }
+    ],
+    "stats": {
+        "predefined": [
+            {"name": "Lexicons", "key": "lexicon", "selector": "/([^/]*)$"}
+        ]
+    },
+    "display_options": {
+        "common": {
+            "title": "Common Attributes",
+            "unticked": 0,
+            "attrs": {
+                "lex_lemmas": {
+                    "label": "Lexeme lemmas",
+                    "value": true,
+                    "attrs": ["lemma"]
+                },
+                "frame_lemmas": {
+                    "label": "Frame lemmas",
+                    "value": true,
+                    "attrs": ["frame"]
+                },
+                "frame": {"label": "Frame", "value": true, "attrs": ["frame"]},
+                "synon": {"label": "Synon", "value": true, "attrs": ["synon"]},
+                "example": {
+                    "label": "Example",
+                    "value": true,
+                    "attrs": [
+                        "example",
+                        "examplerich",
+                        "example1",
+                        "example2",
+                        "example3",
+                        "example4",
+                        "example5",
+                        "example6",
+                        "example7"
+                    ]
+                },
+                "cls": {"label": "Class", "value": true, "attrs": ["cls"]},
+                "use": {"label": "Use", "value": true, "attrs": ["use"]},
+                "note": {"label": "Note", "value": true, "attrs": ["note"]},
+                "id": {"label": "Id", "value": true, "attrs": ["id"]}
+            }
+        },
+        "verb": {
+            "unticked": 0,
+            "select_status": "all",
+            "title": "Verb Attributes",
+            "attrs": {
+                "recipr": {
+                    "label": "Recipr",
+                    "value": true,
+                    "attrs": ["recipr", "recipr1", "recipr2", "recipr3"]
+                },
+                "reflex": {
+                    "label": "Reflex",
+                    "value": true,
+                    "attrs": ["reflex"]
+                },
+                "control": {
+                    "label": "Control",
+                    "value": true,
+                    "attrs": ["control"]
+                },
+                "diat": {"label": "Diat", "value": true, "attrs": ["diat"]},
+                "split": {"label": "Split", "value": true, "attrs": ["split"]},
+                "conv": {"label": "Conv", "value": true, "attrs": ["conv"]},
+                "multiple": {
+                    "label": "Multiple",
+                    "value": true,
+                    "attrs": ["multiple"]
+                }
+            }
+        },
+        "deprec": {
+            "unticked": 0,
+            "select_status": "all",
+            "title": "Deprecated Attributes",
+            "attrs": {
+                "reciprex": {
+                    "label": "Reciprex",
+                    "value": true,
+                    "attrs": ["reciprex"]
+                },
+                "limit": {"label": "Limit", "value": true, "attrs": ["limit"]}
+            }
+        }
+    }
+}

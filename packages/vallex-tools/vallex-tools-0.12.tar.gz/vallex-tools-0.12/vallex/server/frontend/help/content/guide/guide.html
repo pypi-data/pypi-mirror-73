@@ -1,0 +1,1643 @@
+<div class="headerinfo">
+	<!-- This work has been supported by the grant P406/12/0557 of the Grant Agency of Czech Republic.<br/>-->
+	Tento text byl publikován jako součást knihy <a href="#bib:vallex16" class="href" title="Valenční slovník českých sloves VALLEX">(Lopatková et al., 2016)</a> vydané nakladatelstvím <a href="http://karolinum.cz/ink2_stat/index.jsp?include=podrobnosti&amp;id=17418&amp;jazyk=cs">Karolinum</a>.
+</div>
+<div id="veryfirst"></div>
+<p>
+
+
+
+
+<h1 class="part" id="sec-sect-heslo">Podoba slovníkového hesla</h1><hr/>
+
+<p>
+
+<p>V&nbsp;této kapitole představíme slovníkové heslo z&nbsp;hlediska jeho struktury, jednotlivých atributů a&nbsp;jejich hodnot.
+Lingvistické aspekty vyžadující širší vysvětlení či diskusi jsou
+ponechány stranou, s&nbsp;odkazem na základní literaturu týkající se dané problematiky.
+<img class="figure" src="static/help/obr-sample.png" width="88%" alt="ukazka"/>
+		<br/><div class="caption" id="fig:lexeme-again"><p class="noindent">Obrázek 1: Ukázka slovníkových hesel</div>
+<p><p>
+
+<div id="text-sect-lexemes" class="textblock"> <!-- LEVEL: 2 -->
+<h2 id="sec-sect-lexemes">1&nbsp;&nbsp;Lexémy, lexikální formy a&nbsp;lexikální jednotky</h2>
+
+<p>
+
+<p>Slovník <em>VALLEX</em> je na nejvyšší úrovni tvořen <em>lexémy</em>, kterým
+odpovídají jednotlivá slovníková hesla. Lexémy, které jsou uvedeny slovesnými lemmaty,
+sdružují lexikální jednotky, odpovídající jednotlivým významům daného slovesa, viz <a href="#fig:lexeme-again" class="href">obr.&nbsp;1</a>.<a href="#fn1" id="fnmark1" class="footnote">1</a>
+<p><p></div> <!-- LEVEL: 2->2 -->
+
+
+<div id="text-sect-lemma" class="textblock"> <!-- LEVEL: 2 -->
+<h2 id="sec-sect-lemma">2&nbsp;&nbsp;Lemmata</h2>
+
+<p>
+
+<p>Slovníkové heslo je  ve <em>VALLEX</em>u uvedeno <em>lemmatem</em>, případně
+seznamem lemmat, tedy infinitivními tvary slovesa,
+reprezentujícími množinu všech jeho paradigmatických forem (tvořících formální složku lexému).
+<p><em>VALLEX</em> (v&nbsp;návaznosti na teorii Funkčního generativního popisu, FGP, viz kapitolu&nbsp;<a href="THEORY.html#sec-sect-valence-teorie" class="href">THEORY</a>)
+zachycuje valenční chování vidových protějšků v&nbsp;rámci jediného lexému.
+Slovníkové heslo je tak typicky uvedeno dvěma (příp. více) slovesnými
+lemmaty, a&nbsp;to nedokonavým a&nbsp;dokonavým infinitivním tvarem slovesa (<a href="#sec-sect-aspect" class="href">odd.&nbsp;2.1</a>).
+Dalším důvodem, proč se v&nbsp;záhlaví
+slovníkového hesla může vyskytnout více lemmat, jsou pravopisné
+varianty slovesa (<a href="#sec-sect-variants" class="href">odd.&nbsp;2.2</a>).
+<p>Lemmata jsou doplněna informací o&nbsp;vidu (v&nbsp;horním indexu),
+případně římskou číslicí  rozlišující homografy (v&nbsp;dolním indexu),
+např. <span class="lemma">nakupovat<span class="homogr back4">I</span><span class="asp up">impf</span></span>
+jako nedokonavý protějšek k&nbsp;<span class="lemma">nakoupit<span class="asp up">pf</span></span>
+vs. <span class="lemma">nakupovat<span class="homogr back4">II</span><span class="asp up">impf</span></span>  jako nedokonavý protějšek k&nbsp;<span class="lemma">nakupit<span class="asp up">pf</span></span>; k&nbsp;homografům viz <a href="#sec-sect-homographs" class="href">odd.&nbsp;2.3</a>.
+<p><p>
+
+<div id="text-sect-aspect" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-aspect">2.1&nbsp;&nbsp;Vid a&nbsp;vidové protějšky</h3>
+
+<p>
+
+<p><p><p class="noindent">
+V&nbsp;češtině se pro kategorii vidu rozlišují dvě základní hodnoty,
+nedokonavost (imperfektiva) a&nbsp;dokonavost (perfektiva). Vedle toho se vyčleňují též iterativa (násobená slovesa jako specifická podtřída nedokonavých sloves) a&nbsp;slovesa obouvidová
+(slovesa, která se v&nbsp;určitých kontextech chovají jako dokonavá,
+v&nbsp;jiných kontextech jako nedokonavá).
+<p>Ve <em>VALLEX</em>u se informace o&nbsp;vidu zachycuje u&nbsp;každého lemmatu
+jako horní index, který může nabývat následujících hodnot:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="asp up">impf</span>&nbsp;pro nedokonavá slovesa;
+
+	</li><li><p>
+		<span class="asp up">pf</span>&nbsp;pro dokonavá slovesa;
+
+	</li><li><p>
+		<span class="asp up">iter</span>&nbsp;pro iterativa;
+
+	</li><li><p>
+		<span class="asp up">biasp</span>&nbsp;pro obouvidová slovesa.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Identifikátorem <span class="asp">impf</span>, <span class="asp">pf</span>,  <span class="asp">iter</span>, <span class="asp">biasp</span>
+jsou ve slovníkovém hesle uvedeny glosy a&nbsp;příklady,
+případně další údaje, které se vztahují pouze k&nbsp;některým z&nbsp;lemmat reprezentujících lexém.
+<p><p class="bigskip">
+<p class="noindent">
+V&nbsp;souladu s&nbsp;teorií FGP jsou ve <em>VALLEX</em>u do jediného lexému spojeny  <em>vidové dvojice</em>
+tvořené sufixálně,
+ např. <span class="lemma">ochutnávat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">ochutnat<span class="asp up">pf</span></span>,
+ <span class="lemma">dokončovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dokončit<span class="asp up">pf</span></span>,
+<span class="lemma">vyrůstat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vyrůst<span class="asp up">pf</span></span>
+ či <span class="lemma">otáčet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">otočit<span class="asp up">pf</span></span>.
+<p> V&nbsp;rámci jednoho lexému
+jsou též zachyceny supletivní páry,
+např. <span class="lemma">brát (si)<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vzít (si)<span class="asp up">pf</span></span> či <span class="lemma">nacházet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">najít<span class="asp up">pf</span></span>.
+Při stanovování vidových protějšků se
+<em>VALLEX</em> přidržuje slovníku SSJČ <a class="href">(</a><a href="#bib:SSJC" class="href" title="Havránek, B. et&nbsp;al. (ed.) (1964): Slovník   spisovného jazyka českého.  Praha, Academia.  (Co-editors: Bělič, J. &ndash; Helcl, M. &ndash; Jedlička, A. et al.)  ">Havránek et&nbsp;al., 1964</a><a class="href">)</a>.
+<p>Dokonavé protějšky nedokonavých
+sloves tvořené prefixálně v&nbsp;rámci jednoho lexému  zachyceny
+nejsou: ne vždy totiž panuje shoda v&nbsp;určení <em>vidových forem</em>
+tvořených prefixací (viz argumentaci A.&nbsp;V.&nbsp;Isačenka, <a href="#bib:isacenko-vidy-sas" class="href" title="Isačenko, A.&nbsp;V. (1960): Slovesný vid, slovesná akce   a obecný charakter slovesného děje.  Slovo a slovesnost. 21(1), s.&nbsp;9&ndash;16.  ">1960</a>);
+s&nbsp;touto teoretickou neujasněností souvisí i&nbsp;nejednoznačnost v&nbsp;případném určování,
+ které z&nbsp;více možných prefigovaných lemmat
+považovat za vidový protějšek.
+<p>Pokud existuje běžně užívaná
+iterativní podoba, je rovněž zahrnuta do příslušného lexému, např.
+slovesa <span class="lemma">nasedat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">nasednout<span class="asp up">pf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">nasedávat<span class="asp up">iter</span></span> odpovídají jedinému lexému popsanému v&nbsp;jednom slovníkovém
+hesle. Vzhledem k&nbsp;vysoké produktivitě tvoření iterativ v&nbsp;češtině nejsou
+ve <em>VALLEX</em>u iterativa zachycena vyčerpávajícím způsobem: iterativa
+s&nbsp;rozšířenou variantou přípony <span class="example">-váva(t)</span>, např.
+<span class="lemma">chodívávat<span class="asp up">iter</span></span>, nejsou uváděna vůbec; z&nbsp;ostatních iterativ
+jsou uváděna pouze ta, která jsou doložena v&nbsp;korpusech SYN2005 nebo SYN2010 nebo se ve sledovaných textech a
+zdrojových slovnících vyskytovala pravidelněji.
+Pro iterativa se však neuvádějí glosy a&nbsp;příklady ani se
+nezaznamenává omezení u&nbsp;lexikálních jednotek, pro které se iterativum
+netvoří.<a href="#fn2" id="fnmark2" class="footnote">2</a>
+<p><p>V&nbsp;rámci jediného slovníkového hesla je v&nbsp;některých případech
+zachyceno více podob jednoho ze členů vidové dvojice (aniž by šlo
+o&nbsp;varianty, <a href="#sec-sect-variants" class="href">odd.&nbsp;2.2</a>), a&nbsp;to v&nbsp;případech, kdy
+jednomu lemmatu jedné vidové hodnoty odpovídá více různých lemmat
+s&nbsp;druhou hodnotou, např. dokonavá slovesa <span class="lemma">dohnat<span class="asp up">pf</span></span> i&nbsp;<span class="lemma">dohonit<span class="asp up">pf</span></span> mají nedokonavý protějšek
+<span class="lemma">dohánět<span class="asp up">impf</span></span>, naopak dokonavé sloveso
+<span class="lemma">odvinout<span class="asp up">pf</span></span> má dva nedokonavé protějšky
+<span class="lemma">odvinovat<span class="asp up">impf</span></span> a&nbsp;<span class="lemma">odvíjet<span class="asp up">impf</span></span> &ndash; každá
+tato trojice lemmat reprezentuje jediný lexém, odpovídá jí tedy
+jediné slovníkové heslo.  V&nbsp;těchto případech je vidová
+charakteristika doplněna arabskou číslicí tak, že index s&nbsp;vidovou
+charakteristikou slouží jako jednoznačný identifikátor
+lemmatu ve slovníkovém hesle, např.
+ <span class="lemma">dohánět<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dohnat<span class="asp up">pf</span><span class="asp up">1</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dohonit<span class="asp up">pf</span><span class="asp up">2</span></span> a
+ <span class="lemma">odvinovat<span class="asp up">impf</span><span class="asp up">1</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">odvíjet<span class="asp up">impf</span><span class="asp up">2</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">odvinout<span class="asp up">pf</span></span>.
+<p><p class="bigskip">
+<p class="noindent">
+Slovesa s&nbsp;rozdílnou vidovou charakteristikou
+se sice liší morfologickým významem, sdílejí však lexikální jednotky
+(k&nbsp;terminologii viz <a href="THEORY.html#sec-sect-aktanty-volna" class="href">odd.&nbsp;THEORY > 1</a>).
+Lexikální jednotka se tak typicky vztahuje ke všem lemmatům daného
+lexému, která jsou uvedena v&nbsp;záhlaví slovníkového hesla. Toto
+obecné pravidlo má řadu výjimek &ndash; některé lexikální jednotky
+se mohou vztahovat jen k&nbsp;některým
+z&nbsp;uvedených lemmat, např. sloveso <span class="lemma">odpovědět<span class="asp up">pf</span></span> je
+dokonavým protějškem slovesa <span class="lemma">odpovídat<span class="asp up">impf</span></span> ve významu
+<span class="gloss">&bdquo;dávat odpověď&ldquo;</span> a&nbsp;<span class="gloss">&bdquo;reagovat&ldquo;</span>, ale již ne ve významech  <span class="gloss">&bdquo;mít
+odpovědnost&ldquo;</span> nebo <span class="gloss">&bdquo;být ve shodě&nbsp;/&nbsp;v&nbsp;souladu; korespondovat&ldquo;</span>.
+V&nbsp;takovém případě jsou za
+arabskou číslicí uvádějící příslušnou lexikální jednotku uvedena
+za značkou  <span class="limit">limit</span>&nbsp;všechna lemmata, ke kterým se daná
+lexikální jednotka vztahuje
+(toto omezení  nebylo systematicky anotováno pouze v&nbsp;případě iterativ).
+<p><p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-variants" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-variants">2.2&nbsp;&nbsp;Varianty lemmatu</h3>
+
+<p>
+
+<p><p class="noindent"> Ortografické alternativy (lišící se obvykle jen alternací v&nbsp;morfematickém kmenu slovesa),
+které jsou zaměnitelné v&nbsp;jakémkoliv kontextu beze změny
+významu, a&nbsp;ke kterým se tedy vztahuje stejná množina lexikálních jednotek,
+jsou chápány jako varianty lemmatu, např.
+<span class="lemma">dozvědět se<span class="asp up">pf</span></span> a&nbsp;<span class="lemma">dovědět se<span class="asp up">pf</span></span>, <span class="lemma">dýchnout<span class="asp up">pf</span></span> a&nbsp;<span class="lemma">dechnout<span class="asp up">pf</span></span>.
+Tyto varianty jsou
+zachyceny jako množina dvou nebo více lemmat reprezentujících (spolu s&nbsp;lemmatem či lemmaty případných vidových protějšků) příslušný lexém.
+<p>Varianty jsou  v&nbsp;záhlaví hesla oddělené lomítkem,
+např. <span class="lemma">dozvědět&#8202;/&#8202;dovědět se<span class="asp up">impf</span></span>,  <span class="lemma">dýchnout&#8202;/&#8202;dechnout<span class="asp up">pf</span></span>.
+<p><p>Přes toto základní vymezení variant <em>VALLEX</em> obsahuje řídké
+výjimky, kdy lze v&nbsp;určitém významu užít pouze jedno z&nbsp;lemmat, srov. např. lemmata
+<span class="lemma">plavat<span class="asp up">impf</span></span> a&nbsp;<span class="lemma">plovat<span class="asp up">impf</span></span>, tradičně považovaná za
+varianty, v&nbsp;kontextu <span class="example">plavat  v&nbsp;matematice</span> vs.
+<span class="example">*plovat v&nbsp;matematice</span>.
+V&nbsp;případě, že lze v&nbsp;daném významu užít pouze jednu z&nbsp;variant, je
+za arabskou číslicí uvádějící příslušnou lexikální jednotku za
+značkou <span class="limit">limit</span> uvedena ta varianta lemmatu, ke
+které se tato lexikální jednotka vztahuje (s&nbsp;vyznačeným videm a&nbsp;případně indexem pro homografy, viz níže).
+<p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-homographs" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-homographs">2.3&nbsp;&nbsp;Homografy (homonyma)</h3>
+
+<p>
+
+<p><p class="noindent">
+Jako <em>homografy</em> jsou ve <em>VALLEX</em>u označována především
+lemmata s&nbsp;identickou grafickou podobou, případně lemmata lišící se pouze přítomností reflexiva <span class="example">se/si</span>,
+ale bez zřejmého
+sémantického vztahu. Přechod mezi homografií/homonymií
+<a href="#fn3" id="fnmark3" class="footnote">3</a> a
+polysémií (kdy jednotlivé lexikální jednotky spolu sémanticky i&nbsp;geneticky souvisejí) je však v&nbsp;jazyce plynulý, jako homografy jsou
+tak ve <em>VALLEX</em>u vyznačena i&nbsp;lemmata stejné grafické podoby, u&nbsp;nichž sice lze vysledovat sémantickou příbuznost,
+která se však liší videm.
+<p><p>Ve <em>VALLEX</em>u jsou homografy rozlišovány římskou číslicí uvedenou
+v&nbsp;dolním indexu,
+např. <span class="lemma">vylétat<span class="homogr back4">I</span><span class="asp up">impf1</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vyletovat<span class="asp up">impf</span><span class="asp up">2</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;
+<span class="lemma">vyletět&#8202;/&#8202;vylétnout<span class="asp up">pf</span><span class="asp up">1</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;
+<span class="lemma">vylétat<span class="homogr back4">II</span><span class="asp up">pf2</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vylétávat<span class="asp up">iter</span></span>,
+<span class="lemma">dít<span class="homogr back4">I</span><span class="asp up">impf</span></span>, <span class="lemma">dít<span class="homogr">II</span> se<span class="asp up">impf</span></span>,
+<span class="lemma">stát<span class="homogr back4">I</span><span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">stávat<span class="homogr back4">I</span><span class="asp up">iter</span></span>,
+<span class="lemma">stát<span class="homogr">II</span> (si)<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">stávat<span class="homogr">II</span> (si)<span class="asp up">iter</span></span>,
+<span class="lemma">stávat<span class="homogr">III</span> se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">stát<span class="homogr">III</span> se<span class="asp up">pf</span></span>.
+<p><p><p><p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-refllexemes" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-refllexemes">2.4&nbsp;&nbsp;Reflexivní lemmata</h3>
+
+<p>
+
+<p><p class="noindent"> Reflexivní lemmata reprezentují <em>reflexivní lexémy</em>,
+k&nbsp;nimž řadíme tři typy reflexivních sloves, u&nbsp;nichž je reflexivum  <span class="example">se/si</span> součástí lemmatu
+ <a class="href">(</a><a href="#bib:euralex-2014-refl" class="href" title="Kettnerová, V. &ndash; Lopatková, M. (2014): Reflexive   Verbs in a Valency Lexicon: The Case of Czech Reflexive Morphemes.  In Abel, A. &ndash; Vettori, C. &ndash; Ralli, N.   (ed.) Proceedings of the XVI EURALEX International Congress:   The User in Focus, s.&nbsp;1007&ndash;1023, Italy, Bolzano/Bozen, EURAC   research.  ">Kettnerová &ndash; Lopatková, 2014</a><a class="href">)</a>:<a href="#fn4" id="fnmark4" class="footnote">4</a>
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+
+  <em>Reflexiva  tantum</em> (v&nbsp;<a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002</a> jsou označována jako inherentně reflexivní slovesa),
+  tedy reflexivní slovesa, která nereflexivní protějšek nemají, např. <span class="lemma">bát se<span class="asp up">impf</span></span>, <span class="lemma">smát se<span class="asp up">impf</span></span>;
+  podtřídu tvoří vlastní inherentní reciproka s&nbsp;reflexivní podobou, <a href="#sec-sect-reciprocity" class="href">odd.&nbsp;4.4</a>, např.
+  <span class="lemma">setkávat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">setkat se<span class="asp up">pf</span></span>;
+  řadí se sem též reflexivní slovesa, která nereflexivní  podobu sice mají,
+  lexikální jednotky odpovídající reflexivním a&nbsp;nereflexivním formám si jsou však natolik významově
+  vzdáleny, že je nelze považovat za jediný lexém, např. <span class="lemma">chovat se<span class="asp up">impf</span></span> vs.
+  <span class="lemma">chovat<span class="asp up">impf</span></span>.
+
+	</li><li><p>
+
+  <em>Odvozená&#8202;/&#8202;sekundární reflexiva</em>
+  (v&nbsp;<a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002</a> též inherentně reflexivní varianta slovesa), tedy slovesa, kde
+  reflexivum <span class="example">se/si</span> je slovotvorným  morfémem  a&nbsp;kde reflexivní podoba je v&nbsp;nějakém významovém vztahu
+  k&nbsp;podobě nereflexivní, např. vyjadřuje samovolnou či bezděčnou
+  činnost, např. <span class="lemma">šířit se<span class="asp up">impf</span></span> a&nbsp;<span class="lemma">vracet se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vrátit se<span class="asp up">pf</span></span>, nebo
+  signalizuje reciprocitu, např. <span class="lemma">líbat se<span class="asp up">impf</span></span>
+  (v&nbsp;takovém případě mluvíme o&nbsp;odvozených recipročních slovesech, viz <a href="#sec-sect-reciprocity" class="href">odd.&nbsp;4.4</a>).
+
+	</li><li><p>
+
+  <em>Slovesná lemmata s&nbsp;fakultativním reflexivem</em> <span class="example">se/si</span>,
+  tedy slovesa, kde reflexivní lemmata sdílejí význam s&nbsp;nereflexivními lemmaty,
+  a&nbsp;reprezentují
+  tak stejné lexikální jednotky,
+  např. <span class="lemma">myslet<span class="asp up">impf</span></span> a&nbsp;<span class="lemma">myslet si<span class="asp up">impf</span></span> v&nbsp;užitích <span class="example">Myslím, že to tak není.</span> vs. <span class="example">Myslím si, že to tak není.</span>,
+  dále <span class="lemma">začínat<span class="asp up">impf</span></span> a&nbsp;<span class="lemma">začínat se<span class="asp up">impf</span></span> v&nbsp;užitích <span class="example">Koncert začíná v&nbsp;osm hodin.</span> vs. <span class="example">Koncert se začíná v&nbsp;osm hodin.</span>
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Reflexivní lexémy prvních dvou typů, tedy reflexiva tantum a&nbsp;odvozená
+reflexiva, jsou ve <em>VALLEX</em>u zachyceny v&nbsp;samostatných slovníkových heslech.
+Slovesa s&nbsp;fakultativním <span class="example">se/si</span> jsou reprezentována v&nbsp;rámci jediného lexému;
+příslušné reflexivum je vyznačeno v&nbsp;závorce jako fakultativní součást příslušného lemmatu, např.
+<span class="lemma">myslet&#8202;/&#8202;myslit (si)<span class="asp up">impf</span></span>
+a&nbsp;<span class="lemma">začínat (se)<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">začít (se)<span class="asp up">pf</span></span>.
+<p><p></div> <!-- LEVEL: 3->2 -->
+</div> <!-- LEVEL: 3->2 -->
+
+
+<div id="text-sect-lu" class="textblock"> <!-- LEVEL: 2 -->
+<h2 id="sec-sect-lu">3&nbsp;&nbsp;Lexikální jednotky</h2>
+
+<p>
+
+<p><p class="noindent"> V&nbsp;koncepci slovníku <em>VALLEX</em> reprezentují
+lexikální jednotky významovou složku, která spolu se složkou
+formální (s&nbsp;možnými lexikálními formami) tvoří lexém.
+Lexikální jednotku  chápeme  jako <span class="gloss">&bdquo;dané slovo v&nbsp;daném významu&ldquo;</span>,
+více viz kapitolu&nbsp;<a href="THEORY.html#sec-sect-valence-teorie" class="href">THEORY</a>.
+<p><p>Pro vyčleňování jednotlivých významů daného lexému neexistují
+testovatelná, všeobecně přijímaná kritéria, přechod od jednoho
+významu ke&nbsp;druhému je v&nbsp;řadě případů pozvolný.
+Ve <em>VALLEX</em>u je
+při rozlišování jednotlivých lexikálních jednotek kladen důraz na syntaktická
+kritéria, zejména na podobu valenčního rámce, včetně morfematické
+realizace jednotlivých valenčních doplnění (viz <a href="#sec-sect-frame" class="href">odd.&nbsp;3.1</a>).
+Přitom se ovšem přihlíží též k&nbsp;sémantice.
+<p><p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		Změny ve valenčním rámci (v&nbsp;počtu, typu i&nbsp;obligatornosti valenčních doplnění)
+        vedou k&nbsp;vyčlenění samostatných lexikálních jednotek, a&nbsp;to i&nbsp;v&nbsp;případě,
+        že je význam těchto  lexikálních jednotek blízký, např. následující užití slovesa <span class="lemma">posílat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">poslat<span class="asp up">pf</span></span> bude popsáno dvěma lexikálními jednotkami:
+        <span class="example">poslat peníze do banky&nbsp;/&nbsp;na účet<span class="functorvr">.DIR3</span></span> vs. <span class="example">poslat
+        peníze dětem<span class="functorvr">.ADDR</span></span>.
+
+	</li><li><p>
+		K&nbsp;vyčlenění samostatných lexikálních jednotek vede i&nbsp;různá
+        syntaktická strukturace
+        významu spojená s&nbsp;lexikalizovanými alternacemi (<a href="THEORY.html#sec-sect-valence-alternace" class="href">odd.&nbsp;THEORY > 2</a>),
+        např. <span class="example">naložit vůz<span class="functorvr">.PAT</span> senem<span class="functorvr">.EFF</span></span>
+        vs. <span class="example">naložit seno<span class="functorvr">.PAT</span> na vůz<span class="functorvr">.DIR3</span></span>; <span class="example">žnout trávu<span class="functorvr">.PAT</span> na louce<span class="functorvr">.LOC</span></span> vs. <span class="example">žnout
+        louku<span class="functorvr">.PAT</span></span>.
+        Tyto významově blízké lexikální jednotky jsou systematicky provázány odkazy,
+        viz zde <a href="#sec-sect-alter" class="href">odd.&nbsp;4.5</a>.
+
+	</li><li><p>
+		Jednotlivé valenční členy
+        jsou specifikovány syntakticko-sémantickým vztahem k&nbsp;řídícímu
+        slovesu, odlišnost tohoto vztahu opět vede k&nbsp;vyčlenění samostatných lexikálních jednotek,  např. tři
+        lexikální jednotky pro lexém <span class="lemma">pocházet<span class="asp up">impf</span></span>: <span class="example">Rukopis pochází ze 14.
+        století<span class="functorvr">.TFRWH</span>.</span> vs. <span class="example">Jan pochází z&nbsp;venkova<span class="functorvr">.DIR1</span>.</span> vs.
+        <span class="example">Všechno zlo pochází z&nbsp;bídy a&nbsp;neznalosti<span class="functorvr">.PAT</span>.</span>
+
+	</li><li><p>
+		Pokud má sloveso dva zřetelně odlišné významy (příp. více odlišných významů), jsou
+        tyto významy popsány různými lexikálními jednotkami i&nbsp;v&nbsp;případech, kdy se valenční rámec neliší,
+        např. dvě lexikální jednotky pro sloveso <span class="lemma">chovat<span class="asp up">impf</span></span>:  <span class="example">chovat
+          dítě<span class="functorvr">.PAT</span> v&nbsp;náručí<span class="functorvr">.LOC</span></span> vs.
+        <span class="example">chovat prasata<span class="functorvr">.PAT</span> na farmě<span class="functorvr">.LOC</span></span>.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Lexikální jednotky jsou ve <em>VALLEX</em>u číslovány arabskými
+číslicemi; každá lexikální jednotka je  uvozena touto
+číslicí.
+<p>Pořadí lexikálních jednotek není zcela arbitrární, není ale přísně
+systematické. V&nbsp;této podobě slovníku je dáno intuicí autorů (s
+přihlédnutím ke vzorku korpusového materiálu) &ndash; primární a/nebo
+velmi frekventované významy jsou uváděny na prvních místech,
+zatímco řídké a&nbsp;idiomatické významy jsou řazeny na konec
+slovníkového hesla.
+<p><p>Pokud není specifikováno jinak, vztahuje se lexikální jednotka ke
+všem lemmatům reprezentujícím daný lexém (uvedeným v&nbsp;záhlaví
+slovníkového hesla). V&nbsp;případech, kdy se daná lexikální jednotka
+vztahuje jen k&nbsp;některým lemmatům ze seznamu v&nbsp;záhlaví, jsou za
+značkou <span class="limit">limit</span>&nbsp;uvedena všechna lemmata (s&nbsp;vyznačeným videm a&nbsp;případnými
+variantami a&nbsp;indexem pro homografy), ke kterým se tato
+lexikální jednotka vztahuje.
+(Značka <span class="limit">limit</span> se však neuvádí, pokud se daná
+lexikální jednotka vztahuje ke všem lemmatům uvedeným v&nbsp;záhlaví
+slovníkového hesla s&nbsp;výjimkou iterativa, kde omezení nebylo systematicky anotováno.)
+<p><p>Lexikální jednotky
+nesou informaci o&nbsp;syntaktických a&nbsp;sémantických rysech slovesa
+v&nbsp;daném významu. Příslušné informace jsou ve <em>VALLEX</em>u
+zachyceny jako povinné a&nbsp;nepovinné atributy lexikální jednotky.
+Povinné atributy musí být vyplněny pro každou lexikální jednotku.
+Nepovinné atributy mohou být nevyplněny, protože buď pro
+danou lexikální jednotku nejsou relevantní (např. kontrola se uvádí jen u
+sloves s&nbsp;touto vlastností, viz <a href="#sec-sect-control" class="href">odd.&nbsp;4.1</a>), nebo dané informace nejsou v&nbsp;současné podobě  dostupné (např.
+určení syntakticko-sémantické třídy slovesa, viz
+<a href="#sec-sect-class" class="href">odd.&nbsp;4.6</a>).
+<p><p><p class="bigskip">
+<p class="noindent">
+Každá lexikální jednotka je charakterizována následujícími povinnými atributy:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<em>valenční rámec</em>, viz <a href="#sec-sect-frame" class="href">odd.&nbsp;3.1</a>;
+
+	</li><li><p>
+		<em>glosa</em>:  sloveso nebo parafráze charakterizující daný
+  význam slovesa; glosy nelze pokládat za synonyma, neaspirují ani na
+  lexikografické definice, slouží pouze pro orientaci ve
+  slovníkovém hesle; glosy jsou uváděny vždy na samostatném řádku za valenčním rámcem;
+
+	</li><li><p>
+		<em>příklad</em>:  věty nebo fragmenty vět obsahující dané
+  sloveso v&nbsp;daném významu, případně s&nbsp;označením zdroje příkladu, např. SYN, SSJČ apod.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+K&nbsp;nepovinným atributům lexikální jednotky patří:
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		kontrola, viz <a href="#sec-sect-control" class="href">odd.&nbsp;4.1</a>;
+
+	</li><li><p>
+		gramatikalizované alternace, a&nbsp;to:
+  <ul class="other">
+
+	<li><p>
+		diateze, viz <a href="#sec-sect-diat" class="href">odd.&nbsp;4.2</a>;
+
+	</li><li><p>
+		reflexivita, viz <a href="#sec-sect-reflexivity" class="href">odd.&nbsp;4.3</a>;
+
+	</li><li><p>
+		reciprocita, viz <a href="#sec-sect-reciprocity" class="href">odd.&nbsp;4.4</a>;
+  	</li>
+</ul><p>
+
+	</li><li><p>
+		lexikalizované alternace, viz <a href="#sec-sect-alter" class="href">odd.&nbsp;4.5</a>;
+
+	</li><li><p>
+		syntakticko-sémantická třída, viz <a href="#sec-sect-class" class="href">odd.&nbsp;4.6</a>;
+
+	</li><li><p>
+		idiomatičnost, viz <a href="#sec-sect-idiom" class="href">odd.&nbsp;4.7</a>.
+	</li>
+</ul><p>
+<p><p>
+
+<div id="text-sect-frame" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-frame">3.1&nbsp;&nbsp;Valenční rámce</h3>
+
+<p>
+
+<p><p class="noindent">
+Zásady valenční teorie FGP (viz zejména <a href="#bib:panevova-80" class="href" title="Panevová, J. (1980): Formy a funkce ve stavbě   české věty.  Praha, Academia.  ">Panevová, 1980</a><a class="href">;</a> <a href="#bib:panevova-94" class="href" title="Panevová, J. (1994): Valency Frames and the Meaning of the   Sentence.  In Luelsdorff, P.&nbsp;A. (ed.) The Prague School of   Structural and Functional Linguistics, s.&nbsp;223&ndash;243. Amsterdam &ndash;   Philadelphia, John Benjamins Publishing Company.  ">Panevová, 1994</a>), která slouží jako teoretické zázemí
+<em>VALLEX</em>u,
+klasifikace aktantů a&nbsp;volných doplnění, zásady pro jejich rozlišování i&nbsp;test pro stanovení obligatornosti
+jsou popsány v&nbsp;kapitole&nbsp;<a href="THEORY.html#sec-sect-valence-teorie" class="href">THEORY</a>.
+<p>Nejdůležitější syntakticko-sémantická charakteristika slovesa je
+zachycena ve formě <em>valenčního rámce</em>.
+Valenční rámec ve <em>VALLEX</em>u sestává z&nbsp;následujících typů valenčních doplnění:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		z&nbsp;<em>aktantů</em> (obligatorních i&nbsp;fakultativních),
+
+	</li><li><p>
+		z&nbsp;<em>obligatorních volných doplnění</em> a
+
+	</li><li><p>
+		z&nbsp;<em>kvazivalenčních doplnění</em>.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Ve slovníku se kromě uvedených členů  valenčního rámce uvádí
+i&nbsp;nevelké množství fakultativních volných doplnění (dále <em>typická
+doplnění</em>) charakteristických pro celé sémantické skupiny sloves.<a href="#fn5" id="fnmark5" class="footnote">5</a>
+<p>Ostatní volná doplnění, ačkoli  se mohou se slovesy vyskytovat, nejsou ve valenčním rámci uváděna, neboť
+jsou podle FGP s&nbsp;lexikálními jednotkami volně slučitelná. Seznam valenčních doplnění uplatněných ve <em>VALLEX</em>u je
+uveden v&nbsp;<a href="#sec-sect-functors" class="href">odd.&nbsp;3.2</a>.
+<p><p class="bigskip">
+<p class="noindent">
+Ve <em>VALLEX</em>u je valenční rámec modelován jako
+posloupnost valenčních a&nbsp;nevalenčních pozic, kde každá pozice
+odpovídá jednomu valenčnímu, příp. typickému doplnění daného
+slovesa. Každá pozice je charakterizována:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<em>funktorem</em>, označujícím typ
+syntakticko-sémantického
+vztahu mezi slovesem a&nbsp;jeho doplněním, viz <a href="#sec-sect-functors" class="href">odd.&nbsp;3.2</a>;
+
+	</li><li><p>
+		seznamem možných <em>morfematických forem</em>,
+        viz <a href="#sec-sect-morfforms" class="href">odd.&nbsp;3.3</a>;
+
+	</li><li><p>
+		informací o&nbsp;<em>obligatornosti</em>, viz <a href="#sec-sect-types" class="href">odd.&nbsp;3.4</a>.
+	</li>
+</ul><p>
+<p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-functors" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-functors">3.2&nbsp;&nbsp;Funktory pro aktanty, kvazivalenční a&nbsp;volná doplnění</h3>
+
+<p>
+
+<p>V&nbsp;následujícím výčtu jsou shrnuty <em>funktory</em>, označující typy
+syntakticko-sémantického
+vztahu mezi slovesem a&nbsp;jeho doplněním, které se
+ve <em>VALLEX</em>u vyskytují. Pro úplnost zde uvádíme všechny funktory
+pro volná doplnění s&nbsp;alespoň jedním výskytem ve slovníku
+bez ohledu na to, zda jsou  ve zde uváděných příkladových větách
+ příslušná doplnění valenční, nebo zda jde pouze o&nbsp;doplnění
+typická, tedy nevalenční.<a href="#fn6" id="fnmark6" class="footnote">6</a>
+<p><p>
+<h5>Aktanty:</h5><p>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="functorVR">ACT</span> (Aktor&#8202;/&#8202;Konatel): &nbsp;
+                  <span class="example"><span class="ul">Petr</span> čte dopis.</span>
+
+	</li><li><p>
+		<span class="functorVR">PAT</span> (Patiens): &nbsp;
+                  <span class="example">Potkal jsem <span class="ul">bratra</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">EFF</span> (Výsledek děje&nbsp;/&nbsp;Efekt): &nbsp;
+                  <span class="example">Jmenovali ho <span class="ul">ředitelem</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">ADDR</span> (Adresát): &nbsp;
+                  <span class="example">Petr dal <span class="ul">Marii</span> knihu.</span>
+
+	</li><li><p>
+		<span class="functorVR">ORIG</span> (Původ): &nbsp;
+                  <span class="example">Upekla <span class="ul">z&nbsp;jablek</span> koláč. </span>
+	</li>
+</ul><p>
+<p><p>
+<h5>Kvazivalenční doplnění:</h5><p>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="functorVR">DIFF</span> (Rozdíl): &nbsp;
+                    <span class="example">Hodnota akcií stoupla  <span class="ul">o&nbsp;100&nbsp;%</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">INTT</span> (Záměr): &nbsp;
+                    <span class="example">Přišel <span class="ul">navštívit</span> Janu.</span>
+
+	</li><li><p>
+		<span class="functorVR">OBST</span> (Překážka): &nbsp;
+                    <span class="example">Zachytila rukou <span class="ul">o&nbsp;stůl</span>.</span>
+	</li>
+</ul><p>
+<p><p><h5>Volná doplnění (abecedně):</h5><p>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="functorVR">ACMP</span> (Doprovod): &nbsp;
+                    <span class="example">Matka tam šla <span class="ul">s&nbsp;dětmi</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">AIM</span> (Účel): &nbsp;
+                    <span class="example">Jan šel do pekárny <span class="ul">pro chléb</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">BEN</span> (Benefaktor): &nbsp;
+                    <span class="example">Připravila <span class="ul">pro děti</span> snídani.</span>
+
+	</li><li><p>
+		<span class="functorVR">CAUS</span> (Příčina): &nbsp;
+                    <span class="example">Petr <span class="ul">pro nemoc</span> končí s&nbsp;prací.</span>
+
+	</li><li><p>
+		<span class="functorVR">COMPL</span> (Doplněk): &nbsp;
+                    <span class="example">Pracoval <span class="ul">jako učitel</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">CRIT</span> (Kritérium): &nbsp;
+                    <span class="example">Třídili diamanty <span class="ul">podle velikosti</span>. </span>
+<p>
+	</li><li><p>
+		<span class="functorVR">DIR1</span> (Směr &ndash; odkud): &nbsp;
+                    <span class="example">Přišel  <span class="ul">z&nbsp;lesa</span> promočený.</span>
+
+	</li><li><p>
+		<span class="functorVR">DIR2</span> (Směr &ndash; kudy): &nbsp;
+                    <span class="example">Vydal se do sousední vesnice  <span class="ul">přes les</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">DIR3</span> (Směr &ndash; kam): &nbsp;
+                    <span class="example">Vydal se <span class="ul">do sousední vesnice</span> přes les.</span>
+
+	</li><li><p>
+		<span class="functorVR">EXT</span> (Míra): &nbsp;
+                    <span class="example">Tatínek měřil <span class="ul">2 metry</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">HER</span> (Dědictví): &nbsp;
+                    <span class="example">Pojmenovali nejstaršího syna <span class="ul">po otci</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">LOC</span> (Místo): &nbsp;
+                    <span class="example">Narodil se <span class="ul">v&nbsp;Itálii</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">MANN</span> (Způsob): &nbsp;
+                    <span class="example">Choval se k&nbsp;ní <span class="ul">laskavě</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">MEANS</span> (Prostředek): &nbsp;
+                    <span class="example">Napsal dopis <span class="ul">rukou</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">RCMP</span> (Náhrada): &nbsp;
+                    <span class="example">Koupila si nové tričko <span class="ul">za 350 Kč</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">REG</span> (Zřetel): &nbsp;
+                    <span class="example">Situace se <span class="ul">v&nbsp;tomto ohledu</span> výrazně zlepšila.</span>
+
+	</li><li><p>
+		<span class="functorVR">SUBS</span> (Substituce): &nbsp;
+                    <span class="example">Startoval  <span class="ul">za Slávii</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">TFHL</span> (Čas &ndash; na jak dlouho): &nbsp;
+                    <span class="example">Přerušil studium <span class="ul">na rok</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">TFRWH</span> (Čas &ndash; ze kdy): &nbsp;
+                    <span class="example">Jeho špatné vzpomínky pocházejí právě <span class="ul">z&nbsp;tohoto období</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">THL</span> (Čas &ndash; jak dlouho): &nbsp;
+                    <span class="example">Strávili jsme tam <span class="ul">tři týdny</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">TOWH</span> (Čas &ndash; na kdy): &nbsp;
+                    <span class="example">Odložili zkoušku z&nbsp;pondělka <span class="ul">na úterý</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">TSIN</span> (Čas &ndash; od kdy): &nbsp;
+                    <span class="example">Lhůtu počítáme  <span class="ul">od okamžiku dodání.</span></span>
+
+	</li><li><p>
+		<span class="functorVR">TTILL</span> (Čas &ndash; do kdy): &nbsp;
+                    <span class="example">Potrvá to <span class="ul">do večera</span>.</span>
+
+	</li><li><p>
+		<span class="functorVR">TWHEN</span> (Čas &ndash; kdy): &nbsp;
+                    <span class="example">Babička přijde <span class="ul">zítra</span>.</span>
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Kromě těchto funktorů se ve <em>VALLEX</em>u vyskytuje ještě hodnota <span class="functorVR">DIR</span>.
+Tato hodnota se používá jako zkratka k&nbsp;vyznačení,
+že daná lexikální jednotka  je
+charakterizována všemi
+typy doplnění směru (<span class="functorVR">DIR1</span>, <span class="functorVR">DIR2</span> a&nbsp;<span class="functorVR">DIR3</span>) jako typickými doplněními
+(tedy fakultativními doplněními typickými pro celé sémantické skupiny sloves).
+<p><p><h5>Závislá část frazému:</h5><p>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="functorVR">DPHR</span> (Závislá část frazému): &nbsp;
+                    <span class="example">Novináři ho neustále chytali <span class="ul">za slovo</span>.</span>
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Stranou uvádíme funktor označující závislou část frazému, neboť u&nbsp;tohoto typu doplnění neuvažujeme o&nbsp;klasifikaci aktant / kvazivalenční / volné doplnění.
+<p><p><h5>Pořadí funktorů:</h5><p>&nbsp;<br />
+Funktory jsou ve valenčním rámci uvedeny v&nbsp;následujícím pořadí:
+<p class="smallskip">
+<ol>
+
+	<li><p>
+		aktanty (jsou uváděny v&nbsp;tzv. systémovém
+    uspořádání, tedy v&nbsp;pořadí <span class="functorVR">ACT</span> &ndash; <span class="functorVR">ADDR</span> &ndash; <span class="functorVR">PAT</span>  &ndash; <span class="functorVR">ORIG</span> &ndash; <span class="functorVR">EFF</span>, více viz <a href="#bib:meaning" class="href" title="Sgall, P. &ndash; Hajičová, E. &ndash;   Panevová, J. (1986a): The Meaning of the   Sentence in Its Semantic and Pragmatic Aspects.  Dordrecht, Reidel.  ">Sgall et&nbsp;al., 1986a</a>);
+
+	</li><li><p>
+		obligatorní volná doplnění (v&nbsp;pořadí vybraném autorem hesla),
+
+	</li><li><p>
+		kvazivalenční doplnění (v&nbsp;pořadí vybraném autorem hesla),
+
+	</li><li><p>
+		typická doplnění (v&nbsp;pořadí vybraném autorem hesla).
+
+	</li>
+</ol><p>
+<p><p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-morfforms" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-morfforms">3.3&nbsp;&nbsp;Morfematické vyjádření</h3>
+
+<p>
+
+<p><p class="noindent">
+Každá valenční i&nbsp;nevalenční pozice může být ve větě vyjádřena
+omezenou množinou výrazových prostředků, morfematických forem. Ve
+<em>VALLEX</em>u je množina možných forem specifikována buď
+explicitně, nebo implicitně.
+<p><p class="bigskip">
+<p class="noindent">
+U&nbsp;<em>explicitně zachycených forem</em> jsou možné morfematické formy dány
+výčtem u&nbsp;dané pozice valenčního rámce (dolní index u&nbsp;příslušného
+funktoru).
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		U&nbsp;aktantů a&nbsp;kvazivalenčních doplnění je tento seznam
+    forem úplný (udávají se formy pro nepříznakové, tedy
+    aktivní, nereflexivní, nereciproční užití slovesa)<a href="#fn7" id="fnmark7" class="footnote">7</a>
+    &ndash; jiné prostředky nelze pro vyjádření těchto valenčních doplnění
+    užít.<a href="#fn8" id="fnmark8" class="footnote">8</a>
+<p>
+	</li><li><p>
+		V&nbsp;případě volných doplnění jsou explicitně uvedené formy  pro dané
+    sloveso pouze typické, lze užít i&nbsp;další formy dané sémantikou
+    doplnění.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+U&nbsp;<em>implicitně zachycených forem</em> se předpokládá, že množina možných
+forem je dána sémantikou doplnění, tedy vyplývá z&nbsp;příslušného
+funktoru. Jinými slovy, doplnění se může realizovat jakoukoliv
+formou vyjadřující daný typ doplnění; její výběr je ovšem závislý
+na lexikálním obsazení a&nbsp;kontextových podmínkách, např.
+<span class="example">bydlí na kopci<span class="functorvr">.LOC</span></span> vs. <span class="example">bydlí ve vesnici<span class="functorvr">.LOC</span></span>, <span class="example">napsal
+dopis rukou<span class="functorvr">.MEANS</span></span> vs. <span class="example">napsal dopis na počítači<span class="functorvr">.MEANS</span></span>.
+<p><p><h5>Explicitně zachycené formy.</h5><p>
+<p>Seznamy morfematických forem, které se mohou vyskytnout u
+jednotlivých valenčních pozic, sestávají z&nbsp;následujících typů
+hodnot:
+<p><p class="smallskip">
+<ul class="other">
+<p>
+	<li><p>
+		<b>Bezpředložkové pády.</b> Jednotlivé pády jsou označeny příslušnými číslicemi:
+   <span class="formval">1</span> &ndash; nominativ, <span class="formval">2</span>&nbsp;&ndash;&nbsp;genitiv, <span class="formval">3</span>
+   &ndash; dativ, <span class="formval">4</span> &ndash; akuzativ, <span class="formval">5</span> &ndash; vokativ, <span class="formval">7</span> &ndash;
+   instrumentál.
+<p>
+	</li><li><p>
+		<b>Předložkové skupiny.</b> Jsou určeny lemmatem předložky (v&nbsp;její nevokalizované podobě)
+   a&nbsp;číslem  pádu (např. <span class="formval">z+2</span>, <span class="formval">na+4</span>, <span class="formval">o+6</span>, &hellip;).
+   Ve <em>VALLEX</em>u se vyskytují následující předložky:
+   <span class="formval">bez</span>, <span class="formval">do</span>, <span class="formval">jako</span>,<a href="#fn9" id="fnmark9" class="footnote">9</a> <span class="formval">jako na</span>,
+   <span class="formval">k</span>, <span class="formval">kolem</span>, <span class="formval">kvůli</span>, <span class="formval">mezi</span>, <span class="formval">místo</span>, <span class="formval">na</span>, <span class="formval">nad</span>,
+    <span class="formval">o</span>, <span class="formval">od</span>,  <span class="formval">po</span>, <span class="formval">pod</span>, <span class="formval">podle</span>, <span class="formval">pro</span>, <span class="formval">proti</span>, <span class="formval">před</span>, <span class="formval">přes</span>, <span class="formval">při</span>, <span class="formval">s</span>, <span class="formval">u</span>, <span class="formval">v</span>, <span class="formval">z</span>, <span class="formval">za</span>.
+<p>
+	</li><li><p>
+		<b>Infinitivní konstrukce.</b> Značka <span class="formval">inf</span> reprezentuje valenční doplnění ve formě
+   infinitivu slovesa (ve vzácných případech též se spojkou <span class="formval">než+inf</span>).
+<p>
+	</li><li><p>
+		<b>Závislé věty.</b>
+   Závislé věty obsahové uvozené podřadicí spojkou jsou reprezentovány lemmatem této spojky;
+   ve <em>VALLEX</em>u se vyskytují následující spojky: <span class="formval">aby</span>, <span class="formval">ať</span>, <span class="formval">jak</span>,
+   <span class="formval">zda</span>,<a href="#fn10" id="fnmark10" class="footnote">10</a>
+     <span class="formval">že</span>.<br />
+   Závislé věty obsahové, které nejsou uvozeny spojkami
+   (např. nepřímé otázky uvozené tázacím zájmenem nebo adverbiem), jsou reprezentovány zkratkou <span class="formval">cont</span>.
+<p>
+	</li><li><p>
+		<b>Konstrukce s&nbsp;adjektivy. </b>  Zkratka <span class="formval">adj-číslice</span>
+    specifikuje doplnění ve formě přídavného jména v&nbsp;příslušném pádu
+    (např. <span class="formval">adj-1</span> pro <span class="example">cítím se slabý</span>), případně v&nbsp;kombinaci s&nbsp;předložkou (např. <span class="formval">za+adj-4</span> pro <span class="example">jeho chování měl za neslušné</span>).
+<p>
+	</li><li><p>
+		<b>Konstrukce s&nbsp;<span class="example">být</span>.</b>  Infinitiv slovesa <span class="example">být</span>
+    se může vyskytnout v&nbsp;konstrukci s&nbsp;adjektivem či s&nbsp;bezpředložkovým pádem (např. <span class="formval">být+adj-1</span> pro
+    <span class="example">zdá se to být dostatečné</span>, <span class="formval">být+7</span> pro <span class="example">demolice se zdá být řešením</span>).
+<p>
+	</li><li><p>
+		<b>Část frazému.</b> U&nbsp;frazeologických jednotek platí, že pokud je množina lexikálních forem, které naplňují
+    určitou valenční pozici, omezená (často jednočlenná), jsou ve <em>VALLEX</em>u uvedeny přímo
+    tyto lexikální formy (např. <span class="formval">napospas</span> pro frazém <span class="example">ponechat napospas</span>).
+	</li>
+</ul><p>
+<p><p><h5>Implicitně zachycené formy.</h5><p>
+<p>Pokud není u&nbsp;volného doplnění explicitně určena jeho možná forma,
+potom množina možných forem vyplývá z&nbsp;funktoru pro toto
+doplnění. Následující výčet udává formy obvyklé pro dané funktory
+(seznam vychází z&nbsp;nejčastějších forem pro jednotlivé funktory
+v&nbsp;Pražském závislostním korpusu).
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="functorVR">ACMP</span>: <span class="formval">bez+2</span>, <span class="formval">s+7</span>, <span class="formval">společně&nbsp;s+7</span>, <span class="formval">spolu&nbsp;s+7</span>, <span class="formval">v&nbsp;čele&nbsp;s+7</span>, <span class="formval">v&nbsp;souvislosti&nbsp;s+7</span>, <span class="formval">ve spojení&nbsp;s+7</span>, <span class="formval">včetně+2</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">AIM</span>: <span class="formval">do+2</span>, <span class="formval">k+3</span>, <span class="formval">na+4</span>, <span class="formval">o+4</span>, <span class="formval">pro+4</span>, <span class="formval">pro případ+2</span>, <span class="formval">proti+3</span>, <span class="formval">v&nbsp;zájmu+2</span>, <span class="formval">za+4</span>, <span class="formval">za+7</span>,
+  <span class="formval">aby</span>, <span class="formval">ať</span>, <span class="formval">že</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">BEN</span>: <span class="formval">3</span>, <span class="formval">na+4</span>, <span class="formval">na účet+2</span>, <span class="formval">na úkor+2</span>, <span class="formval">na vrub+2</span>, <span class="formval">pro+4</span>, <span class="formval">proti+3</span>, <span class="formval">v+4</span>, <span class="formval">ve prospěch+2</span>, <span class="formval">v&nbsp;rozporu&nbsp;s+7</span>, <span class="formval">v&nbsp;zájmu+2</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">CAUS</span>: <span class="formval">7</span>, <span class="formval">díky+3</span>, <span class="formval">kvůli+3</span>, <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">na základě+2</span>,
+    <span class="formval">nad+7</span>, <span class="formval">následkem+2</span>, <span class="formval">od+2</span>, <span class="formval">pod+7</span>, <span class="formval">pod
+    náporem+2</span>, <span class="formval">pod tíhou+2</span>, <span class="formval">pod váhou+2</span>, <span class="formval">pro+4</span>, <span class="formval">v+6</span>, <span class="formval">v&nbsp;důsledku+2</span>,
+	<span class="formval">v&nbsp;souvislosti s+7</span>, <span class="formval">vinou+2</span>,
+	<span class="formval">vlivem+2</span>, <span class="formval">vzhledem k+3</span>, <span class="formval">z+2</span>, <span class="formval">z&nbsp;důvodu+2</span>, <span class="formval">za+4</span>, <span class="formval">za+7</span>, <span class="formval">zásluhou+2</span>,
+	<span class="formval">adverb</span>, <span class="formval">aby</span>, <span class="formval">jelikož</span>, <span class="formval">ježto</span>, <span class="formval">poněvadž</span>, <span class="formval">protože</span>, <span class="formval">že</span>,
+    &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">CRIT</span>: <span class="formval">2</span>, <span class="formval">7</span>, <span class="formval">dle+2</span>, <span class="formval">na+6</span>, <span class="formval">na základě+2</span>, <span class="formval">po vzoru+2</span>, <span class="formval">podle+2</span>, <span class="formval">přiměřeně+3</span>, <span class="formval">v+6</span>, <span class="formval">v&nbsp;duchu+2</span>,
+ <span class="formval">v&nbsp;rozporu s+7</span>, <span class="formval">ve shodě s+7</span>, <span class="formval">ve smyslu+2</span>, <span class="formval">v&nbsp;souladu s+7</span>, <span class="formval">v&nbsp;souhlase s+7</span>, <span class="formval">ve světle+2</span>, <span class="formval">v&nbsp;závislosti na+6</span>,
+ <span class="formval">z&nbsp;titulu+2</span>, &hellip; ;
+<p><p>
+	</li><li><p>
+		<span class="functorVR">DIR1</span>: <span class="formval">od+2</span>, <span class="formval">s+2</span>, <span class="formval">z+2</span>, <span class="formval">ze strany+2</span>, <span class="formval">zpod+2</span>, <span class="formval">zpoza+2</span>,
+  <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">DIR2</span>: <span class="formval">7</span>, <span class="formval">cestou+2</span>, <span class="formval">kolem+2</span>, <span class="formval">mezi+7</span>, <span class="formval">napříč+7</span>, <span class="formval">po+6</span>, <span class="formval">podél+2</span>, <span class="formval">přes+4</span>, <span class="formval">skrz+4</span>, <span class="formval">v+6</span>, <span class="formval">adverb</span>, &hellip;;
+<p>
+	</li><li><p>
+		<span class="functorVR">DIR3</span>: <span class="formval">7</span>, <span class="formval">do+2</span>, <span class="formval">do čela+2</span>, <span class="formval">k+3</span>, <span class="formval">kolem+2</span>, <span class="formval">mezi+4</span>, <span class="formval">mimo+4</span>, <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">nad+4</span>, <span class="formval">naproti+3</span>,
+  <span class="formval">okolo+2</span>, <span class="formval">po+4</span>, <span class="formval">po+6</span>, <span class="formval">pod+4</span>, <span class="formval">proti+3</span>, <span class="formval">před+4</span>, <span class="formval">přes+4</span>, <span class="formval">směrem do+2</span>, <span class="formval">směrem k+3</span>, <span class="formval">směrem na+4</span>, <span class="formval">v+4</span>, <span class="formval">vedle+2</span>,
+  <span class="formval">za+4</span>, <span class="formval">za+7</span>, <span class="formval">adverb</span>, &hellip; ;
+<p><p>
+	</li><li><p>
+		<span class="functorVR">EXT</span>: <span class="formval">2</span>, <span class="formval">4</span>, <span class="formval">7</span>, <span class="formval">do+2</span>, <span class="formval">k+3</span>, <span class="formval">kolem+2</span>, <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">nad+4</span>,
+  <span class="formval">okolo+2</span>, <span class="formval">po+6</span>, <span class="formval">pod+7</span>, <span class="formval">přes+4</span>, <span class="formval">v+4</span>, <span class="formval">z+2</span>, <span class="formval">za+4</span>, <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">HER</span>: <span class="formval">po+6</span>, <span class="formval">podle+2</span>, &hellip; ;
+<p><p style="margin-top:8mm">
+
+	</li><li><p>
+		<span class="functorVR">LOC</span>: <span class="formval">blízko+2</span>, <span class="formval">blízko+3</span>, <span class="formval">daleko+2</span>, <span class="formval">do+2</span>, <span class="formval">kolem+2</span>, <span class="formval">mezi+7</span>, <span class="formval">mimo+4</span>, <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">na úroveň+2</span>,
+  <span class="formval">nad+7</span>, <span class="formval">naproti+3</span>,
+  <span class="formval">nedaleko+2</span>, <span class="formval">okolo+2</span>, <span class="formval">po+6</span>, <span class="formval">poblíž+2</span>, <span class="formval">pod+7</span>, <span class="formval">podél+2</span>, <span class="formval">proti+3</span>, <span class="formval">před+7</span>,
+  <span class="formval">přes+4</span>, <span class="formval">při+6</span>, <span class="formval">stranou+2</span>, <span class="formval">u+2</span>, <span class="formval">uprostřed+2</span>, <span class="formval">uvnitř+2</span>, <span class="formval">v+6</span>, <span class="formval">v&nbsp;čele+2</span>, <span class="formval">v&nbsp;oblasti+2</span>, <span class="formval">v&nbsp;rámci+2</span>, <span class="formval">v&nbsp;řadě+2</span>,
+  <span class="formval">vedle+2</span>, <span class="formval">za+4</span>, <span class="formval">za+7</span>,
+  <span class="formval">adverb</span>,&nbsp;&hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">MANN</span>: <span class="formval">7</span>, <span class="formval">do+2</span>, <span class="formval">formou+2</span>, <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">nad+4</span>, <span class="formval">o+4</span>, <span class="formval">po+6</span>, <span class="formval">pod+7</span>, <span class="formval">proti+3</span>,
+  <span class="formval">před+7</span>, <span class="formval">přes+4</span>, <span class="formval">při+6</span>, <span class="formval">s+7</span>,
+  <span class="formval">v+4</span>, <span class="formval">v+6</span>,
+  <span class="formval">ve formě+2</span>, <span class="formval">v&nbsp;podobě+2</span>, <span class="formval">vedle+2</span>, <span class="formval">z+2</span>, <span class="formval">za+4</span>, <span class="formval">za+7</span>, <span class="formval">jak</span>, <span class="formval">že</span>, <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">MEANS</span>: <span class="formval">7</span>, <span class="formval">cestou+2</span>, <span class="formval">díky+3</span>, <span class="formval">do+2</span>, <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">o+6</span>, <span class="formval">po+6</span>, <span class="formval">pod+7</span>,
+  <span class="formval">pomocí+2</span>, <span class="formval">prostřednictvím+2</span>, <span class="formval">přes+4</span>, <span class="formval">s+7</span>, <span class="formval">s&nbsp;pomocí+2</span>, <span class="formval">skrz+4</span>, <span class="formval">v+6</span>, <span class="formval">z+2</span>, <span class="formval">za+4</span>, <span class="formval">za pomoci+2</span>, <span class="formval">že</span>,
+  <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">REG</span>: <span class="formval">7</span>, <span class="formval">bez ohledu na+4</span>, <span class="formval">bez zřetele k+3</span>, <span class="formval">k+3</span>, <span class="formval">kolem+2</span>,
+  <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">na téma+2</span>, <span class="formval">nad+7</span>,
+  <span class="formval">nezávisle na+6</span>, <span class="formval">o+6</span>, <span class="formval">ohledně+2</span>, <span class="formval">po+6</span>, <span class="formval">pro+4</span>, <span class="formval">před+7</span>, <span class="formval">při+6</span>,
+  <span class="formval">s+7</span>, <span class="formval">s&nbsp;ohledem na+4</span>, <span class="formval">se zřetelem k+3</span>, <span class="formval">se zřetelem na+4</span>, <span class="formval">u+2</span>,
+  <span class="formval">v+6</span>, <span class="formval">v&nbsp;otázce+2</span>, <span class="formval">v&nbsp;případě+2</span>, <span class="formval">v&nbsp;rámci+2</span>, <span class="formval">v&nbsp;souvislosti s+7</span>, <span class="formval">ve věci+2</span>,
+  <span class="formval">ve vztahu k+3</span>, <span class="formval">vůči+3</span>, <span class="formval">vzhledem k+3</span>, <span class="formval">z+2</span>, <span class="formval">z&nbsp;hlediska+2</span>, <span class="formval">za+4</span>,
+  <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">SUBS</span>: <span class="formval">jménem+2</span>, <span class="formval">místo+2</span>, <span class="formval">namísto+2</span>, <span class="formval">výměnou za+4</span>, <span class="formval">za+4</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">TFHL</span>: <span class="formval">do+2</span>, <span class="formval">na+4</span>, <span class="formval">po+2</span>, <span class="formval">pro+4</span>, <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">TFRWH</span>: <span class="formval">od+2</span>, <span class="formval">z+2</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">THL</span>: <span class="formval">2</span>, <span class="formval">4</span>, <span class="formval">7</span>, <span class="formval">do+2</span>, <span class="formval">na+4</span>, <span class="formval">po+4</span>, <span class="formval">po dobu+2</span>, <span class="formval">přes+4</span>,
+  <span class="formval">v+2</span>, <span class="formval">za+4</span>, <span class="formval">adverb</span>, <span class="formval">až</span>, <span class="formval">dokud</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">TOWH</span>: <span class="formval">do+2</span>, <span class="formval">k+3</span>, <span class="formval">na+4</span>, <span class="formval">pro+4</span>, <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">TSIN</span>: <span class="formval">od+2</span>, <span class="formval">počínaje+7</span>, <span class="formval">z+2</span>, <span class="formval">adverb</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">TTILL</span>: <span class="formval">do+2</span>, <span class="formval">k+3</span>, <span class="formval">po+4</span>, <span class="formval">adverb</span>, <span class="formval">až</span>, <span class="formval">dokud</span>, <span class="formval">než</span>, &hellip; ;
+<p>
+	</li><li><p>
+		<span class="functorVR">TWHEN</span>:  <span class="formval">2</span>, <span class="formval">4</span>, <span class="formval">7</span>, <span class="formval">do+2</span>,
+  <span class="formval">k+3</span>, <span class="formval">kolem+2</span>, <span class="formval">koncem+2</span>, <span class="formval">mezi+7</span>,
+  <span class="formval">na+4</span>, <span class="formval">na+6</span>, <span class="formval">na závěr+2</span>, <span class="formval">než</span>, <span class="formval">o+6</span>, <span class="formval">okolo+2</span>, <span class="formval">po+6</span>, <span class="formval">počátkem+2</span>, <span class="formval">postupem+2</span>,
+  <span class="formval">poté co</span>, <span class="formval">před+7</span>, <span class="formval">předtím než</span>, <span class="formval">při+6</span>, <span class="formval">s+7</span>, <span class="formval">u&nbsp;příležitosti+2</span>,
+  <span class="formval">v+4</span>, <span class="formval">v+6</span>, <span class="formval">v&nbsp;době+2</span>, <span class="formval">v&nbsp;období+2</span>, <span class="formval">v&nbsp;průběhu+2</span>, <span class="formval">v&nbsp;závěru+2</span>, <span class="formval">z+2</span>, <span class="formval">za+2</span>, <span class="formval">za+4</span>, <span class="formval">začátkem+2</span>, <span class="formval">adverb</span>, <span class="formval">až</span>, <span class="formval">jakmile</span>, <span class="formval">když</span>,&nbsp;&hellip;
+<p>	</li>
+</ul><p>
+<p><p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-types" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-types">3.4&nbsp;&nbsp;Obligatornost slovesného doplnění</h3>
+
+<p>
+
+<p><p class="noindent">
+Ve <em>VALLEX</em>u se (v&nbsp;souladu s&nbsp;valenční teorií FGP) slovesná
+doplnění dělí na obligatorní a&nbsp;fakultativní <a class="href">(</a><a href="#bib:panevova-80" class="href" title="Panevová, J. (1980): Formy a funkce ve stavbě   české věty.  Praha, Academia.  ">Panevová, 1980</a><a class="href">)</a>.
+ <em>Obligatorností</em> se rozumí povinná přítomnost daného doplnění
+v&nbsp;hloubkové (tektogramatické) struktuře, více viz <a href="THEORY.html#sec-sect-oblig-fakult" class="href">odd.&nbsp;THEORY > 1.3</a>.
+<p>Opozice obligatornosti a&nbsp;fakultativnosti se týká aktantů,
+kvazivalenčních doplnění i&nbsp;volných doplnění.
+Je proto zachycena u&nbsp;každé pozice valenčního rámce:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		Obligatorní doplnění (aktanty, kvazivalenční i&nbsp;volná doplnění)
+jsou tištěna zvýrazněným písmem, např. <span class="functorVR obl">LOC</span><span class="formval down"></span> značí obligatorní volné doplnění Místo.
+
+	</li><li><p>
+		Stejným písmem jsou tištěny i&nbsp;fakultativní aktanty a&nbsp;kvazivalenční doplnění (patří též do úzce
+chápaného valenčního rámce), ty jsou navíc odlišeny značkou <span class="formval up">opt</span>&nbsp;v&nbsp;horním indexu, např. <span class="functorVR obl">EFF</span><span class="obloptyp up">opt</span> značí fakultativní aktant Efekt.
+
+	</li><li><p>
+		Typická volná doplnění, která rozšiřují tradiční
+valenční rámec, jsou tištěna obyčejným písmem a&nbsp;označena horním
+indexem <span class="formval up">typ</span>, např. <span class="functorVR">BEN</span><span class="obloptyp up">typ</span> značí typické volné doplnění Benefaktor.
+	</li>
+</ul><p>
+<p><p>
+<p></div> <!-- LEVEL: 3->2 -->
+</div> <!-- LEVEL: 3->2 -->
+
+
+<div id="text-sect-optional" class="textblock"> <!-- LEVEL: 2 -->
+<h2 id="sec-sect-optional">4&nbsp;&nbsp;Doplňující syntaktické informace</h2>
+
+<p>
+
+<p><p class="noindent">
+Jednotlivé lexikální jednotky mohou být obohaceny o&nbsp;nepovinné, doplňující
+syntaktické, případně syntakticko-sémantické informace úzce související s&nbsp;valencí slovesa. Ve <em>VALLEX</em>u je zachycena
+informace o&nbsp;kontrole (<a href="#sec-sect-control" class="href">odd.&nbsp;4.1</a>) a&nbsp;o&nbsp;gramatikalizovaných alternacích, a&nbsp;to o&nbsp;diatezích (<a href="#sec-sect-diat" class="href">odd.&nbsp;4.2</a>), o&nbsp;reflexivitě (<a href="#sec-sect-reflexivity" class="href">odd.&nbsp;4.3</a>) a&nbsp;o&nbsp;reciprocitě (<a href="#sec-sect-reciprocity" class="href">odd.&nbsp;4.4</a>). Tyto
+gramatické jevy přímo ovlivňují povrchové projevy valence.
+<p><p>Dále se u&nbsp;vybraných lexikálních jednotek uvádí odkaz na lexikální jednotky ve vztahu lexikalizované alternace (<a href="#sec-sect-alter" class="href">odd.&nbsp;4.5</a>)
+a&nbsp;jejich zařazení do syntakticko&ndash;sémantické
+třídy (<a href="#sec-sect-class" class="href">odd.&nbsp;4.6</a>), která
+umožňují zkoumat, jak se sémantická blízkost sloves odráží v&nbsp;jejich valenčních vlastnostech.
+<p><p>Z&nbsp;pohledu valence je relevantní též  příznak pro idiom
+(<a href="#sec-sect-idiom" class="href">odd.&nbsp;4.7</a>), neboť frazémy a&nbsp;idiomy často vykazují
+specifické valenční chování.
+<p><p><p>
+
+<div id="text-sect-control" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-control">4.1&nbsp;&nbsp;Kontrola</h3>
+
+<p>
+
+<p><p class="noindent">
+Termínem <em>kontrola</em> (značka <span class="verbattr">control</span>) se ve <em>VALLEX</em>u
+rozumí vlastnost některých sloves (tzv. sloves kontroly) vyžadovat
+koreferenci mezi některým svým valenčním doplněním (<span class="gloss">&bdquo;controller&ldquo;</span>) a
+valenčním doplněním podřízeného slovesa (<span class="gloss">&bdquo;controllee&ldquo;</span>) (viz zejm.
+<a href="#bib:pan-96" class="href" title="Panevová, J. (1996): More Remarks on Control.:  Prague Linguistic Circle Papers. 2, s.&nbsp;101&ndash;120.  ">Panevová, 1996</a>). Ve <em>VALLEX</em>u je tento vztah zaznamenán pouze
+pro slovesa, která mohou mít valenční doplnění ve formě infinitivu (bez
+ohledu na jeho funktor). Za kontrolovaný člen (<span class="gloss">&bdquo;controllee&ldquo;</span>) je pak
+považován subjekt tohoto infinitivu (který je v&nbsp;povrchové podobě
+věty v&nbsp;češtině nevyjádřitelný), kontrolující člen (<span class="gloss">&bdquo;controller&ldquo;</span>) je
+výraz s&nbsp;ním koreferenční, typicky člen valenčního rámce řídícího
+slovesa kontroly.
+<p>Ve <em>VALLEX</em>u je kontrola zachycena
+v&nbsp;atributu <span class="verbattr">control</span>&nbsp;následujícím způsobem:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+
+  atribut <span class="verbattr">control</span>&nbsp;má hodnotu funktoru toho
+  doplnění z&nbsp;valenčního rámce slovesa kontroly, které je v&nbsp;koreferenčním vztahu s&nbsp;(nevyjádřeným) subjektem
+  infinitivu;
+
+	</li><li><p>
+
+  atribut <span class="verbattr">control</span>&nbsp;má hodnotu <span class="verbattr">control</span>ex v&nbsp;případě, že ve valenčním rámci řídícího slovesa kontroly nelze takové doplnění identifikovat.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Atribut <span class="verbattr">control</span> je vyznačen u&nbsp;520 lexikálních jednotek.
+<p><p class="medskip">
+<p class="noindent"> Příklady:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="verbattr">control</span>:&nbsp;<span class="functorVR">ACT</span>, např. <span class="lemma">pokoušet se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">pokusit se<span class="asp up">pf</span></span>,
+ srov. <span class="example">Jiří<span class="functorvr">.ACT</span> se pokusí přijít.</span> (~&nbsp;<span class="example">Jiří přijde.</span>)
+
+	</li><li><p>
+		<span class="verbattr">control</span>:&nbsp;<span class="functorVR">PAT</span>, např. <span class="lemma">slyšet<span class="asp up">impf</span></span>, srov. <span class="example">Děti slyší někoho<span class="functorvr">.PAT</span>  přicházet.</span>
+ (~&nbsp;<span class="example">Někdo přichází.</span>)
+
+	</li><li><p>
+		<span class="verbattr">control</span>:&nbsp;<span class="functorVR">ADDR</span>, např. <span class="lemma">doporučovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">doporučit<span class="asp up">pf</span></span>,
+ srov. <span class="example">Doporučili mu<span class="functorvr">.ADDR</span> jít k&nbsp;lékaři.</span> (~&nbsp;<span class="example">(On) jde k&nbsp;lékaři.</span>)
+
+	</li><li><p>
+		<span class="verbattr">control</span>:&nbsp;<span class="verbattr">control</span>ex , např. <span class="lemma">jít<span class="asp up">impf</span></span>, srov.  <span class="example">Jde to udělat.</span> (ve smyslu <span class="gloss">&bdquo;lze to udělat&ldquo;</span>)
+ (~&nbsp;<span class="example">Kdokoli to může udělat.</span>)
+	</li>
+</ul><p>
+<p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-diat" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-diat">4.2&nbsp;&nbsp;Diateze</h3>
+
+<p>
+
+<p>Slovník <em>VALLEX</em> u
+lexikálních jednotek zachycuje možnost tvořit příznakové konstrukce jednotlivých diatezí,
+neboť tyto konstrukce systematickým způsobem mění valenční charakteristiku sloves: diateze
+jsou typicky spojeny s&nbsp;odsunutím situačního participantu odpovídajícího Konateli (<span class="functorVR">ACT</span>)
+z&nbsp;prominentní syntaktické pozice subjektu, přičemž korespondence situačních participantů a
+valenčních doplnění zůstává zachována <a class="href">(</a><a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a><a class="href">)</a>, více zde <a href="THEORY.html#sec-sect-valence-alternace" class="href">odd.&nbsp;THEORY > 2</a>;
+z&nbsp;formálního hlediska tyto změny popisuje gramatická komponenta.<a href="#fn11" id="fnmark11" class="footnote">11</a>
+<p>V&nbsp;datové komponentě <em>VALLEX</em>u je v&nbsp;atributu <span class="verbattr">diat</span> uveden výčet možných diatezí,
+do nichž daná lexikální jednotka slovesa vstupuje. Tento atribut může nabývat následujících hodnot:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="verbattr">pass</span>  pro diateze, v&nbsp;jejichž příznakovém členu má sloveso formu trpného participia s&nbsp;pomocným slovesem <span class="example">být</span>
+ (vyznačeno u&nbsp;3&thinsp;346  lexikálních jednotek);<br />
+   explicitně  	označuje diatezi pasivní, implicitně zahrnuje i&nbsp;diatezi rezultativní prostou;
+<p>
+	</li><li><p>
+		<span class="verbattr">deagent</span> pro diateze,&nbsp;v&nbsp;nichž je příznakový člen realizován reflexivní formou slovesnou (4&thinsp;115 lexikálních jednotek); <br />
+	explicitně vyznačuje deagentní diatezi, implicitně diatezi dispoziční;
+<p>
+	</li><li><p>
+		<span class="verbattr">poss</span>
+pro diateze, v&nbsp;nichž sloveso v&nbsp;příznakovém členu má formu trpného participia s&nbsp;pomocným slovesem <span class="example">mít</span> (1&thinsp;866 lexikálních jednotek);<br />
+   explicitně vyznačuje rezultativ posesivní, u&nbsp;příkladů jsou rozlišeny následující podtypy:
+<p>    <ul class="other">
+
+	<li><p>
+		<span class="verbattr">poss<sub>nconv</sub></span>: nekonverzní typ, kdy subjektem v&nbsp;příznakové konstrukci je Konatel,
+
+	</li><li><p>
+		<span class="verbattr">poss<sub>conv</sub></span>:  konverzní typ, kdy je Konatel v&nbsp;příznakové konstrukci odsunut z&nbsp;pozice subjektu,
+
+	</li><li><p>
+		<span class="verbattr">poss</span>: homonymní případy, které lze rozlišit až na základě širšího kontextu;
+    	</li>
+</ul><p>
+    implicitně označuje též recipientní pasivní diatezi s&nbsp;pomocným slovesem <span class="example">mít</span>;
+<p>
+	</li><li><p>
+		<span class="verbattr">recipient</span>  pro recipientní pasivní diatezi, u&nbsp;níž má sloveso v&nbsp;příznakovém členu formu trpného participia
+	s&nbsp;pomocným slovesem <span class="example">dostat</span> (127 lexikálních jednotek).
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Příznakové členy jednotlivých diatezí jsou ve <em>VALLEX</em>u exemplifikovány příklady z&nbsp;Českého národního korpusu (řada SYN).
+<p><p style="margin-top:5mm">
+<p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-reflexivity" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-reflexivity">4.3&nbsp;&nbsp;Reflexivita</h3>
+
+<p>
+
+<p>Reflexivitou se zde rozumí skutečnost,
+že reflexivní osobní zájmeno (jeho krátké, klitické formy <span class="example">se/si</span> a
+dlouhé formy <span class="example">sebe/sobě</span>) vyjadřují referenční
+totožnost aktantu v&nbsp;subjektové pozici (typicky Konatele (<span class="functorVR">ACT</span>)) a
+aktantu vyjádřeného daným reflexivem;
+užití reflexivního osobního zájmena vyjadřuje, že Konatel vykonává děj sám na sobě.
+<p>Ve <em>VALLEX</em>u je možnost reflexivního užití zachycena v&nbsp;atributu <span class="verbattr">refl</span>,<a href="#fn12" id="fnmark12" class="footnote">12</a>
+který může nabývat následujících dvou hodnot:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="attrvalue">coref4</span>  pro syntaktickou reflexivitu, při níž reflexivní osobní zájmeno
+      vyjadřuje referenční totožnost  aktantu v&nbsp;subjektové pozici a&nbsp;akuzativního aktantu vyjádřeného tímto reflexivem,
+      např. <span class="example">mýt se&#8202;/&#8202;sebe</span>, <span class="example">vidět se&#8202;/&#8202;sebe</span>,
+  kde reflexivní osobní zájmeno  je Patientem
+  (<span class="functorVR">PAT</span>) koreferujícím s&nbsp;Konatelem (<span class="functorVR">ACT</span>)
+  slovesa <span class="lemma">mýt<span class="asp up">impf</span></span>, <span class="lemma">vidět<span class="asp up">pf</span></span>  (vyznačeno pro 428 lexikálních jednotek);
+
+	</li><li><p>
+		<span class="attrvalue">coref3</span> pro syntaktickou reflexivitu, při níž reflexivní osobní zájmeno
+       vyjadřuje referenční totožnost aktantu v&nbsp;subjektové pozici  a&nbsp;dativního aktantu vyjádřeného tímto reflexivem, např.
+       <span class="example">darovat si&#8202;/&#8202;sobě něco</span>, kde  reflexivní osobní zájmeno je Adresát (<span class="functorVR">ADDR</span>)
+  slovesa <span class="lemma">darovat<span class="asp up">pf</span></span> koreferující s&nbsp;Aktorem (<span class="functorVR">ACT</span>) tohoto slovesa
+  (466 lexikálních jednotek).
+	</li>
+</ul><p>
+<p><p class="bigskip">
+<p class="noindent">
+<em>VALLEX</em> se omezuje na zachycení těch případů syntaktické reflexivity,
+která může být vyjádřena krátkými (klitickými) tvary reflexivního osobního zájmena.
+Nepokrývá tedy  případy, kdy je gramatikalizována dlouhá forma reflexiva,
+např. v&nbsp;předložkové skupině, srov. <span class="example">Ode dneška (my<span class="functorvr">.ACT</span>) děláme na sebe<span class="functorvr">.PAT</span>.</span>,
+<span class="example">Rodiče<span class="functorvr">.ACT</span> ponechali doklady u&nbsp;sebe<span class="functorvr">.LOC</span>.</span>,
+v&nbsp;pádech, kde reflexivum nemá klitickou formu (tedy v&nbsp;genitivu nebo v&nbsp;instrumentálu), či je součástí idiomu,
+srov. <span class="example">Praštil sebou o&nbsp;postel.</span><a href="#fn13" id="fnmark13" class="footnote">13</a>
+<p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-reciprocity" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-reciprocity">4.4&nbsp;&nbsp;Reciprocita</h3>
+
+<p>
+
+<p>Reciprocita je operace, při níž &ndash; jsou-li splněny podmínky pro její uplatnění
+&ndash; vstupují některé situační participanty (a&nbsp;jim odpovídající valenční doplnění) do&nbsp;vztahu symetrie <a class="href">(</a><a href="#bib:pan-rec-99" class="href" title="Panevová, J. (1999): Česká reciproční   zájmena a slovesná valence.  Slovo a slovesnost. 60(4), s.&nbsp;269&ndash;275.  ">Panevová, 1999</a><a class="href">;</a> <a href="#bib:pan-rec-cz-07" class="href" title="Panevová, J. (2007): Znovu o reciprocitě.:  Slovo a slovesnost. 68(2), s.&nbsp;91&ndash;100.  ">Panevová, 2007</a><a class="href">;</a> <a href="#bib:pan-rec-pbml-07" class="href" title="Panevová, J. &ndash; Mikulová, M. (2007): On   Reciprocity.  The Prague Bulletin of Mathematical Linguistics. 87,   s.&nbsp;27&ndash;40.  ">Panevová &ndash; Mikulová, 2007</a><a class="href">)</a>;
+reciprocitou se tedy  rozumí možnost vyjádření
+vztahu vzájemnosti mezi dvěma (či více) valenčními doplněními <a class="href">(</a><a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002</a><a class="href">)</a>,
+viz též <a href="THEORY.html#sec-sect-valence-alternace" class="href">odd.&nbsp;THEORY > 2</a>.
+<p><p>V&nbsp;návaznosti na Panevovou a&nbsp;Mikulovou <a class="href">(</a><a href="#bib:pan-rec-pbml-07" class="href" title="Panevová, J. &ndash; Mikulová, M. (2007): On   Reciprocity.  The Prague Bulletin of Mathematical Linguistics. 87,   s.&nbsp;27&ndash;40.  ">2007</a><a class="href">)</a> rozlišujeme vzhledem k&nbsp;reciprocitě tři typy sloves:
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<b>A.</b> <em>Inherentně reciproční slovesa</em>, tedy slovesa, která reciprocitu nesou již ve svém lexikálním významu;
+      jedná se jednak o&nbsp;slovesa s&nbsp;reflexivní formou (nereflexivní forma slovesa buď vůbec neexistuje, nebo nese výrazně odlišný význam), např. <span class="lemma">setkávat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">setkat se<span class="asp up">pf</span></span>, dále  <span class="lemma">hádat se<span class="asp up">impf</span></span> či <span class="lemma">utkávat<span class="homogr">I</span>I se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">utkat<span class="homogr">I</span>I se<span class="asp up">pf</span></span>,
+      jednak o&nbsp;slovesa s&nbsp;formou nereflexivní, např. <span class="lemma">soutěžit<span class="asp up">impf</span></span> a&nbsp;<span class="lemma">diskutovat<span class="asp up">impf</span></span>.
+<p>
+	</li><li><p>
+		<b>B.</b>  <em>Odvozená reciproční slovesa</em>, tedy slovesa, která vznikla odvozením od tranzitivních sloves
+   a&nbsp;získala rys inherentní reciprocity, např. <span class="lemma">líbat se<span class="asp up">impf</span></span>, dále <span class="lemma">potkávat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">potkat se<span class="asp up">pf</span></span> či <span class="lemma">lišit se<span class="asp up">impf</span></span>; typicky se vyznačují obligatorním doplněním s&nbsp;formou <span class="formval">s+7</span>.
+<p>
+	</li><li><p>
+		<b>C.</b> <em>Ostatní slovesa s&nbsp;možností recipročního užití</em>, tedy slovesa, která nenesou reciprocitu
+   ve svém lexikálním významu, přesto reciproční užití umožňují, např. <span class="lemma">líbat<span class="asp up">impf</span></span>, dále <span class="lemma">potkávat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">potkat<span class="asp up">pf</span></span> či  <span class="lemma">lišit<span class="asp up">impf</span></span>, ale i&nbsp;<span class="lemma">fotografovat<span class="asp up">impf</span></span> či <span class="lemma">napodobovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">napodobit<span class="asp up">pf</span></span> a&nbsp;<span class="lemma">oceňovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">ocenit<span class="asp up">pf</span></span>.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Ve <em>VALLEX</em>u je možnost recipročního užití vyznačena u
+všech tří typů sloves;<a href="#fn14" id="fnmark14" class="footnote">14</a> příslušné lexikální jednotky
+mají v&nbsp;atributu <span class="verbattr">recipr</span> pomocí funktorů specifikovánu dvojici, příp. trojici valenčních doplnění, která mohou být užita recipročně.
+<p><p class="medskip">
+<p class="noindent"> Příklady:
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="functorVR">ACT</span>-<span class="functorVR">ADDR</span>, např. <span class="lemma">hádat se<span class="asp up">impf</span></span>, srov. <span class="example">Petr a&nbsp;Pavel se spolu neustále  hádali.</span>;
+
+	</li><li><p>
+		<span class="functorVR">ACT</span>-<span class="functorVR">PAT</span>, např. <span class="lemma">navštěvovat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">navštívit se<span class="asp up">pf</span></span>, srov. <span class="example">Navštěvovali se pravidelně celá léta.</span>;
+
+	</li><li><p>
+		<span class="functorVR">ACT</span>-<span class="functorVR">PAT</span>, např.  <span class="lemma">seznamovat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">seznámit se<span class="asp up">pf</span></span>, srov. <span class="example">Seznámili se spolu před třiceti lety.</span>;
+
+	</li><li><p>
+		<span class="functorVR">ADDR</span>-<span class="functorVR">PAT</span>, např. <span class="lemma">seznamovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">seznámit<span class="asp up">pf</span></span>, srov. <span class="example">Jan děti navzájem seznámil.</span>;
+
+	</li><li><p>
+		<span class="functorVR">ACT</span>-<span class="functorVR">PAT</span>, např. <span class="lemma">lišit se<span class="asp up">impf</span></span>, srov. <span class="example"> Petr a&nbsp;Pavel se ve svém hodnocení studentů liší.</span>;
+
+	</li><li><p>
+		<span class="functorVR">ACT</span>-<span class="functorVR">ADDR</span>-<span class="functorVR">PAT</span>, např. <span class="lemma">představovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">představit<span class="asp up">pf</span></span>, srov. <span class="example">Kolegové se vzájemně představili.</span><a href="#fn15" id="fnmark15" class="footnote">15</a>
+	</li>
+</ul><p>
+<p><p class="bigskip">
+<p class="noindent">
+<em>VALLEX</em> se omezuje na zachycení případů reciprocity, do které
+vstupují aktanty a&nbsp;obligatorní volná doplnění slovesa;
+ve slovníku je  možnost recipročního užití vyznačena u&nbsp;2&thinsp;039 lexikálních jednotek.
+<p><p style="margin-top:10mm">
+<p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-alter" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-alter">4.5&nbsp;&nbsp;Lexikalizované alternace</h3>
+
+<p>
+
+<p>Lexikalizované alternace se týkají vztahů mezi odlišnými lexikálními jednotkami
+téhož slovesného lexému, které se vyznačují totožným situačním významem, avšak odlišují
+se ve strukturním významu <a class="href">(</a><a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a><a class="href">)</a>. V&nbsp;těchto případech je stejná množina
+situačních participantů pokaždé jiným způsobem rozmístěna do valenčního rámce.
+<p><p>Ve slovníku <em>VALLEX</em> jsou alternace zachyceny pomocí následujících atributů:
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+
+<span class="verbattr">conv</span> pro lexikálněsémantické konverze;
+
+	</li><li><p>
+
+<span class="verbattr">multiple</span> pro rozdílnou strukturní realizaci téhož situačního participantu;
+
+	</li><li><p>
+
+<span class="verbattr">split</span> pro strukturní rozpad situačního participantu na dvě valenční doplnění.
+	</li>
+</ul><p>
+<p class="smallskip">
+<p class="noindent">
+Tyto typy lexikalizovaných alternací se dále klasifikují podle zasažených situačních participantů.
+<p><h5>Lexikálněsémantické konverze: <span class="verbattr">conv</span></h5><p>
+<br /><p class="smallskip"><p class="noindent">
+Tato alternace je vyznačena u&nbsp;313 lexikálních jednotek.
+<p><p class="medskip">
+<p class="noindent"><b>A. Objektové konverze</b>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="alterval">Locatum-Location</span> (lokativní konverze)
+        (ve <em>VALLEX</em>u 148 lexikálních jednotek)
+      <ul class="other">
+
+	<li><p>
+		Vytvoření souvýskytu (formation),
+                např. <span class="example">Řidič načerpal benzín do nádrže.</span> &ndash; <span class="example">Řidič načerpal plnou nádrž benzínu.</span>
+
+	</li><li><p>
+		Vytvoření souvýskytu (formation person),
+                např. <span class="example">Matka oblékla dětem sváteční šaty.</span> &ndash; <span class="example">Matka oblékla děti do svátečních šatů.</span>
+
+	</li><li><p>
+		Zrušení souvýskytu (destruction),
+                např. <span class="example">Petra vyčistila skvrnu ze sukně.</span> &ndash; <span class="example">Petra vyčistila sukni od skvrn.</span>
+
+	</li><li><p>
+		Zrušení souvýskytu (destruction person),
+                např. <span class="example">Matka svlékala dítěti kabát.</span> &ndash; <span class="example">Matka svlékala dítě z&nbsp;kabátu.</span>
+     	</li>
+</ul><p>
+
+	</li><li><p>
+		<span class="alterval">Material-Product</span>
+        (82 lexikálních jednotek), např. <span class="example">Jan lámal kousky z&nbsp;tabulky čokolády.</span> &ndash; <span class="example">Jan lámal tabulku čokolády na kousky.</span>
+
+	</li><li><p>
+		<span class="alterval">Theme-Path</span>
+        (4 lexikální jednotky), např. <span class="example">Sebevrah si prohnal kulku hlavou.</span> &ndash; <span class="example">Sebevrah si prohnal hlavu kulkou.</span>
+
+	</li><li><p>
+		<span class="alterval">Hole-Affected_object</span>
+        (4 lexikální jednotky), např. <span class="example">Rybáři prolomili díru do ledu.</span> &ndash; <span class="example">Rybáři prolomili led.</span>
+
+	</li><li><p>
+		<span class="alterval">Affliction-Patient</span>
+        (8 lexikálních jednotek), např. <span class="example">Lékař vyléčil pacientovi nemoc.</span> &ndash; <span class="example">Lékař vyléčil pacienta z&nbsp;nemoci.</span>
+
+	</li><li><p>
+		<span class="alterval">Theme_1-Theme_2</span>
+        (18 lexikálních jednotek), např. <span class="example">Vyměnila s&nbsp;kamarádem autíčko za mašinku.</span>
+        &ndash; <span class="example">Vyměnila s&nbsp;kamarádem mašinku za autíčko.</span>
+        (ve významu <span class="gloss">&bdquo;pozbyla autíčko, nabyla mašinku&ldquo;</span>)
+	</li>
+</ul><p>
+<p><p class="medskip">
+<p class="noindent"><b>B. Subjektové konverze</b>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="alterval">Bearer_of_action-Location</span>
+        (28 lexikálních jednotek), např. <span class="example">V&nbsp;klášteře zněla majestátní hudba.</span> &ndash; <span class="example">Klášter zněl majestátní hudbou.</span>
+
+	</li><li><p>
+		<span class="alterval">Substance-Source</span>
+        (12 lexikálních jednotek), např. <span class="example">Na letišti explodovala bomba.</span> &ndash; <span class="example">Letiště explodovalo.</span>
+
+	</li><li><p>
+		<span class="alterval">Locatum-Location (objectless)</span> (lokativní konverze bez objektu)
+        (10 lexikálních jednotek), např. <span class="example">Z&nbsp;plného popelníku se vysypal popel.</span> &ndash; <span class="example">Popelník se vysypal.</span>
+	</li>
+</ul><p>
+<p><p><h5>Rozdílná strukturní realizace téhož situačního participantu: <span class="verbattr">multiple</span></h5><p>
+<br /><p class="smallskip"><p class="noindent">
+Tato alternace je vyznačena u&nbsp;138 lexikálních jednotek.
+<p><p class="medskip">
+<p class="noindent"><b>A. Rozdílná strukturní realizace téhož participantu u&nbsp;sloves pohybu</b>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="alterval">Source</span>
+        (4 lexikální jednotky), např. <span class="example">Výletníci scházeli z&nbsp;kopce.</span> &ndash; <span class="example">Výletníci scházeli kopec.</span>
+
+	</li><li><p>
+		<span class="alterval">Path</span>
+        (16 lexikálních jednotek), např. <span class="example">Děti probíhaly lesem.</span> &ndash; <span class="example">Děti probíhaly les.</span>
+
+	</li><li><p>
+		<span class="alterval">Goal</span>
+        (8 lexikálních jednotek), např. <span class="example">Výprava vyšla na kopec.</span> &ndash; <span class="example">Výprava vyšla kopec.</span>
+
+	</li><li><p>
+		<span class="alterval">Boundary</span>
+        (10 lexikálních jednotek), např. <span class="example">Ostružiní přerůstá přes plot.</span> &ndash; <span class="example">Ostružiní přerůstá plot.</span>
+
+	</li><li><p>
+		<span class="alterval">Area</span>
+        (2 lexikální jednotky), např. <span class="example">Kostelem prolínala vůně kadidla.</span> &ndash; <span class="example">Kostel prolínala vůně kadidla.</span>
+
+	</li><li><p>
+		<span class="alterval">Impactee</span>
+        (10 lexikálních jednotek), např. <span class="example">Jan bušil do soupeře pěstmi.</span> &ndash; <span class="example">Jan bušil soupeře pěstmi.</span>
+	</li>
+</ul><p>
+<p><p class="medskip">
+<p class="noindent"><b>B. Rozdílná strukturní realizace téhož participantu u&nbsp;sloves umístění</b>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="alterval">Location</span>
+        (58 lexikálních jednotek), např. <span class="example">Nájemníci ukládají odpad do kontejneru.</span>
+        &ndash; <span class="example">Nájemníci ukládají odpad v&nbsp;kontejneru.</span>
+	</li>
+</ul><p>
+<p><p class="medskip">
+<p class="noindent"><b>C. Rozdílná strukturní realizace téhož participantu u&nbsp;sloves cogitandi a&nbsp;u&nbsp;sloves pocitů a&nbsp;stavů</b>
+<p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="alterval">Judgment</span>
+        (12 lexikálních jednotek), např. <span class="example">Tuto událost vykládáme jako nepolitickou.</span> &ndash; <span class="example">Tuto událost vykládáme nepoliticky.</span>
+
+	</li><li><p>
+		<span class="alterval">Subject_matter</span>
+        (4 lexikální jednotky), např. <span class="example">Studenti zaměřovali své studium spíš na lingvistiku.</span> &ndash; <span class="example">Studenti zaměřovali své studium spíš lingvisticky.</span>
+
+	</li><li><p>
+		<span class="alterval">Subject_matter (objectless)</span>
+        (4 lexikální jednotky), např. <span class="example">Jan se zaměřoval na lingvistiku.</span> &ndash; <span class="example">Jan se zaměřoval lingvisticky.</span>
+
+	</li><li><p>
+		<span class="alterval">State</span>
+        (4 lexikální jednotky), např. <span class="example">Zprávy o&nbsp;něm ho uchovaly živého.</span> &ndash; <span class="example">Zprávy o&nbsp;něm ho uchovaly naživu.</span>
+
+	</li><li><p>
+		<span class="alterval">State (objectless)</span>
+         (6 lexikálních jednotek), např. <span class="example">Jan se v&nbsp;poslední době cítil jako stařík.</span> &ndash; <span class="example">Jan se v&nbsp;poslední době cítil staře.</span>
+	</li>
+</ul><p>
+<p><h5>Rozpad situačního participantu na dvě valenční doplnění: <span class="verbattr">split</span></h5><p>
+<br /><p class="smallskip"><p class="noindent">
+Tato alternace je vyznačena u&nbsp;318 lexikálních jednotek.
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="alterval">Information</span>
+        (152 lexikálních jednotek), např. <span class="example">Sousedka si stěžovala rodičům, že syn pije.</span> &ndash; <span class="example">Sousedka si stěžovala rodičům na syna, že pije.</span>
+
+	</li><li><p>
+		<span class="alterval">Phenomenon</span>
+        (58 lexikálních jednotek), např. <span class="example">Jan si pomyslel, že je Petra nafoukaná.</span> &ndash; <span class="example">Jan si pomyslel o&nbsp;Petře, že je nafoukaná.</span>
+
+	</li><li><p>
+		<span class="alterval">Inference</span>
+        (8 lexikálních jednotek) <span class="example">Zdálo se mi, že je to změna k&nbsp;dobrému.</span> &ndash; <span class="example">Zdálo se mi to být změnou k&nbsp;dobrému.</span>
+
+	</li><li><p>
+		<span class="alterval">Stimul</span>
+        (76 lexikálních jednotek), např. <span class="example">V&nbsp;okně prvního poschodí zahlédla, jak se na ni její manžel dívá.</span> &ndash; <span class="example">V&nbsp;okně prvního poschodí zahlédla svého manžela, jak se na ni dívá.</span>
+
+	</li><li><p>
+		<span class="alterval">Path</span>
+        (26 lexikálních jednotek), např. <span class="example">Přívoz převáží turisty přes řeku.</span> &ndash; <span class="example">Přívoz převáží turisty z&nbsp;jedné strany řeky na druhou.</span>
+	</li>
+</ul><p>
+<p><p><p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-class" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-class">4.6&nbsp;&nbsp;Syntakticko-sémantické třídy</h3>
+
+<p>
+
+<p><p class="noindent">
+Část lexikálních jednotek (3&thinsp;114
+z&nbsp;celkového počtu 6&thinsp;711, tedy
+přibližně 46&nbsp;% všech lexikálních jednotek) má určenu <em>syntakticko-sémantickou třídu</em> (značka <span class="verbattr">class</span>). Tyto třídy byly
+budovány striktně <span class="gloss">&bdquo;zdola nahoru&ldquo;</span>  &ndash; seskupováním lexikálních
+jednotek s&nbsp;podobnými syntaktickými vlastnostmi, přičemž se
+přihlíželo k&nbsp;jejich sémantice. Zdůrazněme zde, že
+syntakticko-sémantické třídy jsou tvořeny jednotlivými lexikálními
+jednotkami, nikoliv celými lexémy &ndash; víceznačný lexém se tedy může
+vyskytovat v&nbsp;několika třídách.
+<p>Bylo vytvořeno následujících 22 syntakticko-sémantických tříd:
+<p><p class="smallskip">
+<ul class="other">
+
+	<li><p>
+		<span class="classval">appoint verb</span> (24 lexikálních jednotek), např.
+       <span class="lemma">nominovat<span class="asp up">biasp</span></span>, <span class="lemma">určovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">určit<span class="asp up">pf</span></span>  (~ <span class="example">určovala své
+       zástupce</span>),  <span class="lemma">ustanovovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">ustanovit<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">cause motion</span> (38 lexikálních jednotek), např.
+		 <span class="lemma">mávat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">mávnout<span class="asp up">pf</span></span>,
+         <span class="lemma">hýbat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">hnout<span class="asp up">pf</span><span class="asp up">1</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">hýbnout<span class="asp up">pf</span><span class="asp up">2</span></span> (~&nbsp;<span class="example">hýbat pravou rukou</span>);
+
+	</li><li><p>
+		<span class="classval">combining</span> (94 lexikálních jednotek), např.
+         <span class="lemma">míchat<span class="asp up">impf</span></span> (~ <span class="example">míchat žloutky s&nbsp;moukou v&nbsp;těsto</span>), <span class="lemma">přidávat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">přidat<span class="asp up">pf</span></span>, <span class="lemma">spojovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">spojit<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">communication</span> (428 lexikálních jednotek), např. <span class="lemma">číst<span class="asp up">impf</span></span>, <span class="lemma">hovořit<span class="asp up">impf</span></span>,
+        <span class="lemma">nařizovat<span class="homogr back4">II</span><span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">nařídit<span class="homogr back4">II</span><span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">contact</span> (125 lexikálních jednotek), např.
+        <span class="lemma">dotýkat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dotknout se<span class="asp up">pf</span></span>, <span class="lemma">narážet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">narazit<span class="asp up">pf</span></span>,
+        <span class="lemma">tisknout<span class="asp up">impf</span></span>;
+
+	</li><li><p>
+		<span class="classval">emission</span> (22 lexikálních jednotek), např.
+        <span class="lemma">pouštět<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">pustit<span class="asp up">pf</span></span> (~ <span class="example">tričko pouštělo barvu</span>),
+        <span class="lemma">vysílat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vyslat<span class="asp up">pf</span></span> (~ <span class="example">vysílat signály</span>);
+
+	</li><li><p>
+		<span class="classval">exchange</span> (182 lexikálních jednotek), např.
+        <span class="lemma">dávat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dát<span class="asp up">pf</span></span>, <span class="lemma">dostávat<span class="homogr back4">I</span><span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dostat<span class="asp up">pf</span></span>, <span class="lemma">měnit<span class="asp up">impf</span></span>, <span class="lemma">platit<span class="asp up">impf</span></span>,
+        <span class="lemma">pronajímat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">pronajmout<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">expansion</span> (20 lexikálních jednotek), např.
+        <span class="lemma">pronikat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">proniknout<span class="asp up">pf</span></span>, <span class="lemma">šířit<span class="asp up">impf</span></span>;
+
+	</li><li><p>
+		<span class="classval">extent</span> (18 lexikálních jednotek), např.
+         <span class="lemma">činit<span class="asp up">impf</span></span> (~ <span class="example">činí to 30 Kč</span>), <span class="lemma">dosahovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dosáhnout<span class="asp up">pf</span></span>, <span class="lemma">vycházet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vyjít<span class="asp up">pf</span></span>
+         (~ <span class="example">boty vycházejí na tisíc korun</span>);
+
+	</li><li><p>
+		<span class="classval">change</span> (342 lexikálních jednotek), např.
+        <span class="lemma">klesat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">klesnout<span class="asp up">pf</span></span>
+        (~&nbsp;<span class="example">teplota prudce klesala</span>),
+		<span class="lemma">budovat<span class="asp up">impf</span></span>,
+        <span class="lemma">proměňovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">proměnit<span class="asp up">pf</span></span>, <span class="lemma">růst<span class="asp up">impf</span></span>;
+
+	</li><li><p>
+		<span class="classval">intervention</span> (10 lexikálních jednotek), např.
+        <span class="lemma">mluvit<span class="asp up">impf</span></span> (~ <span class="example">do toho nemůžu&nbsp;mluvit</span>), <span class="lemma">zasahovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">zasáhnout<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">location</span> (414 lexikálních jednotek), např.
+        <span class="lemma">doplňovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">doplnit<span class="asp up">pf</span></span> (~ <span class="example">doplňovat zboží do regálu</span>), <span class="lemma">nacházet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">najít<span class="asp up">pf</span></span>,
+        <span class="lemma">shromažďovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">shromáždit<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">mental action</span> (338 lexikálních jednotek), např.
+        <span class="lemma">cítit se<span class="asp up">impf</span></span>  (~ <span class="example">cítit se dobře</span>),
+        <span class="lemma">jásat<span class="asp up">impf</span></span>, <span class="lemma">mrzet<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">modal verb</span><a href="#fn16" id="fnmark16" class="footnote">16</a> (15 lexikálních jednotek), např.
+        <span class="lemma">dovést<span class="homogr back4">II</span><span class="asp up">impf</span></span>  (~ <span class="example">dovede plavat</span>), <span class="lemma">moci&#8202;/&#8202;moct<span class="asp up">impf</span></span>, <span class="lemma">chtít<span class="asp up">impf</span></span>, <span class="lemma">smět<span class="asp up">impf</span></span>;
+
+	</li><li><p>
+		<span class="classval">motion</span> (311 lexikálních jednotek), např.
+        <span class="lemma">běžet<span class="asp up">impf</span></span>, <span class="lemma">dorážet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">dorazit<span class="asp up">pf</span></span>,
+        <span class="lemma">hýbat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">hnout se<span class="asp up">pf</span></span> (~ <span class="example">Nehýbej se!</span>);
+
+	</li><li><p>
+		<span class="classval">perception</span> (98 lexikálních jednotek), např.
+        <span class="lemma">hledět<span class="asp up">impf</span></span>, <span class="lemma">pamatovat (si)<span class="asp up">impf</span></span>,
+        <span class="lemma">všímat si<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">všimnout si<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">phase of action</span> (78 lexikálních jednotek), např.
+        <span class="lemma">končit (se)<span class="asp up">impf</span></span> (~ <span class="example">přednáška končí v&nbsp;5 hodin</span>),
+        <span class="lemma">vrcholit<span class="asp up">impf</span></span>, <span class="lemma">vznikat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vzniknout<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">phase verb</span> (77 lexikálních jednotek), např.
+        <span class="lemma">iniciovat<span class="asp up">biasp</span></span>,
+        <span class="lemma">končit (se)<span class="asp up">impf</span></span> (~ <span class="example">končit školu</span>);
+
+	</li><li><p>
+		<span class="classval">providing</span> (57 lexikálních jednotek), např.
+        <span class="lemma">naplňovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">naplnit<span class="asp up">pf</span></span> (~ <span class="example">naplnit vanu vodou</span>),
+        <span class="lemma">vybavovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">vybavit<span class="asp up">pf</span></span>;
+
+	</li><li><p>
+		<span class="classval">psych verb</span> (143 lexikálních jednotek), např.
+        <span class="lemma">klamat<span class="asp up">impf</span></span>, <span class="lemma">potěšit<span class="asp up">pf</span></span> (~ <span class="example">potěšila ho dárkem</span>, <span class="example">dárek ho potěšil</span>);
+
+	</li><li><p>
+		<span class="classval">social interaction</span> (86 lexikálních jednotek), např.
+        <span class="lemma">potkávat se<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">potkat se<span class="asp up">pf</span></span>  (~ <span class="example">potkává se s&nbsp;přáteli v&nbsp;baru</span>),
+         <span class="lemma">spojovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">spojit<span class="asp up">pf</span></span>
+       (~ <span class="example">spojím se s&nbsp;ním co nejdříve</span>),
+        <span class="lemma">souhlasit<span class="asp up">impf</span></span>;
+
+	</li><li><p>
+		<span class="classval">transport</span>  (194 lexikálních jednotek), např.
+        <span class="lemma">donášet<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">donést<span class="asp up">pf</span></span>,
+        <span class="lemma">přemisťovat&#8202;/&#8202;přemísťovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp; <span class="lemma">přemístit<span class="asp up">pf</span></span>,
+        <span class="lemma">shrnovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">shrnout<span class="asp up">pf</span></span>.
+	</li>
+</ul><p>
+<p><p class="bigskip">
+<p class="noindent">
+Toto rozdělení lexikálních jednotek do
+syntakticko-sémantických tříd je pouze pracovní a&nbsp;nelze je
+považovat za klasifikaci splňující požadavky dobře definované
+ontologie. Je zřejmé, že takto hrubé rozdělení není syntakticky
+ani sémanticky homogenní, jde o&nbsp;základní vymezení skupin sloves,
+které je potřeba dále podrobně studovat. Motivací pro tuto
+předběžnou klasifikaci lexikálních jednotek byla skutečnost, že i
+takovéto pracovní třídění zachycuje vztahy mezi slovesy a&nbsp;díky
+tomu usnadňuje kontroly konzistence slovníku a&nbsp;dovoluje formulovat
+obecnější pozorování týkající se slovníkových dat.
+
+<p></div> <!-- LEVEL: 3->3 -->
+
+
+<div id="text-sect-idiom" class="textblock"> <!-- LEVEL: 3 -->
+<h3 id="sec-sect-idiom">4.7&nbsp;&nbsp;Frazémy a&nbsp;idiomy</h3>
+
+<p>
+
+<p><p class="noindent">
+Při vytváření slovníku <em>VALLEX</em> byl kladen důraz především na
+úplné pokrytí primárních a&nbsp;obvyklých významů sloves. Zároveň bylo
+zpracováno mnoho lexikálních jednotek popisujících okrajová a
+idiomatická užití sloves; jejich pokrytí však není (a&nbsp;nemůže být)
+úplné. Takové lexikální jednotky jsou odlišeny značkou <span class="idiom">idiom</span>&nbsp;za číslem lexikální jednotky.
+<p>Idiomatická užití sloves jsou taková ustálená užití, která jsou
+charakterizována buď podstatným posunem ve významu
+(vzhledem k&nbsp;primárnímu významu, např.  <span class="example">přišel o&nbsp;hodinky</span>),
+omezenou, obvykle velmi malou množinou možných lexikálních hodnot,
+kterých mohou jejich doplnění nabývat (např. <span class="example">brát roha</span>,
+<span class="example">mráz&nbsp;mi z&nbsp;toho běhal po zádech</span>),
+nebo jinými
+nepravidelnostmi a&nbsp;anomáliemi.
+<p><p class="medskip">
+<p class="noindent"> Poznámka:<br />
+Metaforické užití slovesa &ndash; pokud
+nedošlo k&nbsp;jeho výrazné lexikalizaci &ndash; je obvykle pokryto
+lexikální jednotkou pro primární význam slovesa, např.
+užití slovesa <span class="lemma">jít<span class="asp up">impf</span></span> v&nbsp;kontextu <span class="example">Po městě šla řeč, že se budeš stěhovat.</span> je řazeno
+k&nbsp;lexikální jednotce popisující význam
+<span class="gloss">&bdquo;pohybovat se po vlastních nohou; přemísťovat se chůzí&ldquo;</span>.
+<p></div> <!-- LEVEL: 3->END -->
+</div> <!-- LEVEL: 3->END -->
+
+<hr />
+<h3 id="sec:footnotes">Poznámky</h3>
+<ul class="footnotes">
+	<li id="fn1"><a href="#fnmark1">^</a>[1] K&nbsp;termínu lexém viz kapitolu&nbsp;<a href="THEORY.html#sec-sect-valence-teorie" class="href">THEORY</a>.</li>
+	<li id="fn2"><a href="#fnmark2">^</a>[2] V omezeném počtu jsou však pro iterativa ve slovníku uváděny příklady diatezí.</li>
+	<li id="fn3"><a href="#fnmark3">^</a>[3] Držíme se zde
+terminologie běžné v&nbsp;anglicky psané literatuře, která rozlišuje homografy jako
+jednotky se stejnou psanou podobou (bez ohledu na podobu zvukovou)
+a&nbsp;homofony jako jednotky se zvukově stejnou podobou. Termín <em>homograf</em> užívaný ve <em>VALLEX</em>u
+tedy označuje jak homonyma
+(jednotky se stejnou psanou i&nbsp;zvukovou podobou), tak homografy (jednotky se stejnou psanou, ale odlišnou zvukovou podobou),
+jak tyto termíny užívá česky psaná literatura <a class="href">(</a><a href="#bib:encykl" class="href" title="Karlík, P. &ndash; Nekula, M. &ndash; Pleskalová,   J. (ed.) (2002): Encyklopedický slovník češtiny.  Praha, Nakladatelství Lidové noviny.  ">Karlík et&nbsp;al., 2002</a><a class="href">)</a>.</li>
+	<li id="fn4"><a href="#fnmark4">^</a>[4] O reflexivních užitích nereflexivních lexémů pojednáváme
+ v&nbsp;příslušných oddílech
+ věnovaných deagentní diatezi (<a href="#sec-sect-diat" class="href">odd.&nbsp;4.2</a>), reflexivitě
+ (<a href="#sec-sect-reflexivity" class="href">odd.&nbsp;4.3</a>) a&nbsp;reciprocitě (<a href="#sec-sect-reciprocity" class="href">odd.&nbsp;4.4</a>).</li>
+	<li id="fn5"><a href="#fnmark5">^</a>[5] Tato doplnění se v&nbsp;teorii FGP chápou jako doplnění nevalenční, ve <em>VALLEX</em>u se však uvádějí,
+protože tato informace může být s&nbsp;úspěchem využita např. při automatické
+analýze češtiny.</li>
+	<li id="fn6"><a href="#fnmark6">^</a>[6] Množina funktorů, se kterými se pracuje ve FGP (a&nbsp;která je využita
+v&nbsp;Pražském závislostním korpusu), je bohatší (viz např. <a href="#bib:mluvnice-14" class="href" title="Panevová, J. et&nbsp;al. (2014): Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu.  Praha, Karolinum.  (Co-authors: Hajičová, E. &ndash; Kettnerová, V. &ndash; Lopatková, M. &ndash; Mikulová,   M. &ndash; Ševčíková, M.)  ">Panevová et&nbsp;al., 2014</a>). Některé z&nbsp;těchto
+funktorů se však nevyskytují u&nbsp;slovesných doplnění, např. <span class="functorVR">MAT</span>, označující
+partitiv, srov. <span class="example">sklenice piva<span class="functorvr">.MAT</span>.</span> Jiné
+funktory specifikují vztahy, které nejsou závislostní, např.
+koordinaci, srov. <span class="example">Petr, nebo<span class="functorvr">.DISJ</span> Marie</span>. Další funktory
+sice reprezentují závislostní vztahy u&nbsp;sloves, nemají však nikdy
+valenční povahu, např. <span class="functorVR">ATT</span>, označující postoj, srov. <span class="example">udělal to
+dobrovolně<span class="functorvr">.ATT</span></span>.</li>
+	<li id="fn7"><a href="#fnmark7">^</a>[7] Viz <a href="#fn19" class="href">poznámku pod čarou&nbsp;19</a> v&nbsp;kapitole&nbsp;<a href="THEORY.html#sec-sect-valence-teorie" class="href">THEORY</a>.</li>
+	<li id="fn8"><a href="#fnmark8">^</a>[8] Morfematické formy, které jsou
+    dány gramatickými pravidly, např. pasivizací nebo reciprocitou,
+    jsou popsány v&nbsp;gramatické komponentě slovníku, viz část&nbsp;<a href="GRAMMAR.html#sec-sect-grammarcomp" class="href">GRAMMAR</a>,&nbsp;Gramatická komponenta.
+
+    Formy pro partitiv, např. <span class="example">dodat sůl &ndash; dodat
+    soli</span>, distributivnost, např. <span class="example">rozdal jim jablíčka &ndash; rozdal jim
+    po jablíčku</span>, či méně přesnou kvantifikaci, např. <span class="example">přišlo padesát
+    lidí &ndash; přišlo na padesát lidí, přišlo okolo padesáti lidí</span>, jsou ponechány zcela stranou.</li>
+	<li id="fn9"><a href="#fnmark9">^</a>[9] Spojku <span class="formval">jako</span>
+   zde uvádíme mezi předložkami, neboť konkrétní
+   valenční doplnění uvozené touto spojkou vyžaduje vždy určitý pád substantiva, který však může podléhat
+   změnám v&nbsp;závislosti na syntaktickém okolí, viz syntaktickou reflexivitu, <a href="THEORY.html#sec-sect-valence-alternace" class="href">odd.&nbsp;THEORY > 2</a>.</li>
+	<li id="fn10"><a href="#fnmark10">^</a>[10] &nbsp;Podoba <span class="formval">zda</span> je užita i&nbsp;pro reprezentaci spojky
+   <span class="formval">jestli</span>.</li>
+	<li id="fn11"><a href="#fnmark11">^</a>[11] Gramatická komponenta slovníku (zde část&nbsp;<a href="GRAMMAR.html#sec-sect-grammarcomp" class="href">GRAMMAR</a>)
+obsahuje pravidla,
+pomocí nichž je možné z&nbsp;valenčního rámce pro&nbsp;nepříznakové užití slovesa
+(uvedeného u&nbsp;každé lexikální jednotky) odvodit morfematické formy valenčních doplnění typické pro příznakové konstrukce diatezí, označované dále též jako valenční rámce
+pro příznakové členy diateze (případně též odvozené valenční rámce), viz též <a href="THEORY.html#sec-sect-valence-alternace" class="href">odd.&nbsp;THEORY > 2</a>.</li>
+	<li id="fn12"><a href="#fnmark12">^</a>[12] Atribut <span class="verbattr">refl</span> se netýká případů,
+kdy je reflexivum <span class="example">se/si</span> součástí slovesného lemmatu (tyto případy jsou popsány v&nbsp;<a href="#sec-sect-refllexemes" class="href">odd.&nbsp;2.4</a>),
+kdy jde o&nbsp;tvarotvorný formant vytvářející reflexivní formu slovesa
+typickou pro deagentní diatezi (viz <a href="#sec-sect-diat" class="href">odd.&nbsp;4.2</a>)
+nebo kdy je užití reflexivního zájmena příznakem reciprocity (viz <a href="#sec-sect-reciprocity" class="href">odd.&nbsp;4.4</a>).</li>
+	<li id="fn13"><a href="#fnmark13">^</a>[13] Vzhledem k&nbsp;víceznačnosti klitik,
+která činí problémy jak (zejména nerodilým) mluvčím češtiny,
+tak při automatickém zpracování jazyka,
+dostala reflexivita vyjádřená klitiky v&nbsp;lexikografickém zpracování přednost.</li>
+	<li id="fn14"><a href="#fnmark14">^</a>[14] V&nbsp;případě odvozených recipročních sloves (typ B) a&nbsp;jejich základových tranzitivních sloves (typ C)
+je ve <em>VALLEX</em>u uváděna reciprocita u&nbsp;obou typů.</li>
+	<li id="fn15"><a href="#fnmark15">^</a>[15] Případy, kdy do vztahu reciprocity vstupují
+  více než dva situační participanty, jsou řídké a&nbsp;pro češtinu zatím málo zkoumané; <em>VALLEX</em>  popisuje pouze dvě lexikální jednotky s&nbsp;trojnou reciprocitou,
+  a&nbsp;to lexikální jednotky sloves <span class="lemma">představovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">představit<span class="asp up">pf</span></span> a&nbsp;<span class="lemma">seznamovat<span class="asp up">impf</span></span>&thinsp;<span class="lemma">&mdash;</span>&thinsp;<span class="lemma">seznámit<span class="asp up">pf</span></span>.</li>
+	<li id="fn16"><a href="#fnmark16">^</a>[16] &nbsp; Ve zpracování modálních
+         sloves, která jsou na pomezí gramatiky a&nbsp;lexika, se <em>VALLEX</em> odchyluje od teorie FGP.
+         Ve FGP
+         jsou modální slovesa <span class="lemma">muset&#8202;/&#8202;musit</span>, <span class="lemma">mít</span>,
+         <span class="lemma">chtít</span>,
+         <span class="lemma">hodlat</span>, <span class="lemma">moci&#8202;/&#8202;moct</span>, <span class="lemma">dát se</span>,
+         <span class="lemma">smět</span>, <span class="lemma">dovést</span> a&nbsp;<span class="lemma">umět</span>
+         zachycena pomocí gramatémů u&nbsp;významových sloves (nemají tedy valenční rámec).
+         Naproti tomu ve <em>VALLEX</em>u jsou kvůli úplnosti a&nbsp;lexikální proměnlivosti pro modální význam těchto
+         sloves vyčleněny lexikální jednotky, nejsou však zachyceny všechny jejich syntaktické
+         zvláštnosti. Protože některá z&nbsp;těchto sloves jsou
+         víceznačná (např. <span class="lemma">mít</span> je modální v&nbsp;užití <span class="example">Jan má připravit večeři.</span>,
+         ale plnovýznamové v&nbsp;užití <span class="example">Jan má spoustu peněz.</span>),
+         mohou být popsána v&nbsp;několika lexikálních jednotkách.</li>
+</ul>
+
+<hr />
+<h3 id="sec:biblio">Seznam literatury</h3>
+<ul class="biblio">
+	<li id="bib:SSJC"><span class="bib-note">Havránek et&nbsp;al. (1964)</span><br /><span class="capsname">Havránek</span>, B. et&nbsp;al. (ed.) (1964): <em>Slovník   spisovného jazyka českého</em>.  Praha, Academia.  (Co-editors: <span class="caps">Bělič</span>, J. &ndash; <span class="caps">Helcl</span>, M. &ndash; <span class="caps">Jedlička</span>, A. et al.)  </li>
+	<li id="bib:isacenko-vidy-sas"><span class="bib-note">Isačenko (1960)</span><br /><span class="capsname">Isačenko</span>, A.&nbsp;V. (1960): Slovesný vid, slovesná akce   a obecný charakter slovesného děje.  <em>Slovo a slovesnost</em>. 21(1), s.&nbsp;9&ndash;16.  </li>
+	<li id="bib:encykl"><span class="bib-note">Karlík et&nbsp;al. (2002)</span><br /><span class="capsname">Karlík</span>, P. &ndash; <span class="caps">Nekula</span>, M. &ndash; Pleskalová,   J. (ed.) (2002): <em>Encyklopedický slovník češtiny</em>.  Praha, Nakladatelství Lidové noviny.  </li>
+	<li id="bib:euralex-2014-refl"><span class="bib-note">Kettnerová &ndash; Lopatková (2014)</span><br /><span class="capsname">Kettnerová</span>, V. &ndash; Lopatková, M. (2014): Reflexive   Verbs in a Valency Lexicon: The Case of Czech Reflexive Morphemes.  In <span class="caps">Abel</span>, A. &ndash; <span class="caps">Vettori</span>, C. &ndash; <span class="caps">Ralli</span>, N.   (ed.) <em>Proceedings of the XVI EURALEX International Congress:   The User in Focus</em>, s.&nbsp;1007&ndash;1023, Italy, Bolzano/Bozen, EURAC   research.  </li>
+	<li id="bib:panevova-80"><span class="bib-note">Panevová (1980)</span><br /><span class="capsname">Panevová</span>, J. (1980): <em>Formy a funkce ve stavbě   české věty</em>.  Praha, Academia.  </li>
+	<li id="bib:panevova-94"><span class="bib-note">Panevová (1994)</span><br /><span class="capsname">Panevová</span>, J. (1994): Valency Frames and the Meaning of the   Sentence.  In <span class="caps">Luelsdorff</span>, P.&nbsp;A. (ed.) <em>The Prague School of   Structural and Functional Linguistics</em>, s.&nbsp;223&ndash;243. Amsterdam &ndash;   Philadelphia, John Benjamins Publishing Company.  </li>
+	<li id="bib:pan-96"><span class="bib-note">Panevová (1996)</span><br /><span class="capsname">Panevová</span>, J. (1996): More Remarks on Control.:  <em>Prague Linguistic Circle Papers</em>. 2, s.&nbsp;101&ndash;120.  </li>
+	<li id="bib:pan-rec-99"><span class="bib-note">Panevová (1999)</span><br /><span class="capsname">Panevová</span>, J. (1999): Česká reciproční   zájmena a slovesná valence.  <em>Slovo a slovesnost</em>. 60(4), s.&nbsp;269&ndash;275.  </li>
+	<li id="bib:pan-rec-cz-07"><span class="bib-note">Panevová (2007)</span><br /><span class="capsname">Panevová</span>, J. (2007): Znovu o reciprocitě.:  <em>Slovo a slovesnost</em>. 68(2), s.&nbsp;91&ndash;100.  </li>
+	<li id="bib:mluvnice-14"><span class="bib-note">Panevová et&nbsp;al. (2014)</span><br /><span class="capsname">Panevová</span>, J. et&nbsp;al. (2014): <em>Mluvnice současné   češtiny 2, Syntax na základě anotovaného   korpusu</em>.  Praha, Karolinum.  (Co-authors: <span class="caps">Hajičová</span>, E. &ndash; <span class="caps">Kettnerová</span>, V. &ndash; <span class="caps">Lopatková</span>, M. &ndash; <span class="caps">Mikulová</span>,   M. &ndash; <span class="caps">Ševčíková</span>, M.)  </li>
+	<li id="bib:pan-rec-pbml-07"><span class="bib-note">Panevová &ndash; Mikulová (2007)</span><br /><span class="capsname">Panevová</span>, J. &ndash; Mikulová, M. (2007): On   Reciprocity.  <em>The Prague Bulletin of Mathematical Linguistics</em>. 87,   s.&nbsp;27&ndash;40.  </li>
+	<li id="bib:meaning"><span class="bib-note">Sgall et&nbsp;al. (1986a)</span><br /><span class="capsname">Sgall</span>, P. &ndash; Hajičová, E. &ndash;   <span class="caps">Panevová</span>, J. (1986a): <em>The Meaning of the   Sentence in Its Semantic and Pragmatic Aspects</em>.  Dordrecht, Reidel.  </li>
+</ul>
+<hr />
+<h2>Obsah</h2>
+<ul class="toc">
+	<li>&nbsp;<a href="#sec-sect-heslo" class="href">Podoba slovníkového hesla</a></li>
+	<li>1&nbsp;<a href="#sec-sect-lexemes" class="href">Lexémy</a></li>
+	<li>2&nbsp;<a href="#sec-sect-lemma" class="href">Lemmata</a></li>
+	<li>2.1&nbsp;<a href="#sec-sect-aspect" class="href">Vid a&nbsp;vidové protějšky</a></li>
+	<li>2.2&nbsp;<a href="#sec-sect-variants" class="href">Varianty lemmatu</a></li>
+	<li>2.3&nbsp;<a href="#sec-sect-homographs" class="href">Homografy (homonyma)</a></li>
+	<li>2.4&nbsp;<a href="#sec-sect-refllexemes" class="href">Reflexivní lemmata</a></li>
+	<li>3&nbsp;<a href="#sec-sect-lu" class="href">Lexikální jednotky</a></li>
+	<li>3.1&nbsp;<a href="#sec-sect-frame" class="href">Valenční rámce</a></li>
+	<li>3.2&nbsp;<a href="#sec-sect-functors" class="href">Funktory pro aktanty, kvazivalenční a&nbsp;volná doplnění</a></li>
+	<li>3.3&nbsp;<a href="#sec-sect-morfforms" class="href">Morfematické vyjádření</a></li>
+	<li>3.4&nbsp;<a href="#sec-sect-types" class="href">Obligatornost slovesného doplnění</a></li>
+	<li>4&nbsp;<a href="#sec-sect-optional" class="href">Doplňující syntaktické informace</a></li>
+	<li>4.1&nbsp;<a href="#sec-sect-control" class="href">Kontrola</a></li>
+	<li>4.2&nbsp;<a href="#sec-sect-diat" class="href">Diateze</a></li>
+	<li>4.3&nbsp;<a href="#sec-sect-reflexivity" class="href">Reflexivita</a></li>
+	<li>4.4&nbsp;<a href="#sec-sect-reciprocity" class="href">Reciprocita</a></li>
+	<li>4.5&nbsp;<a href="#sec-sect-alter" class="href">Lexikalizované alternace</a></li>
+	<li>4.6&nbsp;<a href="#sec-sect-class" class="href">Syntakticko-sémantické třídy</a></li>
+	<li>4.7&nbsp;<a href="#sec-sect-idiom" class="href">Frazémy a&nbsp;idiomy</a></li>
+	<li><a href="#sec:biblio" class="href">Seznam literatury</a></li>
+</ul>
+

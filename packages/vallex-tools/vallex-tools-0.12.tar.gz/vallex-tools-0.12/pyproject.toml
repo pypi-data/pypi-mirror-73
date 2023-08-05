@@ -1,0 +1,82 @@
+[tool]
+
+[tool.poetry]
+name = "vallex-tools"
+# The version number below should be ignored
+# it will be updated/overwritten by deploy/update_version.sh
+version="0.12"
+description = "A Python interface for working with vallency lexicon data."
+authors = ["Jonathan L. Verner <jonathan.verner@matfyz.cz>", "Anna Vernerová <vernerova@ufal.mff.cuni.cz>"]
+license = "MIT"
+readme  = "README.rst"
+homepage = "https://verner.gitlab.io/pyvallex/"
+repository = "https://gitlab.com/Verner/pyvallex"
+documentation = "https://verner.gitlab.io/pyvallex/"
+keywords = ["nlp", "lexicon", "valency"]
+classifiers = [
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Environment :: X11 Applications :: Qt",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+include = [
+    "vallex/__version__",
+    "vallex/server/frontend/webui-config.json",
+    "vallex/server/frontend/help/**/*",
+    "vallex/server/frontend/dist/**/*",
+    "vallex/server/frontend/dist-server/**/*",
+]
+exclude = ["vallex/server/frontend"]
+packages = [
+    {include = "vallex"}
+]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.urls]
+"Demo (readonly)" = "http://quest.ms.mff.cuni.cz/nomvallex/"
+
+[tool.poetry.scripts]
+vallex-cli = "vallex.main:entry_point"
+vallex-web = "vallex.main:web_entry_point"
+vallex-gui = "vallex.main:gui_entry_point"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+jinja2 = "*"
+pyqt5 = "==5.14.1"
+pyqtwebengine = "==5.14"
+gunicorn = {version = "^20.0.4", optional = true}
+setproctitle = {version = "^1.1.10", optional = true}
+bsdiff4 = {version = "==1.1.5", optional = true}
+pynacl = {version = "*", optional = true}
+
+[tool.poetry.extras]
+server = ["gunicorn", "setproctitle"]
+updater = ["bsdiff4", "pynacl"]
+
+[tool.poetry.dev-dependencies]
+clipboard = "*"
+mypy = "*"
+py-cpuinfo = "*"
+pyinstaller = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-selenium = "*"
+pyyaml = "*"
+sphinx = "*"
+sphinx-autodoc-typehints = "*"
+sphinx-bootstrap-theme = "*"
+sphinxcontrib-httpdomain = "*"
+sphinxcontrib-httpexample = "*"
+tox = "*"
+webtest = "*"
+gitchangelog = "^3.0.4"
+
