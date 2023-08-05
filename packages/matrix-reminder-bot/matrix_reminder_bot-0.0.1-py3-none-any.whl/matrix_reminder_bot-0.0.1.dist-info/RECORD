@@ -1,0 +1,15 @@
+matrix_reminder_bot/__init__.py,sha256=ZdqUyOvvRdqI8N8uzDjLLgdw2w8MgDIspJ5VZcLgITA,209
+matrix_reminder_bot/bot_commands.py,sha256=sFWpQC_ot2G3sXPPPmh09wez9M_X8mlbYDVU0S6IroE,16663
+matrix_reminder_bot/callbacks.py,sha256=VizpYyLMKl_NUFEqCN2Jg4NG-APsfmV1sOpF_radCtk,2920
+matrix_reminder_bot/chat_functions.py,sha256=Rdjar4i50NKrvnvBiIofwHaFZm26f12dOVA-fnJwRH4,1227
+matrix_reminder_bot/config.py,sha256=_L3_vifewhq3EKs56rd98HBuKMaFZp8fokQTpoW5iPs,4615
+matrix_reminder_bot/errors.py,sha256=02zF7OdBCveKHQYXbdE2H_VsN-HCWWprE8h1QgYSpYo,563
+matrix_reminder_bot/main.py,sha256=2wliS5tzQLMwabmcnR_aJAwWbbLZ_GjCR4EIOIqUouU,4273
+matrix_reminder_bot/reminder.py,sha256=m0WjkdVlNhtQR3S3INtt7S40dR_dRYeak0AjMnJ2jaE,6208
+matrix_reminder_bot/storage.py,sha256=N0CqG9mV7ojKQbygylMgqG4zx627or265Ks0xgN3gBQ,10791
+matrix_reminder_bot-0.0.1.data/scripts/matrix-reminder-bot,sha256=2hlb5W5zBCIKX2MIA4adCa3aCKvmFfTrnPomGiO_6J4,247
+matrix_reminder_bot-0.0.1.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+matrix_reminder_bot-0.0.1.dist-info/METADATA,sha256=B58eHDlpYvsdeIoK024jxqr4I5BdZjsnFKCHzzhuJzI,7202
+matrix_reminder_bot-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+matrix_reminder_bot-0.0.1.dist-info/top_level.txt,sha256=hq7x7sqR1wR8XHQ5QWmFmPSA8g7B96Rd_KgBrcpz4hA,20
+matrix_reminder_bot-0.0.1.dist-info/RECORD,,
