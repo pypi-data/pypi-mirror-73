@@ -1,0 +1,15 @@
+maysics/__init__.py,sha256=0g8BrhQWHIAsJmdYNADCKdG8oSNsH1nc2XgIXSxwsVA,7430
+maysics/algorithm.py,sha256=fVjv8oHP2Dx4NLeUW8ghTLMpktavu8RasBzPnXWmDec,22602
+maysics/calculus.py,sha256=n-1RnSNpr6huf2b3aX8lKohmio2xaBVwf9xKubNu6NI,15749
+maysics/constant.py,sha256=JGMDPmcyX2sT2P01OQSoW5_p5Sm6530CNeyc4-AyhM4,6000
+maysics/model_selection.py,sha256=2csbK-REKiL4-lREHC3RYkjfbNHQFQJI4YoV0vinCYw,23919
+maysics/models.py,sha256=iEySgANC_oO6_4fLHaQEOIHC1eq96xXnweIxxlA0-2g,13118
+maysics/preprocess.py,sha256=l1QenhBY9g42yCrxWybvl5KmicoNxWkSHOdGuhjmuCE,8009
+maysics/stats.py,sha256=3SyCThJTpfVidpme1lNNXDH0y8i6uX4MWvJlf80eycA,14656
+maysics/transformation.py,sha256=Hv3tIj1_Xm5mxUpOdrr35KM4syaofCHCnhvjLhkiC80,7086
+maysics/utils.py,sha256=h8QSjtkEByBzLzurlxVYI5Bk-2i6MrdjNZvSRtEj3vw,15705
+maysics-0.1.3.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+maysics-0.1.3.dist-info/METADATA,sha256=Tbptp72CZSGEef7OHty6KLPKUkpd-3CfkNvtt7OfSrE,2057
+maysics-0.1.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+maysics-0.1.3.dist-info/top_level.txt,sha256=uk2UyA4RSUWOZXJRzmtJ_VLkCNyTtBgnBqTe6mQYGnc,8
+maysics-0.1.3.dist-info/RECORD,,
