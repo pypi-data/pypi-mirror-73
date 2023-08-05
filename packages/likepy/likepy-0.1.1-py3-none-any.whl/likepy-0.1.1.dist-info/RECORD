@@ -1,0 +1,15 @@
+likepy/__init__.py,sha256=X_JW3KPHNDCNKMGIoXnLYAoYdeSXBtfUCQzA5J6LRk0,529
+likepy/astbuilder.py,sha256=xpOK_wBaZmsIx6m4g4qGm-hyYw1Zu2KM2i70qORbP9A,4553
+likepy/asthelper.py,sha256=vkBDvyKGaYDE_nIw2KHd76HtY2bAzGJZ_B-vq7q_Z5Y,2782
+likepy/compiler.py,sha256=UX6VgeW0GUi_83n6cjGEwgKcliXUbMsJPLlcOxJczuQ,3903
+likepy/exceptions.py,sha256=JC2XRvaGGMQTBgjGWkagcXcamiPq8up6a_A9VH0Mwqk,41
+likepy/helpers.py,sha256=IQSfy0DT7RAvIuwtti3TURxQ4XwK0f9b4-J6HVngbEk,1144
+likepy/restricted.py,sha256=eOGXqIhlCzxyV35epV4qYzR6Eu9wTqS0xbgmI0LxiU4,5960
+likepy/restricted_builtins.py,sha256=W7FOKu3IjmPgEayK1dC1uvTJBh8q3_CVuWwqUGcaDzM,9823
+likepy/starlark.py,sha256=pT1i2Ocsg6vx8zl9ta-FGUP5E7jEA5Gmg0s3Wty7yUg,7443
+likepy/transformer.py,sha256=EZfoSDyXHbthrfpVxDKZOgEhAYCR_7MWriWxPnsgO8s,43191
+likepy-0.1.1.dist-info/LICENSE,sha256=HhpmbC2xnFGbSWQTvv670c851lCXTLMj8KRRBnyAaHU,1064
+likepy-0.1.1.dist-info/METADATA,sha256=1WkKPU6q2n6fFDLJ7YngRc1oze8rO4VWVDY8BRK0yBA,1257
+likepy-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+likepy-0.1.1.dist-info/top_level.txt,sha256=DVTq-ZLp-_XxtXRVdRI3AfsRyBj5ozfNCwSkKjdz0b8,7
+likepy-0.1.1.dist-info/RECORD,,
