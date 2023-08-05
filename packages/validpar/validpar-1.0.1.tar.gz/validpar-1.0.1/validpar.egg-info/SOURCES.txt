@@ -1,0 +1,8 @@
+setup.py
+validpar/__init__.py
+validpar/validpar.py
+validpar.egg-info/PKG-INFO
+validpar.egg-info/SOURCES.txt
+validpar.egg-info/dependency_links.txt
+validpar.egg-info/requires.txt
+validpar.egg-info/top_level.txt
