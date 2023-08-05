@@ -1,0 +1,12 @@
+wmp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wmp/detect.py,sha256=2npvZQoNuW88dSd4uEzgaaAqmJNRlSB3qAIZ71Yprfs,7984
+wmp/utils.py,sha256=a4tKHKlM9w8cUinQn7UcC4d0xt2qLUdrGqUDLCFWIa4,1234
+wmp/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wmp/datasets/sample_image.jpg,sha256=pjCoRhiRhZUQI82haafaQvp5zgwIWsihN5WX9zW2j98,25819
+wmp/datasets/sample_video.mp4,sha256=I26_j_E5f7UjUuh0_Y028TMzWlkB242ZKH-ahiw3ZmA,1648372
+wmp/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wmp-0.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+wmp-0.1.0.dist-info/METADATA,sha256=AcigkumnEJz7p0lwb0ei7SSS2aQaxzqBSmXHu8R9hKc,1041
+wmp-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+wmp-0.1.0.dist-info/top_level.txt,sha256=qn2Rri-0iDilZiBnRQ38KkZ5rd23wBPIjNBvt9fQAEc,4
+wmp-0.1.0.dist-info/RECORD,,
