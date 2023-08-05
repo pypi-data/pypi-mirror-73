@@ -1,0 +1,6 @@
+[console_scripts]
+compman = compman.main:main
+
+[ovshell.extensions]
+compman = compman.ovshell:extension
+
