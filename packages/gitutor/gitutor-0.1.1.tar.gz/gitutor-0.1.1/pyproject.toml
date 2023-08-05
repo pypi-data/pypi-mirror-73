@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gitutor"
+version = "0.1.1"
+description = "Making git easier!"
+authors = ["AMIA"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "7.1.2"
+GitPython = "3.1.3"
+gitdb="4.0.5"
+smmap="3.0.4"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+gt = 'cli:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
