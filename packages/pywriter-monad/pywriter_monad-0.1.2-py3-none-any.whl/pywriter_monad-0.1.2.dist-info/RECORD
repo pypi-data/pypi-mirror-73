@@ -1,0 +1,7 @@
+writer/VERSION.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+writer/__init__.py,sha256=XKmj3oRjWdF0qNr2_lwcSc5h6TpI6mkEthYMyBDAZZg,204
+writer/dictwriter.py,sha256=dW5-9frZjlwaYdXKHk2Utok5IEWjHBFugTA3MBj_uO8,1026
+writer/writer.py,sha256=UuHzbvGqtmtQ635AcIcAa_EiSXgyaFTh1r5UUAYIYPk,1442
+pywriter_monad-0.1.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pywriter_monad-0.1.2.dist-info/METADATA,sha256=hEqxnBFXVHy9i1ei5lKiOFHCvb1LjQ4UeuuzRPmLGRQ,515
+pywriter_monad-0.1.2.dist-info/RECORD,,
