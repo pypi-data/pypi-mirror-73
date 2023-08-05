@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+mmcif_pdbx.egg-info/PKG-INFO
+mmcif_pdbx.egg-info/SOURCES.txt
+mmcif_pdbx.egg-info/dependency_links.txt
+mmcif_pdbx.egg-info/top_level.txt
+mmcif_pdbx.egg-info/zip-safe
+pdbx/__init__.py
+pdbx/reader/__init__.py
+pdbx/reader/containers.py
+pdbx/reader/reader.py
+pdbx/writer/__init__.py
+pdbx/writer/writer.py
