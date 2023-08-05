@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: graphene-gino
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: graphene-gino
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: gino (==1.0.1)
+Requires-Dist: graphene (==2.1.8)
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: async-generator (==1.10) ; extra == 'dev'
+Requires-Dist: faker ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-builtins ; extra == 'dev'
+Requires-Dist: flake8-coding ; extra == 'dev'
+Requires-Dist: flake8-commas ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-debugger ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: flake8-pep3101 ; extra == 'dev'
+Requires-Dist: flake8-quotes ; extra == 'dev'
+Requires-Dist: flake8-string-format ; extra == 'dev'
+Requires-Dist: flake8-super-call ; extra == 'dev'
+Requires-Dist: flake8-eradicate ; extra == 'dev'
+Requires-Dist: flake8-print ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-factoryboy ; extra == 'dev'
+Requires-Dist: pytest-pep8 ; extra == 'dev'
+Requires-Dist: pytest-mock (==3.1.0) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (==0.11.0) ; extra == 'dev'
+
+UNKNOWN
+
+
