@@ -1,0 +1,11 @@
+pgcom/__init__.py,sha256=s18o5BRCbAblcLc69z7LAzVXFiKqKcQ7CRp5UWf6mSo,136
+pgcom/commuter.py,sha256=-EMr1zKFB89Xg2cD2d1UtbeulGU1c64wNadJQzvDxKU,25235
+pgcom/exc.py,sha256=SREIg3c6jAx2Jbm1eOqJ7DTmGNoBNlK1-cBqk4oyUm0,382
+pgcom/listener.py,sha256=qYMOKBLs-qvZdHTIevMuT7OOWZiYCmShtSSgzDxA40k,7104
+pgcom/queries.py,sha256=UKDU2cwXUw-zOyMtiBxlZbXDupc3IGvIEL0Yt56I4rs,2676
+pgcom/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+pgcom-0.2.0.dist-info/LICENSE,sha256=-0cUrhARMsFBrwePEvYKtzZWvB33W7dFVrI8y9hM_m8,1071
+pgcom-0.2.0.dist-info/METADATA,sha256=F8tlbq6wePfmgMH_HuvjpKVhHUjGX2K467E5d3CBPdI,1847
+pgcom-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pgcom-0.2.0.dist-info/top_level.txt,sha256=PkDgRdSm-_mR-71NqGIwdEE8EubaV_2aRKONOeR8X1Y,6
+pgcom-0.2.0.dist-info/RECORD,,
