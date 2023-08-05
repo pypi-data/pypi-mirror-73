@@ -1,0 +1,8 @@
+README.md
+setup.py
+osearch/__init__.py
+osearch/osearch.py
+osearch.egg-info/PKG-INFO
+osearch.egg-info/SOURCES.txt
+osearch.egg-info/dependency_links.txt
+osearch.egg-info/top_level.txt
