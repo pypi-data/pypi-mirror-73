@@ -1,0 +1,319 @@
+""" This module defines processors for ftpvl. """
+
+from typing import List
+import pandas as pd
+from ftpvl.evaluation import Evaluation
+
+
+class Processor:
+    """
+    Superclass for all processors that can be applied to Evaluation instances.
+
+    All processors have a method process() that take an Evaluation instance and
+    returns an Evaluation that has been processed in some way. The behavior of
+    this method is specified by the specific subclass and its parameters.
+    """
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        """
+        Given an Evaluation instance, returns a new Evaluation instance that
+        is processed.
+
+        This method does not mutate the input Evaluation.
+
+        Args:
+            input_eval: an Evaluation to process
+
+        Returns:
+            a processed Evaluation object
+        """
+        raise NotImplementedError
+
+
+class MinusOne(Processor):
+    """
+    Processor that returns the input Evaluation by subtracting one from every
+    data value.
+
+    This processor is useful for testing the functionality of processors on
+    Evaluations.
+    """
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        return Evaluation(input_eval.get_df() - 1)
+
+
+class StandardizeTypes(Processor):
+    """
+    Processor that casts metrics in an Evaluation to the specified type.
+
+    The type of each metric in an Evaluation is inferred after
+    fetching. This processor accepts a dictionary of types and casts the
+    Evaluation to those types.
+    """
+
+    def __init__(self, types: dict):
+        """Initializes StandardizeTypes processor.
+
+        Args:
+            types (dict): A dictionary mapping column names to types.
+        """
+        self._types = types
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        input_df = input_eval.get_df()
+
+        # if int, we might need to convert to float first
+        # (e.g. int(float("6.0")))
+        if int in self._types.values():
+            # create dictionary replacing int with float
+            pre_df_types = {
+                k: (v if v != int else float) for k, v in self._types.items()
+            }
+            input_df = input_df.astype(pre_df_types)
+
+        new_df = input_df.astype(self._types)
+        return Evaluation(new_df)
+
+
+class CleanDuplicates(Processor):
+    """
+    Processor that removes duplicate rows from an Evaluation dataframe based on
+    one or more values in each row.
+
+    By default, the first instance of a duplicate is retained, and all others
+    are removed. You can optionally specify columns to sort by and which way to
+    sort, which provides fine-grained control over which rows are removed.
+    """
+
+    def __init__(
+        self,
+        duplicate_col_names: List[str],
+        sort_col_names: List[str] = None,
+        reverse_sort: bool = False,
+    ):
+        """Initializes CleanDuplicates processor.
+
+        Args:
+            duplicate_col_names (List[str]): column names to use when finding
+                duplicates
+            sort_col_names (List[str], optional): column names to sort by.
+                Defaults to None.
+            reverse_sort (bool, optional): If True, sorts in ascending order.
+                Defaults to False.
+        """
+        self._duplicate_col_names = duplicate_col_names
+        self._sort_col_names = sort_col_names
+        self._reverse_sort = reverse_sort
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        if self._sort_col_names is None:
+            new_df = input_eval.get_df().drop_duplicates(
+                subset=self._duplicate_col_names
+            )
+            return Evaluation(new_df)
+        else:
+            new_df = (
+                input_eval.get_df()
+                .sort_values(by=self._sort_col_names, ascending=self._reverse_sort)
+                .drop_duplicates(subset=self._duplicate_col_names)
+            )
+            return Evaluation(new_df)
+
+
+class AddNormalizedColumn(Processor):
+    """
+    Processor that groups rows by a column, calculates the maximum of the
+    specified column, and adds a new column with the normalized values of the
+    row compared to the max.
+    """
+
+    def __init__(self, groupby: str, input_col_name: str, output_col_name: str):
+        """Initializes the AddNormalizedColumn processor.
+
+        Args:
+            groupby (str): the column to group by
+            input_col_name (str): the input column to normalize
+            output_col_name (str): the column to write the normalized values to
+        """
+        self._groupby = groupby
+        self._input_col_name = input_col_name
+        self._output_col_name = output_col_name
+
+    def _normalize(self, input_df: pd.DataFrame):
+        """
+        Given a dataframe, find the max value of the input col name and
+        create a new column with the normalized value of each row
+        """
+        max_val = input_df[self._input_col_name].max()
+        input_df[self._output_col_name] = input_df[self._input_col_name] / max_val
+        return input_df
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        input_df = input_eval.get_df()
+        new_df = input_df.groupby(self._groupby).apply(self._normalize)
+
+        return Evaluation(new_df)
+
+
+class ExpandColumn(Processor):
+    """
+    Processor that turns one column into more than one column by mapping values
+    of a column to multiple values.
+    """ ""
+
+    def __init__(self, input_col_name: str, output_col_names: List[str], mapping: dict):
+        """Initializes the ExpandColumn processor.
+
+        Args:
+            input_col_name (str): the column name to map from
+            output_col_names (List[str]): the column names to map to
+            mapping (dict): a dictionary mapping a column name to map from to a
+                list of column names to map to
+        """
+        self._input_col_name = input_col_name
+        self._output_col_names = output_col_names
+        self._mapping = mapping
+
+    def _expansion(self, input_df: pd.DataFrame):
+        """
+        Given a dataframe that contains only one unique value in
+        _input_col_name, writes new columns as defined by _output_col_names and
+        _mapping and returns the new dataframe
+        """
+        group_value = input_df[self._input_col_name].iloc[0]
+
+        # check for invalid input
+        assert group_value in self._mapping.keys(), f"{group_value} not in mapping"
+        assert len(self._output_col_names) == len(
+            self._mapping[group_value]
+        ), f"{group_value} mapping length does not equal output_col_name length"
+
+        for output_idx in range(len(self._output_col_names)):
+            input_df[self._output_col_names[output_idx]] = self._mapping[group_value][
+                output_idx
+            ]
+
+        return input_df
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        input_df = input_eval.get_df()
+        new_df = input_df.groupby(self._input_col_name).apply(self._expansion)
+
+        return Evaluation(new_df)
+
+
+class Reindex(Processor):
+    """
+    Processor that reassigns current columns as indices for easier
+    visualization.
+
+    Reindexing is useful for grouping similar results in the final
+    visualization.
+    """
+
+    def __init__(self, reindex_names: List[str]):
+        """Initializes Reindex processor.
+
+        Args:
+            reindex_names (List[str]): a list of column names to reindex
+        """
+        self._reindex_names = reindex_names
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        input_df = input_eval.get_df()
+        new_df = input_df.set_index(self._reindex_names)
+        return Evaluation(new_df)
+
+
+class SortIndex(Processor):
+    """
+    Processor that sorts an evaluation by indices for easier visualization.
+    """
+
+    def __init__(self, sort_names: List[str]):
+        """Initializes SortIndex processor
+
+        Args:
+            sort_names (List[str]): a list of column names to reindex
+        """
+        self._sort_names = sort_names
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        input_df = input_eval.get_df()
+        new_df = input_df.sort_index(level=self._sort_names)
+        return Evaluation(new_df)
+
+
+class NormalizeAround(Processor):
+    """
+    Processor that normalizes all specified values in an Evaluation around
+    a specified index value.
+
+    The Evaluation being processed must have a "project" column which can
+    be grouped
+
+    All normalized values are between 0 and 1, with 0.5 being the baseline.
+    This is useful in creating styles that show relative differences between
+    each row and the baseline.
+
+    One use is normalizing around a certain synthesis tool, such as Vivado.
+    Example: NormalizeAround({"bram": 1}, "project", "synthesis_tool", "vivado")
+    """
+
+    def __init__(
+        self,
+        normalize_direction: dict,
+        group_by: str = "project",
+        idx_name: str = "synthesis_tool",
+        idx_value: str = "vivado",
+    ):
+        """Initializes the NormalizeAround processor.
+
+        Args:
+            normalize_direction (dict): a dictionary mapping column
+                names to 1 or -1. If a value is optimized when smaller, set the
+                negation to 1. If it is optimized when larger, set the negation
+                to -1. If there is no entry, normalization is skipped.
+            group_by (str): the column name used to group results before
+                finding the baseline of the group and normalizing
+            idx_name (str): the name of the index used to find the baseline
+                result. The baseline result will become the baseline which
+                all other grouped results will be normalized by.
+            idx_value (str): the value of the baseline result at idx_name
+        """
+        self._groupby = group_by
+        self._idx_name = idx_name
+        self._idx_value = idx_value
+
+        self._column_names = []
+        self._column_negations = []
+        for name, negation in normalize_direction.items():
+            self._column_names.append(name)
+            self._column_negations.append(negation)
+
+    def _normalize_around(self, input_df):
+        """
+        Given a dataframe, finds the baseline using the specified index name
+        and value, and normalizes all other rows around it. Only affects items
+        specified in normalize_direction. Returns the altered df.
+        """
+        is_baseline = input_df.index.get_level_values(self._idx_name) == self._idx_value
+
+        # get stats for baseline
+        base = input_df.loc[is_baseline, self._column_names].iloc[0]
+        scaling_factor = (input_df[self._column_names] - base).abs().max()
+
+        # rescale values to between -1 and 1
+        scaled = (input_df[self._column_names] - base) / scaling_factor
+        scaled *= self._column_negations
+
+        # rescale values to between 0 and 1
+        offset = (scaled / 2) + 0.5
+        input_df[self._column_names] = offset
+        return input_df
+
+    def process(self, input_eval: Evaluation) -> Evaluation:
+        input_df = input_eval.get_df()
+        new_df = input_df.groupby(self._groupby).apply(self._normalize_around)
+        return Evaluation(new_df)
