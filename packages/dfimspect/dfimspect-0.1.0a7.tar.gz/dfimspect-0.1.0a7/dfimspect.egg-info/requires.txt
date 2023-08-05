@@ -1,0 +1,7 @@
+ipywidgets>=7.0.0
+pandas
+matplotlib
+Pillow
+scikit-video
+tqdm
+flutil
