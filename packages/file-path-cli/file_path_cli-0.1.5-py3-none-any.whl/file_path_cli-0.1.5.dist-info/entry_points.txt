@@ -1,0 +1,3 @@
+[console_scripts]
+file-path=file_path_cli.cli:cli
+
