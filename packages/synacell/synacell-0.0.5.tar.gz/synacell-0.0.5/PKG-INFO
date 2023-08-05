@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: synacell
+Version: 0.0.5
+Summary: Synapses and cells
+Home-page: https://github.com/GinkoBalboa/synacell
+Author: Ginko Balboa
+Author-email: ginkobalboa3@gmail.com
+License: UNKNOWN
+Description: # SynaCell
+        
+        Synapses and cells.
+        
+        Spiking neural network (SNN) consisted of cells with processing algorithms, connected by synapses with realistic signal transmission properties. The engine that runs the SNN is written in plain C++ with interface in Python, for simplicity and platform mobility.
+        
+        ## Tests
+        
+        Test scripts are implemented as a module. You can run them by running the following commands from python after installing `synacell` library:
+        
+        ```
+        import synacell.test as sctest
+        sctest.run_all()
+        ```
+        
+        **Warning:** Temporary files will be created in the directory from where the command is run.
+        
+        ### test_spice.py
+        
+        Tests from this module are not included in the `sctest.run_all()` command, from above.
+        
+        These are meant to be compared to LTSpice output. The point is to validate the solution of the differential equation describing the synapse or cell circuit.
+        
+        #### test_spice_1
+        
+        For this test you will need files generated from LTSpice.
+        
+        To create input file for LTSpice run
+        
+        ```
+        import synacell.test as sctest
+        sctest.generate_spice_input_1()
+        ```
+        
+        The file `./test_spice_1.pwl` is generated. This is the input file for the circuit given in `data/spice/test_spice_1.asc`. Run the circuit for the generated input and save the resulting `vi` and `vo` signals in a file `./test_spice_1.txt`.
+        
+        Compare signals from the `SynaRPC` synapse and the LTSpice model of the circuit by running:
+        
+        ```
+        sctest.test_spice_1()
+        ```
+        
+        This test reads the file `./test_spice_1.txt` generated before and plots two signals, one from the synapse and the other from LTSpice.
+        
+        ## Requirements
+        
+        For now the C++ software is compiled as a Windows shared library (.dll) for 64 bit architectures. You can recompile it as you wish, but the official PyPI package is set to use:
+        
+        * Windows 64bit
+        * Python 3.7+ 64bit
+        
+        ## versions
+        
+        - **0.0.5**
+        Added synapses (SynaBuffer and SynaRPC with passive circuit elements. Added a LTSpice circuit for comparison.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: C++
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
