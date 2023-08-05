@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+kangeioracle/__init__.py
+kangeioracle/core.py
+kangeioracle/helpers.py
+kangeioracle.egg-info/PKG-INFO
+kangeioracle.egg-info/SOURCES.txt
+kangeioracle.egg-info/dependency_links.txt
+kangeioracle.egg-info/requires.txt
+kangeioracle.egg-info/top_level.txt
