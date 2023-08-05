@@ -1,0 +1,7 @@
+Products.CMFPlone>=5.0
+plone.api
+setuptools
+
+[test]
+mock
+plone.app.testing
