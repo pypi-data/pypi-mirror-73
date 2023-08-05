@@ -1,0 +1,8 @@
+README.md
+setup.py
+mzt_text/Validator.py
+mzt_text/__init__.py
+mzt_text_utils.egg-info/PKG-INFO
+mzt_text_utils.egg-info/SOURCES.txt
+mzt_text_utils.egg-info/dependency_links.txt
+mzt_text_utils.egg-info/top_level.txt
