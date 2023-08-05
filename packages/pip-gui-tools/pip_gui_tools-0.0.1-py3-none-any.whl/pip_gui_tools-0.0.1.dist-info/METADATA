@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pip-gui-tools
+Version: 0.0.1
+Summary: A tool for python pip package management
+Home-page: UNKNOWN
+Author: Sam Sultan
+Author-email: sam.ibrahim.sultan@gmail.com
+License: MIT
+Keywords: PIP,UI
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+
+UNKNOWN
+
+
