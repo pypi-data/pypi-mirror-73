@@ -1,0 +1,7 @@
+pymongo==3.9.0
+tqdm==4.36.1
+jsonschema==3.0.2
+elasticsearch==7.0.5
+werkzeug==1.0.1
+fhirpath_helpers@ git+https://github.com/nazrulworld/fhirpath_helpers@0f0c5001ef6060e6bf319e6a7fc6f09676712267#egg=fhirpath_helpers
+fhirpath@ git+https://github.com/arkhn/fhirpath@88c7665107b0694397b8d8a88bbf33d8552525af#egg=fhirpath
