@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: spyn
+Version: 0.0.1
+Summary: Tools to transform data into "model-less" operable inference objects.
+Home-page: https://github.com/thorwhalen/spyn
+Author: Thor Whalen
+License: MIT
+Download-URL: https://github.com/thorwhalen/spyn/archive/v0.0.1.zip
+Description: UNKNOWN
+Keywords: machine learning,artificial intelligence,AI,ML,probabilistic inference,Bayesian
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
