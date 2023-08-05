@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flight-optimizer
+Version: 0.0.0b0
+Summary: Package that searches for the cheapest airplane flights per kilometer.
+Home-page: UNKNOWN
+Author: Erik Duisheev
+Author-email: erik.duisheev@gmail.com
+License: UNLICENSE
+Platform: UNKNOWN
+Requires-Python: >=3.5,<4.0
+Requires-Dist: click (==7.1.2)
+Requires-Dist: pytest
+
+# flight-optimizer
+Package that searches for the cheapest airplane flights per kilometer
+
+

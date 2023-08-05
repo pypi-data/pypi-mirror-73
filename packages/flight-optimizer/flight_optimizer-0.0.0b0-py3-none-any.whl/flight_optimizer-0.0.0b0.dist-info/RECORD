@@ -1,0 +1,9 @@
+flight_optimizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flight_optimizer/cli.py,sha256=8t8yNeliXzdDsfLNy05VNroybOCrg8zTzfjF1-smq6M,55
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_flight_optimizer.py,sha256=z9LmOyPW3NwB4hOKtRQCYajinw6_hNujLAqd-rd1_hM,297
+flight_optimizer-0.0.0b0.dist-info/METADATA,sha256=-hTN85ZZCUiC_rPXGk5UPQF-U7MRRgRT9G2yowXKR7M,431
+flight_optimizer-0.0.0b0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flight_optimizer-0.0.0b0.dist-info/entry_points.txt,sha256=ZKNWtE0dgdkocFQfLIJ5C_e_1OPTuxWxH1YtDNqNTL8,66
+flight_optimizer-0.0.0b0.dist-info/top_level.txt,sha256=DYnsi6av6ywBzuXMbV195SQLppaIonoAWqFjY49Dchk,23
+flight_optimizer-0.0.0b0.dist-info/RECORD,,
