@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: password-sanity
+Version: 0.3
+Summary: A simple, python program for securely managing passwords through the command line.
+Home-page: https://github.com/Dudemanguy/password-sanity
+Author: Dudemanguy
+Author-email: random342@airmail.cc
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
