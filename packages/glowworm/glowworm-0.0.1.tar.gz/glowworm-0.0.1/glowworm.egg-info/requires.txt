@@ -1,0 +1,6 @@
+firebase-admin
+
+[dev]
+flake8
+mypy
+pytest
