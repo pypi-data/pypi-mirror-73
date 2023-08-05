@@ -1,0 +1,13 @@
+numpy>=1.13.0
+
+[all]
+pytest
+spaceweather
+xarray
+
+[dataset]
+spaceweather
+xarray
+
+[tests]
+pytest
