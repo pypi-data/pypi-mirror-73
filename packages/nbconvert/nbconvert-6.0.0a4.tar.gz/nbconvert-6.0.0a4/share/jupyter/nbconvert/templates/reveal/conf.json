@@ -1,0 +1,9 @@
+{
+    "base_template": "lab",
+    "mimetypes": {
+        "text/html": true
+    },
+    "preprocessors": [
+        "nbconvert.exporters.slides._RevealMetadataPreprocessor"
+    ]
+}
