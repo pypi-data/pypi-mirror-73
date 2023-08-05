@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: abita_distributions
+Version: 1.0
+Summary: Gaussian and Binomial distributions
+Home-page: UNKNOWN
+Author: Abita Ann Augustine
+Author-email: abitaaugustine@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: The package provides two probabitlity distribution functions Binomial distribution function and Gaussian distribution function.
+        The Binomial distribution function can be used by importing Binomial class with input values as probability value, number of data.
+        The Gaussian distribution function can be used by importing Gaussian class with input values mean and standard deviation.
+Platform: UNKNOWN

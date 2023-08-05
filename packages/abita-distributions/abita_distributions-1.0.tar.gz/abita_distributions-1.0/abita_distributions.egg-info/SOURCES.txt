@@ -1,0 +1,10 @@
+setup.py
+abita_distributions/Binomialdistribution.py
+abita_distributions/Gaussiandistribution.py
+abita_distributions/Generaldistribution.py
+abita_distributions/__init__.py
+abita_distributions.egg-info/PKG-INFO
+abita_distributions.egg-info/SOURCES.txt
+abita_distributions.egg-info/dependency_links.txt
+abita_distributions.egg-info/not-zip-safe
+abita_distributions.egg-info/top_level.txt
