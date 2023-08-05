@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oanda-chart
+Version: 0.0.1
+Summary: Oanda forex candle chart tkinter widget.
+License: MIT
+Author: Andrew Allaire
+Author-email: andrew.allaire@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: forex-types (>=0.0.6,<0.0.7)
+Requires-Dist: oanda-candles (>=0.0.6,<0.0.7)
+Requires-Dist: tk-oddbox (>=0.0.3,<0.0.4)
