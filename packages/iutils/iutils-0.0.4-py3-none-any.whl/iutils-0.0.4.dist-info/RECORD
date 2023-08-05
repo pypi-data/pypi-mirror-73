@@ -1,0 +1,15 @@
+iutils/__init__.py,sha256=xAO99-pq_Pw2zEA0ha-2JR14RecSSFy3n80h8ukrpP8,39
+iutils/dict.py,sha256=5wgwSkfSck8es0lc_WqOZWj1W9_lADIFdpXOXoI25dY,711
+iutils/utils.py,sha256=wdyZQ-TuNqsBBakrnEgp5HglUayEMk55Xv1oG0IsBLc,1353
+iutils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iutils/tests/test_dict.py,sha256=MgGDQX6U1rWwNjqP17DqIo1AGkBic-7VtNPYoX3f5XI,2459
+iutils/tests/test_utils.py,sha256=H26FsHaJ9xI5CAFMFdydrsjYBcV-SldjoA2o4hUYWs8,999
+qaws/__init__.py,sha256=f_BFsmNiLN-ZK1TV5pKFl6TtEPDx6XwzQgXf3NsOzKo,14
+qaws/ec2.py,sha256=fdBNnavjdOFIEWmsxsOhlWGPJEsRsPrd87oCfu1YyJg,1062
+qaws/qaws.py,sha256=-xGVNs85HwFn-AHw64f6LsNIEI3bZzDbMohnEitfwlc,1201
+iutils-0.0.4.dist-info/LICENSE.txt,sha256=gBSCWuwdLPUSCdESEcrVsq_vhvxrOXlhu-6WbQPEkFE,1073
+iutils-0.0.4.dist-info/METADATA,sha256=oJc3eO0WuCSNr9YwXeUu3Yx4-OgDX3DsNahxXBJrjbU,3728
+iutils-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+iutils-0.0.4.dist-info/entry_points.txt,sha256=sm4Tw9UX1FYepdntdL-p95706MkM85NT47JfNFlsPR0,58
+iutils-0.0.4.dist-info/top_level.txt,sha256=2Ffo0T0NPdtjDdVeQBfDI-SxEtnlb3-UxxjUR6ER7Eg,12
+iutils-0.0.4.dist-info/RECORD,,
