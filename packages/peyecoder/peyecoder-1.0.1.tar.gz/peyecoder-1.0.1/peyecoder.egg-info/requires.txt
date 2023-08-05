@@ -1,0 +1,8 @@
+numpy
+opencv-python
+Pillow
+PyAudio
+PySide2
+python-dateutil
+sortedcontainers
+timecode
