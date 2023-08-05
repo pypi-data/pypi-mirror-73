@@ -1,0 +1,7 @@
+Change Log
+===========
+
+1.0.0 (08/07/2020)
+------------------
+- First complete relase
+- Added money functions
