@@ -1,0 +1,34 @@
+{
+ "collection_info": {
+  "namespace": "frr",
+  "name": "frr",
+  "version": "1.0.1-dev1",
+  "authors": [
+   "Ansible Network Community (ansible-network)"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "routing",
+   "networking",
+   "facts"
+  ],
+  "description": null,
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {
+   "ansible.netcommon": "*"
+  },
+  "repository": "https://github.com/ansible-collections/frr.frr",
+  "documentation": null,
+  "homepage": null,
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "366b7af344752e22ebd1dd83deb2992a5aedb08ddbe8c894769cbc4306d6d99d",
+  "format": 1
+ },
+ "format": 1
+}
