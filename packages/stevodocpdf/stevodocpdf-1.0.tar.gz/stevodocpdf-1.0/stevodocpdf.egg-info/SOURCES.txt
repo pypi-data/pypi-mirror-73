@@ -1,0 +1,9 @@
+README.md
+setup.py
+stevodocpdf/__init__.py
+stevodocpdf/pdf2image.py
+stevodocpdf/pdf2text.py
+stevodocpdf.egg-info/PKG-INFO
+stevodocpdf.egg-info/SOURCES.txt
+stevodocpdf.egg-info/dependency_links.txt
+stevodocpdf.egg-info/top_level.txt
