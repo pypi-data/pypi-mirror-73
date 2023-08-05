@@ -1,0 +1,41 @@
+# colourful
+colourful is a package to colorize any greyscale image.
+
+# Usage
+```python
+from colourful import Colour
+api = Colour("your-api-key")
+image = api.colourize("path/to/file/or/url")
+print(image)
+```
+
+# Example
+```python
+from colourful import Colour
+api = Colour("api-key")
+image_url = api.colourize("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSquKY_mSuJBAAiJ96LPdqS3yWFLMqZSvL73g&usqp=CAU")
+print(image_url)
+> https://api.deepai.org/job-view-file/8ef87b60-aecc-4ac4-8e8b-cc4de7a107eb/outputs/output.jpg
+```
+
+## Example Using Images
+
+Input -
+
+![Input](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSquKY_mSuJBAAiJ96LPdqS3yWFLMqZSvL73g&usqp=CAU)
+
+Output -
+
+![Output](https://api.deepai.org/job-view-file/8ef87b60-aecc-4ac4-8e8b-cc4de7a107eb/outputs/output.jpg)
+
+
+# Get API Key
+
+1 - Go to [DeepAI](https://deepai.org) and create an account
+
+2 - Verify by clicking on the URL sent by DeepAI to your E-Mail
+
+3 - Go to [DeepAI Dashboard](https://deepai.org/dashboard) and get your API Key
+
+
+Note - This package is currently under development

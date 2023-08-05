@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+colourful/__init__.py
+colourful.egg-info/PKG-INFO
+colourful.egg-info/SOURCES.txt
+colourful.egg-info/dependency_links.txt
+colourful.egg-info/top_level.txt
