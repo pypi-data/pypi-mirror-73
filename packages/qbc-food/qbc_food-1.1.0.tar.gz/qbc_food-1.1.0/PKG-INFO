@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: qbc_food
+Version: 1.1.0
+Summary: Recognize food image.
+Home-page: https://www.shinelab.cn
+Author: charles
+Author-email: charlesmeng@shinelab.cn
+License: MIT
+Description: To judge a food image or recognize a food image.
+Keywords: python,food,image
+Platform: UNKNOWN
