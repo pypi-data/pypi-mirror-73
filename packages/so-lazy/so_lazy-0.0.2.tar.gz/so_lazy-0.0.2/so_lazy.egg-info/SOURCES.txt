@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+so_lazy/__init__.py
+so_lazy/pkg_info.json
+so_lazy.egg-info/PKG-INFO
+so_lazy.egg-info/SOURCES.txt
+so_lazy.egg-info/dependency_links.txt
+so_lazy.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
+tests/test_class.py
+tests/test_func.py
+tests/test_func_loader.py
+tests/test_package.py
