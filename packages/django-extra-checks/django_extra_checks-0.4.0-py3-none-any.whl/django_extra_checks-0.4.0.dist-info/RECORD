@@ -1,0 +1,16 @@
+extra_checks/__init__.py,sha256=OpluyLBeTskql5ekFj_68_nvyTNWwaVU6mchSAarluQ,979
+extra_checks/apps.py,sha256=DtcoRDCZXspyOJlAhCUqC5y2TCe0cN2ISAOUWojY4M8,276
+extra_checks/ast.py,sha256=cPe-zI2Ec1tEs597i1MZErpLdEkSBke4EgoLoodPLr0,4032
+extra_checks/forms.py,sha256=dOkRIEB-awZgeiiTr0iyv8PiTwECoxTmhMSnSmvGgJ0,5854
+extra_checks/registry.py,sha256=TGu7z2rucXqfu5CCayH_wkBqJHt2XZ7G3s4tlyX4xt0,3534
+extra_checks/checks/__init__.py,sha256=UkUgaauy6qBeBo01XLnB24ppLjhdS1eVA0oAYsCe_Pk,197
+extra_checks/checks/base_checks.py,sha256=v7kL5AYG7JnS8QIgXsdFQmdIY3arBkTt8TKH-OGsSwI,1490
+extra_checks/checks/drf_serializer_checks.py,sha256=nvYqh3tIezIvlnYMjO1EUmVxo_aijJTKu2D-aMUTg2c,4899
+extra_checks/checks/model_checks.py,sha256=i4eh-fA54zB4mGc_GrQ85wAXLqeDCUOp_eQE4WJmt9I,5235
+extra_checks/checks/model_field_checks.py,sha256=23RtyRrpIc5Ur5bcEzlXK4OvKyjYJjiizwnQO_yy_fI,7305
+extra_checks/checks/self_checks.py,sha256=w9BdanVQaSnkHjmlyiEjRdzxYTbIvOduhgzKJD8cWAI,1509
+django_extra_checks-0.4.0.dist-info/LICENSE,sha256=Y6xEbNH-RCaxl7ZIFlkEBhDKuDXixNq7MJ4pn9mEz3w,1086
+django_extra_checks-0.4.0.dist-info/METADATA,sha256=1iVaFczGIbzbYDgGc9f_icQ7k8zuj_c5bfhAyl5-Ns0,4710
+django_extra_checks-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_extra_checks-0.4.0.dist-info/top_level.txt,sha256=OJ5_4kRIpNvGNphmGYt68luZwnw7rXJGoO9arSXR5w0,13
+django_extra_checks-0.4.0.dist-info/RECORD,,
