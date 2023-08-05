@@ -1,0 +1,17 @@
+nlp2go/__init__.py,sha256=tpbB4kJbR6GUnNvuK-kfTYueWrRbHIjRvaE6Yo9D4Fs,20
+nlp2go/cli.py,sha256=Vok0dT8xuNb4r7zK912ugWRZTvMY5Z4oI_YIOdP1mf4,343
+nlp2go/main.py,sha256=L3KAxbzBqz_bJzdx0VYRV1PtaXqNBk3ODRDE4vfJNCY,1610
+nlp2go/model.py,sha256=HCZwdfMyST3QCY2qu3mSBBI2pgQdYJ3BOpX45LVysqY,2881
+nlp2go/parser.py,sha256=coZ2dO0pjOk6rZmdflbUYSmDlScIarv9bQ95V229bGs,4306
+nlp2go/preload.py,sha256=YMefvsCU97uRtlQxyzIsPJ9Iq0zrdqSnvMmjA9ntIi8,737
+nlp2go/prep.py,sha256=cAbRrUkDOYk9cHGD6JXIq_Ity9xSDIK56KxuuBkCp68,826
+nlp2go/server.py,sha256=WO1OWly_nlmWv5gTKl1JEJDnt_8D9tJV-fEOyGwtKF8,1650
+nlp2go/util.py,sha256=mrehJ0V_FMQhFS_XSQFr1F1HNPKMno8EgAD3TF547gY,639
+nlp2go/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp2go/test/test_parser.py,sha256=8A3FrbjbSR3UVbIczoZlRCCf5LMhEIKTVDW7_uSj3Mg,237
+nlp2go-0.1.0.dist-info/LICENSE,sha256=BawTf8wVWOmGeCmP2xFCIcd8WW1_LEq26fX_AuhFGu4,11332
+nlp2go-0.1.0.dist-info/METADATA,sha256=Zjzu7Nvg4VsOWMLSRYHkSLenZEx8i7Gii-XnIhZOErs,2838
+nlp2go-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+nlp2go-0.1.0.dist-info/entry_points.txt,sha256=vWhVKzpBmTcfjsw73rb0c1S9iGHe4nFgl_29cZ07Rio,82
+nlp2go-0.1.0.dist-info/top_level.txt,sha256=-NS3hZsu08dh-bX9R4DbxgpwAnnshc82dEP73rcgXcQ,7
+nlp2go-0.1.0.dist-info/RECORD,,
