@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+import sys
+from xml.etree import ElementTree as ET
+from pathlib import Path
+import subprocess
+from argparse import ArgumentParser
+
+
+def main():
+    parser = ArgumentParser(description='''
+        ipeanim uses iperender to create multiple renderings of a single .ipe file.
+        It takes all visible layers and renders them, and then hides each layer consecutively.
+
+        Any extra arguments will be passed to the iperender command.''')
+    parser.add_argument('path', type=Path)
+    parser.add_argument('--format', default='eps', help='Output format. Will be passed to iperender')
+    parser.add_argument('--out-dir', help='Output directory. Will be the filename without extension by default.')
+    args, unknown_args = parser.parse_known_args()
+    path = Path(args.path)
+    if not path.exists():
+        print(f'No such file or directory: {path}')
+        sys.exit(1)
+    if not args.out_dir:
+        out_dir = Path(path.stem)
+    else:
+        out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        tree = ET.parse(path)
+    except ET.ParseError:
+        print('Could not parse xml. Did you provide a valid ipe file?')
+        sys.exit(1)
+    except IsADirectoryError as e:
+        print(e)
+        sys.exit(1)
+    root = tree.getroot()
+    i = len(root.find('page').findall('view'))
+    ipe_tmp_file = out_dir / f'tmp.ipe'
+    while i > 0:
+        target_file = out_dir / f'{i}.{args.format}'
+        tree.write(ipe_tmp_file)
+        cmd = ['iperender', f'-{args.format}', '-view', str(i)] + unknown_args + [ipe_tmp_file, target_file]
+        print(' '.join(map(str, cmd)))
+        subprocess.run(cmd)
+        i -= 1
+    # ipe_tmp_file.unlink()
+
+
+if __name__ == '__main__':
+    main()
