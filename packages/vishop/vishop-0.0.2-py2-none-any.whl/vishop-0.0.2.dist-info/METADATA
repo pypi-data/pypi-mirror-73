@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: vishop
+Version: 0.0.2
+Summary: Vishop is command line VIM script publisher client.
+Home-page: https://github.com/Xvezda/vishop
+Author: Xvezda
+Author-email: xvezda@naver.com
+License: MIT
+Keywords: VIM,VI,editor,plugin,package manager,utility,publishing
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Topic :: Text Editors
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: BeautifulSoup4
+
+# Vishop
+
+[![Version](https://img.shields.io/pypi/v/vishop)](https://pypi.org/project/vishop)
+![License](https://img.shields.io/pypi/l/vishop)
+![Support](https://img.shields.io/pypi/pyversions/vishop)
+
+> Publish your vim plugin right away!
+
+`vishop` is VIM script publisher client.
+Easily bundle and deploy to [vim.org](https://www.vim.org/scripts/index.php)
+on command line.
+
+No web browser required!
+
+
+## Installation
+
+```sh
+pip install vishop
+```
+
+## Usage
+
+```sh
+# Create configuration file (vishop.json)
+vishop init
+
+# Bundle
+vishop build .
+
+# Publishing
+vishop publish dist/*.tar.gz
+```
+
+## FAQ
+
+> Why Python?
+
+Because VIM supports python command (see `:help python`).
+It will much easier when you develop your own VIM plugin using vishop module,
+or even simple gluing in vimrc file; because it's written in Python. And also _life is short_.
+
+
+## License
+
+Copyright (C) 2020 Xvezda
+
+MIT License
+
+

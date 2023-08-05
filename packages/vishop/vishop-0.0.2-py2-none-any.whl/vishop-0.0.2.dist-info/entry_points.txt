@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        vishop=vishop.core:main
+    
