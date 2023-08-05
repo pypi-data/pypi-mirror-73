@@ -1,0 +1,4 @@
+[console_scripts]
+scg_model_eval = swarmcg.evaluate_model:main
+scg_model_opti = swarmcg.optimize_model:main
+
