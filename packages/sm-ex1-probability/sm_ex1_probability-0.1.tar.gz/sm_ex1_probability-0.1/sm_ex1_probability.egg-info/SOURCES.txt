@@ -1,0 +1,10 @@
+setup.py
+sm_ex1_probability/Binomialdistribution.py
+sm_ex1_probability/Gaussiandistribution.py
+sm_ex1_probability/Generaldistribution.py
+sm_ex1_probability/__init__.py
+sm_ex1_probability.egg-info/PKG-INFO
+sm_ex1_probability.egg-info/SOURCES.txt
+sm_ex1_probability.egg-info/dependency_links.txt
+sm_ex1_probability.egg-info/not-zip-safe
+sm_ex1_probability.egg-info/top_level.txt
