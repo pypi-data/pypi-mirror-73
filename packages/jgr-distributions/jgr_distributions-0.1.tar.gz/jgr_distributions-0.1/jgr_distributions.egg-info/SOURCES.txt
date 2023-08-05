@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+jgr_distributions/Binomialdistribution.py
+jgr_distributions/Gaussiandistribution.py
+jgr_distributions/Generaldistribution.py
+jgr_distributions/__init__.py
+jgr_distributions.egg-info/PKG-INFO
+jgr_distributions.egg-info/SOURCES.txt
+jgr_distributions.egg-info/dependency_links.txt
+jgr_distributions.egg-info/not-zip-safe
+jgr_distributions.egg-info/top_level.txt
