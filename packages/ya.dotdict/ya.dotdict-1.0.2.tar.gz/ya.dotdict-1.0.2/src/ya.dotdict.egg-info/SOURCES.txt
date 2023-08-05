@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/ya/__init__.py
+src/ya/dotdict.py
+src/ya.dotdict.egg-info/PKG-INFO
+src/ya.dotdict.egg-info/SOURCES.txt
+src/ya.dotdict.egg-info/dependency_links.txt
+src/ya.dotdict.egg-info/requires.txt
+src/ya.dotdict.egg-info/top_level.txt
+test/test_dotdict.py
