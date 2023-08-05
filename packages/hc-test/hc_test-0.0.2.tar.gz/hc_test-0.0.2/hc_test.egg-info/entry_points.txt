@@ -1,0 +1,4 @@
+[console_scripts]
+start = hc_test:hello_world
+test = hc_test:test
+
