@@ -1,0 +1,10 @@
+bidsphysio.session-1.0.0-py3.8-nspkg.pth,sha256=-q0tz3KpVFX-CTMy1tiWJVqFViYWx9xDeDOxnfxREoQ,559
+bidsphysio/session/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+bidsphysio/session/info.py,sha256=lOU06WSEZzz6oOXuL6fjkFWxaUubFKF3N2CKnk96Odo,938
+bidsphysio/session/session2bids.py,sha256=jrCmMV84vR5c5q1TVZeZ6YdM2ennz_UCsqmoXKhwXRM,16008
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bidsphysio.session-1.0.0.dist-info/METADATA,sha256=qpuJ2rPJvwwQvEeCxaBW6cziD6nuvw-7WS0tD7w24v4,857
+bidsphysio.session-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bidsphysio.session-1.0.0.dist-info/namespace_packages.txt,sha256=2FheJI0dxUB4_GQLIG6kY3N9WvHdAtvGddpujVLE9xY,11
+bidsphysio.session-1.0.0.dist-info/top_level.txt,sha256=L5cDw-5BuJykyKxyEPg0Zg6zLxwJRIET5wcn9SWjXNY,17
+bidsphysio.session-1.0.0.dist-info/RECORD,,
