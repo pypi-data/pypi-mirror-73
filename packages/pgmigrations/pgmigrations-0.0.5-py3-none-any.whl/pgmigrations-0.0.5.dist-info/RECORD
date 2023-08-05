@@ -1,0 +1,13 @@
+pgmigrations/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+pgmigrations/api.py,sha256=ShkBbJx5hPiE-A51988Tfnqw8tryHCjsbpekuKjyoOY,5480
+pgmigrations/cli.py,sha256=I6C1a2blKOxghCo1mndXXWJsA7eBvZpCVM5B-jPJC7o,1350
+pgmigrations/constants.py,sha256=YTcLSBUWerDJhI6Q9FgisOn1NYe7lxbQsC51LSnShYg,195
+pgmigrations/data_access.py,sha256=xoP69EV4XA2llpT-IFJ35c7aMEU0zoCwxjLlXcnwOAY,1857
+pgmigrations/exceptions.py,sha256=u0tzYuWeDJDCwD5frqPcwUscmAoVD0BygOhi41KezZ0,228
+pgmigrations/version.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+pgmigrations-0.0.5.dist-info/LICENSE,sha256=Fn7b869emgZrmVPCg496mYgjth3tPuFc0C8nC6eP9RA,1065
+pgmigrations-0.0.5.dist-info/METADATA,sha256=MkdmjbZAsSsoLdJi3C1Fo078JHgR-Unr0hN6BTDZM2Y,2458
+pgmigrations-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pgmigrations-0.0.5.dist-info/entry_points.txt,sha256=R32CL5wjTlyN0jIq-lr634ZpdNbC7-Y0xbk3wx-4ZJQ,55
+pgmigrations-0.0.5.dist-info/top_level.txt,sha256=5yuXaoqaTo96K3jZCniLNMCj3-Y3oTDqCLUgFBkYvXs,13
+pgmigrations-0.0.5.dist-info/RECORD,,
