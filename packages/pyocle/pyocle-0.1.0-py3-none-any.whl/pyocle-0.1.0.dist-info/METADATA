@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyocle
+Version: 0.1.0
+Summary: Common library used alongside jsexton-portfolio chalice applications.
+Home-page: https://github.com/jsexton-portfolio/pyocle.git
+Author: Justin Sexton
+Author-email: justinsexton.dev@gmail.com
+License: MIT
+Keywords: library,chalice
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# Pyocle
+![](https://github.com/jsexton-portfolio/pyocle/workflows/build/badge.svg)
+
+Common library used alongside jsexton-portfolio chalice applications.
+
+
+
