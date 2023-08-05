@@ -1,0 +1,7 @@
+include README.md
+include pytest.ini
+include .gitignore
+include requirement.txt
+include results/logs
+include results/screenshots
+include payload/*.json

@@ -1,0 +1,24 @@
+# .coveragerc to control coverage.py
+[run]
+source = .
+omit =
+    *__init__*
+    */__pychche__/*
+    */disutils/*
+    */site-packages/*
+    */payloads/*
+    *venv/*
+    *venv/bin/*
+    *venv/include/*
+    *venv/lib/*
+    */rstdepassuredtchnq/core/base/config/*
+    */rstdepassuredtchnq/core/base/log/*
+    *setup.py*
+    *tests/base_test.py*
+
+
+
+[report]
+#fail_under = 100
+show_missing = True
+#skip_covered = True

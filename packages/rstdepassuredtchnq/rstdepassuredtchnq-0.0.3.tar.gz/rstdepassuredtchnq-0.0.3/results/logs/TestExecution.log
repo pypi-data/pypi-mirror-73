@@ -1,0 +1,176 @@
+2020-07-04 13:18:03 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-04 13:18:03 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-04 13:18:03 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-04 13:18:03 | INFO | Base_Logging | impl | Total number of checks=0
+2020-07-04 13:18:03 | INFO | Base_Logging | impl | Total number of checks passed=0
+
+2020-07-04 13:19:02 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-04 13:19:02 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-04 13:19:52 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-04 13:19:52 | INFO | Base_Logging | impl | Total number of checks=0
+2020-07-04 13:19:52 | INFO | Base_Logging | impl | Total number of checks passed=0
+
+2020-07-04 13:19:55 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-04 13:19:55 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-04 13:19:57 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-04 13:19:57 | INFO | Base_Logging | impl | Total number of checks=0
+2020-07-04 13:19:57 | INFO | Base_Logging | impl | Total number of checks passed=0
+
+2020-07-04 13:20:58 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-04 13:20:58 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-04 13:20:58 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 13:20:58 | INFO | Base_Logging | impl | PASS: Successfully Retrived Users info with details 200
+2020-07-04 13:20:58 | INFO | Base_Logging | impl | Initial_count value is 6
+2020-07-04 13:20:58 | INFO | Base_Logging | impl | get_single_user_response value is <Response [200]>
+2020-07-04 13:20:58 | INFO | Base_Logging | impl | PASS: Successfully Retrived Single Users info with details 200
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | add_new_user_response value is <Response [201]>
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 201
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | id_val value is 888
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 404
+2020-07-04 13:20:59 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | new_count value is 6
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | Total number of checks=4
+2020-07-04 13:20:59 | INFO | Base_Logging | impl | Total number of checks passed=4
+
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-04 13:22:00 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | PASS: Successfully Retrived Users info with details 200
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | Initial_count value is 6
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | get_single_user_response value is <Response [200]>
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | PASS: Successfully Retrived Single Users info with details 200
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | add_new_user_response value is <Response [201]>
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 201
+2020-07-04 13:22:00 | INFO | Base_Logging | impl | id_val value is 336
+2020-07-04 13:22:01 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 404
+2020-07-04 13:22:01 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 13:22:01 | INFO | Base_Logging | impl | new_count value is 6
+2020-07-04 13:22:01 | INFO | Base_Logging | impl | PASS: Success - test_get_reqre_api Retrived Users info with details 200
+2020-07-04 13:22:01 | INFO | Base_Logging | impl | PASS: Success - test_delete_reqre_api Users info with details 204
+2020-07-04 13:22:02 | INFO | Base_Logging | impl | PASS: Success - test_post_body_json_no_header Users info with details 201
+2020-07-04 13:22:02 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-04 13:22:02 | INFO | Base_Logging | impl | Total number of checks=7
+2020-07-04 13:22:02 | INFO | Base_Logging | impl | Total number of checks passed=7
+
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-04 13:22:34 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | PASS: Successfully Retrived Users info with details 200
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | Initial_count value is 6
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | get_single_user_response value is <Response [200]>
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | PASS: Successfully Retrived Single Users info with details 200
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | add_new_user_response value is <Response [201]>
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 201
+2020-07-04 13:22:34 | INFO | Base_Logging | impl | id_val value is 194
+2020-07-04 13:22:35 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 404
+2020-07-04 13:22:35 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 13:22:35 | INFO | Base_Logging | impl | new_count value is 6
+2020-07-04 13:22:35 | INFO | Base_Logging | impl | PASS: Success - test_get_reqre_api Retrived Users info with details 200
+2020-07-04 13:22:36 | INFO | Base_Logging | impl | PASS: Success - test_delete_reqre_api Users info with details 204
+2020-07-04 13:22:36 | INFO | Base_Logging | impl | PASS: Success - test_post_body_json_no_header Users info with details 201
+2020-07-04 13:22:37 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-04 13:22:37 | INFO | Base_Logging | impl | Total number of checks=7
+2020-07-04 13:22:37 | INFO | Base_Logging | impl | Total number of checks passed=7
+
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-04 21:25:37 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | PASS: Successfully Retrived Users info with details 200
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | Initial_count value is 6
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | get_single_user_response value is <Response [200]>
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | PASS: Successfully Retrived Single Users info with details 200
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | add_new_user_response value is <Response [201]>
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 201
+2020-07-04 21:25:37 | INFO | Base_Logging | impl | id_val value is 741
+2020-07-04 21:25:38 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 404
+2020-07-04 21:25:38 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-04 21:25:38 | INFO | Base_Logging | impl | new_count value is 6
+2020-07-04 21:25:38 | INFO | Base_Logging | impl | PASS: Success - test_get_reqre_api Retrived Users info with details 200
+2020-07-04 21:25:38 | INFO | Base_Logging | impl | PASS: Success - test_delete_reqre_api Users info with details 204
+2020-07-04 21:25:39 | INFO | Base_Logging | impl | PASS: Success - test_post_body_json_no_header Users info with details 201
+2020-07-04 21:25:39 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-04 21:25:39 | INFO | Base_Logging | impl | Total number of checks=7
+2020-07-04 21:25:39 | INFO | Base_Logging | impl | Total number of checks passed=7
+
+2020-07-05 10:20:43 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-05 10:20:43 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-05 10:20:43 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-05 10:20:43 | INFO | Base_Logging | impl | PASS: Successfully Retrived Users info with details 200
+2020-07-05 10:20:43 | INFO | Base_Logging | impl | Initial_count value is 6
+2020-07-05 10:20:44 | INFO | Base_Logging | impl | get_single_user_response value is <Response [200]>
+2020-07-05 10:20:44 | INFO | Base_Logging | impl | PASS: Successfully Retrived Single Users info with details 200
+2020-07-05 10:20:45 | INFO | Base_Logging | impl | add_new_user_response value is <Response [201]>
+2020-07-05 10:20:45 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 201
+2020-07-05 10:20:45 | INFO | Base_Logging | impl | id_val value is 219
+2020-07-05 10:20:45 | INFO | Base_Logging | impl | PASS: Successfully Added Single Users info with details 404
+2020-07-05 10:20:45 | INFO | Base_Logging | impl |  Get Users List Response Json is {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg'}], 'ad': {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'}}
+2020-07-05 10:20:45 | INFO | Base_Logging | impl | new_count value is 6
+2020-07-05 10:20:45 | INFO | Base_Logging | impl | PASS: Success - test_get_reqre_api Retrived Users info with details 200
+2020-07-05 10:20:46 | INFO | Base_Logging | impl | PASS: Success - test_delete_reqre_api Users info with details 204
+2020-07-05 10:20:46 | INFO | Base_Logging | impl | PASS: Success - test_post_body_json_no_header Users info with details 201
+2020-07-05 10:20:47 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-05 10:20:47 | INFO | Base_Logging | impl | Total number of checks=7
+2020-07-05 10:20:47 | INFO | Base_Logging | impl | Total number of checks passed=7
+
+2020-07-05 10:39:36 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-05 10:39:36 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-05 10:39:36 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-05 10:39:36 | INFO | Base_Logging | impl | Total number of checks=0
+2020-07-05 10:39:36 | INFO | Base_Logging | impl | Total number of checks passed=0
+
+2020-07-05 10:40:20 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-05 10:40:20 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-05 10:40:34 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-05 10:40:34 | INFO | Base_Logging | impl | Total number of checks=0
+2020-07-05 10:40:34 | INFO | Base_Logging | impl | Total number of checks passed=0
+
+2020-07-05 10:40:42 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-05 10:40:42 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-05 10:41:26 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-05 10:41:26 | INFO | Base_Logging | impl | Total number of checks=0
+2020-07-05 10:41:26 | INFO | Base_Logging | impl | Total number of checks passed=0
+
+2020-07-05 10:41:35 | INFO | Base_Logging | impl | /Users/deepirms2619/Documents/Project/GitHub/Python/python-api-testing/tests
+2020-07-05 10:41:35 | INFO | Base_Logging | impl | 
+
+
+****************************************** Started Test Execution ******************************************
+2020-07-05 10:41:49 | INFO | Base_Logging | impl | PASS: Success - test_get_reqre_api Retrived Users info with details 200
+2020-07-05 10:41:49 | INFO | Base_Logging | impl | -------------------------- RESULT --------------------------
+2020-07-05 10:41:49 | INFO | Base_Logging | impl | Total number of checks=1
+2020-07-05 10:41:49 | INFO | Base_Logging | impl | Total number of checks passed=1
+

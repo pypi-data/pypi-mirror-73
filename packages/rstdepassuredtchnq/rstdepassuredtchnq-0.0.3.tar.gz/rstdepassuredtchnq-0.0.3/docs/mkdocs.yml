@@ -1,0 +1,19 @@
+# Project information
+site_name: DeepikaPythonDocs
+site_author: Deepika Ramasamy
+site_description: Reliable API & Browser Automation and Testing
+
+# Copyright
+copyright: Copyright &copy; 2020 Deepika Ramasamy / Python Testing
+nav:
+    - Home: index.md
+    - About: about.md
+    - Setup: setup.md
+    - Coverage: coverage.md
+
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
+theme: readthedocs

@@ -1,0 +1,15 @@
+pytest
+pytest-html
+requests
+Flask
+jsonpath
+oauth2
+bs4
+mock
+selenium
+slack
+slackclient
+twine
+coverage
+pytest-cov
+mkdocs

@@ -1,0 +1,691 @@
+2020-07-05 10:20:45,729 — APIMethods — INFO — post_request
+2020-07-05 10:20:45,773 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:20:45,781 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:20:46,261 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:20:46,265 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:20:46,277 — APIMethods — INFO — post_request
+2020-07-05 10:20:46,727 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:20:46,730 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:20:46,741 — APIMethods — INFO — post_request
+2020-07-05 10:20:47,179 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:20:47,184 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:20:58,389 — TestBase — INFO — To load tests data.
+2020-07-05 10:20:58,457 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:20:58,527 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:20:59,540 — APIMethods — INFO — post_request
+2020-07-05 10:20:59,586 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:20:59,590 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:20:59,595 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:20:59,595 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:20:59,598 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:21:00,061 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:21:00,065 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:21:00,071 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:21:00,074 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:21:00,074 — APIMethods — INFO — post_request
+2020-07-05 10:21:00,527 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:21:00,531 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:21:00,536 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:21:00,537 — TestBase — INFO — Fetched Json Value - ID - in Post Request 958 
+2020-07-05 10:21:00,540 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:21:00,543 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:21:00,543 — APIMethods — INFO — post_request
+2020-07-05 10:21:00,960 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:21:00,964 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:21:00,964 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:21:00,965 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:21:00.850Z 
+2020-07-05 10:21:00,966 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:21:01,244 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:21:01,244 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:21:01,244 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:21:01,244 — APIMethods — INFO — post_request
+2020-07-05 10:21:02,288 — APIMethods — INFO — post_request
+2020-07-05 10:21:04,713 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:21:06,848 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:21:06,849 — APIMethods — INFO — post_request
+2020-07-05 10:21:10,643 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:21:10,645 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:21:10,645 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53037 
+2020-07-05 10:21:10,645 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53037 
+2020-07-05 10:21:10,645 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53037 
+2020-07-05 10:21:10,647 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:21:10,647 — TestAPI — INFO — Updated req_payload in End to End {'id': 53037, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53037} 
+2020-07-05 10:21:10,647 — TestAPI — INFO — Updated req_payload in End to End {'id': 53037, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53037} 
+2020-07-05 10:21:10,647 — TestAPI — INFO — Updated req_payload in End to End {'id': 53037, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53037} 
+2020-07-05 10:21:10,648 — APIMethods — INFO — post_request
+2020-07-05 10:21:11,227 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:21:11,231 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:21:11,231 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:21:11,231 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:21:11,231 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:21:11,234 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:21:11,234 — APIMethods — INFO — post_request
+2020-07-05 10:21:11,865 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:21:11,865 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:21:11,865 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:21:11,972 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:21:11,974 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:21:11,976 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:21:11,978 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:21:11,981 — APIMethods — INFO — post_request
+2020-07-05 10:23:28,355 — TestBase — INFO — To load tests data.
+2020-07-05 10:23:28,449 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:23:28,514 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:23:29,586 — APIMethods — INFO — post_request
+2020-07-05 10:23:29,645 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:23:29,649 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:23:29,653 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:23:29,653 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:23:29,656 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:23:30,121 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:23:30,125 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:23:30,131 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:23:30,134 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:23:30,134 — APIMethods — INFO — post_request
+2020-07-05 10:23:30,629 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:23:30,632 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:23:30,636 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:23:30,636 — TestBase — INFO — Fetched Json Value - ID - in Post Request 558 
+2020-07-05 10:23:30,639 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:23:30,642 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:23:30,642 — APIMethods — INFO — post_request
+2020-07-05 10:23:31,141 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:23:31,144 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:23:31,144 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:23:31,145 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:23:30.925Z 
+2020-07-05 10:23:31,146 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:23:31,407 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:23:31,407 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:23:31,407 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:23:31,408 — APIMethods — INFO — post_request
+2020-07-05 10:23:31,426 — APIMethods — INFO — post_request
+2020-07-05 10:23:32,476 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:23:34,186 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:23:34,186 — APIMethods — INFO — post_request
+2020-07-05 10:23:34,726 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:23:34,733 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:23:34,733 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53038 
+2020-07-05 10:23:34,733 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53038 
+2020-07-05 10:23:34,733 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53038 
+2020-07-05 10:23:34,734 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:23:34,734 — TestAPI — INFO — Updated req_payload in End to End {'id': 53038, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53038} 
+2020-07-05 10:23:34,734 — TestAPI — INFO — Updated req_payload in End to End {'id': 53038, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53038} 
+2020-07-05 10:23:34,734 — TestAPI — INFO — Updated req_payload in End to End {'id': 53038, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53038} 
+2020-07-05 10:23:34,734 — APIMethods — INFO — post_request
+2020-07-05 10:23:35,181 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:23:35,186 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:23:35,186 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:23:35,186 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:23:35,186 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:23:35,186 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:23:35,187 — APIMethods — INFO — post_request
+2020-07-05 10:23:35,662 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:23:35,662 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:23:35,662 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:23:35,768 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:23:35,770 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:23:35,773 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:23:35,775 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:23:35,780 — APIMethods — INFO — post_request
+2020-07-05 10:33:02,165 — TestBase — INFO — To load tests data.
+2020-07-05 10:33:02,383 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:33:02,541 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:33:03,756 — APIMethods — INFO — post_request
+2020-07-05 10:33:03,843 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:33:03,850 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:33:03,857 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:33:03,857 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:33:03,861 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:33:04,457 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:33:04,461 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:33:04,467 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:33:04,470 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:33:04,471 — APIMethods — INFO — post_request
+2020-07-05 10:33:05,108 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:33:05,111 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:33:05,116 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:33:05,116 — TestBase — INFO — Fetched Json Value - ID - in Post Request 772 
+2020-07-05 10:33:05,119 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:33:05,123 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:33:05,124 — APIMethods — INFO — post_request
+2020-07-05 10:33:05,787 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:33:05,791 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:33:05,792 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:33:05,792 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:33:05.584Z 
+2020-07-05 10:33:05,794 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:33:06,315 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:33:06,315 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:33:06,315 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:33:06,315 — APIMethods — INFO — post_request
+2020-07-05 10:33:07,369 — APIMethods — INFO — post_request
+2020-07-05 10:33:08,475 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:33:49,098 — TestBase — INFO — To load tests data.
+2020-07-05 10:33:49,242 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:33:49,392 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:33:51,746 — APIMethods — INFO — post_request
+2020-07-05 10:33:51,921 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:33:51,925 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:33:51,929 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:33:51,929 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:33:51,932 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:33:52,598 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:33:52,604 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:33:52,617 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:33:52,623 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:33:52,624 — APIMethods — INFO — post_request
+2020-07-05 10:33:53,309 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:33:53,313 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:33:53,318 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:33:53,318 — TestBase — INFO — Fetched Json Value - ID - in Post Request 92 
+2020-07-05 10:33:53,321 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:33:53,324 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:33:53,324 — APIMethods — INFO — post_request
+2020-07-05 10:33:53,924 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:33:53,928 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:33:53,928 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:33:53,928 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:33:53.791Z 
+2020-07-05 10:33:53,931 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:34:06,184 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:34:06,184 — APIMethods — INFO — post_request
+2020-07-05 10:34:06,225 — APIMethods — INFO — post_request
+2020-07-05 10:34:07,834 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:34:25,514 — TestBase — INFO — To load tests data.
+2020-07-05 10:34:25,599 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:34:25,760 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:34:26,960 — APIMethods — INFO — post_request
+2020-07-05 10:34:27,273 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:34:27,278 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:34:27,282 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:34:27,282 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:34:27,285 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:34:27,824 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:34:27,827 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:34:27,834 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:34:27,837 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:34:27,837 — APIMethods — INFO — post_request
+2020-07-05 10:34:28,432 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:34:28,436 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:34:28,441 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:34:28,441 — TestBase — INFO — Fetched Json Value - ID - in Post Request 603 
+2020-07-05 10:34:28,444 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:34:28,447 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:34:28,447 — APIMethods — INFO — post_request
+2020-07-05 10:34:29,172 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:34:29,177 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:34:29,177 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:34:29,178 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:34:28.820Z 
+2020-07-05 10:34:29,179 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:34:47,620 — TestBase — INFO — To load tests data.
+2020-07-05 10:34:47,958 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:34:48,144 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:34:49,124 — APIMethods — INFO — post_request
+2020-07-05 10:34:49,204 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:34:49,209 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:34:49,213 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:34:49,214 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:34:49,217 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:34:49,740 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:34:49,743 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:34:49,750 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:34:49,753 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:34:49,753 — APIMethods — INFO — post_request
+2020-07-05 10:34:50,185 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:34:50,189 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:34:50,194 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:34:50,194 — TestBase — INFO — Fetched Json Value - ID - in Post Request 875 
+2020-07-05 10:34:50,197 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:34:50,200 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:34:50,200 — APIMethods — INFO — post_request
+2020-07-05 10:34:50,753 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:34:50,760 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:34:50,760 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:34:50,760 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:34:50.609Z 
+2020-07-05 10:34:50,762 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:37:06,278 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:37:06,278 — APIMethods — INFO — post_request
+2020-07-05 10:37:06,301 — APIMethods — INFO — post_request
+2020-07-05 10:37:13,728 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:37:13,729 — APIMethods — INFO — post_request
+2020-07-05 10:37:13,751 — APIMethods — INFO — post_request
+2020-07-05 10:38:04,239 — TestBase — INFO — To load tests data.
+2020-07-05 10:38:04,331 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:38:04,425 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:38:05,527 — APIMethods — INFO — post_request
+2020-07-05 10:38:06,137 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:38:06,140 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:38:06,146 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:38:06,149 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:38:06,149 — APIMethods — INFO — post_request
+2020-07-05 10:38:06,230 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:38:06,230 — APIMethods — INFO — post_request
+2020-07-05 10:38:06,262 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:38:06,573 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:06,573 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:06,573 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:06,574 — APIMethods — INFO — post_request
+2020-07-05 10:38:06,679 — APIMethods — INFO — post_request
+2020-07-05 10:38:19,429 — TestBase — INFO — To load tests data.
+2020-07-05 10:38:19,608 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:38:19,690 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:38:20,863 — APIMethods — INFO — post_request
+2020-07-05 10:38:21,506 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:38:21,511 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:38:21,517 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:38:21,520 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:38:21,520 — APIMethods — INFO — post_request
+2020-07-05 10:38:21,593 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:38:21,593 — APIMethods — INFO — post_request
+2020-07-05 10:38:21,615 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:38:21,868 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:21,868 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:21,868 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:21,868 — APIMethods — INFO — post_request
+2020-07-05 10:38:21,908 — APIMethods — INFO — post_request
+2020-07-05 10:38:24,141 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:38:24,141 — APIMethods — INFO — post_request
+2020-07-05 10:38:24,672 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:38:24,677 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:38:24,677 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53041 
+2020-07-05 10:38:24,677 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53041 
+2020-07-05 10:38:24,677 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53041 
+2020-07-05 10:38:24,678 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:38:24,678 — TestAPI — INFO — Updated req_payload in End to End {'id': 53041, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53041} 
+2020-07-05 10:38:24,678 — TestAPI — INFO — Updated req_payload in End to End {'id': 53041, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53041} 
+2020-07-05 10:38:24,678 — TestAPI — INFO — Updated req_payload in End to End {'id': 53041, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53041} 
+2020-07-05 10:38:24,679 — APIMethods — INFO — post_request
+2020-07-05 10:38:25,181 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:38:25,186 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:38:25,186 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:38:25,186 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:38:25,186 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:38:25,187 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:38:25,187 — APIMethods — INFO — post_request
+2020-07-05 10:38:25,705 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:38:25,705 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:38:25,705 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:38:25,806 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:25,807 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:25,810 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:25,812 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:25,814 — APIMethods — INFO — post_request
+2020-07-05 10:38:47,282 — TestBase — INFO — To load tests data.
+2020-07-05 10:38:47,627 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:38:47,835 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:38:49,427 — APIMethods — INFO — post_request
+2020-07-05 10:38:49,474 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:38:49,479 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:38:49,484 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:38:49,484 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:38:49,487 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:38:49,938 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:38:49,942 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:38:49,949 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:38:49,952 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:38:49,952 — APIMethods — INFO — post_request
+2020-07-05 10:38:50,378 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:38:50,381 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:38:50,385 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:38:50,386 — TestBase — INFO — Fetched Json Value - ID - in Post Request 822 
+2020-07-05 10:38:50,388 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:38:50,391 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:38:50,391 — APIMethods — INFO — post_request
+2020-07-05 10:38:50,909 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:38:50,913 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:38:50,914 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:38:50,914 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:38:50.689Z 
+2020-07-05 10:38:50,916 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:38:51,176 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:51,176 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:51,176 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:38:51,176 — APIMethods — INFO — post_request
+2020-07-05 10:38:51,195 — APIMethods — INFO — post_request
+2020-07-05 10:38:52,270 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:38:54,026 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:38:54,027 — APIMethods — INFO — post_request
+2020-07-05 10:38:54,571 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:38:54,575 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:38:54,575 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53042 
+2020-07-05 10:38:54,575 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53042 
+2020-07-05 10:38:54,575 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53042 
+2020-07-05 10:38:54,576 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:38:54,576 — TestAPI — INFO — Updated req_payload in End to End {'id': 53042, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53042} 
+2020-07-05 10:38:54,576 — TestAPI — INFO — Updated req_payload in End to End {'id': 53042, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53042} 
+2020-07-05 10:38:54,576 — TestAPI — INFO — Updated req_payload in End to End {'id': 53042, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53042} 
+2020-07-05 10:38:54,577 — APIMethods — INFO — post_request
+2020-07-05 10:38:55,105 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:38:55,109 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:38:55,110 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:38:55,110 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:38:55,110 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:38:55,111 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:38:55,111 — APIMethods — INFO — post_request
+2020-07-05 10:38:55,592 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:38:55,592 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:38:55,592 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:38:55,694 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:55,697 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:55,701 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:55,704 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:38:55,711 — APIMethods — INFO — post_request
+2020-07-05 10:39:00,212 — TestBase — INFO — To load tests data.
+2020-07-05 10:39:00,274 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:39:00,347 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:39:01,448 — APIMethods — INFO — post_request
+2020-07-05 10:39:02,048 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:39:02,051 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:39:02,057 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:39:02,060 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:39:02,060 — APIMethods — INFO — post_request
+2020-07-05 10:39:02,137 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:39:02,137 — APIMethods — INFO — post_request
+2020-07-05 10:39:02,165 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:39:02,478 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:39:02,478 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:39:02,478 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:39:02,479 — APIMethods — INFO — post_request
+2020-07-05 10:39:02,499 — APIMethods — INFO — post_request
+2020-07-05 10:39:04,553 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:39:04,554 — APIMethods — INFO — post_request
+2020-07-05 10:39:05,118 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:39:05,123 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:39:05,123 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53043 
+2020-07-05 10:39:05,123 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53043 
+2020-07-05 10:39:05,123 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53043 
+2020-07-05 10:39:05,124 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:39:05,124 — TestAPI — INFO — Updated req_payload in End to End {'id': 53043, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53043} 
+2020-07-05 10:39:05,124 — TestAPI — INFO — Updated req_payload in End to End {'id': 53043, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53043} 
+2020-07-05 10:39:05,124 — TestAPI — INFO — Updated req_payload in End to End {'id': 53043, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53043} 
+2020-07-05 10:39:05,125 — APIMethods — INFO — post_request
+2020-07-05 10:39:05,631 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:39:05,635 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:39:05,635 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:39:05,635 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:39:05,635 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:39:05,636 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:39:05,636 — APIMethods — INFO — post_request
+2020-07-05 10:39:06,245 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:39:06,245 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:39:06,245 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:39:06,352 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:39:06,353 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:39:06,356 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:39:06,358 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:39:06,360 — APIMethods — INFO — post_request
+2020-07-05 10:39:36,897 — TestBase — INFO — To load tests data.
+2020-07-05 10:39:36,900 — APIMethods — INFO — post_request
+2020-07-05 10:39:36,958 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:40:20,427 — TestBase — INFO — To load tests data.
+2020-07-05 10:40:20,433 — APIMethods — INFO — post_request
+2020-07-05 10:40:42,174 — TestBase — INFO — To load tests data.
+2020-07-05 10:40:44,883 — APIMethods — INFO — post_request
+2020-07-05 10:41:26,002 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:41:35,021 — TestBase — INFO — To load tests data.
+2020-07-05 10:41:37,607 — APIMethods — INFO — post_request
+2020-07-05 10:41:49,060 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:41:49,070 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:41:49,079 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:41:49,079 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:41:49,083 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:41:49,089 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:42:45,467 — TestBase — INFO — To load tests data.
+2020-07-05 10:42:45,529 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:42:45,598 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:42:46,373 — APIMethods — INFO — post_request
+2020-07-05 10:42:46,406 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:42:46,409 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:42:46,412 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:42:46,412 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:42:46,414 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:42:47,055 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:42:47,059 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:42:47,066 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:42:47,069 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:42:47,070 — APIMethods — INFO — post_request
+2020-07-05 10:42:47,577 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:42:47,581 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:42:47,586 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:42:47,586 — TestBase — INFO — Fetched Json Value - ID - in Post Request 489 
+2020-07-05 10:42:47,589 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:42:47,592 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:42:47,593 — APIMethods — INFO — post_request
+2020-07-05 10:42:48,030 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:42:48,034 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:42:48,034 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:42:48,035 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:42:47.909Z 
+2020-07-05 10:42:48,036 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:42:48,562 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:42:48,562 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:42:48,562 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:42:48,562 — APIMethods — INFO — post_request
+2020-07-05 10:42:48,684 — APIMethods — INFO — post_request
+2020-07-05 10:42:50,623 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:42:52,228 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:42:52,228 — APIMethods — INFO — post_request
+2020-07-05 10:42:53,374 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:42:53,378 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:42:53,379 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53044 
+2020-07-05 10:42:53,379 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53044 
+2020-07-05 10:42:53,379 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53044 
+2020-07-05 10:42:53,379 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:42:53,380 — TestAPI — INFO — Updated req_payload in End to End {'id': 53044, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53044} 
+2020-07-05 10:42:53,380 — TestAPI — INFO — Updated req_payload in End to End {'id': 53044, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53044} 
+2020-07-05 10:42:53,380 — TestAPI — INFO — Updated req_payload in End to End {'id': 53044, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53044} 
+2020-07-05 10:42:53,380 — APIMethods — INFO — post_request
+2020-07-05 10:42:53,900 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:42:53,905 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:42:53,905 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:42:53,905 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:42:53,905 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:42:53,906 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:42:53,906 — APIMethods — INFO — post_request
+2020-07-05 10:42:54,397 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:42:54,397 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:42:54,397 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:42:54,500 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:42:54,503 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:42:54,507 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:42:54,509 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:42:54,513 — APIMethods — INFO — post_request
+2020-07-05 10:53:05,068 — TestBase — INFO — To load tests data.
+2020-07-05 10:53:05,264 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:53:05,341 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:53:06,354 — APIMethods — INFO — post_request
+2020-07-05 10:53:06,392 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:53:06,395 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:53:06,398 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:53:06,398 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:53:06,400 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:53:06,819 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:53:06,822 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:53:06,829 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:53:06,833 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:53:06,833 — APIMethods — INFO — post_request
+2020-07-05 10:53:07,286 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:53:07,288 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:53:07,291 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:53:07,291 — TestBase — INFO — Fetched Json Value - ID - in Post Request 500 
+2020-07-05 10:53:07,294 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:53:07,296 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:53:07,296 — APIMethods — INFO — post_request
+2020-07-05 10:53:07,694 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:53:07,698 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:53:07,699 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:53:07,699 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:53:07.593Z 
+2020-07-05 10:53:07,700 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:53:07,970 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:53:07,970 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:53:07,970 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:53:07,970 — APIMethods — INFO — post_request
+2020-07-05 10:53:07,996 — APIMethods — INFO — post_request
+2020-07-05 10:53:09,774 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:53:12,689 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:53:12,690 — APIMethods — INFO — post_request
+2020-07-05 10:53:13,192 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:53:13,194 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:53:13,194 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53052 
+2020-07-05 10:53:13,194 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53052 
+2020-07-05 10:53:13,194 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53052 
+2020-07-05 10:53:13,194 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:53:13,194 — TestAPI — INFO — Updated req_payload in End to End {'id': 53052, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53052} 
+2020-07-05 10:53:13,194 — TestAPI — INFO — Updated req_payload in End to End {'id': 53052, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53052} 
+2020-07-05 10:53:13,194 — TestAPI — INFO — Updated req_payload in End to End {'id': 53052, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53052} 
+2020-07-05 10:53:13,194 — APIMethods — INFO — post_request
+2020-07-05 10:53:13,707 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:53:13,711 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:53:13,711 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:53:13,711 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:53:13,711 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:53:13,712 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:53:13,712 — APIMethods — INFO — post_request
+2020-07-05 10:53:14,237 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:53:14,237 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:53:14,237 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:53:14,345 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:53:14,347 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:53:14,349 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:53:14,352 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:53:14,355 — APIMethods — INFO — post_request
+2020-07-05 10:55:48,654 — TestBase — INFO — To load tests data.
+2020-07-05 10:55:48,958 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:55:49,308 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:55:51,199 — APIMethods — INFO — post_request
+2020-07-05 10:55:51,260 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:55:51,265 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:55:51,270 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:55:51,271 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:55:51,274 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:55:51,700 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:55:51,705 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:55:51,713 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:55:51,717 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:55:51,717 — APIMethods — INFO — post_request
+2020-07-05 10:55:52,130 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:55:52,136 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:55:52,142 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:55:52,142 — TestBase — INFO — Fetched Json Value - ID - in Post Request 282 
+2020-07-05 10:55:52,145 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:55:52,149 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:55:52,150 — APIMethods — INFO — post_request
+2020-07-05 10:55:52,651 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:55:52,656 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:55:52,657 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:55:52,657 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:55:52.427Z 
+2020-07-05 10:55:52,658 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:55:52,939 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:55:52,939 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:55:52,939 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:55:52,939 — APIMethods — INFO — post_request
+2020-07-05 10:55:52,959 — APIMethods — INFO — post_request
+2020-07-05 10:55:54,012 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:55:55,717 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:55:55,718 — APIMethods — INFO — post_request
+2020-07-05 10:55:56,152 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:55:56,157 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:55:56,158 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53055 
+2020-07-05 10:55:56,158 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53055 
+2020-07-05 10:55:56,158 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53055 
+2020-07-05 10:55:56,159 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:55:56,159 — TestAPI — INFO — Updated req_payload in End to End {'id': 53055, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53055} 
+2020-07-05 10:55:56,159 — TestAPI — INFO — Updated req_payload in End to End {'id': 53055, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53055} 
+2020-07-05 10:55:56,159 — TestAPI — INFO — Updated req_payload in End to End {'id': 53055, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53055} 
+2020-07-05 10:55:56,159 — APIMethods — INFO — post_request
+2020-07-05 10:55:56,627 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:55:56,632 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:55:56,632 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:55:56,632 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:55:56,632 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:55:56,633 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:55:56,633 — APIMethods — INFO — post_request
+2020-07-05 10:55:57,152 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:55:57,152 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:55:57,152 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:55:57,302 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:55:57,304 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:55:57,307 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:55:57,310 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:55:57,313 — APIMethods — INFO — post_request
+2020-07-05 10:59:05,460 — TestBase — INFO — To load tests data.
+2020-07-05 10:59:05,528 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:59:05,584 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:59:06,605 — APIMethods — INFO — post_request
+2020-07-05 10:59:06,648 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:59:06,654 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:59:06,659 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:59:06,659 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 10:59:06,663 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 10:59:07,093 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 10:59:07,098 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 10:59:07,106 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 10:59:07,109 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 10:59:07,110 — APIMethods — INFO — post_request
+2020-07-05 10:59:07,508 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:59:07,514 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:59:07,521 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 10:59:07,521 — TestBase — INFO — Fetched Json Value - ID - in Post Request 140 
+2020-07-05 10:59:07,525 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 10:59:07,529 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 10:59:07,529 — APIMethods — INFO — post_request
+2020-07-05 10:59:07,961 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:59:07,965 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:59:07,965 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 10:59:07,965 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T02:59:07.839Z 
+2020-07-05 10:59:07,966 — TestBase — INFO — Ended --------- To load tests data.
+2020-07-05 10:59:08,240 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:59:08,240 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:59:08,240 — TestAPI — INFO — Fetched Json Value - updatedAt - in Put Request http://api.openweathermap.org/data/2.5/weather?q=London&appid=WEATHER_API_KEY 
+2020-07-05 10:59:08,240 — APIMethods — INFO — post_request
+2020-07-05 10:59:08,260 — APIMethods — INFO — post_request
+2020-07-05 10:59:09,561 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:59:11,272 — CommonMethods — INFO —  Requesting Payload in Put Request {'first_name': 'Testing', 'middle_name': 'New', 'last_name': 'API Rest', 'date_of_birth': '12/12/1990'} 
+2020-07-05 10:59:11,272 — APIMethods — INFO — post_request
+2020-07-05 10:59:11,918 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 10:59:11,923 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 10:59:11,923 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53058 
+2020-07-05 10:59:11,923 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53058 
+2020-07-05 10:59:11,923 — TestAPI — INFO — Fetched Json Value - id - in Put Request 53058 
+2020-07-05 10:59:11,924 — CommonMethods — INFO —  Requesting Payload in Put Request {'id': 269735, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': '269740'} 
+2020-07-05 10:59:11,924 — TestAPI — INFO — Updated req_payload in End to End {'id': 53058, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53058} 
+2020-07-05 10:59:11,924 — TestAPI — INFO — Updated req_payload in End to End {'id': 53058, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53058} 
+2020-07-05 10:59:11,924 — TestAPI — INFO — Updated req_payload in End to End {'id': 53058, 'language': ['Java', 'Python', 'c#'], 'yearexp': '5', 'lastused': '2020', 'st_id': 53058} 
+2020-07-05 10:59:11,924 — APIMethods — INFO — post_request
+2020-07-05 10:59:12,436 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 10:59:12,442 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 10:59:12,442 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:59:12,442 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:59:12,442 — TestAPI — INFO — Fetched Json Value - get_msg_value - in Put Request Add  data success 
+2020-07-05 10:59:12,443 — CommonMethods — INFO —  Requesting Payload in Put Request {'Permanent_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'Current_Address': {'House_Number': 'sample string 1', 'City': 'sample string 2', 'State': 'sample string 3', 'Country': 'sample string 4', 'PhoneNumber': [{'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}, {'Std_Code': 'sample string 1', 'Home': 'sample string 2', 'Mobile': 'sample string 3'}]}, 'stId': '269740'} 
+2020-07-05 10:59:12,444 — APIMethods — INFO — post_request
+2020-07-05 10:59:13,253 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:59:13,253 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:59:13,253 — TestAPI — INFO — Fetched Json Value - get_message_value - in Put Request An error has occurred. 
+2020-07-05 10:59:13,404 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:59:13,407 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:59:13,409 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:59:13,412 — BaseAPIHelper — INFO — post_request
+2020-07-05 10:59:13,416 — APIMethods — INFO — post_request
+2020-07-05 11:53:45,536 — TestBase — INFO — To load tests data.
+2020-07-05 11:53:45,692 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 11:53:45,784 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 11:53:46,861 — APIMethods — INFO — post_request
+2020-07-05 11:53:46,906 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 11:53:46,911 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 11:53:46,914 — TestBase — INFO — Fetched Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 11:53:46,914 — TestBase — INFO — Fetching Subnode Json Value in Get Request {'company': 'StatusCode Weekly', 'url': 'http://statuscode.org/', 'text': 'A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.'} 
+2020-07-05 11:53:46,916 — TestBase — INFO — Test test_get_reqre_api passed.
+2020-07-05 11:53:47,376 — APIMethods — INFO —  -------- Checking the Expected Status 204 
+2020-07-05 11:53:47,381 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 204 
+2020-07-05 11:53:47,390 — TestBase — INFO — Test test_delete_reqre_api passed.
+2020-07-05 11:53:47,394 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'deepika_test01', 'job': 'tester'} 
+2020-07-05 11:53:47,394 — APIMethods — INFO — post_request
+2020-07-05 11:53:47,883 — APIMethods — INFO —  -------- Checking the Expected Status 201 
+2020-07-05 11:53:47,888 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 201 
+2020-07-05 11:53:47,894 — TestBase — INFO — Fetched Json Value - name - in Post Request deepika_test01 
+2020-07-05 11:53:47,894 — TestBase — INFO — Fetched Json Value - ID - in Post Request 407 
+2020-07-05 11:53:47,897 — TestBase — INFO — Test test_post_body_json_no_header passed.
+2020-07-05 11:53:47,902 — CommonMethods — INFO —  Requesting Payload in Put Request {'name': 'morpheus', 'job': 'zion resident'} 
+2020-07-05 11:53:47,903 — APIMethods — INFO — post_request
+2020-07-05 11:53:48,397 — APIMethods — INFO —  -------- Checking the Expected Status 200 
+2020-07-05 11:53:48,401 — APIMethods — INFO —  -------- Checking the Actual Status in Response Code 200 
+2020-07-05 11:53:48,401 — TestBase — INFO — Fetched Json Value - name - in Put Request morpheus 
+2020-07-05 11:53:48,401 — TestBase — INFO — Fetched Json Value - updatedAt - in Put Request 2020-07-05T03:53:48.187Z 
+2020-07-05 11:53:48,404 — TestBase — INFO — Ended --------- To load tests data.
