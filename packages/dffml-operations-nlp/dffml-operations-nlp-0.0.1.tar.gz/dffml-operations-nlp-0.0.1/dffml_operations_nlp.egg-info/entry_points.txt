@@ -1,0 +1,4 @@
+[dffml.operation]
+get_embedding = dffml_operations_nlp.operations:get_embedding
+remove_stopwords = dffml_operations_nlp.operations:remove_stopwords
+
