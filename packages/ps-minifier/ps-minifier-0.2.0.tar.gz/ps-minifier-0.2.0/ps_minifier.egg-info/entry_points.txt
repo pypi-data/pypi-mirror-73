@@ -1,0 +1,3 @@
+[console_scripts]
+psminifier = ps_minifier.psminifier:main
+
