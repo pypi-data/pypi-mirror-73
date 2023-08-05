@@ -1,0 +1,15 @@
+rcute_ai/__init__.py,sha256=gLAXBYED-pGCMXn8aa33tDkeQs47f0IM9g4HzzfM9xQ,573
+rcute_ai/_speech_detector_picovoice.py,sha256=VROPm9K8KAASwcMvOsC2BeyECbbB6j3-bI4FXUCpo4Q,6476
+rcute_ai/_speech_detector_snowboy.py,sha256=rhmIoURFyZEEzWxEZZHDHjERzxTEa8Ls4FGSsfFNzIQ,4982
+rcute_ai/face_recognizer.py,sha256=90-NjjbOzWjWHKzxuTYKnARcF7-LTp90s6YHsnjhNAs,6578
+rcute_ai/hotword_recognizer_snowboy.py,sha256=ZFU9UKXKEvvDg4BsXKnxxbyBisXOyzjQv_vFD9JaLc0,3865
+rcute_ai/object_recognizer.py,sha256=8sUohRI2HA6VlSFLyPxt0IdcqJxIuFL3lYyOWc79VaY,5153
+rcute_ai/qrcode_recognizer.py,sha256=I1pgwVpdOV4GkThopYM_N-CKn8d9VUCQroaE3BcrZLE,1329
+rcute_ai/speech_recognizer.py,sha256=60iJ7vzc3IJcJgn8ZEVfi0-I9_aLmY-xlR0qLUtfALY,2902
+rcute_ai/test.py,sha256=IWw0J4gFE3OBZu6gZHcbNFKtsN00cvnuBXnpUw4NZXM,4452
+rcute_ai/util.py,sha256=9--q3DX4gB0W5SPUvnqFuTWYMaWNfDBip96_hMuR6rM,459
+rcute_ai/version.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+rcute_ai-0.1.0.dist-info/METADATA,sha256=iWan4wnlnp14u62txT-Xo_TDiAt5MmRwWgxC9za4cPA,884
+rcute_ai-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rcute_ai-0.1.0.dist-info/top_level.txt,sha256=o6jVC5DjO3xQ1_wgNKHv59kQOEE65Hybc_XmXOER0BQ,9
+rcute_ai-0.1.0.dist-info/RECORD,,

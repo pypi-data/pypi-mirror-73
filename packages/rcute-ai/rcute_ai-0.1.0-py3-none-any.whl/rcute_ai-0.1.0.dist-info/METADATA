@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rcute-ai
+Version: 0.1.0
+Summary: Simple wrapper over some python libs for image/audio detection/recognition etc
+Home-page: https://github.com/hyansuper/rcute-ai
+Author: Huang Yan
+Author-email: hyansuper@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Requires-Dist: face-recognition
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pyaudio
+Requires-Dist: qrcode
+Requires-Dist: vosk
+
+# rcute-ai
+Simple wrapper over some python libs for image/audio detection/recognition etc to facilitate rcute robots(eg. [rcute-cozmars](https://github.com/hyansuper/rcute-cozmars))
+
+## Examples
+see https://rcute-ai.readthedocs.io/examples/index.html
+
