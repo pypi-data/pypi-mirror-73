@@ -1,0 +1,3 @@
+[console_scripts]
+rec2taps = m2.rec2taps.cli:rec2taps
+
