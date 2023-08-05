@@ -1,0 +1,4 @@
+ped_core
+ped_dialog
+ped_extensions
+ped_ssh_dialog
