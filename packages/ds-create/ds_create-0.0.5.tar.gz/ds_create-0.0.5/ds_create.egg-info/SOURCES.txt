@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/ds-create
+ds_create/__init__.py
+ds_create.egg-info/PKG-INFO
+ds_create.egg-info/SOURCES.txt
+ds_create.egg-info/dependency_links.txt
+ds_create.egg-info/top_level.txt
