@@ -1,0 +1,10 @@
+pythons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythons/assets/font/OFL.txt,sha256=3qAClgR-gjQJF8aDeHX1LIQ0GxwR3UH7Ve-bO4dqHbc,4491
+pythons/assets/font/museo_moderno.ttf,sha256=1Ns_D5vXFwLwEZ4LKm3Dua7EcsvM5V2S8FAvAQJgaWc,82236
+pythons/assets/font/museo_moderno_medium.ttf,sha256=kNmSqcRpCllUcMoAHCtHMU8q1WYefOEl01xKRRB-niE,82192
+pythons/game.py,sha256=tjN0kLN8xMOMiSsIZh0VDnAF39cLjaI9hJLlY0C3rjE,8147
+pythons-0.1.1.dist-info/entry_points.txt,sha256=5vcRz3IFXl81qfPP3OOCGWX1CKf_7h3BCgQ5cjLag4k,45
+pythons-0.1.1.dist-info/LICENSE,sha256=X5SBQrXtMPELUlC3gqkeZV_yqKykPmHYdqv7fh7LCt4,1074
+pythons-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pythons-0.1.1.dist-info/METADATA,sha256=OzfJnmlFfVpu5BaJRLB1eGSO-n3kh_qx932vXIxnjBc,1445
+pythons-0.1.1.dist-info/RECORD,,
