@@ -1,0 +1,5 @@
+beautifulsoup4
+GetOldTweets3
+pandas
+requests
+waybackmachine
