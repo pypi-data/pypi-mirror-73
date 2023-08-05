@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: integrator
+Version: 0.0.dev0
+Summary: Ease the CI/CD integration
+Home-page: https://pagure.io/copr/copr
+Author: Pavel Raiskup
+Author-email: praiskup@redhat.com
+License: GPLv2+
+Description: 
+        Toolset for easy CI/CD integration
+        
+Platform: UNKNOWN
