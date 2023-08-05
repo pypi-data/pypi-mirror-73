@@ -1,0 +1,13 @@
+workflow2executable/__init__.py,sha256=CKld-U_raPcl5rDq59LmbKsintHXKKAfHSuPHfirK2M,173
+workflow2executable/cli.py,sha256=ifDYxRu27RVUYS1eDily9BNYsebbDYfjQj0BBgOrif0,836
+workflow2executable/invocations.py,sha256=0AMnJTZEyFLht70FT8IvR0vZKgtiAElR8ib7iHCAogg,3084
+workflow2executable/workflow2executable.py,sha256=bKg2v9SU2h_qsz8f2eWv8377Y4iSJLZCpAtrbp7zmHk,2610
+workflow2executable/templates/click_template.py.j2,sha256=DeQWpssS-Ldu5wWTwyq7P03JifLNm5GOAWNuJe4UjLc,4226
+workflow2executable-0.1.1.dist-info/AUTHORS.rst,sha256=-yh1_D-ictA1CHvHxBk6CjqhXTOh6Hxa8i6z_sbePFU,167
+workflow2executable-0.1.1.dist-info/LICENSE,sha256=i9Bypt5iawwrG8O1hwlsF91SPwdxJy6JL30de3Wc9jg,1078
+workflow2executable-0.1.1.dist-info/LICENSE.txt,sha256=meccTSFUn6WD2D9v9P7YsHe9d9BZVfA40yWvfosur1A,1085
+workflow2executable-0.1.1.dist-info/METADATA,sha256=_egLfiilOI4-y1KHq9le9565_KdAty-ah5zx9Ph8jaE,3416
+workflow2executable-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+workflow2executable-0.1.1.dist-info/entry_points.txt,sha256=d9McmBVcJP8wsENy57Q7Hi6oCkUvjb3D6k7QAy7Smgc,70
+workflow2executable-0.1.1.dist-info/top_level.txt,sha256=ewPMmOfZG9AFIcipsJy79NXih9unlAUctVDYLQzuD88,20
+workflow2executable-0.1.1.dist-info/RECORD,,
