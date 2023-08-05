@@ -1,0 +1,9 @@
+compressive_transformer_pytorch/__init__.py,sha256=ROqVTXJMmcTHasqgXi26m9l96xkIanWTE_zh_pYD-lA,187
+compressive_transformer_pytorch/autopadder.py,sha256=tBaf6YzQ-tSfFVOXs5WKvAHeoQ9h1QvMbV-nvphDTu4,1873
+compressive_transformer_pytorch/autoregressive_wrapper.py,sha256=Voe4jZoMgq2N7BEF_hSPV3Di5t4PXu5WTbBot0Nc4QM,5216
+compressive_transformer_pytorch/compressive_transformer_pytorch.py,sha256=rAf5J4OQxWyzTDQdJF7aRJzXzF-NvYoLPe0sb4KJ4E8,11787
+compressive_transformer_pytorch-0.3.10.dist-info/LICENSE,sha256=As9u198X-U-vph5noInuUfqsAG2zX_oXPHDmdjwlPPY,1066
+compressive_transformer_pytorch-0.3.10.dist-info/METADATA,sha256=claNDLLe9zRAGdTY6RwUaGLUyyHrkPr5GguS4XQcN1s,656
+compressive_transformer_pytorch-0.3.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+compressive_transformer_pytorch-0.3.10.dist-info/top_level.txt,sha256=x1p3CQGJoFrFhQxCkfRg-EX5uxwpSmzzLm5QvKRmTEQ,32
+compressive_transformer_pytorch-0.3.10.dist-info/RECORD,,
