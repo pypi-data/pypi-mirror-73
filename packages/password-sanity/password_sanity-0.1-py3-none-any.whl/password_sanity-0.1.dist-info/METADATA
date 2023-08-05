@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: password-sanity
+Version: 0.1
+Summary: Simple, secure, commandline password management
+Home-page: https://github.com/Dudemanguy/password-sanity
+Author: Dudemanguy
+Author-email: random342@airmail.cc
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: python-gnupg
+
+UNKNOWN
+
+

@@ -1,0 +1,8 @@
+password_sanity-0.1.data/scripts/pws,sha256=FYHvhQ6dCFx8CfdHKCNpjSPefFuhGl6s4AkGhNSmQnw,8010
+usr/share/bash-completion/completions/pws,sha256=sY8liJgHExyZk8xrbiMNRQsC9YzOtHARYsQIPRyLBVc,585
+usr/share/zsh/site-functions/_pws,sha256=CjmtLogO6Ib-AUzbr9zb086LliuHxC_UQYsOQZ9DBrw,253
+password_sanity-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+password_sanity-0.1.dist-info/METADATA,sha256=yS02jM7sO82fQugienJRxgLC_E_qobGX4gNA0YPlJno,299
+password_sanity-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+password_sanity-0.1.dist-info/top_level.txt,sha256=mjMdG9ZjBxg5PWxbVAgI6m4ii_IIsI2zsv0Y6oK_64E,16
+password_sanity-0.1.dist-info/RECORD,,
