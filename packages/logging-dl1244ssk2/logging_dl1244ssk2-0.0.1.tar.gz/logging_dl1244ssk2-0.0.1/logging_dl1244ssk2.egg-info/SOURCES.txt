@@ -1,0 +1,6 @@
+README.md
+setup.py
+logging_dl1244ssk2.egg-info/PKG-INFO
+logging_dl1244ssk2.egg-info/SOURCES.txt
+logging_dl1244ssk2.egg-info/dependency_links.txt
+logging_dl1244ssk2.egg-info/top_level.txt
