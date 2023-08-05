@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_tree.py,sha256=bc3vGzU9-h9m-rWf5idewzO0MMi2qZ7Xh1-uqIfU2ew,623
+treeit/__init__.py,sha256=_QvvgW236-4WrYHStgIlw_OydsgEzVOmMZDrcByLI7k,33
+treeit/tree.py,sha256=cMj5hCMsJoY7GxPfI3CKm1otzjF4biQ5TkNItIug_NU,1986
+treeit-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+treeit-0.0.1.dist-info/METADATA,sha256=S3a2Kj8HpXK8puuA9AhWAl6hT0EQozVzNd8KzOMe-Bg,684
+treeit-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+treeit-0.0.1.dist-info/top_level.txt,sha256=XPQ4LLgpuyV09ZqGRMrz8GduMocX4gWYH3wmd_KhBOg,13
+treeit-0.0.1.dist-info/RECORD,,
