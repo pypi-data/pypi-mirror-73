@@ -1,0 +1,9 @@
+README.md
+setup.py
+flask_jwt_trivial/__init__.py
+flask_jwt_trivial.egg-info/PKG-INFO
+flask_jwt_trivial.egg-info/SOURCES.txt
+flask_jwt_trivial.egg-info/dependency_links.txt
+flask_jwt_trivial.egg-info/not-zip-safe
+flask_jwt_trivial.egg-info/requires.txt
+flask_jwt_trivial.egg-info/top_level.txt
