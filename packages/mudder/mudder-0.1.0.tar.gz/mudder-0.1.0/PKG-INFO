@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mudder
+Version: 0.1.0
+Summary: Python port of mudderjs
+Author: Patrick Gingras
+Author-email: 775.pg.12@gmail.com
+Requires-Python: >=3.6,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
