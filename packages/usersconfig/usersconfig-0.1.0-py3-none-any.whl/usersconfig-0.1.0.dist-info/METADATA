@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: usersconfig
+Version: 0.1.0
+Summary: Library for application configuration management
+Home-page: https://gitlab.com/alensiljak/usersconfig
+Author: Alen Šiljak
+Author-email: usersconfig@alensiljak.eu.org
+License: GPL3
+Project-URL: Source Code, https://gitlab.com/alensiljak/usersconfig.git
+Keywords: configuration library yaml
+Platform: UNKNOWN
+
+UNKNOWN
+
+
