@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+akshat_nbdev_test/__init__.py
+akshat_nbdev_test/_nbdev.py
+akshat_nbdev_test/core.py
+akshat_nbdev_test.egg-info/PKG-INFO
+akshat_nbdev_test.egg-info/SOURCES.txt
+akshat_nbdev_test.egg-info/dependency_links.txt
+akshat_nbdev_test.egg-info/entry_points.txt
+akshat_nbdev_test.egg-info/not-zip-safe
+akshat_nbdev_test.egg-info/top_level.txt
