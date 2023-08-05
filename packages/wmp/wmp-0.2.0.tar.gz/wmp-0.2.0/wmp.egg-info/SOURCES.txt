@@ -1,0 +1,16 @@
+README.md
+setup.py
+wmp/__init__.py
+wmp/detect.py
+wmp/utils.py
+wmp.egg-info/PKG-INFO
+wmp.egg-info/SOURCES.txt
+wmp.egg-info/dependency_links.txt
+wmp.egg-info/requires.txt
+wmp.egg-info/top_level.txt
+wmp/datasets/__init__.py
+wmp/datasets/sample_image.jpg
+wmp/datasets/sample_video.mp4
+wmp/models/__init__.py
+wmp/models/dlib_face_recognition_resnet_model_v1.dat
+wmp/models/shape_predictor_68_face_landmarks.dat
