@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: hypercore-crypto
+Version: 0.0.1a4
+Summary: Cryptography primitives for Hypercore
+Home-page: https://github.com/hyperpy/hypercore-crypto
+Keywords: hypercore,hypercore-protocol
+Author: Decentral1se
+Author-email: hi@decentral1.se
+Maintainer: Decentral1se
+Maintainer-email: hi@decentral1.se
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: merkle-tree-stream (>=0.0.1-alpha.4,<0.0.2)
+Requires-Dist: pysodium (>=0.7.5,<0.8.0)
+Project-URL: Repository, https://github.com/hyperpy/hypercore-crypto
+Description-Content-Type: text/markdown
+
+# hypercore-crypto
+
+[![Build Status](https://drone.autonomic.zone/api/badges/hyperpy/hypercore-crypto/status.svg)](https://drone.autonomic.zone/hyperpy/hypercore-crypto)
+
+## Cryptography primitives for Hypercore
+
+## Install
+
+```sh
+$ pip install hypercore-crypto
+```
+
+## Example
+
+```python
+from hypercore_crypto import data, key_pair
+from pysodium import crypto_sign_PUBLICKEYBYTES
+
+public_key, secret_key = key_pair()
+assert len(public_key) == crypto_sign_PUBLICKEYBYTES
+print(data(b"hello world").hex())
+```
+
