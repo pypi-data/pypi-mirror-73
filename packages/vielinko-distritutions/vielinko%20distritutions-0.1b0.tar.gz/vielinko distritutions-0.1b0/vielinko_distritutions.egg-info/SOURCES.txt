@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+vielinko_dist/Binomialdistribution.py
+vielinko_dist/Gaussiandistribution.py
+vielinko_dist/Generaldistribution.py
+vielinko_dist/__init__.py
+vielinko_distritutions.egg-info/PKG-INFO
+vielinko_distritutions.egg-info/SOURCES.txt
+vielinko_distritutions.egg-info/dependency_links.txt
+vielinko_distritutions.egg-info/not-zip-safe
+vielinko_distritutions.egg-info/top_level.txt
