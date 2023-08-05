@@ -1,0 +1,4 @@
+emoji
+numpy
+pybind11
+python-crfsuite
