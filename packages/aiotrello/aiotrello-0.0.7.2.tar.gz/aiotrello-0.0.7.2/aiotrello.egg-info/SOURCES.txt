@@ -1,0 +1,7 @@
+README.md
+setup.py
+aiotrello.egg-info/PKG-INFO
+aiotrello.egg-info/SOURCES.txt
+aiotrello.egg-info/dependency_links.txt
+aiotrello.egg-info/not-zip-safe
+aiotrello.egg-info/top_level.txt
