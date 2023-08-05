@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: funicorn
+Version: 1.0.6
+Summary: Funicorn
+Home-page: UNKNOWN
+Author: congvm
+Author-email: congvm.it@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py (==0.9.0)
+Requires-Dist: asgiref (==3.2.7)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: Django (==3.0.6)
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: image (==1.5.31)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.11.2)
+Requires-Dist: Markdown (==3.2.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: numpy (==1.18.4)
+Requires-Dist: opencv-python (==4.2.0.34)
+Requires-Dist: opt-einsum (==3.2.1)
+Requires-Dist: Pillow (==7.1.2)
+Requires-Dist: psutil (==5.7.0)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: sqlparse (==0.3.1)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: thrift (==0.13.0)
+Requires-Dist: waitress (==1.4.3)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: wrapt (==1.12.1)
+
+UNKNOWN
+
+
