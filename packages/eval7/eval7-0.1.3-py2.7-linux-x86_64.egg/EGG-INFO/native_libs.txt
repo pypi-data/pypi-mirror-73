@@ -1,0 +1,5 @@
+eval7/equity.so
+eval7/cards.so
+eval7/xorshift_rand.so
+eval7/handrange.so
+eval7/evaluate.so
