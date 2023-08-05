@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quickest
+Version: 0.1.0
+Summary: Tools for studying change detection problems. The justification for this package is that there are libraries for studying Markov chains, and there are libraries for numeric optimisation, but there is no standalone library for optimising the parameters of a Markov decision process.
+Author: Jenna Riseley
+Author-email: j2.riseley@qut.edu.au
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: matplotlib (>=3.2.1,<4.0.0)
+Requires-Dist: numpy (>=1.16.4,<2.0.0)
+Requires-Dist: pandas (>=1.0.5,<2.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
