@@ -1,0 +1,3 @@
+corpuscula
+pymorphy2
+scipy
