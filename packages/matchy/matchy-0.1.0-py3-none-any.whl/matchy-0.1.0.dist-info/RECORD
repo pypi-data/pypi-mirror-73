@@ -1,0 +1,15 @@
+matchy/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+matchy/cli.py,sha256=F6iOOeA_ua1gkT17axQjyVLX9yAnbVDU1MLmKYX3xfc,5148
+matchy/helper_functions.py,sha256=gTaPoCSPK6DrkiQOMv71ZlyYtvihxrF5KmRH30xv9I4,1826
+matchy/matching_algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matchy/matching_algorithms/base_matching_class.py,sha256=cs07hJFf4zbV6l3k2usSmO2LnANWoMOCw_VdeBdcmwE,1278
+matchy/matching_algorithms/do_nothing.py,sha256=t6SG4JGVmZTontFwWuCv1n1i9UelCC9fQjrEuklG-Oc,258
+matchy/matching_algorithms/hill_climbing.py,sha256=CRnnro7qphML3JAbRkqxxch-mZfw-fo6Aao9WwilUNA,2602
+matchy/matching_algorithms/random_hill.py,sha256=YBi4sKi_X7aRsw1a3ykgFBhJ3SZRG_5znf2kdbWrNZY,1217
+matchy/matching_algorithms/random_search.py,sha256=ZvfS2yJ1hewY7MPfZ2EeoTbm5LJo9d9VscXRjigtNns,838
+matchy/pretty_print.py,sha256=EKV_E9wf81_CyjLKYFdvnEC04UD7DLzkwJvgl1f1TyQ,2068
+matchy-0.1.0.dist-info/entry_points.txt,sha256=KApQ3wJI-SBi6p4L8A-e4X8QOGep5kJGx_2ed0vZUAM,41
+matchy-0.1.0.dist-info/LICENSE,sha256=rt7sC2ngrm4M6RCKaXzxnL_pDLq6kwWdKYQhgXEb4XQ,1066
+matchy-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+matchy-0.1.0.dist-info/METADATA,sha256=QlJslpWRed7MJe1mBo9R58OjFQM8GZxquAekzJehLhg,330
+matchy-0.1.0.dist-info/RECORD,,
