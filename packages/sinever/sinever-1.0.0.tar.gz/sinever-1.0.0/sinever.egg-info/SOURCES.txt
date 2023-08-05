@@ -1,0 +1,5 @@
+setup.py
+sinever.egg-info/PKG-INFO
+sinever.egg-info/SOURCES.txt
+sinever.egg-info/dependency_links.txt
+sinever.egg-info/top_level.txt
