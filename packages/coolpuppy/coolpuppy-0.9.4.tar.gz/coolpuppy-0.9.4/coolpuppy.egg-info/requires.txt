@@ -1,0 +1,8 @@
+Cython
+numpy
+cooler
+pandas
+natsort
+scipy
+cooltools
+pyyaml
