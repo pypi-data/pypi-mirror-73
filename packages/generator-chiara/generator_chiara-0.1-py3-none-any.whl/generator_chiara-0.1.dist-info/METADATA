@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: generator-chiara
+Version: 0.1
+Summary: A small example of package from Chiara
+Home-page: UNKNOWN
+Author: Chiara N
+Author-email: chiaranic88@gmail.com
+License: Type license() to see the full license text
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+python setup.py sdist bdist_wheel
+
+
+
