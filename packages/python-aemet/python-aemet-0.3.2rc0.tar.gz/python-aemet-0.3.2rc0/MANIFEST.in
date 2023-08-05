@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+include README.md
+include description.txt
+include requirements.txt
+recursive-include aemet/data *
