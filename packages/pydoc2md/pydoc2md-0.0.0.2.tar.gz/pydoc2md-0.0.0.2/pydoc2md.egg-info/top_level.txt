@@ -1,0 +1,5 @@
+Docs
+build
+dist
+pydoc2md
+screenshots
