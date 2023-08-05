@@ -1,0 +1,17 @@
+django_goolytics-0.1.0.data/scripts/goolytic-setup.bat,sha256=rJiy3I-XYseDH8s27cvozCLef4C-mpxiBnWbFEEbQl0,16
+goolytics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goolytics/admin.py,sha256=RtHC5s_4sw_OEQIqQeJcraS1udVTkGCG2PnlyalRnw8,210
+goolytics/apps.py,sha256=ZM_ppaNEhEDUopbHqVD9PLpQ_AuANxI1FRBATBRsO9k,98
+goolytics/models.py,sha256=FXkModu1XG6kDr4XHgrYahp_bKTPUyVqvDx0n3YUIxk,7425
+goolytics/security.py,sha256=uayYvNPJpap3pUUhdUJ6HwQZx_TBt0SK2OfIn4se4Kc,395
+goolytics/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+goolytics/urls.py,sha256=xC5NTlr3hfFDJcrJL3i_c8KR-pJ3rWTtyb1fkOyFshw,318
+goolytics/views.py,sha256=AMhR2iuWxpSeegQ5q_v13Wqoxu0xc3AzzqDTZUOyRVg,6894
+goolytics/migrations/0001_initial.py,sha256=cUEUIqnpksc_Wj1nFAf-vM19GYPIe4EkWGmZULdWX30,2900
+goolytics/migrations/0002_auto_20200625_0653.py,sha256=CWcuk-FjmvzVphnm4d-Ao060DN4CXswV4vOnjTfyrUE,2449
+goolytics/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_goolytics-0.1.0.dist-info/LICENSE,sha256=wwaTIeM5p1TYEKRnyL3ROkzDvoyNRr9VtroNBHjNQeo,35802
+django_goolytics-0.1.0.dist-info/METADATA,sha256=32Gtt3WDhYpVeWOyiXmMEC6fHKrJTRqIRlkMp11rkUs,847
+django_goolytics-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_goolytics-0.1.0.dist-info/top_level.txt,sha256=gfBUcU0gOke-21I8musFSUqcSzTYftbZXK7Mu2MeVe0,10
+django_goolytics-0.1.0.dist-info/RECORD,,
