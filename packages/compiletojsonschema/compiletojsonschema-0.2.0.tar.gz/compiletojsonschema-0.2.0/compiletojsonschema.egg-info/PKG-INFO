@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: compiletojsonschema
+Version: 0.2.0
+Summary: Compile To JSON Schema
+Home-page: https://github.com/OpenDataServices/compile-to-json-schema
+Author: Open Data Services
+Author-email: code@opendataservices.coop
+License: BSD
+Description: A suite of command-line tools for working with BODS data
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: test
