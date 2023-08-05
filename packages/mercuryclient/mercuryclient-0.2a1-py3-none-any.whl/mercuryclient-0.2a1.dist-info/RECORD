@@ -1,0 +1,10 @@
+mercuryclient/__init__.py,sha256=qoPrjuvgQ44430r3oUETgg6Iedaz_DgG5z9ioEXQAY4,28
+mercuryclient/api.py,sha256=Q4q3i_pdDsTqzUizhKhBiBxTGLTUFO0ZmNxQXNxsFkA,1803
+mercuryclient/http_utils.py,sha256=wn4LyAXb3fUjLzqnZ45tNgek546D5V8nwkyPheynaYE,556
+mercuryclient/mixins/__init__.py,sha256=pLH393mPVy4BE2jz9os9qtT1YvD2lTq8i1rby1diBGc,90
+mercuryclient/mixins/auth.py,sha256=syZuLk6csO9x2nQWIgwAZV1V8IPugmqCKM8m2n8USqs,2597
+mercuryclient/mixins/mail.py,sha256=idf7QCS1lciMRtZHS1QNJXhRgkQqjhaFFFYu_kTUvGc,1205
+mercuryclient-0.2a1.dist-info/METADATA,sha256=PzzfUFNASh-QA3ED6kmaEYzb_adrHKsadjubH1K33OM,1056
+mercuryclient-0.2a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mercuryclient-0.2a1.dist-info/top_level.txt,sha256=PIbqvpkOSGyGgXTbwcLZFIAx3U3_jryJ3lv9uVIkCT8,14
+mercuryclient-0.2a1.dist-info/RECORD,,
