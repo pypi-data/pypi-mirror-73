@@ -1,0 +1,10 @@
+setup.py
+bigbharath_probability/Binomialdistribution.py
+bigbharath_probability/Gaussiandistribution.py
+bigbharath_probability/Generaldistribution.py
+bigbharath_probability/__init__.py
+bigbharath_probability.egg-info/PKG-INFO
+bigbharath_probability.egg-info/SOURCES.txt
+bigbharath_probability.egg-info/dependency_links.txt
+bigbharath_probability.egg-info/not-zip-safe
+bigbharath_probability.egg-info/top_level.txt
