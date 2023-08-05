@@ -1,0 +1,6 @@
+
+[python 3.6.x needs]
+dataclasses
+
+[suggested flavor of OpenCV if you are not using conda]
+opencv-contrib-python
