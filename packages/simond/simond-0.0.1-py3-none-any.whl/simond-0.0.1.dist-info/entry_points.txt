@@ -1,0 +1,3 @@
+[console_scripts]
+simond = simond.__main__:main
+
