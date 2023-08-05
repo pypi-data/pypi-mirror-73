@@ -1,0 +1,12 @@
+mypy_boto3_machinelearning/__init__.py,sha256=67fo7lRLORl6YE5RCF2IAYWx6ccqXTr3qlv8Dohw2Wg,2365
+mypy_boto3_machinelearning/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_machinelearning/client.py,sha256=L5pujCXacpAE8QTIrJ103nTygz60FL2wTzZYD4SJ99g,18852
+mypy_boto3_machinelearning/paginator.py,sha256=w6zJULr2SyCe832f_dhhFVCbSeK-HufL3eknL0NijTo,6027
+mypy_boto3_machinelearning/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_machinelearning/type_defs.py,sha256=Af90JSapgTkO--M5h4aQvJdagYKGLaXCmLfbXvkMZt4,15074
+mypy_boto3_machinelearning/version.py,sha256=FyuBX8gOE2WY9b3exZkDMMUksf1zaDSnPhse7rGjQa0,57
+mypy_boto3_machinelearning/waiter.py,sha256=0bEbscWTTQwYACHpAugV0HFuvTNQ_2WD_C2dLBrNktw,5687
+mypy_boto3_machinelearning-1.14.16.0.dist-info/METADATA,sha256=gHh_ppJzRan6u-khRgueX2qv4yP8olyX1l72GBWjb7Q,6331
+mypy_boto3_machinelearning-1.14.16.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_machinelearning-1.14.16.0.dist-info/top_level.txt,sha256=GxhoFZgB8Lc6t41CAtyFiIXIDmOnRCRdjR79dpovrhU,27
+mypy_boto3_machinelearning-1.14.16.0.dist-info/RECORD,,
