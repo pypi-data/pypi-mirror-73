@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+wifiConfig/__init__.py
+wifiConfig/__main__.py
+wifiConfig.egg-info/PKG-INFO
+wifiConfig.egg-info/SOURCES.txt
+wifiConfig.egg-info/dependency_links.txt
+wifiConfig.egg-info/entry_points.txt
+wifiConfig.egg-info/requires.txt
+wifiConfig.egg-info/top_level.txt
+wifiConfig/scripts/__init__.py
+wifiConfig/scripts/wifi.py
