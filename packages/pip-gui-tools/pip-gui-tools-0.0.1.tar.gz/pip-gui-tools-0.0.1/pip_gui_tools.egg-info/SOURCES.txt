@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+pip-gui-tool/__init__.py
+pip_gui_tools.egg-info/PKG-INFO
+pip_gui_tools.egg-info/SOURCES.txt
+pip_gui_tools.egg-info/dependency_links.txt
+pip_gui_tools.egg-info/requires.txt
+pip_gui_tools.egg-info/top_level.txt
