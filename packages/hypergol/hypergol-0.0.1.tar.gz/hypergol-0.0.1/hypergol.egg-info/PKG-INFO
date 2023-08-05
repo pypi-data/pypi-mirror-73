@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hypergol
+Version: 0.0.1
+Summary: An opinionated multithreaded Data Science framework
+Home-page: https://github.com/hypergol/hypergol
+Author: Laszlo Sragner
+Author-email: hypergol.developer@gmail.com
+License: UNKNOWN
+Description: # hypergol
+        
+        This project is under construction, please contact the authors with feedback at [hypergol.developer@gmail.com](mailto:hypergol.developer@gmail.com?subject=Hypergol%20Feedback) .
+        
+        See documentation for details at: ...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
