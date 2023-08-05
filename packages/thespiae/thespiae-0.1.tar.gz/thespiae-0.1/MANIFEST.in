@@ -1,0 +1,4 @@
+graft devscripts
+include pyproject.toml dev-requirements.in dev-requirements.txt requirements.txt
+global-include *.g4 *.interp *.tokens
+recursive-include thespiae/tests *.py *.txt *.yml

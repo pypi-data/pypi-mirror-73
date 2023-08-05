@@ -1,0 +1,77 @@
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+# Copyright (C) 2018, 2019  Andrey Pleshakov
+#
+
+- name: example1
+  installer_url: 'http://example1.com/test_$version.exe'
+  uninstaller_path: '$install_directory\uninstall.exe'
+  install_args: ['/SILENT', '/DIR=$install_directory']
+  install_directory: 'C:\Program Files\Example1\$version'
+  path_entries: ['$install_directory\bin', '$install_directory\bin2']
+  versions:
+    - version: '1.1'
+      file_hash: '1234'
+      keep: yes
+    - version: '1.0'
+      file_hash: '1235'
+- name: example2
+  package_url: 'http://example.com/${name}_${version}.msi'
+  file_hash: '5678'
+  product_code: 'pc1234'
+  install_args: ['/q', 'INSTALLDIR=${install_directory}']
+  install_directory: 'C:\Program Files\Example2'
+  path_entries: ['$install_directory']
+  version: '0.1b'
+  keep: yes
+- name: example3
+  command: 'manager'
+  install_args: ['install', '$name:$version']
+  uninstall_args: ['uninstall', '$name:$version']
+  list_args: ['list']
+  installed_list_entry: '$name:$version'
+  path_entries: ['C:\apps\$name\$version\bin']
+  versions:
+    - version: '1.1'
+      keep: yes
+    - version: '1.0'
+      install_args: ['install', '${name}_final:$version']
+      uninstall_args: ['uninstall', '${name}_final:$version']
+      installed_list_entry: '${name}_final:$version'
+    - version: '0.9'
+      skip: yes
+      install_args: ['install', '$name']
+      uninstall_args: ['uninstall', '$name']
+      path_entries: ['C:\apps\$name', 'C:\apps\$name\bin']
+- name: example2
+  package_url: 'http://example.com/${name}_${version}.msi'
+  file_hash: '3579'
+  product_code: 'pc1235'
+  install_args: ['/q', 'INSTALLDIR=${install_directory}']
+  uninstall_args: ['/q']
+  install_directory: 'C:\Program Files\Ex2'
+  path_entries: ['$install_directory']
+  version: '0.1a'
+- name: example4
+  file_url: 'http://example.com/${architecture}/file.exe'
+  file_directory: 'C:\temp\${name}'
+  file_name: '${name}.exe'
+  architectures:
+    - architecture: 'x86'
+      file_hash: '123'
+    - architecture: 'x86_64'
+      file_hash: '456'
+      keep: yes
+- name: example5
+  archive_url: 'http://example.com/${architecture}/file-${version}.zip'
+  archive_format: 'zip'
+  unpack_directory: 'C:\temp\${name}\${version}'
+  architecture: 'x86_64'
+  versions:
+    - version: '0.6'
+      file_hash: '123'
+      keep: yes
+    - version: '0.5'
+      file_hash: '456'
+
