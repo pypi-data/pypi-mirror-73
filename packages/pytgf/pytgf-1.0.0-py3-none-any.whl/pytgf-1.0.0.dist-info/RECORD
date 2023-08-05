@@ -1,0 +1,14 @@
+pytgf/__init__.py,sha256=4aUghmxrXwLReJaVhPMvweatVz5NcJYqBmAjijwTn3c,271
+pytgf/graphics/__init__.py,sha256=Y-YRIEaaLfuTVfSpcVjYv7DV5bbU5hwJMws4g3SmuhU,11448
+pytgf/graphics/graphics.py,sha256=UuTSW7iM8t6rCU7jrhrjdSYK44emNExEENtxdrUwDYI,48572
+pytgf/graphics/gui.py,sha256=zKjktoqjpKJC0HoDI8QS7TbOQf4VakXhBSXqZl_zyQ0,44526
+pytgf/logic/__init__.py,sha256=yFgy-KhqO4dhSmcSnyojUkGO4KgHtD32iogkKPQGlis,16907
+pytgf/logic/event.py,sha256=pfF1Eoo79fs1VXEZyl1LF1P2Eh-22zXsE9mo-MNrLdo,37616
+pytgf/logic/physics.py,sha256=AC3akRZcruyQ5Zu4wf-6An6IfvBoP_7Jsp_auDJ_P_g,108081
+pytgf/window/__init__.py,sha256=h3WGIVNEMxZVEt0M5XseoV9_dffEqF4qGpmLW7gZylk,7864
+pytgf/window/window.py,sha256=iMW2IclY9pC6gZt2TdDD93Gb-Dd5CBLi-wJqKvxIkk0,17672
+pytgf-1.0.0.dist-info/LICENSE.md,sha256=WknNWX9fIlJ0mcfI_yyfQn9fTgPNSLLITkQstUT6T3A,1089
+pytgf-1.0.0.dist-info/METADATA,sha256=dsrxzMaUZBrg89_79mBK5WKQL5njVDuNz5vAd4c-BQM,1599
+pytgf-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pytgf-1.0.0.dist-info/top_level.txt,sha256=g9B_u5AZxxjY-KXOjZqCJ07pxRsfy8qeJU3R4b1iIh0,6
+pytgf-1.0.0.dist-info/RECORD,,
