@@ -1,0 +1,28 @@
+# setup.py
+#
+#
+
+
+from distutils.core import setup
+
+def read():
+    return open("README", "r").read()
+
+setup(
+    name='botlib',
+    version='89',
+    url='https://bitbucket.org/bthate/botlib',
+    author='Bart Thate',
+    author_email='bthate@dds.nl', 
+    description=""" BOTLIB is a library you can use to program bots. """,
+    long_description=read(),
+    license='Public Domain',
+    packages=["bot"],
+    scripts=["bin/bot"],
+    classifiers=['Development Status :: 4 - Beta',
+                 'License :: Public Domain',
+                 'Operating System :: Unix',
+                 'Programming Language :: Python',
+                 'Topic :: Utilities'
+                ]
+)
