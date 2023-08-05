@@ -1,0 +1,9 @@
+README.md
+psoa.py
+setup.py
+psoa.egg-info/PKG-INFO
+psoa.egg-info/SOURCES.txt
+psoa.egg-info/dependency_links.txt
+psoa.egg-info/requires.txt
+psoa.egg-info/top_level.txt
+psoa.egg-info/zip-safe
