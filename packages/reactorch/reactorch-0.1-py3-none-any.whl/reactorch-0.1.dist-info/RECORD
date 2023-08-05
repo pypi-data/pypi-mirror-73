@@ -1,0 +1,14 @@
+reactorch/Domain1D.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reactorch/__init__.py,sha256=T1bvb8fp9_1XLd5bKfP36AsLyAQb3hHp6NDHIo_5kcA,24
+reactorch/common_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reactorch/import_kinetics.py,sha256=N6V5Qd7q3xB6mRACa5jsYchTQTiO3j_RWf8jqtUNfRk,13529
+reactorch/kinetics.py,sha256=uQBr6mVhFZGl5wrL4u6MZ2ssDBKUGAMpDN7QLEqyr3Y,9313
+reactorch/magic_function.py,sha256=m4i96PD6aAkQWLPCcv9wBOUZR09nBfFSsms5Nhu_GPA,438
+reactorch/solution.py,sha256=ev7vlkk3_kR9nLr7nhYvtVA_1QCRaKQETkr0xtFSYn0,4103
+reactorch/thermo.py,sha256=rW5m2oQsMJOn6oGuvp2_AGV1kBKnlmFONQpyH7X8v7E,1830
+reactorch/transport.py,sha256=_MD8cxi2Z_F5ppIvhcc7t5DKqco09MjfauxMNo2RJGs,2045
+reactorch-0.1.dist-info/LICENSE,sha256=CQNyU_fKu9psx7CuUIFLVNz_meO1qavq3dCtZS58iKE,1127
+reactorch-0.1.dist-info/METADATA,sha256=rk3PWpVeCCpdZYUUxuY47QjOu5ZBpUERwIjnsB6iXqg,236
+reactorch-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+reactorch-0.1.dist-info/top_level.txt,sha256=MsVSAhDw5iOZ_scyNNG1ZC3DeULiAlcD_s3tmNJeAsw,10
+reactorch-0.1.dist-info/RECORD,,
