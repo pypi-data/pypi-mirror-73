@@ -1,0 +1,5 @@
+certifi
+numpy
+openpyxl
+pandas
+pycurl
