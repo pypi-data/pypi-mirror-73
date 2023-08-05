@@ -1,0 +1,9 @@
+README.md
+setup.py
+notebookparams/__init__.py
+notebookparams/notebookparams.py
+notebookparams.egg-info/PKG-INFO
+notebookparams.egg-info/SOURCES.txt
+notebookparams.egg-info/dependency_links.txt
+notebookparams.egg-info/not-zip-safe
+notebookparams.egg-info/top_level.txt
