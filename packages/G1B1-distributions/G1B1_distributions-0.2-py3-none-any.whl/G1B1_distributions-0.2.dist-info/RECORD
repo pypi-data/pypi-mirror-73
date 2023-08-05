@@ -1,0 +1,10 @@
+G1B1_distributions-0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+G1B1_distributions-0.2.dist-info/METADATA,sha256=Qc8xtd-3KgBZxf03eIjJc1uaUKkZwZxc98sna4Jp_iY,255
+G1B1_distributions-0.2.dist-info/RECORD,,
+G1B1_distributions-0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+G1B1_distributions-0.2.dist-info/metadata.json,sha256=w8xwfR0WiRUfrciTbVp-Py7kGnA5ifvuPn0g8tjc1nY,304
+G1B1_distributions-0.2.dist-info/top_level.txt,sha256=HnJk_-O1pXQ2dF7JP8uzGbCH4Qy0sbdzKpFldq10ANA,17
+GB_distributions/Binomialdistribution.py,sha256=bdoGZdWUjixIHWqAkKP07ZKU-290BCuV00kGPTW1hJA,4648
+GB_distributions/Gaussiandistribution.py,sha256=pzvkgrNHWlC4UFbGm2ce2Yn943iNl3Qts9-5_sfb6bM,3631
+GB_distributions/Generaldistribution.py,sha256=Jbs8PYHA_UZjAX_DI6FB38V0gPxSJNRemF--A4xP2PM,932
+GB_distributions/__init__.py,sha256=0x5xInZkmBodPUmHVJ-Ug_j_t0JugOzUY8RQ7aUbZ44,86
