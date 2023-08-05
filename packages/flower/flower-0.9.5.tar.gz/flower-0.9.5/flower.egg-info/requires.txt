@@ -1,0 +1,18 @@
+prometheus_client==0.8.0
+humanize
+pytz
+
+[:python_version < "3.5.2"]
+tornado<6.0.0,>=5.0.0
+
+[:python_version < "3.7"]
+celery>=3.1.0
+
+[:python_version == "2.7"]
+futures
+
+[:python_version >= "3.5.2"]
+tornado<7.0.0,>=5.0.0
+
+[:python_version >= "3.7"]
+celery>=4.3.0
