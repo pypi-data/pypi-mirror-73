@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: updator
+Version: 0.1.6
+Summary: Automatically upgrade python libraries
+Home-page: https://github.com/ShirAvr/updator.git
+Author: Shir Avr
+Author-email: shir@bhh.co.il
