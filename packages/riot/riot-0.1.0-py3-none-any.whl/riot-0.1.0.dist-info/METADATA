@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: riot
+Version: 0.1.0
+Summary: A simple Python test runner runner.
+Home-page: https://github.com/DataDog/riot
+Author: Datadog, Inc.
+Author-email: dev@datadoghq.com
+License: Apache 2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# riot
+
+A simple Python test runner runner.
+
+
