@@ -1,0 +1,1 @@
+https://github.com/ghisvail/pyNFFT/tarball/master#egg=pynfft-1.3.0

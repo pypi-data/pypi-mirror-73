@@ -1,0 +1,6 @@
+scikit-learn
+progressbar2
+joblib
+scipy<=1.3.3
+psutil
+pynfft@ git+https://github.com/ghisvail/pyNFFT@master
