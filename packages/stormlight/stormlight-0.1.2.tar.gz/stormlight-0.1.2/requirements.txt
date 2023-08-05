@@ -1,0 +1,9 @@
+htools
+nltk
+numpy==1.17.4
+pandas==0.25.3
+textblob
+torch
+transformers
+vaderSentiment
+
