@@ -1,0 +1,6 @@
+pandas
+scikit-image
+numpy
+seaborn
+hyperspy
+python-ternary
