@@ -1,0 +1,3 @@
+[pytest11]
+swift_mock = swiftmock.fixtures
+
