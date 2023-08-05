@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=2n7jRO2ZzULNEmH8nyvnf_ITLKD5rfMdm9YR6rkayFU,4169
+flake8_annotations/__init__.py,sha256=_Mk31b9AeMNDKNOvQgUa59A3TWohf0-8zIee6V8syw8,18094
+flake8_annotations/checker.py,sha256=hmu-vWHN200GNXMiXBuJ0gAwAO5qrsPXMgBMB1XiX1Y,8816
+flake8_annotations/enums.py,sha256=57sEK0aC33v1lSYIUmnNTjX8nC836FuKKSa8aTrYJR4,893
+flake8_annotations/error_codes.py,sha256=eylrIaD2uy0P8UkXmGUWqw4GrlsmvQ4ZLOhBr4f9ReI,5308
+flake8_annotations-2.2.0.dist-info/entry_points.txt,sha256=C7DUOYDdgXAyqjZ9ObHB9TIgjxIscSYMwJEJ_UDXvK0,67
+flake8_annotations-2.2.0.dist-info/LICENSE,sha256=V8IrWEeJUjUijvs9Z3nrh95C1jpmIdR6BxtcqINgd5E,1071
+flake8_annotations-2.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+flake8_annotations-2.2.0.dist-info/METADATA,sha256=z-JJ0aXou3DbMIpnVlnoJrhd05gBga8uhDxa3vczMC0,7709
+flake8_annotations-2.2.0.dist-info/RECORD,,
