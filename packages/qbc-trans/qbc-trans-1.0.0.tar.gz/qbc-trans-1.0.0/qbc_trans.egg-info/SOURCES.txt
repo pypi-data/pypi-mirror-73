@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+qbc_trans/__init__.py
+qbc_trans/trans.py
+qbc_trans.egg-info/PKG-INFO
+qbc_trans.egg-info/SOURCES.txt
+qbc_trans.egg-info/dependency_links.txt
+qbc_trans.egg-info/top_level.txt
