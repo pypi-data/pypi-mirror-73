@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/sglavoie/dev/datopian/github/frictionless-ckan-mapper/.venv/bin/python3",
+    "python.formatting.provider": "autopep8",
+    "files.watcherExclude": {
+    "**/.venv/*/**": true
+  }
+}
