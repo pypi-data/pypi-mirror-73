@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: django-user-secrets
+Version: 0.1.0
+Summary: Store user secrets encrypted into database.
+Home-page: https://github.com/jedie/django-user-secrets/
+License: GPL-3.0-or-later
+Keywords: django,helpers
+Author: Jens Diemer
+Author-email: django-user-secrets@jensdiemer.de
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: cryptography
+Requires-Dist: django
+Description-Content-Type: text/x-rst
+
+===================
+django-user-secrets
+===================
+
+Store user secrets encrypted into database.
+
+Current project state: "Pre-Alpha"
+
+Licence: GPL v3 or above
+
+--------
+the idea
+--------
+
+Store a user's secrets in the database encrypted with his password.
+
+Only the user can decrypt the stored data. His password is used for encryption and decryption. This password is only transmitted in plain text when logging in (Django itself only saves a salted hash of the password).
+
+The intermediate-user-secret is decrypted and stored with the clear text password in RAM after successful login. All user secrets will be encrypted and decrypted with his intermediate-user-secret.
+
+Limitations and/or facts:
+
+* Only the same user can decrypt his own data.
+
+* The decrypted data can only be used during an active session.
+
+* A intermediate-user-secret is used, so that a password can be changed without losing the encrypted data.
+
+----
+DEMO
+----
+
+Prepare: `install poetry <https://python-poetry.org/docs/#installation>`_ e.g.:
+
+::
+
+    ~$ sudo apt install python3-pip
+    ~$ pip3 install -U pip --user
+    ~$ pip3 install -U poerty --user
+
+Clone the sources, e.g.:
+
+::
+
+    ~$ git clone https://github.com/jedie/django-user-secrets.git
+    ~$ cd django-user-secrets
+    
+    # install via poetry:
+    ~/django-user-secrets$ poetry install
+    
+    # Start Django dev. server:
+    ~/django-user-secrets$ poetry run dev_server
+
+You can also use our Makefile, e.g.:
+
+::
+
+    ~/django-user-secrets$ make help
+    help                 List all commands
+    install-poetry       install or update poetry
+    install              install django-user-secrets via poetry
+    update               update the sources and installation
+    lint                 Run code formatters and linter
+    fix-code-style       Fix code formatting
+    tox-listenvs         List all tox test environments
+    tox                  Run pytest via tox with all environments
+    tox-py36             Run pytest via tox with *python v3.6*
+    tox-py37             Run pytest via tox with *python v3.7*
+    tox-py38             Run pytest via tox with *python v3.8*
+    pytest               Run pytest
+    update-rst-readme    update README.rst from README.creole
+    publish              Release new version to PyPi
+    start-dev-server     Start Django dev. server with the test project
+
+Alternative/Related projects:
+=============================
+
+* `https://github.com/erikvw/django-crypto-fields <https://github.com/erikvw/django-crypto-fields>`_
+
+* `https://github.com/incuna/django-pgcrypto-fields <https://github.com/incuna/django-pgcrypto-fields>`_
+
+* `https://github.com/georgemarshall/django-cryptography <https://github.com/georgemarshall/django-cryptography>`_
+
+(Random order: No prioritization)
+
+-------
+history
+-------
+
+* *dev* - `compare v0.1.0...master <https://github.com/jedie/django-user-secrets/compare/v0.1.0...master>`_
+
+* TBC
+
+* v0.1.0 - 04.07.2020 - `compare init...v0.1.0 <https://github.com/jedie/django-user-secrets/compare/d5700b952...v0.1.0>`_ 
+
+    * first release on PyPi
+
+------------
+
+``Note: this file is generated from README.creole 2020-07-04 18:52:44 with "python-creole"``
