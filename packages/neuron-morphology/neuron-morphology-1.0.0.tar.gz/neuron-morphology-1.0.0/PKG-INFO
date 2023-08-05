@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: neuron-morphology
+Version: 1.0.0
+Summary: Tools for working with single-neuron morphological reconstructions
+Home-page: UNKNOWN
+Author: Allen Institute for Brain Science
+Author-email: Marmot@AllenInstitute.onmicrosoft.com
+License: UNKNOWN
+Description: neuron_morphology
+        =================
+        
+        A package for working with single-neuron morphological reconstruction data, such as those in the [Allen Cell Types Database](https://celltypes.brain-map.org/). Provides tools for processing, visualizing, and analyzing such reconstructions.
+        
+        For usage and installation instructions, see the [documentation](https://neuron-morphology.readthedocs.io/en/latest/).
+        
+        Contributing
+        ------------
+        We welcome contributions! Please see our [contribution guide](CONTRIBUTING.md) for more information. Thank you!
+        
+        Level of Support
+        ----------------
+        We are planning on occasional updating this tool with no fixed schedule. Community involvement is encouraged through both issues and pull requests.
+        
+Keywords: neuroscience,bioinformatics,scientific
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
