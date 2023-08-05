@@ -1,0 +1,8 @@
+README.md
+setup.py
+yeziq/__init__.py
+yeziq/yeziq.py
+yeziq.egg-info/PKG-INFO
+yeziq.egg-info/SOURCES.txt
+yeziq.egg-info/dependency_links.txt
+yeziq.egg-info/top_level.txt
