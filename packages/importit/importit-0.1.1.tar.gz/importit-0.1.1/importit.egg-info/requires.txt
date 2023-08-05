@@ -1,0 +1,12 @@
+
+[dev]
+pre-commit
+
+[publish]
+twine
+
+[test]
+flake8
+mypy
+pytest
+pytest-cov
