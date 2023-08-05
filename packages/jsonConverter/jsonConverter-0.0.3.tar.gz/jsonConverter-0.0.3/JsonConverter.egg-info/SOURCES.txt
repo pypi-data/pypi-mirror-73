@@ -1,0 +1,12 @@
+README.md
+setup.py
+JsonConverter/__init__.py
+JsonConverter.egg-info/PKG-INFO
+JsonConverter.egg-info/SOURCES.txt
+JsonConverter.egg-info/dependency_links.txt
+JsonConverter.egg-info/top_level.txt
+jsonConverter/__init__.py
+jsonConverter.egg-info/PKG-INFO
+jsonConverter.egg-info/SOURCES.txt
+jsonConverter.egg-info/dependency_links.txt
+jsonConverter.egg-info/top_level.txt
