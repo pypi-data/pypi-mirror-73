@@ -1,0 +1,22 @@
+{
+    "__metadata__": {
+        "service_key": "mastery",
+        "service_product": "lol",
+        "service_endpoint": "champion-mastery",
+        "service_version": "v4"
+    },
+    "requests": {
+        "get_summoner_mastery": {
+            "method": "GET",
+            "url": "scores/by-summoner/${summoner_id}"
+        },
+        "get_summoner_masteries": {
+            "method": "GET",
+            "url": "champion-masteries/by-summoner/${summoner_id}"
+        },
+        "get_summoner_champion_mastery": {
+            "method": "GET",
+            "url": "champion-masteries/by-summoner/${summoner_id}/by-champion/${champion_id}"
+        }
+    }
+}

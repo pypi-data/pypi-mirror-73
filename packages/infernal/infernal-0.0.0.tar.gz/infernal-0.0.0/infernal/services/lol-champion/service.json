@@ -1,0 +1,14 @@
+{
+    "__metadata__": {
+        "service_key": "champion",
+        "service_product": "lol",
+        "service_endpoint": "platform",
+        "service_version": "v3"
+    },
+    "requests": {
+        "get_champion_rotations": {
+            "method": "GET",
+            "url": "champion-rotations"
+        }
+    }
+}
