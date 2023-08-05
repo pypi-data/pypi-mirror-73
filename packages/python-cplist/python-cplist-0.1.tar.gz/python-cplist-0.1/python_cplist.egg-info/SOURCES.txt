@@ -1,0 +1,7 @@
+README.md
+plist.c
+setup.py
+python_cplist.egg-info/PKG-INFO
+python_cplist.egg-info/SOURCES.txt
+python_cplist.egg-info/dependency_links.txt
+python_cplist.egg-info/top_level.txt
