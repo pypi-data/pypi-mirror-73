@@ -1,0 +1,79 @@
+# inout-nfc
+
+## ACR122 nfc reader/writer
+De ACR122 kaarlezer heert geen uitleesbaar serienummer en komt niet op een vaste
+plek terecht in het `/dev/` filesysteem. Met `lsusb` kun je kijken welk usb-adres
+het device na inpluggen toegewezen krijgt door de kernel:
+
+```
+$ lsusb 
+Bus 001 Device 013: ID 072f:2200 Advanced Card Systems, Ltd ACR122U
+Bus 001 Device 004: ID 0424:7800 Standard Microsystems Corp. 
+Bus 001 Device 003: ID 0424:2514 Standard Microsystems Corp. USB 2.0 Hub
+Bus 001 Device 002: ID 0424:2514 Standard Microsystems Corp. USB 2.0 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+```
+
+De ACR122 heeft nummer 13 toegewezen gekregen. Uitpluggen en inpluggen zorgt ervoor dat
+dit nummer opgehoogd wordt:
+```
+$ lsusb |grep 072f
+Bus 001 Device 014: ID 072f:2200 Advanced Card Systems, Ltd ACR122U
+```
+
+Met `udevadm` kun je op basis van het usb-path het usb-nummer opzoeken:
+```
+$ udevadm info -q name /sys/bus/usb/devices/1-1.3
+bus/usb/001/014
+```
+
+Dit zijn de verschillende manieren om in `nfcpy` te refereren naar een kaarlezer:
+```
+assert clf.open('usb:003:009') is True    # open device 9 on bus 3
+>>> assert clf.open('usb:054c:02e1') is True  # open first PaSoRi 330
+>>> assert clf.open('usb:003') is True        # open first Reader on bus 3
+>>> assert clf.open('usb:054c') is True       # open first Sony Reader
+>>> assert clf.open('usb') is True            # open first USB Reader
+```
+
+Omdat er geen serienummer bekend is, kun je bij gebruik van meerdere nfc kaartlezers alleen
+afgaan op de fysieke usb-poort.
+Deze hebben bij een Raspberry Pi 3B+ de volgende nummers:
+```
+  +--------+
+  | ether- |   [ 1-1.1.2 ]   [   1-1.3 ]
+  |   net  |   [ 1-1.1.3 ]   [   1-1.2 ]
+  +--------+ 
+===========================================
+```
+Bij een Pi 2 is de nummering weer net iets anders. Deze kennis zit nu in
+inout_nfc. Met onderstaande labels kun je aangeven welke nfc scanner met welke
+usb poort verbonden is.
+```
+  +--------+
+  | ether- |   [ tl ]   [   tr ]
+  |   net  |   [ bl ]   [   br ]
+  +--------+ 
+===========================================
+```
+
+Voorbeeld van het scan commando voor een nfc lezer verbonden met de USB poort
+links boven:
+```
+inout_nfc scan --usb-port tb --scanner reception1 --api_url https://inout.example.com --api_key MYSECRETKEY
+```
+
+## Scan
+```
+Usage: inout_nfc scan [OPTIONS]
+
+  Listen for chip cards to be scanned with an nfc reader/writer and make an
+  API call to InOut for each detected chip-id.
+
+Options:
+  --usb_port [ul|bl|ur|br]  USB port the NFC reader is connected to.
+  --api_url TEXT            InOut API url.  [required]
+  --api_key TEXT            InOut API key.
+  --scanner TEXT            Unique scanner name, ie: "reception1".  [required]
+  --help                    Show this message and exit.
+```
