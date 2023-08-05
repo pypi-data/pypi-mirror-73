@@ -1,0 +1,4 @@
+[console_scripts]
+indicator-syncthing = indicator_syncthing.__main__:main
+indicator_syncthing = indicator_syncthing.__main__:main
+
