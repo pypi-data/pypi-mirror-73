@@ -1,0 +1,10 @@
+stonks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stonks/plugin.py,sha256=qJTv68R8GuUXETUPE8TtpkAhmV0EWMiEXPzh4gOU2G0,1928
+stonks/stonks.py,sha256=vwHa23yqr5aRFt-TYDnguNXkARVB3c0IqOAMK5rAiEo,6167
+stonks/plugins/__init__.py,sha256=rYUxNvbBwYJAbQUecKsLT0F2a0FS42nGbFI4wC3bdqU,182
+stonks/plugins/base.py,sha256=ba_-_tCOvMrAvFZ1IkdvNkoxKqkJiwXkA7i2GiujcH8,10330
+stonks_data-0.0.1.dist-info/LICENSE,sha256=HCFsFpI-wgmsODXlqztc9bxBfSyfTWUgDbAxahQty2s,1093
+stonks_data-0.0.1.dist-info/METADATA,sha256=PG5MkK2ZLmze0EKXigv-tPBKMxnaFEElH5YeT7IXiVk,1752
+stonks_data-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+stonks_data-0.0.1.dist-info/top_level.txt,sha256=vVu4N-WVtCzGKtZa5wQE-HKKjvY3qKkdyjHtO7kq7q8,7
+stonks_data-0.0.1.dist-info/RECORD,,
