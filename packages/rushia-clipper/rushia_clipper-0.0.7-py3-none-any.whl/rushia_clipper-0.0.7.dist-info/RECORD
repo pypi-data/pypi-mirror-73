@@ -1,0 +1,9 @@
+rushia_clipper/__init__.py,sha256=O6F3nbPclrTTBvc1o4Mb2V6KVHJaQ-63F39IltyJ4Tc,93
+rushia_clipper/audio.py,sha256=6bEKtp0FOcAEmZkw9bqQhQ00Eq3WcS0CGfYgxC_dKVc,410
+rushia_clipper/clipSync.py,sha256=BMlML_iE4jSWuWgOV-jCEul11C53selc-axqENdrSK0,8214
+rushia_clipper/clipper.py,sha256=YOnijLF23_g5ztzDAORMff2m3pF_Nrr8xDKdo6yddT4,8363
+rushia_clipper/workersKV.py,sha256=kqA81vgy-36ekaMem3NI4HnCm00xV6mguVd-qs10xoE,1618
+rushia_clipper-0.0.7.dist-info/METADATA,sha256=XGoTAgraWGGG2S6kxwtozsyTooWOFmyhpqK4VnlTPiM,618
+rushia_clipper-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rushia_clipper-0.0.7.dist-info/top_level.txt,sha256=MCepI_yNXhBlfgPnmSvTj_LBNn6X_Om_mrNLvokB1sU,15
+rushia_clipper-0.0.7.dist-info/RECORD,,
