@@ -1,0 +1,8 @@
+safeeval/__init__.py,sha256=13RlDNTJ7gvPDF4nqNhxbrAsmthqwGKGGrpfUBbkQsc,3212
+tests/__init__.py,sha256=SrXhb5meyG28qUpKcEQdGJph5jJ-SlvPiHUOQENdkfM,99
+tests/simpletests.py,sha256=i8-uDUZefdmJ-76EX2kStd9Bajxpi6VkYwtMyHX-wi0,1771
+safeeval-0.0.4.dist-info/LICENSE,sha256=IDZry2XHGtm7vucuygpbKdxygRkGQS4wUxOPQp-m478,1073
+safeeval-0.0.4.dist-info/METADATA,sha256=I1ujeauojdHp09-w1nA2VU39FcN0_CME91iSTqUU9gs,1493
+safeeval-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+safeeval-0.0.4.dist-info/top_level.txt,sha256=0dThfqpOcmlAVtLoM_w_AhKm0NL_aABXYDBo6zgrHhM,15
+safeeval-0.0.4.dist-info/RECORD,,
