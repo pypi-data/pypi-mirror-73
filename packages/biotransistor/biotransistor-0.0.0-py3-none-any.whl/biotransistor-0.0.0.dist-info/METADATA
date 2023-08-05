@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: biotransistor
+Version: 0.0.0
+Summary: bue`s public bioinformatics code base to explor biology.
+Home-page: https://gitlab.com/biotransistor/biotransistor
+Author: Elmar Bucher
+Author-email: ulmusfagus@zoho.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://gitlab.com/biotransistor/biotransistor/-/issues
+Project-URL: Funding, https://www.msf.org/donate
+Project-URL: Source, https://gitlab.com/biotransistor/biotransistor
+Keywords: bioinformatics,entropy,information_theory,statistical_physics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# biotransistor
+
+my public bioinformatics code base to exploring biology
+
