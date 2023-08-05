@@ -1,0 +1,9 @@
+README.md
+setup.py
+meaningful_re/__init__.py
+meaningful_re/expression.py
+meaningful_re/meaningful_re.py
+meaningful_re.egg-info/PKG-INFO
+meaningful_re.egg-info/SOURCES.txt
+meaningful_re.egg-info/dependency_links.txt
+meaningful_re.egg-info/top_level.txt
