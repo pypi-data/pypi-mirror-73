@@ -1,0 +1,9 @@
+pandas2pgfplots/__init__.py,sha256=QkM4yd0rMiDMKAR2fUNF9a3YwAD4QhwFs8aBhAq2wzw,138
+pandas2pgfplots/display.py,sha256=f_fexjcTZWSlyFG_0ckQHZlLFl61aRX3cPX9Ynfcryw,587
+pandas2pgfplots/plots.py,sha256=qM6dSM7SIB_UMkgy1sl-iL5yHVAJXfJeMdOOJow2m9Q,7855
+pandas2pgfplots/utils.py,sha256=KHUq4cy-Ctz_jYKYinv4TBgUIBrN_5krfknfjZtTETo,1343
+pandas2pgfplots-0.2.0.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+pandas2pgfplots-0.2.0.dist-info/METADATA,sha256=hnK-WBeb_IS9MgUaBTxrd8GJn0fycRzcPooPl1H7Jk4,1458
+pandas2pgfplots-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pandas2pgfplots-0.2.0.dist-info/top_level.txt,sha256=BpaOe07PaGX9OJUMVjVnk1__z_1Z-uN8pp8KtgKQJa0,16
+pandas2pgfplots-0.2.0.dist-info/RECORD,,
