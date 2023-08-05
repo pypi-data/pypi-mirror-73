@@ -1,0 +1,8 @@
+{
+  "author": "Troy Wilson",
+  "homepage": "https://github.com/troywilson/so-lazy",
+  "download": "https://pypi.org/project/so-lazy/",
+  "license": "Apache License 2.0",
+  "description": "Lazy loading Python package",
+  "version": "0.0.1"
+}
