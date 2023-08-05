@@ -1,0 +1,10 @@
+setup.py
+anusha/Binomialdistribution.py
+anusha/Gaussiandistribution.py
+anusha/Generaldistribution.py
+anusha/__init__.py
+anusha.egg-info/PKG-INFO
+anusha.egg-info/SOURCES.txt
+anusha.egg-info/dependency_links.txt
+anusha.egg-info/not-zip-safe
+anusha.egg-info/top_level.txt
