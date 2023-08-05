@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ddd-seedwork
+Version: 0.0.1
+Summary: A small ddd_seedwork with support for flask
+Home-page: https://github.com/aherculano/python-ddd-seedwork
+Author: Alexandre Rodrigues
+Author-email: aherculano0109@gmail.com
+License: MIT
+Description: # ddd_seedwork
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
