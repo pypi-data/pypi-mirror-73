@@ -1,0 +1,32 @@
+Metadata-Version: 1.2
+Name: kastore
+Version: 0.3.1
+Summary: A write-once-read-many store for simple numerical data
+Home-page: https://github.com/tskit-dev/kastore
+Author: tskit developers
+Author-email: jerome.kelleher@well.ox.ac.uk
+License: MIT
+Project-URL: Bug Reports, https://github.com/tskit-dev/kastore/issues
+Project-URL: Source, https://github.com/tskit-dev/kastore
+Description: kastore
+        =======
+        
+        A simple write-once-read-many store for numerical data.
+        
+        This package is under active development, and is not recommended for
+        general use.
+        
+Keywords: Binary store numerical arrays
+Platform: POSIX
+Platform: Windows
+Platform: MacOS X
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
