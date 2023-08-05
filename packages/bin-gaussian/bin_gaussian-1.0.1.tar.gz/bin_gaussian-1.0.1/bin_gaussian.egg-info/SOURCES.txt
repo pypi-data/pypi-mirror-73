@@ -1,0 +1,10 @@
+setup.py
+bin_gaussian/Binomialdistribution_challenge.py
+bin_gaussian/Gaussiandistribution.py
+bin_gaussian/Generaldistribution.py
+bin_gaussian/__init__.py
+bin_gaussian.egg-info/PKG-INFO
+bin_gaussian.egg-info/SOURCES.txt
+bin_gaussian.egg-info/dependency_links.txt
+bin_gaussian.egg-info/not-zip-safe
+bin_gaussian.egg-info/top_level.txt
