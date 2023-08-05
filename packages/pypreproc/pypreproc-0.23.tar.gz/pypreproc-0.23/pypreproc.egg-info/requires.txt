@@ -1,0 +1,6 @@
+pandas
+lifetimes
+numpy
+sklearn
+wheel
+holidays
