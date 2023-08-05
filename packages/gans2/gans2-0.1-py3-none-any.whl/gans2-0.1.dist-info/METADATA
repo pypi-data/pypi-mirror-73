@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: gans2
+Version: 0.1
+Summary: GANs-2.0
+Home-page: UNKNOWN
+Author: Tomasz Latkowski
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tensorflow
+Requires-Dist: matplotlib (==3.1.0)
+Requires-Dist: easydict (==1.9)
+Requires-Dist: Pillow (==6.2.0)
+Requires-Dist: imageio (==2.5.0)
+Requires-Dist: tqdm (==4.47.0)
+Requires-Dist: tensorflow-addons (~=0.6)
+Requires-Dist: tensorflow-datasets (==1.3.0)
+Requires-Dist: pyyaml (==5.1.2)
+Requires-Dist: overrides (==3.1.0)
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (>=2.2.0); extra == 'tensorflow'
+
+Generative Adversarial Networks in TensorFlow 2.0.
+
+
