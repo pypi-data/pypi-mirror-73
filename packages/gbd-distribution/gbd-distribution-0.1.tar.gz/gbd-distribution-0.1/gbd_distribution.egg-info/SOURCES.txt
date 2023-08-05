@@ -1,0 +1,7 @@
+setup.py
+gbd-distributions/__init__.py
+gbd_distribution.egg-info/PKG-INFO
+gbd_distribution.egg-info/SOURCES.txt
+gbd_distribution.egg-info/dependency_links.txt
+gbd_distribution.egg-info/not-zip-safe
+gbd_distribution.egg-info/top_level.txt
