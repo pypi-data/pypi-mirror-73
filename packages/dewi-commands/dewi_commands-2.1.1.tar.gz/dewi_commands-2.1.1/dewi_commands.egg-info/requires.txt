@@ -1,0 +1,9 @@
+dewi_core>=3.1.0
+dewi_logparsers>=2.0.2
+dewi_module_framework>=2.0.1
+dewi_realtime_sync>=2.0.0
+dewi_utils>=2.1.0
+pyyaml
+selenium
+sqlalchemy
+threadpool
