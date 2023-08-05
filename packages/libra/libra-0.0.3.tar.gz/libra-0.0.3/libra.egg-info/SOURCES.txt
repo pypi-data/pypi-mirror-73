@@ -1,0 +1,12 @@
+CONTRIBUTING.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+libra.egg-info/PKG-INFO
+libra.egg-info/SOURCES.txt
+libra.egg-info/dependency_links.txt
+libra.egg-info/requires.txt
+libra.egg-info/top_level.txt
+tests/README.md
+tests/tests.py
