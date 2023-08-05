@@ -1,0 +1,6 @@
+#!python
+from poker_ai.cli.runner import cli
+
+
+if __name__ == "__main__":
+    cli()
