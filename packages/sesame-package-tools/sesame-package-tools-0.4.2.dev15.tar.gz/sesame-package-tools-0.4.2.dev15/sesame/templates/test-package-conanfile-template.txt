@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+
+import os
+from conans import ConanFile, CMake, tools, RunEnvironment
+
+class {package_name}TestConan(ConanFile):
+    python_requires = 'sesame/0.1.0'
+    python_requires_extend = "sesame.SesameBase"
+
+    settings = 'os', 'compiler', 'build_type', 'arch'
+    generators = 'cmake'
+
+    def build(self):
+        cmake = self._configure_cmake()
+        cmake.build()
+
+    def _configure_cmake(self):
+        generator, defs = self._setup_cmake()
+
+        cmake = CMake(self, generator=generator)
+        cmake.verbose = True
+        cmake.configure(defs=defs)
+        return cmake
+
+    def test(self):
+        if not tools.cross_building(self.settings):
+            with tools.environment_append(RunEnvironment(self).vars), tools.chdir('bin'):
+                self.run(f'.{{os.sep}}test_package')
