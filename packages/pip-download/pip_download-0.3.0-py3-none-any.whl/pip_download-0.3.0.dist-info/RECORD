@@ -1,0 +1,16 @@
+pipdownload/__init__.py,sha256=Ck7f2M7e9MSzUdYhXWZUvUqpbeUjzc6F_RpYSaMco-c,170
+pipdownload/__main__.py,sha256=z6Nb9LTztjFAyAGbQ6SWl-1lmu0XJGFe5IXe3vbLTEQ,77
+pipdownload/cli.py,sha256=JxuhjB3lRMS27QuUKlwL8_6DjtTZqxMtbfaOLMzBU2U,8610
+pipdownload/exceptions.py,sha256=fDW1xTxaCSOx9rst0-2cPSyFfHuG-1yBcHKTzioFb7A,2061
+pipdownload/settings.py,sha256=hmB8ku_peYpusEKlslBXfyELFcuoAzhjbLGUBC2z9Jg,126
+pipdownload/utils.py,sha256=hsxvjrVigeIMSDd4a5p0SD1I3cTvu5ZgdDua68PXbnk,10123
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=WqwcsySTOUD4W9LxPgq8sT7-pFtA3CEGIzCRuCZiLyM,631
+tests/test_cli.py,sha256=WXhgXYD9fMbd5_vZlYatIZoSLuP2LSrJ0WpL_L9kSmI,3922
+tests/test_utils.py,sha256=4lfFkzMBPRUxDiuItKPEcy3F4bUT8Ajlt0yvJNsrSDE,604
+pip_download-0.3.0.dist-info/LICENSE-MIT,sha256=y56I7TvalFEJJIAnzK0AoX-EXHeca_mxLEF-WlP42wA,1160
+pip_download-0.3.0.dist-info/METADATA,sha256=RVxlN6H2RqsIFoPsqAJrmjKfHTKAoBXgsM4lcAAKVQI,3431
+pip_download-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pip_download-0.3.0.dist-info/entry_points.txt,sha256=92fk2MMsqylXjYqu15O6IFWFIDFPB0I9CpfY0PhAUJc,62
+pip_download-0.3.0.dist-info/top_level.txt,sha256=wIDGkN8gmbUILvCe1N7I9OKjwJwqu9kWdMsAyi3kPJo,18
+pip_download-0.3.0.dist-info/RECORD,,
