@@ -1,0 +1,13 @@
+locald/__init__.py,sha256=toeRJ22qYMKUszx4gUgTTBArSYc_T3Er5tr9AqifNik,54
+locald/cli.py,sha256=eohQndb10b94Yv62h2q0YitvBEloVNx5vYgK8H71EpQ,3568
+locald/client.py,sha256=zuGv4MIoU0U_Dw0MIkB7Xejh8L7wTE-r8YS30Dlwz98,2164
+locald/compat.py,sha256=bm3FNwDod2SUh6aZAoDl8hVyHtdzKGV0Fpe95a5B9R0,513
+locald/config.py,sha256=MudDWxw7CxmjgE6bUlBUws7ZZnnitt7Xo2kkYqH5XEA,1925
+locald/server.py,sha256=TuJ3MliutPWSHo6-60KhpstivUja7V7CEa_aomT7dSI,9651
+locald/service.py,sha256=mnB7EzNNdN-cQVruqeOuEeHwzUnkd8nKMBjehtkH3iQ,2957
+locald-0.3.data/scripts/locald,sha256=_v4KuuwnFZgG20A-qH9Pu31X1iZo3JCICPpqi8Eg2iA,119
+locald-0.3.dist-info/LICENSE,sha256=F0pWvlQJrqW5DW61F_PdcG8_9EFHt8NT9DzVf1kFHHM,1057
+locald-0.3.dist-info/METADATA,sha256=nhi1EeaWNnySbHdxwYa9d4KIrkjI8U3F0PRMugc2g48,729
+locald-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+locald-0.3.dist-info/top_level.txt,sha256=lbS3IyH3F7r6tJtQ2HCCafHcIYPthfgHhDRpZ5EYAuk,7
+locald-0.3.dist-info/RECORD,,
