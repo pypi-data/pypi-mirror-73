@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: swish-activation
+Version: 0.0.1
+Summary: swish activation function
+Home-page: https://github.com/Sagu12
+Author: Sagnik Banerjee
+Author-email: sagu7065@gmail.com
+License: UNKNOWN
+Description: This is swish function that is used in place of Relu because of its non monotonous behaviour and capturing the weights and inputs properly. Although there are ways to convert the normal Relu function to Swish but this package helps importing the swish activation function directly and use it as an activation function.
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
