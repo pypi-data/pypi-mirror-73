@@ -1,0 +1,11 @@
+setup.py
+ppbank.egg-info/PKG-INFO
+ppbank.egg-info/SOURCES.txt
+ppbank.egg-info/dependency_links.txt
+ppbank.egg-info/requires.txt
+ppbank.egg-info/top_level.txt
+ppbank_cli/extract_docx.py
+ppbank_cli/inter.py
+ppbank_cli/moleclues_info.py
+ppbank_cli/ppbank.py
+ppbank_cli/test.py
