@@ -1,0 +1,4 @@
+camelot-py>=0.8.0
+click
+python-sped
+unidecode
