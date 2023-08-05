@@ -1,0 +1,9 @@
+README.md
+flake8_simplicity.py
+setup.py
+flake8_simplicity.egg-info/PKG-INFO
+flake8_simplicity.egg-info/SOURCES.txt
+flake8_simplicity.egg-info/dependency_links.txt
+flake8_simplicity.egg-info/entry_points.txt
+flake8_simplicity.egg-info/requires.txt
+flake8_simplicity.egg-info/top_level.txt

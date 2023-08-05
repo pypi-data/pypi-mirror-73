@@ -1,0 +1,3 @@
+[flake8.extension]
+SPL = flake8_simplicity:checker
+
