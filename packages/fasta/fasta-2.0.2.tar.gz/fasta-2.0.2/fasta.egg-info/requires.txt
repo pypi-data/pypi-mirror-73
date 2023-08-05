@@ -1,0 +1,5 @@
+plumbing>=2.8.0
+autopaths>=1.4.1
+biopython
+numpy
+sh
