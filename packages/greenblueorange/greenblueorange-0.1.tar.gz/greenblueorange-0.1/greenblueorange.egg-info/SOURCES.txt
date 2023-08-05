@@ -1,0 +1,10 @@
+setup.py
+greenblueorange/Binomialdistribution.py
+greenblueorange/Gaussiandistribution.py
+greenblueorange/Generaldistribution.py
+greenblueorange/__init__.py
+greenblueorange.egg-info/PKG-INFO
+greenblueorange.egg-info/SOURCES.txt
+greenblueorange.egg-info/dependency_links.txt
+greenblueorange.egg-info/not-zip-safe
+greenblueorange.egg-info/top_level.txt
