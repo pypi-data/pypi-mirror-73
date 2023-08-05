@@ -1,0 +1,4 @@
+attrs==19.*
+mysql-connector-python==8.*
+PyQt5==5.11.*
+requests==2.*
