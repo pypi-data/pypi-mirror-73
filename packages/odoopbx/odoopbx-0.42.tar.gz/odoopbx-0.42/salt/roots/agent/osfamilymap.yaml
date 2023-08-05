@@ -1,0 +1,27 @@
+Debian:
+  pkgs:
+    - ipset
+    - iptables
+  pip:
+    - aiorun
+    - ipsetpy
+    - OdooRPC
+    - panoramisk
+    - setproctitle
+    - terminado
+    - tornado-httpclient-session
+
+RedHat:
+  pkgs:
+    - gcc
+    - ipset
+    - iptables
+    - python36-devel
+  pip:
+    - aiorun
+    - ipsetpy
+    - OdooRPC
+    - panoramisk
+    - setproctitle
+    - terminado
+    - tornado-httpclient-session
