@@ -1,0 +1,10 @@
+outcome/pypicloud_access_github/__init__.py,sha256=eAzslgA2x2pYxa5RdPgGb7dzZeWB7cViCfxr5dSzQPg,207
+outcome/pypicloud_access_github/access.py,sha256=E8SAilvYogEXPSjGvc4b1WfUOowxu11VcOKQB3RQ7sQ,21325
+outcome/pypicloud_access_github/cache.py,sha256=zJfG-p9PPhpISDlonP60BZbUtwzCr9gFkkgzBmF6CUw,3389
+outcome/pypicloud_access_github/graphql/client.py,sha256=Y-pfNT8mVCxK9fD4p9an5q9uMD8GH1uCBiUtfZIjHnE,1908
+outcome/pypicloud_access_github/graphql/schema.json,sha256=WYVqhlUJ-OLUOAQmexEvIjfQ8ffYpHuggv5IcpkzUa8,2264166
+outcome/pypicloud_access_github/graphql/schema.py,sha256=LWaSsTUPfOHTQ-faLC6nCqbrfru-G3Lh4Njz5YQZNxw,540789
+outcome/pypicloud_access_github/poetry.py,sha256=Djy_Xbe7BYfFfCFb7khFuctTiojUpKqiTQEPYmDaAXA,610
+outcome_pypicloud_access_github-1.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+outcome_pypicloud_access_github-1.1.0.dist-info/METADATA,sha256=octmaa4LelGs41RLlahcNJAd5oSZLHmK26MBo_a4Ve8,6938
+outcome_pypicloud_access_github-1.1.0.dist-info/RECORD,,
