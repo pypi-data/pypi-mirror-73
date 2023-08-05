@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: profilegraph
+Version: 0.2.0
+Summary: IPython magic for cProfile graphs w gprof2dot and graphviz in Jupyter/iterm.
+Home-page: https://github.com/stefco/profilegraph
+Author: Stefan Countryman
+Author-email: stefan.countryman@gmail.com
