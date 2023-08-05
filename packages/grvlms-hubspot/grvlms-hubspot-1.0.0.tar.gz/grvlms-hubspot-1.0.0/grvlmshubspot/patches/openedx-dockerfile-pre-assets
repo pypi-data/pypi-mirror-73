@@ -1,0 +1,4 @@
+  
+# Install Hubspot Integration app
+ARG HUBSPOT_VERSION=open-release/ironwood.master
+RUN pip install -e git+https://github.com/groovetch/edx-hubspot.git@$HUBSPOT_VERSION#egg=hubspot
