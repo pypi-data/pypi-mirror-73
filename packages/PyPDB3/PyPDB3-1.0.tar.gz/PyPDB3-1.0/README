@@ -1,0 +1,49 @@
+P. Tuffery 2019: This is a python3 port of the RPBS PyPDB class. Seesm to work, but not ALL could be tested.
+
+PyPDB ToolBox
+=============
+CONTRIBUTORS: P. Tuffery, R. Gautier, J. Maupetit, J. Herisson, F. Briand
+EMAIL: pierre.tuffery@univ-paris-diderot.fr 
+URL: http://bioserv.rpbs.univ-paris-diderot.fr
+VERSION: 10.0
+DATE: June 2010
+
+== Description ==
+
+PyPDB : a python class to parse and manipulate PDB files
+
+This class is used in production since 2004 at the RPBS structural
+bioinformatics platform. It relies on our strong experience in
+biomolecular structure files.
+
+PyPDB3 stands for python3 version of the PyPDB
+
+== Dependancies ==
+
+- python setuptools (mandatory)
+- non mandatory: hydrogens building softwares (not mandatory)
+  * HAAD : http://zhanglab.ccmb.med.umich.edu/HAAD/
+  * Reduce : http://kinemage.biochem.duke.edu/software/reduce.php
+
+== Configuration ==
+
+PyPDB/Config.py contains all configuration paths to, but remote access configuration as well.
+
+- local structure bank :
+  * local PDB version
+  * local Astral Scop version
+  * local CATH version
+
+- hydrogens addition software :
+  * HAAD software
+  * Reduce software
+
+== Installation ==
+
+git clone https://gitlab.rpbs.univ-paris-diderot.fr/src/PyPDB3.git
+python3 setup.py install --user
+
+1. Install dependancies (see Dependancies section)
+2. Edit your PyPDB/Config.py (See Configuration section)
+3. Install PyPDB: python setup.py install
+	

@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: PyPDB3
+Version: 1.0
+Summary: A parser for PDB files
+Home-page: http://bioserv.rpbs.univ-paris-diderot.fr
+Author: P. Tuffery and J. Maupetit
+Author-email: pierre.tuffery@univ-paris-diderot.fr
+License: GNU General Public License (GPL)
+Description: PyPDB : a python class to parse PDB files
+        
+        Written (2001-2020) by P. Tuffery, INSERM, France
+        
+        Contributions by R. Gautier, J. Maupetit, J. Herisson, C. Habib and others
+        
+        This class is used in production since 2004 at the RPBS structural
+        bioinformatics platform. It relies on our strong experience in
+        biomolecular structure files.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

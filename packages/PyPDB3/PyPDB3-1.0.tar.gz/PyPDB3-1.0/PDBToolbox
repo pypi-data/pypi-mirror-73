@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>
+    PyPDB Files
+        &middot; PDBToolbox
+    &middot; RhodeCode MTI
+</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="robots" content="index, nofollow"/>
+        <link rel="icon" href="/images/favicon.ico" type="image/png" />
+
+        
+
+        
+
+        
+            <link rel="stylesheet" type="text/css" href="/css/style.css?ver=1.7.2" media="screen"/>
+            <link rel="stylesheet" type="text/css" href="/css/pygments.css?ver=1.7.2"/>
+            <link rel="stylesheet" type="text/css" href="/css/contextbar.css?ver=1.7.2"/>
+            
+        
+
+
+        
+        
+        
+            <script type="text/javascript">
+            //JS translations map
+            var TRANSLATION_MAP = {
+                'Add another comment':'Add another comment',
+                'Stop following this repository':"Stop following this repository",
+                'Start following this repository':"Start following this repository",
+                'Group':"Group",
+                'members':"members",
+                'Loading ...':"Loading ...",
+                'loading ...':"loading ...",
+                'Search truncated': "Search truncated",
+                'No matching files': "No matching files",
+                'Open new pull request': "Open new pull request",
+                'Open new pull request for selected changesets':  "Open new pull request for selected changesets",
+                'Show selected changesets __S -> __E': "Show selected changesets __S -&gt; __E",
+                'Show selected changeset __S': "Show selected changeset __S",
+                'Selection link': "Selection link",
+                'Collapse diff': "Collapse diff",
+                'Expand diff': "Expand diff",
+                'Failed to revoke permission': "Failed to revoke permission",
+                'Confirm to revoke permission for {0}: {1} ?': "confirm to revoke permission for {0}: {1} ?",
+            };
+            var _TM = TRANSLATION_MAP;
+
+            var TOGGLE_FOLLOW_URL  = "/_admin/toggle_following";
+
+            var REPO_NAME = "";
+                var REPO_NAME = "PyPDB";
+            </script>
+            <script type="text/javascript" src="/js/yui.2.9.js?ver=1.7.2"></script>
+            <!--[if lt IE 9]>
+               <script language="javascript" type="text/javascript" src="/js/excanvas.min.js"></script>
+            <![endif]-->
+            <script type="text/javascript" src="/js/yui.flot.js?ver=1.7.2"></script>
+            <script type="text/javascript" src="/js/native.history.js?ver=1.7.2"></script>
+            <script type="text/javascript" src="/js/pyroutes_map.js?ver=1.7.2"></script>
+            <script type="text/javascript" src="/js/rhodecode.js?ver=1.7.2"></script>
+           
+            <script type="text/javascript">
+            (function(window,undefined){
+                // Prepare
+                var History = window.History; // Note: We are using a capital H instead of a lower h
+                if ( !History.enabled ) {
+                     // History.js is disabled for this browser.
+                     // This is because we can optionally choose to support HTML4 browsers or not.
+                    return false;
+                }
+            })(window);
+
+            YUE.onDOMReady(function(){
+              tooltip_activate();
+              show_more_event();
+              show_changeset_tooltip();
+              // routes registration
+              pyroutes.register('toggle_following', "/_admin/toggle_following");
+              pyroutes.register('changeset_info', "/changeset_info/%25%28repo_name%29s/%25%28revision%29s", ['repo_name', 'revision']);
+              pyroutes.register('repo_size', "/%25%28repo_name%29s/repo_size", ['repo_name']);
+              pyroutes.register('changeset_comment_preview', "/%25%28repo_name%29s/changeset/comment/preview", ['repo_name']);
+           })
+            </script>
+        
+        
+        
+    </head>
+    <body id="body">
+      <!--[if IE 7]>
+      <script>YUD.addClass(document.body,'ie7')</script>
+      <![endif]-->
+      <!--[if IE 8]>
+      <script>YUD.addClass(document.body,'ie8')</script>
+      <![endif]-->
+      <!--[if IE 9]>
+      <script>YUD.addClass(document.body,'ie9')</script>
+      <![endif]-->
+
+      
+
+<!-- HEADER -->
+<div id="header-dd"></div>
+<div id="header">
+    <div id="header-inner" class="title">
+        <div id="logo">
+            <h1><a href="/">RhodeCode MTI</a></h1>
+            <div style="color: #fff; padding: 0px 14px">
+                Attention: deprecated version! Upgrade now to
+                <a style="text-decoration: underline" href="https://rhodecode.com/enterprise">RhodeCode 2.0.0</a> (called RhodeCode Enterprise).
+            </div>
+        </div>
+        <!-- MENU -->
+        
+    
+        
+        <ul id="quick" class="horizontal-list">
+          <!-- repo switcher -->
+          <li class="current">
+              <a class="menu_link repo_switcher childs" id="repo_switcher" title="Switch repository" href="/">
+              Repositories
+              </a>
+              <ul id="repo_switcher_list" class="repo_switcher">
+                  <li>
+                      <a href="#">Loading...</a>
+                  </li>
+              </ul>
+          </li>
+            <li >
+              <a class="menu_link journal" title="Public journal"  href="/_admin/public_journal">
+              Public journal
+              </a>
+            </li>
+            <li >
+              <a class="menu_link gists childs" title="Show public gists"  href="/_admin/gists">
+              Gists
+              </a>
+                <ul class="admin_menu">
+                  <li><a class="gists-new " href="/_admin/gists/new">Create new gist</a></li>
+                  <li><a class="gists " href="/_admin/gists">All public gists</a></li>
+                </ul>
+            </li>
+          <li >
+              <a class="menu_link search" title="Search in repositories"  href="/_admin/search">
+              Search
+              </a>
+          </li>
+          
+    <li>
+      <a class="menu_link childs" id="quick_login_link">
+          <span class="icon">
+             <img src="/images/user20.png" alt="avatar">
+          </span>
+              <span>Not logged in</span>
+      </a>
+
+  <div class="user-menu">
+      <div id="quick_login">
+            <h4>Login to your account</h4>
+            <form action="/_admin/login?came_from=%2FPyPDB%2Ffiles%2F1bf5d8828a1a95c168e013ab4b50aacdaed288b0%2FPDBToolbox" method="post">
+            <div class="form">
+                <div class="fields">
+                    <div class="field">
+                        <div class="label">
+                            <label for="username">Username:</label>
+                        </div>
+                        <div class="input">
+                            <input class="focus" id="username" name="username" type="text" />
+                        </div>
+
+                    </div>
+                    <div class="field">
+                        <div class="label">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class="input">
+                            <input class="focus" id="password" name="password" type="password" />
+                        </div>
+
+                    </div>
+                    <div class="buttons">
+                        <div class="password_forgoten"><a href="/_admin/password_reset">Forgot password ?</a></div>
+                        <div class="register">
+                         <a href="/_admin/register">Don&#39;t have an account ?</a>
+                        </div>
+                        <div class="submit">
+                            <input class="ui-btn xsmall" id="sign_in" name="sign_in" type="submit" value="Log In" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+      </div>
+  </div>
+
+    </li>
+
+<script type="text/javascript">
+    YUE.on('repo_switcher','mouseover',function(){
+      var target = 'q_filter_rs';
+      var qfilter_activate = function(){
+          var nodes = YUQ('ul#repo_switcher_list li a.repo_name');
+          var func = function(node){
+              return node.parentNode;
+          }
+          q_filter(target,nodes,func);
+      }
+
+      var loaded = YUD.hasClass('repo_switcher','loaded');
+      if(!loaded){
+         YUD.addClass('repo_switcher','loaded');
+         ypjax("/repos",'repo_switcher_list',
+             function(o){qfilter_activate();YUD.get(target).focus()},
+             function(o){YUD.removeClass('repo_switcher','loaded');}
+             ,null);
+      }else{
+         YUD.get(target).focus();
+      }
+      return false;
+     });
+
+     YUE.on('header-dd', 'click',function(e){
+         YUD.addClass('header-inner', 'hover');
+         YUD.addClass('content', 'hover');
+     });
+
+</script>
+
+
+        <!-- END MENU -->
+        
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+<!-- END HEADER -->
+
+<!-- CONTENT -->
+<div id="content">
+    <div class="flash_msg">
+        
+    </div>
+    <div id="main">
+        
+
+  
+  
+
+  <!--- CONTEXT BAR -->
+  <div id="context-bar" class="box">
+      <div id="breadcrumbs">
+        <a href="/">Repositories</a>
+        &raquo;
+        <span><a href="/PyPDB">PyPDB</a></span>
+      </div>
+      <ul id="context-pages" class="horizontal-list">
+        <li ><a href="/PyPDB" class="summary">Summary</a></li>
+        <li ><a href="/PyPDB/changelog" class="changelogs">Changelog</a></li>
+        <li class="current"><a href="/PyPDB/files/tip/" class="files"></span>Files</a></li>
+        <li >
+          <a href="#" id="branch_tag_switcher_2" class="dropdown switch-to"></span>Switch To</a>
+          <ul id="switch_to_list_2" class="switch_to submenu">
+            <li><a href="#">Loading...</a></li>
+          </ul>
+        </li>
+        <li >
+          <a href="#" class="dropdown options"></span>Options</a>
+          <ul>
+              <li><a class="search" href="/PyPDB/search">Search</a></li>
+
+             </ul>
+        </li>
+        <li >
+          <a href="/PyPDB/pull-request" title="Show Pull Requests for PyPDB" class="pull-request">Pull Requests
+          </a>
+        </li>
+      </ul>
+  </div>
+  <script type="text/javascript">
+      YUE.on('branch_tag_switcher_2','mouseover',function(){
+         var loaded = YUD.hasClass('branch_tag_switcher_2','loaded');
+         if(!loaded){
+             YUD.addClass('branch_tag_switcher_2','loaded');
+             ypjax("/branches-tags/PyPDB",'switch_to_list_2',
+                 function(o){},
+                 function(o){YUD.removeClass('branch_tag_switcher_2','loaded');}
+                 ,null);
+         }
+         return false;
+      });
+  </script>
+  <!--- END CONTEXT BAR -->
+
+<div class="box">
+    <!-- box / title -->
+    <div class="title">
+        
+    <div class="breadcrumbs">
+    
+    Files
+        @ r35:1bf5d8828a1a
+
+    </div>
+
+        <ul class="links">
+            <li>
+              <span style="text-transform: uppercase;"><a href="#">Branch: default</a></span>
+            </li>
+        </ul>
+    </div>
+    <div class="table">
+        <div id="files_data">
+                <h3 class="files_location">
+        Location: <a class="ypjax-link" href="/PyPDB/files/1bf5d8828a1a95c168e013ab4b50aacdaed288b0/">PyPDB</a>/<a class="ypjax-link" href="/PyPDB/files/1bf5d8828a1a95c168e013ab4b50aacdaed288b0/PDBToolbox">PDBToolbox</a>
+    </h3>
+            <div id="node_history">
+    <div style="padding-bottom:10px">
+        <span id="load_node_history" class="ui-btn">Load file history</span>
+    </div>
+</div>
+
+
+<div id="body" class="codeblock">
+    <div class="code-header">
+        <div class="stats">
+            <div class="left img"><img src="/images/icons/file.png"/></div>
+            <div class="left item"><pre class="tooltip" title="Thu, 09 Dec 2010 16:46:10"><a href="/PyPDB/changeset/ec666596403587fffeaa5d4b4cd6fe52edf5db63">r8:ec6665964035</a></pre></div>
+            <div class="left item"><pre>17.9 KiB</pre></div>
+            <div class="left item last"><pre>text/plain</pre></div>
+            <div class="buttons">
+                <a class="ui-btn" href="/PyPDB/annotate/ec666596403587fffeaa5d4b4cd6fe52edf5db63/PDBToolbox">Show annotation</a>
+              <a class="ui-btn" href="/PyPDB/raw/ec666596403587fffeaa5d4b4cd6fe52edf5db63/PDBToolbox">Show as raw</a>
+              <a class="ui-btn" href="/PyPDB/rawfile/ec666596403587fffeaa5d4b4cd6fe52edf5db63/PDBToolbox">Download as raw</a>
+            </div>
+        </div>
+        <div class="author">
+            <div class="gravatar">
+                <img alt="gravatar" src="https://secure.gravatar.com/avatar/72db5d80aecb54bbffba6b86efbeda28?s=16&amp;d=identicon"/>
+            </div>
+            <div title="julien.maupetit@univ-paris-diderot.fr" class="user">julien.maupetit@univ-paris-diderot.fr</div>
+        </div>
+        <div class="commit">Bugfix: resMeanBVal method was not functionnal</div>
+    </div>
+    <div class="code-body">
+              <table class="code-highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><a href="#L1">  1</a>
+<a href="#L2">  2</a>
+<a href="#L3">  3</a>
+<a href="#L4">  4</a>
+<a href="#L5">  5</a>
+<a href="#L6">  6</a>
+<a href="#L7">  7</a>
+<a href="#L8">  8</a>
+<a href="#L9">  9</a>
+<a href="#L10"> 10</a>
+<a href="#L11"> 11</a>
+<a href="#L12"> 12</a>
+<a href="#L13"> 13</a>
+<a href="#L14"> 14</a>
+<a href="#L15"> 15</a>
+<a href="#L16"> 16</a>
+<a href="#L17"> 17</a>
+<a href="#L18"> 18</a>
+<a href="#L19"> 19</a>
+<a href="#L20"> 20</a>
+<a href="#L21"> 21</a>
+<a href="#L22"> 22</a>
+<a href="#L23"> 23</a>
+<a href="#L24"> 24</a>
+<a href="#L25"> 25</a>
+<a href="#L26"> 26</a>
+<a href="#L27"> 27</a>
+<a href="#L28"> 28</a>
+<a href="#L29"> 29</a>
+<a href="#L30"> 30</a>
+<a href="#L31"> 31</a>
+<a href="#L32"> 32</a>
+<a href="#L33"> 33</a>
+<a href="#L34"> 34</a>
+<a href="#L35"> 35</a>
+<a href="#L36"> 36</a>
+<a href="#L37"> 37</a>
+<a href="#L38"> 38</a>
+<a href="#L39"> 39</a>
+<a href="#L40"> 40</a>
+<a href="#L41"> 41</a>
+<a href="#L42"> 42</a>
+<a href="#L43"> 43</a>
+<a href="#L44"> 44</a>
+<a href="#L45"> 45</a>
+<a href="#L46"> 46</a>
+<a href="#L47"> 47</a>
+<a href="#L48"> 48</a>
+<a href="#L49"> 49</a>
+<a href="#L50"> 50</a>
+<a href="#L51"> 51</a>
+<a href="#L52"> 52</a>
+<a href="#L53"> 53</a>
+<a href="#L54"> 54</a>
+<a href="#L55"> 55</a>
+<a href="#L56"> 56</a>
+<a href="#L57"> 57</a>
+<a href="#L58"> 58</a>
+<a href="#L59"> 59</a>
+<a href="#L60"> 60</a>
+<a href="#L61"> 61</a>
+<a href="#L62"> 62</a>
+<a href="#L63"> 63</a>
+<a href="#L64"> 64</a>
+<a href="#L65"> 65</a>
+<a href="#L66"> 66</a>
+<a href="#L67"> 67</a>
+<a href="#L68"> 68</a>
+<a href="#L69"> 69</a>
+<a href="#L70"> 70</a>
+<a href="#L71"> 71</a>
+<a href="#L72"> 72</a>
+<a href="#L73"> 73</a>
+<a href="#L74"> 74</a>
+<a href="#L75"> 75</a>
+<a href="#L76"> 76</a>
+<a href="#L77"> 77</a>
+<a href="#L78"> 78</a>
+<a href="#L79"> 79</a>
+<a href="#L80"> 80</a>
+<a href="#L81"> 81</a>
+<a href="#L82"> 82</a>
+<a href="#L83"> 83</a>
+<a href="#L84"> 84</a>
+<a href="#L85"> 85</a>
+<a href="#L86"> 86</a>
+<a href="#L87"> 87</a>
+<a href="#L88"> 88</a>
+<a href="#L89"> 89</a>
+<a href="#L90"> 90</a>
+<a href="#L91"> 91</a>
+<a href="#L92"> 92</a>
+<a href="#L93"> 93</a>
+<a href="#L94"> 94</a>
+<a href="#L95"> 95</a>
+<a href="#L96"> 96</a>
+<a href="#L97"> 97</a>
+<a href="#L98"> 98</a>
+<a href="#L99"> 99</a>
+<a href="#L100">100</a>
+<a href="#L101">101</a>
+<a href="#L102">102</a>
+<a href="#L103">103</a>
+<a href="#L104">104</a>
+<a href="#L105">105</a>
+<a href="#L106">106</a>
+<a href="#L107">107</a>
+<a href="#L108">108</a>
+<a href="#L109">109</a>
+<a href="#L110">110</a>
+<a href="#L111">111</a>
+<a href="#L112">112</a>
+<a href="#L113">113</a>
+<a href="#L114">114</a>
+<a href="#L115">115</a>
+<a href="#L116">116</a>
+<a href="#L117">117</a>
+<a href="#L118">118</a>
+<a href="#L119">119</a>
+<a href="#L120">120</a>
+<a href="#L121">121</a>
+<a href="#L122">122</a>
+<a href="#L123">123</a>
+<a href="#L124">124</a>
+<a href="#L125">125</a>
+<a href="#L126">126</a>
+<a href="#L127">127</a>
+<a href="#L128">128</a>
+<a href="#L129">129</a>
+<a href="#L130">130</a>
+<a href="#L131">131</a>
+<a href="#L132">132</a>
+<a href="#L133">133</a>
+<a href="#L134">134</a>
+<a href="#L135">135</a>
+<a href="#L136">136</a>
+<a href="#L137">137</a>
+<a href="#L138">138</a>
+<a href="#L139">139</a>
+<a href="#L140">140</a>
+<a href="#L141">141</a>
+<a href="#L142">142</a>
+<a href="#L143">143</a>
+<a href="#L144">144</a>
+<a href="#L145">145</a>
+<a href="#L146">146</a>
+<a href="#L147">147</a>
+<a href="#L148">148</a>
+<a href="#L149">149</a>
+<a href="#L150">150</a>
+<a href="#L151">151</a>
+<a href="#L152">152</a>
+<a href="#L153">153</a>
+<a href="#L154">154</a>
+<a href="#L155">155</a>
+<a href="#L156">156</a>
+<a href="#L157">157</a>
+<a href="#L158">158</a>
+<a href="#L159">159</a>
+<a href="#L160">160</a>
+<a href="#L161">161</a>
+<a href="#L162">162</a>
+<a href="#L163">163</a>
+<a href="#L164">164</a>
+<a href="#L165">165</a>
+<a href="#L166">166</a>
+<a href="#L167">167</a>
+<a href="#L168">168</a>
+<a href="#L169">169</a>
+<a href="#L170">170</a>
+<a href="#L171">171</a>
+<a href="#L172">172</a>
+<a href="#L173">173</a>
+<a href="#L174">174</a>
+<a href="#L175">175</a>
+<a href="#L176">176</a>
+<a href="#L177">177</a>
+<a href="#L178">178</a>
+<a href="#L179">179</a>
+<a href="#L180">180</a>
+<a href="#L181">181</a>
+<a href="#L182">182</a>
+<a href="#L183">183</a>
+<a href="#L184">184</a>
+<a href="#L185">185</a>
+<a href="#L186">186</a>
+<a href="#L187">187</a>
+<a href="#L188">188</a>
+<a href="#L189">189</a>
+<a href="#L190">190</a>
+<a href="#L191">191</a>
+<a href="#L192">192</a>
+<a href="#L193">193</a>
+<a href="#L194">194</a>
+<a href="#L195">195</a>
+<a href="#L196">196</a>
+<a href="#L197">197</a>
+<a href="#L198">198</a>
+<a href="#L199">199</a>
+<a href="#L200">200</a>
+<a href="#L201">201</a>
+<a href="#L202">202</a>
+<a href="#L203">203</a>
+<a href="#L204">204</a>
+<a href="#L205">205</a>
+<a href="#L206">206</a>
+<a href="#L207">207</a>
+<a href="#L208">208</a>
+<a href="#L209">209</a>
+<a href="#L210">210</a>
+<a href="#L211">211</a>
+<a href="#L212">212</a>
+<a href="#L213">213</a>
+<a href="#L214">214</a>
+<a href="#L215">215</a>
+<a href="#L216">216</a>
+<a href="#L217">217</a>
+<a href="#L218">218</a>
+<a href="#L219">219</a>
+<a href="#L220">220</a>
+<a href="#L221">221</a>
+<a href="#L222">222</a>
+<a href="#L223">223</a>
+<a href="#L224">224</a>
+<a href="#L225">225</a>
+<a href="#L226">226</a>
+<a href="#L227">227</a>
+<a href="#L228">228</a>
+<a href="#L229">229</a>
+<a href="#L230">230</a>
+<a href="#L231">231</a>
+<a href="#L232">232</a>
+<a href="#L233">233</a>
+<a href="#L234">234</a>
+<a href="#L235">235</a>
+<a href="#L236">236</a>
+<a href="#L237">237</a>
+<a href="#L238">238</a>
+<a href="#L239">239</a>
+<a href="#L240">240</a>
+<a href="#L241">241</a>
+<a href="#L242">242</a>
+<a href="#L243">243</a>
+<a href="#L244">244</a>
+<a href="#L245">245</a>
+<a href="#L246">246</a>
+<a href="#L247">247</a>
+<a href="#L248">248</a>
+<a href="#L249">249</a>
+<a href="#L250">250</a>
+<a href="#L251">251</a>
+<a href="#L252">252</a>
+<a href="#L253">253</a>
+<a href="#L254">254</a>
+<a href="#L255">255</a>
+<a href="#L256">256</a>
+<a href="#L257">257</a>
+<a href="#L258">258</a>
+<a href="#L259">259</a>
+<a href="#L260">260</a>
+<a href="#L261">261</a>
+<a href="#L262">262</a>
+<a href="#L263">263</a>
+<a href="#L264">264</a>
+<a href="#L265">265</a>
+<a href="#L266">266</a>
+<a href="#L267">267</a>
+<a href="#L268">268</a>
+<a href="#L269">269</a>
+<a href="#L270">270</a>
+<a href="#L271">271</a>
+<a href="#L272">272</a>
+<a href="#L273">273</a>
+<a href="#L274">274</a>
+<a href="#L275">275</a>
+<a href="#L276">276</a>
+<a href="#L277">277</a>
+<a href="#L278">278</a>
+<a href="#L279">279</a>
+<a href="#L280">280</a>
+<a href="#L281">281</a>
+<a href="#L282">282</a>
+<a href="#L283">283</a>
+<a href="#L284">284</a>
+<a href="#L285">285</a>
+<a href="#L286">286</a>
+<a href="#L287">287</a>
+<a href="#L288">288</a>
+<a href="#L289">289</a>
+<a href="#L290">290</a>
+<a href="#L291">291</a>
+<a href="#L292">292</a>
+<a href="#L293">293</a>
+<a href="#L294">294</a>
+<a href="#L295">295</a>
+<a href="#L296">296</a>
+<a href="#L297">297</a>
+<a href="#L298">298</a>
+<a href="#L299">299</a>
+<a href="#L300">300</a>
+<a href="#L301">301</a>
+<a href="#L302">302</a>
+<a href="#L303">303</a>
+<a href="#L304">304</a>
+<a href="#L305">305</a>
+<a href="#L306">306</a>
+<a href="#L307">307</a>
+<a href="#L308">308</a>
+<a href="#L309">309</a>
+<a href="#L310">310</a>
+<a href="#L311">311</a>
+<a href="#L312">312</a>
+<a href="#L313">313</a>
+<a href="#L314">314</a>
+<a href="#L315">315</a>
+<a href="#L316">316</a>
+<a href="#L317">317</a>
+<a href="#L318">318</a>
+<a href="#L319">319</a>
+<a href="#L320">320</a>
+<a href="#L321">321</a>
+<a href="#L322">322</a>
+<a href="#L323">323</a>
+<a href="#L324">324</a>
+<a href="#L325">325</a>
+<a href="#L326">326</a>
+<a href="#L327">327</a>
+<a href="#L328">328</a>
+<a href="#L329">329</a>
+<a href="#L330">330</a>
+<a href="#L331">331</a>
+<a href="#L332">332</a>
+<a href="#L333">333</a>
+<a href="#L334">334</a>
+<a href="#L335">335</a>
+<a href="#L336">336</a>
+<a href="#L337">337</a>
+<a href="#L338">338</a>
+<a href="#L339">339</a>
+<a href="#L340">340</a>
+<a href="#L341">341</a>
+<a href="#L342">342</a>
+<a href="#L343">343</a>
+<a href="#L344">344</a>
+<a href="#L345">345</a>
+<a href="#L346">346</a>
+<a href="#L347">347</a>
+<a href="#L348">348</a>
+<a href="#L349">349</a>
+<a href="#L350">350</a>
+<a href="#L351">351</a>
+<a href="#L352">352</a>
+<a href="#L353">353</a>
+<a href="#L354">354</a>
+<a href="#L355">355</a>
+<a href="#L356">356</a>
+<a href="#L357">357</a>
+<a href="#L358">358</a>
+<a href="#L359">359</a>
+<a href="#L360">360</a>
+<a href="#L361">361</a>
+<a href="#L362">362</a>
+<a href="#L363">363</a>
+<a href="#L364">364</a>
+<a href="#L365">365</a>
+<a href="#L366">366</a>
+<a href="#L367">367</a>
+<a href="#L368">368</a>
+<a href="#L369">369</a>
+<a href="#L370">370</a>
+<a href="#L371">371</a>
+<a href="#L372">372</a>
+<a href="#L373">373</a>
+<a href="#L374">374</a>
+<a href="#L375">375</a>
+<a href="#L376">376</a>
+<a href="#L377">377</a>
+<a href="#L378">378</a>
+<a href="#L379">379</a>
+<a href="#L380">380</a>
+<a href="#L381">381</a>
+<a href="#L382">382</a>
+<a href="#L383">383</a>
+<a href="#L384">384</a>
+<a href="#L385">385</a>
+<a href="#L386">386</a>
+<a href="#L387">387</a>
+<a href="#L388">388</a>
+<a href="#L389">389</a>
+<a href="#L390">390</a>
+<a href="#L391">391</a>
+<a href="#L392">392</a>
+<a href="#L393">393</a>
+<a href="#L394">394</a>
+<a href="#L395">395</a>
+<a href="#L396">396</a>
+<a href="#L397">397</a>
+<a href="#L398">398</a>
+<a href="#L399">399</a>
+<a href="#L400">400</a>
+<a href="#L401">401</a>
+<a href="#L402">402</a>
+<a href="#L403">403</a>
+<a href="#L404">404</a>
+<a href="#L405">405</a>
+<a href="#L406">406</a>
+<a href="#L407">407</a>
+<a href="#L408">408</a>
+<a href="#L409">409</a>
+<a href="#L410">410</a>
+<a href="#L411">411</a>
+<a href="#L412">412</a>
+<a href="#L413">413</a>
+<a href="#L414">414</a>
+<a href="#L415">415</a>
+<a href="#L416">416</a>
+<a href="#L417">417</a>
+<a href="#L418">418</a>
+<a href="#L419">419</a>
+<a href="#L420">420</a>
+<a href="#L421">421</a>
+<a href="#L422">422</a>
+<a href="#L423">423</a>
+<a href="#L424">424</a>
+<a href="#L425">425</a>
+<a href="#L426">426</a>
+<a href="#L427">427</a>
+<a href="#L428">428</a>
+<a href="#L429">429</a>
+<a href="#L430">430</a>
+<a href="#L431">431</a>
+<a href="#L432">432</a>
+<a href="#L433">433</a>
+<a href="#L434">434</a>
+<a href="#L435">435</a>
+<a href="#L436">436</a>
+<a href="#L437">437</a>
+<a href="#L438">438</a>
+<a href="#L439">439</a>
+<a href="#L440">440</a>
+<a href="#L441">441</a>
+<a href="#L442">442</a>
+<a href="#L443">443</a>
+<a href="#L444">444</a>
+<a href="#L445">445</a>
+<a href="#L446">446</a>
+<a href="#L447">447</a>
+<a href="#L448">448</a>
+<a href="#L449">449</a>
+<a href="#L450">450</a>
+<a href="#L451">451</a>
+<a href="#L452">452</a>
+<a href="#L453">453</a>
+<a href="#L454">454</a>
+<a href="#L455">455</a>
+<a href="#L456">456</a>
+<a href="#L457">457</a>
+<a href="#L458">458</a>
+<a href="#L459">459</a>
+<a href="#L460">460</a>
+<a href="#L461">461</a>
+<a href="#L462">462</a>
+<a href="#L463">463</a>
+<a href="#L464">464</a>
+<a href="#L465">465</a>
+<a href="#L466">466</a>
+<a href="#L467">467</a>
+<a href="#L468">468</a>
+<a href="#L469">469</a>
+<a href="#L470">470</a>
+<a href="#L471">471</a>
+<a href="#L472">472</a>
+<a href="#L473">473</a>
+<a href="#L474">474</a>
+<a href="#L475">475</a>
+<a href="#L476">476</a>
+<a href="#L477">477</a>
+<a href="#L478">478</a>
+<a href="#L479">479</a>
+<a href="#L480">480</a>
+<a href="#L481">481</a>
+<a href="#L482">482</a>
+<a href="#L483">483</a>
+<a href="#L484">484</a>
+<a href="#L485">485</a>
+<a href="#L486">486</a>
+<a href="#L487">487</a>
+<a href="#L488">488</a>
+<a href="#L489">489</a>
+<a href="#L490">490</a>
+<a href="#L491">491</a>
+<a href="#L492">492</a></pre></div></td><td id="hlcode" class="code"><div class="code-highlight"><pre><div id="L1"><a name="L-1"></a>#!/usr/bin/env python
+</div><div id="L2"><a name="L-2"></a># -*- coding: utf-8 -*-
+</div><div id="L3"><a name="L-3"></a>
+</div><div id="L4"><a name="L-4"></a># Python standards modules
+</div><div id="L5"><a name="L-5"></a>import sys
+</div><div id="L6"><a name="L-6"></a>import time
+</div><div id="L7"><a name="L-7"></a>from optparse import OptionParser, OptionGroup
+</div><div id="L8"><a name="L-8"></a>import re
+</div><div id="L9"><a name="L-9"></a>
+</div><div id="L10"><a name="L-10"></a>#sys.path.append(&#39;/usr/local/pdb-toolbox/lib/&#39;)
+</div><div id="L11"><a name="L-11"></a>
+</div><div id="L12"><a name="L-12"></a># Local dependancies
+</div><div id="L13"><a name="L-13"></a>import PyPDB.PyPDB as PDB
+</div><div id="L14"><a name="L-14"></a>
+</div><div id="L15"><a name="L-15"></a># -- GLOBALS --
+</div><div id="L16"><a name="L-16"></a>VERSION     = &quot;1.0&quot;
+</div><div id="L17"><a name="L-17"></a>
+</div><div id="L18"><a name="L-18"></a>&quot;&quot;&quot;
+</div><div id="L19"><a name="L-19"></a>PDBtoolbox - PDBtoolbox python wrapper
+</div><div id="L20"><a name="L-20"></a>
+</div><div id="L21"><a name="L-21"></a>@author: Florian Briand
+</div><div id="L22"><a name="L-22"></a>
+</div><div id="L23"><a name="L-23"></a>@organisation : Universite Paris Diderot Paris 7
+</div><div id="L24"><a name="L-24"></a>@organisation : MTi INSERM U973
+</div><div id="L25"><a name="L-25"></a>@organisation : Ressource Parisienne en Bioinformatique Structurale (RPBS)
+</div><div id="L26"><a name="L-26"></a>
+</div><div id="L27"><a name="L-27"></a>For this script:
+</div><div id="L28"><a name="L-28"></a>@contact: julien.maupetit@univ-paris-diderot.fr
+</div><div id="L29"><a name="L-29"></a>
+</div><div id="L30"><a name="L-30"></a>@version: %s
+</div><div id="L31"><a name="L-31"></a>&quot;&quot;&quot; % VERSION
+</div><div id="L32"><a name="L-32"></a>
+</div><div id="L33"><a name="L-33"></a># -- GLOBAL FUNCTIONS --
+</div><div id="L34"><a name="L-34"></a>def elapsed_time(seconds, suffixes=[&#39;y&#39;,&#39;w&#39;,&#39;d&#39;,&#39;h&#39;,&#39;m&#39;,&#39;s&#39;], add_s=False, separator=&#39; &#39;):
+</div><div id="L35"><a name="L-35"></a>    &quot;&quot;&quot;
+</div><div id="L36"><a name="L-36"></a>    http://snipplr.com/view/5713/python-elapsedtime-human-readable-time-span-given-total-seconds/
+</div><div id="L37"><a name="L-37"></a>    Takes an amount of seconds and turns it into a human-readable amount of time.
+</div><div id="L38"><a name="L-38"></a>    &quot;&quot;&quot;
+</div><div id="L39"><a name="L-39"></a>    #
+</div><div id="L40"><a name="L-40"></a>    # the formatted time string to be returned
+</div><div id="L41"><a name="L-41"></a>    #
+</div><div id="L42"><a name="L-42"></a>    time = []
+</div><div id="L43"><a name="L-43"></a>
+</div><div id="L44"><a name="L-44"></a>    # the pieces of time to iterate over (days, hours, minutes, etc)
+</div><div id="L45"><a name="L-45"></a>    # - the first piece in each tuple is the suffix (d, h, w)
+</div><div id="L46"><a name="L-46"></a>    # - the second piece is the length in seconds (a day is 60s * 60m * 24h)
+</div><div id="L47"><a name="L-47"></a>    parts = [(suffixes[0], 60 * 60 * 24 * 7 * 52),
+</div><div id="L48"><a name="L-48"></a>             (suffixes[1], 60 * 60 * 24 * 7),
+</div><div id="L49"><a name="L-49"></a>             (suffixes[2], 60 * 60 * 24),
+</div><div id="L50"><a name="L-50"></a>             (suffixes[3], 60 * 60),
+</div><div id="L51"><a name="L-51"></a>             (suffixes[4], 60),
+</div><div id="L52"><a name="L-52"></a>             (suffixes[5], 1)]
+</div><div id="L53"><a name="L-53"></a>
+</div><div id="L54"><a name="L-54"></a>    # for each time piece, grab the value and remaining seconds, and add it to
+</div><div id="L55"><a name="L-55"></a>    # the time string
+</div><div id="L56"><a name="L-56"></a>    for suffix, length in parts:
+</div><div id="L57"><a name="L-57"></a>        value = seconds / length
+</div><div id="L58"><a name="L-58"></a>        if value &gt; 0:
+</div><div id="L59"><a name="L-59"></a>            seconds = seconds % length
+</div><div id="L60"><a name="L-60"></a>            time.append(&#39;%s%s&#39; % (str(value),
+</div><div id="L61"><a name="L-61"></a>                                  (suffix, (suffix, suffix + &#39;s&#39;)[value &gt; 1])[add_s]))
+</div><div id="L62"><a name="L-62"></a>        if seconds &lt; 1:
+</div><div id="L63"><a name="L-63"></a>            break
+</div><div id="L64"><a name="L-64"></a>
+</div><div id="L65"><a name="L-65"></a>    return separator.join(time)
+</div><div id="L66"><a name="L-66"></a>
+</div><div id="L67"><a name="L-67"></a># -- ARGUMENTS --
+</div><div id="L68"><a name="L-68"></a>def cmdLine():
+</div><div id="L69"><a name="L-69"></a>    &quot;&quot;&quot;
+</div><div id="L70"><a name="L-70"></a>    Command line definition.
+</div><div id="L71"><a name="L-71"></a>
+</div><div id="L72"><a name="L-72"></a>    @return: command line options and arguments (optionParser object)
+</div><div id="L73"><a name="L-73"></a>    &quot;&quot;&quot;
+</div><div id="L74"><a name="L-74"></a>
+</div><div id="L75"><a name="L-75"></a>    &quot;&quot;&quot;
+</div><div id="L76"><a name="L-76"></a>    ,-----------------+----------------+----------------------------------------
+</div><div id="L77"><a name="L-77"></a>    |   command       |     param 1    | Description
+</div><div id="L78"><a name="L-78"></a>    |-----------------+----------------+----------------------------------------
+</div><div id="L79"><a name="L-79"></a>    | -f --file       | filename       | Input file (.pdb, .pdb.gz, .xml, PDBid)
+</div><div id="L80"><a name="L-80"></a>    |                 |                |
+</div><div id="L81"><a name="L-81"></a>    | -o --out        | filename [&quot;&quot;]  | Output stream (&quot;&quot;=stdout, filename,
+</div><div id="L82"><a name="L-82"></a>    |                 |                |   None=quiet output)
+</div><div id="L83"><a name="L-83"></a>    |                 |                |
+</div><div id="L84"><a name="L-84"></a>    |-----------------+----------------+----------------------------------------
+</div><div id="L85"><a name="L-85"></a>    | --keepheader    |                | Keep header information
+</div><div id="L86"><a name="L-86"></a>    | --delheader     |                | Delete header information
+</div><div id="L87"><a name="L-87"></a>    |                 |                |
+</div><div id="L88"><a name="L-88"></a>    | --keephydrogens |                | Keep hydrogens
+</div><div id="L89"><a name="L-89"></a>    | --delhydrogens  |                | Delete Hydrogens
+</div><div id="L90"><a name="L-90"></a>    | --addhydrogens  | algorithm      | Add Hydrogens. Algorithm :
+</div><div id="L91"><a name="L-91"></a>    |                 |                |   HAAD or Reduce
+</div><div id="L92"><a name="L-92"></a>    | --normhydrogens | norm           | Norm : lPDB or lIUPAC
+</div><div id="L93"><a name="L-93"></a>    |                 |                |
+</div><div id="L94"><a name="L-94"></a>    | --keephetatm    |                | Keep HETATM
+</div><div id="L95"><a name="L-95"></a>    | --delhetatm     |                | Del HETATM
+</div><div id="L96"><a name="L-96"></a>    |                 |                |
+</div><div id="L97"><a name="L-97"></a>    | --addoxt        | pattern [&quot;&quot;]   | Add OXT at end of specified chains. If
+</div><div id="L98"><a name="L-98"></a>    |                 |                |   pattern = all, all chains are consi-
+</div><div id="L99"><a name="L-99"></a>    |                 |                |   dered.
+</div><div id="L100"><a name="L-100"></a>    |-----------------+----------------+----------------------------------------
+</div><div id="L101"><a name="L-101"></a>    | --trace         |                | Extract Trace atoms
+</div><div id="L102"><a name="L-102"></a>    | --backbone      |                | Extract Backbone atoms
+</div><div id="L103"><a name="L-103"></a>    | --sidechains    |                | Extract Side Chains atoms
+</div><div id="L104"><a name="L-104"></a>    | --snip          | pattern [&quot;&quot;]   | Extract set of residues or atoms
+</div><div id="L105"><a name="L-105"></a>    |                 |                |   specify by PATTERN = &quot;R/A_from:to_fr
+</div><div id="L106"><a name="L-106"></a>    |                 |                |   om:to_...&quot;
+</div><div id="L107"><a name="L-107"></a>    | --fragment      | pattern [&quot;&quot;]   | Extract a fragment XXX Not working
+</div><div id="L108"><a name="L-108"></a>    |-----------------+----------------+----------------------------------------
+</div><div id="L109"><a name="L-109"></a>    | --chain         | pattern [&quot;&quot;]   | Working chain(s)
+</div><div id="L110"><a name="L-110"></a>    | --model         | pattern [1]    | Working model
+</div><div id="L111"><a name="L-111"></a>    |-----------------+----------------+----------------------------------------
+</div><div id="L112"><a name="L-112"></a>    | --renumresidus  | pattern        | Renumber Residues
+</div><div id="L113"><a name="L-113"></a>    | --renumatoms    | pattern        | Renumber Atoms
+</div><div id="L114"><a name="L-114"></a>    |                 |                |
+</div><div id="L115"><a name="L-115"></a>    | --renamechains  | pattern        | Rename chains
+</div><div id="L116"><a name="L-116"></a>    |-----------------+----------------+----------------------------------------
+</div><div id="L117"><a name="L-117"></a>    | --renumbval     | filename       | Renumber B-Value from an external file.
+</div><div id="L118"><a name="L-118"></a>    | --meanbval      |                | Mean B-Value by Residues
+</div><div id="L119"><a name="L-119"></a>    |-----------------+----------------+----------------------------------------
+</div><div id="L120"><a name="L-120"></a>    | --around        | pattern        | Show residues &quot;near&quot; the entity (atom/
+</div><div id="L121"><a name="L-121"></a>    |                 |                |   residue) pattern=&quot;a/r:CHN_NUM:cutoff&quot;
+</div><div id="L122"><a name="L-122"></a>    | --listFrag      |                | XXX Not working
+</div><div id="L123"><a name="L-123"></a>    | --bborder       |                | Check &amp; restore N-CA-C-O-OXT order of
+</div><div id="L124"><a name="L-124"></a>    |                 |                |   atoms in backbone
+</div><div id="L125"><a name="L-125"></a>    `-----------------+----------------+----------------------------------------
+</div><div id="L126"><a name="L-126"></a>    &quot;&quot;&quot;
+</div><div id="L127"><a name="L-127"></a>
+</div><div id="L128"><a name="L-128"></a>    vStr = &quot;%prog&quot;+ &quot; v%s&quot;%VERSION
+</div><div id="L129"><a name="L-129"></a>    cmd = OptionParser(&quot;usage: %prog [options]&quot;, version=vStr, prog=&quot;PDB Toolbox&quot;, add_help_option=False, conflict_handler=&quot;resolve&quot;)
+</div><div id="L130"><a name="L-130"></a>
+</div><div id="L131"><a name="L-131"></a>    &quot;&quot;&quot;
+</div><div id="L132"><a name="L-132"></a>    group = OptionGroup(parser, &quot;Dangerous Options&quot;,
+</div><div id="L133"><a name="L-133"></a>                    &quot;Caution: use these options at your own risk.  &quot;
+</div><div id="L134"><a name="L-134"></a>                    &quot;It is believed that some of them bite.&quot;)
+</div><div id="L135"><a name="L-135"></a>    group.add_option(&quot;-g&quot;, action=&quot;store_true&quot;, help=&quot;Group option.&quot;)
+</div><div id="L136"><a name="L-136"></a>    parser.add_option_group(group)
+</div><div id="L137"><a name="L-137"></a>    &quot;&quot;&quot;
+</div><div id="L138"><a name="L-138"></a>
+</div><div id="L139"><a name="L-139"></a>    # Input/Output Options
+</div><div id="L140"><a name="L-140"></a>    io_opt = OptionGroup(cmd, &quot;Input/Output Options&quot;)
+</div><div id="L141"><a name="L-141"></a>    io_opt.add_option(&quot;-f&quot;, &quot;--file&quot;,
+</div><div id="L142"><a name="L-142"></a>                    action=&quot;store&quot;,
+</div><div id="L143"><a name="L-143"></a>                    dest=&quot;inputfile&quot;,
+</div><div id="L144"><a name="L-144"></a>                    type=&quot;string&quot;,
+</div><div id="L145"><a name="L-145"></a>                    help=&quot;Input file (.pdb, .pdb.gz, .xml)&quot;,
+</div><div id="L146"><a name="L-146"></a>                    metavar=&quot;FILE&quot;,
+</div><div id="L147"><a name="L-147"></a>                    default = None)
+</div><div id="L148"><a name="L-148"></a>    io_opt.add_option(&quot;-o&quot;, &quot;--out&quot;,
+</div><div id="L149"><a name="L-149"></a>                    action=&quot;store&quot;,
+</div><div id="L150"><a name="L-150"></a>                    dest=&quot;outputfile&quot;,
+</div><div id="L151"><a name="L-151"></a>                    type=&quot;string&quot;,
+</div><div id="L152"><a name="L-152"></a>                    help=&quot;Output stream, \&quot;\&quot; = stdout&quot;,
+</div><div id="L153"><a name="L-153"></a>                    metavar=&quot;FILE&quot;,
+</div><div id="L154"><a name="L-154"></a>                    default = &quot;&quot;)
+</div><div id="L155"><a name="L-155"></a>    cmd.add_option_group(io_opt)
+</div><div id="L156"><a name="L-156"></a>
+</div><div id="L157"><a name="L-157"></a>    # Keep/Del/Add Options
+</div><div id="L158"><a name="L-158"></a>    keepdel_opt = OptionGroup(cmd, &quot;Keep/Del/Add Options&quot;)
+</div><div id="L159"><a name="L-159"></a>    keepdel_opt.add_option(&quot;--keepheader&quot;,
+</div><div id="L160"><a name="L-160"></a>                    action=&quot;store_true&quot;,
+</div><div id="L161"><a name="L-161"></a>                    dest=&quot;header&quot;,
+</div><div id="L162"><a name="L-162"></a>                    help=&quot;Keep header information&quot;)
+</div><div id="L163"><a name="L-163"></a>    keepdel_opt.add_option(&quot;--delheader&quot;,
+</div><div id="L164"><a name="L-164"></a>                    action=&quot;store_false&quot;,
+</div><div id="L165"><a name="L-165"></a>                    dest=&quot;header&quot;,
+</div><div id="L166"><a name="L-166"></a>                    help=&quot;Delete header information&quot;)
+</div><div id="L167"><a name="L-167"></a>
+</div><div id="L168"><a name="L-168"></a>    keepdel_opt.add_option(&quot;--keephydrogens&quot;,
+</div><div id="L169"><a name="L-169"></a>                    action=&quot;store_true&quot;,
+</div><div id="L170"><a name="L-170"></a>                    dest=&quot;hydrogens&quot;,
+</div><div id="L171"><a name="L-171"></a>                    help=&quot;Keep hydrogens&quot;)
+</div><div id="L172"><a name="L-172"></a>    keepdel_opt.add_option(&quot;--delhydrogens&quot;,
+</div><div id="L173"><a name="L-173"></a>                    action=&quot;store_false&quot;,
+</div><div id="L174"><a name="L-174"></a>                    dest=&quot;hydrogens&quot;,
+</div><div id="L175"><a name="L-175"></a>                    help=&quot;Delete hydrogens&quot;)
+</div><div id="L176"><a name="L-176"></a>
+</div><div id="L177"><a name="L-177"></a>    keepdel_opt.add_option(&quot;--addhydrogens&quot;,
+</div><div id="L178"><a name="L-178"></a>                    action=&quot;store&quot;,
+</div><div id="L179"><a name="L-179"></a>                    dest=&quot;addhydrogens&quot;,
+</div><div id="L180"><a name="L-180"></a>                    type=&quot;choice&quot;,
+</div><div id="L181"><a name="L-181"></a>                    choices=(&quot;HAAD&quot;,&quot;Reduce&quot;),
+</div><div id="L182"><a name="L-182"></a>                    help=&quot;Add hydrogens. Specify methods : HAAD, Reduce&quot;)
+</div><div id="L183"><a name="L-183"></a>    keepdel_opt.add_option(&quot;--normhydrogens&quot;,
+</div><div id="L184"><a name="L-184"></a>                    action=&quot;store&quot;,
+</div><div id="L185"><a name="L-185"></a>                    dest=&quot;normhydrogens&quot;,
+</div><div id="L186"><a name="L-186"></a>                    type=&quot;choice&quot;,
+</div><div id="L187"><a name="L-187"></a>                    choices=(&quot;lPDB&quot;,&quot;lIUPAC&quot;),
+</div><div id="L188"><a name="L-188"></a>                    help=&quot;Set hydrogens norm. Specify norm : lPDB, lIUPAC&quot;)
+</div><div id="L189"><a name="L-189"></a>
+</div><div id="L190"><a name="L-190"></a>    keepdel_opt.add_option(&quot;--keephetatm&quot;,
+</div><div id="L191"><a name="L-191"></a>                    action=&quot;store_true&quot;,
+</div><div id="L192"><a name="L-192"></a>                    dest=&quot;hetatm&quot;,
+</div><div id="L193"><a name="L-193"></a>                    help=&quot;Keep hetero atoms&quot;)
+</div><div id="L194"><a name="L-194"></a>    keepdel_opt.add_option(&quot;--delhetatm&quot;,
+</div><div id="L195"><a name="L-195"></a>                    action=&quot;store_false&quot;,
+</div><div id="L196"><a name="L-196"></a>                    dest=&quot;hetatm&quot;,
+</div><div id="L197"><a name="L-197"></a>                    help=&quot;Delete hetero atoms&quot;)
+</div><div id="L198"><a name="L-198"></a>
+</div><div id="L199"><a name="L-199"></a>    keepdel_opt.add_option(&quot;--addoxt&quot;,
+</div><div id="L200"><a name="L-200"></a>                    action=&quot;store&quot;,
+</div><div id="L201"><a name="L-201"></a>                    dest=&quot;addoxt&quot;,
+</div><div id="L202"><a name="L-202"></a>                    type=&quot;string&quot;,
+</div><div id="L203"><a name="L-203"></a>                    help=&quot;Add OXT at end of specified chains&quot;,
+</div><div id="L204"><a name="L-204"></a>                    default=&quot;&quot;)
+</div><div id="L205"><a name="L-205"></a>    cmd.add_option_group(keepdel_opt)
+</div><div id="L206"><a name="L-206"></a>    cmd.set_defaults(header=True)
+</div><div id="L207"><a name="L-207"></a>    cmd.set_defaults(hydrogens=True)
+</div><div id="L208"><a name="L-208"></a>    cmd.set_defaults(hetatm=True)
+</div><div id="L209"><a name="L-209"></a>
+</div><div id="L210"><a name="L-210"></a>    # Extraction/Retrieval Options
+</div><div id="L211"><a name="L-211"></a>    extract_opt = OptionGroup(cmd, &quot;Extraction/Retrieval Options&quot;)
+</div><div id="L212"><a name="L-212"></a>    extract_opt.add_option(&quot;--trace&quot;,
+</div><div id="L213"><a name="L-213"></a>                    action=&quot;store_true&quot;,
+</div><div id="L214"><a name="L-214"></a>                    dest=&quot;trace&quot;,
+</div><div id="L215"><a name="L-215"></a>                    help=&quot;Extract trace atoms&quot;,
+</div><div id="L216"><a name="L-216"></a>                    default = False)
+</div><div id="L217"><a name="L-217"></a>    extract_opt.add_option(&quot;--backbone&quot;,
+</div><div id="L218"><a name="L-218"></a>                    action=&quot;store_true&quot;,
+</div><div id="L219"><a name="L-219"></a>                    dest=&quot;backbone&quot;,
+</div><div id="L220"><a name="L-220"></a>                    help=&quot;Extract backbone atoms&quot;,
+</div><div id="L221"><a name="L-221"></a>                    default = False)
+</div><div id="L222"><a name="L-222"></a>    extract_opt.add_option(&quot;--sidechains&quot;,
+</div><div id="L223"><a name="L-223"></a>                    action=&quot;store_true&quot;,
+</div><div id="L224"><a name="L-224"></a>                    dest=&quot;sidechains&quot;,
+</div><div id="L225"><a name="L-225"></a>                    help=&quot;Extract backbone atoms&quot;,
+</div><div id="L226"><a name="L-226"></a>                    default = False)
+</div><div id="L227"><a name="L-227"></a>    extract_opt.add_option(&quot;--snip&quot;,
+</div><div id="L228"><a name="L-228"></a>                    action=&quot;store&quot;,
+</div><div id="L229"><a name="L-229"></a>                    dest=&quot;snip&quot;,
+</div><div id="L230"><a name="L-230"></a>                    type=&quot;string&quot;,
+</div><div id="L231"><a name="L-231"></a>                    help=&quot;Extract a set of Residues or Atoms specified by PATTERN = R/A_from:to&quot;,
+</div><div id="L232"><a name="L-232"></a>                    metavar=&quot;PATTERN&quot;,
+</div><div id="L233"><a name="L-233"></a>                    default = None)
+</div><div id="L234"><a name="L-234"></a>    extract_opt.add_option(&quot;--fragment&quot;,
+</div><div id="L235"><a name="L-235"></a>                    action=&quot;store&quot;,
+</div><div id="L236"><a name="L-236"></a>                    dest=&quot;fragment&quot;,
+</div><div id="L237"><a name="L-237"></a>                    type=&quot;string&quot;,
+</div><div id="L238"><a name="L-238"></a>                    help=&quot;Extract a fragment specified by PATTERN&quot;,
+</div><div id="L239"><a name="L-239"></a>                    metavar=&quot;PATTERN&quot;,
+</div><div id="L240"><a name="L-240"></a>                    default = None)
+</div><div id="L241"><a name="L-241"></a>    cmd.add_option_group(extract_opt)
+</div><div id="L242"><a name="L-242"></a>
+</div><div id="L243"><a name="L-243"></a>    # Working Set of atoms Options
+</div><div id="L244"><a name="L-244"></a>    workingset_opt = OptionGroup(cmd, &quot;Working Set of atoms Options&quot;)
+</div><div id="L245"><a name="L-245"></a>    workingset_opt.add_option(&quot;--chain&quot;,
+</div><div id="L246"><a name="L-246"></a>                    action=&quot;store&quot;,
+</div><div id="L247"><a name="L-247"></a>                    dest=&quot;chain&quot;,
+</div><div id="L248"><a name="L-248"></a>                    type=&quot;string&quot;,
+</div><div id="L249"><a name="L-249"></a>                    help=&quot;Working chain(s) specified by PATTERN&quot;,
+</div><div id="L250"><a name="L-250"></a>                    metavar=&quot;PATTERN&quot;,
+</div><div id="L251"><a name="L-251"></a>                    default=&quot;&quot;)
+</div><div id="L252"><a name="L-252"></a>    workingset_opt.add_option(&quot;--model&quot;,
+</div><div id="L253"><a name="L-253"></a>                    action=&quot;store&quot;,
+</div><div id="L254"><a name="L-254"></a>                    dest=&quot;model&quot;,
+</div><div id="L255"><a name="L-255"></a>                    type=&quot;int&quot;,
+</div><div id="L256"><a name="L-256"></a>                    help=&quot;Working model&quot;,
+</div><div id="L257"><a name="L-257"></a>                    default=0)
+</div><div id="L258"><a name="L-258"></a>    cmd.add_option_group(workingset_opt)
+</div><div id="L259"><a name="L-259"></a>
+</div><div id="L260"><a name="L-260"></a>    # Renumbering &amp; Renaming functions
+</div><div id="L261"><a name="L-261"></a>    renumrename_opt = OptionGroup(cmd, &quot;Renumbering &amp; Renaming functions&quot;)
+</div><div id="L262"><a name="L-262"></a>    renumrename_opt.add_option(&quot;--renumresidus&quot;,
+</div><div id="L263"><a name="L-263"></a>                    action=&quot;store&quot;,
+</div><div id="L264"><a name="L-264"></a>                    dest=&quot;renumresidus&quot;,
+</div><div id="L265"><a name="L-265"></a>                    type=&quot;string&quot;,
+</div><div id="L266"><a name="L-266"></a>                    help=&quot;Renumber Residues specified by PATTERN&quot;,
+</div><div id="L267"><a name="L-267"></a>                    metavar=&quot;PATTERN&quot;)
+</div><div id="L268"><a name="L-268"></a>    renumrename_opt.add_option(&quot;--renumatoms&quot;,
+</div><div id="L269"><a name="L-269"></a>                    action=&quot;store&quot;,
+</div><div id="L270"><a name="L-270"></a>                    dest=&quot;renumatoms&quot;,
+</div><div id="L271"><a name="L-271"></a>                    type=&quot;string&quot;,
+</div><div id="L272"><a name="L-272"></a>                    help=&quot;Renumber Atoms specified by PATTERN&quot;,
+</div><div id="L273"><a name="L-273"></a>                    metavar=&quot;PATTERN&quot;)
+</div><div id="L274"><a name="L-274"></a>
+</div><div id="L275"><a name="L-275"></a>    renumrename_opt.add_option(&quot;--renamechains&quot;,
+</div><div id="L276"><a name="L-276"></a>                    action=&quot;store&quot;,
+</div><div id="L277"><a name="L-277"></a>                    dest=&quot;renamechains&quot;,
+</div><div id="L278"><a name="L-278"></a>                    type=&quot;string&quot;,
+</div><div id="L279"><a name="L-279"></a>                    help=&quot;Renumber Chains specified by PATTERN&quot;,
+</div><div id="L280"><a name="L-280"></a>                    metavar=&quot;PATTERN&quot;)
+</div><div id="L281"><a name="L-281"></a>
+</div><div id="L282"><a name="L-282"></a>    renumrename_opt.add_option(&quot;--renumbval&quot;,
+</div><div id="L283"><a name="L-283"></a>                    action=&quot;store&quot;,
+</div><div id="L284"><a name="L-284"></a>                    dest=&quot;renumbval&quot;,
+</div><div id="L285"><a name="L-285"></a>                    help=&quot;Renumber B-Value from an external file.&quot;,
+</div><div id="L286"><a name="L-286"></a>                    metavar=&quot;FILE&quot;)
+</div><div id="L287"><a name="L-287"></a>    renumrename_opt.add_option(&quot;--meanbval&quot;,
+</div><div id="L288"><a name="L-288"></a>                    action=&quot;store_true&quot;,
+</div><div id="L289"><a name="L-289"></a>                    dest=&quot;meanbval&quot;,
+</div><div id="L290"><a name="L-290"></a>                    help=&quot;Average B-Value by Residus for PATTERN (all by default)&quot;)
+</div><div id="L291"><a name="L-291"></a>    cmd.add_option_group(renumrename_opt)
+</div><div id="L292"><a name="L-292"></a>
+</div><div id="L293"><a name="L-293"></a>    # Miscellanous Methods
+</div><div id="L294"><a name="L-294"></a>    misc_meth_opt = OptionGroup(cmd, &quot;Miscellanous Methods&quot;)
+</div><div id="L295"><a name="L-295"></a>    misc_meth_opt.add_option(&quot;--around&quot;,
+</div><div id="L296"><a name="L-296"></a>                    action=&quot;store&quot;,
+</div><div id="L297"><a name="L-297"></a>                    dest=&quot;around&quot;,
+</div><div id="L298"><a name="L-298"></a>                    type=&quot;string&quot;,
+</div><div id="L299"><a name="L-299"></a>                    help=&quot;Show residues \&quot;near\&quot; the entity. PATTERN: a/r:CHAIN_NUM:cutoff&quot;,
+</div><div id="L300"><a name="L-300"></a>                    metavar=&quot;PATTERN&quot;)
+</div><div id="L301"><a name="L-301"></a>    misc_meth_opt.add_option(&quot;--bborder&quot;,
+</div><div id="L302"><a name="L-302"></a>                    action=&quot;store_true&quot;,
+</div><div id="L303"><a name="L-303"></a>                    dest=&quot;bborder&quot;,
+</div><div id="L304"><a name="L-304"></a>                    help=&quot;Check &amp; restore N-CA-C-O-OXT order of atoms in backbone&quot;)
+</div><div id="L305"><a name="L-305"></a>    cmd.add_option_group(misc_meth_opt)
+</div><div id="L306"><a name="L-306"></a>
+</div><div id="L307"><a name="L-307"></a>    # Miscellanous Options
+</div><div id="L308"><a name="L-308"></a>    misc_opt = OptionGroup(cmd, &quot;Miscellanous Options&quot;)
+</div><div id="L309"><a name="L-309"></a>    misc_opt.add_option(&quot;-h&quot;, &quot;--help&quot;,
+</div><div id="L310"><a name="L-310"></a>                    action=&quot;help&quot;,
+</div><div id="L311"><a name="L-311"></a>                    help=&quot;show this help message and exit&quot;)
+</div><div id="L312"><a name="L-312"></a>    misc_opt.add_option(&quot;-V&quot;, &quot;--version&quot;,
+</div><div id="L313"><a name="L-313"></a>                    action=&quot;version&quot;,
+</div><div id="L314"><a name="L-314"></a>                    help=&quot;show program&#39;s version number and exit&quot;)
+</div><div id="L315"><a name="L-315"></a>    misc_opt.add_option(&quot;-y&quot;,
+</div><div id="L316"><a name="L-316"></a>                    action=&quot;store_true&quot;,
+</div><div id="L317"><a name="L-317"></a>                    dest=&quot;server&quot;,
+</div><div id="L318"><a name="L-318"></a>                    help=&quot;Server mode&quot;,
+</div><div id="L319"><a name="L-319"></a>                    default = False)
+</div><div id="L320"><a name="L-320"></a>    misc_opt.add_option(&quot;-v&quot;,
+</div><div id="L321"><a name="L-321"></a>                    action=&quot;store_true&quot;,
+</div><div id="L322"><a name="L-322"></a>                    dest=&quot;verbose&quot;,
+</div><div id="L323"><a name="L-323"></a>                    help=&quot;Verbose mode&quot;,
+</div><div id="L324"><a name="L-324"></a>                    default = False)
+</div><div id="L325"><a name="L-325"></a>    misc_opt.add_option(&quot;-d&quot;,
+</div><div id="L326"><a name="L-326"></a>                    action=&quot;store_true&quot;,
+</div><div id="L327"><a name="L-327"></a>                    dest=&quot;debug&quot;,
+</div><div id="L328"><a name="L-328"></a>                    help=&quot;Debugging mode&quot;,
+</div><div id="L329"><a name="L-329"></a>                    default = False)
+</div><div id="L330"><a name="L-330"></a>    cmd.add_option_group(misc_opt)
+</div><div id="L331"><a name="L-331"></a>
+</div><div id="L332"><a name="L-332"></a>    return cmd
+</div><div id="L333"><a name="L-333"></a>
+</div><div id="L334"><a name="L-334"></a>def cmdResume( options, args ):
+</div><div id="L335"><a name="L-335"></a>    &quot;&quot;&quot;
+</div><div id="L336"><a name="L-336"></a>    Print a resume of the user input command
+</div><div id="L337"><a name="L-337"></a>    &quot;&quot;&quot;
+</div><div id="L338"><a name="L-338"></a>
+</div><div id="L339"><a name="L-339"></a>    print &quot;# --&quot;
+</div><div id="L340"><a name="L-340"></a>    print &quot;# (w)PDBtoolbox v%s&quot; % VERSION
+</div><div id="L341"><a name="L-341"></a>    print &quot;# --&quot;
+</div><div id="L342"><a name="L-342"></a>    print &quot;# Options:&quot;
+</div><div id="L343"><a name="L-343"></a>    for key in options.__dict__.keys():
+</div><div id="L344"><a name="L-344"></a>        print &quot;#  &quot;, key, &quot;:&quot;, options.__dict__[key]
+</div><div id="L345"><a name="L-345"></a>    print &quot;#&quot;
+</div><div id="L346"><a name="L-346"></a>    print &quot;# Arguments:&quot;
+</div><div id="L347"><a name="L-347"></a>    print &quot;#&quot;, args
+</div><div id="L348"><a name="L-348"></a>    print &quot;#&quot;
+</div><div id="L349"><a name="L-349"></a>
+</div><div id="L350"><a name="L-350"></a>    return
+</div><div id="L351"><a name="L-351"></a>
+</div><div id="L352"><a name="L-352"></a>def argParse( resume = 0 ):
+</div><div id="L353"><a name="L-353"></a>    &quot;&quot;&quot;
+</div><div id="L354"><a name="L-354"></a>    Check and parse arguments.
+</div><div id="L355"><a name="L-355"></a>    &quot;&quot;&quot;
+</div><div id="L356"><a name="L-356"></a>
+</div><div id="L357"><a name="L-357"></a>    pCmd = cmdLine()
+</div><div id="L358"><a name="L-358"></a>    try:
+</div><div id="L359"><a name="L-359"></a>        (options, args) = pCmd.parse_args()
+</div><div id="L360"><a name="L-360"></a>    except ValueError:
+</div><div id="L361"><a name="L-361"></a>        pCmd.error(&quot;Invalid command line format !\n&quot;)
+</div><div id="L362"><a name="L-362"></a>
+</div><div id="L363"><a name="L-363"></a>    &quot;&quot;&quot;
+</div><div id="L364"><a name="L-364"></a>    if options.a and options.b:
+</div><div id="L365"><a name="L-365"></a>        parser.error(&quot;options -a and -b are mutually exclusive&quot;)
+</div><div id="L366"><a name="L-366"></a>    &quot;&quot;&quot;
+</div><div id="L367"><a name="L-367"></a>
+</div><div id="L368"><a name="L-368"></a>    if not options.inputfile:
+</div><div id="L369"><a name="L-369"></a>        pCmd.error(&quot;-f --file : No input provided.\n&quot;)
+</div><div id="L370"><a name="L-370"></a>
+</div><div id="L371"><a name="L-371"></a>    if options.server:
+</div><div id="L372"><a name="L-372"></a>        options.verbose = False
+</div><div id="L373"><a name="L-373"></a>        options.outfilename = &quot;&quot;
+</div><div id="L374"><a name="L-374"></a>
+</div><div id="L375"><a name="L-375"></a>    if options.renumatoms:
+</div><div id="L376"><a name="L-376"></a>        options.renumatoms = options.renumatoms.replace(&quot;_&quot;,&quot; &quot;)
+</div><div id="L377"><a name="L-377"></a>
+</div><div id="L378"><a name="L-378"></a>    if options.renumresidus:
+</div><div id="L379"><a name="L-379"></a>        options.renumresidus = options.renumresidus.replace(&quot;_&quot;,&quot; &quot;)
+</div><div id="L380"><a name="L-380"></a>
+</div><div id="L381"><a name="L-381"></a>    if options.around:
+</div><div id="L382"><a name="L-382"></a>        options.around = options.around.split(&quot;:&quot;)
+</div><div id="L383"><a name="L-383"></a>        if len(options.around) &lt; 3:
+</div><div id="L384"><a name="L-384"></a>            options.around.append(&quot;3.0&quot;)
+</div><div id="L385"><a name="L-385"></a>        if not options.outputfile:
+</div><div id="L386"><a name="L-386"></a>            options.outputfile = None
+</div><div id="L387"><a name="L-387"></a>
+</div><div id="L388"><a name="L-388"></a>    if resume and options.verbose and not options.server:
+</div><div id="L389"><a name="L-389"></a>        cmdResume( options, args )
+</div><div id="L390"><a name="L-390"></a>
+</div><div id="L391"><a name="L-391"></a>    return (options, args)
+</div><div id="L392"><a name="L-392"></a>
+</div><div id="L393"><a name="L-393"></a>def process( args, options ):
+</div><div id="L394"><a name="L-394"></a>    &quot;&quot;&quot;
+</div><div id="L395"><a name="L-395"></a>    Process to command line imposed analyse.
+</div><div id="L396"><a name="L-396"></a>    &quot;&quot;&quot;
+</div><div id="L397"><a name="L-397"></a>
+</div><div id="L398"><a name="L-398"></a>    # Trace execution time
+</div><div id="L399"><a name="L-399"></a>    start = time.time()
+</div><div id="L400"><a name="L-400"></a>
+</div><div id="L401"><a name="L-401"></a>    # start the job
+</div><div id="L402"><a name="L-402"></a>    print &gt;&gt; sys.stderr, &quot;  &gt;&gt; (w)PDBtoolbox job started&quot;
+</div><div id="L403"><a name="L-403"></a>
+</div><div id="L404"><a name="L-404"></a>    # Create PDB object
+</div><div id="L405"><a name="L-405"></a>    try:
+</div><div id="L406"><a name="L-406"></a>        if not options.model:
+</div><div id="L407"><a name="L-407"></a>            model = 1
+</div><div id="L408"><a name="L-408"></a>        else:
+</div><div id="L409"><a name="L-409"></a>            model = options.model
+</div><div id="L410"><a name="L-410"></a>        my_PDB = PDB.PDB(fname=options.inputfile, chId=options.chain, model=model, hetSkip=not options.hetatm, verbose=options.verbose)
+</div><div id="L411"><a name="L-411"></a>    except (IOError, AttributeError):
+</div><div id="L412"><a name="L-412"></a>        raise IOError, &quot;PDB entry not found. No input to read.&quot;
+</div><div id="L413"><a name="L-413"></a>
+</div><div id="L414"><a name="L-414"></a>    # Proceed
+</div><div id="L415"><a name="L-415"></a>    if options.model:
+</div><div id="L416"><a name="L-416"></a>        my_PDB.setModel(model=int(options.model), verbose=options.verbose)
+</div><div id="L417"><a name="L-417"></a>    if options.chain:
+</div><div id="L418"><a name="L-418"></a>        my_PDB.chn(chainId=options.chn, verbose=options.verbose)
+</div><div id="L419"><a name="L-419"></a>
+</div><div id="L420"><a name="L-420"></a>    if not options.addhydrogens and not options.hydrogens:
+</div><div id="L421"><a name="L-421"></a>        my_PDB.delHydrogens(verbose=options.verbose)
+</div><div id="L422"><a name="L-422"></a>    if options.addhydrogens:
+</div><div id="L423"><a name="L-423"></a>        my_PDB.addHydrogens(algorithm=options.addhydrogens, HSkip=not options.hydrogens, norm=options.normhydrogens, verbose=options.verbose)
+</div><div id="L424"><a name="L-424"></a>
+</div><div id="L425"><a name="L-425"></a>    if options.addoxt:
+</div><div id="L426"><a name="L-426"></a>        if options.addoxt == &quot;all&quot;:
+</div><div id="L427"><a name="L-427"></a>            options.addoxt = &quot;&quot;
+</div><div id="L428"><a name="L-428"></a>        my_PDB.addOXT(chainId=options.addoxt, verbose=options.verbose)
+</div><div id="L429"><a name="L-429"></a>
+</div><div id="L430"><a name="L-430"></a>    if options.renumresidus:
+</div><div id="L431"><a name="L-431"></a>        my_PDB.resRenumber(pattern=options.renumresidus, verbose=options.verbose)
+</div><div id="L432"><a name="L-432"></a>    elif options.renumatoms:
+</div><div id="L433"><a name="L-433"></a>        my_PDB.atmsRenumber(pattern=options.renumatoms, verbose=options.verbose)
+</div><div id="L434"><a name="L-434"></a>    elif options.renumbval:
+</div><div id="L435"><a name="L-435"></a>        my_PDB.atmsBValRenumber(input=options.renumbval, verbose=options.verbose)
+</div><div id="L436"><a name="L-436"></a>    elif options.meanbval:
+</div><div id="L437"><a name="L-437"></a>        my_PDB.resMeanBVal(pattern=&quot;&quot;, verbose=options.verbose)
+</div><div id="L438"><a name="L-438"></a>
+</div><div id="L439"><a name="L-439"></a>    if options.renamechains:
+</div><div id="L440"><a name="L-440"></a>        my_PDB.chnRename(pattern=options.renamechains, verbose=options.verbose)
+</div><div id="L441"><a name="L-441"></a>    if not options.addhydrogens and options.normhydrogens:
+</div><div id="L442"><a name="L-442"></a>        my_PDB.renameHydrogens(norm=options.normhydrogens, verbose=options.verbose)
+</div><div id="L443"><a name="L-443"></a>
+</div><div id="L444"><a name="L-444"></a>    if options.around:
+</div><div id="L445"><a name="L-445"></a>        my_PDB.around(elt=options.around[0],aPos=options.around[1],dist=options.around[2], verbose=options.verbose)
+</div><div id="L446"><a name="L-446"></a>    if options.bborder:
+</div><div id="L447"><a name="L-447"></a>        my_PDB.checkBBOrder(verbose=options.verbose)
+</div><div id="L448"><a name="L-448"></a>
+</div><div id="L449"><a name="L-449"></a>    if options.snip:
+</div><div id="L450"><a name="L-450"></a>        options.snip = options.snip.split(&quot;_&quot;)
+</div><div id="L451"><a name="L-451"></a>        elt, options.snip = options.snip[0], options.snip[1:]
+</div><div id="L452"><a name="L-452"></a>        if elt == &quot;A&quot;:
+</div><div id="L453"><a name="L-453"></a>            my_PDB = my_PDB.getMultiAtoms(pattern=&quot; &quot;.strip(options.snip), verbose=options.verbose)
+</div><div id="L454"><a name="L-454"></a>    if options.fragment:
+</div><div id="L455"><a name="L-455"></a>        pass
+</div><div id="L456"><a name="L-456"></a>
+</div><div id="L457"><a name="L-457"></a>    if options.trace:
+</div><div id="L458"><a name="L-458"></a>        my_PDB = my_PDB.trace(verbose=options.verbose)
+</div><div id="L459"><a name="L-459"></a>    elif options.backbone:
+</div><div id="L460"><a name="L-460"></a>        my_PDB = my_PDB.BB()
+</div><div id="L461"><a name="L-461"></a>    elif options.sidechains:
+</div><div id="L462"><a name="L-462"></a>        my_PDB = my_PDB.SC()
+</div><div id="L463"><a name="L-463"></a>
+</div><div id="L464"><a name="L-464"></a>    # Output the PDB object
+</div><div id="L465"><a name="L-465"></a>    #!# Check if header have to be &quot;False&quot; or to be &quot;not options.header&quot;
+</div><div id="L466"><a name="L-466"></a>    if options.outputfile != None:
+</div><div id="L467"><a name="L-467"></a>        my_PDB.out(outName=options.outputfile, header=False, ter=options.header, end=options.header, info=options.header, model=int(options.model))
+</div><div id="L468"><a name="L-468"></a>
+</div><div id="L469"><a name="L-469"></a>    # end of the job
+</div><div id="L470"><a name="L-470"></a>    end = int(time.time() - start)
+</div><div id="L471"><a name="L-471"></a>    endms = (time.time() - start)*1000
+</div><div id="L472"><a name="L-472"></a>
+</div><div id="L473"><a name="L-473"></a>    # print time report
+</div><div id="L474"><a name="L-474"></a>    if end &gt; 0:
+</div><div id="L475"><a name="L-475"></a>        print &gt;&gt; sys.stderr, &quot;  &gt;&gt; (w)PDBtoolbox job done in %s&quot; % elapsed_time(end)
+</div><div id="L476"><a name="L-476"></a>    else:
+</div><div id="L477"><a name="L-477"></a>        print &gt;&gt; sys.stderr, &quot;  &gt;&gt; (w)PDBtoolbox job done in %.3f ms&quot; % endms
+</div><div id="L478"><a name="L-478"></a>
+</div><div id="L479"><a name="L-479"></a>    return
+</div><div id="L480"><a name="L-480"></a>
+</div><div id="L481"><a name="L-481"></a>def main( argv ):
+</div><div id="L482"><a name="L-482"></a>    &quot;&quot;&quot;
+</div><div id="L483"><a name="L-483"></a>    Parse the command line and launch the main purpose.
+</div><div id="L484"><a name="L-484"></a>    &quot;&quot;&quot;
+</div><div id="L485"><a name="L-485"></a>
+</div><div id="L486"><a name="L-486"></a>    (options, args) = argParse( resume = 1 )
+</div><div id="L487"><a name="L-487"></a>    ret = process( args, options )
+</div><div id="L488"><a name="L-488"></a>
+</div><div id="L489"><a name="L-489"></a>    return ret
+</div><div id="L490"><a name="L-490"></a>
+</div><div id="L491"><a name="L-491"></a>if __name__ == &#39;__main__&#39;:
+</div><div id="L492"><a name="L-492"></a>    main(sys.argv)
+</div></pre></div>
+</td></tr></table>
+    </div>
+</div>
+
+<script type="text/javascript">
+YUE.onDOMReady(function(){
+    function highlight_lines(lines){
+        for(pos in lines){
+          YUD.setStyle('L'+lines[pos],'background-color','#FFFFBE');
+        }
+    }
+    page_highlights = location.href.substring(location.href.indexOf('#')+1).split('L');
+    if (page_highlights.length == 2){
+       highlight_ranges  = page_highlights[1].split(",");
+
+       var h_lines = [];
+       for (pos in highlight_ranges){
+            var _range = highlight_ranges[pos].split('-');
+            if(_range.length == 2){
+                var start = parseInt(_range[0]);
+                var end = parseInt(_range[1]);
+                if (start < end){
+                    for(var i=start;i<=end;i++){
+                        h_lines.push(i);
+                    }
+                }
+            }
+            else{
+                h_lines.push(parseInt(highlight_ranges[pos]));
+            }
+      }
+      highlight_lines(h_lines);
+      var _first_line= YUD.get('L'+h_lines[0]);
+      if(_first_line){
+          _first_line.scrollIntoView()
+      }
+    }
+
+    // select code link event
+    YUE.on('hlcode', 'mouseup', getSelectionLink);
+
+    //load history of file
+    YUE.on('load_node_history', 'click', function(e){
+        var _url = node_history_url.replace('__REV__','ec666596403587fffeaa5d4b4cd6fe52edf5db63').replace('__FPATH__', 'PDBToolbox');
+        ypjax(_url, 'node_history', function(o){
+            tooltip_activate();
+        })
+    });
+
+   });
+
+</script>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+var CACHE = {};
+var CACHE_EXPIRE = 5*60*1000; //cache for 5*60s
+//used to construct links from the search list
+var url_base = '/PyPDB/files/__REV__/__FPATH__';
+//send the nodelist request to this url
+var node_list_url = '/PyPDB/nodelist/__REV__/__FPATH__';
+// send the node history requst to this url
+var node_history_url = '/PyPDB/history/__REV__/__FPATH__';
+
+var ypjax_links = function(){
+    YUE.on(YUQ('.ypjax-link'), 'click',function(e){
+
+        //don't do ypjax on middle click
+        if(e.which == 2 || !History.enabled){
+            return true;
+        }
+
+        var el = e.currentTarget;
+        var url = el.href;
+
+        var _base_url = '/PyPDB/files//';
+        _base_url = _base_url.replace('//','/')
+
+        //extract rev and the f_path from url.
+        parts = url.split(_base_url)
+        if(parts.length != 2){
+            return false;
+        }
+
+        var parts2 = parts[1].split('/');
+        var rev = parts2.shift(); // pop the first element which is the revision
+        var f_path = parts2.join('/');
+
+        //page title make this consistent with title() mako function on top
+        var title = "PyPDB Files" + " &middot; " + (f_path || '\\') + " &middot; " + "RhodeCode MTI";
+
+        var _node_list_url = node_list_url.replace('__REV__',rev).replace('__FPATH__', f_path);
+        var _url_base = url_base.replace('__REV__',rev);
+
+        // Change our States and save some data for handling events
+        var data = {url:url,title:title, url_base:_url_base,
+                    node_list_url:_node_list_url, rev:rev, f_path:f_path};
+        History.pushState(data, title, url);
+
+        //now we're sure that we can do ypjax things
+        YUE.preventDefault(e);
+        return false;
+    });
+}
+
+var callbacks = function(State){
+    ypjax_links();
+    tooltip_activate();
+    fileBrowserListeners(State.url, State.data.node_list_url, State.data.url_base);
+
+    if(YUD.get('hlcode')){
+        YUE.on('hlcode', 'mouseup', getSelectionLink);
+    }
+    //console.log(State);
+    if(YUD.get('load_node_history')){
+      //remove all listeners due to problems of history state
+      YUE.removeListener('load_node_history', 'click');
+      YUE.on('load_node_history', 'click', function(e){
+          var _url = node_history_url.replace('__REV__',State.data.rev).replace('__FPATH__', State.data.f_path);
+          ypjax(_url, 'node_history', function(o){
+              tooltip_activate();
+          })
+      });
+    }
+    // Inform Google Analytics of the change
+    if ( typeof window.pageTracker !== 'undefined' ) {
+        window.pageTracker._trackPageview(State.url);
+    }
+}
+
+YUE.onDOMReady(function(){
+    ypjax_links();
+    var container = 'files_data';
+    //Bind to StateChange Event
+    History.Adapter.bind(window,'statechange',function(){
+        var State = History.getState();
+        cache_key = State.url;
+        //check if we have this request in cache maybe ?
+        var _cache_obj = CACHE[cache_key];
+        var _cur_time = new Date().getTime();
+        // get from cache if it's there and not yet expired !
+        if(_cache_obj !== undefined && _cache_obj[0] > _cur_time){
+            YUD.get(container).innerHTML=_cache_obj[1];
+            YUD.setStyle(container,'opacity','1.0');
+
+            //callbacks after ypjax call
+            callbacks(State);
+        }
+        else{
+          ypjax(State.url,container,function(o){
+              //callbacks after ypjax call
+              callbacks(State);
+              if (o !== undefined){
+                //store our request in cache
+                var _expire_on = new Date().getTime()+CACHE_EXPIRE;
+              CACHE[cache_key] = [_expire_on, o.responseText];
+            }
+          });
+        }
+    });
+
+    // init the search filter
+    var _State = {
+       url: "/PyPDB/files/1bf5d8828a1a95c168e013ab4b50aacdaed288b0/PDBToolbox",
+       data: {
+         node_list_url: node_list_url.replace('__REV__',"1bf5d8828a1a95c168e013ab4b50aacdaed288b0").replace('__FPATH__', "PDBToolbox"),
+         url_base: url_base.replace('__REV__',"1bf5d8828a1a95c168e013ab4b50aacdaed288b0"),
+         rev:"1bf5d8828a1a95c168e013ab4b50aacdaed288b0",
+         f_path: "PDBToolbox"
+       }
+    }
+    fileBrowserListeners(_State.url, _State.data.node_list_url, _State.data.url_base);
+});
+
+</script>
+
+
+    </div>
+</div>
+<!-- END CONTENT -->
+
+<!-- FOOTER -->
+<div id="footer">
+   <div id="footer-inner" class="title">
+       <div>
+           <p class="footer-link">
+               
+           </p>
+           <p class="footer-link-right">
+               <a href="https://rhodecode.com">
+               RhodeCode
+               </a>
+               &copy; 2010-2017 by Marcin Kuzminski and others
+                   &ndash; <a href="https://rhodecode.com/help/">Support</a>
+           </p>
+       </div>
+   </div>
+</div>
+
+<!-- END FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
