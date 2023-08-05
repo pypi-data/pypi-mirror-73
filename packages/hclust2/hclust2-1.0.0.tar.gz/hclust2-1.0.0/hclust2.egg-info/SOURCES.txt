@@ -1,0 +1,8 @@
+README.md
+hclust2.py
+setup.py
+hclust2.egg-info/PKG-INFO
+hclust2.egg-info/SOURCES.txt
+hclust2.egg-info/dependency_links.txt
+hclust2.egg-info/requires.txt
+hclust2.egg-info/top_level.txt
