@@ -1,0 +1,13 @@
+drf_nested_creator/__init__.py,sha256=nohgw9XV6hZrVeT8rbzmgruRJofj-tCe-Uuyl0s0ZQM,73
+drf_nested_creator/creators.py,sha256=Ej3B9zAbBHznJLyA55M3L1XKOz5mCWuEiCA21TpKzcs,1518
+drf_nested_creator/fields.py,sha256=F6z-Q25G51s97h72g8mYTQ_qDITKx9a5wER4hpS6ncM,1100
+drf_nested_creator/serializers.py,sha256=t9otS_XspIzfZl1fgH1eaoI-lvyzJMfff4GdtRy0JDY,599
+src/__init__.py,sha256=nohgw9XV6hZrVeT8rbzmgruRJofj-tCe-Uuyl0s0ZQM,73
+src/creators.py,sha256=_fBsGGwenoFHA_F1SOdFlQnRV4mXt6_RE0WcCu6Cc24,983
+src/fields.py,sha256=nDtX-25A-6suZ-zNN26b7_nGjZMvEt2FfLPHmFlftgM,1020
+src/serializers.py,sha256=binkRButwYyMkbeTLDQM4drb9oCslMeoGWKti-bKnns,617
+drf_nested_creator-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+drf_nested_creator-0.2.0.dist-info/METADATA,sha256=7eaX_effFSlinJaPx_GNExEouBayAchiSg-Nez3dvnM,772
+drf_nested_creator-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+drf_nested_creator-0.2.0.dist-info/top_level.txt,sha256=ZGONS_dh9t6VDf6pCrQZ-481W4LowKhvRZlj3jAIY3o,19
+drf_nested_creator-0.2.0.dist-info/RECORD,,
