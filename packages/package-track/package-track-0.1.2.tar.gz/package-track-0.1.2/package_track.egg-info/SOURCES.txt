@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+package-track/__init__.py
+package-track/completeScript.py
+package-track/getemails.py
+package-track/inputPackage.py
+package-track/quickstart.py
+package-track/tracker.py
+package_track.egg-info/PKG-INFO
+package_track.egg-info/SOURCES.txt
+package_track.egg-info/dependency_links.txt
+package_track.egg-info/requires.txt
+package_track.egg-info/top_level.txt
