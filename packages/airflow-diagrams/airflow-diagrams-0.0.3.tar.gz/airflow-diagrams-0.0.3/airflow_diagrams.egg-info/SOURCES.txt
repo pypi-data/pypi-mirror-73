@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+airflow_diagrams/__init__.py
+airflow_diagrams/diagram.jinja2
+airflow_diagrams/mapping.json
+airflow_diagrams.egg-info/PKG-INFO
+airflow_diagrams.egg-info/SOURCES.txt
+airflow_diagrams.egg-info/dependency_links.txt
+airflow_diagrams.egg-info/requires.txt
+airflow_diagrams.egg-info/top_level.txt
