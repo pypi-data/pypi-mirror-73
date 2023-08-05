@@ -1,0 +1,8 @@
+README.md
+setup.py
+dash_pathway/__init__.py
+dash_pathway.egg-info/PKG-INFO
+dash_pathway.egg-info/SOURCES.txt
+dash_pathway.egg-info/dependency_links.txt
+dash_pathway.egg-info/requires.txt
+dash_pathway.egg-info/top_level.txt
