@@ -1,0 +1,9 @@
+git_speed/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+git_speed/cli.py,sha256=8I5iGksIGrLhak7PGXWdZGC5XbChd8zO41Bff9MjCPE,1122
+git_speed/git_aliases,sha256=hAHhcgUO_SLftajg9LxHMw3keO7IB19pt3Uehf5JGmE,743
+git_speed/installer.py,sha256=_0tlY_iFZpeh5Xyg6jHeFQcGFFLlur6b8a0OaBY2i5g,3348
+git_speed-1.0.0.dist-info/entry_points.txt,sha256=X0FO-S5jWcqtpJ7JCQH3hnVUSPwxce81AX_sHt2iHxc,48
+git_speed-1.0.0.dist-info/LICENSE,sha256=VWdeBNiHtuWZRPXwcYorqTpxnvTYNyXd8s1hS2aqDug,1070
+git_speed-1.0.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+git_speed-1.0.0.dist-info/METADATA,sha256=aWzxoKu31xhyu2dVUDfdmFNUWBmKRb_ZhS5u6swes5A,709
+git_speed-1.0.0.dist-info/RECORD,,

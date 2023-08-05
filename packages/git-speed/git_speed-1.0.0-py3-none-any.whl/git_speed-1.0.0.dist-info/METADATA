@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: git-speed
+Version: 1.0.0
+Summary: Installs Git aliases.
+Home-page: https://www.gitscientist.com
+License: MIT
+Author: Daniel Tipping
+Author-email: daniel@oldreliable.tech
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: typer (>=0.1.1,<0.2.0)
+Project-URL: Repository, https://github.com/git-scientist/git-speed
+Description-Content-Type: text/markdown
+
+# git-speed
+
+Git aliases to speed you up.
+
+See https://www.gitscientist.com for more.
+
