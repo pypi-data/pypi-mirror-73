@@ -1,0 +1,24 @@
+CHANGES
+=======
+
+* ignore deployments
+* split contexts
+* comment travis trick
+* fix test
+* fix test
+* fix test
+* unstable development
+* Improve things
+* setup travis
+* refactor analyzer
+* add contribution guide
+* improve formatting
+* fix linters errors
+* fix imports
+* Improve analyzer
+* tokenizer
+* backup
+* adding ast and token analyzer
+* improve venv
+* initialize project
+* Initial commit
