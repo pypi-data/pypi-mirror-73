@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: borisml
+Version: 0.1.0
+Summary: A deep learning package for self-supervised learning
+Home-page: UNKNOWN
+Author: Philipp Wirth & Igor Susmelj
+Author-email: philipp@whattolabel.com
+License: MIT
+Project-URL: Documentation, https://www.notion.so/whattolabel/WhatToLabel-Documentation-28e645f5564a453e807d0a384a4e6ea7
+Project-URL: WhatToLabel, https://www.whattolabel.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: opencv-python
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: torchvision
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: hydra-core (>=0.11.3)
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: prefetch-generator
+Requires-Dist: pytorch-lightning (==0.7.6)
+Requires-Dist: requests (>=2.23.0)
+
+UNKNOWN
+
+
