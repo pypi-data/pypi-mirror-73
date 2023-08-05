@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: DesmOEIS
+Version: 1.0
+Summary: Tool for converting OEIS sequences to Desmos lists
+Home-page: https://github.com/CascadeIllusion/DesmOEIS
+Author: CascadeIllusion
+Author-email: patrick77000@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/CascadeIllusion/DesmOEIS/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: oeis,desmos,math,integers,numbers,lists,conversion
+Platform: UNKNOWN
