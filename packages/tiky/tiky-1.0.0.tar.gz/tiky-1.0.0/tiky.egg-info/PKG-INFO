@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: tiky
+Version: 1.0.0
+Summary: TikTok AutoClaimer.
+Home-page: https://tiktokapi.xyz/
+Author: Dexy
+Author-email: dexy@flamelo.com
+License: Dexy License
+Description: Automatically and periodically tries to claim multiple TikTok usernames using private API.
+Keywords: tiktok,autoclaimer,turbo,dexy,api,
+Platform: UNKNOWN
