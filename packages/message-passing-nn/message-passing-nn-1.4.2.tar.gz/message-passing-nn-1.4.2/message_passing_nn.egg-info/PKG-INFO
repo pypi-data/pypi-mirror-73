@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: message-passing-nn
+Version: 1.4.2
+Summary: A message passing neural network with GRU units
+Home-page: https://github.com/kovanostra/message-passing-nn
+Author: Michail Kovanis
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/kovanostra/message-passing-nn/archive/1.4.2.tar.gz
+Description: UNKNOWN
+Keywords: MESSAGE PASSING,NEURAL NETWORK,GRU
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7

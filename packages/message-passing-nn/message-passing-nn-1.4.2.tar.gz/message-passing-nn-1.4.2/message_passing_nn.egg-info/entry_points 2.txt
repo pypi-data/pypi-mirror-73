@@ -1,0 +1,3 @@
+[console_scripts]
+message-passing-nn = message_passing_nn.cli:main
+
