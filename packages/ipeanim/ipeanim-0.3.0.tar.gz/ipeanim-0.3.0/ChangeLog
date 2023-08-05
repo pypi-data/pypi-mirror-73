@@ -1,0 +1,21 @@
+CHANGES
+=======
+
+v0.3.0
+------
+
+* Do not generate unnecessary copy of ipe file
+
+v0.2.0
+------
+
+* I'm actually dumb since ipe already supports animations with the -view option
+
+v0.1.0
+------
+
+* Add ipeanim
+* Create LICENSE
+* Add README
+* Initialized the repository
+* Initial commit
