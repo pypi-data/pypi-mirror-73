@@ -1,0 +1,10 @@
+setup.py
+distPorb/Binomialdistribution.py
+distPorb/Gaussiandistribution.py
+distPorb/Generaldistribution.py
+distPorb/__init__.py
+distPorb.egg-info/PKG-INFO
+distPorb.egg-info/SOURCES.txt
+distPorb.egg-info/dependency_links.txt
+distPorb.egg-info/not-zip-safe
+distPorb.egg-info/top_level.txt
