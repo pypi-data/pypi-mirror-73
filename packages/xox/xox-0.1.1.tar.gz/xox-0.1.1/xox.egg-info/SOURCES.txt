@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+xox.py
+xox.egg-info/PKG-INFO
+xox.egg-info/SOURCES.txt
+xox.egg-info/dependency_links.txt
+xox.egg-info/requires.txt
+xox.egg-info/top_level.txt
