@@ -1,0 +1,36 @@
+class SysetupError(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+
+    def __str__(self):
+        return f'\n\n    ! {self.msg} !\n\n'
+
+
+class MissingModuleError(SysetupError):
+    def __init__(self, module, distro):
+        lineage = '.'.join(distro.lineage)
+        super().__init__(
+            f'module "{module}" not defined for "{lineage}"'
+        )
+
+
+class AmbiguousModuleNameError(SysetupError):
+    def __init__(self, module, found):
+        found = '\n        '.join(found)
+        super().__init__(
+            f'\n    "{module}" modules :\n        {found}\n   '
+        )
+
+
+class ModuleTypeError(SysetupError):
+    def __init__(self, module):
+        super().__init__(
+            f'"{module}" must be a module, not [{type(module).__name__}]'
+        )
+
+
+class UnsupportedDistroError(SysetupError):
+    def __init__(self, target):
+        super().__init__(
+            f'Unsupported distro on {target}'
+        )
