@@ -1,0 +1,9 @@
+ml_dataset_tools/__init__.py,sha256=oSCwp7zeLtU2oMtsZUg8RXbdgrLdqsh24AVf5BBlh2k,260
+ml_dataset_tools/file_list.py,sha256=cdoUb1_7Gj57TAMBc_dwoBavdYwSJ0KZ2BQ0ZKfcWX8,496
+ml_dataset_tools/sync_file_lists.py,sha256=sv_YRLxUTHWiqYEJD91qu0KFbKTuYMLZMzvnqGpcbk8,2261
+ml_dataset_tools-0.1.0.dist-info/LICENSE,sha256=-RcSarAmjN4uQ5BnkSCOZiNOooMwtpkkCGKesfklEVA,1065
+ml_dataset_tools-0.1.0.dist-info/METADATA,sha256=Ph-l8IhinTdy2yYE5dD_wjX_8WCrf1Opl8t_MzaHfRs,1601
+ml_dataset_tools-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ml_dataset_tools-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+ml_dataset_tools-0.1.0.dist-info/top_level.txt,sha256=M-LFuN0UPU5eK61tYaMZXHJGh5NHodPE18mBaVu05ks,17
+ml_dataset_tools-0.1.0.dist-info/RECORD,,
