@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: modbus-config-tools
+Version: 1.0.0
+Summary: modbus configure tools
+Home-page: http://flask.pocoo.org/docs/tutorial/
+Maintainer: loop1905
+Maintainer-email: littlshenyun@outlook.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: waitress
+Requires-Dist: xlrd
+Requires-Dist: flask-wtf
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+this is used for self test please don't install
+
+

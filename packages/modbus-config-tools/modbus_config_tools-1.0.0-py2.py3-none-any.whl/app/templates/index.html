@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block head %}
+<style type="text/css"></style>
+{% endblock %}
+{% block content %}
+
+<div class="jumbotron  p-5 text-white rounded bg-dark mb-3">
+    <div class="d-flex justify-content-end">
+        <img src="{{url_for('static',filename='pic/logo.png')}}" class="img-fluid p-0 m-0 d-inline"
+            alt="Responsive image" />
+    </div>
+    <div class=" row ">
+
+        <div class="col-md-12 px-0  ">
+            <h1 class="display-4  py-2 my-2 font-italic">
+                Hello, OPCer! Welcome to
+                <span class="badge badge-info col-auto">Configuration Studio.</span>
+            </h1>
+            <blockquote class="blockquote text-right ">
+
+
+                {% with messages = get_flashed_messages(category_filter=["success"]) %}
+                {% if messages %}
+
+                {% for message in messages %}
+                <p class="mb-0">{{ message }}</p>
+
+                {% endfor %}
+
+                {% endif %}
+                {% endwith %}
+
+
+                <footer class="blockquote-footer">Power by <cite title="Source Title">冒险湾一狗</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+<div class="shadow-lg p-3 mb-3 bg-light rounded">
+    <h5 class="display-6"> ——>点击按钮开始<span class="badge badge-info">配置之旅</span><—— 
+    </h5> 
+</div>
+
+<div>
+    <a class="btn btn-outline-primary btn-lg" href="{{ url_for('mt.modbus') }}" role="button">のModbus 配 置</a>
+
+</div>
+{% endblock %}
