@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+classificationconfidenceintervals/classification_confidence_intervals.egg-info/PKG-INFO
+classificationconfidenceintervals/classification_confidence_intervals.egg-info/SOURCES.txt
+classificationconfidenceintervals/classification_confidence_intervals.egg-info/dependency_links.txt
+classificationconfidenceintervals/classification_confidence_intervals.egg-info/not-zip-safe
+classificationconfidenceintervals/classification_confidence_intervals.egg-info/requires.txt
+classificationconfidenceintervals/classification_confidence_intervals.egg-info/top_level.txt
