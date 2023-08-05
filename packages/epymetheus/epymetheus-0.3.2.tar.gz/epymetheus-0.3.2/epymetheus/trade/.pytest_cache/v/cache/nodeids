@@ -1,0 +1,15 @@
+[
+  "trade.py::epymetheus.trade.trade.Trade",
+  "trade.py::epymetheus.trade.trade.Trade.__mul__",
+  "trade.py::epymetheus.trade.trade.Trade.__neg__",
+  "trade.py::epymetheus.trade.trade.Trade.__rmul__",
+  "trade.py::epymetheus.trade.trade.Trade.__truediv__",
+  "trade.py::epymetheus.trade.trade.Trade.array_asset",
+  "trade.py::epymetheus.trade.trade.Trade.array_exposure",
+  "trade.py::epymetheus.trade.trade.Trade.array_lot",
+  "trade.py::epymetheus.trade.trade.Trade.execute",
+  "trade.py::epymetheus.trade.trade.Trade.n_orders",
+  "trade.py::epymetheus.trade.trade.Trade.series_exposure",
+  "trade.py::epymetheus.trade.trade.Trade.series_pnl",
+  "trade.py::epymetheus.trade.trade.Trade.pnl"
+]
