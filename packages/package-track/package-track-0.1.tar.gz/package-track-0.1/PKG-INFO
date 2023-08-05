@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: package-track
+Version: 0.1
+Summary: command line tool to track packages using gmail api and selenium
+Home-page: https://github.com/idm2114/
+Author: Ian Macleod
+Author-email: idm2114@columbia.edu
+License: MIT
+Download-URL: https://github.com/idm2114/package-track/archive/v_02.tar.gz
+Description: UNKNOWN
+Keywords: tracking numbers,shipping,packages
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
