@@ -1,0 +1,10 @@
+setup.py
+yasirabd_probability/Binomialdistribution.py
+yasirabd_probability/Gaussiandistribution.py
+yasirabd_probability/Generaldistribution.py
+yasirabd_probability/__init__.py
+yasirabd_probability.egg-info/PKG-INFO
+yasirabd_probability.egg-info/SOURCES.txt
+yasirabd_probability.egg-info/dependency_links.txt
+yasirabd_probability.egg-info/not-zip-safe
+yasirabd_probability.egg-info/top_level.txt
