@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pymlmodels
+Version: 0.1.0
+Summary: Collection of easy to use Machine Learning Models.
+Home-page: https://github.com/MeatBoyed/pymlmodels
+Author: MeatBoyed
+Author-email: charlie2meat@yahoo.com
+License: UNKNOWN
+Description: # pyML
+        Python module collection with Machine Learning models to easily use on your projects.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
