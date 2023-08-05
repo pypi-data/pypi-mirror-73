@@ -1,0 +1,12 @@
+README.md
+setup.py
+sym/cli/__init__.py
+sym/cli/aws_okta.py
+sym/cli/errors.py
+sym/cli/sym.py
+sym_cli.egg-info/PKG-INFO
+sym_cli.egg-info/SOURCES.txt
+sym_cli.egg-info/dependency_links.txt
+sym_cli.egg-info/entry_points.txt
+sym_cli.egg-info/requires.txt
+sym_cli.egg-info/top_level.txt
