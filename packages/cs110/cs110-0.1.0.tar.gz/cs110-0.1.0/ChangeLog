@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.1.0
+-----
+
+* Fixed the .client issue
+
+2
+-
+
+* Renaming client
+* Redirecting to live website
+* PyPI Config
+* Filepath tracking
+* Initial Commit
