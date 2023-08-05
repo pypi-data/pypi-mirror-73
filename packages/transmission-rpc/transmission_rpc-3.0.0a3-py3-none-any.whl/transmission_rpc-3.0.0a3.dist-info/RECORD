@@ -1,0 +1,12 @@
+transmission_rpc/__init__.py,sha256=FSGhYL6KHyY7fecGk0AelQxEwtSuEVPu4krtjxDNc6A,549
+transmission_rpc/client.py,sha256=-hSadjwVDgDHuIU2d1IDPZZ4iGZ-S01GZHGgZIV0gno,36626
+transmission_rpc/constants.py,sha256=1KJQC3hXiDT7zbIbXBIcJiX8jCjccvH85gAsZCI0RmQ,28801
+transmission_rpc/decorator.py,sha256=Ngcrgc9O_KLvBNtqCH7aG7tGiTvEAAf7KtuicpAn7RY,1278
+transmission_rpc/error.py,sha256=JgLpxEuA8FHIh8iQM-RL5lMqkDrr5K_jXrvIe85OW00,904
+transmission_rpc/session.py,sha256=Wtas_NWehor0SiubyCq3HIyhYgkbbDwbCik8WXicLuk,3535
+transmission_rpc/torrent.py,sha256=mqxB-SVjZy_oOeWzcjZQ7oRtDZ4ZqjzIX-ZKRTNgOsM,14837
+transmission_rpc/utils.py,sha256=3dWMfRVIDrY-4RX4LUgEMyK1zAzk-N9i6sOMtUW3hXA,4570
+transmission_rpc-3.0.0a3.dist-info/LICENSE,sha256=wG68lbSv5QCiLZFzWWy4W1fSVUs3H5EeMkHUx5RbBqY,1127
+transmission_rpc-3.0.0a3.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+transmission_rpc-3.0.0a3.dist-info/METADATA,sha256=SjYGe_fsWiFjkmgXRnueSOLXyBiMYvRZyzqJ0c94o8g,2605
+transmission_rpc-3.0.0a3.dist-info/RECORD,,
