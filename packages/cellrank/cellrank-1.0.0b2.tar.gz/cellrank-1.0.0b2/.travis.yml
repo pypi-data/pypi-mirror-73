@@ -1,0 +1,12 @@
+language: python
+python:
+    - "3.6"
+    - "3.7"
+    - "3.8"
+env:
+    - MPLBACKEND=Agg
+install:
+    - pip install -e .[test]
+    - python-vendorize  # clones msmtools
+script:
+    - pytest
