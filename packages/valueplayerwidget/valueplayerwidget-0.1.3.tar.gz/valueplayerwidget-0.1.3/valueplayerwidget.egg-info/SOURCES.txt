@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+valueplayerwidget/__init__.py
+valueplayerwidget/timer.py
+valueplayerwidget/value_player_widget.py
+valueplayerwidget.egg-info/PKG-INFO
+valueplayerwidget.egg-info/SOURCES.txt
+valueplayerwidget.egg-info/dependency_links.txt
+valueplayerwidget.egg-info/requires.txt
+valueplayerwidget.egg-info/top_level.txt
