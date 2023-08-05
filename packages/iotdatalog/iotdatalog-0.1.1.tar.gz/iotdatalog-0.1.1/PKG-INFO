@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: iotdatalog
+Version: 0.1.1
+Summary: Wrapper for datalog.anglebrackets.co.za REST API
+Home-page: https://github.com/baggins800/iotdatalog
+Author: Ruan Luies
+Author-email: omega@live.co.za
+License: GPL
+Download-URL: https://github.com/baggins800/iotdatalog/archive/iotdatalog-0.1.tar.gz
+Description: UNKNOWN
+Keywords: IOT,datalogging,datalog,datalogger
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
