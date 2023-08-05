@@ -1,0 +1,14 @@
+django_theme_installer-0.1.5.data/scripts/theme_cli.py,sha256=a0cuUq1Ma5qg8Cz5uVUdjMDYu2xoJIq8YT0hOwtpgvQ,1195
+theme_installer/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+theme_installer/constants.py,sha256=KxbtqC-iMB-Zr2XrEq2R7LEgLb9fg_5wqDfSghhKag4,283
+theme_installer/core.py,sha256=TkHyouC36fa8xXFH1oPIT3IdAaLNGiCQ7l_9fI8m4h4,16244
+theme_installer/loaders.py,sha256=KEHqtAEV5MraOijJ8H4D1b7s4ktRWPK2vv0n8Cg65ME,7253
+theme_installer/utils.py,sha256=kKBhO1x7D5la72WSrFIKpq3oHVzBQOhd_fh8A7Eg9Yw,1247
+theme_installer/management/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+theme_installer/management/commands/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+theme_installer/management/commands/theme_install.py,sha256=NNNKXzM-94WanVdTvnUVCzLkVr0P38k2wIbWVU4EsXY,2340
+django_theme_installer-0.1.5.dist-info/LICENSE,sha256=xpgHZ-WzAKnYVQGIUAimS-ep-_R8F5GC0Aeq7GLhnAs,1065
+django_theme_installer-0.1.5.dist-info/METADATA,sha256=Eow3wvUAKkKoCLAWSmgHNApdk5m9mlbbkXbao4LIi2g,1539
+django_theme_installer-0.1.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_theme_installer-0.1.5.dist-info/top_level.txt,sha256=1P73DmzJITS4oFx8RNpvJRZLdCJGrVwbN_aA31iYvgo,16
+django_theme_installer-0.1.5.dist-info/RECORD,,
