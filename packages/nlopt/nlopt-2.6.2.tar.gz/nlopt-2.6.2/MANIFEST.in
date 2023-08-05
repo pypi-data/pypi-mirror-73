@@ -1,0 +1,10 @@
+exclude .appveyor.yml
+exclude scripts/install_swig.sh
+exclude .gitmodules
+exclude extern/nlopt/.git
+include CMakeLists.txt
+include LICENSE
+include MANIFEST.in
+include README.md
+include setup.py
+graft extern/nlopt
