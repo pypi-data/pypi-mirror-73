@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: xcauto
+Version: 0.1.0
+Summary: xcauto: Arbitrary order exchange-correlation functional derivatives using JAX.
+Home-page: https://github.com/dftlibs/xcauto
+Author: Radovan Bast
+Author-email: radovan.bast@uit.no
