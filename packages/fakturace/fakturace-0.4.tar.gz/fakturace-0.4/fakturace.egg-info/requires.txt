@@ -1,0 +1,5 @@
+cached-property
+Django
+django-vies>=5.0.2
+filelock
+jinja2
