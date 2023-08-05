@@ -1,0 +1,12 @@
+numpy
+sgp4>=2.8
+requests
+pydantic
+click
+
+[dev]
+Cython
+pytest
+pytest-html
+pytest-cov
+flake8
