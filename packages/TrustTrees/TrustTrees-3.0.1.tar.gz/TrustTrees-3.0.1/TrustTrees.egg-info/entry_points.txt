@@ -1,0 +1,3 @@
+[console_scripts]
+trusttrees = trusttrees.__main__:main
+
