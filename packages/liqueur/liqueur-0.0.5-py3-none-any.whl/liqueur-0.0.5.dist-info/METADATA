@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: liqueur
+Version: 0.0.5
+Summary: A lightweight python framework for Capital API
+Home-page: https://github.com/kiraxie/liqueur
+Author: Kira Hsieh
+Author-email: kiraxie11287@gmail.com
+License: MIT
+Keywords: Taiwan trading framework
+Platform: win_amd64
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: comtypes (>=1.1.7) ; platform_system == "Windows"
+Requires-Dist: pywin32 (>=227) ; platform_system == "Windows"
+Requires-Dist: packaging (>=20.4) ; platform_system == "Windows"
+Requires-Dist: wget (>=3.2) ; platform_system == "Windows"
+Requires-Dist: requests (>=2.23.0) ; platform_system == "Windows"
+Requires-Dist: sqlalchemy (>=1.3.17) ; platform_system == "Windows"
+Requires-Dist: pyyaml (>=5.3.1) ; platform_system == "Windows"
+
+# Liqueur
+
+Liqueur is a lightweight trade framework for Taiwan stock market based on Taiwan securities broker company [Capital](https://www.capital.com.tw/)'s API. It is designed to make application start quickly and easy to use, so user can focus on strategy development.
+
+## Requirement
+
+[Capital API v2.13.23](https://www.capital.com.tw/Service2/download/api_zip/CapitalAPI_2.13.20.zip)
+
+## Installation
+
+Install the framework with pip:
+
+```bash
+pip install Liqueur
+```
+
+## Quick Start
+
+Detail in `quick_start.py`
+
+
