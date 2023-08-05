@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jenbonzhang-test
+Version: 1.0.2
+Summary: test package
+Home-page: https://github.com/jenbonzhang/chinesename
+Author: jenbonzhang
+Author-email: jenbonzhagn@gmail.com
+License: MIT License
+Description: test package long description
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst

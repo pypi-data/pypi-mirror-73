@@ -1,0 +1,6 @@
+foo9.py
+setup.py
+jenbonzhang_test.egg-info/PKG-INFO
+jenbonzhang_test.egg-info/SOURCES.txt
+jenbonzhang_test.egg-info/dependency_links.txt
+jenbonzhang_test.egg-info/top_level.txt
