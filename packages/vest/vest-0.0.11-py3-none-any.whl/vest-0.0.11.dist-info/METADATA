@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: vest
+Version: 0.0.11
+Summary: UNKNOWN
+Home-page: https://github.com/mattf1n/vest
+Author: mattf1n
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: tabulate
+Requires-Dist: pprint
+Requires-Dist: robin-stocks
+Requires-Dist: gnuplotlib
+Requires-Dist: numpy
+
+# Vest
+My personal robo-advisor
+
+## Install
+
+`pip install vest`
+
+
