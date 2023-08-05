@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sugarstore-generator
+Version: 0.1a1
+Summary: A python package to build sugar app store
+Home-page: https://github.com/sugarlabs-appstore/sugarappstore
+Author: srevinsaju
+Author-email: srevinsaju@sugarlabs.org
+License: AGPLv3+
+Download-URL: https://pypi.python.org/pypi/sugarstore-generator
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Requires-Dist: python-utils
+
+UNKNOWN
+
+

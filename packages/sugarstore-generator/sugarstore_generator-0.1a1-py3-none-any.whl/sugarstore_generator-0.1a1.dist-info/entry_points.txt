@@ -1,0 +1,3 @@
+[console_scripts]
+sugarstore-generator = sugarstore_generator.__main__:main
+
