@@ -1,0 +1,17 @@
+adg/__init__.py,sha256=gmn-ZbjsuKdt-xNcYu9qDGlmPqeIJ56MMkpUSlThK7g,154
+adg/bmbpt.py,sha256=kTy2QAk21YcCngFlN8d7bw8V54wP919uDM5wEgayoks,29386
+adg/diag.py,sha256=Y-sEvGRDPZ70YnotDZ-Hgn-C_S-C4eeVBi1A08nC1X8,20033
+adg/main.py,sha256=rQK6i5dI1_UB5tbjKPZwo1wdpN3qHipc4E4_-PGd8Ts,3126
+adg/mbpt.py,sha256=1aIAi__xjk_FccdnwvmDg4jF1-9SmzSsMRyxXcrjrXo,16568
+adg/pbmbpt.py,sha256=TFi3jAoJ8A_ku3LFxBzs-8uX7Ttu12EgmD-R7qOzuV0,27716
+adg/run.py,sha256=xrSoYpgTp9FhFQ0uy04C29eNY9B_U1CDfjEElujFAo0,16745
+adg/tools.py,sha256=fJLULWIDVaYaewCbelbl59aNkb1Gx6fZxJ9mWRpSY1s,1075
+adg/tsd.py,sha256=_QdOBViWhODCWA0qMTD238ikSRdan0p0jKlHg6JVqBk,12939
+adg-2.0.0.data/data/share/doc/adg/README.md,sha256=npCXIJOaHmvWV83X9ryuZ1t4wbxwi5PsKXap1of6E9c,5165
+adg-2.0.0.data/data/share/man/man1/adg.1,sha256=Y0QQirgLQlM0DAaZFbKpG35JN3XtsQGUdB9s0CCgCIE,60202
+adg-2.0.0.dist-info/LICENSE.txt,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+adg-2.0.0.dist-info/METADATA,sha256=-uq8vgT0h0fOthBpeJsDSt8litV-7iGFgw_TqqG1okE,2171
+adg-2.0.0.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+adg-2.0.0.dist-info/entry_points.txt,sha256=0eEU4mJ2uC__CKG779KydO63T5WoR_uUoIio_qmNMsw,39
+adg-2.0.0.dist-info/top_level.txt,sha256=2W_KZYM_3Q0B99E9cxRAe-Xu0gqr-n1d5KB9xaNhTEA,4
+adg-2.0.0.dist-info/RECORD,,
