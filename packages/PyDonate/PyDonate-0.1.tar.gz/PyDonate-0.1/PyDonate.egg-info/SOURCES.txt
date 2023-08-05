@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+PyDonate/__init__.py
+PyDonate/pydonate.py
+PyDonate.egg-info/PKG-INFO
+PyDonate.egg-info/SOURCES.txt
+PyDonate.egg-info/dependency_links.txt
+PyDonate.egg-info/not-zip-safe
+PyDonate.egg-info/top_level.txt
