@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: shuhari-toolkit
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/shuhari/shuhari-toolkit
+Author: shuhari
+Author-email: shuhari@outlook.com
+License: UNKNOWN
+Description: # shuhari-toolkit
+        
+        Commonly used python utilities.
+        
+        Features includes:
+        
+        - shuhari_toolkit.fileutils
+        
+          * get full path from relative to specified file
+          * read/write text from file with ensure parent folder
+          * read/write bytes from file with ensure parent folder
+          * read/write json from file with ensure parent folder
+          * purge folder content
+          
+        * shuari_toolkit.hashing
+        
+          * get sha1 checksum of file
+        
+        * shuhari_toolkit.collections
+        
+          * find first matching element
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
