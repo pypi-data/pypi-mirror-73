@@ -1,0 +1,3 @@
+[console_scripts]
+skelate = skelate.cli:main
+
