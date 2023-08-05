@@ -1,0 +1,3 @@
+include README.md LICENSE
+include finalized_model2.pickle
+include linreg_add2/finalized_model2.pickle
