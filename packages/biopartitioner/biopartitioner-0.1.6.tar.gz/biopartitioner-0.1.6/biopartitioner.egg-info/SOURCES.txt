@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./biopartitioner/__init__.py
+./biopartitioner/base.py
+./biopartitioner/factory.py
+./biopartitioner/partitioner/__init__.py
+./biopartitioner/partitioner/vcf_partitioner.py
+./tests/__init__.py
+./tests/test_vcf_partitioner.py
+biopartitioner.egg-info/PKG-INFO
+biopartitioner.egg-info/SOURCES.txt
+biopartitioner.egg-info/dependency_links.txt
+biopartitioner.egg-info/requires.txt
+biopartitioner.egg-info/top_level.txt
