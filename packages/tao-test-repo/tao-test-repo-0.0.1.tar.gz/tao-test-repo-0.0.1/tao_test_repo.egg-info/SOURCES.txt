@@ -1,0 +1,8 @@
+README.md
+setup.py
+tao-test-repo/__init__.py
+tao_test_repo.egg-info/PKG-INFO
+tao_test_repo.egg-info/SOURCES.txt
+tao_test_repo.egg-info/dependency_links.txt
+tao_test_repo.egg-info/not-zip-safe
+tao_test_repo.egg-info/top_level.txt
