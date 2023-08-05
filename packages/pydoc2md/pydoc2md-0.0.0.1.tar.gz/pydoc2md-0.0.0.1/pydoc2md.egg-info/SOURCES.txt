@@ -1,0 +1,16 @@
+README.md
+setup.py
+pydoc2md/__init__.py
+pydoc2md/cli.py
+pydoc2md/main.py
+pydoc2md.egg-info/PKG-INFO
+pydoc2md.egg-info/SOURCES.txt
+pydoc2md.egg-info/dependency_links.txt
+pydoc2md.egg-info/entry_points.txt
+pydoc2md.egg-info/not-zip-safe
+pydoc2md.egg-info/requires.txt
+pydoc2md.egg-info/top_level.txt
+pydoc2md/utils/__init__.py
+pydoc2md/utils/parse.py
+pydoc2md/utils/path_utils.py
+pydoc2md/utils/write.py
