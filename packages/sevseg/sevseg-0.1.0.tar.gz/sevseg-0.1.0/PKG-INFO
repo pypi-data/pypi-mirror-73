@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sevseg
+Version: 0.1.0
+Summary: A simple Python module that produces ASCII art of seven-segment display numbers.
+Home-page: https://github.com/asweigart/sevseg
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Description: # sevseg
+        A simple Python module that produces ASCII art of seven-segment display numbers.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

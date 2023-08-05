@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/sevseg/__init__.py
+src/sevseg/__main__.py
+src/sevseg.egg-info/PKG-INFO
+src/sevseg.egg-info/SOURCES.txt
+src/sevseg.egg-info/dependency_links.txt
+src/sevseg.egg-info/top_level.txt
