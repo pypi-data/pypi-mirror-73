@@ -1,0 +1,10 @@
+mhealthlab_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mhealthlab_client/android_watch.py,sha256=r_GqQ315459nMiPiZGeZD0izYDUBKXHFFC7K0nmTKZw,3348
+mhealthlab_client/main.py,sha256=Of5DFAGLIjPXPLPl6SlEWt5LpxEM1mNoSaUXE9pMJtE,6687
+mhealthlab_client/mhlab.py,sha256=VuwZBaAzTrB4WiCqvnL8Wc3LvKPdALHClwVxWjQOQoM,5296
+mhealthlab_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mhealthlab_client/tests/test_client.py,sha256=RD3d40Lb2XEb0a89eh83N3eWMQID_2O_4YSo4WiE6w4,561
+mhealthlab_client-0.4.9.dist-info/entry_points.txt,sha256=9OBG7Ap7jQfW4lGHBGCr8cLWX-B5hDBKYWJbmme0LBk,55
+mhealthlab_client-0.4.9.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+mhealthlab_client-0.4.9.dist-info/METADATA,sha256=hsD0vrxSY-TUWPm7dPp3cCWWCgRrJNQXx68kf804HRo,638
+mhealthlab_client-0.4.9.dist-info/RECORD,,
