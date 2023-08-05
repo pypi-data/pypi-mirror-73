@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: funicorn
+Version: 1.0.2
+Summary: Funicorn
+Home-page: UNKNOWN
+Author: congvm
+Author-email: congvm.it@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
