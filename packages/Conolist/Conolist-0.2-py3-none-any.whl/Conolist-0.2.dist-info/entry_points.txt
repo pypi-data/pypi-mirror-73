@@ -1,0 +1,3 @@
+[console_scripts]
+conolist = src:execute_from_command_line
+
