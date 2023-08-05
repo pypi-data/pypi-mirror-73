@@ -1,0 +1,7 @@
+README.md
+setup.py
+evalml/__init__.py
+evalml.egg-info/PKG-INFO
+evalml.egg-info/SOURCES.txt
+evalml.egg-info/dependency_links.txt
+evalml.egg-info/top_level.txt
