@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: python-semrush
+Version: 0.1.3
+Summary: Python-Semrush is a wrapper around the SEMrush API version 3.0
+Author: Tulio Cesar Martins Pereira
+Author-email: funroll.loops@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: ipdb (>=0.13.3,<0.14.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
