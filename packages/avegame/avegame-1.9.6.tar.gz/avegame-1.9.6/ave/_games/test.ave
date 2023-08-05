@@ -1,0 +1,112 @@
+== Test Game ==
+-- This game is very boring and so should only be used to test features. --
+** Matthew Scroggs **
+vv 1 vv
+~~ off ~~
+:: 1.9 ::
+
+# start
+You wake up. What do you want to do?
+Go back to sleep => start
+Pick up the hammer => start + hammer ?! hammer
+Put down the hammer => start ~ hammer ? hammer
+Hit yourself on the head with the hammer => hammer ? hammer
+Test for PHP injection attack => inject
+Test new lines => newline
+Test numbers => nums
+Test random => rand
+Test or => or
+Test escaping => escaping
+Get up => up
+Test missing room => fakeroom
+
+# escaping
+"You have $money$ pounds" is not escaped.
+<|"You have $money$ pounds"|> is  escaped.
+<|Continue => start|>
+Continue => start
+
+# rand
+Testing random.
+Refresh => rand
+0.5 => rand ? __R__<0.5
+0.1 => rand ? __R__<=0.1
+money > random(10) => rand ? money>__R__(10)
+Randomly test numbers or newlines => __R__(newline,nums)
+Randomly test numbers or newlines (more likely) => __R__(newline,nums)[6,1]
+
+% money
+Money
+__NUMBER__
+% two
+Two
+__NUMBER__(2)
+
+# nums
+You have $money$ pounds.
+You have exactly ten pounds => nums ? money==10
+You have exactly ten pounds => nums ? money=10
+money = two => nums ? money=two
+Add a pound => nums + money
+Spend a pound => nums ~ money ? money
+Drop all your money => nums + money=0 ? money
+Spend five pounds => nums + money-5 ? money>=5
+Add a random amount => nums + money+__R__
+Spend two pounds => nums ~ money ~ money ? money >= 2
+Go back => start
+
+# or
+Testing or...
+Pick up A => or + A ?! A
+Put down A => or ~ A ? A
+Pick up B => or + B ?! B
+Put down B => or ~ B ? B
+Pick up C => or + C ?! C
+Put down C => or ~ C ? C
+A or B => or ? (A B)
+A or B or C => or ? (A B C)
+A or (B and C) => or ? (A B) ? (A C)
+A and B => or ? A ? B
+A or not B => or ? (A !B)
+Go back => start
+
+% A
+Item A
+% B
+Item B
+% C
+Item C
+# up
+You bash your head and fall back on the bed.
+Your head really hurts. What do you want to do?
+Go back to sleep => start
+Pick up the hammer => start + hammer ?! hammer
+Put down the hammer => start ~ hammer ? hammer
+Hit yourself on the head with the hammer => hammer ? hammer
+Run => __WINNER__
+
+# inject
+Here: <?php echo('oops!');?>!
+Go back => start
+
+# newline
+There <newline> should <newline> be <newline> newlines!
+There
+should
+              not
+be
+newlines
+
+
+in 
+this     
+         
+sentence.
+Go back => start
+
+# hammer
+Your head smashes. GAME OVER.
+Continue => __GAMEOVER__
+
+% hammer
+A Hammer

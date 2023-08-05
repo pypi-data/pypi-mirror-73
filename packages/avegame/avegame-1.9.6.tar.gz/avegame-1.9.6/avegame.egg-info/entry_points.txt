@@ -1,0 +1,4 @@
+[console_scripts]
+ave = ave.__main__:run
+ave-make-json = ave.__main__:make_json
+
