@@ -1,0 +1,8 @@
+crashalyser/.gitignore,sha256=74oa8YR8gNxKxB6lCtoqmgtB2xpZnWM539Qsl4wI_lg,12
+crashalyser/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+crashalyser/__main__.py,sha256=gdptk8jOfWuM-CHvc5DXah4uyiwLz-8HHVHPFCHoFBc,29
+crashalyser/cli.py,sha256=BvPa6pVrnb344GnKJYivKHfeOj0X7DfQnf6fdO-_PFw,5967
+crashalyser-0.1.0.dist-info/entry_points.txt,sha256=m7UjCw8j-O-_S2ofjJJusrLjHdO959GsSWoVw-Coi0c,51
+crashalyser-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+crashalyser-0.1.0.dist-info/METADATA,sha256=hdvEuqSVPjf5m4-IrzO0NiRaqs1Avf6Z6QdGOrkS2hI,373
+crashalyser-0.1.0.dist-info/RECORD,,
