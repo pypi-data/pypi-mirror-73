@@ -1,0 +1,6 @@
+README.md
+setup.py
+seanpdf2020.egg-info/PKG-INFO
+seanpdf2020.egg-info/SOURCES.txt
+seanpdf2020.egg-info/dependency_links.txt
+seanpdf2020.egg-info/top_level.txt
