@@ -1,0 +1,13 @@
+quickest/__init__.py,sha256=-sRh6URdRP-4X6FNwE91Lwqo_ghpnGoLY6tevUbz89U,113
+quickest/cost.py,sha256=dTs96ksvcL4uycpPEkonq8phj1N9slx_40A98m24svE,5302
+quickest/dynamics.py,sha256=tyIAuE0EIr6HPD4qn5_LXKraPXrekv2ii_XS8G8RM9k,6281
+quickest/filter.py,sha256=1sPgxOPOXjWpTH3CfU-gbYF82A9WmQzDEQsXLE63lLU,3100
+quickest/optim.py,sha256=RIy9RWYi-ib007mKkouWkHUgh1SRFw5JfsTsxZNX5IY,8108
+quickest/policy.py,sha256=FTuQjeiNSodeqhykH-F8W8HdSfdXYIgS3r5yJZI22lA,12656
+quickest/process.py,sha256=2jBphmu5arjzce4g674raZ10Mo8OgCgVE0KhYMmdfN4,4622
+quickest/sensor.py,sha256=sKx8Yur398zfl3zLtmb1OXhsWwEtA9xsCR98p65bwFM,866
+quickest/types.py,sha256=04MlBPWUUatv1cIc_UcmZsyPzNazr2r513Y-PlMJX8A,2145
+quickest/util.py,sha256=QNXcru1jznrcCQXIbteNPfHbMr9qyS-wigovzF_4oBY,1300
+quickest-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+quickest-0.1.1.dist-info/METADATA,sha256=Nb5jh7NKs3LA_UmJdfzziV9ASyZr5pPIvqX1VVnZd90,1676
+quickest-0.1.1.dist-info/RECORD,,
