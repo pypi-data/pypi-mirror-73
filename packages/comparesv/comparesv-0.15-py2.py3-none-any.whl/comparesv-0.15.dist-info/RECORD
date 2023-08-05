@@ -1,0 +1,10 @@
+cli.py,sha256=iA6rseP8aVSahPo0dLAWbgFlk35BlwZEF-3WbMK5aY4,5350
+comparesv.py,sha256=bZSW2UAGlEVnhGerPINlGGlUHfLOUoL70zk670PqjCo,10386
+tests.py,sha256=nBozIbETHYC13pm4mKsh1etkI3YTqlecNLEos1x5N5c,5346
+version.py,sha256=Z13TBVAByqQl032l_cT1xuU5bTsA-xR10ns12ulSzZo,20
+comparesv-0.15.dist-info/LICENSE,sha256=qnKafHXe6R1CQNA-Iftxw8HyLS1_AvsQ6UJWP0RuMgU,1070
+comparesv-0.15.dist-info/METADATA,sha256=icNbrhg704PI_YObIFNsTvliqFk5Ogf4_FwCQUDDJz4,8453
+comparesv-0.15.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+comparesv-0.15.dist-info/entry_points.txt,sha256=RjUaITObkfTi-8Ps1jHugYlimq9rC-Qtazb67U7xQM8,40
+comparesv-0.15.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+comparesv-0.15.dist-info/RECORD,,
