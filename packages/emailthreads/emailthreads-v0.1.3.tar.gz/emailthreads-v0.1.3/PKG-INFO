@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: emailthreads
+Version: v0.1.3
+Summary: Parses email threads into conversation trees
+Home-page: https://github.com/emersion/python-emailthreads
+Author: Simon Ser
+Author-email: contact@emersion.fr
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
