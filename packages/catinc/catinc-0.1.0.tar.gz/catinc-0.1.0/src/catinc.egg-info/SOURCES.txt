@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/catinc.egg-info/PKG-INFO
+src/catinc.egg-info/SOURCES.txt
+src/catinc.egg-info/dependency_links.txt
+src/catinc.egg-info/not-zip-safe
+src/catinc.egg-info/top_level.txt
