@@ -1,0 +1,6 @@
+from snowday.privileges.common import ALL, MODIFY, MONITOR, OWNERSHIP, USAGE
+
+OPERATE = "operate"
+
+
+WAREHOUSE_PRIVILEGES = [ALL, MODIFY, MONITOR, OPERATE, OWNERSHIP, USAGE]
