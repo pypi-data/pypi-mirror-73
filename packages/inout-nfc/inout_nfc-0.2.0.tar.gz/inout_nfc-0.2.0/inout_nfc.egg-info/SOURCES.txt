@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+inout_nfc/__init__.py
+inout_nfc/cli.py
+inout_nfc/inout_nfc.py
+inout_nfc.egg-info/PKG-INFO
+inout_nfc.egg-info/SOURCES.txt
+inout_nfc.egg-info/dependency_links.txt
+inout_nfc.egg-info/entry_points.txt
+inout_nfc.egg-info/not-zip-safe
+inout_nfc.egg-info/requires.txt
+inout_nfc.egg-info/top_level.txt
