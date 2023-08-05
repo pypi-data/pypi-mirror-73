@@ -1,0 +1,13 @@
+[console_scripts]
+scaffold = scaffold.cli:scaffold_cli
+
+[dbbs_scaffold.adapters]
+nest = scaffold.simulators.nest
+neuron = scaffold.simulators.neuron
+
+[dbbs_scaffold.config.parsers]
+json = scaffold.config.parsers.json
+
+[dbbs_scaffold.engines]
+hdf5 = scaffold.storage.engines.hdf5
+
