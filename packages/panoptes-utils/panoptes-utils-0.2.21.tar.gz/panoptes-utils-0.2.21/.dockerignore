@@ -1,0 +1,25 @@
+.idea
+.venv
+venv
+
+# Need to pass git to allow version :(
+!.git
+.github
+
+*.md
+!README*.md
+
+logs/
+**/.ipynb_checkpoints
+**/.pytest_cache
+**/.eggs
+**/*.pdf
+**/*.log
+**/*.egg-info
+**/*.pyc
+**/__pycache__
+notebooks
+examples
+docs
+build
+coverage.xml
