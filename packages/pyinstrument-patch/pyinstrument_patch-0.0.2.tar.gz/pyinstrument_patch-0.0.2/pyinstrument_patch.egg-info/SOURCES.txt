@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pyinstrument_patch/__init__.py
+pyinstrument_patch/profiler.py
+pyinstrument_patch/session.py
+pyinstrument_patch.egg-info/PKG-INFO
+pyinstrument_patch.egg-info/SOURCES.txt
+pyinstrument_patch.egg-info/dependency_links.txt
+pyinstrument_patch.egg-info/requires.txt
+pyinstrument_patch.egg-info/top_level.txt
