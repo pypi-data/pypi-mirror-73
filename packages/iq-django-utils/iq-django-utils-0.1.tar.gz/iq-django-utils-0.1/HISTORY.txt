@@ -1,0 +1,6 @@
+Changelog
+=========
+
+0.1 (2018-12-18)
+----------------
+    - created first public release
