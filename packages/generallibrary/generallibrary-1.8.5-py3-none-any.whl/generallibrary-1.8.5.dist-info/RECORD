@@ -1,0 +1,17 @@
+generallibrary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generallibrary/functions.py,sha256=c_McRWdudrbQwZvsJGd9Ca81e_uNY64c-tkhmn7RoUc,3852
+generallibrary/iterables.py,sha256=WcQT7BsUPNV5fSoIXDLF_ZJxX0IigJkRbpxx6Jdj3sE,7270
+generallibrary/time.py,sha256=Jg8ADjl82DFJYuFYVZaNUzZYk03j3kv_7fEHlHKMWA4,924
+generallibrary/types.py,sha256=3nbFgBkPlVtWtYl1snOW4Wmk9I_PIj6xkG0j4qKZ2ZA,5882
+generallibrary/values.py,sha256=yPohhtkUKPaTBT3QIkBfEzHsBEUqZSh_llBSt0tOdaw,3781
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_functions.py,sha256=SipbOOVH8ncrJNyWImH5AGCe_rRQC6e32KrrxpDs7oo,3480
+test/test_iterables.py,sha256=cg2Cj1P6LTL1_-JlYwOTbp8XCOOTcTtE10d2-_Uf25s,6843
+test/test_time.py,sha256=1ICmH0QsEL1LFVifdNkXB9qT2nN0SsqZwjN4IW_NrZw,328
+test/test_types.py,sha256=RyE3Ej9X4s3ax9Cn1jx8_6kxTI82XttjRfWEifMdWEw,6654
+test/test_values.py,sha256=VTfQ38CDQHlVcpKeBHM48bRbYG7yVCKPifG7MAixCZ0,2969
+generallibrary-1.8.5.dist-info/LICENSE,sha256=UC8s1sao5BR40Jj2e61gOcp_q3TLMSYTiO5YZnSbd4k,1101
+generallibrary-1.8.5.dist-info/METADATA,sha256=R8OYH9rqtvR86p6hRbjtuT5UapiAj7yhEJk9ROmdptM,891
+generallibrary-1.8.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+generallibrary-1.8.5.dist-info/top_level.txt,sha256=3aZSPqWxjX8GTpr635bKzZD6pg7qxIh820XDhNWM7xA,20
+generallibrary-1.8.5.dist-info/RECORD,,
