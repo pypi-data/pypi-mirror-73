@@ -1,0 +1,3 @@
+[console_scripts]
+ciphey=ciphey.__main__:main
+
