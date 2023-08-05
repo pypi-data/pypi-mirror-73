@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: meldtools
+Version: 0.2.0
+Summary: Tools used to work with MELD texts
+License: MIT
+Author: Michał Adamczyk
+Author-email: michal.adamczyk.1990@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: pandas (>=1.0.5,<2.0.0)
+Requires-Dist: pandasql (>=0.7.3,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Meldtools - investigating Middle English documents in Python
+
+Meldtools is a package that allows you to conveniently search Middle English Local Documents corpus.
+It lets you query the corpus, slice it to easily-definable chunks and work with transcriptions, all
+in one place.
+
+
+# Setting up development environment
+
+* Clone this repository and `cd` into it.
+
+## Python version manager
+
+* Use a Python version manager of your choice.
+* The recommended one to use is [pyenv](https://github.com/pyenv/pyenv).
+* Install Python ^3.8 with your version manager.
+
+## Python package manager
+
+* [Poetry](https://python-poetry.org/) is the package manager used in this project.
+* Follow the installation guide on the website to install Poetry.
+* Run `poetry install` so that Poetry can create a virtual envionment and install the packages into it.
+* Poetry uses `pyproject.toml`, the new configuration file for Python laid out in [PEP 517](https://www.python.org/dev/peps/pep-0517/) and [PEP 518](https://www.python.org/dev/peps/pep-0518/).
+
+## Testing
+
+To quickly run unit tests run the command like this
+```{sh}
+make test
+```
+
+Or if you want a full coverage report
+```{sh}
+make ctest
+```
+
+Check for type hints by running
+```{sh}
+make mypy
+```
+
+# Running the command-line program
+
+In order to run the program key in the following:
+```{sh}
+poetry run meldtools jsonify -d dir/with/rec/files -r path/to/register/csv -
+```
+
+The program works the Unix way, and it accepts a file or - as a special file that refers to stdout.
+```{sh}
+poetry run meldtools jsonify -d dir/with/rec/files -r path/to/register/csv -
+
+# OR
+
+poetry run meldtools jsonify -d dir/with/rec/files -r path/to/register/csv out.json
+```
+
+You can direct stdout to a file by appending `> meld.json` to the previous command.
+You can also pipe stdout directly to `jq`, for example, `poetry run vl-lingo jsonify -d dir/with/rec/files -r /path/to/register/csv - | jq`.
+
