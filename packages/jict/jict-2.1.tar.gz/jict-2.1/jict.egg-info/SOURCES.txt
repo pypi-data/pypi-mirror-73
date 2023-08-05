@@ -1,0 +1,9 @@
+README.md
+setup.py
+jict/__init__.py
+jict/implementation.py
+jict.egg-info/PKG-INFO
+jict.egg-info/SOURCES.txt
+jict.egg-info/dependency_links.txt
+jict.egg-info/requires.txt
+jict.egg-info/top_level.txt
