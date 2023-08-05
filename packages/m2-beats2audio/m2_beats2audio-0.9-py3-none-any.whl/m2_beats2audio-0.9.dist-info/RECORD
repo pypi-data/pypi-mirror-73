@@ -1,0 +1,13 @@
+m2_beats2audio-0.9-py3.7-nspkg.pth,sha256=0iJs7yHav0HQUoDzIJdf54tKiDajKaBd9wMuI3zBe0g,519
+m2/beats2audio/__init__.py,sha256=BtwE-pS2XHCjvTJ4_bK8Wyj40r6EzlVi8VczomP5qx4,8355
+m2/beats2audio/cli.py,sha256=rPTt_S-YDWaklp26fmNiIWzmeE-BrLhwwVTDVNXUx0w,3801
+m2/beats2audio/click.wav,sha256=2KkonYFP1v6t9qZfcyJs63nXDNkQJFPWU6hME3RLExE,58614
+m2/beats2audio/defaults.py,sha256=r--DQPhhrkjmPWGqvx8JaVCwfL7YkqIiY1iZLuynL4c,80
+m2/beats2audio/separator.mp3,sha256=DQMk5g6iFx0hDMW4zF6CTijvg56db7uwQiQsUZ7YJ_I,9732
+m2_beats2audio-0.9.dist-info/LICENSE,sha256=-aV022Edk29cTWSuO7MOZ8fAjVNswvEIS6WlXBvtPWk,1062
+m2_beats2audio-0.9.dist-info/METADATA,sha256=UJ5S9V4qK_JVwi2XzP6aaVMG0dMR1Pe0tZ6JxXqyCGo,1547
+m2_beats2audio-0.9.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+m2_beats2audio-0.9.dist-info/entry_points.txt,sha256=zYlF3reUt2KMHgZoXpJVlKGVX6e-lWCiUCOFBxc93Hw,57
+m2_beats2audio-0.9.dist-info/namespace_packages.txt,sha256=gI0GuHnkjpRIrcy6Hk296ORhSYjdsmPtUrCqeGxCouo,3
+m2_beats2audio-0.9.dist-info/top_level.txt,sha256=gI0GuHnkjpRIrcy6Hk296ORhSYjdsmPtUrCqeGxCouo,3
+m2_beats2audio-0.9.dist-info/RECORD,,
