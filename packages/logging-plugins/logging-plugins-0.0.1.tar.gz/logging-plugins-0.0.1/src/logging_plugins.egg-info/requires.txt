@@ -1,0 +1,7 @@
+ratelimit
+
+[dev]
+check-manifest
+
+[test]
+coverage
