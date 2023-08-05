@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: wardoff
+Version: 0.0.1.dev20
+Summary: Find deprecations in your requirements and underlying libraries
+Home-page: https://github.com/4383/wardoff/
+Author: Hervé Beraud
+Author-email: herveberaud.pro@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires: pbr
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Wardoff
+
+[![Build Status](https://travis-ci.org/4383/wardoff.svg?branch=master)](https://travis-ci.org/4383/wardoff)
+![PyPI](https://img.shields.io/pypi/v/wardoff.svg)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wardoff.svg)
+![PyPI - Status](https://img.shields.io/pypi/status/wardoff.svg)
+[![Downloads](https://img.shields.io/pypi/dm/wardoff.svg)](https://pypi.python.org/pypi/wardoff/)
+
+Looking for deprecated stuffs in project requirements and underlying libraries
+
+Pronounced `ward off`
+
+## Install
+
+Still in development and really unstable, however you can install unstable
+development versions by using:
+
+```shell
+$ python3 -m pip install --user wardoff
+```
+
+## Requirements
+
+- python3.8+
+- git
+
+## Usages
+
+### From a named package
+
+Found deprecated things from a named package (directly from pypi):
+
+```sh
+$ wardoff niet # will list all deprecations founds in niet is requirements
+$ wardoff oslo.messaging # will list all deprecations founds in oslo.messaging is requirements
+```
+
+### From the current directory
+
+Retrieve deprecated things from the current working directory.
+Retrieve requirements from:
+- `requirements.txt`
+- `test-requirements.txt`
+- `*-requirements.txt`
+
+Example:
+
+```sh
+$ wardoff # will list all deprecations founds in requirements founds in current directory
+```
+
+### From a distant repository
+
+Retrieve deprecated things from a distgit repo.
+
+Example:
+
+```sh
+$ wardoff https://opendev.org/openstack/nova/ # from opendev.org
+$ wardoff https://github.com/openstack/nova # from github.com
+$ wardoff git@github.com:openstack/nova # by using git format
+```
+
+### From a local repository
+
+Retrieve deprecated things from a distgit repo.
+
+Example:
+
+```sh
+$ wardoff ~/dev/nova # from a local clone of openstack/nova
+```
+
+
+

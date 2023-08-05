@@ -1,0 +1,3 @@
+[console_scripts]
+wardoff = wardoff.__main__:main
+
