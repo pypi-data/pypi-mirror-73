@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: yaxi
+Version: 0.2.2
+Summary: Yet Another Xml Interface; terse queries, flexible validation, no deps.
+Home-page: https://github.com/stefco/yaxi
+License: UNKNOWN
+Author: Stefan Countryman
+Author-email: stefan.countryman@gmail.com
+Classifier: License :: OSI Approved :: MIT License
