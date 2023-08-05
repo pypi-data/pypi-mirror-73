@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: SimpleEDA
+Version: 0.0.1
+Summary: A wrapper around Pandas to perform Simple EDA with less code.
+Home-page: https://github.com/shahid017/SimpleEDA
+Author: Muhammad Shahid Sharif
+Author-email: chshahidhamdam@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+
+# Simple EDA
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
