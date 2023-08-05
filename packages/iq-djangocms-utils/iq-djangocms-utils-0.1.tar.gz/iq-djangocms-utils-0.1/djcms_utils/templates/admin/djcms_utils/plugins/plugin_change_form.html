@@ -1,0 +1,7 @@
+{% extends "admin/cms/page/plugin/change_form.html" %}
+{% load cms_admin cms_static %}
+
+{% block content %}
+  <p>{{ plugin_help|safe }}</p>
+  {{ block.super }}
+{% endblock %}
