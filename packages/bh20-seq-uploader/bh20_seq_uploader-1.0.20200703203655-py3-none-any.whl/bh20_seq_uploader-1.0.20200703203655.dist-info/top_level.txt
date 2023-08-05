@@ -1,0 +1,3 @@
+bh20seqanalyzer
+bh20sequploader
+bh20simplewebuploader
