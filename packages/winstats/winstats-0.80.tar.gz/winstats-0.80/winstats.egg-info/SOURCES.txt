@@ -1,0 +1,6 @@
+setup.py
+winstats.py
+winstats.egg-info/PKG-INFO
+winstats.egg-info/SOURCES.txt
+winstats.egg-info/dependency_links.txt
+winstats.egg-info/top_level.txt
