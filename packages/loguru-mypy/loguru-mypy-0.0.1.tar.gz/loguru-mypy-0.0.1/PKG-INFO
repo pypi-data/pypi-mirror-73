@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: loguru-mypy
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/kornicameister/loguru-mypy
+Author: Tomasz Trębski
+Author-email: kornicameister@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
