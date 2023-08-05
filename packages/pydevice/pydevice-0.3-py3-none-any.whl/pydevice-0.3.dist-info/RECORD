@@ -1,0 +1,16 @@
+pydevice/__init__.py,sha256=_mUxDXlPxeADDLE16BzbQtmLVc1fGrR-gX9NtjsBlII,38
+pydevice/auth.py,sha256=6vg8dGADQ76686Zf5hsCwpSXT8e-3jzUWi3Bm0ILSxY,820
+pydevice/connector.py,sha256=UHhYmH_kwwkf3VC8QUjR3VX6qG6nqYTc1WA_mS2YFrU,1767
+pydevice/database.py,sha256=li07MIyd7n3GRSCcF5obqOOCp7fD88qiAjF-3Z3I6oM,890
+pydevice/destination.py,sha256=3GzoSmgWyPGbe-p_VoUEJZxBT2U6EWGq9KnQ2mQaYrw,3550
+pydevice/device.py,sha256=3i07glx8FzjZukzmuQswUElFYNrGWu-5AKnu4TX0gFI,1809
+pydevice/device_magic.py,sha256=mcn7AZcsRuSDsvVDgYx5FKMVM4XkehGiEdZOdXENuXA,1588
+pydevice/dispatch.py,sha256=U7WN0cHtXYnxvUJj2qgDEeIB0bbR0CTzKoch5i4xwA0,2175
+pydevice/form.py,sha256=6GFspgmg-zvm-3NuPiB1BcfGwEl1cvqJt_QcChxLCpI,1832
+pydevice/group.py,sha256=IOpYGk1HO-4sMKUnmn_Vxat3vuFBX76Nv4gAQNymjyg,1630
+pydevice/resource.py,sha256=ctwe3q3OPyCux2O3b21p_RJTDZkF6uYw5yTDT1v4b9k,3505
+pydevice-0.3.dist-info/LICENSE,sha256=yy7nMQ1mcEn7I3bexA2INgn-LUnBzQSnQtv1-Oj05LQ,1071
+pydevice-0.3.dist-info/METADATA,sha256=eMiv754c_tcG4n87uiMnv_oSL_Rf_TS35SA5WR2PJng,6409
+pydevice-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydevice-0.3.dist-info/top_level.txt,sha256=QHEfezyZ0GHwgyjJdYMg8W3hU2a6T4rndizes2q-y7s,9
+pydevice-0.3.dist-info/RECORD,,
