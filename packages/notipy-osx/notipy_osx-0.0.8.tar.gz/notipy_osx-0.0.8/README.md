@@ -1,0 +1,105 @@
+<h1 align="center"><a href="https://notipy.now.sh/" target="_blank">Notipy</a></h1>
+<p align="center">Python packge to display native customizable Mac OS dialogs and notifications with ease</p>
+
+<p align="center">
+
+  <a href="https://pypi.org/project/notipy-osx/">
+    <img src="https://img.shields.io/pypi/v/notipy-osx?color=blue&style=flat-square" alt="Version" />
+  </a>
+
+  <a href="https://pypi.org/project/notipy-osx/">
+    <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/notipy-osx?color=red&style=flat-square">
+  </a>
+
+  <!-- <a href="http://makeapullrequest.com/">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="Make a PR" />
+  </a> -->
+  <img src="https://img.shields.io/github/license/ninest/notipy_osx?style=flat-square" alt="MIT" />
+
+  <a href="https://www.buymeacoffee.com/ninest">
+    <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square" alt="Buy Me A Coffee">
+  </a>
+</p>
+
+<p align="center"><img alt="Example" src="https://raw.githubusercontent.com/ninest/notipy_osx/master/images/demo.png" /></p>
+
+<p align="center"><img alt="Example" src="https://raw.githubusercontent.com/ninest/notipy_osx/master/images/n_text.png" /></p>
+<p align="center"><img alt="Example" src="https://raw.githubusercontent.com/ninest/notipy_osx/master/images/n_content_image.png" /></p>
+<p align="center"><img alt="Example" src="https://raw.githubusercontent.com/ninest/notipy_osx/master/images/n_identity_image.png" /></p>
+<p align="center"><img alt="Example" src="https://raw.githubusercontent.com/ninest/notipy_osx/master/images/n_fallback.png" /></p>
+
+Check out the code for these examples in [`examples/dialogs/readme_examples.py`](https://github.com/ninest/notipy_osx/blob/master/examples/dialogs/readme_examples.py).
+
+
+## 🚀 Features
+- [x] Display native dialogs
+  - [x] Add buttons
+  - [x] Text input (including hidden/password fields)
+  - [x] Callbacks (get button pressed and text enterd)
+  - [x] Customize icons
+- [x] Display native notifications
+  - [x] Customize title, subtitle, and information text
+  - [x] Cusomize icon
+  - [x] Schedule a notification (using `delay`)
+  - [x] Fallback to AppleScript notifications if PyObjC doesn't work
+  - [ ] Callbacks (button pressed, reply text, ...) (please see [this answer](https://stackoverflow.com/a/62248246/8677167))
+- [x] Display choice prompts
+- [x] Display color select prompts
+
+## 🛠 Quick start
+### Install
+
+```bash
+pip3 install notipy-osx
+pip3 install pyobjc
+```
+
+### Display a dialog
+
+```python
+from notipy_osx import dialog_prompt
+
+dialog_prompt(text='This is a basic dialog')
+```
+
+### Show a notification
+
+```python
+from notipy_osx import notify
+
+notify(title='New Notifiation')
+# if pyobjc notifications do not work, notifications will still be shown with osascript
+```
+
+If notifications do not work, ensure that you allow notifications from **both** **Python** and **Script Editor** (AppleScript):
+
+<p align="center"><img alt="Example" src="https://raw.githubusercontent.com/ninest/notipy_osx/master/images/settings.png" /></p>
+
+## More
+- Choice prompt (choose from a list of items)
+- Display a color picker
+
+
+### Next steps
+- View the [guide](/guide) for a full understanding of all the parameters for the `display_dialog` and `notify` functions
+- See the [examples](/examples)
+- View (and star) the [GitHub repository](https://github.com/ninest/notipy_osx)
+
+## [📕 View the rest of the documentation here](https://notipy.now.sh/)
+
+
+## 😱 Issues and limitations
+<!-- are there any limitations worth mentioning in the readme? -->
+- No callbacks for notifications (please see [this answer](https://stackoverflow.com/a/62248246/8677167))
+- PyObjC notifications do not work on all Mac OS devices ([possible issue](https://stackoverflow.com/questions/16021330/nsusernotificationcenter-defaultusernotificationcenter-returns-none-in-python)), although a fallback has been set
+- Only for Mac OS
+
+## ♥️ Support
+If you liked this project, consider supporting by
+- ⭐️ Starring the repository
+- 🎒 Checking out my other [projects](https://github.com/ninest)
+- ☕️ Buying me [coffee](https://www.buymeacoffee.com/ninest)
+
+## 📜 License
+- MIT
+- The icon `Terminal.icns` in `examples/icons` is a copy of Terminal.app's icon, which is copyrighted by Apple.
