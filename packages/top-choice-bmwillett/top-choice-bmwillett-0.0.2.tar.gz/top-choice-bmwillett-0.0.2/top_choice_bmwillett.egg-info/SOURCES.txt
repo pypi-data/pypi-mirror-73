@@ -1,0 +1,6 @@
+README.md
+setup.py
+top_choice_bmwillett.egg-info/PKG-INFO
+top_choice_bmwillett.egg-info/SOURCES.txt
+top_choice_bmwillett.egg-info/dependency_links.txt
+top_choice_bmwillett.egg-info/top_level.txt
