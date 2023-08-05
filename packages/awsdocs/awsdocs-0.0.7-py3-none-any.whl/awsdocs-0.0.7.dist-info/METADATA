@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: awsdocs
+Version: 0.0.7
+Summary: Opens AWS Developer guide for a given AWS service
+Home-page: https://github.com/HarleyB123/awsdoc
+Author: Harley Bates
+Author-email: HarleyBatesOfficial@yahoo.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+

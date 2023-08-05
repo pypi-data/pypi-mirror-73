@@ -1,0 +1,3 @@
+[console_scripts]
+awsdocs = src.awsdocs:main
+
