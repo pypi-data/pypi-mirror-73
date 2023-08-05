@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+lulzcode/__init__.py
+lulzcode/coder.py
+lulzcode.egg-info/PKG-INFO
+lulzcode.egg-info/SOURCES.txt
+lulzcode.egg-info/dependency_links.txt
+lulzcode.egg-info/not-zip-safe
+lulzcode.egg-info/top_level.txt
