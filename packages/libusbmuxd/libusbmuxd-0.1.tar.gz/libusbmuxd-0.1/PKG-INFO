@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: libusbmuxd
+Version: 0.1
+Summary: Python bindings for libusbmuxd
+Home-page: https://github.com/libimobiledevice/python-libusbmuxd
+Author: Rick Mark
+Author-email: rickmark@guardianapp.com
