@@ -1,0 +1,8 @@
+README.md
+cyclicprng.py
+setup.py
+cyclicprng.egg-info/PKG-INFO
+cyclicprng.egg-info/SOURCES.txt
+cyclicprng.egg-info/dependency_links.txt
+cyclicprng.egg-info/requires.txt
+cyclicprng.egg-info/top_level.txt
