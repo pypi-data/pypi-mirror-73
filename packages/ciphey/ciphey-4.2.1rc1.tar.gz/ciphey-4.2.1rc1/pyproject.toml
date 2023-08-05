@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "ciphey"
+version = "4.2.1rc01"
+description = "Automated Decryption Tool"
+authors = ["Brandon <brandon@skerritt.blog>"]
+license = "MIT"
+documentation = "https://docs.ciphey.online"
+exclude = ["tests/hansard.txt"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tensorflow = "^2.1.0"
+rich = "^1.2.3"
+loguru = "^0.5.0"
+pylint = "^2.5.2"
+flake8 = "^3.8.2"
+cipheydists = "^0.2.2"
+cipheycore = "^0.1.5"
+tflite = "^2.2.0"
+base58 = "^2.0.1"
+pybase62 = "^0.4.3"
+click = "^7.1.2"
+click-option-group = "^0.5.1"
+click-completion = "^0.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^2.9.0"
+pytest = "^5.4.3"
+black = "^19.10b0"
+neovim = "^0.3.1"
+codecov = "^2.1.4"
+safety = "^1.9.0"
+sphinx = "^3.0.4"
+sphinx-autodoc-typehints = "^1.10.3"
+nltk = "^3.5"
+
+[tool.poetry.scripts]
+ciphey = 'ciphey.__main__:main'
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+
