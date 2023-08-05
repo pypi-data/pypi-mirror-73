@@ -1,0 +1,8 @@
+htools
+nltk
+numpy
+pandas
+textblob
+torch
+transformers
+vaderSentiment
