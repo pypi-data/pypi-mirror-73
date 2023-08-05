@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+lxml
+
+[test]
+pytest
+flake8
+black
+isort
