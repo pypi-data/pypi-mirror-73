@@ -1,0 +1,9 @@
+requests>=1.0
+spacy==2.2.4
+pandas
+pygtrie
+seaborn
+numpy
+ipywidgets
+en_core_web_sm
+nltk
