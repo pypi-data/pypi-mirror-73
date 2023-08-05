@@ -1,0 +1,13 @@
+dicomweb_client/__init__.py,sha256=Cq19hzJPylHOq-vKE-Sstx0ziX-sO7qakdi9gqMSfYs,72
+dicomweb_client/api.py,sha256=Jtp6RX-MInv9QljXPERfC-lpTCO5xlwVRYbQYo1en5k,91239
+dicomweb_client/cli.py,sha256=OBeLrC3QnJ9kPd5wMDnGcgG3Td_QqNU7Cvjgn1KajMg,23065
+dicomweb_client/error.py,sha256=t8OB_-n7faA7DsvzdEPIHQ6Kc_lUm1VAAiWKlyiqO2Y,143
+dicomweb_client/log.py,sha256=WehdfwqA4eMNG067IUBBnBRcUbvP6-gzVgqmqxFYuPQ,2142
+dicomweb_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dicomweb_client/session_utils.py,sha256=5RsE2y0l7fa0oFV0EqdGjTkDXL4O3-QpdOgVl108V_s,4069
+dicomweb_client-0.41.0.dist-info/LICENSE,sha256=qnZKFSr71wgOXRn3C6JdLaxV-yTMZAzEDJwPovmGnlA,1067
+dicomweb_client-0.41.0.dist-info/METADATA,sha256=x4jErX2XsunWFMKoR4berdXu22FbRbUBY37Z-iMO4nI,1283
+dicomweb_client-0.41.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dicomweb_client-0.41.0.dist-info/entry_points.txt,sha256=k1noJBPoMTDhnC6cAIhj63l1TEOAKrkazhJ1ctVuBKU,63
+dicomweb_client-0.41.0.dist-info/top_level.txt,sha256=Nl6pNLnnp9TjC9_M5HMm0xaJlRve02rfhYgfN7CU-AE,16
+dicomweb_client-0.41.0.dist-info/RECORD,,
