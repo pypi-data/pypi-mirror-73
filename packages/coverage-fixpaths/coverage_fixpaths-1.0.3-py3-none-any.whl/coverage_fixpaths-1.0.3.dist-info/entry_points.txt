@@ -1,0 +1,3 @@
+[console_scripts]
+coverage-fixpaths = coveragefixpaths.__main__:main
+
