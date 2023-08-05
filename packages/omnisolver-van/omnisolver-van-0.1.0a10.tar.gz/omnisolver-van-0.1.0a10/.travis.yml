@@ -1,0 +1,21 @@
+language: python
+python:
+- '3.6'
+- '3.7'
+- '3.8'
+install:
+- pip install pep517
+- pip install .
+- pip install codecov
+script:
+- pytest
+after_success:
+- codecov
+deploy:
+  provider: pypi
+  username: __token__
+  password:
+    secure: yhgdiNve2ea5IObkqLcapBxT0D2M8/1gQlegDELvzf9PUvpik4OC7/yggouoargV90RClPSCDwUInU/xmB26Zklb+kVYA2dZEwD0NJkIjCLLNfu6sUF2wGS2OExPVV4RYVH70cBw/9IPk8RVHEui744RJPKECXlZQEkhVcvTwf1fNiuy8rBnvm+NhsaQZTT4vLYJpwp+nxRrbds7CLImgwHGAtNHt00gCMR4Hg3FI2olphi1u7dvzaYHeMI7vnqrEREOqlEp7/BL1pNOCbEtCtXoLJbpuWes49zhIRuQihBKJUvTe+8mMNZMixo1Bj3DK85cQEfoYCZPeAy37iu86Z1pzifIQlDP4QMjAmiqe48aWO4I3z3vXaAE/axGFbRNHn7fdBGqlPtrNI+eFtDHbTh/6bFYbdryzI4xsV9BSAS8FIRB0I6FgTR9V4A3DhSsyc6xu8oEGbq3yreOvAAvUdecVrs4PU5hBNjWlMQMn/us9cDfczPMRrMcAWg6zZjTcHi9OcPJ4YMtwoqtUyQzXQZS4Nch/rAehInrb3ccsDJGp9AUQLlzyb2bDepbaHfGlcdqF92ESSh7KRP3UV6DsqaNqcsCgUuGF5sb47I63ZqOpVcWEETGmcqiz0Xw8D9F4XmBXvK34f2JdvK8roTUUIqKr72nIPGpNdSi/foUE58=
+  on:
+    tags: true
+  skip_existing: true
