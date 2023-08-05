@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: libplist
+Version: 0.1
+Summary: Python bindings to libplist
+Home-page: https://github.com/libimobiledevice/python-libplist
+Author: Rick Mark
+Author-email: rickmark@guardianapp.com
