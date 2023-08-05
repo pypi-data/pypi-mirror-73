@@ -1,0 +1,9 @@
+README.md
+setup.py
+maxpdf/__init__.py
+maxpdf/pdf2image.py
+maxpdf/pdf2text.py
+maxpdf.egg-info/PKG-INFO
+maxpdf.egg-info/SOURCES.txt
+maxpdf.egg-info/dependency_links.txt
+maxpdf.egg-info/top_level.txt
