@@ -1,0 +1,3 @@
+[console_scripts]
+bifrost_dashboard_dev = bifrost_dashboard.reporter:main
+

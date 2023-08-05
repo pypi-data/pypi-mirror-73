@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bifrost-dashboard
+Version: 0.0.2
+Summary: Dashboard for displaying bifrost information
+Home-page: https://github.com/ssi-dk/bifrost
+Author: Martin Basterrechea
+Author-email: mbas@ssi.dk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: dash
+Requires-Dist: bifrostapi
+Requires-Dist: Flask-Caching
+Requires-Dist: dash-auth
+Requires-Dist: requests
+Requires-Dist: dash-bootstrap-components
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+
