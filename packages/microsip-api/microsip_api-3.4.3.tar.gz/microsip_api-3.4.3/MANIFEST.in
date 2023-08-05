@@ -1,0 +1,16 @@
+include README.rst
+include requirements.txt
+recursive-include microsip_api templates *
+recursive-include microsip_api static *
+recursive-include microsip_api media *
+recursive-include microsip_api *.pyc
+global-exclude forms.py
+global-exclude views.py
+global-exclude models.py
+global-exclude urls.py
+global-exclude config.py
+global-exclude procedures.py
+global-exclude sql_queries.py
+global-exclude autocomplete_light_registry.py
+recursive-include microsip_api __init__.py
+prune microsip_api/conf
