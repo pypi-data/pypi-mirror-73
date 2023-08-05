@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kangaroo-build
+Version: 1.0.10
+Summary: keep track of your build number, that's it.
+Home-page: UNKNOWN
+Author: Marco Marchesi
+Author-email: marchesimarco@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyYAML
+
+a build tracker
+
+
