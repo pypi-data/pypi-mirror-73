@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: wsgi-request-logger-bepro
+Version: 0.4.7
+Summary: Apache-like combined logging for WSGI Web Applications
+Home-page: https://github.com/bepro-company/wsgi-request-logger
+Author: Bepro Company
+Author-email: dev@bepro11.com
+License: BSD
+Description: UNKNOWN
+Keywords: WSGI Apache-like request logging
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
