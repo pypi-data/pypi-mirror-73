@@ -1,0 +1,7 @@
+lockable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lockable/plugin.py,sha256=ZIg5JmX7LyO7x-WRvOtZ8pGqppikzai-EESAi9QHOQM,5924
+pytest_lockable-0.2.3.dist-info/LICENSE,sha256=6iOxZOFDpWmVYQ2Odm9_tVqZElcMLp7W4SBhEsRjjU4,1077
+pytest_lockable-0.2.3.dist-info/METADATA,sha256=6sl9DGKz9gZZaDEZXQVKZMdEvZQvf85qW4I7PUVvqeA,3630
+pytest_lockable-0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_lockable-0.2.3.dist-info/top_level.txt,sha256=O-zOTnvnE_prc8GHZTptZIwLgC_OVf6WdPorb2XKf3I,9
+pytest_lockable-0.2.3.dist-info/RECORD,,
