@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: abacusSoftware
+Version: 1.4.0
+Summary: Abacus Software is a suite of tools build to ensure your experience with Tausand's coincidence counters becomes simplified.
+Home-page: https://github.com/Tausand-dev/AbacusSoftware
+Author: Juan Barbosa
+Author-email: js.barbosa10@uniandes.edu.co
+Maintainer: David Guzman
+Maintainer-email: da.guzman@outlook.com
+License: GPL
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Requires-Dist: pyAbacus (>=1.1)
+Requires-Dist: pyserial
+Requires-Dist: numpy
+Requires-Dist: pyqtgraph
+Requires-Dist: PyQt5
+Requires-Dist: qdarkstyle
+
+UNKNOWN
+
+
