@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: dectext
+Version: 0.01
+Summary: It print a decorated text on console.
+Home-page: https://github.com/SaurabhGujjar/dectext.git
+Author: Saurabh Gujjar
+Author-email: saurabhpanwar127@gmail.com
+License: MIT
+Download-URL: https://github.com/SaurabhGujjar/dectext/archive/v_0.01.tar.gz
+Description: UNKNOWN
+Keywords: TEXT,DECORATION,CONSOLE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
