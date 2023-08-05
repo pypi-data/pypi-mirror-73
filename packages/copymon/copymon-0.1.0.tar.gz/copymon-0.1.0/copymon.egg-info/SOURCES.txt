@@ -1,0 +1,13 @@
+README.md
+setup.py
+copymon/__init__.py
+copymon/__main__.py
+copymon/copymon.py
+copymon/main.py
+copymon/version.py
+copymon.egg-info/PKG-INFO
+copymon.egg-info/SOURCES.txt
+copymon.egg-info/dependency_links.txt
+copymon.egg-info/entry_points.txt
+copymon.egg-info/requires.txt
+copymon.egg-info/top_level.txt
