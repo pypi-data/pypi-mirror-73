@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: supermemo2
+Version: 0.0.1
+Summary: Implements the SuperMemo-2/SM-2 algorithm for spaced repetition learning.
+Home-page: https://github.com/alankan2004/SuperMemo2
+Author: Alan Kan
+Author-email: alankan2004@gmail.com
+License: MIT
+Description: 
+        
+        Change Log
+        ==========
+        
+        ## 0.0.1 2020-07-01 Feature release
+        - Initial Release
+        
+Keywords: spaced-repetition SuperMemo-2 SM-2 SuperMemo
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
