@@ -1,0 +1,10 @@
+native_shortuuid/__init__.py,sha256=8YexvJ1z6SzMyha5HwozNIAIXco4k5oMP4U7evpehWE,349
+native_shortuuid/admin.py,sha256=uDfJWDfoNy2X0FDPbAAk8qaUzfpJhRnYnTj8JzRq3J8,1031
+native_shortuuid/apps.py,sha256=CbM3U9FWolEBb4zN4huXmRbBJK079_Z7yqmKmtrRN1Y,106
+native_shortuuid/fields.py,sha256=aMLk9mYCkol9bI16Al1P7FaRTXMAoTtUA7dJ7MFHIRc,1442
+native_shortuuid/validation.py,sha256=TCaD81ir-88bZNz2BQCjtCVWnlIj-yc9Gg0I-vtHyaw,305
+django_nativeshortuuidfield-1.2.3.dist-info/LICENSE,sha256=wD1zSKVjmJL4YxEtJchIlgauouTqOk9YbvFYNYigZZ0,1071
+django_nativeshortuuidfield-1.2.3.dist-info/METADATA,sha256=FAhJZne0penuSmHTbnb6ZVHWnAcpJwjul9_JdITGAA0,1844
+django_nativeshortuuidfield-1.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_nativeshortuuidfield-1.2.3.dist-info/top_level.txt,sha256=6SEe_LVNAw2kTEbgV8fe8Lq4VXsXZJeevoOK3fNto8w,17
+django_nativeshortuuidfield-1.2.3.dist-info/RECORD,,
