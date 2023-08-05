@@ -1,0 +1,5 @@
+psutil<6,>=5.7
+setuptools
+
+[dev]
+pylint
