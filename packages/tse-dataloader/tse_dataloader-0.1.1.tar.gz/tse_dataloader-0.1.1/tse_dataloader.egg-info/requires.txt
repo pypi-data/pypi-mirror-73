@@ -1,0 +1,5 @@
+matplotlib
+pandas
+bs4
+requests
+jdatetime
