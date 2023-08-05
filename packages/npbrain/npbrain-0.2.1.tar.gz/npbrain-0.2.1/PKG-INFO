@@ -1,0 +1,192 @@
+Metadata-Version: 1.2
+Name: npbrain
+Version: 0.2.1
+Summary: NumpyBrain: A lightweight micro-core SNN simulation framework.
+Home-page: https://github.com/oujago/NumpyBrain
+Author: Chaoming Wang
+Author-email: oujago@hotmail.com
+License: UNKNOWN
+Description: 
+        .. image:: https://github.com/oujago/NumpyBrain/blob/master/images/logo.png
+            :target: https://github.com/oujago/NumpyBrain
+            :align: center
+            :alt: logo
+        
+        .. image:: https://readthedocs.org/projects/numpybrain/badge/?version=latest
+            :target: https://numpybrain.readthedocs.io/en/latest/?badge=latest
+            :alt: Documentation Status
+        
+        .. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+            :target: https://github.com/oujago/NumpyBrain/blob/master/LICENSE
+        
+        .. image:: https://anaconda.org/oujago/npbrain/badges/version.svg
+            :target: https://anaconda.org/oujago/npbrain
+        
+        .. image:: https://badge.fury.io/py/npbrain.svg
+            :target: https://badge.fury.io/py/npbrain
+        
+        
+        Why to use NumpyBrain
+        =====================
+        
+        ``NumpyBrain`` is a microkernel framework for SNN (spiking neural network) simulation
+        purely based on **native** python. It only relies on `NumPy <https://numpy.org/>`_.
+        However, if you want to get faster CPU performance, or run codes on GPU, you can additionally
+        install `Numba <http://numba.pydata.org/>`_. With ``Numba``, the speed of C or FORTRAN can
+        be gained in the simulation.
+        
+        A variety of Python SNN simulators are available in the internet, such as
+        `Brain2 <https://github.com/brian-team/brian2>`_,
+        `ANNarchy <https://github.com/ANNarchy/ANNarchy>`_,
+        `NEST <http://www.nest-initiative.org/>`_, etc.
+        However, several reasons motivate us
+        to write a NumPy-based simulator.
+        
+        - First of all, using these simulators, a lot of garbage files are left after code compiling
+          and running. In ``Brain2``, such annoying rubbish can even accumulate to several GB.
+        - Second, the inner run-time mechanism is difficult to understand. The essence of these
+          framework is that let you use python scripts to control the writing of c++/CUDA codes. Thus,
+          if the users are not familiar with c++/CUDA codes and don't understand the inner mechanism
+          of the framework, the data and logic flow control will be very complex and incomprehensible.
+        - Because of this, under these frameworks, on one hand, the codings of some models are weird,
+          for example the ``Gap Junction model`` in ``Brian2`` (which dramatically different from other
+          kinds of synapses); on the other hand, some models are wrongly coded and are hard to correct,
+          such as the ``Gap Junction model`` for ``LIF`` (leaky integrate-and-fire) neurons
+          in ``Brian2`` (see `some code.py <https://????>`_), ``Hodgkin–Huxley neuron model`` in
+          ``ANNarchy`` (see `some code.py <https://????>`_).
+        
+        Therefore, ``NumpyBrain`` want to provide a highly flexible SNN simulation framework for
+        Python users. It endows the users with the fully data/logic flow control. Its design
+        overcomes the defects of other simulators, and are guided by the following principles:
+        
+        - **Plug and play**. No garbage file will be generated and left after any code-running.
+          Just, use or not use.
+        - **Modularity**. A network can be broken down into various ``neurons`` and ``synapses``.
+          To inspect the inner dynamical structure of these elements, we need the ``Monitor`` to
+          record the running trajectory for each object. In ``NumpyBrain``, there are only these
+          three kinds of objects. Such objects can be plugged together almost arbitrarily (only
+          with few restrictions) to form a new network.
+        - **Easy extensibility**. For each kind of object, new models (neurons or synapses) are
+          simple to add, and existing models provide ample examples.
+        - **User friendliness**. The data flow in each object is transparent, and can be easily
+          controlled by users. Users can define or modify the data or logical flow by themselves
+          according to need.
+        
+        
+        Getting started: 30 seconds to NumpyBrain
+        =========================================
+        
+        First of all, before import the package, you can set the numerical backend you prefer:
+        
+        .. code-block:: python
+        
+            from npbrain import profile
+            profile.set_backend('numba')
+        
+        Then, import the package all. Later you will find this makes you easily use
+        all the pre-defined models:
+        
+        .. code-block:: python
+        
+            import npbrain.all as nn
+        
+        Next, all we need to do is to define neurons and synapses needed by our network.
+        Let's define two ``LIF`` neuron groups and one ``Synapse`` to connect them both.
+        
+        .. code-block:: python
+        
+            lif1 = nn.LIF(500, noise=1.1)
+            lif2 = nn.LIF(1000, noise=1.1)
+            syn = nn.NormalSynapses(lif1, lif2, 0.2, {'method': 'fixed_prob', 'prob': 0.1})
+        
+        In order to inspect the dynamics of two ``LIF`` neuron groups, we use ``StateMonitor``
+        to record the membrane potential and use ``SpikeMonitor`` to receive the spiking events.
+        
+        .. code-block:: python
+        
+            mon_lif1_v = nn.StateMonitor(lif1)
+            mon_lif1_sp = nn.SpikeMonitor(lif1)
+            mon_lif2_v = nn.StateMonitor(lif2)
+            mon_lif2_sp = nn.SpikeMonitor(lif2)
+        
+        All above definitions help us to construct a **network**. Providing the name of the
+        simulation object (for example, ``mon1=mon_lif1_v``) can make us easy to access it
+        by using ``net.mon1``.
+        
+        .. code-block:: python
+        
+            net = nn.Network(lif1, lif2, syn, mon1=mon_lif1_v, mon2=mon_lif1_sp,
+                             mon3=mon_lif2_v, mon4=mon_lif2_sp)
+        
+        We can simulate the whole network just use ``.run(duration)`` function. Here,
+        we set the inputs of ``lif1`` object to ``15.``, and open the ``report`` mode.
+        
+        .. code-block:: python
+        
+            net.run(duration=100, inputs=15., receiver=lif1, report=True)
+        
+        Finally, visualize the running results:
+        
+        .. code-block:: python
+        
+            import matplotlib.pyplot as plt
+        
+            fig, gs = nn.vis.get_figure(n_row=2, n_col=1, len_row=3, len_col=8)
+            nn.vis.plot_potential(net.run_time, net.mon1, ax=fig.add_subplot(gs[0, 0]))
+            nn.vis.plot_raster(net.mon2, ax=fig.add_subplot(gs[1, 0]))
+            plt.show()
+        
+        
+        It shows
+        
+        .. image:: https://github.com/oujago/NumpyBrain/blob/master/images/example.png
+            :width: 500px
+        
+        Documentation
+        =============
+        
+        Available online documents:
+        `latest docs <https://numpybrain.readthedocs.io/en/latest/>`_.
+        
+        Available offline PDF:
+        `latest PDF <https://numpybrain.readthedocs.io/_/downloads/en/latest/pdf/>`_.
+        
+        
+        .. Examples
+        .. ========
+        .. ``Numpy`` provides several `examples <https://??>`_:
+        
+        
+        Installation
+        ============
+        
+        Install ``NumpyBrain`` using ``pip``::
+        
+            $> pip install npbrain
+            $> # or
+            $> pip install git+https://github.com/oujago/NumpyBrain
+        
+        Install ``NumpyBrain`` using ``conda``::
+        
+            $> conda install -c oujago npbrain
+        
+        Install from source code::
+        
+            $> python setup.py install
+        
+        
+        Dependency
+        ==========
+        
+        The following packages need to be installed to use ``NumpyBrain``:
+        
+        - Python3
+        - NumPy
+        
+        Recommended:
+        
+        - Numba
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
