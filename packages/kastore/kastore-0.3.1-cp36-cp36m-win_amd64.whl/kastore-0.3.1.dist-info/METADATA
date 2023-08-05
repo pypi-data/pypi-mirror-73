@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kastore
+Version: 0.3.1
+Summary: A write-once-read-many store for simple numerical data
+Home-page: https://github.com/tskit-dev/kastore
+Author: tskit developers
+Author-email: jerome.kelleher@well.ox.ac.uk
+License: MIT
+Project-URL: Bug Reports, https://github.com/tskit-dev/kastore/issues
+Project-URL: Source, https://github.com/tskit-dev/kastore
+Requires-Dist: numpy (>=1.7)
+Requires-Dist: humanize
+
+kastore
+
+
