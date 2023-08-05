@@ -1,0 +1,10 @@
+ds_ctcdecoder/__init__.py,sha256=B8UZhW34DqQd68kZmVqXOTkb4i2tvVnn2awfk4YjaE8,5947
+ds_ctcdecoder/_swigwrapper.cpython-37m-x86_64-linux-gnu.so,sha256=cuXzxK5YLL9DGjcAAXSA5CwS6zZuAWc39eA5ZRn6JPg,7159816
+ds_ctcdecoder/swigwrapper.py,sha256=ITqYsMfjmBKmy_XlfF_-QATrJLIAvQEEs1IUzGaXmjk,24178
+ds_ctcdecoder-0.8.0a6.dist-info/COPYING,sha256=isrDXFkSVDyKtDpTuGa7KqZJr2ZTQyEd9NwOn9v0RlU,402
+ds_ctcdecoder-0.8.0a6.dist-info/LICENSE.paddlepaddle,sha256=4gg7gGIkh71vzcj8eB3Df3_2My1qgq8dpmBkpU4NwaU,11380
+ds_ctcdecoder-0.8.0a6.dist-info/LICENSE.parlance,sha256=C3BUrZ9M16KR9EBQ0haxRrXji9Y6HgmJwInKemkPxLw,1112
+ds_ctcdecoder-0.8.0a6.dist-info/METADATA,sha256=eb1q0wvGELpN34MmSu2Gm-LQwA6WIvXYaBojjEIxyxo,218
+ds_ctcdecoder-0.8.0a6.dist-info/WHEEL,sha256=Zdy2RSSpbakbl_kJnIqvmkFkjB4ZzjKUt7leDojVFpY,109
+ds_ctcdecoder-0.8.0a6.dist-info/top_level.txt,sha256=pMN8n0pT5rtjb6n5ifcWwTUpqmGp9chcNfSe1FCFgic,14
+ds_ctcdecoder-0.8.0a6.dist-info/RECORD,,
