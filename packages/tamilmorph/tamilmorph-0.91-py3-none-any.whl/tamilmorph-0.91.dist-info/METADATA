@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tamilmorph
+Version: 0.91
+Summary: A FST based Morphological analyser and generator for Tamil
+Home-page: https://github.com/sarves/thamizhi-morph
+Author: Kengatharaiyer Sarveswaran
+Author-email: sarvesk@uom.lk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Tamil
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Thamizhi morph (Tamil morph) is a rule based morphological analyser and generator for Tamil nouns and verbs
+
+
