@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: yaqd_fakes
+Version: 2020.7.0
+Summary: fake yaq daemons, for testing purposes
+Home-page: https://gitlab.com/yaq/yaqd-fakes
+Author: yaq Developers
+Author-email: blaise@untzag.com
