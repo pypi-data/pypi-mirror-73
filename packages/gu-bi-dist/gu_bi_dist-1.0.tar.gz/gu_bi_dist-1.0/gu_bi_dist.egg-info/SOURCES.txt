@@ -1,0 +1,11 @@
+README.md
+setup.py
+gu_bi_dist/Binomialdistribution.py
+gu_bi_dist/Gaussiandistribution.py
+gu_bi_dist/Generaldistribution.py
+gu_bi_dist/__init__.py
+gu_bi_dist.egg-info/PKG-INFO
+gu_bi_dist.egg-info/SOURCES.txt
+gu_bi_dist.egg-info/dependency_links.txt
+gu_bi_dist.egg-info/not-zip-safe
+gu_bi_dist.egg-info/top_level.txt

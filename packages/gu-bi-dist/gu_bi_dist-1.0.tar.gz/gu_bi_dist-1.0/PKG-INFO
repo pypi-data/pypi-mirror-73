@@ -1,0 +1,37 @@
+Metadata-Version: 1.0
+Name: gu_bi_dist
+Version: 1.0
+Summary: Gaussian and Binomial distribution
+Home-page: UNKNOWN
+Author: Vasanth Kumar
+Author-email: vasanth.3656@yahoo.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: gu-bi-dist is a Python module for machine learning,and distributed under the MIT open license. The prime functionality of module is to measure Gaussian and Binomial distribution's mean, standard deviation, and PDF(Probability Density Function).
+        The module also supports data and PDF visualization, source code is available at the bottom of the page.
+        
+        ![Distribution flow chart](https://www.prioritysystem.com/images/distributionflowchart.png)
+        
+        Gaussian distribution:
+        In probability theory, a normal (or Gaussian or Gauss or Laplace–Gauss) distribution is a type of continuous probability distribution for a real-valued random variable. For more details visit: https://en.wikipedia.org/wiki/Normal_distribution
+        
+        Binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question, and each with its own boolean-valued outcome: success/yes/true/one (with probability p) or failure/no/false/zero (with probability q = 1 − p). For more details visit: https://en.wikipedia.org/wiki/Binomial_distribution
+        
+        
+        User installation
+        Installation using pip, you need python >= 3.7 version.
+        
+        !pip install -U gu-bi-dist
+        
+        Source code
+        You can check the latest sources with the command:
+        
+        !gitclone https://github.com/vaasanthk/Gaussian-and-Binomial-distribution.git
+        
+        Testing
+        After installation, you can launch the test suite from outside the source directory (you will need to have pytest >= 3.3.0 installed):
+        
+        !pytest test
+        
+        Version: 1.0
+Platform: UNKNOWN
