@@ -1,0 +1,9 @@
+README.md
+setup.py
+dyndict/__init__.py
+dyndict/dyndict.py
+dyndict/test.py
+dyndict.egg-info/PKG-INFO
+dyndict.egg-info/SOURCES.txt
+dyndict.egg-info/dependency_links.txt
+dyndict.egg-info/top_level.txt
