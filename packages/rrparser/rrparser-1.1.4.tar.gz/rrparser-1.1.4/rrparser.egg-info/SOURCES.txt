@@ -1,0 +1,15 @@
+README.md
+setup.py
+rrparser/Parser.py
+rrparser/__init__.py
+rrparser/__main__.py
+rrparser/version.py
+rrparser.egg-info/PKG-INFO
+rrparser.egg-info/SOURCES.txt
+rrparser.egg-info/dependency_links.txt
+rrparser.egg-info/requires.txt
+rrparser.egg-info/top_level.txt
+rrparser/doc/LICENSE
+rrparser/doc/README.md
+rrparser/doc/RELEASE
+rrparser/doc/requirements.txt
