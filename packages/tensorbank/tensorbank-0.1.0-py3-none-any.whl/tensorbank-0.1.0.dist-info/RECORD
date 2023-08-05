@@ -1,0 +1,7 @@
+tensorbank/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorbank/tf/__init__.py,sha256=tq0ADULNDcRn7dve287TjWNUnN70KBIBFrH4qdFaAiE,34
+tensorbank/tf/axis_aligned_boxes.py,sha256=NG9iyU3o893jIsPmEUZt0fsfAYi21KqRis7Atwxedxo,11411
+tensorbank-0.1.0.dist-info/LICENSE,sha256=xSV1R5__jLh16HYVi-V61o3Vh69PiHhWxoXDX8f8jZc,1067
+tensorbank-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+tensorbank-0.1.0.dist-info/METADATA,sha256=JXhvSAWLMC9H8XQ-mgcqJxvJ5h-7LqyUz3n1qzE5dmM,1949
+tensorbank-0.1.0.dist-info/RECORD,,
