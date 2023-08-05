@@ -1,0 +1,8 @@
+setup.py
+maf/__init__.py
+maf/gene.py
+maf/maf_file.py
+maf.egg-info/PKG-INFO
+maf.egg-info/SOURCES.txt
+maf.egg-info/dependency_links.txt
+maf.egg-info/top_level.txt
