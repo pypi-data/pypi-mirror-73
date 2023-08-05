@@ -1,0 +1,10 @@
+setup.py
+wayne-test/Binomialdistribution.py
+wayne-test/Gaussiandistribution.py
+wayne-test/Generaldistribution.py
+wayne-test/__init__.py
+wayne_test.egg-info/PKG-INFO
+wayne_test.egg-info/SOURCES.txt
+wayne_test.egg-info/dependency_links.txt
+wayne_test.egg-info/not-zip-safe
+wayne_test.egg-info/top_level.txt
