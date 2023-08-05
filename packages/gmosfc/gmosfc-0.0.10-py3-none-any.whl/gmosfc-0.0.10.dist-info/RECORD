@@ -1,0 +1,9 @@
+gmosfc/__init__.py,sha256=j81ub2cUDkVSuW4rkG1eoo_gTay_uv9Ue05fepwPMMk,223
+gmosfc/fc_gaia.py,sha256=RogVTyMi20YeW_LTgGrgPeZuWFOuVLajHY628lgXS6s,30920
+gmosfc/fc_skyquery.py,sha256=GclXHUvXjD6JaCjKqQo6_rrNOzhjJle9bDe2Oz3WBec,27049
+gmosfc/fcutils.py,sha256=WX9yEnvY-nSMJjX8l4gQU8Xmw0sGL8lkmGqePvn9jUM,5864
+gmosfc-0.0.10.dist-info/LICENSE,sha256=qnCYZfn1cgDjkGg5Mybr35xyeIllU1A3JsttgDQrdsw,1068
+gmosfc-0.0.10.dist-info/METADATA,sha256=4ssnKPFsdCKkBbYOMUtRcJ2SMsIbysKEzjCVskf87Jw,730
+gmosfc-0.0.10.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+gmosfc-0.0.10.dist-info/top_level.txt,sha256=ikFAWK-4UDo9uvJz1VpEK6MwG5d1vT1Yh0SrEnLhkjE,7
+gmosfc-0.0.10.dist-info/RECORD,,
