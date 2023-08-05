@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: django-lgi
+Version: 0.1.1
+Summary: Django Lambda Gateway Interface
+Home-page: https://github.com/jwygoda/django-lgi
+Author: Jarosław Wygoda
+Author-email: jaroslaw@wygoda.me
