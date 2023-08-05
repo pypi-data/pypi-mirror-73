@@ -1,0 +1,11 @@
+README.md
+setup.py
+excel_magic2/Exceptions.py
+excel_magic2/__init__.py
+excel_magic2/dataset.py
+excel_magic2/diff.py
+excelmagic2.egg-info/PKG-INFO
+excelmagic2.egg-info/SOURCES.txt
+excelmagic2.egg-info/dependency_links.txt
+excelmagic2.egg-info/requires.txt
+excelmagic2.egg-info/top_level.txt
