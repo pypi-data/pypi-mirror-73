@@ -1,0 +1,16 @@
+README.md
+setup.py
+prop/__init__.py
+prop/algorithms/__init__.py
+prop/algorithms/a2c.py
+prop/algorithms/dqn.py
+prop/buffers/__init__.py
+prop/buffers/panic_buffer.py
+prop/buffers/priority_replay_buffer.py
+prop/buffers/replay_buffer.py
+prop/net/__init__.py
+prop/net/feed_forward.py
+rlprop.egg-info/PKG-INFO
+rlprop.egg-info/SOURCES.txt
+rlprop.egg-info/dependency_links.txt
+rlprop.egg-info/top_level.txt
