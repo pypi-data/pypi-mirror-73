@@ -1,0 +1,3 @@
+Jinja2
+dewi_core>=2.0.1
+threadpool
