@@ -1,0 +1,12 @@
+tolkein/__init__.py,sha256=NuYi_UkqxOr2tdpT3Qfk6VcdCMaw9eUp3huwTEPSGmU,111
+tolkein/tolkein.py,sha256=p_yxWEkn9kOnPY6Bh5Xkj7E4UF6GqWT56HbBKFetWX0,357
+tolkein/lib/__init__.py,sha256=BZJWtDk1iREmsYPq4ofSizrFGcHX_TphDW9sRQxOZu8,40
+tolkein/lib/file_io.py,sha256=t0dm-B3zsvSiRV2kwttbgE331ERdAMeQ2XfTtOEXLEM,3856
+tolkein/lib/misc.py,sha256=JGCiY9jevT54TreqkOXwQVCBmJ2AVMqsjKGLCvRBmzk,1568
+tolkein-0.0.4.dist-info/AUTHORS.rst,sha256=0oiHWqtzyHvsHligk0o0T-ORyksrbAtkTcE7d-a4AE4,68
+tolkein-0.0.4.dist-info/LICENSE,sha256=FSKx0mFn4s-fmSgnN6CFol-WOXvshVoaNBeMRZNFfT0,1082
+tolkein-0.0.4.dist-info/METADATA,sha256=mszzF1pCLv3OkcDusS8XYynC1Q6AYTEQw8b-Kc31aX0,2341
+tolkein-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tolkein-0.0.4.dist-info/entry_points.txt,sha256=QXdjHsQCdgC6etkHZ0uaolqgG2vs8bfgXEVLkpfJikM,42
+tolkein-0.0.4.dist-info/top_level.txt,sha256=mejRjuDIxOQkVzpGy4_bgyLx4BloALHjMqa1Trt63Mk,8
+tolkein-0.0.4.dist-info/RECORD,,
