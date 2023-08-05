@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "demoben"
+version = "0.1.5"
+description = "This is a test"
+authors = ["Ben-Cheng <bcheng@linz.govt.nz>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
