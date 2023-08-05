@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dicom_csv
+Version: 0.0.3
+Summary: Utils for gathering, aggregation and handling metadata from DICOM files.
+Home-page: https://github.com/neuro-ml/dicom-csv
+License: MIT
+Download-URL: https://github.com/neuro-ml/dicom-csv/v0.0.3.tar.gz
+Description: Utils for gathering, aggregation and handling metadata from DICOM files.
+        
+        # Installation
+        
+        From pip
+        ```
+        pip install dicom-csv
+        ```
+        
+        or from GitHub
+        
+        ```bash
+        git clone https://github.com/neuro-ml/dicom-csv
+        cd dicom-csv
+        pip install -e .
+        ```
+        
+        # Documentation
+        
+        You can find the documentation [here](https://dicom-csv.readthedocs.io/en/latest/index.html).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
