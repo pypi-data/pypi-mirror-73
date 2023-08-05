@@ -1,0 +1,8 @@
+README.md
+setup.py
+generator_chiara/__init__.py
+generator_chiara/animals.py
+generator_chiara.egg-info/PKG-INFO
+generator_chiara.egg-info/SOURCES.txt
+generator_chiara.egg-info/dependency_links.txt
+generator_chiara.egg-info/top_level.txt
