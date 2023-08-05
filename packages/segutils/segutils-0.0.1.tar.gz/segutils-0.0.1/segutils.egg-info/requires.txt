@@ -1,0 +1,4 @@
+mahotas
+matplotlib
+numpy
+scikit-learn
