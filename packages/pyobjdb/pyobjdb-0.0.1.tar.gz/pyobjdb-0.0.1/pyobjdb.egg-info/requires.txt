@@ -1,0 +1,8 @@
+msgpack
+plyvel
+
+[test]
+flake8
+freezegun
+pytest
+pytest-cov

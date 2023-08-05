@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyobjdb/__init__.py
+pyobjdb.egg-info/PKG-INFO
+pyobjdb.egg-info/SOURCES.txt
+pyobjdb.egg-info/dependency_links.txt
+pyobjdb.egg-info/requires.txt
+pyobjdb.egg-info/top_level.txt

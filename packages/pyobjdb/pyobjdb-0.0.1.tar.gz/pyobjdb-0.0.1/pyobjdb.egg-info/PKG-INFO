@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyobjdb
+Version: 0.0.1
+Summary: Simple Python key-value object database
+Home-page: https://github.com/jnrbsn/pyobjdb
+Author: Jonathan Robson
+Author-email: jnrbsn@gmail.com
+License: MIT
+Description: Simple Python key-value object database
+Platform: UNKNOWN
+Provides-Extra: test
