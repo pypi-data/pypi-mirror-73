@@ -1,0 +1,12 @@
+svinst-0.1.6.dist-info/RECORD,,
+svinst-0.1.6.dist-info/entry_points.txt,sha256=DEeZZdTNHRo2C3vOvRUHdNrC_OryKeMPJfCyLjHlnuQ,47
+svinst-0.1.6.dist-info/WHEEL,sha256=x_vzcI4ZEGB3mgPWPKzGiYMKKJ7Ixf6JpcM2LwQveJI,109
+svinst-0.1.6.dist-info/METADATA,sha256=r2M8Ua1ameqi-McFprWJ3gZMt-iSaNGLvrcoYI5AvMk,4580
+svinst-0.1.6.dist-info/top_level.txt,sha256=N8xJ0r-O_FKpdDW_EwpkNuR7e7yWvIKgh4c7bt5mI2o,7
+svinst-0.1.6.dist-info/LICENSE,sha256=fQ_hU3ssumUp1GCFE11go72HYNtwTssYDyLHd39uEbg,1070
+svinst/__init__.py,sha256=a-UZ-h8Zr2VKsX586YqpwdjOAW24O1FPhDVYhUoTct4,45
+svinst/.crates.toml,sha256=MQ1CPxo5zbxQXE9lpV1V-r3ba4tTbT3YaeeBS2A5Yyo,89
+svinst/.crates2.json,sha256=dy4DP1-14lTFZT082OSg5nmPLRUUy7uPgEYTS4HjIhQ,454
+svinst/svinst.py,sha256=EEIwplAVhznVu8VTK5d4DPq9weXdT_Mzww7lHa25yhg,228
+svinst/defchk.py,sha256=Gcm32B3Eu-5m0X3LwjAzKqQTwLAknOyh5uHYr6ahm8U,6741
+svinst/bin/svinst,sha256=ybr-KrTT6wCkEZMV0c1aXH-vi0uge__ldzGtGtT1XI8,35993571
