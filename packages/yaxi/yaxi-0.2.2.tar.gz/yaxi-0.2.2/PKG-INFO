@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: yaxi
+Version: 0.2.2
+Summary: Yet Another Xml Interface; terse queries, flexible validation, no deps.
+Home-page: https://github.com/stefco/yaxi
+Author: Stefan Countryman
+Author-email: stefan.countryman@gmail.com
