@@ -1,0 +1,12 @@
+jsonfaker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonfaker/faker.py,sha256=Nl0CVp5Kg1IbpC5lbQz6ZWjRWorW263mOtCiN3D0wyw,4430
+jsonfaker/helper.py,sha256=MCLO8ZUI-GQJEyxbcFFa-81xQgSLexfaae6eVXtNbqo,2545
+jsonfaker/utils.py,sha256=lRFBP4O0JxafBbL1sBsdAfgyQqXJngYtq-qY_e51FFo,1225
+modelmock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelmock/faker.py,sha256=_wjgKPrbxAVq2lICTLS0Uax9_G1kKYIAzbldQvBRLTU,4988
+modelmock/utils.py,sha256=75uuIEeRlz8wBcDPPOWHbw_pi8Ru10TXHa-xvObXC6M,1390
+modelmock-0.1.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+modelmock-0.1.0.dist-info/METADATA,sha256=zVsOLSa1DueASi8baKnec8wxvv0E-40iaxNKkYIfEd8,402
+modelmock-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+modelmock-0.1.0.dist-info/top_level.txt,sha256=ngKTx1aOG8o68l3VT7al3PwIjneNNT4hIMfhDW17Nsw,10
+modelmock-0.1.0.dist-info/RECORD,,
