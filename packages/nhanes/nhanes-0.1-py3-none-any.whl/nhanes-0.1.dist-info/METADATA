@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nhanes
+Version: 0.1
+Summary: nhanes: A Pythonic interface to the NHANES dataset
+Home-page: https://github.com/poldrack/nhanes
+Maintainer: Russ Poldrack
+Maintainer-email: poldrack@stanford.edu
+License: MIT
+Download-URL: https://github.com/poldrack/nhanes
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+
+This package allows access to the NHANES data from the US Centers for Disease Control  These data, available at https://www.cdc.gov/nchs/nhanes/index.htm, are in the public domain.
+
+
