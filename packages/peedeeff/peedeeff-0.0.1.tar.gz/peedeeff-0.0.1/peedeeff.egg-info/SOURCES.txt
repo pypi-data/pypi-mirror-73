@@ -1,0 +1,7 @@
+README.md
+setup.py
+peedeeff/__init__.py
+peedeeff.egg-info/PKG-INFO
+peedeeff.egg-info/SOURCES.txt
+peedeeff.egg-info/dependency_links.txt
+peedeeff.egg-info/top_level.txt
