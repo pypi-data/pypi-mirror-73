@@ -1,0 +1,11 @@
+rhymepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rhymepy/apis.py,sha256=_e8LJnToysbTDNPNJQLgJCJ0uoZN5xeZAZwUDesu8eI,4389
+rhymepy/default_rhymepy.ini,sha256=2nDkNNP5NEZAngRZxynqifU1-EU4RY6YKeD4dHaI-eg,808
+rhymepy/main.py,sha256=ia0hnGzhGZ_8ychH9tfs8kbzuZf8paZofdfoA6MRCNY,8912
+rhymepy/parse.py,sha256=M7EJzbtxnPnt5ZNWfMvPsKcz1xw6V48dLTxx5BCa1Ug,4567
+rhymepy-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rhymepy-0.1.0.dist-info/METADATA,sha256=Nkb9_SMjH9B4Ymjqf3ipAKQUi3w8JC6Qw1YwL_RPDlg,1780
+rhymepy-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rhymepy-0.1.0.dist-info/entry_points.txt,sha256=M8EJKMFz8n1w8IQPqsxMHRGbwlEmAvKcCHhnnUFWeYg,47
+rhymepy-0.1.0.dist-info/top_level.txt,sha256=TJVFMjJmFOhbNEmEmmnxyVBLCYXftY6T5PJNL92avfY,8
+rhymepy-0.1.0.dist-info/RECORD,,

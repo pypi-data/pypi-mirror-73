@@ -1,0 +1,3 @@
+[console_scripts]
+rhymepy = rhymepy.main:main
+
