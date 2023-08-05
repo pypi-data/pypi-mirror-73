@@ -1,0 +1,75 @@
+#!/usr/bin/env python
+
+import os
+import argparse
+import itertools
+from libcst import *
+
+
+class DomainDefinitionInserter(CSTTransformer):
+    def __init__(self, parent, child):
+        self.parent = parent
+        self.child = child
+
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('resource', help='The name of the resource to create.')
+    parser.add_argument('-c', '--no_common', help='Do not add common fields to this resource', action='store_true', default=False)
+
+    args = parser.parse_args()
+    resource = args.resource  # TODO: validate, safe name, etc.
+    add_common = not args.no_common 
+
+    if os.path.exists('eve_service.py') and os.path.exists('domain'):
+        print(f'Creating link rel from {child} (child) to {parent} (parent)')
+        print('Until this is automated, please do the following manually:')
+        print()
+        print('''- Add to domain.__init__
+    '~parents~_~children~': {
+        'schema': ~children~.SCHEMA,
+        'url': '~parenst~/<regex("[a-f0-9]{24}"):_~parent~_ref>/~children~',
+        'resource_title': '~children~',
+        'datasource': {'source': '~children~'}
+    },
+
+- Add to domain.~child~
+    '_~parent~_ref': {
+        'type': 'objectid',
+        'data_relation': {
+            'resource': '~parents~',
+            'embeddable': True
+        }
+    }
+    
+- Add to hooks.~parent~._add_links_to_~parent~(~parent~)
+    rink['_links']['~children~'] = {
+        'href': '/~parents~/{0}/~children~'.format(~parent~_id),
+        'title': '~children~'
+    }
+
+- Add to hooks.~child~._add_links_to_~child~(~child~)
+    if ~child~.get('_~parent~_ref'):
+        ~child~['_links']['parent'] = {
+            'href': '/~parents~/{0}'.format(~child~['_~parent~_ref']),
+            'title': '~parents~'
+        }
+        ~child~['_links']['collection'] = {
+            'href': '/~parents~/{0}/~children~'.format(~child~['_~parent~_ref']),
+            'title': '~parent~_~children~'
+        }
+    else:
+        ~child~['_links']['parent'] = {
+            'href': '/',
+            'title': 'home'
+        }
+        ~child~['_links']['collection'] = {
+            'href': '/~children~',
+            'title': '~children~'
+        }
+'''
+
+
+if __name__ == '__main__':
+    main()
