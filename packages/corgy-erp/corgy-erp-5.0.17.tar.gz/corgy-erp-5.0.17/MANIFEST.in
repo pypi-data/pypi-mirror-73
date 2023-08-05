@@ -1,0 +1,11 @@
+include README.md
+include LICENSE
+include requirements.txt
+include manage.py
+include packages.json
+recursive-include */locale *
+recursive-include */fixtures *
+recursive-include */templates *
+recursive-include */static *
+recursive-include */templates *
+recursive-include docs *
