@@ -1,0 +1,12 @@
+src/attendance_manager.py,sha256=Y6pVnvn3IwW2NIsYiRSNvgH6JIpgJ2E6cfHDsHix71I,1919
+src/browser.py,sha256=Lgl1my6yqr3afFCli3QRwiFxBMq9AV1LZ3Dt1NMWSMM,3481
+src/dakoker.py,sha256=RL1pUMvi5k7lhxolJf9mtISFkkI48G0ddZd3zUiAces,1857
+src/stamp_manager.py,sha256=qKYw8O9Rsjwya5OacvgaGyLMTVkETcdJCIIrGbzAc44,1869
+src/user_info_manager.py,sha256=GIsgPpjk3A73SXu5lzlCpfkvzrpbFwKxn0EvHMLoQ9I,2024
+src/utils/calc.py,sha256=k2G_TzZH4glGgduznR-EUyrtNIlkQjGDkQ_GVSyXZ30,153
+src/utils/color.py,sha256=pUYcbaX4IObI314qeg2BBP55mdUeY9GEdYBzgNyFEUc,428
+dakoker-0.1.18.dist-info/entry_points.txt,sha256=ojT6wDw8e_Hr3oITmej9Ztrv5gvvOyoOWt5KPmupZAA,44
+dakoker-0.1.18.dist-info/LICENSE,sha256=2JI6c6AgWVAen5uTxVLyhoQv6pZt9N7yxIe27V0W2sU,1067
+dakoker-0.1.18.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+dakoker-0.1.18.dist-info/METADATA,sha256=9PBhXnRQnqNayQAGp_HSRtJvQ5MwPQ_pSYD7GXxDTw8,2181
+dakoker-0.1.18.dist-info/RECORD,,
