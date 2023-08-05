@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: update-conan-local
+Version: 0.0.1.post5
+Summary: Update Conan Local Cache
+Home-page: https://github.com/weiwan-gmail/update-conan-local
+Author: Wei Wan
+Author-email: emwanwei@gmail.com
+License: MIT
+Download-URL: https://github.com/user/weiwan-gmail/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: pypi,conan,cache
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
