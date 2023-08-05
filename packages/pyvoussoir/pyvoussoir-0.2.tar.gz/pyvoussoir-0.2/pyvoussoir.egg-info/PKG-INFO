@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyvoussoir
+Version: 0.2
+Summary: Automatic de-keystoning/page-splitting tool for single camera book scanners
+Home-page: https://github.com/hnesk/pyvoussoir
+Author: Johannes Künsebeck
+Author-email: kuensebeck@googlemail.com
+License: Apache License 2.0
+Description: # pyvoussoir
+        Automatic de-keystoning/page-splitting tool for single camera book scanners, python port of [voussoir](https://github.com/publicus/voussoir). 
+        
+        ## Installation
+        
+        ```
+        pip install git+https://github.com/hnesk/pyvoussoir.git
+        ```
+Keywords: OCR,page splitting,page dewarping,keystoning,perspective correction,voussoir
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Description-Content-Type: text/markdown
