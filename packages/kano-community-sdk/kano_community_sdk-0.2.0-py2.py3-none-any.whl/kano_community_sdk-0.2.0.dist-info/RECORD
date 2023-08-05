@@ -1,0 +1,12 @@
+communitysdk/__init__.py,sha256=p91winIHhaBP7BwqUhRCxyWHtQ8xbcN_CHxVvRiCd7k,331
+communitysdk/devicemanager.py,sha256=2reGdqSPyWgWQak-t_ewj7uZHUOEgJo33XMBWkxwl1s,746
+communitysdk/motionsensorkit.py,sha256=ePKjWUTguuKC5PuE2s0nv0dSGnem1iDe7G3v8iN0yT4,820
+communitysdk/retailpixelkit.py,sha256=JWL_rRfX-aIFDx1qzmH-3jYfF6YOQhlUtUro2bZ-5oQ,1809
+communitysdk/rpcclient.py,sha256=78YSsbL67WtZNWmisUXta2S0_Cp8KyKUaF9az_pHTnY,1818
+communitysdk/serialdevice.py,sha256=LqYkSfa4vfPu26y7ApVWGBWrc6eSGVJz4IVf9mBXbxo,1655
+kano_community_sdk-0.2.0.dist-info/AUTHORS.rst,sha256=tgtxr-bVgk5jBo9yT1eslae3mO_EpjLmL9CbCkuzoM4,159
+kano_community_sdk-0.2.0.dist-info/LICENSE,sha256=ynlf-TCXGfIrNL-VkP5nV857ZtTeN_1FOMN9GuRdcRE,1071
+kano_community_sdk-0.2.0.dist-info/METADATA,sha256=Gckhb-NsoxcygdR_SfDFxFk3TCwjKYnpOnY6dI7PJnY,964
+kano_community_sdk-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+kano_community_sdk-0.2.0.dist-info/top_level.txt,sha256=UdNMNXrm_NZ4VWw2wCA25xg2tjIBFh7Rqn_0GAI5LK4,13
+kano_community_sdk-0.2.0.dist-info/RECORD,,

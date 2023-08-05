@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: kano-community-sdk
+Version: 0.2.0
+Summary: kano-community-sdk for pypi
+Home-page: https://github.com/wwj718/kano_community_sdk
+Author: alan russell
+Author-email: wuwenjie718@gmail.com
+License: MIT license
+Keywords: kano_community_sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: pyserial
+
+# README
+
+mirror from [KanoComputing/community-sdk](https://github.com/KanoComputing/community-sdk). For pypi.
+
+
+
+=======
+History
+=======
+
+0.1.0 (2020-07-06)
+------------------
+
+* First release on PyPI.
+
+
