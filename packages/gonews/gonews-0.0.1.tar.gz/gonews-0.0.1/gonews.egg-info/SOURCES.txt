@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gonews/__init__.py
+gonews/cli.py
+gonews/utils.py
+gonews.egg-info/PKG-INFO
+gonews.egg-info/SOURCES.txt
+gonews.egg-info/dependency_links.txt
+gonews.egg-info/entry_points.txt
+gonews.egg-info/requires.txt
+gonews.egg-info/top_level.txt
