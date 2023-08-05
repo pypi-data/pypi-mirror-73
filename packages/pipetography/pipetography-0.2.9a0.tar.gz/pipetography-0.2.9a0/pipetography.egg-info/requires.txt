@@ -1,0 +1,7 @@
+nilearn
+dipy
+nibabel
+pybids
+matplotlib
+nipype
+fastcore==0.1.11
