@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mercuryclient
+Version: 0.1a1
+Summary: Python SDK for Mercury service
+Home-page: https://bitbucket.org/esthenos/mercury
+Author: Esthenos Technologies Private Limited
+Author-email: dinu@esthenos.com
+License: Proprietary License
+Description: ===========
+        Mercury SDK
+        ===========
+        
+        Mercury SDK can be used in projects that interface with the mercury service
+        that provides common internal functionality.
+        
+        Initializing the client
+        -------------------------------
+        >>> from mercuryclient import MercuryApi
+        #Setup connection parameters
+        >>> conn_params = {'username': 'mercury_username', 'password':'password', 'url':'https://mercury-url.com'}
+        >>> m = MercuryApi(conn_params)
+        >>>m.send_mail(['recipent@email.com'],'Test mail', 'Mail body','ses','ses_profile')
+        
+        Available APIs:
+        ----------------------
+        - send_mail
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
