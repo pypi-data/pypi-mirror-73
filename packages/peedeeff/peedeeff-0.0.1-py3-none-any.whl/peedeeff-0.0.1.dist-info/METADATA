@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: peedeeff
+Version: 0.0.1
+Summary: Python Client for Peedeeff
+Home-page: https://github.com/Peedeeff/python-client
+Author: Charanjit Singh
+Author-email: charanjitdotsingh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Py Peedeeff
+`python` client for peedeeff
+
+## Usage
+
+```python
+from peedeeff import Peedeeff
+
+r = Peedeeff.get_pdf(apiKey='yourapikey', html = '<h1>Hello World</h1>', 
+    pageConfig={
+        'size':'A4', 
+        'printBackground': True,
+        'margin': { 
+            'top': '1cm', 
+            'right': '1cm', 
+            'bottom': '1cm', 
+            'left': '1cm' 
+            }
+        }) 
+
+r.status
+
+pdf =r.content
+
+```
+
+Copyright Peedeeff All rights reserved
+
