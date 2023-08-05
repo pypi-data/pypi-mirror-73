@@ -1,0 +1,9 @@
+python_picnic_api/__init__.py,sha256=ZHJMclqygcJKycNLtodM4qcrC3ZpZxE3hb3NLeCNBBQ,53
+python_picnic_api/client.py,sha256=EcXPsk0UggRak-cS7GNzf3tcrnXhmJR2AJ2HhQj0isw,2015
+python_picnic_api/config/default.yaml,sha256=pHHZJM2E2_V5ppwcCEubrDPXNj2xBbG7rKz4O3U6WvM,84
+python_picnic_api/config_handler.py,sha256=0TGVF78COxI__vdByPQY7ZjW6wZTHezhE90oN084z3Y,2062
+python_picnic_api/session.py,sha256=HzymWD9yiDHFbklYA_CgraRu4cuefHz1yygh5P_7bxI,1043
+python_picnic_api-0.1.1.dist-info/LICENSE.md,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+python_picnic_api-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+python_picnic_api-0.1.1.dist-info/METADATA,sha256=ZL0HrGNNtJW3aO9IsvftL6rBtqid3Qk2OWLZ2_rtSs4,973
+python_picnic_api-0.1.1.dist-info/RECORD,,
