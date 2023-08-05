@@ -1,0 +1,3 @@
+[console_scripts]
+workflow2executable = workflow2executable.cli:main
+
