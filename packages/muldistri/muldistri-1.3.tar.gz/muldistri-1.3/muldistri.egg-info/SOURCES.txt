@@ -1,0 +1,10 @@
+setup.py
+muldistri/Binomialdistribution.py
+muldistri/Gaussiandistribution.py
+muldistri/Generaldistribution.py
+muldistri/__init__.py
+muldistri.egg-info/PKG-INFO
+muldistri.egg-info/SOURCES.txt
+muldistri.egg-info/dependency_links.txt
+muldistri.egg-info/not-zip-safe
+muldistri.egg-info/top_level.txt
