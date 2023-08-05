@@ -1,0 +1,5 @@
+colorama
+asciimatics
+LatLon
+
+[frontend]
