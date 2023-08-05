@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: swiftmock
+Version: 0.0.1
+Summary: A mock backend for testing swift.
+Home-page: https://github.com/canonical/swiftmock
+Author: Dan Ryan
+Author-email: dan.ryan@canonical.com
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/canonical/swiftmock
+Project-URL: Change Log, https://github.com/canonical/swiftmock/CHANGES.rst
+Description: ===============================================================================
+        swiftmock: A mock backend for testing swift.
+        ===============================================================================
+        
+        
+        🐉 Installation
+        =================
+        
+        Install from `PyPI`_:
+        
+          ::
+        
+            $ pip install swiftmock
+        
+        .. _PyPI: https://www.pypi.org/project/swiftmock
+        .. _Github: https://github.com/canonical/swiftmock
+        
+        
+        🐉 Usage
+        ==========
+        
+        Importing directly
+        -------------------
+        
+        You can use **swiftmock** directly in your code:
+        
+        .. code:: python
+        
+            from swiftmock.swift import MockConnection
+            with MockConnection() as conn:
+                conn.put_container("fake-container")
+                conn.put_object("fake-container", "path/to/object", b"contents")
+                header, contents = conn.get_object("fake-container", "path/to/object")
+            assert contents == b"contents"
+        
+        
+        Using with `Pytest`_
+        ---------------------
+        
+        You can also use this library as a **pytest** plugin.
+        
+        .. code:: python
+        
+            def my_test_using_swift(mock_swift):
+                # optional, the mock automatically replaces *swiftclient.client.Connection*
+                # so that it automatically returns the mocked instance
+                mock_swift.put_container("fake-container")
+                with pytest.assert_raises(swiftclient.exceptions.ClientException):
+                    mock_swift.get_object("fake-container", "non/existent/object")
+        
+        
+        .. _Pytest: https://pytest.org
+        
+        
+        
+Keywords: openstack,swift,pytest,mock
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Framework :: Pytest
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
+Provides-Extra: release
+Provides-Extra: lint
+Provides-Extra: dev
