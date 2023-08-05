@@ -1,0 +1,7 @@
+setup.py
+odoo12_addon_easy_my_coop_es.egg-info/PKG-INFO
+odoo12_addon_easy_my_coop_es.egg-info/SOURCES.txt
+odoo12_addon_easy_my_coop_es.egg-info/dependency_links.txt
+odoo12_addon_easy_my_coop_es.egg-info/not-zip-safe
+odoo12_addon_easy_my_coop_es.egg-info/requires.txt
+odoo12_addon_easy_my_coop_es.egg-info/top_level.txt
