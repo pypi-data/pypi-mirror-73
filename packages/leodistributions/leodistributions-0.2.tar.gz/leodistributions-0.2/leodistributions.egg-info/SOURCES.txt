@@ -1,0 +1,10 @@
+setup.py
+leodistributions/Binomialdistribution.py
+leodistributions/Gaussiandistribution.py
+leodistributions/Generaldistribution.py
+leodistributions/__init__.py
+leodistributions.egg-info/PKG-INFO
+leodistributions.egg-info/SOURCES.txt
+leodistributions.egg-info/dependency_links.txt
+leodistributions.egg-info/not-zip-safe
+leodistributions.egg-info/top_level.txt
