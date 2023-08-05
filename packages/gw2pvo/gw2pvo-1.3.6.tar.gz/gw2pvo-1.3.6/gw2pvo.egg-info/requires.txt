@@ -1,0 +1,4 @@
+astral>=2
+requests
+oauthlib
+requests-oauthlib
