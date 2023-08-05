@@ -1,0 +1,21 @@
+{
+   "EDIFF": [
+      "please rerun with smaller EDIFF", 
+      {
+         "ediff": "ediff*0.1"
+      }
+   ],  
+   "ISYM0": [
+      "VERY BAD NEWS! internal error in subroutine IBZKPT",
+      {
+         "isym": 0
+      }
+   ],
+   "NCL": [
+      "non collinear calculations require that VASP is compiled",
+      {
+         
+      }
+   ]
+}
+

@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+
+import jump2 
+from jump2.script import runjump2
+
+runjump2() 

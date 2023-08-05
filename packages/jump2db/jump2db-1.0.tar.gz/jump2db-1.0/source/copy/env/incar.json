@@ -1,0 +1,108 @@
+{   
+   "default": {
+      "system": "jump2", 
+      "lreal": "Auto", 
+      "ismear": 0, 
+      "npar": 4, 
+      "sigma": 0.05,
+      "algo": "fast" 
+   }, 
+   "dielectric": {
+      "ibrion": 8,
+      "lcharg": false, 
+      "lwave": false,
+      "istart": 0,
+      "icharg": 2,
+      "nsw": 2,
+      "lepsilon": true,
+      "lpead": true,
+      "npar": 16
+   },
+   "scf": {
+      "algo": "normal"
+   },
+   "soc": {
+      "isym": 0, 
+      "lmaxmix": 6, 
+      "ispin": 2, 
+      "gga_compat": true, 
+      "lorbmom": true, 
+      "lsorbit": true, 
+      "saxis": "0 0 1"
+   }, 
+   "hse": {
+      "aexx": 0.25, 
+      "hfscreen": 0.2, 
+      "icharg": 0, 
+      "algo": "Damped", 
+      "lhfcalc": true, 
+      "lwave": true,
+      "lmaxfock": 4,
+      "time": 0.4
+   }, 
+   "band": {
+      "ismear": 0, 
+      "icharg": 11, 
+      "lorbit": 11,
+      "istart": 1,
+      "algo": "normal"
+   }, 
+   "dos": {
+      "lwave": false, 
+      "ismear": 0, 
+      "nedos": 3001,
+      "lorbit": 11,
+      "lreal": false,
+      "algo": "normal"
+   },  
+   "optics": {
+      "istart": 1, 
+      "icharg": 1, 
+      "lwave": true,
+      "lcharg": false,
+      "algo": "Exact", 
+      "loptics": true, 
+      "cshift": 0.05, 
+      "nedos": 3001
+   }, 
+   "gw": {
+      "lspectral": true, 
+      "nelm": 3, 
+      "algo": "scGW", 
+      "ismear": 0, 
+      "sigma": 0.05,
+      "loptics": true, 
+      "cshift": 0.05, 
+      "lcharg": false,
+      "nedos": 3001
+   }, 
+   "Raman": {
+      "isym": 0, 
+      "nwrite": 3, 
+      "ibrion": 7, 
+      "lreal": false, 
+      "lepsilon": true, 
+      "nsw": 1
+   }, 
+   "md":{
+      "isym": 0,
+      "prec": "fast",
+      "ibrion": 0,
+      "POTIM": 1,
+      "SMASS": -3,
+      "EDIFF": 1e-4,
+      "TEBEG": 300,
+      "TEEND": 300,
+      "lcharg": false, 
+      "lwave": false,
+      "NSW": "100"
+   },
+   "carrier": {
+      "nedos": 3001
+   }, 
+   "gw_gap": {
+   }, 
+   "hse_gap": {
+   } 
+}
+

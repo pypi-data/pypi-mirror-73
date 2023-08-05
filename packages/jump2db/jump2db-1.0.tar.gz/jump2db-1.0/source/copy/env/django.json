@@ -1,0 +1,12 @@
+{
+   "ENGINE": "django.db.backends.mysql",
+   "HOSTNAME": "wzhpc.jlu.edu.cn",
+   "OPTIONS": {
+      "unix_socket": "/home/kzhou/mysql/mysql.sock"
+   },
+   "NAME": "jump2db",
+   "USER": "jump2",
+   "PASSWORD": "123456",
+   "HOST": "59.72.114.46",
+   "PORT": "7777"
+}

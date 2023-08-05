@@ -1,0 +1,97 @@
+{   
+   "default": {
+      "system": "jump2", 
+      "lreal": "Auto", 
+      "ismear": 0, 
+      "npar": 4, 
+      "sigma": 0.05,
+      "algo": "fast" 
+   }, 
+   "dielectric": {
+      "ibrion": 8,
+      "lcharg": false, 
+      "lwave": false,
+      "istart": 0,
+      "icharg": 2,
+      "nsw": 2,
+      "lepsilon": true,
+      "lpead": true,
+      "npar": 16
+   },
+   "scf": {
+      "ediff": 1e-5,
+      "lreal": false,
+      "algo": "normal"
+   },
+   "soc": {
+      "isym": 0, 
+      "lmaxmix": 6, 
+      "ispin": 2, 
+      "gga_compat": true, 
+      "lorbmom": true, 
+      "lsorbit": true, 
+      "saxis": "0 0 1"
+   }, 
+   "hse": {
+      "aexx": 0.25, 
+      "hfscreen": 0.2, 
+      "icharg": 0, 
+      "algo": "Damped", 
+      "lhfcalc": true, 
+      "lwave": true,
+      "lmaxfock": 4,
+      "time": 0.4
+   }, 
+   "band": {
+      "ismear": 0, 
+      "icharg": 11, 
+      "lorbit": 11,
+      "ediff": 1e-5, 
+      "istart": 1,
+      "lreal": false,
+      "algo": "normal"
+   }, 
+   "dos": {
+      "lwave": false, 
+      "ismear": 0, 
+      "nedos": 3001,
+      "ediff": 1e-5, 
+      "lorbit": 11,
+      "lreal": false,
+      "algo": "normal"
+   },  
+   "optics": {
+      "istart": 1, 
+      "nelm": 1, 
+      "aglo": "Exact", 
+      "loptics": true, 
+      "icharg": 11, 
+      "cshift": 1e-05, 
+      "nedos": 20001
+   }, 
+   "gw": {
+      "lspectral": true, 
+      "nelm": 4, 
+      "nomega": 50, 
+      "algo": "gw0", 
+      "ediff": 1e-08, 
+      "ismear": 0, 
+      "sigma": 0.05
+   }, 
+   "Raman": {
+      "isym": 0, 
+      "nwrite": 3, 
+      "ibrion": 7, 
+      "lreal": false, 
+      "lepsilon": true, 
+      "nsw": 1
+   }, 
+   "carrier": {
+      "nedos": 3001
+   }, 
+   "gw_gap": {
+   }, 
+   "hse_gap": {
+   } 
+}
+
