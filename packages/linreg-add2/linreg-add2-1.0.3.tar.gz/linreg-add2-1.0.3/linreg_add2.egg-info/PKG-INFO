@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: linreg-add2
+Version: 1.0.3
+Summary: A Python package to predict addmission chances using gre score tofel score and other details
+Home-page: https://github.com/DexDand/linreg-add
+Author: Abhishek Dand
+Author-email: abhi080497@gmail.com
+License: MIT
+Description: #LINEAR REGRESSION ADDMISSION
+        A Python package to predict addmission chances using gre score tofel score and other details
+        https://github.com/DexDand/linreg-add/blob/master/README.md
+        ##USAGE
+        
+        main(337,118,4,4.5,4.5,9.65,1)
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
