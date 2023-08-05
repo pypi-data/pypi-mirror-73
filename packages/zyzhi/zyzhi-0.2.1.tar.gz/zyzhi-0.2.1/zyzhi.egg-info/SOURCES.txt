@@ -1,0 +1,10 @@
+README.md
+setup.py
+zyzhi/__init__.py
+zyzhi/zyzhi.py
+zyzhi.egg-info/PKG-INFO
+zyzhi.egg-info/SOURCES.txt
+zyzhi.egg-info/dependency_links.txt
+zyzhi.egg-info/not-zip-safe
+zyzhi.egg-info/requires.txt
+zyzhi.egg-info/top_level.txt
