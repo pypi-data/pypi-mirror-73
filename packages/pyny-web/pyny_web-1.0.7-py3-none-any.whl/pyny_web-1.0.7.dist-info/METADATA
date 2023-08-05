@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pyny-web
+Version: 1.0.7
+Summary: Tiny Python3 based web server.
+Home-page: https://github.com/zeppelsoftware/pyny
+Author: Zeppel
+Author-email: info@zeppel.eu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+<pre>
+                           __    __     _     
+ _ __  _   _ _ __  _   _  / / /\ \ \___| |__  
+| '_ \| | | | '_ \| | | | \ \/  \/ / _ \ '_ \ 
+| |_) | |_| | | | | |_| |  \  /\  /  __/ |_) |
+| .__/ \__, |_| |_|\__, |   \/  \/ \___|_.__/ 
+|_|    |___/       |___/
+</pre>
+
+Tiny Python3 based web server.
+
+### Install
+
+```bash
+pip3 install pyny-web
+```
+
+### Usage
+
+```python
+import pyny_web
+
+pyny_web.run()
+```
+
+Move webcontent to webroot directory which is the `html` directory in your project by default.
+
+The default port is 8080.
+
+### Config
+
+After running for the first time a `pyny.config` will be generated.
+
+Here you can set the port and webroot.
+
+Per deafult the config looks like this
+
+```config
+[pyny Web]
+webroot = html
+port = 8080
+```
+
+### Source
+
+Check [here](https://github.com/zeppelsoftware/pyny).
+
+

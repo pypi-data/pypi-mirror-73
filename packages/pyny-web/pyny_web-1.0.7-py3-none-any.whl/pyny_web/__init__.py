@@ -1,0 +1,1 @@
+from pyny_web.pyny import run
