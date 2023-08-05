@@ -1,0 +1,10 @@
+setup.py
+mach-distributions/Binomialdistribution.py
+mach-distributions/Gaussiandistribution.py
+mach-distributions/Generaldistribution.py
+mach-distributions/__init__.py
+mach_distributions.egg-info/PKG-INFO
+mach_distributions.egg-info/SOURCES.txt
+mach_distributions.egg-info/dependency_links.txt
+mach_distributions.egg-info/not-zip-safe
+mach_distributions.egg-info/top_level.txt
