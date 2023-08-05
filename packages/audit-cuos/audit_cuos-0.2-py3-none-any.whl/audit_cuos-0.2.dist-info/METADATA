@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: audit-cuos
+Version: 0.2
+Summary: Generate activity reports for functionaries on the English Wikipedia.
+Home-page: https://github.com/molly/audit-cuos
+Author: Molly White
+Author-email: molly.white5@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: requests (>=2.2.1)
+Requires-Dist: python-dateutil (>=2.4.2)
+
+UNKNOWN
+
+
