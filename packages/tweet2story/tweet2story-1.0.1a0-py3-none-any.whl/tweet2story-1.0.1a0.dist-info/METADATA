@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tweet2story
+Version: 1.0.1a0
+Summary: Create instagram stories from tweets
+Home-page: https://github.com/dilpreetsio/tweet2story
+Author: Dilpreet Singh
+Author-email: imdilpreetsio@gmail.com
+License: MIT
+Keywords: twitter,instagram,image,image processing,story,computer graphics,graphics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Requires-Dist: click
+Requires-Dist: pillow
+Requires-Dist: twint
+Requires-Dist: tweepy
+
+UNKNOWN
+
+
