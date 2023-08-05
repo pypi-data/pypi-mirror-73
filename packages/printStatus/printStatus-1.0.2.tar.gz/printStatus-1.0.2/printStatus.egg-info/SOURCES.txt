@@ -1,0 +1,12 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README
+setup.py
+printStatus/__init__.py
+printStatus/printStatus.py
+printStatus.egg-info/PKG-INFO
+printStatus.egg-info/SOURCES.txt
+printStatus.egg-info/dependency_links.txt
+printStatus.egg-info/not-zip-safe
+printStatus.egg-info/top_level.txt
