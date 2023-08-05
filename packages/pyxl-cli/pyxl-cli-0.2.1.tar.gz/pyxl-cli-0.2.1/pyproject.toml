@@ -1,0 +1,54 @@
+[tool.black]
+line-length = 79
+exclude = '''
+(
+    migrations
+    | .mypy_cache
+    | .pytest_cache
+    | .tox
+    | .venv
+)
+'''
+
+[tool.poetry]
+name = "pyxl-cli"
+version = "0.2.1"
+description = "openpyxl wrapper for cli use"
+authors = ["watarukura <what.r.j150@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/watarukura"
+repository = "https://github.com/watarukura/pyxl-cli"
+license = "MIT"
+packages = [
+    { include="src", from="." },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    'Programming Language :: Python :: 3',
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.scripts]
+pyxl = "src.main:cli"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+openpyxl = "^3.0.4"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.782"
+black = "^19.10b0"
+tox = "^3.16.1"
+pytest = "^5.4.3"
+flake8 = "^3.8.3"
+isort = "^4.3.21"
+pytest-cov = "^2.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

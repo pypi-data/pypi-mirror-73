@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: pyxl-cli
+Version: 0.2.1
+Summary: openpyxl wrapper for cli use
+Home-page: https://github.com/watarukura
+License: MIT
+Author: watarukura
+Author-email: what.r.j150@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: openpyxl (>=3.0.4,<4.0.0)
+Project-URL: Repository, https://github.com/watarukura/pyxl-cli
+Description-Content-Type: text/markdown
+
+# pyxl-cli
+
+opeypyxl wrapper for cli use.
+
+## install
+
+```sh
+pip install pyxl-cli
+```
+
+## usage
+
+### read
+output stdout CSV format
+
+```sh
+pyxl read \
+    --input_xlsx input.xlsx
+```
+
+output file TSV format
+
+```sh
+pyxl read \
+    --input_xlsx input.xlsx \
+    --output /tmp/output.tsv \
+    --delimiter='\t'
+```
+
+### write
+for CSV file
+
+```sh
+pyxl write \
+    --sheet_xy_csv 1 A1 input.csv \
+    template.xlsx output.xlsx
+```
+
+for 2 TSV files
+
+```sh
+pyxl write \
+    --sheet_xy_csv 1 A1 input_a.tsv \
+    --sheet_xy_csv 1 F12 input_b.tsv \
+    --delimiter="\t" \
+    template.xlsx output.xlsx
+```
