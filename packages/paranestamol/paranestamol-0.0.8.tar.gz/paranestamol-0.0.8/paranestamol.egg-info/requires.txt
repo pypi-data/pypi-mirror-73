@@ -1,0 +1,5 @@
+matplotlib_backend_qtquick
+anesthetic
+pyside2
+numpy
+matplotlib
