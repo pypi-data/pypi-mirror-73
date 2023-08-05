@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: Keybo
+Version: 1.0.dev1
+Summary: A modular multi-platform bot designed to interconnect a company or project workflow
+Home-page: https://gitlab.com/keybo/
+Author: madmachinations
+License: LICENSE.txt
+Description: # Keybo
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6

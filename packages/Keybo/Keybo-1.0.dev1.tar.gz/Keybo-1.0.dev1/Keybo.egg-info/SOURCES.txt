@@ -1,0 +1,7 @@
+README.md
+setup.py
+Keybo.egg-info/PKG-INFO
+Keybo.egg-info/SOURCES.txt
+Keybo.egg-info/dependency_links.txt
+Keybo.egg-info/namespace_packages.txt
+Keybo.egg-info/top_level.txt
