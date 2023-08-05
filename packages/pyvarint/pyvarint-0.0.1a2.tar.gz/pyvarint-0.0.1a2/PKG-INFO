@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyvarint
+Version: 0.0.1a2
+Summary: Varints, a method of serializing integers using one or more bytes 
+Home-page: https://github.com/hyperpy/pyvarint
+Keywords: hypercore,hypercore-protocol
+Author: decentral1se
+Author-email: hi@decentral1.se
+Maintainer: decentral1se
+Maintainer-email: hi@decentral1.se
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/hyperpy/pyvarint
+Description-Content-Type: text/markdown
+
+# pyvarint
+
+[![Build Status](https://drone.autonomic.zone/api/badges/hyperpy/pyvarint/status.svg)](https://drone.autonomic.zone/hyperpy/pyvarint)
+
+## Varints, a method of serializing integers using one or more bytes
+
+## Install
+
+```sh
+$ pip install pyvarint
+```
+
+## Example
+
+```python
+from random import sample
+from pyvarint import decode, encode
+
+ten_rand_ints = sample(range(100), 10)
+
+for rand_int in ten_rand_ints:
+    encoded = encode(rand_int)
+    decoded = decode(encoded)
+    assert decoded == rand_int
+```
+
