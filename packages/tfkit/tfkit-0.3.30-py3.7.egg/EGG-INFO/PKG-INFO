@@ -1,0 +1,208 @@
+Metadata-Version: 2.1
+Name: tfkit
+Version: 0.3.30
+Summary: Transformers kit - NLP library for different downstream tasks, built on huggingface project 
+Home-page: https://github.com/voidful/TFkit
+Author: Voidful
+Author-email: voidful.stack@gmail.com
+License: Apache
+Description: <p  align="center">
+            <br>
+            <img src="https://raw.githubusercontent.com/voidful/TFkit/master/doc/img/tfkit.png" width="400"/>
+            <br>
+        <p>
+        <br/>
+        <p align="center">
+            <a href="https://pypi.org/project/tfkit/">
+                <img alt="PyPI" src="https://img.shields.io/pypi/v/tfkit">
+            </a>
+            <a href="https://github.com/voidful/tfkit">
+                <img alt="Download" src="https://img.shields.io/pypi/dm/tfkit">
+            </a>
+            <a href="https://github.com/voidful/tfkit">
+                <img alt="Build" src="https://img.shields.io/github/workflow/status/voidful/tfkit/Python package">
+            </a>
+            <a href="https://github.com/voidful/tfkit">
+                <img alt="Last Commit" src="https://img.shields.io/github/last-commit/voidful/tfkit">
+            </a>
+        </p>
+        <br/>
+        
+        Read this in other languages: [中文](https://github.com/voidful/TFkit/blob/master/README.zh.md).
+        
+        ## Feature
+        - [Model list](https://huggingface.co/models): support Bert/GPT/GPT2/XLM/XLNet/RoBERTa/CTRL/ALBert 
+        - [NLPrep](https://github.com/voidful/NLPrep): create a data preprocessing library on many task   
+        - [nlp2go](https://github.com/voidful/nlp2go): create model hosting library for demo  
+        - multi-class multi-task multi-label classifier  
+        - Multi-Task on ALL model
+        - word/sentence level text generation  
+        - support greedy, beam-search & nucleus decoding 
+        - token tagging
+        - special loss function for handling different cases: FocalLoss/ FocalBCELoss/ NegativeCrossEntropyLoss/ SmoothCrossEntropyLoss  
+        - eval on different benchmark - EM / F1 / BLEU / METEOR / ROUGE / CIDEr / Classification Report / ...
+        - modularize data loading
+        - easy to modify
+        
+        
+        ## DEMO
+        
+        ### albert multi-dataset QA model
+        dataset：
+        ```bash
+        nlprep --dataset multiqa --task qa --outdir ./multiqa/   
+        tfkit-train --maxlen 512 --savedir ./multiqa_qa_model/ --train ./multiqa/train --valid ./multiqa/valid --model qa --config voidful/albert_chinese_small  --cache
+        nlp2go --model ./multiqa_qa_model/3.pt --cli 
+        ```
+        
+        ### Distilbert NER model
+        three line code train and host NER model [Colab](https://colab.research.google.com/drive/1x5DLBQ6ufRUfi1PPmHcXtYqTl_9krRWz)
+        ```bash
+        nlprep --dataset clner --task tagRow --outdir ./clner_row --util s2t 
+        tfkit-train --batch 10 --epoch 3 --lr 5e-6 --train ./clner_row/train --valid ./clner_row/test --maxlen 512 --model tagRow --config distilbert-base-multilingual-cased 
+        nlp2go --model ./checkpoints/3.pt  --cli     
+        ```
+        
+        ### albert QA model
+        three line code train and host QA model [Colab](https://colab.research.google.com/drive/1hqaTKxd3VtX2XkvjiO0FMtY-rTZX30MJ)
+        ```bash
+        nlprep --dataset zhqa --task qa --outdir ./zhqa/   
+        tfkit-train --maxlen 512 --savedir ./drcd_qa_model/ --train ./zhqa/drcd-train --valid ./zhqa/drcd-test --model qa --config voidful/albert_chinese_small  --cache
+        nlp2go --model ./drcd_qa_model/3.pt --cli 
+        ```
+        ### multi-task 
+        ```bash
+        nlprep --dataset clner --task tagRow --outdir ./clner_row --util s2t 
+        nlprep --dataset zhqa --task qa --outdir ./zhqa/ 
+        tfkit-train --maxlen 300 --savedir ./mt-qaner --train ./clner_row/train ./zhqa/drcd-train --valid ./clner_row/test ./zhqa/drcd-test --model tagRow qa --config voidful/albert_chinese_small
+        nlp2go --model ./mt-qaner/3.pt --cli 
+        ```
+        
+        ## Benchmark
+        #### DRCD Test
+        | model | EM | F1 | 
+        | :----:|:----: |:----: |
+        | <a href="https://huggingface.co/voidful/albert_chinese_small">albert-small</a>	| 74.45% | 86.08% |
+        | <a href="https://huggingface.co/hfl/chinese-electra-small-discriminator">electra-small</a>	| 76.64% | 87.49% |
+        | <a href="https://huggingface.co/voidful/albert_chinese_base">albert-base</a>	| 80.17% | 89.87% |
+        
+        #### DRCD Dev
+        | model | EM | F1 | 
+        | :----:|:----: |:----: |
+        | <a href="https://huggingface.co/voidful/albert_chinese_small">albert-small</a>	| 73.70% | 85.33% |
+        | <a href="https://huggingface.co/hfl/chinese-electra-small-discriminator">electra-small</a>	| 77.61% | 87.33% |
+        | <a href="https://huggingface.co/voidful/albert_chinese_base">albert-base</a>	| 80.52% | 89.92% |
+        
+        
+        ## Flow Overview
+        ![nlp kit flow](https://raw.githubusercontent.com/voidful/TFkit/master/docs/img/flow.png)
+        
+        ## Package Overview
+        
+        <table>
+        <tr>
+            <td><b> tfkit </b></td>
+            <td> NLP library for different downstream tasks, built on huggingface project </td>
+        </tr>
+        <tr>
+            <td><b> tfkit.classifier </b></td>
+            <td> multi-class multi-task multi-label classifier</td>
+        </tr>
+        <tr>
+            <td><b> tfkit.gen_once </b></td>
+            <td> text generation in one time built on masklm model</td>
+        </tr>
+        <tr>
+            <td><b> tfkit.gen_onebyone </b></td>
+            <td> text generation in one word by one word built on masklm model</td>
+        </tr>
+        <tr>
+            <td><b> tfkit.tag </b></td>
+            <td> token tagging model </td>
+        </tr>
+        <tr>
+            <td><b> tfkit.qa </b></td>
+            <td> qa model predicting start and end position </td>
+        </tr>
+        <tr>
+            <td><b> tfkit.train.py </b></td>
+            <td> Run training </td>
+        </tr>
+        <tr>
+            <td><b> tfkit.eval.py </b></td>
+            <td> Run evaluation </td>
+        </tr>
+        </table>
+        
+        ## Installation
+        
+        TFKit requires **Python 3.6** or later.   
+        
+        ### Installing via pip
+        ```bash
+        pip install tfkit
+        ```
+        
+        ## Running TFKit
+        
+        Once you've installed TFKit, you can run train.py for training or eval.py for evaluation.  
+        
+        ```
+        $ tfkit-train
+        Run training
+        
+        arguments:
+          --train       training data path       
+          --valid       validation data path       
+          --maxlen      maximum text length       
+          --model       type of model         ['once', 'onebyone', 'classify', 'tagRow', 'tagCol','qa']
+          --config      pre-train model       bert-base-multilingual-cased... etc (you can find one on https://huggingface.co/models)
+        
+        optional arguments:
+          -h, --help    show this help message and exit
+          --resume      resume from previous training
+          --savedir     dir for model saving
+          --worker      number of worker
+          --batch       batch size
+          --lr          learning rate
+          --epoch       epoch rate
+          --tensorboard enable tensorboard
+          --cache       enable data caching
+        ```
+        
+        ```
+        $ tfkit-eval
+        Run evaluation on different benchmark
+        arguments:
+          --model       model for evaluate       
+          --valid       validation data path        
+          --metric      metric for evaluate         ['emf1', 'nlg', 'classification']Ω
+        
+        optional arguments:
+          -h, --help    show this help message and exit
+          --batch       batch size
+          --outprint    enable printing result in console
+          --outfile     enable writing prediction result to file
+          --beamsearch  enable beamsearch for text generation task
+        ```
+        
+        ## Contributing
+        Thanks for your interest.There are many ways to contribute to this project. Get started [here](https://github.com/voidful/tfkit/blob/master/CONTRIBUTING.md).
+        
+        ## License ![PyPI - License](https://img.shields.io/github/license/voidful/tfkit)
+        
+        * [License](https://github.com/voidful/tfkit/blob/master/LICENSE)
+        
+        ## Icons reference
+        Icons modify from <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>      
+        Icons modify from <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>      
+        
+Keywords: transformer huggingface nlp multi-task multi-class multi-label classification generation tagging deep learning machine reading
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
