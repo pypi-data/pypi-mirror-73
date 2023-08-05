@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+MyTestCalculator/__init__.py
+MyTestCalculator.egg-info/PKG-INFO
+MyTestCalculator.egg-info/SOURCES.txt
+MyTestCalculator.egg-info/dependency_links.txt
+MyTestCalculator.egg-info/top_level.txt
