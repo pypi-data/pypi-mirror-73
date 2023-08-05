@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: flixpy
+Version: 0.0.2
+Summary: Get data on movies, shows, streaming providers, people, ratings, and more
+Home-page: https://flixpy.now.sh/
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ninest/flixpy/issues
+Project-URL: Documentation, https://flixpy.now.sh/guide
+Project-URL: Source Code, https://github.com/ninest/flixpy
+Description: <p align="center">
+          <img src="images/logo.png?" width=300 alt="Flixpy Logo">
+        </p>
+        <h2 align="center">Movies, shows, streaming providers, people, ratings, and more</h2>
+        
+        
+        <p align="center">
+          <a href="https://pypi.org/project/flixpy/">
+            <img src="https://img.shields.io/pypi/v/flixpy?color=blue&style=flat-square" alt="Version" />
+          </a>
+          <a href="https://pypi.org/project/flixpy/">
+            <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/flixpy?color=red&style=flat-square" />
+          </a>
+        
+          <img src="https://img.shields.io/github/license/ninest/flixpy?style=flat-square" alt="MIT" />
+          <a href="https://www.buymeacoffee.com/ninest">
+            <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square" alt="Buy Me A Coffee">
+          </a>
+        </p>
+        
+        <p align="center">
+        	<a href="https://flixpy.now.sh/">Documentation</a>&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/ninest/flixpy">GitHub</a>&nbsp;&nbsp;&nbsp;
+        	<a href="https://pypi.org/project/flixpy/">Pypi</a>&nbsp;&nbsp;&nbsp;
+          <a href="https://flixpy.now.sh/examples/">Examples</a>
+        </p>
+        
+        
+        ## 🚀 Features
+        - [x] Get **movies** and **TV shows** by their ID
+          - [x] Get their **streaming providers** and a a direct link to watch
+          - [x] Get the direct link to watch each episode (TV shows only)
+          - [ ] View other information such as **title, overview, ratings, actors,** ...
+        - [x] **Searching** and **browsing**
+          - [x] **Filters** to search: sort by highest rating, alphabetically
+          - [x] Search by **tag**
+          - [x] Search by **genre**
+        - [ ] Get actors/people by their ID
+          - [ ] Search for people
+        - [ ] Integrations with Popcorn API
+        
+        ## 🛠 Installation
+        ```bash
+        pip install flixpy
+        
+        # on mac
+        pip3 install flixpy
+        ```
+        
+        ## 🏳️‍🌈 Examples
+        
+        **Get the Netflix link to a movie**
+        ```python
+        from flixpy import Movie, StreamingProvider
+        
+        movie = Movie('inception-2010')
+        netflix_link = movie.link_for(StreamingProvider.NETFLIX)
+        # => https://www.netflix.com/watch/70131314
+        ```
+        
+        **Get the name of every episode in a show**
+        ```python
+        from flixpy import Show
+        
+        show = Show('breaking-bad-2008')
+        
+        for season in show:
+          for episode in season:
+            print(episode.title)
+        ```
+        
+        **Get the genres of a show/movie**
+        ```python
+        from flixpy import Show
+        
+        show = Show('breaking-bad-2008')
+        show.genres
+        # => [<Genre.CRIME>, <Genre.THRILLER>]
+        ```
+        
+        **Browse through all animated shows on Amazon Prime Video**
+        ```python
+        from flixpy import browse, By, Genre, StreamingProvider, ContentType
+        
+        b = browse(By.GENRE, genre=Genre.ANIMATION, content_kind=ContentType.SHOW, streaming_provider=StreamingProvider.AMAZON_PRIME)
+        # => [<Show spongebob-squarepants-1999>, <Show pokemon-1997>, <Show sesame-street-1969>, ...]
+        ```
+        
+        More examples in [the guide](https://flixpy.now.sh/examples).
+        
+        <!-- ## 😱 Issues and limitations
+        Coming soon -->
+        
+        ## 📜 License
+        MIT
+        
+        ## 🔖 Legal attribution
+        All data and images are from [Reelgood](https://reelgood.com/).
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
