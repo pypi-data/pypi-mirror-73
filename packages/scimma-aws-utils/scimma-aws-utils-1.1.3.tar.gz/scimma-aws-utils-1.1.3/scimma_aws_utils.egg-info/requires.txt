@@ -1,0 +1,15 @@
+boto3>=1.12
+bs4
+click
+colorama
+humanize
+lxml
+requests
+
+[dev]
+autopep8
+flake8
+isort
+pytest
+setuptools
+twine
