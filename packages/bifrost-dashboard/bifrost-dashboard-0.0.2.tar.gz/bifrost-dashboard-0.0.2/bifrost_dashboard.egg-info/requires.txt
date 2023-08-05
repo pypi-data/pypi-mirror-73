@@ -1,0 +1,8 @@
+pandas
+dash
+bifrostapi
+Flask-Caching
+dash-auth
+requests
+dash-bootstrap-components
+pyyaml

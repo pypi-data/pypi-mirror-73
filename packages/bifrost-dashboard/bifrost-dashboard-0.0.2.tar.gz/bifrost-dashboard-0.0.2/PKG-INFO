@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: bifrost-dashboard
+Version: 0.0.2
+Summary: Dashboard for displaying bifrost information
+Home-page: https://github.com/ssi-dk/bifrost
+Author: Martin Basterrechea
+Author-email: mbas@ssi.dk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
