@@ -1,0 +1,9 @@
+README.md
+setup.py
+SimpleEDA.egg-info/PKG-INFO
+SimpleEDA.egg-info/SOURCES.txt
+SimpleEDA.egg-info/dependency_links.txt
+SimpleEDA.egg-info/requires.txt
+SimpleEDA.egg-info/top_level.txt
+simple_eda/__init__.py
+simple_eda/simple_eda.py
