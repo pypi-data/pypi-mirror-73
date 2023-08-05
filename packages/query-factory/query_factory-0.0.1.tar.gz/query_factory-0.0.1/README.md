@@ -1,0 +1,48 @@
+QUERY FACTORY
+=============
+
+This tool should help organizing SQL queries into python projects.
+
+
+USAGE
+-----
+
+You should seperate query template in a yaml file as in the following example:
+
+```yaml
+# template.yaml
+description: |
+  This is a simple query for demonstration purpose.
+
+variables:
+  - start_date:
+    - description: UTC datetime string to gather data from (inclusive)
+  - end_date:
+    - description: UTC datetime string to gather data to (exclusive)
+
+query_template: |
+  SELECT *
+  FROM db.table
+  WHERE event_date <= {start_date}
+  AND event_date > {end_date}
+  LIMIT = 100;
+```
+
+Then get your factory up and run some queries:
+```python
+import pandas as pd
+from query_factory import SQLQueryFactory
+
+# factory setup.
+factory = SQLQueryFactory("/path/to/template.yaml")
+
+connection = ...
+data_2020_02_01 = pd.read_sql(
+    factory(start_date="2020-02-01", end_date="2020-02-02"),
+    con=connection
+)
+data_2020_02_02 = pd.read_sql(
+    factory(start_date="2020-02-02", end_date="2020-02-03"),
+    con=connection
+)
+```
