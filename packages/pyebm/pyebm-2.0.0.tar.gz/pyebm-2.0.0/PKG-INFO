@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyebm
+Version: 2.0.0
+Summary: Toolbox for event-based modeling
+Home-page: https://github.com/88vikram/pyebm/
+Author: Vikram Venkatraghavan
+Author-email: v.venkatraghavan@erasmusmc.nl
+License: UNKNOWN
+Description: Contains codes for EBM and DEBM with several options for mixture modeling
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
