@@ -1,0 +1,12 @@
+ctorch/__init__.py,sha256=5U5zIW16KKM86HAcHxw2EglDAwSVF6YpkiMPuFPGKVM,40
+ctorch/nn/__init__.py,sha256=35soXfjUsQjstxFvVjP86qynG7L44YUYtUsXRKGB3x8,61
+ctorch/nn/functional.py,sha256=o-23BBiVpD0XHt7huRGJGw0MTB0qBVpruczxR-F21q0,2104
+ctorch/nn/modules/__init__.py,sha256=tMaqmuUZmTA_xnZXwCxgUYWGFLu72Gn5Dia4FusOd8E,82
+ctorch/nn/modules/conv.py,sha256=z7gFJPZCGYXgjfLltLZydfrkEex5R-U6T21uASQGlUg,8577
+ctorch/nn/modules/init.py,sha256=GrP05stqz26xn_5RgxtGfDyruV4IvFvGHSZ7PP5Xnvo,3208
+ctorch/nn/modules/linear.py,sha256=LEj_9tkkwJevwyRUeNCuLOU67_Qz-SVcaf6h72bmDpM,1167
+ctorch/nn/modules/utils.py,sha256=HBUf4C3zaK5kQ1JAarQPGQJKovVABIsQI1dZORFhk1k,624
+ctorch-0.2.0.dist-info/LICENSE.md,sha256=-r4p-sGTDhFMbPQtp76P-ETiJHhOiWQlfJAe4IXZNVE,1065
+ctorch-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+ctorch-0.2.0.dist-info/METADATA,sha256=gH6zecCDK2lde9j898Xc2Ub2oAfrh920VfntESjFR20,431
+ctorch-0.2.0.dist-info/RECORD,,
