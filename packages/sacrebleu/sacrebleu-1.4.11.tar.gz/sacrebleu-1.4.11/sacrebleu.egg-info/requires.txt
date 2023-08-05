@@ -1,0 +1,5 @@
+portalocker
+mecab-python3==0.996.5
+
+[:python_version < "3.5"]
+typing
