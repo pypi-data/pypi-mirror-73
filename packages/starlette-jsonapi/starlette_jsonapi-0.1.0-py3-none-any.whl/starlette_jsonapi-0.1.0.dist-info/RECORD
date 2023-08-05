@@ -1,0 +1,12 @@
+starlette_jsonapi/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+starlette_jsonapi/exceptions.py,sha256=NojgLLoGpsVrGISrldlkk5D7vINlPbl0kEeY0DjzVXE,693
+starlette_jsonapi/fields.py,sha256=S0KtdIp3gSN2_0bX-E4MRFA5eKp2PiYdt7yo4ROLCl8,2328
+starlette_jsonapi/resource.py,sha256=8_brUOfXpj29hfnx_af7y0vBwIbI530GDBRXReQNahg,15325
+starlette_jsonapi/responses.py,sha256=Wiepg-ZsWhhdNhGclEgEH9mZBYVdC_Rbz8dgjX_RotE,288
+starlette_jsonapi/schema.py,sha256=Z9YDi4kxzpO8EE_wR0uA87HXt7hbvTzsxbCBw4-zplE,2926
+starlette_jsonapi/utils.py,sha256=--TlKM2EdmuRm_kXI-bXs8oNZuWIPtc6bhXiUz9Gm6s,1887
+starlette_jsonapi-0.1.0.dist-info/LICENSE,sha256=9XYqWJSOyRzvsekbWAGuJLB-kq6d1NZiZ7eAsU62lfs,1103
+starlette_jsonapi-0.1.0.dist-info/METADATA,sha256=mxwZTUjGbyhWcvgj7Vswe9_nE8Q_M0VsVqEQQCJfaKg,11402
+starlette_jsonapi-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+starlette_jsonapi-0.1.0.dist-info/top_level.txt,sha256=VW0hZN75nGYt-ydGK_ANfQghh8hIjyZFIdTeOIxp_vM,18
+starlette_jsonapi-0.1.0.dist-info/RECORD,,
