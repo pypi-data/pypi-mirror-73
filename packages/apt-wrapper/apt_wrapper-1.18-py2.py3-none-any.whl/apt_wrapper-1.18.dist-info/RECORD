@@ -1,0 +1,5 @@
+apt_wrapper-1.18.data/scripts/apt,sha256=edK4SDYeak1cbeMlZBnQkFn2OvVZbLfVbMOUPUOyqm4,8036
+apt_wrapper-1.18.dist-info/METADATA,sha256=vCAF59HWqEP3Ev1ogAWxtZREgfBZ8N6-A8AOKmTnLfQ,3848
+apt_wrapper-1.18.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+apt_wrapper-1.18.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+apt_wrapper-1.18.dist-info/RECORD,,
