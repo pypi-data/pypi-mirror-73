@@ -1,0 +1,6 @@
+pyAbacus>=1.1
+pyserial
+numpy
+pyqtgraph
+PyQt5
+qdarkstyle
