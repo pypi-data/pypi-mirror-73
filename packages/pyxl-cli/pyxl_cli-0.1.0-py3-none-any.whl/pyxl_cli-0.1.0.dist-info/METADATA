@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyxl-cli
+Version: 0.1.0
+Summary: openpyxl wrapper for cli use
+License: MIT
+Author: wataru-kurashima
+Author-email: wataru-kurashima@hands-lab.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: openpyxl (>=3.0.4,<4.0.0)
