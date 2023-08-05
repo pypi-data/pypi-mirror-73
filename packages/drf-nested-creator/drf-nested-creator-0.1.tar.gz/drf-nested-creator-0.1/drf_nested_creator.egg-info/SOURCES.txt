@@ -1,0 +1,11 @@
+README.md
+setup.py
+drf_nested_creator.egg-info/PKG-INFO
+drf_nested_creator.egg-info/SOURCES.txt
+drf_nested_creator.egg-info/dependency_links.txt
+drf_nested_creator.egg-info/requires.txt
+drf_nested_creator.egg-info/top_level.txt
+src/__init__.py
+src/creators.py
+src/fields.py
+src/serializers.py
