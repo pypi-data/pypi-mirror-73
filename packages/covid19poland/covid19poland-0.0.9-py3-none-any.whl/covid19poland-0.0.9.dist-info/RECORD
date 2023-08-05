@@ -1,0 +1,15 @@
+covid19poland/PLtwitter.py,sha256=Zes2D8VaYzf7rH9YmaNj5wE_2GCgYouAM2EH4suoZ7c,18999
+covid19poland/__init__.py,sha256=0NDdhoPrxKHkMFdzPZsOX0WcgYAWxQiGEmXiCYhMMb8,442
+covid19poland/main.py,sha256=3IyhfwX2brVdcI95jRNcZpHGW4S8gcDtMW6DOh4EIJs,5843
+covid19poland/offline.py,sha256=v6spizlNg18uFYjGhkVWDtpPjmpShiqAe-813rC5aAY,1577
+covid19poland/parse.py,sha256=cu4_FByE6jtLfMyBp0oIYxK6xyt9Ix2iIJDZiLRFI78,1287
+covid19poland/wiki.py,sha256=ogc9yU4_bxFQNVt5WYZ7Lp3S4bGk4Nfib4NXJ2EedmM,3101
+covid19poland-0.0.9.data/data/data/months/2020-03.json,sha256=YjDqE1OoOkoEYfAxqRF91hzvjYxV8PL7hOwHD63J0fw,13214
+covid19poland-0.0.9.data/data/data/months/2020-04.json,sha256=pp2qjuLCDZuUucRiPGzSS69kORdvNdvXADn6TfeWBOQ,140476
+covid19poland-0.0.9.data/data/data/months/2020-05.json,sha256=FI-8wPq0GXgEFy9wMDQLqDB3vQNPekcdsYqfqLUefuA,100264
+covid19poland-0.0.9.data/data/data/months/2020-06.json,sha256=mEUPem316L3I4cTyt7spmGx0Fs-fb-akBzEQ1afVLJM,94789
+covid19poland-0.0.9.dist-info/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+covid19poland-0.0.9.dist-info/METADATA,sha256=phMmwrZojC40jD6S-jEOfq4vfvkrpX-vFoP_GLSRIAc,2427
+covid19poland-0.0.9.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+covid19poland-0.0.9.dist-info/top_level.txt,sha256=_baHUDYwbW1hUYpV93e4vHw6pQA0SumSdc1cll0O5dQ,14
+covid19poland-0.0.9.dist-info/RECORD,,
