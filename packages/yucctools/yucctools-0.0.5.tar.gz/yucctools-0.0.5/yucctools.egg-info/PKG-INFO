@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yucctools
+Version: 0.0.5
+Summary: useful tools, such as logger
+Home-page: https://github.com/yucc2018/yucctools
+Author: Chen-Chen Yu
+Author-email: 6506666@gmail.com
+License: MIT
+Description: #### yucctools
+        
+        常用的工具分享
+        
+        1. 日志工具
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
