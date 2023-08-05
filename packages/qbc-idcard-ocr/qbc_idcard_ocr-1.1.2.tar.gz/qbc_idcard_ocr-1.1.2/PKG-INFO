@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: qbc_idcard_ocr
+Version: 1.1.2
+Summary: Recognize ID Card By Ocr.
+Home-page: https://www.shinelab.cn/
+Author: charles
+Author-email: charlesmeng@shinelab.cn
+License: MIT
+Description: Recognize ID Card By Ocr.
+Keywords: python,idcard,ocr
+Platform: UNKNOWN
