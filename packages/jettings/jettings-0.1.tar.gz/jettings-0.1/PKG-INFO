@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: jettings
+Version: 0.1
+Summary: A super simple JSON based settings (jettings) manager for all your python application needs
+Home-page: https://github.com/zorani/jettings
+Author: zoran ilievski
+Author-email: pythonic@clientuser.net
+License: MIT
+Download-URL: https://github.com/zorani/jettings/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: JSON,SETTING,SETTINGS,CONFIGURATION,MANAGER
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
