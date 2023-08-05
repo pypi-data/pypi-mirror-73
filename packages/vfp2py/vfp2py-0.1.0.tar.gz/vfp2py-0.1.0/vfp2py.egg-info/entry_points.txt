@@ -1,0 +1,3 @@
+[console_scripts]
+vfp2py = vfp2py.__main__:main
+
