@@ -1,0 +1,10 @@
+mypy_boto3_cognito_sync/__init__.py,sha256=dYrPHtP_eGd0YFHkPnk6o4Co-YTJM6DdL4jq1wYp7S8,486
+mypy_boto3_cognito_sync/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_cognito_sync/client.py,sha256=AoTSBMOoEOl92PqWgPHlLGJnqrPQbjJRrxfWusVbFCE,9152
+mypy_boto3_cognito_sync/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_cognito_sync/type_defs.py,sha256=N66TxRAG_fpzL5s1aB8qcMbXphUs6lJ1hn-4MQThO4Q,5809
+mypy_boto3_cognito_sync/version.py,sha256=Xdy61EH737YQbPkgQNzkOw4kqGFTk5SCMDbJTjc0xGI,57
+mypy_boto3_cognito_sync-1.14.17.0.dist-info/METADATA,sha256=BLXq3d6XBjCG4rWPTJtTSGogK19IVZ3K8tKk5Mz8nQw,4338
+mypy_boto3_cognito_sync-1.14.17.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_cognito_sync-1.14.17.0.dist-info/top_level.txt,sha256=xbULGC9PIOtOwSzWer-xhXzrjQK7PGB_1HydZPF4pRI,24
+mypy_boto3_cognito_sync-1.14.17.0.dist-info/RECORD,,
