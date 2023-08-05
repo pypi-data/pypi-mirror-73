@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: bpnet
+Version: 0.0.23
+Summary: BPNet: toolkit to learn motif synthax from high-resolution functional genomics data using convolutional neural networks
+Home-page: https://github.com/kundajelab/bpnet
+Author: Ziga Avsec
+Author-email: avsec@in.tum.de
+License: MIT license
+Keywords: deep learning,computational biology,bioinformatics,genomics
+Platform: UNKNOWN
+Requires-Dist: argh
+Requires-Dist: attr
+Requires-Dist: related
+Requires-Dist: cloudpickle (>=1.0.0)
+Requires-Dist: concise (>=0.6.7)
+Requires-Dist: deepexplain
+Requires-Dist: gin-config
+Requires-Dist: keras (==2.2.4)
+Requires-Dist: scikit-learn
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Requires-Dist: matplotlib (>=3.0.2)
+Requires-Dist: plotnine
+Requires-Dist: seaborn
+Requires-Dist: pybigwig
+Requires-Dist: pybedtools
+Requires-Dist: modisco (>=0.5.1.2)
+Requires-Dist: joblib
+Requires-Dist: kipoi (>=0.6.8)
+Requires-Dist: kipoi-utils (>=0.3.0)
+Requires-Dist: kipoiseq (>=0.2.2)
+Requires-Dist: papermill
+Requires-Dist: jupyter-client (>=6.1.2)
+Requires-Dist: ipykernel
+Requires-Dist: nbconvert (>=5.5.0)
+Requires-Dist: vdom (>=0.6)
+Requires-Dist: ipython
+Requires-Dist: tqdm
+Requires-Dist: pprint
+Requires-Dist: genomelake
+Requires-Dist: pysam
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.3.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Requires-Dist: gdown ; extra == 'dev'
+Requires-Dist: virtualenv ; extra == 'dev'
+Provides-Extra: extras
+Requires-Dist: comet-ml ; extra == 'extras'
+Requires-Dist: wandb ; extra == 'extras'
+Requires-Dist: fastparquet ; extra == 'extras'
+Requires-Dist: python-snappy ; extra == 'extras'
+Requires-Dist: ipywidgets ; extra == 'extras'
+
+UNKNOWN
+
+
