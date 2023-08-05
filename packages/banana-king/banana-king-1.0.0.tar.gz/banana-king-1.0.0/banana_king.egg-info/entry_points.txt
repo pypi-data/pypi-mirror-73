@@ -1,0 +1,3 @@
+[console_scripts]
+banana-king = __init__.__init__:main
+

@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: banana-king
+Version: 1.0.0
+Summary: Banana King Nerver Absent! Timed execution.
+Home-page: https://github.com/dhgdhg/Banana-King
+Author: twfb
+Author-email: twfb@hotmail.com
+Maintainer: twfb
+Maintainer-email: twfb@hotmail.com
+License: BSD License
+Description: https://github.com/dhgdhg/Banana-King
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
