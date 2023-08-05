@@ -1,0 +1,8 @@
+README.md
+setup.py
+rhq_menu.egg-info/PKG-INFO
+rhq_menu.egg-info/SOURCES.txt
+rhq_menu.egg-info/dependency_links.txt
+rhq_menu.egg-info/top_level.txt
+rhqmenu/__init__.py
+rhqmenu/menu.py
