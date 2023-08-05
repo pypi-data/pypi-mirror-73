@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: icd10_c2d
+Version: 0.0.2
+Summary: A package to get ICD10 Description from ICD10 Codes
+Home-page: https://github.com/pypa/sampleproject
+Author: Kantheti Saket Ram
+Author-email: sakethaux1111@gmail.com
+License: UNKNOWN
+Description: ## Introduction
+        
+        + This is an Open-Source Project intended to aid the developers in the Healthcare Industry.
+        + This package helps you to get the ICD-10 Code's Description when provided with a ICD-10 Code/ICD-10 Codes List
+        
+        ## How To Use
+        
+        + Install using `pip install icd10-c2d`
+        + Import using `from icd10.code2description import Code2Description as c2d`
+        + Get ICD Code's Description using `c2d.getICDDescription(["ICD10 Code 1","ICD10 Code 2","ICD10 Code N"])`
+        + Finally, it looks like this :
+        
+        ```
+        from icd10.code2description import Code2Description as c2d
+        c2d.getICDDescription(["ICD10 Code 1","ICD10 Code 2","ICD10 Code N"])
+        ```
+        
+        + Returns you a Map of ICD Codes with their Descriptions.
+        
+        > Note : All the imports/dependencies are automatically installed.
+        
+        ## Bugs & Issues
+        
+        + If you find a Bug or have an Idea, please feel free to drop a mail @ sakethaux1111@gmail.com!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+README.md
+setup.py
+icd10/__init__.py
+icd10/code2description.py
+icd10_c2d.egg-info/PKG-INFO
+icd10_c2d.egg-info/SOURCES.txt
+icd10_c2d.egg-info/dependency_links.txt
+icd10_c2d.egg-info/requires.txt
+icd10_c2d.egg-info/top_level.txt
