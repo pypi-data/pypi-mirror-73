@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ghpusher
+Version: 0.1.1
+Summary: Push HTML to a github pages branch
+Home-page: https://github.com/dbradf/gh-pusher
+License: Apache-2.0
+Author: David Bradford
+Author-email: david.bradford@mongodb.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Click (>=7.0,<8.0)
+Requires-Dist: plumbum (>=1.6.9,<2.0.0)
+Project-URL: Repository, https://github.com/dbradf/gh-pusher
+Description-Content-Type: text/markdown
+
+# gh-pusher
+
+A tool to push changes to a gh-pages branch.
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ghpusher) ![PyPI](https://img.shields.io/pypi/v/ghpusher.svg) [![Actions Status](https://github.com/dbradf/gh-pusher/workflows/test-python-project/badge.svg)](https://github.com/dbradf/gh-pusher/actions)
+
+
+## Install
+
+```bash
+$ pip install ghpusher
+```
+
+## Usage
+
+```
+$ gh-pusher --help
+Usage: gh-pusher [OPTIONS]
+
+  Publish documentation changes to a github changes branch.
+
+  Move a directory of built documentation from the build directory to  the
+  base on the repository on the target github pages branch. If there are any
+  changes to the documention, they will be added in a commit under the same
+  author and commit message as the last commit message on the active branch.
+
+Options:
+  --target-branch TEXT  Branch to publish documentation.
+  --build-dir PATH      Directory containing documentation to publish.
+                        [required]
+
+  --git-binary PATH     Path to git binary.
+  --repo-base PATH      Path to base of repository.
+  --help                Show this message and exit.
+```
+
