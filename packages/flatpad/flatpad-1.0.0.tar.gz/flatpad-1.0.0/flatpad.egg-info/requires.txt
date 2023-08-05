@@ -1,0 +1,6 @@
+bs4
+django
+fritzhome
+lxml
+netaddr
+netifaces
