@@ -1,0 +1,3 @@
+[iotile.proxy]
+nrf52832_safemode = iotile_support_exec_nrf52832_3.nrf52832_safemode
+
