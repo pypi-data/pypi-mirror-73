@@ -1,0 +1,5 @@
+victoria
+aiohttp==3.5.4
+aiorun
+cchardet
+aiodns
