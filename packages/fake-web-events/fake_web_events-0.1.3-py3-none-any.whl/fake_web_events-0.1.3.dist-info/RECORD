@@ -1,0 +1,9 @@
+fake_web_events/__init__.py,sha256=1GjdQFcby4e8MtZ4ErdbbOoIr9Q7W8iku5b1nx3-EZA,1240
+fake_web_events/config.template.yml,sha256=Fs4ubEmBu_Hhr777XvZ7Xu9oogrxCvVuC-50fx67_zk,1366
+fake_web_events/event.py,sha256=k5G7AQlZERCW8rusCumz8t1etMIgAmgygoTEhgJ_BUo,2176
+fake_web_events/simulation.py,sha256=7cyXPKWkuCHlchBGLAsSXYy36891e6F3dC2SuCYmcvc,3355
+fake_web_events/user.py,sha256=0yb0H5p11fqA-_LJSuR32H3dp2915XWa-MPvnq7b8lg,4639
+fake_web_events-0.1.3.dist-info/METADATA,sha256=ytKqz4kWgFnXdj0yTwpllOcSKCNvMCElHbNzIb7Y3sE,5866
+fake_web_events-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fake_web_events-0.1.3.dist-info/top_level.txt,sha256=34mmviFM1xacLNX87fGwg7rWtZ27b_ZHh3TE04e9t68,16
+fake_web_events-0.1.3.dist-info/RECORD,,
