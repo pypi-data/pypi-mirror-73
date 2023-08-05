@@ -1,0 +1,78 @@
+# shrtcodes
+
+[![Build Status](https://travis-ci.org/Peter554/shrtcodes.svg?branch=master)](https://travis-ci.org/Peter554/shrtcodes)
+
+Simple shortcodes for Python.
+
+`pip install shrtcodes`
+
+## Example
+
+Text containing shortcodes.
+
+- `img` - a shortcode.
+- `details` - a paired shortcode.
+
+```text
+Foo bar baz.
+
+{% img https://images.com/cutedog.jpg | A cute dog! %}
+
+{% details Some extra info %}
+This is some extra info.
+{% enddetails %}
+
+Foo bar baz.
+```
+
+Build a `process` function:
+
+```python
+# shortcodes.py
+
+from shrtcodes.shrtcodes import make_process
+
+# `img_handler` is a single line shortcode handler. 
+#   * Arguments correspond to the shortcode parameters (pipe separated).  
+def img_handler(src, alt):
+    return f'<img src="{src}" alt="{alt}"/>'
+
+# `details_handler` is a paired shortcode handler.
+#   * First argument is the contained block.
+#   * Subsequent arguments correspond to the shortcode parameters (pipe separated).
+def details_handler(details, summary):
+    return f'<details><summary>{summary}</summary>{details}</details>'
+
+# Call `make_process` with: 
+#   * A dict of single line shortcode handlers.
+#   * A dict of paired shortcode handlers.
+process = make_process({
+    'img': img_handler
+}, {
+    'details': details_handler
+})
+```
+
+Use your `process` function:
+
+```python
+from shortcodes import process
+text = process('...')
+```
+
+Output:
+
+```text
+Foo bar baz.
+
+<img src="https://images.com/cutedog.jpg" alt="A cute dog!"/>
+
+<details><summary>Some extra info</summary>This is some extra info.</details>
+
+Foo bar baz.
+```
+
+## Further examples
+
+See the tests.
+
