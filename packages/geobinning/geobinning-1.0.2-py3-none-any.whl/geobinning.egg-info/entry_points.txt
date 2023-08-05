@@ -1,0 +1,3 @@
+[console_scripts]
+geobinning = geobinning.__main__:main
+
