@@ -1,0 +1,10 @@
+setup.py
+dist-roshan/Binomialdistribution.py
+dist-roshan/Gaussiandistribution.py
+dist-roshan/Generaldistribution.py
+dist-roshan/__init__.py
+dist_roshan.egg-info/PKG-INFO
+dist_roshan.egg-info/SOURCES.txt
+dist_roshan.egg-info/dependency_links.txt
+dist_roshan.egg-info/not-zip-safe
+dist_roshan.egg-info/top_level.txt
