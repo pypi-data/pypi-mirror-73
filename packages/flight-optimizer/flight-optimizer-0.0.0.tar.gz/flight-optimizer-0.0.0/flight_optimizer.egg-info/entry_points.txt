@@ -1,0 +1,3 @@
+[console_scripts]
+flight_optimizer = flight_optimizer.cli:search
+
