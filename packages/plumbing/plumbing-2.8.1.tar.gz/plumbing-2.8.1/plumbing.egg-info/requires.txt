@@ -1,0 +1,6 @@
+autopaths>=1.4.1
+six
+pandas
+numpy
+matplotlib
+retry
