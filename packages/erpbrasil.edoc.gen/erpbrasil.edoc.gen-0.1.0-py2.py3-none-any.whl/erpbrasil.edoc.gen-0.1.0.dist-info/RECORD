@@ -1,0 +1,16 @@
+erpbrasil.edoc.gen-0.1.0-py3.8-nspkg.pth,sha256=UmSLPUeyNyi05LT_8u9LYpTOlKYEsla7ZGjSwpSUslA,554
+erpbrasil/edoc/__init__.py,sha256=g78dkBMFNiTupCmbntR939csYI-CpByoPtHZ23dUeCg,70
+erpbrasil/edoc/gen/__init__.py,sha256=2cxE5sRcpwIj6LE-seLnzX17c38jhKyWjkWkc1xPuD8,56
+erpbrasil/edoc/gen/__main__.py,sha256=j3Gi5GRo1lPspV36gHpYt3iTTYPfFEktjsSwITpJOZ8,406
+erpbrasil/edoc/gen/cli.py,sha256=5FzLeLYDNo2Nx4T90HYMzfCVytVcwzdlWxldghtYXag,844
+erpbrasil/edoc/gen/download_schema.py,sha256=uFTtBPfX3TrJsTlNNqnI4J0eQ-Ok_azslpSiFIIkbvI,2250
+erpbrasil/edoc/gen/generate_odoo.py,sha256=LTUXl3q6rv16bxAG5MmbfyFHVn4-Oj2wbUpgQ1ZwQ68,5632
+erpbrasil/edoc/gen/generate_python.py,sha256=f2B-BGZK32EEAa1HiAw4xCfhXB85BEU3rMicmcyjZTw,5042
+erpbrasil.edoc.gen-0.1.0.dist-info/AUTHORS.rst,sha256=1hgm88CRQXaY-r6_SjxFU5K-Ldm63ZOI0FzZGeZZ1as,64
+erpbrasil.edoc.gen-0.1.0.dist-info/LICENSE,sha256=dVgWA2wJln1k6q6Wa_8LvsnMeJDqAaRMIYBaWBxMdNc,1110
+erpbrasil.edoc.gen-0.1.0.dist-info/METADATA,sha256=92yV57SOsHw_jfn29qNwLKsE0EF9JiYJ_oXQvl5Ftyw,2229
+erpbrasil.edoc.gen-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+erpbrasil.edoc.gen-0.1.0.dist-info/entry_points.txt,sha256=CUpDRYl1qdjfAw4SqOXgFvb5q220I_AeERJdu05F3bA,326
+erpbrasil.edoc.gen-0.1.0.dist-info/namespace_packages.txt,sha256=cGgW5e5CodoFnz3Kk_AOTJvySHE_MSLx_rh0FHJBncA,10
+erpbrasil.edoc.gen-0.1.0.dist-info/top_level.txt,sha256=cGgW5e5CodoFnz3Kk_AOTJvySHE_MSLx_rh0FHJBncA,10
+erpbrasil.edoc.gen-0.1.0.dist-info/RECORD,,
