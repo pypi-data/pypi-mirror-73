@@ -1,0 +1,10 @@
+setup.py
+zuby_test_dsnd_distributions/Binomialdistribution.py
+zuby_test_dsnd_distributions/Gaussiandistribution.py
+zuby_test_dsnd_distributions/Generaldistribution.py
+zuby_test_dsnd_distributions/__init__.py
+zuby_test_dsnd_distributions.egg-info/PKG-INFO
+zuby_test_dsnd_distributions.egg-info/SOURCES.txt
+zuby_test_dsnd_distributions.egg-info/dependency_links.txt
+zuby_test_dsnd_distributions.egg-info/not-zip-safe
+zuby_test_dsnd_distributions.egg-info/top_level.txt
