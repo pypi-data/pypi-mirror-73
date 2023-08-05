@@ -1,0 +1,7 @@
+pyinstrument_patch/__init__.py,sha256=VmSjmlTIkjRAHhjNiK_f9kH7a37FkQx3s8sHoE-CH6U,204
+pyinstrument_patch/profiler.py,sha256=EprLLh9jHKhkibLHZmxP51T9po6VOoCkyr5kNlRxepo,945
+pyinstrument_patch/session.py,sha256=tnlIBoW-K-SY2MWVGxkjErCwMIVcNjMNzGKKH3Eoqjk,2020
+pyinstrument_patch-0.0.2.dist-info/METADATA,sha256=qGXrGhDcbMo3HfX8XTnQQB_KJux6bNQHojmnwXRw-QY,877
+pyinstrument_patch-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyinstrument_patch-0.0.2.dist-info/top_level.txt,sha256=5rxHZ_awICpy_bLAAk2nllGzeburhu3JooVWWQ2HMvA,19
+pyinstrument_patch-0.0.2.dist-info/RECORD,,
