@@ -1,0 +1,6 @@
+pysb
+PythonCyc
+jupyter
+ipykernel
+seaborn
+importlib-resources

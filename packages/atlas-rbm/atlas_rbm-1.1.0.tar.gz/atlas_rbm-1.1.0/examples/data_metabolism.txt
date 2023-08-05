@@ -1,0 +1,17 @@
+GENE	REACTION	SUBSTRATES	PRODUCTS
+araE	TRANS-RXN-10-alpha-af	PER-PROTON, PER-alpha-L-arabinofuranose	PROTON, alpha-L-arabinofuranose
+araE	TRANS-RXN-10-beta-af	PER-PROTON, PER-beta-L-arabinofuranose	PROTON, beta-L-arabinofuranose
+araE	TRANS-RXN-10-alpha-ap	PER-PROTON, PER-alpha-L-arabinopyranose	PROTON, alpha-L-arabinopyranose
+araE	TRANS-RXN-10-beta-ap	PER-PROTON, PER-beta-L-arabinopyranose	PROTON, beta-L-arabinopyranose
+
+[araF, araH, araH, araG, araG]	ABC-2-RXN-alpha-af	WATER, ATP, PER-alpha-L-arabinofuranose	Pi, ADP, PROTON, alpha-L-arabinofuranose
+[araF, araH, araH, araG, araG]	ABC-2-RXN-beta-af	WATER, ATP, PER-beta-L-arabinofuranose	Pi, ADP, PROTON, beta-L-arabinofuranose
+[araF, araH, araH, araG, araG]	ABC-2-RXN-alpha-ap	WATER, ATP, PER-alpha-L-arabinopyranose	Pi, ADP, PROTON, alpha-L-arabinopyranose
+[araF, araH, araH, araG, araG]	ABC-2-RXN-beta-ap	WATER, ATP, PER-beta-L-arabinopyranose	Pi, ADP, PROTON, beta-L-arabinopyranose
+
+araA	ARABISOM-RXN-alpha-ap	alpha-L-arabinopyranose	L-RIBULOSE
+araA	ARABISOM-RXN-beta-ap	beta-L-arabinopyranose	L-RIBULOSE
+
+araB	RXN0-5116	L-RIBULOSE, ATP	PROTON, L-RIBULOSE-5-P, ADP
+
+araD	RIBULPEPIM-RXN	L-RIBULOSE-5-P	XYLULOSE-5-PHOSPHATE

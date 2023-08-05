@@ -1,0 +1,9 @@
+begin model
+begin molecule types
+  met(name,loc~cyt~per~ex,prot)
+  dna(name,type~BS~pro1~pro2~pro3~pro4~rbs~cds~ter1~ter2,prot,rna,up,dw)
+  rna(name,type~BS~pro1~pro2~pro3~pro4~rbs~cds~ter1~ter2,dna,prot)
+  prot(name,loc~cyt~per~ex,dna,met,rna,up,dw)
+end molecule types
+
+end model

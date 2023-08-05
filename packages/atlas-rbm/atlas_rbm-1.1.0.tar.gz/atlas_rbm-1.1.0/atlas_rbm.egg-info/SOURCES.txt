@@ -1,0 +1,52 @@
+LICENSE.txt
+MANIFEST.in
+Makefile
+README.md
+atlas.pdf
+setup.cfg
+setup.py
+versioneer.py
+atlas_rbm/__init__.py
+atlas_rbm/_version.py
+atlas_rbm/atlas.py
+atlas_rbm/construct_model_from_genome_graph.py
+atlas_rbm/construct_model_from_interaction_network.py
+atlas_rbm/construct_model_from_metabolic_network.py
+atlas_rbm/construct_model_from_sigma_specificity_network.py
+atlas_rbm/export.py
+atlas_rbm/notebooks
+atlas_rbm/old_atlas.py
+atlas_rbm/simulation.py
+atlas_rbm/templates
+atlas_rbm/utils.py
+atlas_rbm.egg-info/PKG-INFO
+atlas_rbm.egg-info/SOURCES.txt
+atlas_rbm.egg-info/dependency_links.txt
+atlas_rbm.egg-info/requires.txt
+atlas_rbm.egg-info/top_level.txt
+atlas_rbm/notebooks/Expand Metabolic Network.ipynb
+atlas_rbm/notebooks/Monomer+Initials+Observables from metabolic network.ipynb
+atlas_rbm/notebooks/Rules from SigmaFactors x Architecture.ipynb
+atlas_rbm/notebooks/Rules from genome architecture.ipynb
+atlas_rbm/notebooks/Rules from metabolic network.ipynb
+atlas_rbm/notebooks/Rules from protein-protein.ipynb
+atlas_rbm/notebooks/Rules from protein-small compounds.ipynb
+atlas_rbm/notebooks/Rules from tf-tfbs.ipynb
+atlas_rbm/notebooks/api_testing-arabinose-ProtDNA_network.ipynb
+atlas_rbm/notebooks/api_testing-arabinose-met+ProtProt+ProtMet+ProtDNA+TXTL_networks.ipynb
+atlas_rbm/notebooks/api_testing-arabinose-metabolic_and_interaction_networks.ipynb
+atlas_rbm/notebooks/api_testing-lactose-genome_graphs.ipynb
+atlas_rbm/notebooks/api_testing-lactose-interaction+metabolic_networks.ipynb
+atlas_rbm/notebooks/api_testing-lactose-interaction_network.ipynb
+atlas_rbm/notebooks/api_testing-lactose-metabolic+interaction_networks.ipynb
+atlas_rbm/notebooks/api_testing-lactose-metabolic_network.ipynb
+atlas_rbm/notebooks/api_testing-sigma-SigmaPromoter_network.ipynb
+atlas_rbm/notebooks/conflicting_reactions.txt
+atlas_rbm/notebooks/pyvipr_test.ipynb
+atlas_rbm/notebooks/test.bngl
+atlas_rbm/notebooks/test.kappa
+atlas_rbm/templates/model_template.ipynb
+examples/data_metabolism.txt
+examples/model.ipynb.ipynb
+examples/model_arabinose.bngl
+examples/model_arabinose.kappa

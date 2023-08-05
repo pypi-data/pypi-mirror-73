@@ -1,0 +1,286 @@
+begin model
+begin parameters
+  fwd_ALLOLACTOSE_DEG_alpha               1.000000e+00
+  fwd_ALLOLACTOSE_DEG_beta                1.000000e+00
+  fwd_BETAGALACTOSID_RXN                  1.000000e+00
+  fwd_BETAGALACTOSID_RXN_alpha            1.000000e+00
+  fwd_GALACTOACETYLTRAN_RXN_galactose     1.000000e+00
+  fwd_GALACTOSE_MUTAROTATION              1.000000e+00
+  fwd_GLUCOSE_MUTAROTATION                1.000000e+00
+  fwd_LACTOSE_MUTAROTATION                1.000000e+00
+  fwd_PhysicalInteractionRule_1           1.000000e+00
+  fwd_PhysicalInteractionRule_2           1.000000e+00
+  fwd_PhysicalInteractionRule_3           1.000000e+00
+  fwd_PhysicalInteractionRule_4           1.000000e+00
+  fwd_RXN0_5363                           1.000000e+00
+  fwd_RXN0_5363_beta                      1.000000e+00
+  fwd_RXN0_7215                           1.000000e+00
+  fwd_RXN0_7217                           1.000000e+00
+  fwd_RXN0_7219                           1.000000e+00
+  fwd_RXN_17726                           1.000000e+00
+  fwd_RXN_17755                           1.000000e+00
+  fwd_TRANS_RXN_24                        1.000000e+00
+  fwd_TRANS_RXN_24_beta                   1.000000e+00
+  fwd_TRANS_RXN_94                        1.000000e+00
+  rvs_ALLOLACTOSE_DEG_alpha               0.000000e+00
+  rvs_ALLOLACTOSE_DEG_beta                0.000000e+00
+  rvs_BETAGALACTOSID_RXN                  0.000000e+00
+  rvs_BETAGALACTOSID_RXN_alpha            0.000000e+00
+  rvs_GALACTOACETYLTRAN_RXN_galactose     1.000000e+00
+  rvs_GALACTOSE_MUTAROTATION              1.000000e+00
+  rvs_GLUCOSE_MUTAROTATION                1.000000e+00
+  rvs_LACTOSE_MUTAROTATION                1.000000e+00
+  rvs_PhysicalInteractionRule_1           0.000000e+00
+  rvs_PhysicalInteractionRule_2           0.000000e+00
+  rvs_PhysicalInteractionRule_3           0.000000e+00
+  rvs_PhysicalInteractionRule_4           0.000000e+00
+  rvs_RXN0_5363                           1.000000e+00
+  rvs_RXN0_5363_beta                      1.000000e+00
+  rvs_RXN0_7215                           1.000000e+00
+  rvs_RXN0_7217                           1.000000e+00
+  rvs_RXN0_7219                           1.000000e+00
+  rvs_RXN_17726                           1.000000e+00
+  rvs_RXN_17755                           1.000000e+00
+  rvs_TRANS_RXN_24                        0.000000e+00
+  rvs_TRANS_RXN_24_beta                   0.000000e+00
+  rvs_TRANS_RXN_94                        1.000000e+00
+  t0_met_ACETYL_COA_cyt                   0.000000e+00
+  t0_met_ACETYL_COA_ex                    0.000000e+00
+  t0_met_ACETYL_COA_per                   0.000000e+00
+  t0_met_CO_A_cyt                         0.000000e+00
+  t0_met_CO_A_ex                          0.000000e+00
+  t0_met_CO_A_per                         0.000000e+00
+  t0_met_CPD_3561_cyt                     0.000000e+00
+  t0_met_CPD_3561_ex                      0.000000e+00
+  t0_met_CPD_3561_per                     0.000000e+00
+  t0_met_CPD_3785_cyt                     0.000000e+00
+  t0_met_CPD_3785_ex                      0.000000e+00
+  t0_met_CPD_3785_per                     0.000000e+00
+  t0_met_CPD_3801_cyt                     0.000000e+00
+  t0_met_CPD_3801_ex                      0.000000e+00
+  t0_met_CPD_3801_per                     0.000000e+00
+  t0_met_D_ARABINOSE_cyt                  0.000000e+00
+  t0_met_D_ARABINOSE_ex                   0.000000e+00
+  t0_met_D_ARABINOSE_per                  0.000000e+00
+  t0_met_Fructofuranose_cyt               0.000000e+00
+  t0_met_Fructofuranose_ex                0.000000e+00
+  t0_met_Fructofuranose_per               0.000000e+00
+  t0_met_MELIBIOSE_cyt                    0.000000e+00
+  t0_met_MELIBIOSE_ex                     0.000000e+00
+  t0_met_MELIBIOSE_per                    0.000000e+00
+  t0_met_PROTON_cyt                       0.000000e+00
+  t0_met_PROTON_ex                        0.000000e+00
+  t0_met_PROTON_per                       1.000000e+02
+  t0_met_WATER_cyt                        1.000000e+02
+  t0_met_WATER_ex                         0.000000e+00
+  t0_met_WATER_per                        0.000000e+00
+  t0_met__6_Acetyl_beta_D_Galactose_cyt   0.000000e+00
+  t0_met__6_Acetyl_beta_D_Galactose_ex    0.000000e+00
+  t0_met__6_Acetyl_beta_D_Galactose_per   0.000000e+00
+  t0_met_alpha_ALLOLACTOSE_cyt            0.000000e+00
+  t0_met_alpha_ALLOLACTOSE_ex             0.000000e+00
+  t0_met_alpha_ALLOLACTOSE_per            0.000000e+00
+  t0_met_alpha_GALACTOSE_cyt              0.000000e+00
+  t0_met_alpha_GALACTOSE_ex               0.000000e+00
+  t0_met_alpha_GALACTOSE_per              0.000000e+00
+  t0_met_alpha_glucose_cyt                0.000000e+00
+  t0_met_alpha_glucose_ex                 0.000000e+00
+  t0_met_alpha_glucose_per                0.000000e+00
+  t0_met_alpha_lactose_cyt                0.000000e+00
+  t0_met_alpha_lactose_ex                 0.000000e+00
+  t0_met_alpha_lactose_per                0.000000e+00
+  t0_met_beta_ALLOLACTOSE_cyt             0.000000e+00
+  t0_met_beta_ALLOLACTOSE_ex              0.000000e+00
+  t0_met_beta_ALLOLACTOSE_per             0.000000e+00
+  t0_met_beta_GALACTOSE_cyt               0.000000e+00
+  t0_met_beta_GALACTOSE_ex                0.000000e+00
+  t0_met_beta_GALACTOSE_per               0.000000e+00
+  t0_met_beta_glucose_cyt                 0.000000e+00
+  t0_met_beta_glucose_ex                  0.000000e+00
+  t0_met_beta_glucose_per                 0.000000e+00
+  t0_met_beta_lactose_cyt                 0.000000e+00
+  t0_met_beta_lactose_ex                  0.000000e+00
+  t0_met_beta_lactose_per                 1.000000e+02
+  t0_prot_lacA_cyt                        3.000000e+00
+  t0_prot_lacA_ex                         0.000000e+00
+  t0_prot_lacA_mem                        0.000000e+00
+  t0_prot_lacA_per                        0.000000e+00
+  t0_prot_lacY_cyt                        0.000000e+00
+  t0_prot_lacY_ex                         0.000000e+00
+  t0_prot_lacY_mem                        1.000000e+00
+  t0_prot_lacY_per                        0.000000e+00
+  t0_prot_lacZ_cyt                        4.000000e+00
+  t0_prot_lacZ_ex                         0.000000e+00
+  t0_prot_lacZ_mem                        0.000000e+00
+  t0_prot_lacZ_per                        0.000000e+00
+end parameters
+
+begin molecule types
+  met(name~ACETYL_COA~CO_A~CPD_3561~CPD_3785~CPD_3801~D_ARABINOSE~Fructofuranose~MELIBIOSE~PROTON~WATER~_6_Acetyl_beta_D_Galactose~alpha_ALLOLACTOSE~alpha_GALACTOSE~alpha_glucose~alpha_lactose~beta_ALLOLACTOSE~beta_GALACTOSE~beta_glucose~beta_lactose,loc~cyt~per~ex,prot)
+  prot(dna,dw,loc~cyt~ex~mem~per,met,name~lacA~lacY~lacZ,prot,rna,up)
+end molecule types
+
+begin observables
+  Molecules obs_met_ACETYL_COA_cyt                   met(name~ACETYL_COA,loc~cyt,prot)
+  Molecules obs_met_ACETYL_COA_ex                    met(name~ACETYL_COA,loc~ex,prot)
+  Molecules obs_met_ACETYL_COA_per                   met(name~ACETYL_COA,loc~per,prot)
+  Molecules obs_met_CO_A_cyt                         met(name~CO_A,loc~cyt,prot)
+  Molecules obs_met_CO_A_ex                          met(name~CO_A,loc~ex,prot)
+  Molecules obs_met_CO_A_per                         met(name~CO_A,loc~per,prot)
+  Molecules obs_met_CPD_3561_cyt                     met(name~CPD_3561,loc~cyt,prot)
+  Molecules obs_met_CPD_3561_ex                      met(name~CPD_3561,loc~ex,prot)
+  Molecules obs_met_CPD_3561_per                     met(name~CPD_3561,loc~per,prot)
+  Molecules obs_met_CPD_3785_cyt                     met(name~CPD_3785,loc~cyt,prot)
+  Molecules obs_met_CPD_3785_ex                      met(name~CPD_3785,loc~ex,prot)
+  Molecules obs_met_CPD_3785_per                     met(name~CPD_3785,loc~per,prot)
+  Molecules obs_met_CPD_3801_cyt                     met(name~CPD_3801,loc~cyt,prot)
+  Molecules obs_met_CPD_3801_ex                      met(name~CPD_3801,loc~ex,prot)
+  Molecules obs_met_CPD_3801_per                     met(name~CPD_3801,loc~per,prot)
+  Molecules obs_met_D_ARABINOSE_cyt                  met(name~D_ARABINOSE,loc~cyt,prot)
+  Molecules obs_met_D_ARABINOSE_ex                   met(name~D_ARABINOSE,loc~ex,prot)
+  Molecules obs_met_D_ARABINOSE_per                  met(name~D_ARABINOSE,loc~per,prot)
+  Molecules obs_met_Fructofuranose_cyt               met(name~Fructofuranose,loc~cyt,prot)
+  Molecules obs_met_Fructofuranose_ex                met(name~Fructofuranose,loc~ex,prot)
+  Molecules obs_met_Fructofuranose_per               met(name~Fructofuranose,loc~per,prot)
+  Molecules obs_met_MELIBIOSE_cyt                    met(name~MELIBIOSE,loc~cyt,prot)
+  Molecules obs_met_MELIBIOSE_ex                     met(name~MELIBIOSE,loc~ex,prot)
+  Molecules obs_met_MELIBIOSE_per                    met(name~MELIBIOSE,loc~per,prot)
+  Molecules obs_met_PROTON_cyt                       met(name~PROTON,loc~cyt,prot)
+  Molecules obs_met_PROTON_ex                        met(name~PROTON,loc~ex,prot)
+  Molecules obs_met_PROTON_per                       met(name~PROTON,loc~per,prot)
+  Molecules obs_met_WATER_cyt                        met(name~WATER,loc~cyt,prot)
+  Molecules obs_met_WATER_ex                         met(name~WATER,loc~ex,prot)
+  Molecules obs_met_WATER_per                        met(name~WATER,loc~per,prot)
+  Molecules obs_met__6_Acetyl_beta_D_Galactose_cyt   met(name~_6_Acetyl_beta_D_Galactose,loc~cyt,prot)
+  Molecules obs_met__6_Acetyl_beta_D_Galactose_ex    met(name~_6_Acetyl_beta_D_Galactose,loc~ex,prot)
+  Molecules obs_met__6_Acetyl_beta_D_Galactose_per   met(name~_6_Acetyl_beta_D_Galactose,loc~per,prot)
+  Molecules obs_met_alpha_ALLOLACTOSE_cyt            met(name~alpha_ALLOLACTOSE,loc~cyt,prot)
+  Molecules obs_met_alpha_ALLOLACTOSE_ex             met(name~alpha_ALLOLACTOSE,loc~ex,prot)
+  Molecules obs_met_alpha_ALLOLACTOSE_per            met(name~alpha_ALLOLACTOSE,loc~per,prot)
+  Molecules obs_met_alpha_GALACTOSE_cyt              met(name~alpha_GALACTOSE,loc~cyt,prot)
+  Molecules obs_met_alpha_GALACTOSE_ex               met(name~alpha_GALACTOSE,loc~ex,prot)
+  Molecules obs_met_alpha_GALACTOSE_per              met(name~alpha_GALACTOSE,loc~per,prot)
+  Molecules obs_met_alpha_glucose_cyt                met(name~alpha_glucose,loc~cyt,prot)
+  Molecules obs_met_alpha_glucose_ex                 met(name~alpha_glucose,loc~ex,prot)
+  Molecules obs_met_alpha_glucose_per                met(name~alpha_glucose,loc~per,prot)
+  Molecules obs_met_alpha_lactose_cyt                met(name~alpha_lactose,loc~cyt,prot)
+  Molecules obs_met_alpha_lactose_ex                 met(name~alpha_lactose,loc~ex,prot)
+  Molecules obs_met_alpha_lactose_per                met(name~alpha_lactose,loc~per,prot)
+  Molecules obs_met_beta_ALLOLACTOSE_cyt             met(name~beta_ALLOLACTOSE,loc~cyt,prot)
+  Molecules obs_met_beta_ALLOLACTOSE_ex              met(name~beta_ALLOLACTOSE,loc~ex,prot)
+  Molecules obs_met_beta_ALLOLACTOSE_per             met(name~beta_ALLOLACTOSE,loc~per,prot)
+  Molecules obs_met_beta_GALACTOSE_cyt               met(name~beta_GALACTOSE,loc~cyt,prot)
+  Molecules obs_met_beta_GALACTOSE_ex                met(name~beta_GALACTOSE,loc~ex,prot)
+  Molecules obs_met_beta_GALACTOSE_per               met(name~beta_GALACTOSE,loc~per,prot)
+  Molecules obs_met_beta_glucose_cyt                 met(name~beta_glucose,loc~cyt,prot)
+  Molecules obs_met_beta_glucose_ex                  met(name~beta_glucose,loc~ex,prot)
+  Molecules obs_met_beta_glucose_per                 met(name~beta_glucose,loc~per,prot)
+  Molecules obs_met_beta_lactose_cyt                 met(name~beta_lactose,loc~cyt,prot)
+  Molecules obs_met_beta_lactose_ex                  met(name~beta_lactose,loc~ex,prot)
+  Molecules obs_met_beta_lactose_per                 met(name~beta_lactose,loc~per,prot)
+  Molecules obs_prot_lacA_cyt                        prot(dna,dw,loc~cyt,met,name~lacA,prot,rna,up)
+  Molecules obs_prot_lacA_ex                         prot(dna,dw,loc~ex,met,name~lacA,prot,rna,up)
+  Molecules obs_prot_lacA_per                        prot(dna,dw,loc~per,met,name~lacA,prot,rna,up)
+  Molecules obs_prot_lacZ_cyt                        prot(dna,dw,loc~cyt,met,name~lacZ,prot,rna,up)
+  Molecules obs_prot_lacZ_ex                         prot(dna,dw,loc~ex,met,name~lacZ,prot,rna,up)
+  Molecules obs_prot_lacZ_per                        prot(dna,dw,loc~per,met,name~lacZ,prot,rna,up)
+end observables
+
+begin species
+  met(name~ACETYL_COA,loc~cyt,prot)                   t0_met_ACETYL_COA_cyt
+  met(name~ACETYL_COA,loc~ex,prot)                    t0_met_ACETYL_COA_ex
+  met(name~ACETYL_COA,loc~per,prot)                   t0_met_ACETYL_COA_per
+  met(name~CO_A,loc~cyt,prot)                         t0_met_CO_A_cyt
+  met(name~CO_A,loc~ex,prot)                          t0_met_CO_A_ex
+  met(name~CO_A,loc~per,prot)                         t0_met_CO_A_per
+  met(name~CPD_3561,loc~cyt,prot)                     t0_met_CPD_3561_cyt
+  met(name~CPD_3561,loc~ex,prot)                      t0_met_CPD_3561_ex
+  met(name~CPD_3561,loc~per,prot)                     t0_met_CPD_3561_per
+  met(name~CPD_3785,loc~cyt,prot)                     t0_met_CPD_3785_cyt
+  met(name~CPD_3785,loc~ex,prot)                      t0_met_CPD_3785_ex
+  met(name~CPD_3785,loc~per,prot)                     t0_met_CPD_3785_per
+  met(name~CPD_3801,loc~cyt,prot)                     t0_met_CPD_3801_cyt
+  met(name~CPD_3801,loc~ex,prot)                      t0_met_CPD_3801_ex
+  met(name~CPD_3801,loc~per,prot)                     t0_met_CPD_3801_per
+  met(name~D_ARABINOSE,loc~cyt,prot)                  t0_met_D_ARABINOSE_cyt
+  met(name~D_ARABINOSE,loc~ex,prot)                   t0_met_D_ARABINOSE_ex
+  met(name~D_ARABINOSE,loc~per,prot)                  t0_met_D_ARABINOSE_per
+  met(name~Fructofuranose,loc~cyt,prot)               t0_met_Fructofuranose_cyt
+  met(name~Fructofuranose,loc~ex,prot)                t0_met_Fructofuranose_ex
+  met(name~Fructofuranose,loc~per,prot)               t0_met_Fructofuranose_per
+  met(name~MELIBIOSE,loc~cyt,prot)                    t0_met_MELIBIOSE_cyt
+  met(name~MELIBIOSE,loc~ex,prot)                     t0_met_MELIBIOSE_ex
+  met(name~MELIBIOSE,loc~per,prot)                    t0_met_MELIBIOSE_per
+  met(name~PROTON,loc~cyt,prot)                       t0_met_PROTON_cyt
+  met(name~PROTON,loc~ex,prot)                        t0_met_PROTON_ex
+  met(name~PROTON,loc~per,prot)                       t0_met_PROTON_per
+  met(name~WATER,loc~cyt,prot)                        t0_met_WATER_cyt
+  met(name~WATER,loc~ex,prot)                         t0_met_WATER_ex
+  met(name~WATER,loc~per,prot)                        t0_met_WATER_per
+  met(name~_6_Acetyl_beta_D_Galactose,loc~cyt,prot)   t0_met__6_Acetyl_beta_D_Galactose_cyt
+  met(name~_6_Acetyl_beta_D_Galactose,loc~ex,prot)    t0_met__6_Acetyl_beta_D_Galactose_ex
+  met(name~_6_Acetyl_beta_D_Galactose,loc~per,prot)   t0_met__6_Acetyl_beta_D_Galactose_per
+  met(name~alpha_ALLOLACTOSE,loc~cyt,prot)            t0_met_alpha_ALLOLACTOSE_cyt
+  met(name~alpha_ALLOLACTOSE,loc~ex,prot)             t0_met_alpha_ALLOLACTOSE_ex
+  met(name~alpha_ALLOLACTOSE,loc~per,prot)            t0_met_alpha_ALLOLACTOSE_per
+  met(name~alpha_GALACTOSE,loc~cyt,prot)              t0_met_alpha_GALACTOSE_cyt
+  met(name~alpha_GALACTOSE,loc~ex,prot)               t0_met_alpha_GALACTOSE_ex
+  met(name~alpha_GALACTOSE,loc~per,prot)              t0_met_alpha_GALACTOSE_per
+  met(name~alpha_glucose,loc~cyt,prot)                t0_met_alpha_glucose_cyt
+  met(name~alpha_glucose,loc~ex,prot)                 t0_met_alpha_glucose_ex
+  met(name~alpha_glucose,loc~per,prot)                t0_met_alpha_glucose_per
+  met(name~alpha_lactose,loc~cyt,prot)                t0_met_alpha_lactose_cyt
+  met(name~alpha_lactose,loc~ex,prot)                 t0_met_alpha_lactose_ex
+  met(name~alpha_lactose,loc~per,prot)                t0_met_alpha_lactose_per
+  met(name~beta_ALLOLACTOSE,loc~cyt,prot)             t0_met_beta_ALLOLACTOSE_cyt
+  met(name~beta_ALLOLACTOSE,loc~ex,prot)              t0_met_beta_ALLOLACTOSE_ex
+  met(name~beta_ALLOLACTOSE,loc~per,prot)             t0_met_beta_ALLOLACTOSE_per
+  met(name~beta_GALACTOSE,loc~cyt,prot)               t0_met_beta_GALACTOSE_cyt
+  met(name~beta_GALACTOSE,loc~ex,prot)                t0_met_beta_GALACTOSE_ex
+  met(name~beta_GALACTOSE,loc~per,prot)               t0_met_beta_GALACTOSE_per
+  met(name~beta_glucose,loc~cyt,prot)                 t0_met_beta_glucose_cyt
+  met(name~beta_glucose,loc~ex,prot)                  t0_met_beta_glucose_ex
+  met(name~beta_glucose,loc~per,prot)                 t0_met_beta_glucose_per
+  met(name~beta_lactose,loc~cyt,prot)                 t0_met_beta_lactose_cyt
+  met(name~beta_lactose,loc~ex,prot)                  t0_met_beta_lactose_ex
+  met(name~beta_lactose,loc~per,prot)                 t0_met_beta_lactose_per
+  prot(dna,dw,loc~cyt,met,name~lacA,prot,rna,up)      t0_prot_lacA_cyt
+  prot(dna,dw,loc~ex,met,name~lacA,prot,rna,up)       t0_prot_lacA_ex
+  prot(dna,dw,loc~mem,met,name~lacA,prot,rna,up)      t0_prot_lacA_mem
+  prot(dna,dw,loc~per,met,name~lacA,prot,rna,up)      t0_prot_lacA_per
+  prot(dna,dw,loc~cyt,met,name~lacY,prot,rna,up)      t0_prot_lacY_cyt
+  prot(dna,dw,loc~ex,met,name~lacY,prot,rna,up)       t0_prot_lacY_ex
+  prot(dna,dw,loc~mem,met,name~lacY,prot,rna,up)      t0_prot_lacY_mem
+  prot(dna,dw,loc~per,met,name~lacY,prot,rna,up)      t0_prot_lacY_per
+  prot(dna,dw,loc~cyt,met,name~lacZ,prot,rna,up)      t0_prot_lacZ_cyt
+  prot(dna,dw,loc~ex,met,name~lacZ,prot,rna,up)       t0_prot_lacZ_ex
+  prot(dna,dw,loc~mem,met,name~lacZ,prot,rna,up)      t0_prot_lacZ_mem
+  prot(dna,dw,loc~per,met,name~lacZ,prot,rna,up)      t0_prot_lacZ_per
+end species
+
+begin reaction rules
+  ALLOLACTOSE_DEG_alpha:            prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~alpha_ALLOLACTOSE,loc~cyt,prot) + met(name~WATER,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~alpha_GALACTOSE,loc~cyt,prot) + met(name~alpha_glucose,loc~cyt,prot)    fwd_ALLOLACTOSE_DEG_alpha, rvs_ALLOLACTOSE_DEG_alpha
+  ALLOLACTOSE_DEG_beta:             prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_ALLOLACTOSE,loc~cyt,prot) + met(name~WATER,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_GALACTOSE,loc~cyt,prot) + met(name~beta_glucose,loc~cyt,prot)    fwd_ALLOLACTOSE_DEG_beta, rvs_ALLOLACTOSE_DEG_beta
+  BETAGALACTOSID_RXN:               prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_lactose,loc~cyt,prot) + met(name~WATER,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_GALACTOSE,loc~cyt,prot) + met(name~beta_glucose,loc~cyt,prot)    fwd_BETAGALACTOSID_RXN, rvs_BETAGALACTOSID_RXN
+  BETAGALACTOSID_RXN_alpha:         prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~alpha_lactose,loc~cyt,prot) + met(name~WATER,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~alpha_GALACTOSE,loc~cyt,prot) + met(name~alpha_glucose,loc~cyt,prot)    fwd_BETAGALACTOSID_RXN_alpha, rvs_BETAGALACTOSID_RXN_alpha
+  GALACTOACETYLTRAN_RXN_galactose:  prot(dw!1,loc~cyt,name~lacA,up).prot(dw!2,loc~cyt,name~lacA,up!1).prot(dw,loc~cyt,name~lacA,up!2) + met(name~beta_GALACTOSE,loc~cyt,prot) + met(name~ACETYL_COA,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacA,up).prot(dw!2,loc~cyt,name~lacA,up!1).prot(dw,loc~cyt,name~lacA,up!2) + met(name~_6_Acetyl_beta_D_Galactose,loc~cyt,prot) + met(name~CO_A,loc~cyt,prot)    fwd_GALACTOACETYLTRAN_RXN_galactose, rvs_GALACTOACETYLTRAN_RXN_galactose
+  GALACTOSE_MUTAROTATION:           met(name~alpha_GALACTOSE,loc~cyt,prot) <-> met(name~beta_GALACTOSE,loc~cyt,prot)    fwd_GALACTOSE_MUTAROTATION, rvs_GALACTOSE_MUTAROTATION
+  GLUCOSE_MUTAROTATION:             met(name~alpha_glucose,loc~cyt,prot) <-> met(name~beta_glucose,loc~cyt,prot)    fwd_GLUCOSE_MUTAROTATION, rvs_GLUCOSE_MUTAROTATION
+  LACTOSE_MUTAROTATION:             met(name~alpha_lactose,loc~cyt,prot) <-> met(name~beta_lactose,loc~cyt,prot)    fwd_LACTOSE_MUTAROTATION, rvs_LACTOSE_MUTAROTATION
+  PhysicalInteractionRule_1:        prot(dw,loc~cyt,name~lacZ,up) + prot(dw,loc~cyt,name~lacZ,up) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw,loc~cyt,name~lacZ,up!1)    fwd_PhysicalInteractionRule_1, rvs_PhysicalInteractionRule_1
+  PhysicalInteractionRule_2:        prot(dw!2,loc~cyt,name~lacZ,up).prot(dw,loc~cyt,name~lacZ,up!2) + prot(dw!1,loc~cyt,name~lacZ,up).prot(dw,loc~cyt,name~lacZ,up!1) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3)    fwd_PhysicalInteractionRule_2, rvs_PhysicalInteractionRule_2
+  PhysicalInteractionRule_3:        prot(dw,loc~cyt,name~lacA,up) + prot(dw,loc~cyt,name~lacA,up) <-> prot(dw!1,loc~cyt,name~lacA,up).prot(dw,loc~cyt,name~lacA,up!1)    fwd_PhysicalInteractionRule_3, rvs_PhysicalInteractionRule_3
+  PhysicalInteractionRule_4:        prot(dw,loc~cyt,name~lacA,up) + prot(dw!1,loc~cyt,name~lacA,up).prot(dw,loc~cyt,name~lacA,up!1) <-> prot(dw!1,loc~cyt,name~lacA,up).prot(dw!2,loc~cyt,name~lacA,up!1).prot(dw,loc~cyt,name~lacA,up!2)    fwd_PhysicalInteractionRule_4, rvs_PhysicalInteractionRule_4
+  RXN0_5363:                        prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~alpha_lactose,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~alpha_ALLOLACTOSE,loc~cyt,prot)    fwd_RXN0_5363, rvs_RXN0_5363
+  RXN0_5363_beta:                   prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_lactose,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_ALLOLACTOSE,loc~cyt,prot)    fwd_RXN0_5363_beta, rvs_RXN0_5363_beta
+  RXN0_7215:                        prot(loc~mem,name~lacY) + met(name~PROTON,loc~per,prot) + met(name~CPD_3561,loc~per,prot) <-> prot(loc~mem,name~lacY) + met(name~PROTON,loc~cyt,prot) + met(name~CPD_3561,loc~cyt,prot)    fwd_RXN0_7215, rvs_RXN0_7215
+  RXN0_7217:                        prot(loc~mem,name~lacY) + met(name~PROTON,loc~per,prot) + met(name~CPD_3785,loc~per,prot) <-> prot(loc~mem,name~lacY) + met(name~PROTON,loc~cyt,prot) + met(name~CPD_3785,loc~cyt,prot)    fwd_RXN0_7217, rvs_RXN0_7217
+  RXN0_7219:                        prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~CPD_3785,loc~cyt,prot) + met(name~WATER,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_GALACTOSE,loc~cyt,prot) + met(name~D_ARABINOSE,loc~cyt,prot)    fwd_RXN0_7219, rvs_RXN0_7219
+  RXN_17726:                        prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~CPD_3561,loc~cyt,prot) + met(name~WATER,loc~cyt,prot) <-> prot(dw!1,loc~cyt,name~lacZ,up).prot(dw!2,loc~cyt,name~lacZ,up!1).prot(dw!3,loc~cyt,name~lacZ,up!2).prot(dw,loc~cyt,name~lacZ,up!3) + met(name~beta_GALACTOSE,loc~cyt,prot) + met(name~Fructofuranose,loc~cyt,prot)    fwd_RXN_17726, rvs_RXN_17726
+  RXN_17755:                        prot(loc~mem,name~lacY) + met(name~PROTON,loc~per,prot) + met(name~CPD_3801,loc~per,prot) <-> prot(loc~mem,name~lacY) + met(name~PROTON,loc~cyt,prot) + met(name~CPD_3801,loc~cyt,prot)    fwd_RXN_17755, rvs_RXN_17755
+  TRANS_RXN_24:                     prot(loc~mem,name~lacY) + met(name~PROTON,loc~per,prot) + met(name~alpha_lactose,loc~per,prot) <-> prot(loc~mem,name~lacY) + met(name~PROTON,loc~cyt,prot) + met(name~alpha_lactose,loc~cyt,prot)    fwd_TRANS_RXN_24, rvs_TRANS_RXN_24
+  TRANS_RXN_24_beta:                prot(loc~mem,name~lacY) + met(name~PROTON,loc~per,prot) + met(name~beta_lactose,loc~per,prot) <-> prot(loc~mem,name~lacY) + met(name~PROTON,loc~cyt,prot) + met(name~beta_lactose,loc~cyt,prot)    fwd_TRANS_RXN_24_beta, rvs_TRANS_RXN_24_beta
+  TRANS_RXN_94:                     prot(loc~mem,name~lacY) + met(name~PROTON,loc~per,prot) + met(name~MELIBIOSE,loc~per,prot) <-> prot(loc~mem,name~lacY) + met(name~PROTON,loc~cyt,prot) + met(name~MELIBIOSE,loc~cyt,prot)    fwd_TRANS_RXN_94, rvs_TRANS_RXN_94
+end reaction rules
+
+end model

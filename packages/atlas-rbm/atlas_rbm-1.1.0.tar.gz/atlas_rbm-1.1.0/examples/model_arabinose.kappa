@@ -1,0 +1,8 @@
+%agent: met(name{},loc{cyt per ex},prot)
+%agent: dna(name{},type{BS pro1 pro2 pro3 pro4 rbs cds ter1 ter2},prot,rna,up,dw)
+%agent: rna(name{},type{BS pro1 pro2 pro3 pro4 rbs cds ter1 ter2},dna,prot)
+%agent: prot(name{},loc{cyt per ex},dna,met,rna,up,dw)
+
+
+
+
