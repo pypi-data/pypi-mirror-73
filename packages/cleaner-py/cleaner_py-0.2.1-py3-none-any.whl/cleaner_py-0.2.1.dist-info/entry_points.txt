@@ -1,0 +1,3 @@
+[console_scripts]
+cleaner=cleaner.commands:main
+
