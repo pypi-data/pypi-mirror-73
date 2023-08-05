@@ -1,0 +1,10 @@
+pytest_mypy_plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_mypy_plugins/collect.py,sha256=NzwJLNnKME5MNInoTb_QpboZnN0buhFcqSgytLCmKH0,6160
+pytest_mypy_plugins/item.py,sha256=VV6_0v2hH0GLen13LSUg-k-9po_NB9gN0Kf7hQ_zcOM,12567
+pytest_mypy_plugins/utils.py,sha256=S2u6D2E0deSvH2O8xp-Ad6x3kpwWsxhkGaUkS95YcR4,10374
+pytest_mypy_plugins-1.4.0.dist-info/LICENSE,sha256=QZk-T5zxJNfur8-oGJubA9_zxq3QiOaapkyBDAIznVk,1054
+pytest_mypy_plugins-1.4.0.dist-info/METADATA,sha256=WKPgNDbRn5QBZzAgnhoidOPvCu3i4qGxx1KxO1xIPiQ,2868
+pytest_mypy_plugins-1.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_mypy_plugins-1.4.0.dist-info/entry_points.txt,sha256=UQULzwbawsjl0U0lrVf0D94QLxLRGDzd7m-C0_tz-H4,62
+pytest_mypy_plugins-1.4.0.dist-info/top_level.txt,sha256=mAI1-VXVgzjlI_U6-_kumYBrWnSGE_-sZ8dNMREFGfs,20
+pytest_mypy_plugins-1.4.0.dist-info/RECORD,,
