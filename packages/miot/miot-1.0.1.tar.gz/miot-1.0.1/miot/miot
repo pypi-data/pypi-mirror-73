@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+
+# Modular Internet of Things
+# Command line utility
+# STATE: Pre-Alpha
+# VER: 190327.1808
+
+# 190327.1637   Initial version (Dev)
+VERSION = '1.0.1'
+
+# miot                          Show help
+# miot help                     Show help
+# miot version                  Display Version
+# miot list                     Display installed and available modules
+# miot update                   Update modules
+# miot install <module>         Install a module
+# miot uninstall <module>       Uninstalls a MIoT module
+# miot add <module>             See Install
+# miot remove <module>          See uninstall
+# miot start <module>           Start a module process
+# miot stop <module>            Stop a module process
+# miot pause <module>           Pause a module process
+# miot continue <module>        Continue a paused module process
+
+import sys
+
+def help():
+    print( "HELP")
+
+def list():
+    print( "LIST" )
+
+    # READ CONFIG.INI FOR INSTALLED COMPONENTS
+    # READ MODULES.DAT FOR AVAILABLE COMPONENTS
+    # SHOW LIST
+
+def update():
+    print( "UPDATE")
+
+def version():
+    print( "Version: "+VERSION )
+
+    
+def repl():
+    print( "Welcome to Alice" )
+    running = True
+    while running:
+        value = input( ":" )
+        if value=='quit': running = False
+
+# ARGUMENT FUNCTIONS
+cmd = { "--help":help,
+        "help":help,
+        "list":list, 
+        "update":update, 
+        "version":version 
+}
+
+# PROCESS ARGUMENTS
+if len(sys.argv) <= 1:
+    repl()
+    sys.exit(0)
+
+if sys.argv[1] in cmd:
+    func = cmd[sys.argv[1]]
+    func()
+    sys.exit(0)
+
+print( "** Invalid command: "+sys.argv[1] )
+help()
+sys.exit(1)
+
+
+
+
