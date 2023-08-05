@@ -1,0 +1,12 @@
+autocbei/Bacillus_subtilis.part500.cds.all.fa,sha256=TreSgZFRxMJRJvDp9E7nre7UVAtoWP967QDZGs2qxVk,519648
+autocbei/__init__.py,sha256=0Zzi1w8rKzWvfrDCWKDXVt022HJA4KRDIyEnULdAsZU,460
+autocbei/cbei/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autocbei/cbei/autoCBEI.py,sha256=oiDHywOJ9ebITFkZo9zP_bT1H2sqo88qMPOwaPGv_X0,3452
+autocbei/cbei/cbei.py,sha256=pmDa8rm0TiSjwGEB-1wBWFQz5YN1eL68LA5gqCmqEis,9471
+autocbei/cbei/stat.py,sha256=B4SQWjDsLQRvtdOrStJR-pGVlGZa8ekcEScXU5P5g9k,11710
+autocbei-1.6.3.dist-info/LICENSE,sha256=aNTDHGBg5S0XeKTAyC2MW17UE6dU4lHKdn7a03-nKAI,11340
+autocbei-1.6.3.dist-info/METADATA,sha256=QWeYvIvP1bnlx28aaSTlKjUtXgzfnpLxnC3YvDqu1vY,555
+autocbei-1.6.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+autocbei-1.6.3.dist-info/entry_points.txt,sha256=OTUbpwHFe6UT9dGBj7FxlQ5LgmtdMKqcee-rle9GwRo,48
+autocbei-1.6.3.dist-info/top_level.txt,sha256=eh2S2y0m5bpmqfTAilorGygOURPyy6AC1pDXRFf2Ijw,9
+autocbei-1.6.3.dist-info/RECORD,,
