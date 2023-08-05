@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xnatjsession
+Version: 0.2
+Summary: Utility functions for using XNAT JSESSION
+Home-page: https://github.com/radiologics/docker-images
+Author: Brian Holt
+Author-email: beholt@radiologics.com
+License: UNKNOWN
+Description: # XNAT JSESSION
+        
+        Utility functions for XNAT JSESSION
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown

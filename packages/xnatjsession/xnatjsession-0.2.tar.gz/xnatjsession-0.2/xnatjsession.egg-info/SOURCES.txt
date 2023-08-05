@@ -1,0 +1,8 @@
+README.md
+setup.py
+xnatjsession/__init__.py
+xnatjsession.egg-info/PKG-INFO
+xnatjsession.egg-info/SOURCES.txt
+xnatjsession.egg-info/dependency_links.txt
+xnatjsession.egg-info/requires.txt
+xnatjsession.egg-info/top_level.txt
