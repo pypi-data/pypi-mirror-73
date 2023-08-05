@@ -1,0 +1,17 @@
+examples/__init__.py,sha256=lmDKvUt3gNXM1rFkNxUM_5yWUgnYUK6elDzzUr7O3zQ,755
+examples/context.py,sha256=QdjikXY0lzQQFTOceoyBwYjS3ixONZpFUedkVI_9I8Y,881
+examples/hyper_sensitive.py,sha256=0RAiTN_Qd5Hx6_pgM0QIcrTM-nihkaq3gVK9b1Rv3Jg,2848
+examples/moon_lander.py,sha256=_w6jtqmIrkervFIiaQMO1oNcAy2tY7WxZuR72s6KDM0,2954
+examples/multistage_launch_vehicle.py,sha256=jHpkQY3CtUy6KpZREL7g-9Zob-jo-ZVRmgX8J4dx_4s,10326
+examples/tpschwartz.py,sha256=SoKxiCsq571v89nDI7dQbMm1XA9BH00E-M6QL38A5vw,2408
+examples/van_der_pol_oscillator.py,sha256=l3l5KMp8hIXzh5VJzi2oPrdpO_OIyA50HXmifjrR1xo,2229
+mpopt/__init__.py,sha256=41vBHPSYWJbKgQnZfNtlakZZP6sdsQXhHKFIc-gGRek,780
+mpopt/mpopt.py,sha256=fCw4F6IQVgK33sjAUju7u-bR5_EyqEQzSJmXuNyAqgU,123325
+tests/__init__.py,sha256=lmDKvUt3gNXM1rFkNxUM_5yWUgnYUK6elDzzUr7O3zQ,755
+tests/context.py,sha256=9o98eb7CikvvXUU18FiviYDQnKV6uKbUC6H-uvVsWcI,874
+tests/test_mpopt.py,sha256=Tz3zI7tqC6Rl02P-qplik9Ps1Xzek3SzSoTNeO_cj7s,17195
+mpopt-0.1.3.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+mpopt-0.1.3.dist-info/METADATA,sha256=qd0eQbvBX3LBBjNbaiGRNNMJ0UnILZ735acNcMlWEss,4011
+mpopt-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mpopt-0.1.3.dist-info/top_level.txt,sha256=6vpLqXMwT9cmHII5_-t4afQc4_FWw1MIayTa66PjLcs,21
+mpopt-0.1.3.dist-info/RECORD,,
