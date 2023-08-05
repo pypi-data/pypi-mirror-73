@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+basicstatistics/Binomialdistribution.py
+basicstatistics/Gaussiandistribution.py
+basicstatistics/Generaldistribution.py
+basicstatistics/__init__.py
+basicstatistics/mean.py
+basicstatistics/median.py
+basicstatistics/mode.py
+basicstatistics/standarddeviation.py
+basicstatistics.egg-info/PKG-INFO
+basicstatistics.egg-info/SOURCES.txt
+basicstatistics.egg-info/dependency_links.txt
+basicstatistics.egg-info/not-zip-safe
+basicstatistics.egg-info/top_level.txt
