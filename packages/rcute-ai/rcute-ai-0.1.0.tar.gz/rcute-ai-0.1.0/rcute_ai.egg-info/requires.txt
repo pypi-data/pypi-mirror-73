@@ -1,0 +1,7 @@
+Pillow
+face_recognition
+numpy
+opencv-python
+pyaudio
+qrcode
+vosk
