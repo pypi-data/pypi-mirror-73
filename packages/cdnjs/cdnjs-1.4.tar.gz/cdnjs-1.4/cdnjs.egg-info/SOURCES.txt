@@ -1,0 +1,11 @@
+README.md
+setup.py
+cdnjs/__init__.py
+cdnjs/settings.py
+cdnjs.egg-info/PKG-INFO
+cdnjs.egg-info/SOURCES.txt
+cdnjs.egg-info/dependency_links.txt
+cdnjs.egg-info/requires.txt
+cdnjs.egg-info/top_level.txt
+cdnjs/templatetags/__init__.py
+cdnjs/templatetags/cdnjstag.py
