@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: logging-dl1244ssk2
+Version: 0.0.1
+Summary: Utilities package for function logging
+Home-page: https://github.com/AlexXTW/logging_utils
+Author: Alex X.T. Wang
+Author-email: xintong.wang@riotinto.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Logging utilities
+![Upload Python Package](https://github.com/AlexXTW/logging_utils/workflows/Upload%20Python%20Package/badge.svg)
+
+Utilities package for logging various entities.
+
+## Installation
+```{bash}
+pip install logging_utils
+```
+
+## Usage
+```{python}
+from logging_utils.functions import log_function
+
+@log_function
+def hello_world():
+  print("hello world!")
+```
+
+
