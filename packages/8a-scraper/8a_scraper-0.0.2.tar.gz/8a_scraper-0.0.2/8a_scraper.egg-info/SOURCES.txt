@@ -1,0 +1,14 @@
+README.md
+setup.py
+8a_scraper.egg-info/PKG-INFO
+8a_scraper.egg-info/SOURCES.txt
+8a_scraper.egg-info/dependency_links.txt
+8a_scraper.egg-info/requires.txt
+8a_scraper.egg-info/top_level.txt
+_8a_scraper/__init__.py
+_8a_scraper/ascents.py
+_8a_scraper/users.py
+_8a_scraper/utils.py
+test/__init__.py
+test/test_ascents.py
+test/test_users.py
