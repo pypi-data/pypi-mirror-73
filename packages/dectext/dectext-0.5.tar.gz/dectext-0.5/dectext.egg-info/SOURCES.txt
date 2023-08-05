@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dectext/__init__.py
+dectext/dec.py
+dectext.egg-info/PKG-INFO
+dectext.egg-info/SOURCES.txt
+dectext.egg-info/dependency_links.txt
+dectext.egg-info/entry_points.txt
+dectext.egg-info/requires.txt
+dectext.egg-info/top_level.txt
