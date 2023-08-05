@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: i6
+Version: 0.0.3
+Summary: A standardized collection of python libs and tools
+Home-page: https://github.com/kruserr/i6
+Author: kruserr
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/kruserr/i6/wiki
+Project-URL: Source, https://github.com/kruserr/i6
+Description: # i6
+        
+        A standardized collection of python libs and tools.
+        
+        <br>
+        
+        # Install
+        ### Using pip
+        ```
+        pip install i6
+        i6
+        ```
+        
+        ### Using binary from GitHub
+        ```
+        git clone https://github.com/kruserr/i6.git
+        cd i6
+        ./bin/i6.exe
+        ```
+        
+        <br>
+        
+        For further install instructions visit the [Documentation](https://github.com/kruserr/i6/wiki/Install).
+        
+        <br>
+        
+        # Develop
+        ### Open in VS Code
+        ```
+        git clone https://github.com/kruserr/i6.git
+        python -m pip install --upgrade pip setuptools wheel pytest tox twine pyinstaller
+        cd i6
+        python -m pip install -e .
+        code .
+        ```
+        
+        ### Run VS Code Tasks
+        CTRL+P
+        ```
+        >Tasks: Run Task
+        ```
+        
+        <br>
+        
+        For further developing instructions visit the [Documentation](https://github.com/kruserr/i6/wiki/Develop).
+        
+Keywords: i6 toolchain collection libs tools
+Platform: UNKNOWN
+Classifier: Topic :: Software Development
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
