@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: xarray-mongodb
+Version: 0.2.0
+Summary: Store xarray objects on MongoDB
+Home-page: https://github.com/AmphoraInc/xarray_mongodb
+Author: Amphora, Inc.
+Author-email: support@amphorainc.com
+License: Apache
+Description: Store xarray objects on MongoDB
+Keywords: mongodb,xarray,dask,distributed,pint,sparse
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Provides-Extra: asyncio
+Provides-Extra: pint
+Provides-Extra: sparse

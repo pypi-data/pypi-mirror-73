@@ -1,0 +1,18 @@
+name: xarray_mongodb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - dask
+  - motor
+  - numpy
+  - pandas
+  - pint
+  - pymongo
+  - pytest
+  - pytest-asyncio
+  - pytest-cov
+  - sparse
+  - toolz
+  - xarray

@@ -1,0 +1,22 @@
+numpy>=1.15
+pandas>=0.24
+dask[delayed]>=1.2
+xarray>=0.13
+pymongo>=3.7
+
+[asyncio]
+motor>=2.0
+
+[asyncio:python_version >= "3.8"]
+motor>=2.1
+
+[asyncio:sys_platform == "win32"]
+motor>=2.1
+
+[pint]
+pint>=0.10
+numpy>=1.17
+
+[sparse]
+sparse>=0.9
+numpy>=1.17

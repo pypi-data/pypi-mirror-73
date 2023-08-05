@@ -1,0 +1,14 @@
+name: xarray_mongodb-docs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - sphinx<3
+  - sphinx_rtd_theme
+  - dask
+  - motor
+  - pint
+  - pymongo
+  - sparse
+  - xarray

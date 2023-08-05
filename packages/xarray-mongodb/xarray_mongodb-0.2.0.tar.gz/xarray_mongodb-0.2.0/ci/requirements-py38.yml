@@ -1,0 +1,21 @@
+name: xarray_mongodb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - dask
+  # - motor >=2.1  # Not yet available in conda-forge
+  - numpy
+  - pandas
+  - pint
+  - pymongo
+  - pytest
+  - pytest-asyncio
+  - pytest-cov
+  - sparse
+  - toolz
+  - xarray
+  - pip
+  - pip:
+    - motor >= 2.1
