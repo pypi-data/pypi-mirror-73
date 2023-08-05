@@ -1,0 +1,13 @@
+Conolist-0.1.data/scripts/conolist.py,sha256=-_q3jmN60d1VcWH3FgyuMNK_8Jj725moxHfnP3uQIHY,76
+src/__init__.py,sha256=ta3tyuIym0-NryR2K79HO_dCy4DQ4uuq2TFHIPJsY_Q,275
+src/commands.py,sha256=EPdWd0uoZjQahzQcSruP3RcCsldTWpLDDSRakyuzPKk,267
+src/conolist.py,sha256=7W9PaJ31z7DyQ4NJKa5l20jpkXSPT7j9xezppc-etdg,86
+src/getpathfiles.py,sha256=Imt4kMoUjRaWLSwDacj_VvR4KCZTrMtfcT_hspvzMss,372
+src/menu.py,sha256=VdV20I0JTXuYNlxDxPROyIXuIuXOpus9rSQ2mrLy8tA,1480
+src/selector.py,sha256=mFycLTOh-5c0HekbktDBpnOvM37piCu1Iv1mscklTx4,6666
+Conolist-0.1.dist-info/LICENSE,sha256=Puxoo0zuY0U8kEnIzMc_4U0Mj2fFiC4JEx9KV5WKVhM,1069
+Conolist-0.1.dist-info/METADATA,sha256=2_N7zsKIwF9WF2GAYmiHF7QvGqKNX83HXqQIQ63T6iQ,649
+Conolist-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Conolist-0.1.dist-info/entry_points.txt,sha256=p-AtAXN8dInwHJMxu-xIOCuqOXn-9PjK-ao9G1m9-Hk,60
+Conolist-0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+Conolist-0.1.dist-info/RECORD,,
