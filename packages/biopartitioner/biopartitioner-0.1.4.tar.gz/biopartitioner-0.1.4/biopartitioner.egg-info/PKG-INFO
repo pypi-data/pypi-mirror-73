@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: biopartitioner
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: https://github.com/david30907d/bio-partitioner
+Author: davidtnfsh
+Author-email: davidtnfsh@gmail.com
+License: Apache License 2.0
+Description: # Bio Partitioner ![Docker Image CI](https://github.com/david30907d/bio-partitioner/workflows/Docker%20Image%20CI/badge.svg)
+        
+        ## Install
+        ### For User
+        `pip install biopartitioner`
+        
+        ### For Developer
+        1. Python dependencies:
+            1. `virtualenv venv; . venv/bin/activate`
+            2. `pip install poetry`
+            3. `poetry install`
+        2. Npm dependencies, for linter, formatter and commit linter (optional):
+            1. `brew install npm`
+            2. `npm ci`
+        
+        # Run
+        
+        1. `npm run test`
+        2. You'll see 10 vcf partition files at your folder
+        
+        ## Test
+        
+        1. test: `npm run test`
+        2. Run all linter before commitment would save some effort: `npm run check`
+        
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
