@@ -1,0 +1,8 @@
+aws_cdk/alexa_ask/__init__.py,sha256=tlIY-zxYKGLU8zEkOI38uqs-zIdESItJJWSrthZH64c,17740
+aws_cdk/alexa_ask/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/alexa_ask/_jsii/__init__.py,sha256=_qgmw2GZRKe5-fN0F38wV4FBvf6HvAIWGX2lSWIysYY,361
+aws_cdk/alexa_ask/_jsii/alexa-ask@1.50.0.jsii.tgz,sha256=Zztn28G-lDiuDhOVsz7a6Y6XdByWq9Ha3b0udsnabtE,21587
+aws_cdk.alexa_ask-1.50.0.dist-info/METADATA,sha256=DN_Hdqu62bLiDJzKKzGUXyNbaPNZd8zDaQrqpDJCi0M,2081
+aws_cdk.alexa_ask-1.50.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.alexa_ask-1.50.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.alexa_ask-1.50.0.dist-info/RECORD,,
