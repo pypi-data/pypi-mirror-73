@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: guietta
+Version: 0.3.4
+Summary: Simple GUI for Python
+Home-page: https://github.com/alfiopuglisi/guietta
+Author: Alfio Puglisi
+Author-email: alfio.puglisi@inaf.it
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: PySide2
+
+# guietta
+
+A tool for making simple Python GUIs
+
+Guietta is a tool that makes simple GUIs *simple*:
+
+![Example code](http://guietta.com/_images/example_code.png)
+
+And here it is:
+
+![Example GUI](http://guietta.com/_images/example.png)
+
+
+# Installation
+
+ **pip install guietta**
+
+
+If you use conda, please read our page on
+[QT incompatibilities with conda](https://guietta.readthedocs.io/en/latest/qt_conda.html).
+
+
+# Documentation
+
+https://guietta.readthedocs.io/en/latest/
+
