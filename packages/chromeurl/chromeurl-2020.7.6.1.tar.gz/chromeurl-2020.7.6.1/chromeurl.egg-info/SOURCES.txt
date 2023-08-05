@@ -1,0 +1,9 @@
+setup.py
+chromeurl/__init__.py
+chromeurl/main.py
+chromeurl/version.py
+chromeurl.egg-info/PKG-INFO
+chromeurl.egg-info/SOURCES.txt
+chromeurl.egg-info/dependency_links.txt
+chromeurl.egg-info/entry_points.txt
+chromeurl.egg-info/top_level.txt

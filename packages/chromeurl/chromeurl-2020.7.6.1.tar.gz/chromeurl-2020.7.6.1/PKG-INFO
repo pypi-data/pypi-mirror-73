@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: chromeurl
+Version: 2020.7.6.1
+Summary: native messaging host component of chrome current url extension. exposes the current chrome browser url via a REST endpoint
+Home-page: https://github.com/erjoalgo/chrome-current-url
+Author: Ernesto Alfonso
+Author-email: erjoalgo@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: chrome chromium url native
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
