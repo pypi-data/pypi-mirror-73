@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pypdfium
+Version: 0.0.1
+Summary: simple python wrapping of PDFium
+Home-page: UNKNOWN
+Author: Yinlin Hu
+Author-email: huyinlin@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: PDFium
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
