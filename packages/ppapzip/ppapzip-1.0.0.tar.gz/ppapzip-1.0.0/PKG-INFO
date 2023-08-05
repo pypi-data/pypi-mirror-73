@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ppapzip
+Version: 1.0.0
+Summary: File encryption/decryption utility using RSA key
+Home-page: https://github.com/sumeshi/ppap
+License: MIT
+Keywords: zip,RSA
+Author: sumeshi
+Author-email: j15322sn@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pycryptodome (>=3.9.8,<4.0.0)
+Requires-Dist: pyminizip (>=0.2.4,<0.3.0)
+Project-URL: Repository, https://github.com/sumeshi/ppap
+Description-Content-Type: text/markdown
+
+# ppap
+File encryption utility using a GitHub public key.
+
