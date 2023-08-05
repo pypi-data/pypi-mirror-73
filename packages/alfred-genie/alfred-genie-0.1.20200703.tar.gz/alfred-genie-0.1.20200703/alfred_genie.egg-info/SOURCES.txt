@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+alfred_genie.egg-info/PKG-INFO
+alfred_genie.egg-info/SOURCES.txt
+alfred_genie.egg-info/dependency_links.txt
+alfred_genie.egg-info/entry_points.txt
+alfred_genie.egg-info/not-zip-safe
+alfred_genie.egg-info/requires.txt
+alfred_genie.egg-info/top_level.txt
+genie/__init__.py
+genie/main.py
+genie/commands/__init__.py
+genie/commands/base64_decode.py
+genie/commands/base64_encode.py
+genie/commands/format_json.py
+genie/commands/minify_json.py
