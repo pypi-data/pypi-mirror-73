@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: markdown-live-preview
+Version: 0.1.20
+Summary: live web preview of markdown docs
+Home-page: https://github.com/ms-jpq/markdown-live-preview
+Author: ms-jpq
+Author-email: github@bigly.dog
+License: UNKNOWN
+Description: # [Markdown Live Preview](https://ms-jpq.github.io/markdown-live-preview)
+        
+        ## Features
+        
+        - **Live Preview:** Updates preview on file save
+        
+        - **Auto Follow:** Focus on edited element
+        
+        - **Syntax Highlight:** Automatically use [`highlightjs`](https://github.com/highlightjs/highlight.js) if `node` is available
+        
+        - **Github flavoured:** Looks familiar
+        
+        ## Preview
+        
+        The animation is only choppy because it's a compressed gif.
+        
+        ![preview.gif](https://github.com/ms-jpq/markdown-live-preview/raw/md/preview/smol.gif)
+        
+        ## Usage
+        
+        ```sh
+        mlp <name of markdown>
+        ```
+        
+        | Flags                  | Flags                    |
+        | ---------------------- | ------------------------ |
+        | `-p, --port PORT=8080` | Port to use              |
+        | `-o, --open`           | No localhost restriction |
+        | `--nf, --no-follow`    | Do not follow edits      |
+        | `--nf, --no-browser`   | Do not open browser      |
+        
+        ## [Install](https://pypi.org/project/markdown-live-preview)
+        
+        ```sh
+        pip install -U markdown_live_preview
+        ```
+        
+        ## Embedding
+        
+        Markdown Live Preview (MLP) can be embedded into other applications as a subprocess.
+        
+        The flag `--read-stdin` is designed such that MLP can read markdown chunks from nul delimited stdin, and process them accordingly.
+        
+        ## Future Improvements
+        
+        Currently the "reconciliation" stage uses a single pass `O(n)` naive algorithm.
+        
+        This does not recognize row insertion / deletion / rotation. As a result, we have some issues with some false highlights.
+        
+        A more sophisticated colouring algorithm is required.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
