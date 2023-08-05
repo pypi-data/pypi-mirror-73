@@ -1,0 +1,2 @@
+pyserial
+wch341
