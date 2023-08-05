@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+powsolver/__init__.py
+powsolver.egg-info/PKG-INFO
+powsolver.egg-info/SOURCES.txt
+powsolver.egg-info/dependency_links.txt
+powsolver.egg-info/not-zip-safe
+powsolver.egg-info/requires.txt
+powsolver.egg-info/top_level.txt
