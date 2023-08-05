@@ -1,0 +1,9 @@
+fieldsets_with_inlines/__init__.py,sha256=BpUZGD1tMU2a9qhVNEPo13qoLpxa2is-PIptlzakXGo,94
+fieldsets_with_inlines/mixins.py,sha256=WhKzKIT6W8a3CQPcnMFp1gByg5xlxDCTpm55avwsc5Y,1931
+fieldsets_with_inlines/templates/fieldsets_with_inlines/change_form.html,sha256=j52-bW2wfSAgm_p--MAIupKeY9PePag7m0ARJpQ36dU,846
+fieldsets_with_inlines/templates/fieldsets_with_inlines/fieldset.html,sha256=qJZatbimfsdGI2-MR_q_JYKNPusjrHOVV1wbyYvbfP4,1868
+django_fieldsets_with_inlines-0.6.dist-info/LICENSE,sha256=5I5bTbzjqndmoReKGTX3xw5TzVrZ9Ip02cRowZGbMkM,1100
+django_fieldsets_with_inlines-0.6.dist-info/METADATA,sha256=XWXBqeYgC8FN-Dd6vKlLefnzE_niBwe1JfpURoU7egc,2310
+django_fieldsets_with_inlines-0.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+django_fieldsets_with_inlines-0.6.dist-info/top_level.txt,sha256=vRt7SY59kbnPrhioBAlqogd_rPz1sxIOrFisbYqHQTE,23
+django_fieldsets_with_inlines-0.6.dist-info/RECORD,,
