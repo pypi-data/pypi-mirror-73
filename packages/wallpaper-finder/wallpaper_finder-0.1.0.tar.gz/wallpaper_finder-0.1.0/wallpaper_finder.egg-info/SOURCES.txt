@@ -1,0 +1,9 @@
+setup.py
+wallpaper_changer/__init__.py
+wallpaper_changer/search.py
+wallpaper_changer/utils.py
+wallpaper_finder.egg-info/PKG-INFO
+wallpaper_finder.egg-info/SOURCES.txt
+wallpaper_finder.egg-info/dependency_links.txt
+wallpaper_finder.egg-info/requires.txt
+wallpaper_finder.egg-info/top_level.txt
