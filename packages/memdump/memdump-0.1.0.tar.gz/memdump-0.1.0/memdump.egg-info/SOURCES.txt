@@ -1,0 +1,6 @@
+memdump.py
+setup.py
+memdump.egg-info/PKG-INFO
+memdump.egg-info/SOURCES.txt
+memdump.egg-info/dependency_links.txt
+memdump.egg-info/top_level.txt
