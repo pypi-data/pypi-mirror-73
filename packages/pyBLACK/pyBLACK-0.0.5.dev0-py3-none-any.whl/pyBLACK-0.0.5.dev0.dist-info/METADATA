@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyBLACK
+Version: 0.0.5.dev0
+Summary: suit of utilities for the DEMOBLACK group
+Home-page: https://gitlab.com/iogiul/pyblack
+Author: G. Iorio
+Author-email: giuliano.iorio.astro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy (>1.4)
+
+UNKNOWN
+
+

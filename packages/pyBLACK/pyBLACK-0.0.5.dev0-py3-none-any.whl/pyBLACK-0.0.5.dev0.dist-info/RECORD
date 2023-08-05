@@ -1,0 +1,10 @@
+pyblack/__init__.py,sha256=HrablAEBTqYEFh7u2Of8RJ5s053_ntyXM-p8ItEEcy4,26
+pyblack/constants.py,sha256=GEM9-zg6H0IsyRjFi365aCvwPBHkKmYeXem3G6nw-mc,433
+pyblack/gw/__init__.py,sha256=nsKnsss8fp8PESRlLCfPdPqfohVq3J49ss_gTXK5KAs,33
+pyblack/gw/gw_time.py,sha256=u35lqlOfI2OwrrXDPg-b-iXA6ULQHcm8-_KzRYotvSM,10548
+pyblack/gw/ext_data/cured_gw_time.interpolation,sha256=U_W3iGbtzA2K1mOO1ILhXKF0LR7-IHxiHsPIl6ZTCow,150373
+pyBLACK-0.0.5.dev0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pyBLACK-0.0.5.dev0.dist-info/METADATA,sha256=P3fctxVvpqMpZaGRaI3Kt2pnAQ0kOVn9ttUguSn62yo,309
+pyBLACK-0.0.5.dev0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyBLACK-0.0.5.dev0.dist-info/top_level.txt,sha256=SdiYIi5QD-tqo6BS7ZgcWBcTvDI7wN84eQI_R0Nu9yo,19
+pyBLACK-0.0.5.dev0.dist-info/RECORD,,
