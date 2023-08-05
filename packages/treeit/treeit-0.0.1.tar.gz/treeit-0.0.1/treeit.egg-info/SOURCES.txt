@@ -1,0 +1,10 @@
+README.md
+setup.py
+tests/__init__.py
+tests/test_tree.py
+treeit/__init__.py
+treeit/tree.py
+treeit.egg-info/PKG-INFO
+treeit.egg-info/SOURCES.txt
+treeit.egg-info/dependency_links.txt
+treeit.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: treeit
+Version: 0.0.1
+Summary: tree like,like linux tree command
+Home-page: https://github.com/xunull/treeit
+Author: xunull
+Author-email: xunull@163.com
+License: UNKNOWN
+Description: # treeit
+        
+        [![Build Status](https://www.travis-ci.org/xunull/treeit.svg?branch=master)](https://www.travis-ci.org/xunull/treeit)
+        
+        有些终端下,行之间可能有行距间隔,会导致竖线不连续, 一半在linux终端下,是不会出现的
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
