@@ -1,0 +1,11 @@
+yaqd_system_monitor/VERSION,sha256=ig-f22_BEQB8QuOrYOAxsL3e_wcEmmcGXCNgfDoNDpU,10
+yaqd_system_monitor/__init__.py,sha256=BTj4n2jXrN7d33LrT3JF3VVDKDxoLI4c6BF_2EzNrtM,105
+yaqd_system_monitor/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_system_monitor/_system_monitor.py,sha256=ZGXSBxbhXADO-O7Z791Orf1-lovrXbRcQraB8O5rlCE,1231
+yaqd_system_monitor/system-monitor.avpr,sha256=MLqjwltkgYATANLonN-Wk4L3lwO-3MlzftTMVs4v0G4,5346
+yaqd_system_monitor/system-monitor.toml,sha256=RWvyhpnQXQnw0jzv2wAuq8g3r_hV6FpKP-U-tcY6O38,356
+yaqd_system_monitor-2020.7.0.dist-info/entry_points.txt,sha256=Gr2QZugIhkN76A99HTvTwmWINAO7EN0OTD-ZUDLQgA4,94
+yaqd_system_monitor-2020.7.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_system_monitor-2020.7.0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+yaqd_system_monitor-2020.7.0.dist-info/METADATA,sha256=8d8c3uFLAKBvg0XRZESclvipcDh1-Un7DXAKX-GKOBg,1886
+yaqd_system_monitor-2020.7.0.dist-info/RECORD,,
