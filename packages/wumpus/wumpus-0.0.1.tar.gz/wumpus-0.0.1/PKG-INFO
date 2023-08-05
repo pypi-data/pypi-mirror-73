@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wumpus
+Version: 0.0.1
+Summary: Another Discord Wrapper that no-one needs
+Home-page: https://github.com/samhdev/wumpus
+Author: SamHDev
+Author-email: samfuckedup@samh.dev
+License: UNKNOWN
+Description: # Wumpus
+        Discord go brrrrrrrrrrrrrrrr
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

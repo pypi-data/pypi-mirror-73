@@ -1,0 +1,6 @@
+setup.py
+wumpus/__init__.py
+wumpus.egg-info/PKG-INFO
+wumpus.egg-info/SOURCES.txt
+wumpus.egg-info/dependency_links.txt
+wumpus.egg-info/top_level.txt
