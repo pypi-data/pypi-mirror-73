@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: wbia-pydarknet
+Version: 3.0.0
+Summary: PyDarknet - Random Forest / Hough Voting Detection Algorithm
+Home-page: https://github.com/WildbookOrg/wbia-tpl-pydarknet
+Author: Jason Parham
+Author-email: dev@wildme.org
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: utool
+Provides-Extra: all
+Requires-Dist: cmake ; extra == 'all'
+Requires-Dist: ninja ; extra == 'all'
+Requires-Dist: scikit-build ; extra == 'all'
+Requires-Dist: setuptools ; extra == 'all'
+Requires-Dist: wheel ; extra == 'all'
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: opencv-python ; extra == 'all'
+Requires-Dist: utool ; extra == 'all'
+Requires-Dist: brunette ; extra == 'all'
+Requires-Dist: codecov ; extra == 'all'
+Requires-Dist: coverage ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: xdoctest ; extra == 'all'
+Provides-Extra: build
+Requires-Dist: cmake ; extra == 'build'
+Requires-Dist: ninja ; extra == 'build'
+Requires-Dist: scikit-build ; extra == 'build'
+Requires-Dist: setuptools ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: runtime
+Requires-Dist: numpy ; extra == 'runtime'
+Requires-Dist: opencv-python ; extra == 'runtime'
+Requires-Dist: utool ; extra == 'runtime'
+Provides-Extra: tests
+Requires-Dist: brunette ; extra == 'tests'
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: xdoctest ; extra == 'tests'
+
+Random Forest / Hough Voting Detection Algorithm
+================================================
+
+Unix / Mac compatible distribution based on the Random Forest code developed by Gall et. al.
+
+The code has been parallelized in specific spots using OpenMP to help speed up training
+and detection.  A Python wrapper has also been created to help with ease of testing.
+
+REQUIRED:
+
+https://github.com/bluemellophone/detecttools
+
+https://github.com/bluemellophone/IBEIS2014
+
+
