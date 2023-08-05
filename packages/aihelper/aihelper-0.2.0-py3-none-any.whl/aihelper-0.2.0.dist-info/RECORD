@@ -1,0 +1,6 @@
+aihelper/__init__.py,sha256=xnux9Pbi2d80gxkCLXZENKQuIfu4ANmIOS0T7NpFrpI,62
+aihelper/aifile.py,sha256=Of9yuhyeueATG2XVDYhhjEUBKKxVq_xD3DaSyeZurqY,6476
+aihelper/aiyaml.py,sha256=9iIsV-4tQAulEmsahRXVkNse6rU4pxOOeHkGPJXT9P8,473
+aihelper-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+aihelper-0.2.0.dist-info/METADATA,sha256=WsqZJe8vRtfxjUtE9z-aYsYsc6ILx0uaqoi5zvktdSU,385
+aihelper-0.2.0.dist-info/RECORD,,
