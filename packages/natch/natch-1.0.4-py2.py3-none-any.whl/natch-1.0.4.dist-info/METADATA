@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: natch
+Version: 1.0.4
+Summary: Pattern matching library.
+Home-page: https://github.com/ertgl/natch/
+Author: Ertuğrul Keremoğlu
+Author-email: ertugkeremoglu@gmail.com
+License: MIT
+Keywords: functional paradigm pattern matching
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+
+UNKNOWN
+
+
