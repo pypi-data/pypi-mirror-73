@@ -1,0 +1,13 @@
+gds_metrics/__init__.py,sha256=rUmM9X6plgxr9nqpkG6WQ53arpN-m45MMZQ1YOy8QC4,3554
+gds_metrics/gunicorn.py,sha256=J9lMn2rkQis2RExxUvCaS7e6nswpC7ANSg74ZSuzDio,184
+gds_metrics/metrics.py,sha256=qsudmvGNYkuI9ca7wPbYDR6xJsOWm8jsJqOFwUK21Hw,510
+gds_metrics/version.py,sha256=cLCGwAIdi-vAYPG6aPmQLuDu6Ds8JFP2TatNJj9CvXE,42
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=fKca5KpNx3vpwGhPeBujT8OJuN1PpEF_Nq27VNgUUhs,1749
+tests/test_gds_metrics.py,sha256=Hyd-DAuP-PrnbhLequZ5LsVQeon89k4noeYxv6rx0Xk,683
+tests/test_metrics.py,sha256=19eIezSPFygjpUX3p6iHUFe2AHbq8KCZsLw6OTGClkA,2888
+gds_metrics-0.2.1.dist-info/LICENSE,sha256=lOZ0zezH-JbK6SDTbzM5ybf9NCqHOaIb5sxA4eWLwq0,1083
+gds_metrics-0.2.1.dist-info/METADATA,sha256=4XuOejORXmElvhqEKpMCqpdiG5Z_Wjm9MZGcUHH32EY,835
+gds_metrics-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gds_metrics-0.2.1.dist-info/top_level.txt,sha256=N0hA7S7UafhCISE2oYgVHkaonizpIaj5vkuwLiY05Do,18
+gds_metrics-0.2.1.dist-info/RECORD,,
