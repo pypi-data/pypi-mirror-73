@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: parallelprocs
+Version: 0.1.5
+Summary: Run command lines via (GNU) parallel
+Home-page: https://github.com/kyclark/parallelprocs
+Author: Ken Youens-Clark
+Author-email: kyclark@gmail.com
+License: UNKNOWN
+Description: # parallelprocs
+        
+        Run commands via GNU Parallel or something like it.
+        
+        # Synopsis
+        
+        ````
+        $ cat test.py
+        #!/usr/bin/env python
+        
+        from parallelprocs import run
+        
+        try:
+            run(['echo foo', 'echo bar', 'echo baz'], verbose=True)
+        except Exception as e:
+            print(e)
+        $ ./test.py
+        Running job (# jobs = 3)
+        bar
+        baz
+        foo
+        ````
+        
+        # Description
+        
+        The module exposes a single function `run` that takes the following arguments:
+        
+        ## Required Arguments:
+        
+        commands [str]: commands
+        
+        ## Keyword Options
+        
+        * parallel (str): path to "parallel", default "which('parallel')"
+        * num_procs (int): num of concurrent processes, default "0" to use all CPUs
+        * verbose (bool): print messages to sys.stderr, default "False"
+        * halt (int): number of failed jobs to trigger halt, default "0" for no halt
+        
+        # Author
+        
+        Ken Youens-Clark <kyclark@gmail.com>
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

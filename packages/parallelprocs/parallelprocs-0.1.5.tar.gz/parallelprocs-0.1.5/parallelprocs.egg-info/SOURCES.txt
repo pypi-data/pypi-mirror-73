@@ -1,0 +1,8 @@
+README.md
+__init__.py
+parallelprocs.py
+setup.py
+parallelprocs.egg-info/PKG-INFO
+parallelprocs.egg-info/SOURCES.txt
+parallelprocs.egg-info/dependency_links.txt
+parallelprocs.egg-info/top_level.txt
