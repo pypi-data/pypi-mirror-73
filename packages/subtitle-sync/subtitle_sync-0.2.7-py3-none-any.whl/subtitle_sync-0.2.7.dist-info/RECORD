@@ -1,0 +1,15 @@
+subtitle_sync/formatText.py,sha256=Z4wwcL3mLBX_K551xeuAXD2Bz5QRf204nLVjeCpCkX4,5078
+subtitle_sync/markScriptWithRareWordsTimestamp.py,sha256=P8sZ2umRJ1Du6CW_KRXRsbGyOtE2OoKQD5-JlEHjyp8,6881
+subtitle_sync/sync.py,sha256=mMyXZ-dIW7wKXXdh0frd0tvcEEGihadLkpbhPCPvOfQ,2575
+subtitle_sync/utils/extractLemmas.py,sha256=22NzTHDI6Objpd8zhYdbwUBYemIllyJDmP-F-fLVCMw,1307
+subtitle_sync/utils/fillTimetamps.py,sha256=79heLNQeDnhD3DH90eaM8hZUpu9M-OPKB-oQ0BOzHFo,6133
+subtitle_sync/utils/furtherSyncScript.py,sha256=amCicPuR50z0S9MxbK3Uz9S8F1zVD9u1-6EPQrUFYZo,2742
+subtitle_sync/utils/getMatchingDistinctWords.py,sha256=FtZTpmnwpUxMYuKeKVtewUGypAIevPLXjjRd32FUuLk,10962
+subtitle_sync/utils/minify.py,sha256=Doj68-vLR1XY7IHa7HIJLX8WC37urue15MC8erQLHqs,1902
+subtitle_sync/utils/nlpSetup.py,sha256=a_oKXlrS0mOww52AQ1oAcEk-bBjddtBduxLdbPpSBIw,3030
+subtitle_sync/utils/sortScenes.py,sha256=Cxw3gY__FzGhzxtQdFvGT_cOAbyXDzRYY_2bWq0vRas,761
+subtitle_sync/utils/tagTimestampToScript.py,sha256=ECoU4re7Nf_Zw9D2qL6dn8PlYir_IXN-u9_M8BrARPM,678
+subtitle_sync/utils/traverseDialogue.py,sha256=JCx0Zt86y_xeYdpSTLSoEeMHi8KBHdTisagpTCLn89k,348
+subtitle_sync-0.2.7.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+subtitle_sync-0.2.7.dist-info/METADATA,sha256=GumLObELwgGDTul9PszZ5fwAKqhDSvQZrB0OLkbJcio,488
+subtitle_sync-0.2.7.dist-info/RECORD,,
