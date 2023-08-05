@@ -1,0 +1,13 @@
+CHANGELOG.txt
+MANIFEST.in
+README.md
+README.txt
+setup.py
+supermemo2/__init__.py
+supermemo2/sm_two.py
+supermemo2.egg-info/PKG-INFO
+supermemo2.egg-info/SOURCES.txt
+supermemo2.egg-info/dependency_links.txt
+supermemo2.egg-info/top_level.txt
+tests/__init__.py
+tests/test_sm2.py
