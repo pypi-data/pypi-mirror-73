@@ -1,0 +1,8 @@
+lonny_aws_procs/__init__.py,sha256=AOnfHjBWzEpQHejAN0sd1bDnnNKizUvvaCjLXTSrdWk,165
+lonny_aws_procs/__main__.py,sha256=_5CLwoIntC2FI_IfdMbbXgIm1kEcH-LWSWF3a9DPaQw,1872
+lonny_aws_procs/action.py,sha256=Kxy4wL2AjZgfpcEt3JtaUk7UI0Rl3-uXGtDkEq9myOM,4441
+lonny_aws_procs/logger.py,sha256=vq8ZkVITWDvf8aYnhTyqYONZ8bM9PegxOr0-t7keJEQ,59
+lonny_aws_procs/type.py,sha256=-fEKRHorA5zGFeOKrhyv4h4Z18Pe_RNwKl7ljWG_ZTo,1000
+lonny_aws_procs-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+lonny_aws_procs-0.1.1.dist-info/METADATA,sha256=DtuZD_mqIUtL_vQfeFknx2-FXK5W8NAUMDLHk6w8RBo,275
+lonny_aws_procs-0.1.1.dist-info/RECORD,,
