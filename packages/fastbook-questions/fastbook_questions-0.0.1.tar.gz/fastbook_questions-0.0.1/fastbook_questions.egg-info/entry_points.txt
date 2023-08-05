@@ -1,0 +1,3 @@
+[console_scripts]
+fastbook_extract = fastbook_extract.cli:extract
+
