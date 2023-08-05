@@ -1,0 +1,3 @@
+[console_scripts]
+kbsh = kubeshell.main:cli
+
