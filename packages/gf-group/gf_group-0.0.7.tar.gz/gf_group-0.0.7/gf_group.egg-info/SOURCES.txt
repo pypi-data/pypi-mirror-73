@@ -1,0 +1,11 @@
+README.md
+setup.py
+gf/__init__.py
+gf/io/__init__.py
+gf/io/gf_io.py
+gf/plot/__init__.py
+gf/plot/gf_plot.py
+gf_group.egg-info/PKG-INFO
+gf_group.egg-info/SOURCES.txt
+gf_group.egg-info/dependency_links.txt
+gf_group.egg-info/top_level.txt
