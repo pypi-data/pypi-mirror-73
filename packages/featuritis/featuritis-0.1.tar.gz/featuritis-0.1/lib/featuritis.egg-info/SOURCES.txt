@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+lib/featuritis/__init__.py
+lib/featuritis/cli.py
+lib/featuritis/constants.py
+lib/featuritis/exc.py
+lib/featuritis/init.py
+lib/featuritis/manager.py
+lib/featuritis.egg-info/PKG-INFO
+lib/featuritis.egg-info/SOURCES.txt
+lib/featuritis.egg-info/dependency_links.txt
+lib/featuritis.egg-info/not-zip-safe
+lib/featuritis.egg-info/top_level.txt
+tools/featuritis
