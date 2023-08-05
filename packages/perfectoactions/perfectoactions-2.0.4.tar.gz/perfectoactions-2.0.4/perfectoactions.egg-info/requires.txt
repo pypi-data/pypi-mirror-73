@@ -1,0 +1,16 @@
+requests
+configparser
+termcolor
+pandas
+matplotlib
+colorama
+openpyxl
+xlrd
+jinja2
+tzlocal
+ipython
+xlwt
+plotly
+psutil
+fbprophet
+nbformat
