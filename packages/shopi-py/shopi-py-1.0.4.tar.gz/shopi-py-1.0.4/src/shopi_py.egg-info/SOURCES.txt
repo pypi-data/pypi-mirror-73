@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/ShopiPy.py
+src/shopi_py.egg-info/PKG-INFO
+src/shopi_py.egg-info/SOURCES.txt
+src/shopi_py.egg-info/dependency_links.txt
+src/shopi_py.egg-info/requires.txt
+src/shopi_py.egg-info/top_level.txt
