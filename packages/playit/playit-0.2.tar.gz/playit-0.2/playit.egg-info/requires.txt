@@ -1,0 +1,6 @@
+Click
+pyfiglet
+pygame
+mutagen
+tqdm
+times

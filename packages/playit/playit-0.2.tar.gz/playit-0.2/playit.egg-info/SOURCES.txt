@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+playit/__init__.py
+playit/cli.py
+playit.egg-info/PKG-INFO
+playit.egg-info/SOURCES.txt
+playit.egg-info/dependency_links.txt
+playit.egg-info/entry_points.txt
+playit.egg-info/requires.txt
+playit.egg-info/top_level.txt
