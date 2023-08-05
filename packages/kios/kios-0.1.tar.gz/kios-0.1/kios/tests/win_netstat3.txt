@@ -1,0 +1,6 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  ComponentZero
+ [app3.exe]

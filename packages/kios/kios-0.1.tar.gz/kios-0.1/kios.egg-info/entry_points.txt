@@ -1,0 +1,3 @@
+[console_scripts]
+kios = kios.core:main
+
