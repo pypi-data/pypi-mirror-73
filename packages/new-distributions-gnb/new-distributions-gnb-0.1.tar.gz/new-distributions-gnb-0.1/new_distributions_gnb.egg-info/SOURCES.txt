@@ -1,0 +1,10 @@
+setup.py
+new-distributions-gnb/Binomialdistribution.py
+new-distributions-gnb/Gaussiandistribution.py
+new-distributions-gnb/Generaldistribution.py
+new-distributions-gnb/__init__.py
+new_distributions_gnb.egg-info/PKG-INFO
+new_distributions_gnb.egg-info/SOURCES.txt
+new_distributions_gnb.egg-info/dependency_links.txt
+new_distributions_gnb.egg-info/not-zip-safe
+new_distributions_gnb.egg-info/top_level.txt
