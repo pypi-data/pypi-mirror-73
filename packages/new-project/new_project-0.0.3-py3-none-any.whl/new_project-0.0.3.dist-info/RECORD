@@ -1,0 +1,13 @@
+new/__init__.py,sha256=WWBaQr-sfgN6OQ4Jli5Dg6Vd2v64NCynxG0ztNJgOyw,60
+new/__main__.py,sha256=zNfgOGBxordOC3zWnE79cVBqaxhwkVJi7T5jca4EtCM,1203
+new/main.py,sha256=zNfgOGBxordOC3zWnE79cVBqaxhwkVJi7T5jca4EtCM,1203
+new/repo.py,sha256=CjClI2jmkeaTvvHnAQ4GitWkJKLNmrtPa-mCrdVDM28,489
+new/template.py,sha256=kY-4KHQ4WVj_BgfBNjAl2bsl44THTJP77CzBo4v9A-w,783
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/repo_test.py,sha256=3dtG1O6Eh7X2u2HTRu3LZQ8xzIrKAt_N5YhCwZVhr3o,379
+tests/template_test.py,sha256=4fjQIDk15rqZvocknHXsfAcAJt4HGQVibGwU_Uv2Ab8,1568
+new_project-0.0.3.dist-info/LICENSE,sha256=JoG7Q61SeiVtLGvueYyMT_9Q-pLa_O9EiMyKMTTEylM,35138
+new_project-0.0.3.dist-info/METADATA,sha256=Qwm3yxhAY7z9h73aNIImMPS_akuKQLjd1Yx75HyiRng,3295
+new_project-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+new_project-0.0.3.dist-info/top_level.txt,sha256=hczaD_5V3WS9IhKqFbWio_0c3G1yvi48sxj6E3BIxxg,10
+new_project-0.0.3.dist-info/RECORD,,
