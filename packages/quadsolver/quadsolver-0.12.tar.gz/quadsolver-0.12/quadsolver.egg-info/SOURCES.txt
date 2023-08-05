@@ -1,0 +1,8 @@
+setup.py
+quadsolver/__init__.py
+quadsolver/quadsolver.py
+quadsolver.egg-info/PKG-INFO
+quadsolver.egg-info/SOURCES.txt
+quadsolver.egg-info/dependency_links.txt
+quadsolver.egg-info/not-zip-safe
+quadsolver.egg-info/top_level.txt
