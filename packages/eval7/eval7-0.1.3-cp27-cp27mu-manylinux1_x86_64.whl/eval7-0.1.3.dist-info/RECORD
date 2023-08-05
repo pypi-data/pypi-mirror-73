@@ -1,0 +1,13 @@
+eval7/handrange.py,sha256=nyWlVsU8mnvt9gKQjA8LkQ9_RokiJtrkyKFBWaZcJiI,551
+eval7/handrange.so,sha256=6Xs2sPvyGTnMhThWD7jXfSNkcfZoxwWaXXh_T_O9XLM,34640
+eval7/rangestring.py,sha256=q74-336uR4kRps89y_niwwZu_3fCEjnHgdLgJbamlSI,10883
+eval7/__init__.py,sha256=7cHEtPCcpSAHlU3Wu5PPRMMDmuTZ2MWhs5jiZBtMx4Q,434
+eval7/xorshift_rand.so,sha256=kfQ20XmrVygqeIwXKzX4dIxL1qC6nWl7jk6AxARtymc,187704
+eval7/evaluate.so,sha256=sY7mRK5POc5KA2WSNIJvim44dmUyI-_blsmKwBf0LVc,162896
+eval7/equity.so,sha256=wHgP4E-ddrGcfxyef4tp040InLEWm0cOAJNqsIbNavY,246448
+eval7/cards.so,sha256=e9185IjHGyp3r48WhhhDo7LH4u706kR8QYdYhSge-3M,480816
+eval7-0.1.3.dist-info/RECORD,,
+eval7-0.1.3.dist-info/LICENSE,sha256=0xI-6J7d3cn-4QPlSOhPj5EcZscRH_4I5XH0DTQ65xs,1105
+eval7-0.1.3.dist-info/WHEEL,sha256=v_WvMd9LcJo7UEU8YDntezoLIPEhS-iS69BF1ftVDNw,110
+eval7-0.1.3.dist-info/METADATA,sha256=mtBhTdKKJDcBc8sr_RIeowTneZLguYPEpgaj6Kv05PM,651
+eval7-0.1.3.dist-info/top_level.txt,sha256=_mtptJ6ymqbmLwNw_9hKywqoVbgKsmaG-88RT5a1rNw,6
