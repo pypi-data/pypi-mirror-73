@@ -1,0 +1,13 @@
+setup.py
+dm/__init__.py
+dm.zopepatches.logging.egg-info/PKG-INFO
+dm.zopepatches.logging.egg-info/SOURCES.txt
+dm.zopepatches.logging.egg-info/dependency_links.txt
+dm.zopepatches.logging.egg-info/namespace_packages.txt
+dm.zopepatches.logging.egg-info/not-zip-safe
+dm.zopepatches.logging.egg-info/requires.txt
+dm.zopepatches.logging.egg-info/top_level.txt
+dm/zopepatches/__init__.py
+dm/zopepatches/logging/README.txt
+dm/zopepatches/logging/VERSION.txt
+dm/zopepatches/logging/__init__.py
