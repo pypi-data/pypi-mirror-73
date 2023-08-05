@@ -1,0 +1,11 @@
+logless
+runnow
+fire
+
+[AWS]
+boto3
+s3fs
+
+[Azure]
+azure-storage-blob
+azure-storage-file-datalake
