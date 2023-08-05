@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: lazytype
+Version: 0.1.0
+Summary: Type wrappers for typing; module loading deferred till __init__.
+Home-page: https://github.com/stefco/lazytype
+Author: Stefan Trklja Countryman
+Author-email: stefan.countryman@gmail.com
