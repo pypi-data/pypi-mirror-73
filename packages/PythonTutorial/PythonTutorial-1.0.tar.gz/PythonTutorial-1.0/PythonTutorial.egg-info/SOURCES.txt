@@ -1,0 +1,8 @@
+README.md
+setup.py
+PythonTutorial.egg-info/PKG-INFO
+PythonTutorial.egg-info/SOURCES.txt
+PythonTutorial.egg-info/dependency_links.txt
+PythonTutorial.egg-info/top_level.txt
+TestPackage/TestModule.py
+TestPackage/__init__.py
