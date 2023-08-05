@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: passwd
+Version: 0.2.0
+Summary: Assorted utilities for gracefully handling and generating passwords
+Home-page: https://github.com/bsoyka/passwd
+Author: Benjamin Soyka
+Author-email: bensoyka@icloud.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/bsoyka/passwd/wiki
+Project-URL: Changelog, https://github.com/bsoyka/passwd/blob/master/CHANGELOG.md
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# passwd
+![Testing with pytest](https://github.com/bsoyka/passwd/workflows/Testing%20with%20pytest/badge.svg?event=push)
+
+Assorted utilities for gracefully handling and generating passwords
+
