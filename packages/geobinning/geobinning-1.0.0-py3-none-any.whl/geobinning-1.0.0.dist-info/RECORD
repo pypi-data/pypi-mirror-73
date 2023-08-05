@@ -1,0 +1,13 @@
+MANIFEST.in,sha256=Lmd9gUxFb4c2jJXHrMZlc9apu8YzWo1grSswv3x1PAE,593
+README.md,sha256=Lmd9gUxFb4c2jJXHrMZlc9apu8YzWo1grSswv3x1PAE,593
+geobinning.egg-info/PKG-INFO,sha256=dylyjCn0NdUAkjV-b0xDgbHI3Ac6TH4TA932-mYlu1E,1270
+geobinning.egg-info/SOURCES.txt,sha256=iEV4XFa_-jyDarWCKTiDR5rocisaS50uWSm5hp71qPs,236
+geobinning.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geobinning.egg-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+geobinning.egg-info/requires.txt,sha256=KTmP8bfa4i8V1mlYE-_tbMXUfyImVEB7ypdMLg24Yp0,21
+geobinning.egg-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geobinning-1.0.0.dist-info/METADATA,sha256=m56S7hboS79M19EmsYKynbkD_OFt44N4hA_MNiUx9Do,1044
+geobinning-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+geobinning-1.0.0.dist-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+geobinning-1.0.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geobinning-1.0.0.dist-info/RECORD,,
