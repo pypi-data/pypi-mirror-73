@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jaygents
+Version: 0.0.1
+Summary: Some personal reinforcement learning agent implimentations
+Home-page: https://github.com/JacobFV/jaygents
+Author: Jacob Valdez
+Author-email: jacobfv@msn.com
+License: MIT
+Description: # jaygets
+        
+        Some personal reinforcement learning agent implimentations. The name comes from the phonetic abreviation of "Jacob's agents".
+        
+Keywords: reinforcement learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
