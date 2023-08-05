@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: qbc_face
+Version: 1.0.0
+Summary: Face detection and analysis.
+Home-page: https://www.shinelab.cn/
+Author: charles
+Author-email: charlesmeng@shinelab.cn
+License: MIT
+Description: Face detection and analysis.
+Keywords: python,face,detection,recognition
+Platform: UNKNOWN
