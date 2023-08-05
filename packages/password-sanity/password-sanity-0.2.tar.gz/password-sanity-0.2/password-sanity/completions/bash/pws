@@ -1,0 +1,45 @@
+# pws(1) completion
+
+_pws() {
+	local cur prev words cword split
+    _init_completion -s || return
+
+	case $prev in
+		--copy-master)
+			return
+			;;
+		--field)
+			COMPREPLY=( $(compgen -W 'password username' -- $cur) )
+			return
+			;;
+		--get-profile)
+			return
+			;;
+		--modify-profile)
+			return
+			;;
+		--new-profile)
+			return
+			;;
+		--password-length)
+			return
+			;;
+		--remove-profile)
+			return
+			;;
+	esac
+
+	opts="--copy-master
+		--field
+		--get-profile
+		--install-completions
+		--modify-profile
+		--new-master
+		--new-profile
+		--password-length
+		--remove-profile"
+	COMPREPLY=( $(compgen -W "${opts[*]}" -- $cur) )
+	return
+}
+
+complete -F _pws pws
