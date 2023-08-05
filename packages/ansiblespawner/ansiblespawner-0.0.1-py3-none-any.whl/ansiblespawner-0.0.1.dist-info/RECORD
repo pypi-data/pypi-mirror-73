@@ -1,0 +1,9 @@
+ansiblespawner/__init__.py,sha256=XevyWeLdzv6lYRI0hl-Zoupw9oEZdjBAMxfaq3MZ258,171
+ansiblespawner/_version.py,sha256=IYVuaRW3OD09k1LqGVPqaPFVUii2bJVRMPZNX4VEgcA,116
+ansiblespawner/ansiblespawner.py,sha256=6AVPqaQUHB38hqNPSBohaAjAIgdb04rVXYhPGsAaU7U,15709
+ansiblespawner-0.0.1.dist-info/LICENSE,sha256=IC4L12wJHgwkZp-ccy6OMGQ_wL8qPHdb6d9j5UUJhWw,1516
+ansiblespawner-0.0.1.dist-info/METADATA,sha256=3gvdLsBLVk7NZ5JUL4yhhiH3mfcq5mUHl0CfKnXErO4,3240
+ansiblespawner-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ansiblespawner-0.0.1.dist-info/entry_points.txt,sha256=I5YWcdt5JXQ89w5WChBfnzOxfI_Gy-kiUiw8k7psRLY,63
+ansiblespawner-0.0.1.dist-info/top_level.txt,sha256=z3ExUps6oLMO-bWv7KBrFfLbrrI9TqparR9LHbuOzkE,15
+ansiblespawner-0.0.1.dist-info/RECORD,,
