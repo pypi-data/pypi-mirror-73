@@ -1,0 +1,8 @@
+arrayfire
+cached_property
+contexttimer
+loky
+numpy
+scipy
+sympy
+pytest
