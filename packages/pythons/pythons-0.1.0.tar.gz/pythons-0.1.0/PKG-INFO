@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pythons
+Version: 0.1.0
+Summary: Yet another snake game written in Python
+Home-page: https://github.com/julianolf/pythons
+License: MIT
+Keywords: snake,game,pygame
+Author: Juliano Fernandes
+Author-email: julianofernandes@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Requires-Dist: pygame
+Project-URL: Repository, https://github.com/julianolf/pythons
+Description-Content-Type: text/x-rst
+
+PYTHONS
+=======
+
+Yet another Snake game written in Python.
+
+.. |img1| image:: img/game_start.png
+    :width: 320px
+
+.. |img2| image:: img/game_play.png
+    :width: 320px
+
+.. |img3| image:: img/game_over.png
+    :width: 320px
+
++--------+--------+--------+
+| |img1| | |img2| | |img3| |
++--------+--------+--------+
+
+Requirements
+------------
+
+* Python 3.7+
+
+Installing
+----------
+
+Use ``pip`` to download and install the game. ::
+
+    $ pip install pythons
+
+Running
+-------
+
+Just type ``pythons`` to run the game. ::
+
+    $ pythons
+
