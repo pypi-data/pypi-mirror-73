@@ -1,0 +1,6 @@
+Car.py
+setup.py
+MyPythonProject.egg-info/PKG-INFO
+MyPythonProject.egg-info/SOURCES.txt
+MyPythonProject.egg-info/dependency_links.txt
+MyPythonProject.egg-info/top_level.txt
