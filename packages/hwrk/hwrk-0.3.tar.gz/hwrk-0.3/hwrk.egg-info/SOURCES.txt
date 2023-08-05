@@ -1,0 +1,8 @@
+setup.py
+hwrk/__init__.py
+hwrk/main.py
+hwrk.egg-info/PKG-INFO
+hwrk.egg-info/SOURCES.txt
+hwrk.egg-info/dependency_links.txt
+hwrk.egg-info/entry_points.txt
+hwrk.egg-info/top_level.txt
