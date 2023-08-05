@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: type_asserter
+Version: 0.1
+Summary: This package provide a decorator to check at runtime the functions type hints, raising an TypeError (by default) or a Warning based on a parameter.
+Home-page: https://github.com/ValerioNeriGit/type_asserter.git
+Author: Valerio Neri
+Author-email: valerioneri1997@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: TYPE,TYPES,ASSERTION,TYPE ASSERTION,TYPE CHECKER
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

@@ -1,0 +1,1 @@
+from type_asserter.type_asserter import enforce_type_hints
