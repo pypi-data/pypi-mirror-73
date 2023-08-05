@@ -1,0 +1,8 @@
+README.md
+pyramid_dynamodb_sessions.py
+setup.py
+pyramid_dynamodb_sessions.egg-info/PKG-INFO
+pyramid_dynamodb_sessions.egg-info/SOURCES.txt
+pyramid_dynamodb_sessions.egg-info/dependency_links.txt
+pyramid_dynamodb_sessions.egg-info/requires.txt
+pyramid_dynamodb_sessions.egg-info/top_level.txt
