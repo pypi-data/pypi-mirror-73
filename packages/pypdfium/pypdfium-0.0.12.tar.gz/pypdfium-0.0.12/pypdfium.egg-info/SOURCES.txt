@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pypdfium/__init__.py
+pypdfium/libpdfium.dylib
+pypdfium/pdfium
+pypdfium/pdfium.dll
+pypdfium/pdfium_version.txt
+pypdfium/pypdfium.py
+pypdfium.egg-info/PKG-INFO
+pypdfium.egg-info/SOURCES.txt
+pypdfium.egg-info/dependency_links.txt
+pypdfium.egg-info/not-zip-safe
+pypdfium.egg-info/top_level.txt
