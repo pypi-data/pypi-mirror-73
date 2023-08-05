@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gerapy-auto-extractor
+Version: 0.0.1a1
+Summary: An extractor to extract list, title, content, date, etc info without XPath or Selector
+Home-page: https://github.com/Gerapy/https://github.com/Gerapy/GerapyAutoExtractor
+Author: Germey
+Author-email: cqc@cuiqingcai.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: dateparser (==0.7.6)
+Requires-Dist: lxml (==4.3.3)
+Requires-Dist: loguru (==0.5.0)
+Requires-Dist: Distance (==0.1.3)
+Requires-Dist: numpy (==1.16.2)
+
+
+# GerapyAutoExtractor
+
+Auto Extractor Module 
+
+
+
