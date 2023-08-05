@@ -1,0 +1,6 @@
+py2store
+pandas
+numpy
+Pillow
+spyn
+matplotlib
