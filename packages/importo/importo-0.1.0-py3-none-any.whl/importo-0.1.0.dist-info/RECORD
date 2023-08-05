@@ -1,0 +1,10 @@
+importo/__init__.py,sha256=5WVDa0MgRDpVNrGEr67RtP_ee9twRdeJ6xRZSu98YR0,1767
+importo/__main__.py,sha256=rtoVvJ9pLjla4573pcOjuqZxePoOKCzr2t94vEHVd9w,131
+importo/commands.py,sha256=9dVCLeSLlSWOudrmwWnVFnBTFpX354iBKlKgXEY7xSo,209
+importo/parser.py,sha256=JsN9zpJEz3xiPz5neq_wPm_l_jFxEuPKD0kdTxffzoM,1030
+importo/profiler.py,sha256=H9mcx3sdv_ILM9zRVF7hxPryXkZZxkvLbIccoTQIUPk,207
+importo-0.1.0.dist-info/METADATA,sha256=Jxst_Rb1Ki3gYRm62VQxG-mvIrSmSnAoV--Rlspjs9A,340
+importo-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+importo-0.1.0.dist-info/entry_points.txt,sha256=HxrQL-ztfNGinRJZ8GEaRmqNrIA3Uis3aYnAxS7E6eo,57
+importo-0.1.0.dist-info/top_level.txt,sha256=DpLPxzv2o_lRg9vasDeUw_fzbZ2Vo0_p5dfN6vaz__8,8
+importo-0.1.0.dist-info/RECORD,,
