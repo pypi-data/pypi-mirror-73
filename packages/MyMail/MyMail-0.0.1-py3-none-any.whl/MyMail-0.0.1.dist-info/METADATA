@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: MyMail
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/rahulpandey81
+Author: Rahul Pandey
+Author-email: rahulpandey.rp1996@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This Package is Use to Send a Mail Using SMTP.
+Tutorial- install this package using pip
+and import it using from MyMail import mail
+mail.send(FromMail, FromMailPassword, ToMail, Subject, Message).
+https://github.com/rahulpandey81
+
