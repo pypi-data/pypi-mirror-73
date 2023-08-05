@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: YelpCity
+Version: 0.1
+Summary: Obtaining search queries of more than 1000 limited by the Yelp Fusion API
+Home-page: https://github.com/guan-terry/yelp-city
+Author: Terry
+Author-email: terryguan1@gmail.com
+License: MIT
+Download-URL: https://github.com/guan-terry/yelp-city/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Yelp,YelpFusion,searches,queries
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
