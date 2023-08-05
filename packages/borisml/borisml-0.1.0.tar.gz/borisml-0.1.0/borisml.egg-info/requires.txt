@@ -1,0 +1,10 @@
+opencv-python
+torch
+tqdm
+torchvision
+pandas>=1.0.3
+hydra-core>=0.11.3
+numpy>=1.18.1
+prefetch_generator
+pytorch-lightning==0.7.6
+requests>=2.23.0

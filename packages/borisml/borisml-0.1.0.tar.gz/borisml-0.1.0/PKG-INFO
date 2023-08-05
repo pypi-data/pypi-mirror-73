@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: borisml
+Version: 0.1.0
+Summary: A deep learning package for self-supervised learning
+Home-page: UNKNOWN
+Author: Philipp Wirth & Igor Susmelj
+Author-email: philipp@whattolabel.com
+License: MIT
+Project-URL: Documentation, https://www.notion.so/whattolabel/WhatToLabel-Documentation-28e645f5564a453e807d0a384a4e6ea7
+Project-URL: WhatToLabel, https://www.whattolabel.com
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
