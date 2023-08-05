@@ -1,0 +1,3 @@
+[console_scripts]
+awsbin=lonny_aws_bin:run
+
