@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jikji
+Version: 2.2.4
+Summary: Python Static website generator for Modern web
+Home-page: https://github.com/Prev/jikji
+Author: Youngsoo Lee
+Author-email: prevdev@gmail.com
+License: MIT
+Keywords: jikji,static,websitesgenerator,jinja2
+Platform: UNKNOWN
+Requires-Dist: Jinja2 (>=2.4)
+Requires-Dist: click (>=5.0)
+Requires-Dist: Flask (>=0.10)
+Requires-Dist: py (>=1.4)
+
+UNKNOWN
+
+
