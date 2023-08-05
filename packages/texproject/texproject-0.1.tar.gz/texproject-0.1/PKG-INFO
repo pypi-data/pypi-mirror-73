@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: texproject
+Version: 0.1
+Summary: An automatic LaTeX project manager.
+Home-page: https://github.com/alexrutar/texproject
+Author: Alex Rutar
+Author-email: public@rutar.org
+License: MIT
+Description: TexProject: An automatic LaTeX project manager.
+        ===============================================
+        
+        Under construction
+        
+Keywords: LaTeX template project
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
