@@ -1,0 +1,6 @@
+pyRF24Network.cpp
+setup.py
+RF24Network.egg-info/PKG-INFO
+RF24Network.egg-info/SOURCES.txt
+RF24Network.egg-info/dependency_links.txt
+RF24Network.egg-info/top_level.txt
