@@ -1,0 +1,8 @@
+README.md
+pathway2cyjs.py
+setup.py
+pathway2cyjs.egg-info/PKG-INFO
+pathway2cyjs.egg-info/SOURCES.txt
+pathway2cyjs.egg-info/dependency_links.txt
+pathway2cyjs.egg-info/requires.txt
+pathway2cyjs.egg-info/top_level.txt
