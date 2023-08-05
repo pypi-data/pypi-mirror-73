@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: python-include
+Version: 0.0.1
+Summary: Path based import-all in Python, inspired by Ruby's include
+Home-page: https://github.com/jeff-hykin/python-include
+Author: Jeff Hykin
+Author-email: jeff.hykin@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
