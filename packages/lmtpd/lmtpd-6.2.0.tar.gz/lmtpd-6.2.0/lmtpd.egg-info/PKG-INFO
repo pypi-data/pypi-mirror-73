@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: lmtpd
+Version: 6.2.0
+Summary: A LMTP server class
+Home-page: https://github.com/moggers87/lmtpd
+Author: Matt Molyneaux
+Author-email: moggers87+git@moggers87.co.uk
+License: MIT
+Download-URL: http://pypi.python.org/pypi/lmtpd
+Description: A LMTP counterpart to smtpd in the Python standard library
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications :: Email
