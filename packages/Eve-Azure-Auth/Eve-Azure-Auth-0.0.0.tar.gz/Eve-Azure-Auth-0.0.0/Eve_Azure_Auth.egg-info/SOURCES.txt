@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+Eve_Azure_Auth.egg-info/PKG-INFO
+Eve_Azure_Auth.egg-info/SOURCES.txt
+Eve_Azure_Auth.egg-info/dependency_links.txt
+Eve_Azure_Auth.egg-info/not-zip-safe
+Eve_Azure_Auth.egg-info/requires.txt
+Eve_Azure_Auth.egg-info/top_level.txt
+src/__init__.py
+src/__version__.py
+src/auth.py
+src/jwksutils.py
+src/verifier.py
