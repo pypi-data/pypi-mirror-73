@@ -1,0 +1,7 @@
+bpe_summarizer.py,sha256=1pLM9tG8QKzjjAv88U2rsZvl5bGX2oUTJQl6TuGqk00,3698
+src/nltk_data/corpora/stopwords/english,sha256=AZ8QS6LtB0NtBfnN0zgwNK1mAU7cJ_xlH4N-GgOLZFE,936
+src/utils.py,sha256=sU3_-3TZwG6P-jjU6-wVfAOI1bM-gwz_Ps2nObFQM4c,445
+bpe_summarizer-0.1.7.dist-info/LICENSE,sha256=lm_w_PQbgmGeFGswyT_wtQ6pedEadBXnqq2d2r4U7ik,1063
+bpe_summarizer-0.1.7.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+bpe_summarizer-0.1.7.dist-info/METADATA,sha256=b6J5Va5dJfMXAF2JAcIr4z5SgGnE-PqMUBK6zBlDOO4,6632
+bpe_summarizer-0.1.7.dist-info/RECORD,,
