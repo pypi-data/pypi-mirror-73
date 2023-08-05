@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: skyportal-spatial
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sqlalchemy (>=1.2.8)
+Requires-Dist: pytest (>=3.3.0)
+Requires-Dist: numpy (>=1.12.0)
+Requires-Dist: astropy (>=4.0.0)
+Requires-Dist: pyyaml (>=5.0.0)
+Requires-Dist: psycopg2 (>=2.5.3)
+Requires-Dist: scipy (>=1.0.0)
+
+UNKNOWN
+
+
