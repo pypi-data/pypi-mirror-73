@@ -1,0 +1,7 @@
+README.md
+setup.py
+fuzzydef/__init__.py
+fuzzydef.egg-info/PKG-INFO
+fuzzydef.egg-info/SOURCES.txt
+fuzzydef.egg-info/dependency_links.txt
+fuzzydef.egg-info/top_level.txt
