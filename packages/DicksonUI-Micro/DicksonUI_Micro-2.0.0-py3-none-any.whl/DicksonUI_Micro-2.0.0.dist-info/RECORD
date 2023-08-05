@@ -1,0 +1,15 @@
+dicksonui/Application.py,sha256=ihro5aVtUCE50c9nUmk_T1OFeZjVG4FUeT967Fw6z6g,3547
+dicksonui/Control.py,sha256=FuyTLlS14xjvYOUNo2qXBMfRBOB-e_qm0_dIxJaPmz0,2842
+dicksonui/DicksonUI.js,sha256=M7ZYi5J_XEBgU560KZkeAtf-MV1V5DlLWZnzPyzL-Xk,9674
+dicksonui/__init__.py,sha256=bbyKwTbxQRc-Ez9W9rQyhzNJjMBwV9SSwcUlXOj2tq0,178
+dicksonui/bom.py,sha256=101YTduCRaXfzTCvrjgfpuSa6sgZwoqZWasVXe2a9PQ,3690
+dicksonui/dom.py,sha256=ickp_xSX_WGTYvR5nenx-ZRHam9LK_HYXWgUKycWexw,3172
+dicksonui/fakeattr.py,sha256=Y-fVm_AUrhxdtMVdmnWYC53z_hwSAx4oUiRTBJAYJiA,1959
+dicksonui/index.html,sha256=U-ldWh4sMeniu146Q7rBcL44L4Pu7h7ZCwdT9-GxHB8,334
+dicksonui/wsocket.py,sha256=5CRzjXOya_VK5ckA0UZ1kbRvldN5W12iVX8T-NNdgkk,8995
+DicksonUI_Micro-2.0.0.dist-info/LICENSE,sha256=F3soEOCP0akyMnG23d-SBJoCOP3w1gjdwjcsJZ5ckm8,1073
+DicksonUI_Micro-2.0.0.dist-info/METADATA,sha256=A59Zb6CmhuOgAIwwRehyS8ne5pdhx7hWgW8dixpZrWg,5169
+DicksonUI_Micro-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+DicksonUI_Micro-2.0.0.dist-info/top_level.txt,sha256=s-FLEX7hnmRI68jD4goST7A3iXXtevJdTIwr5wa6jlI,10
+DicksonUI_Micro-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+DicksonUI_Micro-2.0.0.dist-info/RECORD,,
