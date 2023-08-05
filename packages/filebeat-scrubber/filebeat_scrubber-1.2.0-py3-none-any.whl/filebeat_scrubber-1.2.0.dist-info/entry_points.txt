@@ -1,0 +1,3 @@
+[console_scripts]
+filebeat_scrubber = filebeat_scrubber.filebeat_scrubber:main
+
