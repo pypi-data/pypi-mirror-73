@@ -1,0 +1,11 @@
+d2l/__init__.py,sha256=lbxqJ7qAdpiCABXFrYJNMqXQ9tWoZpXAsaTz9vhYUpA,264
+d2l/mxnet.py,sha256=10B26b7DH5sCgMCpbv5ZPtAC534wW5V7vPtWCmjaGtk,106118
+d2l/torch.py,sha256=7P4EKBYpppQBknRxasrUCpBVoeUpIHwD9-E_z_qTBI0,21524
+d2l-0.13.0.dist-info/LICENSE,sha256=o5pLPQ9BGoIXt8bdNdyLBgA3hM4y01k9DS14Cn6cL4w,14849
+d2l-0.13.0.dist-info/LICENSE-SAMPLECODE,sha256=3fm12d0v3tGGU-DKTFk0AI1PrqEWHXVEk7VKI8JerBQ,931
+d2l-0.13.0.dist-info/LICENSE-SUMMARY,sha256=FCv9uQVi1klIsHAJ5VOT1I6h6jW0U_2k2Q7a1Nz6K9Y,333
+d2l-0.13.0.dist-info/METADATA,sha256=S53U07MdnznfOZZ0tml3jZS5S7Vfhoss3Y6uhn5KHJ0,322
+d2l-0.13.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+d2l-0.13.0.dist-info/top_level.txt,sha256=dvtvwCUdQtPkozYjmFSlAAbBN0SDAKtrG7l5fdQ90aE,4
+d2l-0.13.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+d2l-0.13.0.dist-info/RECORD,,
