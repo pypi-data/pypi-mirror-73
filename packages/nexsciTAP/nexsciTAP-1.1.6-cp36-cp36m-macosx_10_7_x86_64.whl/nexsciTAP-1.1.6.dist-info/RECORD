@@ -1,0 +1,12 @@
+TAP/configparam.py,sha256=Hcsaa-t3OAK2PYEa0V3hrwv7LdeLRkDZFdXvQlhmWR0,9307
+TAP/datadictionary.py,sha256=LRKab89nQDX-EXcO-fjgpOQ_H690FmHmrRZ6DPVLyDA,16171
+TAP/propfilter.py,sha256=rDW38mHDXAARLtO7h9NDPphYq9x27DvwJF4W2wt5194,64458
+TAP/runquery.py,sha256=b4riKKd92y-Ez2VtgTa-VvP_oLTKrJI7bKw_9akcMNs,18284
+TAP/tablenames.py,sha256=w6mLVUK_2ByzcaGiamFJrPtabQ8_tkH72UQUMY6l17s,2577
+TAP/tap.py,sha256=6Noovr1mFdQ9PRrnGuNd1YDyO8FgVxInCWoozxyraT8,71274
+TAP/writerecs.cpython-36m-darwin.so,sha256=oz4iMaKbX8xtx3_iA3U96uQs425jOoMD2bTy3L1a7lo,19288
+TAP/writeresult.py,sha256=nKfNJzc3c2sfvVKPkz6Q8YG8an35YmgjCVvpbnr4XvE,37048
+nexsciTAP-1.1.6.dist-info/METADATA,sha256=ZLhm61o4mnfof6j63pupSncotTVDoVyany_CgK4Lm_A,1419
+nexsciTAP-1.1.6.dist-info/RECORD,,
+nexsciTAP-1.1.6.dist-info/WHEEL,sha256=eXhezAGFSydxXsP-w3mB3uCqyg1QWS2cPWJdPcd3KUY,110
+nexsciTAP-1.1.6.dist-info/top_level.txt,sha256=LDU7iSms6r3jyhHWY9OkD7TTO9MwOmEBXQoxjG1eVuw,18
