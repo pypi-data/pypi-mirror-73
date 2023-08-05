@@ -1,0 +1,5 @@
+[console_scripts]
+dev_server=manage:start_test_server
+publish=user_secrets.publish:publish
+update_rst_readme=user_secrets.publish:update_readme
+
