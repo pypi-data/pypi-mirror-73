@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: evalml
+Version: 0.0.1
+Summary: evalml
+Home-page: http://featuretools.com
+Author: Feature Labs, Inc.
+Author-email: support@featurelabs.com
+License: BSD 3-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+Placeholder
+
+
+
