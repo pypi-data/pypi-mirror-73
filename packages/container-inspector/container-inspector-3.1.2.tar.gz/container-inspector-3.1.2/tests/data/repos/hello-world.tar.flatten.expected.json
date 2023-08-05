@@ -1,0 +1,13 @@
+[
+  {
+    "image_dir": "",
+    "image_id": "1815c82652c03bfd8644afda26fb184f2ed891d921b20a0703b46768f9755c57",
+    "image_tags": "hello-world:latest",
+    "author": null,
+    "created_by": null,
+    "layer_id": "3e0554cb0efadb678332292bb7835495fbb0c71af7e01bd4f7d11e64fe3d54df",
+    "layer_sha256": "45761469c965421a92a69cc50e92c01e0cfa94fe026cdd1233445ea00e96289a",
+    "is_empty_layer": false,
+    "layer_location": "3e0554cb0efadb678332292bb7835495fbb0c71af7e01bd4f7d11e64fe3d54df"
+  }
+]

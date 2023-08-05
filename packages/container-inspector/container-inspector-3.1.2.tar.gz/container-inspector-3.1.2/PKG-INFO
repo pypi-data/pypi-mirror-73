@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: container-inspector
+Version: 3.1.2
+Summary: Docker-related utilities.
+Home-page: https://github.com/nexB/container-inspector
+Author: nexB Inc.
+Author-email: info@nexb.com
+License: Apache-2.0
+Description: Docker-related utilities.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
