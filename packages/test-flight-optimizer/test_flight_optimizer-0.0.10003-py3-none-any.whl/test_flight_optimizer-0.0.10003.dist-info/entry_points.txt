@@ -1,0 +1,4 @@
+[console_scripts]
+test_flight_optimizer = flight_optimizer.cli:search
+test_get_locations = flight_optimizer.cli:get_locations
+
