@@ -1,0 +1,11 @@
+unison_gitignore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unison_gitignore/__main__.py,sha256=qs6kN4rXgXytzVlo9nDeC8tm5daCP8xPL2lhUABzuiM,63
+unison_gitignore/main.py,sha256=D7qqvL0F38h6KPhkZX46n4azG2Rae4S2k6bYYRmfjKU,1214
+unison_gitignore/parser.py,sha256=mgynLNNAeb1OUW5OiDN8s8cVZtGKl7PMKVuA0lS1x3o,3341
+unison_gitignore/util.py,sha256=d5SpfMYq0nxxyQLGJnFpmvXeNu2IAkwqr-1ymmq51Qk,2193
+unison_gitignore-0.0.5.dist-info/LICENSE,sha256=OEV2cxbdLmvL4Acrr4OobHQPftg-LstWIryrR0oBd0Y,1064
+unison_gitignore-0.0.5.dist-info/METADATA,sha256=i2Yq5iUqiBIJsakBcyoee76gVC49oqx1VDkXiBQ-lNI,2896
+unison_gitignore-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+unison_gitignore-0.0.5.dist-info/entry_points.txt,sha256=nbZaJXIkFt6wkquci1mgfsH82T4LdcnxYThSQXxAEho,69
+unison_gitignore-0.0.5.dist-info/top_level.txt,sha256=7aW7oFJn1KhtycS8pkPBHIGzR6Z29PebzoGL_i-q1Tw,17
+unison_gitignore-0.0.5.dist-info/RECORD,,
