@@ -1,0 +1,8 @@
+README.md
+cifscloak.py
+setup.py
+cifscloak.egg-info/PKG-INFO
+cifscloak.egg-info/SOURCES.txt
+cifscloak.egg-info/dependency_links.txt
+cifscloak.egg-info/requires.txt
+cifscloak.egg-info/top_level.txt
