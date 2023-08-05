@@ -1,0 +1,11 @@
+README.md
+setup.py
+sjson
+slines
+stoml
+syaml
+sortd.egg-info/PKG-INFO
+sortd.egg-info/SOURCES.txt
+sortd.egg-info/dependency_links.txt
+sortd.egg-info/requires.txt
+sortd.egg-info/top_level.txt

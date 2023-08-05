@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+
+from argparse import ArgumentParser, Namespace
+from json import JSONDecodeError, dump, load
+from sys import stderr, stdin, stdout
+
+from libs.lib import recur_sort, sig_trap
+
+
+def parse_args() -> Namespace:
+    parser = ArgumentParser()
+    parser.add_argument("-i", "--indent", type=int, default=2)
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    try:
+        json = load(stdin)
+    except JSONDecodeError:
+        print("parse error!", file=stderr)
+        exit(1)
+    else:
+        new = recur_sort(json)
+        dump(new, stdout, indent=args.indent)
+
+
+try:
+    sig_trap()
+    main()
+except KeyboardInterrupt:
+    exit(130)
+except BrokenPipeError:
+    exit(13)
