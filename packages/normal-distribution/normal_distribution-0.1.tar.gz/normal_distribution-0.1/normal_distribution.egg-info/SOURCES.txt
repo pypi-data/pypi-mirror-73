@@ -1,0 +1,10 @@
+setup.py
+normal_distribution/Binomialdistribution.py
+normal_distribution/Gaussiandistribution.py
+normal_distribution/Generaldistribution.py
+normal_distribution/__init__.py
+normal_distribution.egg-info/PKG-INFO
+normal_distribution.egg-info/SOURCES.txt
+normal_distribution.egg-info/dependency_links.txt
+normal_distribution.egg-info/not-zip-safe
+normal_distribution.egg-info/top_level.txt
