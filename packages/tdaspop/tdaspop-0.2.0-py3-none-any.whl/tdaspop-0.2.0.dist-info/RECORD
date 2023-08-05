@@ -1,0 +1,11 @@
+tdaspop/__init__.py,sha256=aeNY2o0JKJIZEHqIOit1nHYPCXA35YkHHdFJp8UarOo,325
+tdaspop/pop_dists.py,sha256=1zi93VcVJEUE7gfBwImP38Mv7bu4gDvx6i1J2X9Gb60,2311
+tdaspop/population_params_absracts.py,sha256=_dJ6r5wJOtEvMkO-GoDsDyq7HNe1NJqc3Y7pB99X47c,4813
+tdaspop/rateDistributions.py,sha256=8rf3pGbAVTW7Qb5DwPWJajOWCqWD2ny8__jV9Tn_dCg,9989
+tdaspop/sampling.py,sha256=qHPr-ItUNt3EvdAvXkWto_tssk4y7h7TkhzYHCGPTS0,1677
+tdaspop/version.py,sha256=OXpfPXnaDD9R3zs95Xa_8fwvrBEm_wqtmwGVMPp6Lr0,22
+tdaspop-0.2.0.dist-info/LICENSE,sha256=XgyzMn7MiZOdeL75WK93M59OPacEiER9gZUAwHN_rTw,1516
+tdaspop-0.2.0.dist-info/METADATA,sha256=59Un02YcBiIA-N9emQeNkEsG88l0ZPTyWcLjXdAKkO4,248
+tdaspop-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tdaspop-0.2.0.dist-info/top_level.txt,sha256=7ykUjev5opKWiy_VEZfScVu5570_4KhmuCRvJPZw80o,8
+tdaspop-0.2.0.dist-info/RECORD,,
