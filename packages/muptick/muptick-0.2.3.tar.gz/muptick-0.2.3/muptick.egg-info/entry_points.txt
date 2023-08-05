@@ -1,0 +1,3 @@
+[console_scripts]
+muptick = muptick.cli:main
+
