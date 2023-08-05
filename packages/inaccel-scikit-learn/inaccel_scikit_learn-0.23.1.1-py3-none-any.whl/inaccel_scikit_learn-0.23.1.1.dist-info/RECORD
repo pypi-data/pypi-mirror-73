@@ -1,0 +1,15 @@
+inaccel_scikit_learn-0.23.1.1-py3.6-nspkg.pth,sha256=HFJQQjsayTBtX4THfmpEuvbpxvpxnS6QzmjlbIrpPCI,544
+inaccel/sklearn/__init__.py,sha256=ejPOgAyPmF9e0dmSkV__EfhzoO0ecX2e0xmC6_UmLus,27
+inaccel/sklearn/naive_bayes.py,sha256=KDr3OxzXTEOIeQeduw4GZQHPivZiVrYYEvkOPEqBxkI,50758
+inaccel/sklearn/cluster/__init__.py,sha256=cbDmMtEMFJbH1WKQejz1n4L0F-N_O0htcKYPBre5vKU,23
+inaccel/sklearn/cluster/_kmeans.py,sha256=8VbFWuSKvydwxKPCO_o3xjZrpX9a8DxPB3vHsJhp0G4,79498
+inaccel/sklearn/linear_model/__init__.py,sha256=9aAMraPfzQOcdDIFA9TcVeoLeSu50ER7f-uwrGFzYEo,25
+inaccel/sklearn/linear_model/_logistic.py,sha256=XNdLE0uQdUBPB2IbDfOaKikTcHAGzmBq1sAQm3NeSy8,85864
+inaccel_scikit_learn-0.23.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+inaccel_scikit_learn-0.23.1.1.dist-info/METADATA,sha256=q4LdsonXZoNU46YgLhGyi0gdI9R__30DpsSEF884994,794
+inaccel_scikit_learn-0.23.1.1.dist-info/RECORD,,
+inaccel_scikit_learn-0.23.1.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+inaccel_scikit_learn-0.23.1.1.dist-info/metadata.json,sha256=swhuWGyvrpWm75zu0c2VapoCBoXJThHmLQe-uMwxitw,963
+inaccel_scikit_learn-0.23.1.1.dist-info/namespace_packages.txt,sha256=mEtI1J9uUWktjAq_9Bj1x0_unZ4ubkU525epbXPFmnA,8
+inaccel_scikit_learn-0.23.1.1.dist-info/top_level.txt,sha256=mEtI1J9uUWktjAq_9Bj1x0_unZ4ubkU525epbXPFmnA,8
+inaccel_scikit_learn-0.23.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
