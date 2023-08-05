@@ -1,0 +1,7 @@
+lxml
+pandas
+colorama
+clang
+chardet
+seaborn
+tqdm
