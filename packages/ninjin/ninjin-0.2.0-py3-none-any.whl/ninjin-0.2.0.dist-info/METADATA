@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ninjin
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: ninjin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: setuptools (==46.4.0)
+Requires-Dist: dynaconf (==2.2.3)
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: aio-pika (==6.3.0)
+Requires-Dist: gino (==1.0.0)
+Requires-Dist: marshmallow (==3.6.0)
+Requires-Dist: psycopg2-binary (==2.8.5)
+Requires-Dist: asyncpg (==0.20.1)
+Requires-Dist: asyncpgsa (==0.26.1)
+Requires-Dist: simplejson
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: async-generator (==1.10) ; extra == 'dev'
+Requires-Dist: faker ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-builtins ; extra == 'dev'
+Requires-Dist: flake8-coding ; extra == 'dev'
+Requires-Dist: flake8-commas ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-debugger ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: flake8-pep3101 ; extra == 'dev'
+Requires-Dist: flake8-quotes ; extra == 'dev'
+Requires-Dist: flake8-string-format ; extra == 'dev'
+Requires-Dist: flake8-super-call ; extra == 'dev'
+Requires-Dist: flake8-eradicate ; extra == 'dev'
+Requires-Dist: flake8-print ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-factoryboy ; extra == 'dev'
+Requires-Dist: pytest-pep8 ; extra == 'dev'
+Requires-Dist: pytest-mock (==3.1.0) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (==0.11.0) ; extra == 'dev'
+
+UNKNOWN
+
+

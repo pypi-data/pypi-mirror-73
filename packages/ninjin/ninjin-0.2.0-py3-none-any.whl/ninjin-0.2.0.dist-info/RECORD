@@ -1,0 +1,15 @@
+ninjin/__init__.py,sha256=5GrxfUeQ_daxcFgqlYU57jXe2kDS9Zi_WBSmwfyCoEk,50
+ninjin/decorator.py,sha256=GfDQ9tvFrku3zxQSIrt1hhaf7-YGnXqGgU6H0mmY0FE,4126
+ninjin/exceptions.py,sha256=yj5MiN2vp87E-p6CVS9heaERf10gMM7BVz4E9XSNZA0,424
+ninjin/filtering.py,sha256=y8QwAjPWrlMsVTRM6OtzAhjcRtOKnaYmK9GOv9-PR8k,2635
+ninjin/logger.py,sha256=0d7V5Ak6QT853Z0f4dMdFqh_ZlUsjkn06zoJYVWpf5E,214
+ninjin/ordering.py,sha256=4tLP4XhgwfFUmhrx40NqGUqk83BEn6rHpAft6gOZ9sU,1306
+ninjin/pagination.py,sha256=LLZnbQGAL4KjbDTgg31SskuBKZNOew2XUF5cHw00kc4,1424
+ninjin/pool.py,sha256=qnJKN2L0Q_1J2oC3tZBjIR5SYaj0IQWrKM1dAC2MUNA,14804
+ninjin/resource.py,sha256=igHVKVZZga7FIvT4Wu12jdvNEssaxZy0B0h3xld84wA,9787
+ninjin/schema.py,sha256=3kiG3TGmWkcwYo0Ovg39e-n7QUSzEVdQ2ybK9_7gOzw,1983
+ninjin-0.2.0.dist-info/LICENSE,sha256=s2hkUzdQlaV-HM4f6aTyBiKvipKSt7cAmfl0FT-nlog,1070
+ninjin-0.2.0.dist-info/METADATA,sha256=NTp2YL7ShsVOTbaskBrb4y4Mq43EjMULhP5JututZMo,1835
+ninjin-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ninjin-0.2.0.dist-info/top_level.txt,sha256=-7bveQEC77qAH046h141PV7Kg1mnTrwIhD6BuOYnemg,7
+ninjin-0.2.0.dist-info/RECORD,,
