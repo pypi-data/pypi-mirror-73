@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: opportunity-scraper
+Version: 0.1.6
+Summary: Web scrapers for various innovation opportunity sites
+Home-page: https://github.com/longsight/opportunity_scraper
+Author: Ashleigh Crosby
+Author-email: tcrosby@gmail.com
+License: GPLv3+
+Description: # opportunity_scraper
+        
+        `opportunity_scraper` is a Python3 script for scraping R&D competition websites and dumping the results into the SuiteCRM V8 API.
+        
+        ## Installation
+        
+        Install with [pip](https://pip.pypa.io/en/stable/):
+        
+        ```bash
+        pip3 install opportunity_scraper
+        ```
+        
+        ### Dependencies
+        
+        `opportunity_scraper` uses [chromedriver](https://chromedriver.chromium.org/), and will not work without it. Download the appropriate `chromedriver` version for your Chrome or Chromium version. Some distros (Fedora, at the very least) may have a packaged version that corresponds to the versions of Chrome available.
+        
+        ## Supported resources
+        
+        - [UK Government Innovation Funding Service](https://apply-for-innovation-funding.service.gov.uk/competition/search)
+        - [KTN Innovation Exchange](https://www.ktninnovationexchange.co.uk/challenges) (requires registration)
+        
+        ## Before use
+        
+        ### SuiteCRM OAuth2 credentials
+        
+        Before using the scraper, you need to create some SuiteCRM OAuth2 client credentials for the script to use.
+        
+        [Click](https://docs.suitecrm.com/developer/api/developer-setup-guide/configure-authentication/#_client_credentials_grant) for the official SuiteCRM documentation. It's a little confusing on what to do, so for clarity:
+        
+        - Navigate to the `OAuth2 Clients and Tokens` admin page (`https://www.your-suitecrm-instance.com/suitecrm/index.php?module=OAuth2Clients`)
+        - Create a new `Client Credentials Client`, by clicking "New Client Credentials Client", giving it a name, and entering a secret password in the input box labelled "Change secret". Despite the wording, do not leave the box blank when creating your credentials.
+        - After saving, you'll be presented with a Client ID.
+        
+        The Client ID and Client Secret will be used in configuration.
+        
+        ### Configuration
+        
+        Configuration is via a [YAML](https://yaml.org/) file.
+        
+        The default location is `~/.config/opportunity_scraper/settings.yaml`, but this can be changed with the `--config` CLI option at runtime.
+        
+        The following can be used as a template for the config file. All values are required.
+        
+        ```yaml
+        browser:
+            # Location of chromedriver
+            chromedriver: "/usr/bin/chromedriver"
+            # Credentials for KTN Innovation Exchange
+            ktn_username: "dummy@example.com"
+            ktn_password: "somesecretpassword"
+        
+        oauth:
+            # SuiteCRM OAuth2 credentials
+            token_url: "https://example.com/suitecrm/Api/access_token"
+            client_id: "some-uuid-token"
+            client_secret: "anotherpassword"
+        
+        suitecrm:
+            # SuiteCRM API
+            api_url: "https://example.com/suitecrm/Api"
+            # Sales Account ID for .gov.uk competitions
+            govuk_account_id: "another-uuid"
+            # Sales Account ID for KTN competitions
+            ktn_account_id: "another-uuid"
+            # Default user to be assigned new opportunities
+            assigned_user_id: "1"
+        ```
+        
+        #### Notes on configuration
+        
+        ##### `browser`
+        - `chromedriver`: path to the `chromedriver` executable. Depending on whether you install it from a distro package or the Chromedriver website, it may or may not end up in `$PATH`, so for simplicity we specify it here.
+        - `ktn_username`, `ktn_password`: KTN Innovation Exchange credentials, which can be created [here](https://www.ktninnovationexchange.co.uk/register).
+        
+        ##### `oauth`
+        - `token_url`: Full URL to the SuiteCRM V8 API OAuth2 endpoint - usually of the form `https://your-suitecrm-instance.com/suitecrm/Api/access_token`
+        - `client_id`, `client_secret`: These must be created in the SuiteCRM admin, as above.
+        
+        ##### `suitecrm`
+        - `api_url`: Full URL to the SuiteCRM V8 API - usually of the form `https://your-suitecrm-instance.com/suitecrm/Api`.
+        - `govuk_account_id`, `ktn_account_id`: The ID (in UUID form) of the SuiteCRM Sales Account that will be assigned to new opportunities scraped from the gov.uk and KTN sites. The UUID can be found in the URL when examining a particular Sales Account in SuiteCRM (`https://your-suitecrm-instance.com/suitecrm/index.php?module=Accounts&action=index`).
+        
+        The same SuiteCRM account can be used for .gov.uk- and KTN-sourced opportunities if desired - just use the same ID for both values.
+        
+        ## Running
+        
+        ```
+        usage: opportunity_scraper [-h] [-c CONFIG]
+        
+        Scrape R&D competitions and push the results to the SuiteCRM API.
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -c CONFIG, --config CONFIG
+                                Location of config file
+        ```
+        
+        ## License
+        [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
