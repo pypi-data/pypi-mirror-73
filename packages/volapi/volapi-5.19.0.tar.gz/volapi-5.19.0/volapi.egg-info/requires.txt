@@ -1,0 +1,4 @@
+autobahn==19.3.3
+orjson
+python-engineio@ git+https://github.com/szero/python-engineio
+requests
