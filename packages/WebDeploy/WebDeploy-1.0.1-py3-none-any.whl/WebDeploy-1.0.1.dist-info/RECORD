@@ -1,0 +1,12 @@
+WebDeploy/__init__.py,sha256=1ABEXTz1BXCPLKADb7F2bKO2WXrvPlF5OPfJi74fTL8,166
+WebDeploy/scripts/__init__.py,sha256=1ABEXTz1BXCPLKADb7F2bKO2WXrvPlF5OPfJi74fTL8,166
+WebDeploy/scripts/config.py,sha256=b7awYekTYctm1ThDVg5aDCulhkPUbuMj1nZPXg9d3GA,5360
+WebDeploy/scripts/deploy_django.py,sha256=EVt4kMs-6jCO-VTeuwqfYoPkvRYLMqCMkHUwjhAtwaU,6409
+WebDeploy/scripts/deploy_flask.py,sha256=ffr3dKWBY653xA2oznVSc6MzmOEr2ghJcEEzGkkVrek,6696
+WebDeploy/scripts/runner.py,sha256=DZtI3lO-JzKbUsOrSsqX2y7TQTrFDLwReuu7mdUzDKc,920
+WebDeploy-1.0.1.dist-info/LICENSE,sha256=fyjLAvxN7ynIM6UXFkPjM6PKeB_YnsQt-foMjKvDmRc,1097
+WebDeploy-1.0.1.dist-info/METADATA,sha256=zZDjfbtecgPKVOM9tPjIMIRh2JbYmGtWoDtKPX-Ulcg,1866
+WebDeploy-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+WebDeploy-1.0.1.dist-info/entry_points.txt,sha256=qUVhUDwcwj7lNASVWDu6mrRV7NE-M4kzR9Xm3nsY2bc,133
+WebDeploy-1.0.1.dist-info/top_level.txt,sha256=1Wq_odv70STFXzrNyIkSu2xZL6-iUU-EG_Q4Rvucoio,10
+WebDeploy-1.0.1.dist-info/RECORD,,
