@@ -1,0 +1,13 @@
+flopferret/__init__.py,sha256=X9k7VmJF_-ho6VWyZq_-SRyjUfN3J4cs0XgUu_8iVVI,819
+flopferret/board_texture.py,sha256=Z7Y86HhJ34T9XUWdxvqAY1Ycx0NQOM9CkwLSILg14sE,4080
+flopferret/hand_range.py,sha256=TmG9_p_D2dCGrXf113t-0vwXxJ8CS78GePkEzOPUb0c,2050
+flopferret/main_window.py,sha256=skNHfRovsWNtn3bT5YpuyJ6zrEykF1WOLZ5weCWUURg,9271
+flopferret/percent_display.py,sha256=slIvwvGQcK80vuuN4uSaEOypqCndFD5lVqCk4kiDx2Q,2454
+flopferret/range_selector.py,sha256=8dckxprqApxye3eAPXrg_qXfZRci1cyUyD7-fcUTxLg,13463
+flopferret/saved_ranges.py,sha256=bzhSdl10JnCHziKXki8fz8dTil76JGdwLpdMOR38VVA,1571
+flopferret-0.1.4.dist-info/LICENSE,sha256=EqxQR_KvBSLwZ5ixWJ_8RZm8KckflU14dOAyBjTnd8A,35122
+flopferret-0.1.4.dist-info/METADATA,sha256=LNkdmU606oU0VWL2iMnluF_H_tCo3MLZvVfWAyrdhaM,1518
+flopferret-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flopferret-0.1.4.dist-info/entry_points.txt,sha256=zeQhOg7EBUtXOoOxRJdRKUMXkVFkcnuUFxNBuLRxLDI,44
+flopferret-0.1.4.dist-info/top_level.txt,sha256=tdhXw0CSGXY3EQpjLeqi7Dz3jNwfazMjd_wMwLVxUjQ,11
+flopferret-0.1.4.dist-info/RECORD,,
