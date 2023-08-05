@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+setux/__init__.py
+setux.egg-info/PKG-INFO
+setux.egg-info/SOURCES.txt
+setux.egg-info/dependency_links.txt
+setux.egg-info/entry_points.txt
+setux.egg-info/top_level.txt
