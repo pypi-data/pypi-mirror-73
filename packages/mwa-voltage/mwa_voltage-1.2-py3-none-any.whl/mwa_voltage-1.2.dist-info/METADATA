@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mwa-voltage
+Version: 1.2
+Summary: Tools for processing MWA voltage data
+Home-page: UNKNOWN
+Author: Dave Pallot
+Author-email: dave.pallot@icrar.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
