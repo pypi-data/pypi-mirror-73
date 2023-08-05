@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: qbc_speech
+Version: 1.0.0
+Summary: Speech operation api.
+Home-page: https://www.shinelab.cn
+Author: Charles
+Author-email: charlesmeng@shinelab.cn
+License: MIT
+Description: Speech Recognition,voice2text,text2voice
+Keywords: pip3,speech,python3,python,Speech Recognition
+Platform: UNKNOWN
