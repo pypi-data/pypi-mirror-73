@@ -1,0 +1,11 @@
+cartesio/__init__.py,sha256=dWwt52st3WVAGfH_ScbWvrebOio60VrfqOim90-Bx4Q,177
+cartesio/cartesio.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+cartesio/cli.py,sha256=P3S0GZAf42-oyWIcI7Z3p9sc6t4-hi8eT0dmebPZR0k,439
+cartesio/core/__init__.py,sha256=o8QtDxzNX99yf-ujDojqGVoJ2BFJmvb2hZ-ZHYia2qo,198
+cartesio-0.1.1.dist-info/AUTHORS.rst,sha256=9qGAJBIHytrYdQi6cUSWzzYkWFVbSvEtlgOn8keOLdQ,161
+cartesio-0.1.1.dist-info/LICENSE,sha256=ruTf6PPjQBixwP_jqpF2mDf4ICr2LwQYtv74AVKEC20,1072
+cartesio-0.1.1.dist-info/METADATA,sha256=Z0wH0pqkcAY9Kb0q8L0kTexe9b5hGfTxfTGuT3JtFI4,1904
+cartesio-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cartesio-0.1.1.dist-info/entry_points.txt,sha256=nGw3TvuJUqOIYNYFq-7cLNZeDKVSkefHlNBo9y1XjdA,48
+cartesio-0.1.1.dist-info/top_level.txt,sha256=8Jb4oz4AsqI3U8Narl9h6GrmlsqGZ2OvFZDfuxkSWus,9
+cartesio-0.1.1.dist-info/RECORD,,
