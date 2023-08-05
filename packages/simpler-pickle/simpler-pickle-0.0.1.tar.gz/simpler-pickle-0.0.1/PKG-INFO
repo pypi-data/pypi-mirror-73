@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: simpler-pickle
+Version: 0.0.1
+Summary: simpler pickle code
+Home-page: https://github.com/gariciodaro/simpler-pickle.git
+Author: Gari Ciodaro Guerra
+Author-email: gari.ciodaro.guerra@gmail.com
+License: UNKNOWN
+Description: # Object File Handlers
+        
+        A wrapper for writing simpler pickle code. save and load python objects in one line.
+        
+        ## To save a python object to file system.
+        
+        ```python
+        from OFHandlers import OFHandlers as OFH
+        
+        x=[i for i in range(4)]
+        
+        #save object to local file system.
+        OFH.save_object(path="./x.file",object=x)
+        
+        #load object to current python environment
+        x_loaded=OFH.load_object(path="./x.file")
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

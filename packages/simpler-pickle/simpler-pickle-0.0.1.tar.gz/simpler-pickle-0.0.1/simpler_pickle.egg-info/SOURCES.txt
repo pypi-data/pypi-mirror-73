@@ -1,0 +1,8 @@
+README.md
+setup.py
+OFHandlers/OFHandlers.py
+OFHandlers/__init__.py
+simpler_pickle.egg-info/PKG-INFO
+simpler_pickle.egg-info/SOURCES.txt
+simpler_pickle.egg-info/dependency_links.txt
+simpler_pickle.egg-info/top_level.txt
