@@ -1,0 +1,4 @@
+[console_scripts]
+bh20-seq-analyzer = bh20seqanalyzer.main:main
+bh20-seq-uploader = bh20sequploader.main:main
+
