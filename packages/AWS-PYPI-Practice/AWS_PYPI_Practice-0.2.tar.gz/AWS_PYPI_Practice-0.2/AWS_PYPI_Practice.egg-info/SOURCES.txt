@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+AWS_PYPI_Practice.egg-info/PKG-INFO
+AWS_PYPI_Practice.egg-info/SOURCES.txt
+AWS_PYPI_Practice.egg-info/dependency_links.txt
+AWS_PYPI_Practice.egg-info/not-zip-safe
+AWS_PYPI_Practice.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
