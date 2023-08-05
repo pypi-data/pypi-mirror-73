@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+py3webfuzz.egg-info/PKG-INFO
+py3webfuzz.egg-info/SOURCES.txt
+py3webfuzz.egg-info/dependency_links.txt
+py3webfuzz.egg-info/requires.txt
+py3webfuzz.egg-info/top_level.txt
