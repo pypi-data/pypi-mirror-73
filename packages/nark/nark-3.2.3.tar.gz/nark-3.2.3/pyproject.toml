@@ -1,0 +1,9 @@
+# This file exists within 'nark':
+#
+#   https://github.com/tallybark/nark
+
+# (lb): Including this file to be pedantic.
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
