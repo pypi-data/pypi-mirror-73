@@ -1,0 +1,9 @@
+README.md
+setup.py
+gitmap/__init__.py
+gitmap/base.py
+gitmap.egg-info/PKG-INFO
+gitmap.egg-info/SOURCES.txt
+gitmap.egg-info/dependency_links.txt
+gitmap.egg-info/requires.txt
+gitmap.egg-info/top_level.txt
