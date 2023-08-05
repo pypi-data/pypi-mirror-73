@@ -1,0 +1,2 @@
+Lib-Hal9k>=0.6.2
+Flask-Classful>=0.14.2
