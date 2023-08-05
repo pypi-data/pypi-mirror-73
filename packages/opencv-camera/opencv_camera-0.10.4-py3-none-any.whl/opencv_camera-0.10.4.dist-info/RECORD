@@ -1,0 +1,15 @@
+opencv_camera/__init__.py,sha256=SERRbL4dhEFowtu7Xdyf2jaZ5tsCydpGiR0-CTZ0N0A,467
+opencv_camera/bin/camera_calibrate.py,sha256=fDuaPvmRVD_qDXlbmUdVL47FuaITSvuqs5gE1DfunYM,2583
+opencv_camera/bin/mjpeg_server.py,sha256=Z9Ze97cvTcoQ_c0F9e4t7VPlcyDyN9C68zh_0cGSLsY,4678
+opencv_camera/bin/video_capture.py,sha256=GALZ7991zNRWunZZpEynUAL4C4KTS5hTfBv9lO5-m4M,3878
+opencv_camera/camera_calibrate.py,sha256=HGdvYsUJy70DDHAJwhSaDBAL6EPOZSiTxgYQuq_kCB8,6803
+opencv_camera/display.py,sha256=8MPozlMs9gPLn9ML5_YhSyWeRRzbKYS6bsrAl8BzMI0,851
+opencv_camera/mjpeg_server.py,sha256=kjMMcglVPUQzXAU5Cev3Tu3p73f8hOmLhwEzdAeRMLg,4517
+opencv_camera/object_detection.py,sha256=m5wRBIY2xKu0HhEhe9mBf8qES0b20tL3Vm3p1ioe-0U,2284
+opencv_camera/save.py,sha256=2E5nSTOcNbNwDnEbFoj1ElQ72xhPoici7nMtyKUNAck,2584
+opencv_camera/threaded_camera.py,sha256=3vq23rb3XZileEXUiOJBSbiBX9iRYxDwdd0nm8zlYRo,3361
+opencv_camera-0.10.4.dist-info/entry_points.txt,sha256=YdeLH0zzL4jrf12PHvdI6URtkwoDismbMXDCiWegkXI,176
+opencv_camera-0.10.4.dist-info/LICENSE,sha256=zuRVyRbuROcES8tbmnKn1fvAfDbakatxvHzKZjZQD8M,1073
+opencv_camera-0.10.4.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+opencv_camera-0.10.4.dist-info/METADATA,sha256=Wqkdh-jWKWYGsLWH-Q4iPqFc02ZdvZ-DcikLpRfW9hQ,3643
+opencv_camera-0.10.4.dist-info/RECORD,,
