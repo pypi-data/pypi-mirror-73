@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tresearcher
+Version: 0.0.2
+Summary: Helps to run and analyse data science experiments where the data is tresearcher.tabular.
+Home-page: https://github.com/pypa/sampleproject
+Author: Louka Ewington-Pitsos
+Author-email: lewingtonpitsos@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: pandas (==1.0.5)
+Requires-Dist: numpy (==1.19.0)
+Requires-Dist: matplotlib (==3.2.2)
+Requires-Dist: xgboost (==1.1.1)
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
