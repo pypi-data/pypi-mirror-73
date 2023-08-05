@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: BGdist2020
+Version: 0.3
+Summary: Gaussian distributions
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+
+# BGdist2020
+
+This package includes classes and functions for calculating and graphing
+both binomial and gaussian distributions.
+
+#Files
+
+Binomialdistribution.py 
+Gaussiandistribution.py
+Generaldistribution.py
+
+#Installation
+
+The package can be installed using the following command
+
+pip install BGdist2020
+
+#Dependencies
+
+Matplotlib/n
+Python 3
+
