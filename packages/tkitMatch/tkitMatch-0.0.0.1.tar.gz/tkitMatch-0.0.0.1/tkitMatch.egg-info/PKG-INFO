@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tkitMatch
+Version: 0.0.0.1
+Summary: Terry toolkit
+Home-page: https://github.com/napoler/tkitMatch
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Description: 
+        
+        这里是说明
+        tkitMatch一个正则匹配库
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
