@@ -1,0 +1,8 @@
+flask
+waitress
+xlrd
+flask_wtf
+
+[test]
+pytest
+coverage
