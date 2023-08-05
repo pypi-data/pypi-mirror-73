@@ -1,0 +1,11 @@
+calcifer_pde/__init__.py,sha256=_R3SonGYIc1cfB8c4BA6RJtKscE_A0mbQt5pMnNc_cY,272
+calcifer_pde/boundary.py,sha256=Q0jYxZesxtkpoYQT_tKqBLt8E6xldqCExQQIWwzm5lU,4780
+calcifer_pde/calcifer.py,sha256=fSQuLmz49U-l0S7Ii_wqiToMj9RJed32E3YNH3naq6E,5600
+calcifer_pde/diff.py,sha256=wf8fVOqRlj10vmnP5nJp5RpnqPZ1OPbbcZZlEKV0OD4,864
+calcifer_pde/domain.py,sha256=3SzGOiE79RsspRlneGZwt1oprlVcFsjGWx1_Hdj5dZ0,11872
+calcifer_pde/geometry.py,sha256=0-2RGnUiDR2ktDyNrDDYdHoOAKE_mtO3R2Fh6QITnq8,13088
+calcifer_pde-0.1.1.dist-info/LICENSE,sha256=IYRO2dy8tmKRIjcdxRWiJ4J2kryHDbWALfh9Iwkq0k0,1611
+calcifer_pde-0.1.1.dist-info/METADATA,sha256=wE-0YxZM5eeX8vs_5LmTPasXcamnrD6lKk89oNiqyXM,1998
+calcifer_pde-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+calcifer_pde-0.1.1.dist-info/top_level.txt,sha256=Sx5sBKlX295zaMhH7Xad2By1dD13y1HBF0zxa4LtZM8,13
+calcifer_pde-0.1.1.dist-info/RECORD,,
