@@ -1,0 +1,15 @@
+README.md
+setup.py
+gitchm/__init__.py
+gitchm/cli.py
+gitchm/exc.py
+gitchm/init.py
+gitchm/main.py
+gitchm/mirror.py
+gitchm/utils.py
+gitchm.egg-info/PKG-INFO
+gitchm.egg-info/SOURCES.txt
+gitchm.egg-info/dependency_links.txt
+gitchm.egg-info/entry_points.txt
+gitchm.egg-info/requires.txt
+gitchm.egg-info/top_level.txt

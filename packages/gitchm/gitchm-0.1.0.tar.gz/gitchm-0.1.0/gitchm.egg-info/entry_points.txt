@@ -1,0 +1,3 @@
+[console_scripts]
+gitchm = gitchm.main:main
+
