@@ -1,0 +1,11 @@
+pyplatform/common/__init__.py,sha256=BZ6EZNIAr3LSwldTTxW_cLmMH9N90yFzgAEXjeiMPTQ,2194
+pyplatform/common/local_files.py,sha256=wnjF5yUYNOdv9C0nZFPjoHYnNN8lh-V34kC9lX5PWnU,2799
+pyplatform/common/pivotal_cloud.py,sha256=UM5LqqVVeIcJZMil5uRNu4cCywSGJ36MAy35RHYj5WA,13401
+pyplatform/common/udf.py,sha256=bgUBigBr629JPOdmnVYYdlA0yqaDJIz10kVfu3vNR5Y,8367
+pyplatform/common/utilis.py,sha256=yh3j7t4IvRTpDw2SUnaEq7xz6fC-G-pMxz0l2IRfAgA,7556
+pyplatform/udf/__init__.py,sha256=7oL2KioMPuHQkCKzYDbrLBLuuNFcfKqwtWOYS61ALiw,2190
+pyplatform/udf/udf.py,sha256=bgUBigBr629JPOdmnVYYdlA0yqaDJIz10kVfu3vNR5Y,8367
+pyplatform_common-0.0.5.dist-info/METADATA,sha256=kdBmC38VaDOJbCSAqvIBkVCBcZq4c9xyJL-_mk4Sa0E,3704
+pyplatform_common-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyplatform_common-0.0.5.dist-info/top_level.txt,sha256=-XeQMhJUc9mfqObrcRCaWDxVp_MkbZ9b50EaUwAb9Zs,11
+pyplatform_common-0.0.5.dist-info/RECORD,,
