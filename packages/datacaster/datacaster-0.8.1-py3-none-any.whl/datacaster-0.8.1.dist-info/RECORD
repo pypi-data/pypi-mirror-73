@@ -1,0 +1,14 @@
+datacaster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datacaster/annotation_tools.py,sha256=g8lVUZlfQG3ndC0-PG8XFDwwaukbbdUv6Lhs0fQSKDU,2698
+datacaster/annotations.py,sha256=WZx33k01Od-h62D4bQ4bnZXRbS7KN10rh8_aOu63C3c,2952
+datacaster/classes.py,sha256=8lYwRey5F9snPYTeS_DvxjcQf5fnfNspWuOkP8fX3JU,14019
+datacaster/decorators.py,sha256=nmdtL_WnR_JjrUSxM20LAlK5b5ZGyNM8zVT7PoWwUZY,8817
+datacaster/exceptions.py,sha256=UtuWYzFXcc4ZmWqLg7fqxrFWc-kU_t8ZjcNCa8U_Gnk,282
+datacaster/type_check.py,sha256=z4613x67c6Rrn-IzApTk2IRA-ra5-B5wriJ8-zKy-Vo,1080
+datacaster/value_cast.py,sha256=yUpFleS-gMDh9Ccppnkh16RmFwUfd2fIDwuhmqPRy4M,1088
+datacaster/values.py,sha256=UfjPRwCEjxYnaFwsTsszKlIcPOCM2WgiPzE1dz9Y3m0,1367
+datacaster-0.8.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+datacaster-0.8.1.dist-info/METADATA,sha256=vORf6aHh4uPrjB4g7fRe3EcywkLdyxX-6lSZF_nQNYs,784
+datacaster-0.8.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+datacaster-0.8.1.dist-info/top_level.txt,sha256=i1ObtR-jRMMyNmCebShG6ZHjKztTjo10Um-oS7b_rbk,11
+datacaster-0.8.1.dist-info/RECORD,,
