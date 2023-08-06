@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+webfscholar/__init__.py
+webfscholar/bibtex.py
+webfscholar/config.py
+webfscholar/profile.py
+webfscholar/web.py
+webfscholar.egg-info/PKG-INFO
+webfscholar.egg-info/SOURCES.txt
+webfscholar.egg-info/dependency_links.txt
+webfscholar.egg-info/requires.txt
+webfscholar.egg-info/top_level.txt
+webfscholar/bin/webfscholar
+webfscholar/templates/montserrat-badges.html
