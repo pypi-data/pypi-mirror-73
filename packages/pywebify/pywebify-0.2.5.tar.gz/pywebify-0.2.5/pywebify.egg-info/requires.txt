@@ -1,0 +1,4 @@
+pandas
+numpy
+natsort
+fivecentfileio==0.2.9
