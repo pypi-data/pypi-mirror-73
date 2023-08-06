@@ -1,0 +1,11 @@
+braidgenerator/__init__.py,sha256=efqxONlriCzckT5WqF3_X35_1h5YKrwMX9YNnfuD98Y,92
+braidgenerator/braidword.py,sha256=3pNySxs7x2yJF2JxBiOd93y8Fw12scAnShZcWPt2_18,10594
+braidgenerator/markovchain.py,sha256=ShWjclCfgj8UuyQ_zAf-PGklD4h493nttuG80uO_lLA,14661
+braidgenerator/decorators/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+braidgenerator/decorators/braidword.py,sha256=LmBD2kNd_a4pU4NeRFvSw3SwHkMX0nJ88OiUwetOF2E,1309
+braidgenerator/decorators/markovchain.py,sha256=ocQZ6W4uDMzIrKJ6YnaDKQFED7mJMDXRqAYJYouKCuE,3426
+braidgenerator-1.0.1.dist-info/LICENSE.md,sha256=NYByyddgfxCXXHWaDwT5pP-rNRBXoN3lkfa4qhr-S7A,1076
+braidgenerator-1.0.1.dist-info/METADATA,sha256=jOxVxz1jKmGAFVUi4i4e__HZmNmz61bo7ZxG3F83VJY,17323
+braidgenerator-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+braidgenerator-1.0.1.dist-info/top_level.txt,sha256=GThGe-zUs-Ahjx3eiF0UzCH9iA_R2vLDuPUCQVGBpeg,15
+braidgenerator-1.0.1.dist-info/RECORD,,
