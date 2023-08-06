@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: celerite2
+Version: 0.0.1.dev1
+Summary: Fast and scalable Gaussian Processes in 1D
+Home-page: https://celerite2.readthedocs.io
+Author: Daniel Foreman-Mackey
+Author-email: foreman.mackey@gmail.com
+Maintainer: Daniel Foreman-Mackey
+Maintainer-email: foreman.mackey@gmail.com
+License: MIT
+Description: The Python bindings to celerite2.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: release
+Provides-Extra: dev
