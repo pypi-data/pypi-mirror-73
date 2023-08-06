@@ -1,0 +1,10 @@
+l3wrapper/__init__.py,sha256=qDMTCZURcDvaIkjkWCVNz5B-O-f47QLvlaWju6-xuXc,3130
+l3wrapper/classification.py,sha256=h_ucbn3Ma9ffJPnQJVGKcPKe7aDpzhUtilhmzlNZCBA,12098
+l3wrapper/dictionary.py,sha256=dv4PkXV2vWXlaKOVpPq-_kb_1nDL6Ve_ceDCayk7P9k,6775
+l3wrapper/l3wrapper.py,sha256=qMyssV0btK65c1FBtg9oJJ6OlBGRvSzxkFXsneCchGs,15227
+l3wrapper/validation.py,sha256=DqEvQvfnWBGXTL7JlIWAhYiKV0mxyjC0lRckShkM1bM,1443
+l3wrapper-0.7.0.dist-info/LICENSE,sha256=HYIic9sCQe59u0-CmnDNU5VPsQ-DVtipsQPvw1tnRUM,1084
+l3wrapper-0.7.0.dist-info/METADATA,sha256=QmCZ-Bxg3tqFdDAeFrvpyWBYxYSXVeG3TpQb1BXxMwA,4722
+l3wrapper-0.7.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+l3wrapper-0.7.0.dist-info/top_level.txt,sha256=SA77ataAZ3MawjX97XM_xqxmA_Bz5PwiyJC31T81CBs,10
+l3wrapper-0.7.0.dist-info/RECORD,,
