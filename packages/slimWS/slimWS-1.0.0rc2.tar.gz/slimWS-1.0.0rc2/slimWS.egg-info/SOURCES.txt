@@ -1,0 +1,8 @@
+README.md
+setup.py
+slimWS/__init__.py
+slimWS/core.py
+slimWS.egg-info/PKG-INFO
+slimWS.egg-info/SOURCES.txt
+slimWS.egg-info/dependency_links.txt
+slimWS.egg-info/top_level.txt
