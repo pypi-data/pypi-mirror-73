@@ -1,0 +1,11 @@
+README.md
+setup.py
+pmcy_distributions/Binomialdistribution.py
+pmcy_distributions/Gaussiandistribution.py
+pmcy_distributions/Generaldistribution.py
+pmcy_distributions/__init__.py
+pmcy_distributions.egg-info/PKG-INFO
+pmcy_distributions.egg-info/SOURCES.txt
+pmcy_distributions.egg-info/dependency_links.txt
+pmcy_distributions.egg-info/not-zip-safe
+pmcy_distributions.egg-info/top_level.txt
