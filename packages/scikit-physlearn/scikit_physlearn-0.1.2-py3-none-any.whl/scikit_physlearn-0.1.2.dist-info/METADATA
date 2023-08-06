@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: scikit-physlearn
+Version: 0.1.2
+Summary: A Python package for single-target and multi-target regression tasks.
+Home-page: https://github.com/a-wozniakowski/scikit-physlearn
+Maintainer: Alex Wozniakowski
+Maintainer-email: wozn0001@e.ntu.edu.sg
+License: MIT
+Download-URL: https://github.com/a-wozniakowski/scikit-physlearn
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: bayesian-optimization (==1.2.0)
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: catboost (==0.23.2)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: graphviz (==0.14)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==1.7.0)
+Requires-Dist: ipython (==7.16.1)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: jedi (==0.17.1)
+Requires-Dist: joblib (==0.15.1)
+Requires-Dist: keyring (==21.2.1)
+Requires-Dist: kiwisolver (==1.2.0)
+Requires-Dist: lightgbm (==2.3.1)
+Requires-Dist: matplotlib (==3.2.2)
+Requires-Dist: mlxtend (==0.17.2)
+Requires-Dist: numpy (==1.19.0)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: pandas (==1.0.5)
+Requires-Dist: parso (==0.7.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: plotly (==4.8.2)
+Requires-Dist: prompt-toolkit (==3.0.5)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: python-Levenshtein-wheels (==0.13.1)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==26.0)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: retrying (==1.3.3)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: scikit-learn (==0.23.1)
+Requires-Dist: scipy (==1.5.0)
+Requires-Dist: shap (==0.35.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: threadpoolctl (==2.1.0)
+Requires-Dist: tqdm (==4.47.0)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: twine (==3.2.0)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: xgboost (==1.1.1)
+Requires-Dist: zipp (==3.1.0)
+
+# Scikit-physlearn
+
+**Scikit-physlearn** is a Python package for single-target and multi-target regression.
+It is designed to amalgamate 
+[Scikit-learn](https://scikit-learn.org/),
+[LightGBM](https://lightgbm.readthedocs.io/en/latest/index.html),
+[XGBoost](https://xgboost.readthedocs.io/en/latest/),
+[CatBoost](https://catboost.ai/),
+and [Mlxtend](http://rasbt.github.io/mlxtend/)
+regressors into a unified ```Regressor```, which:
+* Follows the Scikit-learn API.
+* Represents data in pandas.
+* Supports [*base boosting*](https://arxiv.org/abs/2005.06194).
+
+The repository was started by Alex Wozniakowski during his graduate studies at Nanyang Technological University.
+
+## Install
+Scikit-physlearn can be installed from [PyPi](https://pypi.org/project/scikit-physlearn/0.1/):
+```
+pip install scikit-physlearn
+```
+
+## Quick Start
+
+See below for a quick tour of the Scikit-physlearn package.
+* Follow the
+[introduction](https://github.com/a-wozniakowski/scikit-physlearn/blob/master/examples/basics/introduction.py)
+module to get started with single-target regression.
+* Check out the
+[multi-target](https://github.com/a-wozniakowski/scikit-physlearn/blob/master/examples/basics/multi_target.py)
+module to get started with multi-target regression.
+* Explore the
+[model search](https://github.com/a-wozniakowski/scikit-physlearn/blob/master/examples/basics/model_search.py)
+module to learn about (hyper)parameter optimization.
+
+## Base boosting
+
+Inspired by the process of human research, base boosting is a modification of the standard version of
+[gradient boosting](https://projecteuclid.org/download/pdf_1/euclid.aos/1013203451),
+which is designed to emulate the paradigm of "standing on the shoulders of giants." To evaluate the
+efficacy of this approach in a quantum device calibration application with a limited supply of experimental data:
+* Start with the
+[learning curve](https://github.com/a-wozniakowski/scikit-physlearn/blob/master/examples/paper_results/learning_curve.py)
+module, and use it to generate an augmented learning curve.
+* Next, run the 
+[benchmark](https://github.com/a-wozniakowski/scikit-physlearn/blob/master/examples/paper_results/benchmark.py)
+module, and use it to obtain the base regressor's test error.
+* Then, run the
+[main body](https://github.com/a-wozniakowski/scikit-physlearn/blob/master/examples/paper_results/main_body.py)
+module, and compare the test error of [base boosting](#Citation) with the benchmark error. 
+* Lastly, explore the difficulty in learning without the base regressor's inductive bias in the
+[supplementary](https://github.com/a-wozniakowski/scikit-physlearn/blob/master/examples/paper_results/supplementary.py)
+module.
+
+
+## Citation
+
+If you use this package, please consider adding the corresponding citation:
+```
+@article{wozniakowski_2020_boosting,
+  title={Boosting on the shoulders of giants in quantum device calibration},
+  author={Wozniakowski, Alex and Thompson, Jayne and Gu, Mile and Binder, Felix},
+  journal={arXiv preprint arXiv:2005.06194},
+  year={2020}
+}
+
+```
+
+
