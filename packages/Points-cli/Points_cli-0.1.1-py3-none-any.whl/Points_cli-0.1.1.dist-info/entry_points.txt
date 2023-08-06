@@ -1,0 +1,3 @@
+[console_scripts]
+Points-cli = Points_cli:main
+
