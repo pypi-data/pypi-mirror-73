@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: noaapy
+Version: 0.5.0
+Summary: Wrapper for the National Centers for Environmental Information API
+Home-page: https://github.com/aschleg/petpy
+Author: Aaron Schlegel
+Author-email: aaron@aaronschlegel.me
+License: MIT
+Description: ## NOAApy
+        
+        A straightforward and easy-to-use API wrapper for the NOAA (National Centers for Environmental Information) 
+        Data Access API.
+        
+        ## Requirements
+        
+        * Python >= 3.6
+        * [requests](http://docs.python-requests.org/en/master/) >= 2.18.4
+        
+        ## Documentation
+        
+        * [NOAA Web Services Documentation](https://www.ncdc.noaa.gov/cdo-web/webservices/v2)
+        
+        ## License
+        
+        MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
