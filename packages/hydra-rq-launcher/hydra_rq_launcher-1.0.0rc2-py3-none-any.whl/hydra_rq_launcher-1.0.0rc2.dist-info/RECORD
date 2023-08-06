@@ -1,0 +1,8 @@
+hydra_plugins/hydra_rq_launcher/__init__.py,sha256=nlNcRa8JrCTvjVYxoVH3f-uv5yqSrWv-stlB8MSlTjU,71
+hydra_plugins/hydra_rq_launcher/_core.py,sha256=8xlywTK1i802T695QkFLziDxfMUtNvbYWjiYK6ajS2Q,4894
+hydra_plugins/hydra_rq_launcher/config.py,sha256=W0XSHhwqGdsVOY2Hs7mVSkvS-LD8A8Rogrq2a0IXhIw,2442
+hydra_plugins/hydra_rq_launcher/rq_launcher.py,sha256=NtF36psIWmQ_qS56HizDhyE00ixjjFwXl5EvT6xHB04,1382
+hydra_rq_launcher-1.0.0rc2.dist-info/METADATA,sha256=0Io27oXYsYEZ_m3GF0wzTf_XKNbQuns6FbgBH2jtdX8,956
+hydra_rq_launcher-1.0.0rc2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+hydra_rq_launcher-1.0.0rc2.dist-info/top_level.txt,sha256=0-LcYpEmzatUy2K5F7jmqcMfBL2RdB7k9nM_8zGFzhI,14
+hydra_rq_launcher-1.0.0rc2.dist-info/RECORD,,
