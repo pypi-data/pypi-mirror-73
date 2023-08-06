@@ -1,0 +1,11 @@
+paperclip/__init__.py,sha256=eIULYJmo--P3VkKGKpG1GW2A4tvNl1Bk3Joown8P7Ls,58
+paperclip/cloud.py,sha256=IOKrv-z8G7uDmVSxxxe3hRGi-Pye_syrR5rTPiABLT4,4168
+paperclip/config.py,sha256=W6HRh7qeD7kdUTiHYiuUXr7HIXUoykGhVXsFAuzhcCI,2016
+paperclip/db.py,sha256=AdibEAdUg-gZhg56q1n-tUCXnWTW6bVEfjIL6d_V4i0,6012
+paperclip/main.py,sha256=RhNU0hhomPN07JxiiziRksFTCBqGM44LsjP9DDnTeRY,2982
+paperclip/progress.py,sha256=4CaJSLnxYRZXZk9QT_b0eBC45Lqdz8GeDyW-UImNRnU,1089
+paperclip/tools.py,sha256=0Qpp53_VCDEY4ThaWsu4hij-UFEy6ETg7X8Htc_rWVQ,10156
+towercrane-0.1.0.dist-info/METADATA,sha256=bYNBvBtWUb8gcNYKg_sXAakk5p-ybZpIQab2f0DaMaI,651
+towercrane-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+towercrane-0.1.0.dist-info/top_level.txt,sha256=TnGWk84ROBKvvSz-2kXHBSwXz9ZfjxvTDeKWxRslNjk,10
+towercrane-0.1.0.dist-info/RECORD,,
