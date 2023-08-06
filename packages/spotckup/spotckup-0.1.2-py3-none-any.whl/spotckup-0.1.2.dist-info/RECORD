@@ -1,0 +1,16 @@
+spotckup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotckup/authorize.py,sha256=PGtDXbuJahHVvMzgujm9oyG-qHIASizE1b_eagByNxg,3500
+spotckup/cli.py,sha256=9SdanJ7TmZznHmmK2cvUt1CoAXqNk42K2NnCHDsQ4Qs,5208
+spotckup/decorators.py,sha256=sGx0Q9bow17_qCpFAqPW_AdwV5ZqNC_CaaaXCt1d8rg,426
+spotckup/library.py,sha256=baUx54th7iOT0-Ie5ImJvKpUp1OXloOLt-CmkbRUqDg,1492
+spotckup/playlists.py,sha256=6i-NmXnwrILiFdLAM2EGKXCCrQfX0xFkQ42zjqlUorw,3139
+spotckup/refresh.py,sha256=Uy_Zd2FdGVWW3foYJaF291n7MaRf4R4nnXTieSrXb1Q,1536
+spotckup/restore_library.py,sha256=aj9x4YTLH03d44jyPi_dVsN9Nv1G1f4oKcG0x2ULkqM,1383
+spotckup/restore_playlists.py,sha256=5_N4UkfP8AubxBIztDWMo2DruQytrYXoS6spw0DhXt8,4815
+spotckup/utils.py,sha256=15fUgUwp25gSNPs3qUhLS4MTMYGQPWcPOAWqc7g3Bhc,1918
+spotckup-0.1.2.dist-info/LICENSE,sha256=aeykmv8WKJpnd-Ii0kKcGOtdT1QE2zkoCGaTXwkFRJg,1074
+spotckup-0.1.2.dist-info/METADATA,sha256=RERP2anTsb7a001_dybNp0qnuQzNU7bzmtMFCDM-ZUo,8300
+spotckup-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spotckup-0.1.2.dist-info/entry_points.txt,sha256=msmyTa2Hc6sTFvMjYGgo-YF6QDTQhwIzxSux-WtwLI4,52
+spotckup-0.1.2.dist-info/top_level.txt,sha256=_jV_0_ixlMX9_7InVsEK8yZexUQdU1eQl6m8rIFTISA,9
+spotckup-0.1.2.dist-info/RECORD,,
