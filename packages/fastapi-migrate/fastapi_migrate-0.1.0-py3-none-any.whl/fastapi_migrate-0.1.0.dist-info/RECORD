@@ -1,0 +1,10 @@
+fastapi_migrate/__init__.py,sha256=773tnQ8Fot-gG8EZorlwBOMKKa8SCozPp4EkfnXYwrw,2901
+fastapi_migrate/cli.py,sha256=Gn9y9YQYPBMR87z4mMtbCuw0UdjaI6eCjuqaZ5pGi6k,8950
+fastapi_migrate/command.py,sha256=WJqcdN7mZAZcGxyaedegewS_UwdvGOzCKxb_q6xaozY,6949
+fastapi_migrate/templates/fastapi/README,sha256=MVlc9TYmr57RbhXET6QxgyCcwWP7w-vLkEsirENqiIQ,38
+fastapi_migrate/templates/fastapi/alembic.ini.mako,sha256=zQU53x-FQXAbtuOxp3_hgtsEZK8M0Unkw9F_uMSBEDc,770
+fastapi_migrate/templates/fastapi/env.py,sha256=XOKb4EywlySso8NMYKHVfOz-N1tXrg1wuwPf_81kRX8,2954
+fastapi_migrate/templates/fastapi/script.py.mako,sha256=8_xgA-gm_OhehnO7CiIijWgnm00ZlszEHtIHrAYFJl0,494
+fastapi_migrate-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+fastapi_migrate-0.1.0.dist-info/METADATA,sha256=9kV_qm-n8DoTa2bl6Hs6rkc5VpG7Sb94BFTLNbHU5qk,467
+fastapi_migrate-0.1.0.dist-info/RECORD,,
