@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        vctl=vctl:vctl
+    

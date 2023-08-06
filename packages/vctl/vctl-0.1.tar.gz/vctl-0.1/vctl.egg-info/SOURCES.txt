@@ -1,0 +1,8 @@
+README.md
+setup.py
+vctl.egg-info/PKG-INFO
+vctl.egg-info/SOURCES.txt
+vctl.egg-info/dependency_links.txt
+vctl.egg-info/entry_points.txt
+vctl.egg-info/requires.txt
+vctl.egg-info/top_level.txt
