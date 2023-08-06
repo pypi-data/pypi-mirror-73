@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Physcraper
+Version: 0.31
+Summary: Physcraper
+Home-page: UNKNOWN
+Author: Emily Jane McTavish
+Author-email: ejmctavish@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: argparse
+Requires-Dist: biopython (==1.76)
+Requires-Dist: configparser
+Requires-Dist: DendroPy
+Requires-Dist: DateTime
+Requires-Dist: opentree
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: sh
+Requires-Dist: urllib3 (>=1.23)
+Requires-Dist: numpy
+Requires-Dist: wget
+
+UNKNOWN
+
+
