@@ -1,0 +1,14 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+setup.py
+wcap/__init__.py
+wcap/wcap.py
+wcap.egg-info/PKG-INFO
+wcap.egg-info/SOURCES.txt
+wcap.egg-info/dependency_links.txt
+wcap.egg-info/entry_points.txt
+wcap.egg-info/requires.txt
+wcap.egg-info/top_level.txt
