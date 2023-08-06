@@ -1,0 +1,79 @@
+"""AWS EKS KFP helpers."""
+from typing import Dict
+from kfp import Client
+import boto3
+import os
+import yaml
+from pathlib import Path
+from awscli.customizations.eks.get_token import TokenGenerator, STSClientFactory
+import botocore.session
+
+
+def KFPClientFactory(cluster_name: str, cluster_region: str, namespace: str):
+    """Generate KFP client authed for AWS EKS.
+
+    Args:
+        cluster_name (str): cluster name
+        cluster_region (str): cluster region
+        namespace (str): k8 namespace
+
+    Returns:
+        kfp.Client: authenticated instance of kfp client
+    """
+    eks = boto3.client("eks", region_name=cluster_region)
+    kube_config = _get_kube_config(eks, cluster_name)
+    kube_token = _get_token(cluster_name, cluster_region)
+    kube_config["users"][0]["user"]["token"] = kube_token
+    kubeconfig_filepath = _save_kube_config(kube_config)
+    print(f"kubeconfig_filepath = {kubeconfig_filepath}")
+    return Client(namespace=namespace)
+
+
+def _save_kube_config(config: Dict) -> str:
+    print(os.environ["KUBECONFIG"])
+    print("KUBECONFIG" in os.environ["KUBECONFIG"])
+    if "KUBECONFIG" in os.environ:
+        kubeconfig_filepath = os.environ["KUBECONFIG"]
+    else:
+        kubeconfig_dir = f"{str(Path.home())}/.kube"
+        os.makedirs(kubeconfig_dir, exist_ok=True)
+        kubeconfig_filepath = f"{kubeconfig_dir}/config"
+
+    with open(kubeconfig_filepath, "w") as f:
+        yaml.dump(config, f, default_flow_style=False)
+
+    return kubeconfig_filepath
+
+
+def _get_kube_config(eks, cluster_name) -> Dict:
+    cluster = eks.describe_cluster(name=cluster_name)
+    cluster_cert = cluster["cluster"]["certificateAuthority"]["data"]
+    cluster_ep = cluster["cluster"]["endpoint"]
+    cluster_config = {
+        "apiVersion": "v1",
+        "kind": "Config",
+        "clusters": [
+            {
+                "cluster": {
+                    "server": str(cluster_ep),
+                    "certificate-authority-data": str(cluster_cert),
+                },
+                "name": "kubernetes",
+            }
+        ],
+        "contexts": [
+            {"context": {"cluster": "kubernetes", "user": "aws"}, "name": "aws"}
+        ],
+        "current-context": "aws",
+        "preferences": {},
+        "users": [{"name": "aws", "user": {}}],
+    }
+    return cluster_config
+
+
+def _get_token(
+    cluster_name, cluster_region,
+):
+    client_factory = STSClientFactory(botocore.session.get_session())
+    sts_client = client_factory.get_sts_client(region_name=cluster_region,)
+    return TokenGenerator(sts_client).get_token(cluster_name)
