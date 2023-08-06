@@ -1,0 +1,9 @@
+LICENSE,sha256=qtJjYLRPpVW8j4czSKEv3g5b8_52Z2lLqqHxtwp85aY,1090
+emoji/__init__.py,sha256=pchi6ppobKcHvFBH7muWmRcVmnTgUk1B9sz3zzRJfnE,117
+emoji/emoji.py,sha256=g0qfawQWju09uQGAov9xGnf232oJ76HpOO0i3ZW8arU,538
+emoji/search.py,sha256=ti8xKbUw_K7VfT8o4iFiU9VSkz9KpkTSBoQCLaRV1q4,2877
+emoji_search-0.0.3.dist-info/entry_points.txt,sha256=sUjj6K5A2O4TPDpQoyJyDpbAwQ9wJMssctGiJ1e9WgY,45
+emoji_search-0.0.3.dist-info/LICENSE,sha256=qtJjYLRPpVW8j4czSKEv3g5b8_52Z2lLqqHxtwp85aY,1090
+emoji_search-0.0.3.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+emoji_search-0.0.3.dist-info/METADATA,sha256=J7mtvMXBxy-DoT5HfynmEDcwUbOcvLNrpbj2S45JfHA,2075
+emoji_search-0.0.3.dist-info/RECORD,,
