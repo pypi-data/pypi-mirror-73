@@ -1,0 +1,12 @@
+README.md
+setup.py
+KivyAuth.egg-info/PKG-INFO
+KivyAuth.egg-info/SOURCES.txt
+KivyAuth.egg-info/dependency_links.txt
+KivyAuth.egg-info/requires.txt
+KivyAuth.egg-info/top_level.txt
+kivyauth/__init__.py
+kivyauth/callbacks.py
+kivyauth/initialize.py
+kivyauth/listeners.py
+kivyauth/logins.py
