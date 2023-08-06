@@ -1,0 +1,13 @@
+name: thelper
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - cython
+  - ddt
+  - gitdb
+  - opencv
+  - pip
+  - pip:
+    - tensorboardX
+    - -r requirements.txt
