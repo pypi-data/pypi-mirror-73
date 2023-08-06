@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+bin/tsp_demo
+bin/tsp_numpy2svg
+tsp_solver/__init__.py
+tsp_solver/greedy.py
+tsp_solver/greedy_numpy.py
+tsp_solver/util.py
+tsp_solver/demo/__init__.py
+tsp_solver/demo/image2point_cloud.py
+tsp_solver/demo/numpy2svg.py
+tsp_solver/demo/tsp.py
+tsp_solver2.egg-info/PKG-INFO
+tsp_solver2.egg-info/SOURCES.txt
+tsp_solver2.egg-info/dependency_links.txt
+tsp_solver2.egg-info/top_level.txt
