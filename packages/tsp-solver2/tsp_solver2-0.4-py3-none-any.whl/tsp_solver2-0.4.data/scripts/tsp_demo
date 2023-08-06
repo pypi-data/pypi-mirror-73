@@ -1,0 +1,3 @@
+#!python
+from tsp_solver.demo import tsp
+tsp.main()
