@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/FormulatedAutomation/__init__.py
+src/FormulatedAutomation/version.py
+src/fa_profiler.egg-info/PKG-INFO
+src/fa_profiler.egg-info/SOURCES.txt
+src/fa_profiler.egg-info/dependency_links.txt
+src/fa_profiler.egg-info/requires.txt
+src/fa_profiler.egg-info/top_level.txt
