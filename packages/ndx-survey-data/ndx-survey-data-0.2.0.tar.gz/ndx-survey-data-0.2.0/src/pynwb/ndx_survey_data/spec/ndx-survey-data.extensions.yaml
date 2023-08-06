@@ -1,0 +1,27 @@
+datasets:
+- neurodata_type_def: QuestionResponse
+  neurodata_type_inc: VectorData
+  default_name: question_response
+  doc: Column that holds information about a question
+  attributes:
+  - name: options
+    dtype: text
+    dims:
+    - num_options
+    shape:
+    - null
+    doc: Response Options
+groups:
+- neurodata_type_def: SurveyTable
+  neurodata_type_inc: DynamicTable
+  default_name: survey_data
+  doc: Table that holds information about the survey/behavior
+  datasets:
+  - name: unix_timestamp
+    neurodata_type_inc: VectorData
+    dtype: int
+    dims:
+    - num_responses
+    shape:
+    - null
+    doc: UNIX time of survey response
