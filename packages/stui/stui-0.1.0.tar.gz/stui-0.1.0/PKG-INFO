@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: stui
+Version: 0.1.0
+Summary: A Slurm client for the terminal.
+Home-page: https://github.com/mi-lad/stui
+Author: Milad Alizadeh
+Author-email: m@mil.ad
+License: UNKNOWN
+Description: A Slurm client for the terminal.
+Keywords: slurm,cluster
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
