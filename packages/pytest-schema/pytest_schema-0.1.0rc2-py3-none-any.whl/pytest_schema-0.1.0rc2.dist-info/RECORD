@@ -1,0 +1,10 @@
+pytest_schema/__init__.py,sha256=eOaN-uT-sH4dA0sssR78ePrL_C-VrNO792EUQ583wMo,332
+pytest_schema/assert_schema.py,sha256=WmdlV4EVph9lsUIWdUtkGOzuCmBLfw1smp6JTQ9TVrY,4716
+pytest_schema/helpers.py,sha256=4gpl-K1-q4wdXA7loD7qTHxnTDRto22KF7opizoHkcg,1899
+pytest_schema/types.py,sha256=rJ-f-Ky3hiZcuM7PFgCfGIUeUAmsuUvc7V4Sd9bBeaA,642
+pytest_schema-0.1.0rc2.dist-info/LICENSE,sha256=bh9bJ48NVf5o4V6A-aVDuMWZD5lVZ0-vr8lE5HEYyr8,1073
+pytest_schema-0.1.0rc2.dist-info/METADATA,sha256=JPNxy_Ltchy9U5MImZ8XJkfUAxrCLtVfOX17tLPFoQo,6372
+pytest_schema-0.1.0rc2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_schema-0.1.0rc2.dist-info/entry_points.txt,sha256=KONVuxCFSWVxoxw8d6qvoDA51Ybl0PNeeg58un61hpg,35
+pytest_schema-0.1.0rc2.dist-info/top_level.txt,sha256=-t7VIKYCs7W3KudghpkVtzCCOKQr5KH69-f3BMrJDL0,14
+pytest_schema-0.1.0rc2.dist-info/RECORD,,
