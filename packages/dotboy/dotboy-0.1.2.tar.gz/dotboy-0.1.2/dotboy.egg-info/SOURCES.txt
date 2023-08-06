@@ -1,0 +1,11 @@
+README.md
+setup.py
+dotboy/__init__.py
+dotboy/__main__.py
+dotboy/config.py
+dotboy/path_info.py
+dotboy.egg-info/PKG-INFO
+dotboy.egg-info/SOURCES.txt
+dotboy.egg-info/dependency_links.txt
+dotboy.egg-info/requires.txt
+dotboy.egg-info/top_level.txt
