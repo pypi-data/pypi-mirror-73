@@ -1,0 +1,6 @@
+README.md
+setup.py
+git_test.egg-info/PKG-INFO
+git_test.egg-info/SOURCES.txt
+git_test.egg-info/dependency_links.txt
+git_test.egg-info/top_level.txt
