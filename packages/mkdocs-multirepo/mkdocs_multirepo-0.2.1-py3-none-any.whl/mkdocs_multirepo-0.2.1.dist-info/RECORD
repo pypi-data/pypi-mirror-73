@@ -1,0 +1,11 @@
+mkdocs_multirepo/__init__.py,sha256=wIYw3K5jcpcEchMtuCatPDWHECasPE2BkNC6jfgxFvc,2191
+mkdocs_multirepo/demo/config.yml,sha256=CcTYbhM0vWw1tPe3ZysbvqCqn_Ps7ZGW32JnLLBxuPM,330
+mkdocs_multirepo/demo/images/icon-repo-1.png,sha256=TiQMvPJjyJfU8_yrRxV8S30IaOHAsTWHJTPoFju_5g0,4284
+mkdocs_multirepo/demo/images/icon-repo-2.png,sha256=AhPXm-33HOtlk1sUDlvT3AGAGp2FrjrIADIyP53xA88,5336
+mkdocs_multirepo/demo/index.tpl,sha256=MhgPWL3-MW4NO_IVx9c5so4gBK4PFbYUXgMEgvm9lBo,137
+mkdocs_multirepo/demo/site/images/icon-repo-1.png,sha256=TiQMvPJjyJfU8_yrRxV8S30IaOHAsTWHJTPoFju_5g0,4284
+mkdocs_multirepo-0.2.1.dist-info/entry_points.txt,sha256=N-GXnr7EednDCBMbrB2FbQF9irnv1-KAHHb1cagok7w,58
+mkdocs_multirepo-0.2.1.dist-info/LICENSE,sha256=8Nj1gMgzkcvYCalfsaJL76hUmPZ5hXN2CHqYto_pCCs,1082
+mkdocs_multirepo-0.2.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+mkdocs_multirepo-0.2.1.dist-info/METADATA,sha256=grDnhw8x5iKtAtJ46TP9yGsIAr1xSedv22gPn8qUshY,411
+mkdocs_multirepo-0.2.1.dist-info/RECORD,,
