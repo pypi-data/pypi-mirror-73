@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: shapevolve
+Version: v0.1
+Summary: A genetic algorithm to recreate artworks using simple shapes, with Python 3.
+Home-page: https://richmondvan.github.io/Shapevolve/
+Author: Evan Zheng
+Author-email: evan.ty.zheng@gmail.com
+License: MIT
+Download-URL: https://github.com/richmondvan/Shapevolve/archive/0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
