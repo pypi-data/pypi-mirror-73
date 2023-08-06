@@ -1,0 +1,3 @@
+[console_scripts]
+clipable=clipable.cli:main
+

@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: clipable
+Version: 0.1.7
+Summary: Your clipboard(Excel or Google spreadsheet) change to markdown clipboard
+Home-page: https://github.com/yujikawa/clipable
+License: Apache-2.0
+Author: yujikawa
+Author-email: ykyujikawa@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pandas (>=1.0,<2.0)
+Requires-Dist: pyperclip (>=1.7,<2.0)
+Requires-Dist: pytablewriter (>=0.54.0,<0.55.0)
+Requires-Dist: tabulate (>=0.8.6,<0.9.0)
+Project-URL: Repository, https://github.com/yujikawa/clipable
+Description-Content-Type: text/markdown
+
+# clipable
+[![Downloads](https://pepy.tech/badge/clipable)](https://pepy.tech/project/clipable)
+
+When we copy cells from spreadsheet or excel, clipboard change to markdown format using clipable.
+
+![clipable](https://user-images.githubusercontent.com/14313351/76307902-0baf8b80-630d-11ea-9d01-337d8da9b448.gif)
+
+# How to install
+
+```
+$ pip install clipable
+```
+
+# How to use
+1. Copy table from spreadsheet, csv etc.
+2. Open terminal, then run clipable.(if you will copy csv, run clipable -f csv)
+3. Paste to textarea.
+
+
+## space separated format
+```
+clipable
+```
+
+## csv format
+```
+clipable -f csv
+```
+
+## tsv format
+```
+clipable -f tsv
+```
+
+# LICENSE
+Apache 2.0
