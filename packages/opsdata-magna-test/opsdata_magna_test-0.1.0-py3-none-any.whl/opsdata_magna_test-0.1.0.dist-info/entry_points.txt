@@ -1,0 +1,3 @@
+[obsplus.datasets]
+magna_test = opsdata_magna_test.core
+
