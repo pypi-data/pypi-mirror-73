@@ -1,0 +1,9 @@
+README.md
+setup.py
+ultrashort/__init__.py
+ultrashort/version.py
+ultrashort.egg-info/PKG-INFO
+ultrashort.egg-info/SOURCES.txt
+ultrashort.egg-info/dependency_links.txt
+ultrashort.egg-info/requires.txt
+ultrashort.egg-info/top_level.txt
