@@ -1,0 +1,8 @@
+README.md
+setup.py
+lifeeasy/__init__.py
+lifeeasy.egg-info/PKG-INFO
+lifeeasy.egg-info/SOURCES.txt
+lifeeasy.egg-info/dependency_links.txt
+lifeeasy.egg-info/requires.txt
+lifeeasy.egg-info/top_level.txt
