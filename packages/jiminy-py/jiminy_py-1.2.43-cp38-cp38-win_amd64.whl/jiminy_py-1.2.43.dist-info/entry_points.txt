@@ -1,0 +1,3 @@
+[console_scripts]
+jiminy_plot = jiminy_py.log:plot_log
+
