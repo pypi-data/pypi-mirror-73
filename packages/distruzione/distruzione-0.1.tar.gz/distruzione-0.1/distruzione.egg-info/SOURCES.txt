@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distruzione/Binomialdistribution.py
+distruzione/Gaussiandistribution.py
+distruzione/Generaldistribution.py
+distruzione/__init__.py
+distruzione.egg-info/PKG-INFO
+distruzione.egg-info/SOURCES.txt
+distruzione.egg-info/dependency_links.txt
+distruzione.egg-info/not-zip-safe
+distruzione.egg-info/top_level.txt
