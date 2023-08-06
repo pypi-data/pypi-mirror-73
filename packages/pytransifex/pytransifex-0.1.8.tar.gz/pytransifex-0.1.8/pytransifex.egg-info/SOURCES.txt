@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pytransifex/__init__.py
+pytransifex/api.py
+pytransifex/exceptions.py
+pytransifex.egg-info/PKG-INFO
+pytransifex.egg-info/SOURCES.txt
+pytransifex.egg-info/dependency_links.txt
+pytransifex.egg-info/requires.txt
+pytransifex.egg-info/top_level.txt
+test/test_translation.py

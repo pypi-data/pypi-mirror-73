@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: pytransifex
+Version: 0.1.8
+Summary: Yet another Python Transifex API.
+Home-page: https://github.com/opengisch/pytransifex
+Author: Denis Rouzaud
+Author-email: denis.rouzaud@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/opengisch/pytransifex/archive/0.1.8.tar.gz
+Description: UNKNOWN
+Keywords: Transifex
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Localization
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: System Administrators
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
