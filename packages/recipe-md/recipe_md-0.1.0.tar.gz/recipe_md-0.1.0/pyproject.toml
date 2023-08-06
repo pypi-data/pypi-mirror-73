@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "recipe_md"
+version = "0.1.0"
+description = "Scrape and convert recipes to markdown"
+authors = ["rafa <rafapi@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Pillow = "^7.2.0"
+python-slugify = "^4.0.1"
+typer = "^0.3.0"
+flake8 = "^3.8.3"
+requests = "^2.24.0"
+recipe-scrapers = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+
+[tool.poetry.scripts]
+downrec = "recipe_md.cli:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
