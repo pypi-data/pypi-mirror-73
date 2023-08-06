@@ -1,0 +1,9 @@
+keycache/__init__.py,sha256=Gu3T6qHlV9lSQZhzbbSw7OVHBNtXA0iZ-odlaZB9-UM,2934
+keycache/blobstore.py,sha256=42wjrPI4VuAssH67dqddRpnkwwMW1qyiOx8WG3poXj0,1886
+keycache/keycache.py,sha256=v9GVcQE7pDWETdvrCVIDyv5p4qPoOZh-m9NZDWXr0k0,2401
+keycache/util.py,sha256=NkGZWvhx9ZyaXtYGsXuyk_yK8St_XjZEl0e5fmWFcdc,327
+keycache-0.25.5.dist-info/LICENSE,sha256=LojL0WdSGgq1bVMwm_SBhaNNLhzv3rcpWtKsp6-vyFQ,11347
+keycache-0.25.5.dist-info/METADATA,sha256=xdbA5O3lOT5mGuuDEJHFR30kL0Sc9fUmu42dvl3uKig,1828
+keycache-0.25.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+keycache-0.25.5.dist-info/top_level.txt,sha256=81CRUhiisxPBJ0rqG4EFbXiEsTvZ1yutWDRVB7ZvbYE,9
+keycache-0.25.5.dist-info/RECORD,,
