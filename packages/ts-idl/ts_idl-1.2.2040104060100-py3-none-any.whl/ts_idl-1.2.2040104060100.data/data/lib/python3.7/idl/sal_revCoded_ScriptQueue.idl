@@ -1,0 +1,527 @@
+// SAL_VERSION=4.1.4 XML_VERSION=6.1.0
+module ScriptQueue {
+struct command_abort_ddc0f07f {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_abort_ddc0f07f ScriptQueueID
+struct command_add_6414aa14 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	isStandard; // @Metadata=(Units="unitless",Description="Is this a standard script (True) or an external script (False)?")
+	  string	path; // @Metadata=(Units="unitless",Description="Path to script; relative to the root directory for standard or external scripts.")
+	  string	config; // @Metadata=(Units="unitless",Description="Configuration as yaml text that is parsed to make a keyword argument dict for the script's configure method.")
+	  string	descr; // @Metadata=(Units="unitless",Description="Short description of why you are running this script.")
+	  octet	location; // @Metadata=(Units="unitless",Description="Location in the queue; a Location enum.")
+	  long	locationSalIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component referred to by `location`; ignored unless `location` is `Before` or `After`.")
+	  long	logLevel; // @Metadata=(Units="unitless",Description="Logging level for the script; as a Python logging level: error=40; warning=30; info=20; debug=10; use default=0.")
+	  string	pauseCheckpoint; // @Metadata=(Units="unitless",Description="Checkpoint(s) at which to pause the script; as a regular expression. No checkpoints if blank; all checkpoints if ".*".")
+	  string	stopCheckpoint; // @Metadata=(Units="unitless",Description="Checkpoint(s) at which to stop the script; as a regular expression. No checkpoints if blank; all checkpoints if ".*".")
+	};
+#pragma keylist command_add_6414aa14 ScriptQueueID
+struct command_disable_64acf8a1 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_disable_64acf8a1 ScriptQueueID
+struct command_enable_7f2b2810 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enable_7f2b2810 ScriptQueueID
+struct command_enterControl_51f26258 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enterControl_51f26258 ScriptQueueID
+struct command_exitControl_a460516a {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_exitControl_a460516a ScriptQueueID
+struct command_move_58c6efab {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	salIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component to move.")
+	  octet	location; // @Metadata=(Units="unitless",Description="Location in the queue; a Location enum.")
+	  long	locationSalIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component referred to by `location`; ignored unless `location` is `Before` or `After`.")
+	};
+#pragma keylist command_move_58c6efab ScriptQueueID
+struct command_pause_08584ae9 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	};
+#pragma keylist command_pause_08584ae9 ScriptQueueID
+struct command_requeue_6f75ce90 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	salIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component to requeue.")
+	  octet	location; // @Metadata=(Units="unitless",Description="Location in the queue; a Location enum.")
+	  long	locationSalIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component referred to by the location field; ignored unless the location is Before or After.")
+	};
+#pragma keylist command_requeue_6f75ce90 ScriptQueueID
+struct command_resume_d10f9aaf {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	};
+#pragma keylist command_resume_d10f9aaf ScriptQueueID
+struct command_setAuthList_7bf8fe96 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC;")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC;")
+	};
+#pragma keylist command_setAuthList_7bf8fe96 ScriptQueueID
+struct command_setLogLevel_f3380694 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Logging level; as a Python logging level: error=40; warning=30; info=20; debug=10.")
+	};
+#pragma keylist command_setLogLevel_f3380694 ScriptQueueID
+struct command_setValue_74a5520b {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	parametersAndValues; // @Metadata=(Units="unitless",Description="List of parameters and their values as a Json string")
+	};
+#pragma keylist command_setValue_74a5520b ScriptQueueID
+struct command_showAvailableScripts_bdcbec10 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	};
+#pragma keylist command_showAvailableScripts_bdcbec10 ScriptQueueID
+	 const long ScriptQueue_shared_Location_First=1;
+	 const long ScriptQueue_shared_Location_Last=2;
+	 const long ScriptQueue_shared_Location_Before=3;
+	 const long ScriptQueue_shared_Location_After=4;
+struct command_showQueue_ea3bc063 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	};
+#pragma keylist command_showQueue_ea3bc063 ScriptQueueID
+struct command_showSchema_fcfa557d {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	isStandard; // @Metadata=(Units="unitless",Description="Is this a standard script (True) or an external script (False)?")
+	  string	path; // @Metadata=(Units="unitless",Description="Path to script; relative to the root directory for standard or external scripts.")
+	};
+#pragma keylist command_showSchema_fcfa557d ScriptQueueID
+struct command_showScript_4f5593ee {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	salIndex; // @Metadata=(Units="unitless",Description="SAL index of Script for which you want information.")
+	};
+#pragma keylist command_showScript_4f5593ee ScriptQueueID
+struct command_standby_1e274313 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_standby_1e274313 ScriptQueueID
+struct command_start_f931e79f {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsToApply; // @Metadata=(Units="unitless",Description="Name of the selected settings set")
+	};
+#pragma keylist command_start_f931e79f ScriptQueueID
+struct command_stopScripts_1b5eca5a {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	length; // @Metadata=(Units="unitless",Description="Number of valid entries in salIndices.")
+	  long	salIndices[400]; // @Metadata=(Units="unitless",Description="Indices of Script SAL component to stop; 0 terminated.")
+	  boolean	terminate; // @Metadata=(Units="unitless",Description="If True; terminate the current script without giving it a chance to clean up. If False; try sending a stop command first; and only terminate if if that doesn't work in a timely fashion.")
+	};
+#pragma keylist command_stopScripts_1b5eca5a ScriptQueueID
+	 const long indexEnumeration_Main=1;
+	 const long indexEnumeration_AuxTel=2;
+struct logevent_appliedSettingsMatchStart_9ae8fe97 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	appliedSettingsMatchStartIsTrue; // @Metadata=(Units="unitless",Description="True when the configuration matches the start conditions")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_appliedSettingsMatchStart_9ae8fe97 ScriptQueueID
+struct logevent_authList_ecd7ab26 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC.")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_authList_ecd7ab26 ScriptQueueID
+struct logevent_availableScripts_199c594c {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	standard; // @Metadata=(Units="unitless",Description="Colon-separated paths to standard scripts; relative to the standard root directory.")
+	  string	external; // @Metadata=(Units="unitless",Description="Colon-separated paths to external scripts; relative to the external root directory.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_availableScripts_199c594c ScriptQueueID
+struct logevent_configSchema_15ffc198 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	isStandard; // @Metadata=(Units="unitless",Description="Is this a standard script (True) or an external script (False)?")
+	  string	path; // @Metadata=(Units="unitless",Description="Path to script; relative to the root directory for standard or external scripts.")
+	  string	configSchema; // @Metadata=(Units="unitless",Description="Configuration schema: jsonschema encoded as yaml.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_configSchema_15ffc198 ScriptQueueID
+struct logevent_errorCode_fd6b55aa {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	errorCode; // @Metadata=(Units="unitless",Description="A numeric error code")
+	  string	errorReport; // @Metadata=(Units="unitless",Description="An string providing detailed information about the error")
+	  string	traceback; // @Metadata=(Units="unitless",Description="An optional stack trace of the error condition")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_errorCode_fd6b55aa ScriptQueueID
+struct logevent_heartbeat_be287c12 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	heartbeat; // @Metadata=(Units="unitless",Description="Beats the drum.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_heartbeat_be287c12 ScriptQueueID
+struct logevent_logLevel_0db5f9be {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Current logging level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logLevel_0db5f9be ScriptQueueID
+struct logevent_logMessage_d16a125c {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	name; // @Metadata=(Units="unitless",Description="Log name.")
+	  long	level; // @Metadata=(Units="unitless",Description="Message level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  string	message; // @Metadata=(Units="unitless",Description="Log message.")
+	  string	traceback; // @Metadata=(Units="unitless",Description="Exception traceback; "" if not an exception.")
+	  string	filePath; // @Metadata=(Units="unitless",Description="Path to source file.")
+	  string	functionName; // @Metadata=(Units="unitless",Description="Function or method name.")
+	  long	lineNumber; // @Metadata=(Units="unitless",Description="Line number in the file specified by filePath.")
+	  long	process; // @Metadata=(Units="unitless",Description="Process ID.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logMessage_d16a125c ScriptQueueID
+struct logevent_nextVisit_0ca9e75a {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	salIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component.")
+	  string	groupId; // @Metadata=(Units="unitless",Description="Group ID for images taken by the script.")
+	  short	coordinateSystem; // @Metadata=(Units="unitless",Description="Coordinate system for position. A Script MetadataCoordSys enum. Observed is refracted apparent topocentric; e.g. similar to Mount but the telescope model is applied and the azimuth is wrapped. If None then position should be ignored.")
+	  double	position[2]; // @Metadata=(Units="degree",Description="Longitude; latitude axes of position in coordinateSystem")
+	  short	rotationSystem; // @Metadata=(Units="unitless",Description="Rotation system for cameraAngle; a Script MetadataRotSys enum")
+	  double	cameraAngle; // @Metadata=(Units="degree",Description="Camera angle in rotationSystem")
+	  string	filters; // @Metadata=(Units="unitless",Description="Comma-separated names of acceptable filters; or blank for any filter.")
+	  short	dome; // @Metadata=(Units="unitless",Description="Desired dome state; a Script MetadataDome enum.")
+	  double	duration; // @Metadata=(Units="second",Description="Estimated duration of the script; excluding slewing to the initial position required by the script.")
+	  long	nimages; // @Metadata=(Units="unitless",Description="Predicted number of images to take; 0 if unknown.")
+	  string	survey; // @Metadata=(Units="unitless",Description="Survey name.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_nextVisit_0ca9e75a ScriptQueueID
+	 const long nextVisit_CSys_None=1;
+	 const long nextVisit_CSys_ICRS=2;
+	 const long nextVisit_CSys_Observed=3;
+	 const long nextVisit_CSys_Mount=4;
+struct logevent_nextVisitCanceled_7988c596 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	salIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component.")
+	  string	groupId; // @Metadata=(Units="unitless",Description="Group ID for images taken by the script. This ID will not be used.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_nextVisitCanceled_7988c596 ScriptQueueID
+struct logevent_queue_73f790eb {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	enabled; // @Metadata=(Units="unitless",Description="Is the ScriptQueue CSC enabled? New scripts will only be started if both `running` and `enable` are True.")
+	  boolean	running; // @Metadata=(Units="unitless",Description="Is the queue running (True) or paused (False)? New scripts will only be started if both `running` and `enable` are True.")
+	  long	currentSalIndex; // @Metadata=(Units="unitless",Description="SAL index of script being run; 0 if none.")
+	  long	length; // @Metadata=(Units="unitless",Description="Number of valid entries in salIndices.")
+	  long	salIndices[400]; // @Metadata=(Units="unitless",Description="SAL index of each Script on the queue. Item 0 is the next script to be run.")
+	  long	pastLength; // @Metadata=(Units="unitless",Description="Number of valid entries in pastSalIndices.")
+	  long	pastSalIndices[400]; // @Metadata=(Units="unitless",Description="SAL index of scripts that have been run. Item 0 is the script most recently run.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_queue_73f790eb ScriptQueueID
+struct logevent_rootDirectories_5e209fcd {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	standard; // @Metadata=(Units="unitless",Description="Root directory for standard scripts.")
+	  string	external; // @Metadata=(Units="unitless",Description="Root directory for external scripts.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_rootDirectories_5e209fcd ScriptQueueID
+struct logevent_script_1426844c {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	cmdId; // @Metadata=(Units="unitless",Description="ID of command which queued this script.")
+	  long	salIndex; // @Metadata=(Units="unitless",Description="Index of Script SAL component.")
+	  boolean	isStandard; // @Metadata=(Units="unitless",Description="True if this is a standard script; False if an external script.")
+	  string	path; // @Metadata=(Units="unitless",Description="Path of script; relative to standard or external root directory.")
+	  double	timestampProcessStart; // @Metadata=(Units="second",Description="When the script process started. 0 before the process is started.")
+	  double	timestampConfigureStart; // @Metadata=(Units="second",Description="When script configuration began. 0 before configuration begins.")
+	  double	timestampConfigureEnd; // @Metadata=(Units="second",Description="When script configuration finished (succeeded or failed). 0 before configuration ends.")
+	  double	timestampRunStart; // @Metadata=(Units="second",Description="When the script was told to run. 0 before the script is told to run.")
+	  double	timestampProcessEnd; // @Metadata=(Units="second",Description="When the script process ended. This is also approximately the time at which the script stopped running; if it was ever run. 0 before the script process ends.")
+	  octet	processState; // @Metadata=(Units="unitless",Description="State of script process; a ScriptProcessState enum. Loading means the script is still being loaded and is not yet configured. Configured means the script has been configured and can be run. Running means the script has been commanded to run. Done means the script has finished (see scriptState to see whether it ran successfully). ConfigureFailed means the process was terminated because the `configure` command failed. Terminated means the process was terminated due to calling the `terminate` command; or due to calling the `stop` command when the script was not running or if running but stopping the script gently failed.")
+	  octet	scriptState; // @Metadata=(Units="unitless",Description="State of the script; a ScriptState enum from Script_Events.xml; 0 if the script is not yet loaded.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_script_1426844c ScriptQueueID
+struct logevent_settingVersions_2152a508 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	recommendedSettingsVersion; // @Metadata=(Units="unitless",Description="List of comma seperated recomended versions of settings sets")
+	  string	recommendedSettingsLabels; // @Metadata=(Units="unitless",Description="List of comma seperated names of settings sets")
+	  string	settingsUrl; // @Metadata=(Units="unitless",Description="The URL where the settings sets definitions can be found")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingVersions_2152a508 ScriptQueueID
+struct logevent_settingsApplied_60cdd202 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsVersion; // @Metadata=(Units="unitless",Description="The SHA or name corresponding to the published configuration")
+	  string	otherSettingsEvents; // @Metadata=(Units="unitless",Description="A comma delimited list of other specific CSC configuration events. This may be blank if no other CSC specific events are necessary")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsApplied_60cdd202 ScriptQueueID
+struct logevent_simulationMode_5768bee7 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="Current simulation mode; 0 for normal operation (no simulation); other supported values are specific to each CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_simulationMode_5768bee7 ScriptQueueID
+struct logevent_softwareVersions_465a5a23 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<16>	salVersion; // @Metadata=(Units="unitless",Description="This is the current version of SAL generation")
+	  string<16>	xmlVersion; // @Metadata=(Units="unitless",Description="This is the current version of CSC XML")
+	  string<16>	openSpliceVersion; // @Metadata=(Units="unitless",Description="This is the current version of OpenSplice")
+	  string<16>	cscVersion; // @Metadata=(Units="unitless",Description="This is the top-level version of the CSC")
+	  string	subsystemVersions; // @Metadata=(Units="unitless",Description="A comma delimited list of key=value pairs relating subsystem name (key) to its version number (value). This may be left blank if there are no subsystems within a CSC")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_softwareVersions_465a5a23 ScriptQueueID
+struct logevent_summaryState_16ec6358 {  // @Metadata=(Description="")
+	  long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	summaryState; // @Metadata=(Units="unitless",Description="High level state machine state identifier")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_summaryState_16ec6358 ScriptQueueID
+struct ackcmd_670d4914 {  // @Metadata=(Description="")
+      string<8>	private_revCode;
+      double		private_sndStamp;
+      double		private_rcvStamp;
+      long		private_origin;
+      long 		private_host;
+      long		private_seqNum;
+      long	ScriptQueueID; // @Metadata=(Description="Index number for CSC with multiple instances")
+      long 		ack;
+      long 		error;
+      string<256>	result;
+      long		host;
+      long		origin;
+      long		cmdtype;
+      double		timeout;
+	};
+#pragma keylist ackcmd_670d4914 ScriptQueueID
+};
+
