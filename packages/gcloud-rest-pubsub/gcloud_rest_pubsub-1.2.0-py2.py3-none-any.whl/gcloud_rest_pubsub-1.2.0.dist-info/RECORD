@@ -1,0 +1,16 @@
+gcloud_rest_pubsub-1.2.0-py3.8-nspkg.pth,sha256=yh_2vbQ3vJpMiFbvaFfXmGdXqzGytdeN5hxcSUNFt5g,1692
+gcloud/rest/pubsub/__init__.py,sha256=wdzkMvEefip18VoC6bw8YU-uR3HgDSof0nFoKA8NhsY,601
+gcloud/rest/pubsub/publisher_client.py,sha256=e-KG-C2lHrFrlOK3klPXTH13byXGlzK7jkGqt8fvya4,3638
+gcloud/rest/pubsub/subscriber_client.py,sha256=PwXcAYgC9ZV8sbIQ_5HTuT10Lc3at3W8LAuXYzq7hGk,5118
+gcloud/rest/pubsub/utils.py,sha256=Cg3fY3pRyDOyS82NJERFh9GXZufrvj8yCzGZxXXRemg,3211
+tests/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/conftest.py,sha256=KMhRpcbik8U1RG0Ybii9_fJMiHDijG0XCYZC0JJXzNg,722
+tests/integration/constructor_test.py,sha256=bZdwnkE_kK00mWjmbqdpvClLfyPT0oe7302E9N7506k,573
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/subscription_test.py,sha256=VeBA10oK6_v3nIK4n07YE7gJ9Huhd2KWhVqHKkqcuf8,259
+gcloud_rest_pubsub-1.2.0.dist-info/LICENSE,sha256=hTrzzvP5FXQsib0f5T6vOJ9WSqihuArAzakBbxZr04U,1068
+gcloud_rest_pubsub-1.2.0.dist-info/METADATA,sha256=RLdjSEEPdxXCiuFeDVKnN1_j2eS6RjoQyXh29P9fspc,11555
+gcloud_rest_pubsub-1.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gcloud_rest_pubsub-1.2.0.dist-info/namespace_packages.txt,sha256=lvTjKP_ervwXKvwypRaaIo5JBgFsERlMNd73yVqrX10,19
+gcloud_rest_pubsub-1.2.0.dist-info/top_level.txt,sha256=sox9WnuebKsnnDxekC1Pd7Q7wUz_DL8DRjlHhthn-ik,13
+gcloud_rest_pubsub-1.2.0.dist-info/RECORD,,
