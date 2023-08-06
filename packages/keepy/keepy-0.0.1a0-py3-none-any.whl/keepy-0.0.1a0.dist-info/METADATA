@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: keepy
+Version: 0.0.1a0
+Summary: A Python Keepass CLI utility (placeholder package)
+Author: Patryk Tech
+Author-email: git@patryk.tech
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pykeepass (>=3.2,<4.0)
