@@ -1,0 +1,13 @@
+turfpy/__init__.py,sha256=q9sRP086seEwEkxWHp6JCMgw93r1rMj1JnxwsDYahhM,72
+turfpy/extra.py,sha256=LnRtnS_eAluTz9Fx0Vd1JMYwFbUtMUY2OLGNWducW2U,1596
+turfpy/helper.py,sha256=N0jMweOV9vzO-fhUo48iLVvljYyHzVxwULUpMKd4QLk,3340
+turfpy/measurement.py,sha256=WJK3psyE-ISyJrweYQU4_hja9br4RP6A_SN-tljo_Q8,39859
+turfpy/meta.py,sha256=M2t6orl4U8zQeXZ0pOiI7x79VJpXLvpv_TrZ9KTo7sM,15255
+turfpy/transformation.py,sha256=FSSs7XkLTr--9BJNMgm8jRVmVqR8lzmqcR-ssRrWZyA,17899
+turfpy/dev_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turfpy/dev_lib/spline.py,sha256=Cx65ci8Fm6mBllv_Mp1J-OhsarvfcBfOYEsF_XGuLE8,4658
+turfpy-0.0.3.dist-info/LICENSE,sha256=43xICMzsHuAUExMu7HOg6VmWWgOns_k31btqgtKA_GM,1069
+turfpy-0.0.3.dist-info/METADATA,sha256=3X7CIsxsCCVdd2_MMonD1L6ncG-HTiyuTC1fxC9EDbU,2492
+turfpy-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+turfpy-0.0.3.dist-info/top_level.txt,sha256=SFD1LahitK_MpaRu3Om3MkS1pyZPIFFwxJzmjPzrozI,7
+turfpy-0.0.3.dist-info/RECORD,,
