@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: strotools.ballboi
+Version: 0.0.3
+Summary: Package to retrieve sports information
+Home-page: https://github.com/mrstrozy/BallBoi
+Author: Matthew Strozyk
+Author-email: mstrozyk25@gmail.com
+License: UNKNOWN
+Description: # BallBoi
+        
+        BallBoi - A package to fetch sports information from https://profootballapi.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
