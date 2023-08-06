@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: calcy
+Version: 0.0.2
+Summary: A basic calculator
+Home-page: UNKNOWN
+Author: Deepak Jha
+Author-email: deepakjha18598@gmail.com
+License: MIT
+Description: This is a basic calculator that allows to add, subtract, multipy and divide MULTIPLE numbers all at once.
+        
+        Run Command " calcy.help() " for more details.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (11/07/2020)
+        ------------------
+        - First Release
+        
+        0.0.2 (11/07/2020)
+        ------------------
+        - Add help function
+        - Change return type on passing invalid arguments
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
