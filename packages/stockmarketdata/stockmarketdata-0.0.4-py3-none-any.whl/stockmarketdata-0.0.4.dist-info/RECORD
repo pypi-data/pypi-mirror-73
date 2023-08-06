@@ -1,0 +1,9 @@
+stockmarketdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockmarketdata/ally.py,sha256=iEd0N0Z3GhBdd4jWpBXAVBcyJfiwV24vy8UkCeVQR_Q,1546
+stockmarketdata/dl_quotes.py,sha256=NGfdEIeUWssExn_9bi90i8xjHsUfZlekk2qOm5W4zWU,10330
+stockmarketdata/examples.py,sha256=KsmD9mPJgHWSVcPcKCu9DDEfLEK_B722Fnt-w60TTKY,1886
+stockmarketdata-0.0.4.dist-info/LICENSE,sha256=ahqeLKcObACo35quMgs76hIzpIHW36UCTpE0qcqxYvQ,1066
+stockmarketdata-0.0.4.dist-info/METADATA,sha256=HEewelk9dGnTjc1uQ8muS0DJX4MHME2viaSkROKgGUw,3893
+stockmarketdata-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+stockmarketdata-0.0.4.dist-info/top_level.txt,sha256=IyT0Gyx9duBLrfm2M6jD-6GSzL0emO2icLXLvpIRHqY,16
+stockmarketdata-0.0.4.dist-info/RECORD,,
