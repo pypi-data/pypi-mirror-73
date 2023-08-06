@@ -1,0 +1,3 @@
+[console_scripts]
+antivirals = antivirals.__main__:main
+

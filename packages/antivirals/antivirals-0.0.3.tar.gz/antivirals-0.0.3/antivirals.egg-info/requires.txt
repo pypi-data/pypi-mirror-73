@@ -1,0 +1,10 @@
+tqdm
+sqlalchemy
+numpy
+scikit-learn
+pandas
+fire
+gensim
+
+[optim]
+sigopt
