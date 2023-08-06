@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+N2G/N2G_DrawIO.py
+N2G/N2G_yEd.py
+N2G/__init__.py
+N2G.egg-info/PKG-INFO
+N2G.egg-info/SOURCES.txt
+N2G.egg-info/dependency_links.txt
+N2G.egg-info/top_level.txt
