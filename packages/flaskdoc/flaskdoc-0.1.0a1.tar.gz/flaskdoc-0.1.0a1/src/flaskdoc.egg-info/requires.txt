@@ -1,0 +1,17 @@
+attrs~=19.3
+click~=7.1
+flask~=1.0
+PyYaml~=5.3
+
+[dev]
+coverage[toml]
+flake8
+pre-commit
+pytest
+pytest-cov
+pytest-flask
+sphinx
+sphinxcontrib-napoleon
+
+[dev:python_version >= "3.6"]
+black
