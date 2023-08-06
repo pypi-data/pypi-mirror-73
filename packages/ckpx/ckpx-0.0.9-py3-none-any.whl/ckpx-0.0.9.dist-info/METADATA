@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ckpx
+Version: 0.0.9
+Summary: px
+Home-page: https://github.com/p2trx/px
+Author: p2trx
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: grpcio (>=1.27.2)
+Requires-Dist: grpcio-tools (>=1.27.2)
+
+UNKNOWN
+
+
