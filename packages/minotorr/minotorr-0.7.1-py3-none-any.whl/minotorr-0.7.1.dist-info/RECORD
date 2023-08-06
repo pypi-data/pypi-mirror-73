@@ -1,0 +1,10 @@
+minotorr/__init__.py,sha256=UT2RmL_Tjl_JbHYB_ZY7YkN_cpd0R-j5LWZcEewqFnY,143
+minotorr/cpu.py,sha256=VhBno8_rNjP7fcDaLx2NoJ45rh81ji5E31Vm_ap4_tk,7946
+minotorr/gpu.py,sha256=yyjHKBfthr6FQwvzTtYGWvJhsigG7Ngkv8Xb7RxmL-I,8830
+minotorr/minotorr.py,sha256=YQxHZ-sRW405ydEsC6fscZGJPL1DzTFzYJ-12zx6N0M,1012
+minotorr/ram.py,sha256=orP2c81GWG_i0nIagBxxKN4pFjGHNpYsC2Cbsh4Wbj8,4535
+minotorr-0.7.1.dist-info/LICENSE,sha256=micnzjENMeedi6yVFbV2RlKzgtyWIR-s27F6JHpPpkE,1071
+minotorr-0.7.1.dist-info/METADATA,sha256=-CRBdz5jYAAXMIxS2eS8tzZN0srj90gcFEnR0FdDKpk,1894
+minotorr-0.7.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+minotorr-0.7.1.dist-info/top_level.txt,sha256=BBw87fXUzhX_UZUTKvlKNWMZBbprwU5sFXW2Gth7j94,9
+minotorr-0.7.1.dist-info/RECORD,,
