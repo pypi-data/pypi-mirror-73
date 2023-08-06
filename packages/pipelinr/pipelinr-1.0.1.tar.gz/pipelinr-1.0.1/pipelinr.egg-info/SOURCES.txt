@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+pipelinr/pipelinr.py
+pipelinr.egg-info/PKG-INFO
+pipelinr.egg-info/SOURCES.txt
+pipelinr.egg-info/dependency_links.txt
+pipelinr.egg-info/entry_points.txt
+pipelinr.egg-info/not-zip-safe
+pipelinr.egg-info/requires.txt
+pipelinr.egg-info/top_level.txt
+pipelinr/lib/__init__.py
+pipelinr/lib/pipelinr.py
+pipelinr/static/index.css
+pipelinr/static/index.html
+pipelinr/static/simulation.html
+pipelinr/templates/404.html
