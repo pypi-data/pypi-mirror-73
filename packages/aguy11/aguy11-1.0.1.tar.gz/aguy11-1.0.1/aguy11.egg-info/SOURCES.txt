@@ -1,0 +1,9 @@
+README.md
+setup.py
+aguy11/__init__.py
+aguy11/main.py
+aguy11.egg-info/PKG-INFO
+aguy11.egg-info/SOURCES.txt
+aguy11.egg-info/dependency_links.txt
+aguy11.egg-info/top_level.txt
+aguy11.egg-info/zip-safe
