@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: django-history-manager
+Version: 0.1.1
+Summary: History manger for django models.
+Home-page: https://github.com/retxxxirt/django-history
+Author: retxxxirt
+Author-email: retxxirt@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: django history,django,django history manager,django history model,django history field
+Platform: UNKNOWN
