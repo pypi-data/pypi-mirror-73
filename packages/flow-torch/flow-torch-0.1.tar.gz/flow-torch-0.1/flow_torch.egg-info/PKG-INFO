@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: flow-torch
+Version: 0.1
+Summary: Normalizing Flow models in PyTorch
+Home-page: https://github.com/aparafita/flow
+Author: Álvaro Parafita
+Author-email: parafita.alvaro@gmail.com
+License: MIT
+Download-URL: https://github.com/aparafita/flow/archive/v0.1.tar.gz
+Description: 
+        # flow
+        
+        This project implements basic Normalizing Flows in PyTorch 
+        and provides functionality for defining your own easily, 
+        following the conditioner-transformer architecture.
+        
+        This is specially useful for lower-dimensional flows and for learning purposes.
+        Nevertheless, work is being done on extending its functionalities 
+        to also accomodate for higher dimensional flows.
+        
+        Supports conditioning flows, meaning, learning probability distributions
+        conditioned by a given conditioning tensor. 
+        Specially useful for modelling causal mechanisms.
+        
+        For more information, 
+        please look at our [Github page](https://github.com/aparafita/flow).
+        
+Keywords: flow,density,estimation,sampling,probability,distribution
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
