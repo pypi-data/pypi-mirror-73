@@ -1,0 +1,12 @@
+alakazam/__init__.py,sha256=Hrj8RJNhXd7IEHnIOxnssn3ZaQjjj9RSbi1uh5ZiW-I,150
+alakazam/anonymous.py,sha256=zRorq4PTfLRZ2p8_gkiITg3S6KFZTMdG9PHzMnn24l8,10951
+alakazam/error.py,sha256=ydHoGQSannJDtKa_iz0vAEv0RrwNxJWWb-VsLPWWuE4,107
+alakazam/lift.py,sha256=gwi2QctLGVPM-jCYYJDIrLalqPM7wuPPkFF4bvcoPLM,22313
+alakazam/trace.py,sha256=n935VgszoSRchniSlLRZuO7LeiKFxoHWahqs2YpmWRM,288
+alakazam/util.py,sha256=j-Lul-rYZKrTsRGi2cAIZzHRHRCH86eKha4yA1PyT5Y,2760
+alakazam-0.7.0.dist-info/DESCRIPTION.rst,sha256=Ch3TEFejTM2HCi8Jy4IoksDViIQq5ZVj1cksEIqHCME,6645
+alakazam-0.7.0.dist-info/METADATA,sha256=X7TArXkANlcR0ap_P8tbQ3RU99wEpjjo-vCYmPCIAFA,7680
+alakazam-0.7.0.dist-info/RECORD,,
+alakazam-0.7.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+alakazam-0.7.0.dist-info/metadata.json,sha256=3jFlOQ283mlBiVgk6OOUozOq_uL11aDd9osjINnvOGA,1148
+alakazam-0.7.0.dist-info/top_level.txt,sha256=A6fj7RhDFthvUQ-dqtcBWXH_Pbzlu-TRQStVPz3ieCE,9
