@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+hyperbuild/__init__.py
+hyperbuild.egg-info/PKG-INFO
+hyperbuild.egg-info/SOURCES.txt
+hyperbuild.egg-info/dependency_links.txt
+hyperbuild.egg-info/top_level.txt
+hyperbuild/linux-x86_64-3_5/hyperbuild.so
+hyperbuild/linux-x86_64-3_6/hyperbuild.so
+hyperbuild/linux-x86_64-3_7/hyperbuild.so
+hyperbuild/linux-x86_64-3_8/hyperbuild.so
+hyperbuild/macos-x86_64-3_5/hyperbuild.so
+hyperbuild/macos-x86_64-3_6/hyperbuild.so
+hyperbuild/macos-x86_64-3_7/hyperbuild.so
+hyperbuild/macos-x86_64-3_8/hyperbuild.so
