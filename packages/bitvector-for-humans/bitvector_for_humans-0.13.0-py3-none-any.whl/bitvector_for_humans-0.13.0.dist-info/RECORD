@@ -1,0 +1,8 @@
+bitvector/__init__.py,sha256=Q0g_ndk4N1vryOOLYuJCjTe7gny_NZk4oeWwzUOv49M,172
+bitvector/__version__.py,sha256=DgpLNbv0e1LIEOOe54Db8_390i9pelMEFEnsBsNmyhA,23
+bitvector/bitfield.py,sha256=noGHp3K49w45F0QtEti-5IjWd5M3bwngbsnMcHeTOoU,1621
+bitvector/bitvector.py,sha256=L1YSHqysa37MRqiWySh9uFH4u0rhOlKqaZmrSEdmJRA,15971
+bitvector_for_humans-0.13.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bitvector_for_humans-0.13.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+bitvector_for_humans-0.13.0.dist-info/METADATA,sha256=_j2Oxiv9ftdsQJC3kkiaxSzxso3urTIBnKCKnu5wbSQ,2641
+bitvector_for_humans-0.13.0.dist-info/RECORD,,
