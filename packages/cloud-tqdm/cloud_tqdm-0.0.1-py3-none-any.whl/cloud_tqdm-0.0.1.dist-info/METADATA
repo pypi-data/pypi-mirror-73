@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cloud-tqdm
+Version: 0.0.1
+Summary: Visualize the progress of a Python script on the web.
+Home-page: https://github.com/shunyooo/cloud-tqdm
+Author: shunyooo
+Author-email: shunyo.kawamoto@gmail.com
+License: Apache License 2.0
+Keywords: progress,tqdm,cloud
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+
+# cloud-tqdm
+cloud-tqdm allows you to visualize the progress of your Python scripts on the web.
+
+
