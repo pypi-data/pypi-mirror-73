@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: polypython
+Version: 0.0.0.0.1
+Summary: Analysis of Raman spectral images for plastic content.
+Home-page: https://github.com/JLevermore/polypython
+Author: Joseph M Levermore
+Author-email: j.levermore@imperial.ac.uk
+License: MIT
+Description: Polypython is an chemometric analysis software for identifying plastic particles in a Raman Spectral Image.
+        This python module was created and maintained by Joseph M Levemore - Visiting Researcher at Imperial College London, UK. 
+        If you decide to use such a module to analyse your Raman spectral images please reference the following academic paper: https://doi.org/10.1021/acs.analchem.9b05445.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
