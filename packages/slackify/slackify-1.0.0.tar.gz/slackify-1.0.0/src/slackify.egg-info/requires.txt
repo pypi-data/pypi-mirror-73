@@ -1,0 +1,4 @@
+Flask>=1.0.0
+slackclient>=2.5.0
+requests>=2.0.0
+pyee>=7.0.0

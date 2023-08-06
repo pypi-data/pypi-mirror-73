@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/slackify/__init__.py
+src/slackify/blueprint.py
+src/slackify/dispatcher.py
+src/slackify/injection.py
+src/slackify/main.py
+src/slackify/slack.py
+src/slackify/tasks.py
+src/slackify.egg-info/PKG-INFO
+src/slackify.egg-info/SOURCES.txt
+src/slackify.egg-info/dependency_links.txt
+src/slackify.egg-info/requires.txt
+src/slackify.egg-info/top_level.txt
