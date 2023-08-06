@@ -1,0 +1,11 @@
+README.rst
+setup.py
+api_vk/__init__.py
+api_vk/addon.py
+api_vk/api.py
+api_vk/bots_longpoll.py
+api_vk/keyboard.py
+api_vk.egg-info/PKG-INFO
+api_vk.egg-info/SOURCES.txt
+api_vk.egg-info/dependency_links.txt
+api_vk.egg-info/top_level.txt
