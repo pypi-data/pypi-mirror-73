@@ -1,0 +1,13 @@
+README.rst
+pyproject.toml
+setup.py
+f0/conf.py
+f0/scripts.py
+f0/version.py
+f0.egg-info/PKG-INFO
+f0.egg-info/SOURCES.txt
+f0.egg-info/dependency_links.txt
+f0.egg-info/entry_points.txt
+f0.egg-info/requires.txt
+f0.egg-info/top_level.txt
+f0/f0/init.py
