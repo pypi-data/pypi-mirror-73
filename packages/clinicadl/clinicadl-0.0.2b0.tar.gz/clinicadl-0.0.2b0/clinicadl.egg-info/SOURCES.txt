@@ -1,0 +1,11 @@
+setup.py
+clinicadl/__init__.py
+clinicadl/cli.py
+clinicadl/main.py
+clinicadl.egg-info/PKG-INFO
+clinicadl.egg-info/SOURCES.txt
+clinicadl.egg-info/dependency_links.txt
+clinicadl.egg-info/entry_points.txt
+clinicadl.egg-info/not-zip-safe
+clinicadl.egg-info/requires.txt
+clinicadl.egg-info/top_level.txt
