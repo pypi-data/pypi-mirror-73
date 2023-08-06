@@ -1,0 +1,15 @@
+Version History
+===============
+
+*0.0.1
+    *First Release
+
+*0.0.2
+    *Add help function
+    *Change return type on passing invalid arguments
+
+*0.0.3
+    *Update README.txt
+
+*0.0.4
+    *Improve README.txt
