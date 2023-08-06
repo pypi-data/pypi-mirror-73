@@ -1,0 +1,5 @@
+marshmallow
+apispec
+flasgger
+bravado
+termcolor
