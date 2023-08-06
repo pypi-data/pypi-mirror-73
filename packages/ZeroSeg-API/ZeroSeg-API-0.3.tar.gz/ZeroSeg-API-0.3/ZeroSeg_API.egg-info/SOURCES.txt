@@ -1,0 +1,9 @@
+README.md
+setup.py
+ZeroSeg_API/__init__.py
+ZeroSeg_API/api.py
+ZeroSeg_API.egg-info/PKG-INFO
+ZeroSeg_API.egg-info/SOURCES.txt
+ZeroSeg_API.egg-info/dependency_links.txt
+ZeroSeg_API.egg-info/requires.txt
+ZeroSeg_API.egg-info/top_level.txt
