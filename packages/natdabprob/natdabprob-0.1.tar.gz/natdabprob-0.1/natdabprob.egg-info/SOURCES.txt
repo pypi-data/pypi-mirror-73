@@ -1,0 +1,10 @@
+setup.py
+natdabprob/Binomialdistribution.py
+natdabprob/Gaussiandistribution.py
+natdabprob/Generaldistribution.py
+natdabprob/__init__.py
+natdabprob.egg-info/PKG-INFO
+natdabprob.egg-info/SOURCES.txt
+natdabprob.egg-info/dependency_links.txt
+natdabprob.egg-info/not-zip-safe
+natdabprob.egg-info/top_level.txt
