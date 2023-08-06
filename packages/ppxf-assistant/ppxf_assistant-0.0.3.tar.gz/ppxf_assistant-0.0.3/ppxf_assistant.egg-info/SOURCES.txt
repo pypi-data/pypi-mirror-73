@@ -1,0 +1,9 @@
+README.md
+setup.py
+ppxf_assistant/__init__.py
+ppxf_assistant/ppxf_assistant.py
+ppxf_assistant.egg-info/PKG-INFO
+ppxf_assistant.egg-info/SOURCES.txt
+ppxf_assistant.egg-info/dependency_links.txt
+ppxf_assistant.egg-info/requires.txt
+ppxf_assistant.egg-info/top_level.txt
