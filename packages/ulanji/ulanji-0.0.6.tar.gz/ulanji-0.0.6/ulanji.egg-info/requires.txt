@@ -1,0 +1,4 @@
+markdown2==2.3.9
+PyQt5==5.15.0
+PyQtWebEngine==5.15.0
+QDarkStyle==2.8.1
