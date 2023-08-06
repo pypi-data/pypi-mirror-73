@@ -1,0 +1,9 @@
+requests
+slackclient
+boto3
+Unidecode
+pendulum
+
+[test]
+pytest
+pycodestyle
