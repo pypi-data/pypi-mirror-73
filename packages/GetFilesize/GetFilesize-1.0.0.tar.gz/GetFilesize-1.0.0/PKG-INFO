@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: GetFilesize
+Version: 1.0.0
+Summary: adaptive getting the file size
+Home-page: https://github.com/shliang0603
+Author: shliang
+Author-email: shliang0603@gmail.com
+Maintainer: shliang
+Maintainer-email: shliang0603@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/shliang0603
+Description: UNKNOWN
+Keywords: get-file-size,tool
+Platform: UNKNOWN
+Requires-Python: >=3
