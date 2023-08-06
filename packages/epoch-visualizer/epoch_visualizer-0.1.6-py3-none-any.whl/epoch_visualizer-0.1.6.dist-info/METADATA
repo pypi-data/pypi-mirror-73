@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: epoch-visualizer
+Version: 0.1.6
+Summary: Help for visualize the embedding to show the training process.
+Home-page: https://github.com/zbr17/epoch_visualizer
+Author: zebra17
+Author-email: zbr17@mails.tsinghua.edu.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: numba
+Requires-Dist: tsnecuda
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+
+## dependence
+
+- numba
+- tsne-cuda
+
