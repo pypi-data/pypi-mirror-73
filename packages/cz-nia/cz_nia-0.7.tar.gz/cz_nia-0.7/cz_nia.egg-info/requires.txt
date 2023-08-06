@@ -1,0 +1,11 @@
+xmlsec
+zeep@ git+https://github.com/tpazderka/python-zeep.git@signed_parts
+
+[quality]
+flake8
+isort
+mypy
+pydocstyle
+
+[tests]
+responses

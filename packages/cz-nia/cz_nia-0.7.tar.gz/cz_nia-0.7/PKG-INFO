@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cz_nia
+Version: 0.7
+Summary: Python application for communication with Czech NIA.
+Home-page: https://github.com/CZ-NIC/python-cz-nia
+Author: Tomas Pazderka
+Author-email: tomas.pazderka@nic.cz
+License: UNKNOWN
+Description: # python-cz-nia
+        Python library for communication with Czech NIA
+        
+Platform: UNKNOWN
+Requires-Python: ~=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: quality
+Provides-Extra: tests
