@@ -1,0 +1,13 @@
+xcauto/__init__.py,sha256=zeQszne2oxs_6Xn1ROnS_EGBYodUto1iMFgN7jmEjFo,110
+xcauto/derv.py,sha256=dL9qPfDHZa5uT4dcWYboTFgQd20A6R8T4cfJ7egZ68w,987
+xcauto/functionals/__init__.py,sha256=Dx8Xz8oCKqARHxNH93ewt-QcS_tZ_a-yQtkFYFh823Y,273
+xcauto/functionals/becke.py,sha256=fY0ZmdFrOZ8SOW0nUitCPZw1dCJSX7VXW10bhSgPjTQ,813
+xcauto/functionals/lyp.py,sha256=x7aUa3etRt-QbLPQ-M8QdFf2XCoCuuNlU1G5UMKNmPY,1404
+xcauto/functionals/pbe.py,sha256=JCsaPbvYNMAHyIzDCuqaTQG0_r0c9_8wmri7WQIpEiY,3455
+xcauto/functionals/slater.py,sha256=Xpu_JMFJNPK_BEW3EXL6IViLLQwoC-XW8FcZqJKjXoo,254
+xcauto/functionals/utils.py,sha256=_UNVgWUdHQm-bL3jda3KiuxLSGWqlXI0us4Jv7bL0k4,60
+xcauto/functionals/vwn.py,sha256=DWuGwjTaP0d16UdG3ZWCigj-yhhICbbsDYS47p3Vdws,2508
+xcauto-0.2.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+xcauto-0.2.0.dist-info/WHEEL,sha256=4vGQWMHJO3SOyvYcLHqr380W2n90FCfzkrP_YY3xjq8,99
+xcauto-0.2.0.dist-info/METADATA,sha256=aamsTEoHbFI4Kd8m2zKpwLdApSgn0qit4gVANFTauIg,6167
+xcauto-0.2.0.dist-info/RECORD,,
