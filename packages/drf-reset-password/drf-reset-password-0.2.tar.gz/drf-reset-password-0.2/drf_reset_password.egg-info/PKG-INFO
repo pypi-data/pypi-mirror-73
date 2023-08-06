@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: drf-reset-password
+Version: 0.2
+Summary: Description
+Home-page: https://github.com/linnify/drf-reset-password
+Author: linnify
+Author-email: info@linnify.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
