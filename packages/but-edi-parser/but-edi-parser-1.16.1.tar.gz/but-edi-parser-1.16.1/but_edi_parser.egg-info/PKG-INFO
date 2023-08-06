@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: but-edi-parser
+Version: 1.16.1
+Summary: EDI Parser for BUT Suppliers
+Home-page: https://github.com/sathouel/but_edi_parser.git
+Author: Steven Athouel
+Author-email: sathouel@gmail.com
+License: UNKNOWN
+Description: # EDI Parser for BUT customer
+        
+        Currently support only ORDERS D 96A messages.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
