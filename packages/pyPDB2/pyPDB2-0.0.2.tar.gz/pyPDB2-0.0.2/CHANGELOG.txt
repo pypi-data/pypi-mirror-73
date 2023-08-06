@@ -1,0 +1,13 @@
+Change Log
+=============
+
+0.0.1 (4/07/2020)
+-------------------
+- First Release
+
+0.0.2 (10/07/2020)
+-------------------
+- Second Release
+- Function returns boolean value instea of integer
+- Returns a True if yes is clicked, a False if no is clicked
+- New error box

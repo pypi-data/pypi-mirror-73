@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: pyPDB2
+Version: 0.0.2
+Summary: Dialog Boxes
+Home-page: UNKNOWN
+Author: Jack Boyd
+Author-email: boydypug@gmail.com
+License: MIT
+Description: This library allows you to create dialog boxes.
+        Using classes, create one of the following boxes:
+        
+        ynBox()
+        errorBox()
+        
+        e.g
+        
+        box = ynBox()
+        
+        To draw the box, you must use the .draw() method:
+        
+        box.draw()
+        
+        
+        
+        
+        
+        
+        Change Log
+        =============
+        
+        0.0.1 (4/07/2020)
+        -------------------
+        - First Release
+        
+        0.0.2 (10/07/2020)
+        -------------------
+        - Second Release
+        - Function returns boolean value instea of integer
+        - Returns a True if yes is clicked, a False if no is clicked
+        - New error box
+Keywords: Dialog,Box
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
