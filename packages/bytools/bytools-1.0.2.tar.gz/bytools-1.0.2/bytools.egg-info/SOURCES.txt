@@ -1,0 +1,7 @@
+setup.py
+bytools/__init__.py
+bytools/utils.py
+bytools.egg-info/PKG-INFO
+bytools.egg-info/SOURCES.txt
+bytools.egg-info/dependency_links.txt
+bytools.egg-info/top_level.txt
