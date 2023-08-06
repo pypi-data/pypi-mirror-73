@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+
+# Copyright © 2020 Noisytoot
+# MATT - MATT Arithmetic Training Test: Another maths test, this time in Python!
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>
+
+import argparse, readline, secrets, platform
+from termcolor import colored, cprint
+
+# Initiali(s|z)e colorama (ANSI escape emulation on windows) (windows only)
+if platform.system() == "Windows":
+    import colorama
+    colorama.init()
+# import os
+# from classes import Operation, OperationType, Profile
+# from xdg.BaseDirectory import xdg_config_home
+# from pathlib import Path
+# config_file = os.path.join(xdg_config_home, "mat", "config.py")
+# config = {}
+# exec(Path(config_file).read_text(), config)
+
+# Parse command line arguments
+parser = argparse.ArgumentParser(prog="mat", description="A maths test program")
+# parser.add_argument("-m", "--minimum", help="The minimum number", type=str)
+# parser.add_argument("-M", "--maximum", help="The maximum number", type=str)
+# parser.add_argument("-o", "--operations", help='Allowed operations ("+", "-", "*", "/"), seperated by commas', type=str)
+parser.add_argument("-d", "--difficulty", help="Difficulty profile (preset of difficulty related settings)", type=str)
+parser.add_argument("-q", "--question-amount", help="Amount of questions", type=int)
+args = parser.parse_args()
+
+def isfloat(number) -> bool:
+    try:
+        float(number)
+        return True
+    except ValueError:
+        return False
+# Default settings for difficulties
+def default_difficulty(namespace, number):
+    if namespace == "default":
+        if number == 1:
+            return {
+                "operations": ["+", "-"],
+                "maximum": 10,
+                "minimum": 0
+            }
+        elif number == 2:
+            return {
+                "operations": ["+", "-", "*", "/"],
+                "maximum": 20,
+                "minimum": 0
+            }
+
+def do_level(namespace, number, question_amount):
+    difficulty = default_difficulty(namespace, number)
+    # Set default value for minimum
+    if "minimum" not in difficulty:
+        difficulty["minimum"] = 0
+    score: float = 0
+    question: int = 0
+    while question < question_amount:
+        # Generate random operation
+        operation = secrets.choice(difficulty["operations"])
+        
+        # Generate 2 random numbers
+        n1 = secrets.choice(range(difficulty["minimum"], difficulty["maximum"]))
+        n2 = secrets.choice(range(difficulty["minimum"], difficulty["maximum"]))
+        if operation == "/":
+            divanswer = n1
+            n1 = divanswer * n2
+        
+        # Set correct answer
+        if operation == "+":
+            correct_answer = n1 + n2
+        elif operation == "-":
+            correct_answer = n1 - n2
+        elif operation == "*":
+            correct_answer = n1 * n2
+        elif operation == "/":
+            correct_answer = divanswer
+        
+        # Get the user's answer
+        answer = ""
+        while not isfloat(answer):
+            answer = input(colored(f"What is {n1} {operation} {n2}? ", "cyan", attrs=["bold"]))
+        answer = float(answer)
+        
+        # Check the user's answer
+        if correct_answer == answer:
+            cprint("Correct!", "green", attrs=["bold"])
+            score += 1
+        elif abs(correct_answer - answer) <= 2:
+            points = 0.5 - 4 / difficulty["maximum"]
+            cprint(f"Not quite right, the correct answer was {correct_answer}, you get {points} points.", "yellow", attrs=["bold"])
+            score += points
+        else:
+            cprint(f"Wrong, the correct answer was {correct_answer}.", "red", attrs=["bold"])
+            question_amount += 1
+        
+        # Increment the question
+        question += 1
+    cprint(f"Your score was {score}/{question_amount}.", "yellow", attrs=["bold"])
+difficulty = args.difficulty.split(":")
+do_level(difficulty[0], int(difficulty[1]), args.question_amount)
+
+# Deinit colorama (windows only)
+if platform.system() == "Windows":
+    colorama.deinit()
