@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: easysparql
+Version: 1.1
+Summary: A python wrapper to easily query knowledge graphs with SPARQL
+Home-page: https://github.com/oeg-upm/easysparql
+Author: Ahmad Alobaid
+Author-email: aalobaid@fi.upm.es
+License: UNKNOWN
+Description: # easysparql
+        A python wrapper to easily query knowledge graphs with SPARQL
+        
+        
+        # Install
+        
+        ## via setuptools
+        ```python setup.py ```
+        
+        ## via pip
+        ```pip install easysparql```
+        
+        # Example
+        ```
+        from easysparql.easysparql import run_query, get_entities, get_classes
+        
+        DBPEDIA_ENDPOINT = "https://dbpedia.org/sparql"
+        
+        albert_uri = "http://dbpedia.org/resource/Albert_Einstein"
+        albert_name = "Albert Einstein"
+        scientist = "http://dbpedia.org/ontology/Scientist"
+        
+        classes = get_classes(albert_uri, DBPEDIA_ENDPOINT)
+        
+        entities = get_entities(albert_name, DBPEDIA_ENDPOINT, "@en")
+        
+        query = "select distinct ?Concept where {[] a ?Concept} LIMIT 100"
+        results = run_query(query, DBPEDIA_ENDPOINT)
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
