@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bluff
+Version: 1.0.0
+Summary: A Pythonic Poker framework
+Home-page: https://github.com/matheusccouto/bluff
+Author: Matheus Couto
+Author-email: matheusccouto@gmail.com
+License: UNKNOWN
+Keywords: poker
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (~=1.18.5)
+Requires-Dist: pandas (~=1.0.4)
+Requires-Dist: pytest (~=5.4.3)
+Requires-Dist: more-itertools (~=8.3.0)
+
+# bluff
+`bluff` is a poker framework built entirely on Python.
+
+

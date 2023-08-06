@@ -1,0 +1,8 @@
+chinese/__init__.py,sha256=zgeQ6eQ25_BmKPSerZBS9lBnp2Ya6aRbvCY3zoX7QqY,3598
+holdem/__init__.py,sha256=H2Fpm4ifOEb2AvJn2evCcC0_bfDiIib1FQAsI1IOlO8,149
+holdem/equity.py,sha256=ZVKuMEIFVWpoS6n9QrLETyLj6dQT9vWbT1tCfGVpPBA,9656
+bluff-1.0.0.dist-info/LICENSE,sha256=1amkIXbcUeVKbiZSh0IdhkQEhh2M_5cXQ5kLzNykA-M,1091
+bluff-1.0.0.dist-info/METADATA,sha256=N_2SNy905oasbUg9chjW3we2eJVzqx2XNYFmi3UIz-Q,511
+bluff-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bluff-1.0.0.dist-info/top_level.txt,sha256=_APQMcbiMOW-Wo-nkOEVj036cmI4fLlgW8YCgDbtb_U,15
+bluff-1.0.0.dist-info/RECORD,,
