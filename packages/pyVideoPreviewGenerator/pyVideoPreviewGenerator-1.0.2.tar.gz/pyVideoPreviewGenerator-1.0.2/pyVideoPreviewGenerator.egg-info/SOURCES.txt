@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pyPreviewGenerator/__init__.py
+pyPreviewGenerator/helpers.py
+pyPreviewGenerator/pyPGCLI.py
+pyPreviewGenerator/pyPreviewGenerator.py
+pyVideoPreviewGenerator.egg-info/PKG-INFO
+pyVideoPreviewGenerator.egg-info/SOURCES.txt
+pyVideoPreviewGenerator.egg-info/dependency_links.txt
+pyVideoPreviewGenerator.egg-info/requires.txt
+pyVideoPreviewGenerator.egg-info/top_level.txt
