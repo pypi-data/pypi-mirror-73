@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mwa-pb
+Version: 1.1
+Summary: MWA Primary beam code
+Home-page: https://github.com/MWATelescope/mwa_pb
+Author: MWA Team members, repo managed by Andrew Williams
+Author-email: Andrew.Williams@curtin.edu.au
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: skyfield (>=1.16)
+Requires-Dist: matplotlib
+Requires-Dist: scipy (>=0.15.1)
+Requires-Dist: h5py
+Provides-Extra: skymap
+Requires-Dist: ephem ; extra == 'skymap'
+Requires-Dist: Pillow ; extra == 'skymap'
+
+UNKNOWN
+
+
