@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyostracker/__init__.py
+pyostracker.egg-info/PKG-INFO
+pyostracker.egg-info/SOURCES.txt
+pyostracker.egg-info/dependency_links.txt
+pyostracker.egg-info/top_level.txt
