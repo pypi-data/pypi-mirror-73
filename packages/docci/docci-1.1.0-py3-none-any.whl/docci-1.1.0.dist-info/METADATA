@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: docci
+Version: 1.1.0
+Summary: Various document utils
+Home-page: https://github.com/potykion/docci
+License: MIT
+Author: potykion
+Author-email: potykion@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: openpyxl (>=3.0,<4.0)
+Project-URL: Repository, https://github.com/potykion/docci
+Description-Content-Type: text/markdown
+
+# docci
+
+Various document management utils
+
+## Usage
+
+The `docci.file.FileAttchment` class is root of whole package. 
+It abstracts work with files and provides useful properties like base64 convertion, content-disposition header generation, mimetype detection:
+
+```python
+from docci.file import FileAttachment
+
+# Create file attachment from file
+file = FileAttachment.load("path/to/file")
+
+# Now you can use the FileAttachment features:
+# Get base64 file representation
+file.content_base64
+
+# Generate Content-Disposition header with file name
+file.content_disposition
+
+# Get file extension
+file.extension
+
+# Get file mimetype
+file.mimetype
+
+# Save file to disk
+file.save("path/to/file")
+```  
+
+To see other features proceed to the [documentation](https://docci.readthedocs.io/en/latest/) 
