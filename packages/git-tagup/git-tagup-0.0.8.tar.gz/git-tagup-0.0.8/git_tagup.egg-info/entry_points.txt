@@ -1,0 +1,3 @@
+[console_scripts]
+git-tagup = git_tagup.__main__:main
+
