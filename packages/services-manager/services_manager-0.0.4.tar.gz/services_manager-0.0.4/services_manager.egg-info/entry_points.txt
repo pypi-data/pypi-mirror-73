@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        services_manager=services_manager.server:cli
+    
