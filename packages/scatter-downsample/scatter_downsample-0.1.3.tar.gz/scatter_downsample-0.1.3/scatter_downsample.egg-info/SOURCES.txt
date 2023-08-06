@@ -1,0 +1,11 @@
+README.md
+setup.py
+scatter_downsample/__init__.py
+scatter_downsample/__main__.py
+scatter_downsample/function.py
+scatter_downsample/helpers.py
+scatter_downsample.egg-info/PKG-INFO
+scatter_downsample.egg-info/SOURCES.txt
+scatter_downsample.egg-info/dependency_links.txt
+scatter_downsample.egg-info/entry_points.txt
+scatter_downsample.egg-info/top_level.txt
