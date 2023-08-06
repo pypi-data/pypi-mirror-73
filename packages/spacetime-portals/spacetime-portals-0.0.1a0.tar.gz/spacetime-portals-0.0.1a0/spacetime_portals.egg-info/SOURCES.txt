@@ -1,0 +1,9 @@
+README.md
+setup.py
+portals/__init__.py
+portals/version.py
+spacetime_portals.egg-info/PKG-INFO
+spacetime_portals.egg-info/SOURCES.txt
+spacetime_portals.egg-info/dependency_links.txt
+spacetime_portals.egg-info/requires.txt
+spacetime_portals.egg-info/top_level.txt
