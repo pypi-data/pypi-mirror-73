@@ -1,0 +1,10 @@
+setup.py
+opaldistributions/Binomialdistribution.py
+opaldistributions/Gaussiandistribution.py
+opaldistributions/Generaldistribution.py
+opaldistributions/__init__.py
+opaldistributions.egg-info/PKG-INFO
+opaldistributions.egg-info/SOURCES.txt
+opaldistributions.egg-info/dependency_links.txt
+opaldistributions.egg-info/not-zip-safe
+opaldistributions.egg-info/top_level.txt
