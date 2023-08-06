@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: gera2ld.aioproxy
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/gera2ld/aioproxy
+License: MIT
+Author: Gerald
+Author-email: gera2ld@163.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: async_dns (>=1.0.10,<2.0.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: gera2ld.socks (>=0.2.0,<0.3.0)
+Requires-Dist: importlib_metadata (>=1.7.0,<2.0.0)
+Project-URL: Repository, https://github.com/gera2ld/aioproxy
+Description-Content-Type: text/markdown
+
+# gera2ld.aioproxy
+
+[![PyPI](https://img.shields.io/pypi/v/gera2ld.aioproxy.svg)](https://pypi.org/project/gera2ld.aioproxy/)
+
+A simple HTTP proxy server implemented with pure Python on top of [aiohttp](https://aiohttp.readthedocs.io/).
+
+## Installation
+
+```sh
+$ pip3 install gera2ld.aioproxy
+```
+
+## Usage
+
+```sh
+$ aioproxy [-b :1086] [-x socks5://127.0.0.1:1080]
+```
+
