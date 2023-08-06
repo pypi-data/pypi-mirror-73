@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mathmethods
+Version: 0.3
+Summary: Simple package to learn how to work with pip
+Home-page: https://github.com/mmhverheijden/mathmethods
+Author: Mike Verheijden
+Author-email: mmhverheijden@gmail.com
+License: MIT
+Download-URL:  
+Description: UNKNOWN
+Keywords: Maths,Test,Pip
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
