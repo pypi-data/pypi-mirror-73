@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+aus_learn_py/Binomialdistribution.py
+aus_learn_py/Gaussiandistribution.py
+aus_learn_py/Generaldistribution.py
+aus_learn_py/__init__.py
+aus_learn_py.egg-info/PKG-INFO
+aus_learn_py.egg-info/SOURCES.txt
+aus_learn_py.egg-info/dependency_links.txt
+aus_learn_py.egg-info/not-zip-safe
+aus_learn_py.egg-info/top_level.txt
