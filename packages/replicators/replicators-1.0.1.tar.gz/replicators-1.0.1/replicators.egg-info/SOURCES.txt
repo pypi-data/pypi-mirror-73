@@ -1,0 +1,9 @@
+README.md
+setup.py
+replicant/__init__.py
+replicant/multiprocess.py
+replicators.egg-info/PKG-INFO
+replicators.egg-info/SOURCES.txt
+replicators.egg-info/dependency_links.txt
+replicators.egg-info/entry_points.txt
+replicators.egg-info/top_level.txt
