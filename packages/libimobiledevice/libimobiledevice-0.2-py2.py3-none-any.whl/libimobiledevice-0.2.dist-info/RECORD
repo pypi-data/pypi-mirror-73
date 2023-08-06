@@ -1,0 +1,8 @@
+libimobiledevice/__init__.py,sha256=O869FzPWEXps2yV6Eh9Q1_K12ADa7m9Ls9t0Y2am_1M,674
+libimobiledevice/afc.py,sha256=w_rV2Ak0uJiw2uNPWY178FPKhGWR8BUQzvpeyg7TBWc,12286
+libimobiledevice/device.py,sha256=mXNf7x74AkCG0eWBvsAfkvGSwQIiN6MsTdyvbHo-A6Y,2318
+libimobiledevice/service.py,sha256=meD2-e8wF6KN0OoZTA926tleMlBOWe3rfKRkvk6JmVw,1306
+libimobiledevice-0.2.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+libimobiledevice-0.2.dist-info/WHEEL,sha256=4vGQWMHJO3SOyvYcLHqr380W2n90FCfzkrP_YY3xjq8,99
+libimobiledevice-0.2.dist-info/METADATA,sha256=s3z9tw025t4LPxzIU0jN6LGZwwDWEdEgZoR1NPgU-KA,249
+libimobiledevice-0.2.dist-info/RECORD,,
