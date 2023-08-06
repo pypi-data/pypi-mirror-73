@@ -1,0 +1,8 @@
+README.md
+setup.py
+diga_olar/__init__.py
+diga_olar/funcoes.py
+diga_olar.egg-info/PKG-INFO
+diga_olar.egg-info/SOURCES.txt
+diga_olar.egg-info/dependency_links.txt
+diga_olar.egg-info/top_level.txt
