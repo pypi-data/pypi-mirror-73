@@ -1,0 +1,10 @@
+setup.py
+random_var_distro/Binomialdistribution.py
+random_var_distro/Gaussiandistribution.py
+random_var_distro/Generaldistribution.py
+random_var_distro/__init__.py
+random_var_distro.egg-info/PKG-INFO
+random_var_distro.egg-info/SOURCES.txt
+random_var_distro.egg-info/dependency_links.txt
+random_var_distro.egg-info/not-zip-safe
+random_var_distro.egg-info/top_level.txt
