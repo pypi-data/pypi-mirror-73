@@ -1,0 +1,7 @@
+README.md
+setup.py
+lowercase_booleans/__init__.py
+lowercase_booleans.egg-info/PKG-INFO
+lowercase_booleans.egg-info/SOURCES.txt
+lowercase_booleans.egg-info/dependency_links.txt
+lowercase_booleans.egg-info/top_level.txt
