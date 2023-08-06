@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: modern-python-setup
+Version: 0.2.0
+Summary: The Modern Python Setup project
+Home-page: https://github.com/hubplug/modern-python-setup
+License: MIT
+Keywords: modern,python,setup
+Author: Hub Plug
+Author-email: 31110528+hubplug@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: desert (>=2020.1.6,<2021.0.0)
+Requires-Dist: importlib_metadata (>=1.7.0,<2.0.0); python_version < "3.8"
+Requires-Dist: marshmallow (>=3.7.0,<4.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Repository, https://github.com/hubplug/modern-python-setup
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/hubplug/modern-python-setup/workflows/Tests/badge.svg)](https://github.com/hubplug/modern-python-setup/actions?workflow=Tests)
+[![Codecov](https://codecov.io/gh/hubplug/modern-python-setup/branch/master/graph/badge.svg)](https://codecov.io/gh/hubplug/modern-python-setup)
+[![PyPI](https://img.shields.io/pypi/v/modern-python-setup.svg)](https://pypi.org/project/modern-python-setup/)
+
+# modern-python-setup
+Based on [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/) by [CLAUDIO JOLOWICZ](https://cjolowicz.github.io/)
+
