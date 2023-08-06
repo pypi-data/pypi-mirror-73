@@ -1,0 +1,10 @@
+include LICENSE
+include CHANGES.rst
+include README.md
+include pyproject.toml
+
+recursive-include arlunio/tutorial *.ipynb
+recursive-include arlunio/tutorial *.py
+recursive-include arlunio/tutorial *.png
+
+recursive-exclude tests *.py
