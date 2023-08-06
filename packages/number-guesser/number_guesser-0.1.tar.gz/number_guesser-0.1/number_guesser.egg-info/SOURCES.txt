@@ -1,0 +1,8 @@
+setup.py
+number_guesser/__init__.py
+number_guesser/number_guesser.py
+number_guesser.egg-info/PKG-INFO
+number_guesser.egg-info/SOURCES.txt
+number_guesser.egg-info/dependency_links.txt
+number_guesser.egg-info/not-zip-safe
+number_guesser.egg-info/top_level.txt
