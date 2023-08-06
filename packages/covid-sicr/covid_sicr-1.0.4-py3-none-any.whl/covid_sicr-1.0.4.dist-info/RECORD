@@ -1,0 +1,10 @@
+niddk_covid_sicr/__init__.py,sha256=qSOgObZep50gavAFN_tDNiHB28YGAd5kk2f5qgKDejs,258
+niddk_covid_sicr/analysis.py,sha256=zyPDaLnu2peuqJ3nrB0AebaYiO5eup8v6ej2J_DrNlc,14294
+niddk_covid_sicr/data.py,sha256=Mv0bEGe4z7UTw81olXCGkbAOzx0hX24zCIFqOYfocLA,12572
+niddk_covid_sicr/io.py,sha256=xmGU61vHoVX4wH1BugAbdSoU1TlDXovSdw_MxnhT_CM,9861
+niddk_covid_sicr/prep.py,sha256=oHgIFJ5ZKVGpjiyuUtVwITGyd5W1J1-VlLUD4QeZT3k,3452
+niddk_covid_sicr/stats.py,sha256=h4XkJZpyClLwDUdxrJhcV_yCp0kv-JQMysqsdk49DcU,10174
+covid_sicr-1.0.4.dist-info/METADATA,sha256=amAy8zJnEjWxOFzxww0wqh5lb24EtWCvTEyycRnLFIY,4841
+covid_sicr-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+covid_sicr-1.0.4.dist-info/top_level.txt,sha256=NfvSCEf0r_1ybtRsF47wpAa1TMDpdELHE6kYsEibU2A,17
+covid_sicr-1.0.4.dist-info/RECORD,,
