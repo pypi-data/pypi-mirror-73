@@ -1,0 +1,16 @@
+numpy
+matplotlib
+scikit-learn
+keras
+pandas
+plotly
+imbalanced-learn
+pymodm
+scipy
+statsmodels
+prettytable
+seaborn
+joblib
+dask
+distributed
+scikit-optimize
