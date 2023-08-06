@@ -1,0 +1,5 @@
+click
+requests
+docker
+consolemd
+pyyaml
