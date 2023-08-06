@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: genomicsdb
+Version: 0.0.7.0
+Summary: Experimental Python Bindings to GenomicsDB
+Home-page: UNKNOWN
+Author: GenomicsDB.org
+Author-email: support@genomicsdb.org
+Maintainer: GenomicsDB.org
+Maintainer-email: support@genomicsdb.org
+License: MIT
+Keywords: genomics,genomicsdb,variant,vcf,variant calls
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.7)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# GenomicsDB-Python
+Experimental Python Bindings to the native [GenomicsDB](https://github.com/GenomicsDB/GenomicsDB) library. Only queries are supported for now. For importing vcf files into GenomicsDB, use the command line tools - `vcf2genomicsdb` or `gatk GenomicsDBImport`.
+
+## Installation
+On Linux and macOS, install `genomicsdb` from PyPi with pip:
+```
+pip install genomicsdb
+```
+
+## Development
+See [instructions](INSTALL.md) for local builds and running tests.
+
+
