@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "gzip-utils"
+version = "2020.07.10-pre.2"
+description = ""
+authors = ["Idar Bergli <idar.bergli@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+importlib-metadata = {version = "^1.7.0", python = "<3.8"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.782"
+flake8 = "^3.8.3"
+black = "^19.10b0"
+pytest-cov = "^2.10.0"
+coverage = "^5.2"
+pytest-xdist = "^1.32.0"
+isort = "^5.0.6"
+
+[tool.poetry.scripts]
+
+[tool.coverage.paths]
+source = ["src", "tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["starlette_aad"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[tool.isort]
+line_length = 120
+force_single_line = true
+atomic = true
+include_trailing_comma = true
+lines_after_imports = 2
+lines_between_types = 1
+multi_line_output = 3
+use_parentheses = true
+skip_glob = ["*/setup.py"]
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
