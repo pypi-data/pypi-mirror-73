@@ -1,0 +1,11 @@
+click>=7
+docker<4.0,>=3.7
+pyyaml<4.3,>=3
+pydash
+pyretry
+requests<2.21,>2.18
+six
+setuptools
+
+[dev]
+ipdb
