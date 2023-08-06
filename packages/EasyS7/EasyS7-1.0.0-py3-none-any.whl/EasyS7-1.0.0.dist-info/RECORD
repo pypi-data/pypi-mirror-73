@@ -1,0 +1,14 @@
+EasyS7/DataBlock.py,sha256=B96JhWpKOw68J9pC2Il1PGjsU8uSeRuPRiGOy8WSzGw,2403
+EasyS7/PLC.py,sha256=EdN5afI7L905Akzdk7YZzTkVKw1g2xOJia4CrpWeyTY,1705
+EasyS7/Utility.py,sha256=h16vPI9DEbWe7ZNqXl0T01Sjnyw2gCj7K7EQTNlJhPU,1130
+EasyS7/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EasyS7/DataTypes/DTbool.py,sha256=0R2EybREHXhuasgatZgtrevvmGkJ7rnwONQx96IUAQg,291
+EasyS7/DataTypes/DTdint.py,sha256=VeniNNb-JI5zyHGAk7GITBUBq2dUFe-A-Q_2VjJDeb4,843
+EasyS7/DataTypes/DTint.py,sha256=8LithQql7x7iAFPOSnHwK86WFgs-x1p1485km77pzLk,353
+EasyS7/DataTypes/DTtime.py,sha256=wpD-uKeLx2kupbw7xJzKYeJESaKacvlpvGj0Own0Vac,356
+EasyS7/DataTypes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EasyS7-1.0.0.dist-info/LICENSE,sha256=xpk1x4JAjJ-6kiCQTMnNKJW6vZMFNZYBRz_GSYOVou4,1079
+EasyS7-1.0.0.dist-info/METADATA,sha256=NEMDsvNPwJ311dP8GKmPMbHUGsEpKJH1D3M51XDV6Ys,5086
+EasyS7-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+EasyS7-1.0.0.dist-info/top_level.txt,sha256=QU1tt8kS0370rdI1iRtx5mZvcHm4GHT2YVaSI00VPxE,29
+EasyS7-1.0.0.dist-info/RECORD,,
