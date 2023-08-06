@@ -1,0 +1,8 @@
+README.md
+setup.py
+test/test_frequtils.py
+wordfrequency.egg-info/PKG-INFO
+wordfrequency.egg-info/SOURCES.txt
+wordfrequency.egg-info/dependency_links.txt
+wordfrequency.egg-info/requires.txt
+wordfrequency.egg-info/top_level.txt

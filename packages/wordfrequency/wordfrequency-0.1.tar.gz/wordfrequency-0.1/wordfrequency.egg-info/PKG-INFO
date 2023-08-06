@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: wordfrequency
+Version: 0.1
+Summary: A small utility script to count frequencies of words in a text file including options to stem,remove uoms, remove numerics, remove decimals, lemmitization 
+Home-page: https://github.com/magsv/wordfreq
+Author: Magnus Svensson
+Author-email: magnus@massivemonster.org
+License: Apache License 2.0
+Description: A utility library using Python NLTK to process a text and count occurences of words. Includes the possibility to perform cleaning prior to counting such as e.g. remove numerics, stemming, remove uoms, remove decimals ++
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3.6
