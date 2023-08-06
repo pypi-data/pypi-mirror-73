@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: INOKrypt
+Version: 0.1.1
+Summary: INOKrypt - For Secure Data Communication Between IoT Devices & IoT Server
+Home-page: https://github.com/TheThingsPlanet/INOKrypt
+Author: Shobhit Sharma
+Author-email: shobhit@technical0812.com
+License: UNKNOWN
+Project-URL: Documentation, https://inokrypt.readthedocs.io/
+Project-URL: Say Thanks!, https://twitter.com/ScriptKKiddie
+Project-URL: Source, https://github.com/TheThingsPlanet/INOKrypt
+Description: # INOKrypt
+        
+        ## INOKrypt - For Secure Data Communication between IoT Devices & IoT Server.
+        
+        [Read The Docs](https://inokrypt.readthedocs.io/)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
