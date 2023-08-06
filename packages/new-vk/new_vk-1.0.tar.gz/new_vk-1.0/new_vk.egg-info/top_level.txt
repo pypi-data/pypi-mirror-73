@@ -1,0 +1,2 @@
+jconfig
+new_vk

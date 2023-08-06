@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: new_vk
+Version: 1.0
+Summary: Python модуль для написания скриптов для социальной сети Вконтакте (vk.com) (API wrapper)
+Home-page: https://github.com/Warale/new_vk
+Author: Warale
+Author-email: waralegit@yandex.ru
+License: Apache License, Version 2.0, see LICENSE file
+Download-URL: https://github.com/Warale/new_vk/archive/master.zip
+Description: new_vk (Модификация библиотеки vk_api) ![Python 2.7, 3.4+](https://img.shields.io/pypi/pyversions/vk_api.svg) 
+        =================================================================================================================================================================================
+        **new_vk** – **vk_api – Python модуль для создания скриптов для социальной сети Вконтакте (vk.com API wrapper)**
+        
+        * [Примеры использования](https://github.com/Warale/new_vk/tree/master/examples)
+        * [Официальная документация по методам API](https://vk.com/dev/methods)
+        
+        ```python
+        import new_vk
+        
+        vk_session = new_vk.VkApi('+71112223344', 'mypassword')
+        vk_session.auth()
+        
+        vk = vk_session.get_api()
+        
+        print(vk.wall.post(message='Hello world!'))
+        ```
+        
+        Установка
+        ------------
+            $ pip install new-vk
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+Provides-Extra: vkstreaming
+Provides-Extra: vkaudio
