@@ -1,0 +1,9 @@
+README.md
+setup.py
+tamilmorph/ThamizhiLP.py
+tamilmorph/__init__.py
+tamilmorph/analyser.py
+tamilmorph.egg-info/PKG-INFO
+tamilmorph.egg-info/SOURCES.txt
+tamilmorph.egg-info/dependency_links.txt
+tamilmorph.egg-info/top_level.txt
