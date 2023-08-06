@@ -1,0 +1,11 @@
+db_locks/__init__.py,sha256=vsyiznzl8AHgKQR709D-3o4Z50GVo47AkBkjgTmo3ZE,84
+db_locks/apps.py,sha256=_F1rnildpyfea4RDUJygcP7H79t0IWtIA7k6uShQNmg,358
+db_locks/locks.py,sha256=vbWBZEM5HA-8rjA0H0XvQw4oGbmj5qTD7RkJmwnWm6g,8610
+db_locks/models.py,sha256=kTsf4wa-medIig3s5fe-jqQKcKVM5qnb2gKExnULxzk,383
+db_locks/migrations/0001_initial.py,sha256=3pyBXBrvhRG_eNAB45ZBFBOB9sZLNWVW7kh9VmMDXw0,647
+db_locks/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_database_locks-0.1a2.dist-info/LICENSE,sha256=PyUkJhADY2m6ixMabj9hrdhSCm49l8MMV8ctGNYIQTg,1068
+django_database_locks-0.1a2.dist-info/METADATA,sha256=k_R31e3o_OKD4LsfPgDTA2HUqkrYpBSyZgXCy3bwO44,1312
+django_database_locks-0.1a2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_database_locks-0.1a2.dist-info/top_level.txt,sha256=FqRfM6dgC-dEInVsyJLETQgQM7iDc1_UH0kGp-UaLlI,9
+django_database_locks-0.1a2.dist-info/RECORD,,
