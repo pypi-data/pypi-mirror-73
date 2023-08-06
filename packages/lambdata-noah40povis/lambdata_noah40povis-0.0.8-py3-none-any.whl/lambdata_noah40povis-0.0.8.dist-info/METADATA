@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lambdata-noah40povis
+Version: 0.0.8
+Summary: A collection of Data Science helper functions
+Home-page: https://github.com/noah40povis/lambda-noah40povis.git
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# lambda-noah40povis
+A Python package with useful Data Science functions 
+
+
