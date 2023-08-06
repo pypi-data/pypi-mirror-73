@@ -1,0 +1,13 @@
+README.md
+setup.py
+face_recognition/__init__.py
+face_recognition/models/__init__.py
+face_recognition/models/arcnet.py
+face_recognition/models/retina.py
+face_recognition/utils/__init__.py
+face_recognition/utils/tools.py
+green_face_recognition.egg-info/PKG-INFO
+green_face_recognition.egg-info/SOURCES.txt
+green_face_recognition.egg-info/dependency_links.txt
+green_face_recognition.egg-info/not-zip-safe
+green_face_recognition.egg-info/top_level.txt
