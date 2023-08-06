@@ -1,0 +1,8 @@
+README.md
+setup.py
+tkhelper/__init__.py
+tkhelper/widgets.py
+tkhelper.egg-info/PKG-INFO
+tkhelper.egg-info/SOURCES.txt
+tkhelper.egg-info/dependency_links.txt
+tkhelper.egg-info/top_level.txt
