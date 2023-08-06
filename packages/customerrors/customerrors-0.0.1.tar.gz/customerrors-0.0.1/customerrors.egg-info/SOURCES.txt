@@ -1,0 +1,14 @@
+README.txt
+moduleSetup.py
+customerrors.egg-info/PKG-INFO
+customerrors.egg-info/SOURCES.txt
+customerrors.egg-info/dependency_links.txt
+customerrors.egg-info/top_level.txt
+main/__init__.py
+main/customerrors.py
+main/pgame.py
+main/pgame_test.py
+tests/__init__.py
+tests/customerrors.py
+tests/pgame.py
+tests/pgame_test.py

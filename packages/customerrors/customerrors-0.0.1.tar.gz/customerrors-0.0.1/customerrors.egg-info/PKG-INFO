@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: customerrors
+Version: 0.0.1
+Summary: A pypi test.
+Home-page: http://packages.python.org/customerrors
+Author: Splatboy Dev
+Author-email: splatboy20081@gmail.com
+License: GPL v3.0
+Description: UNKNOWN
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
