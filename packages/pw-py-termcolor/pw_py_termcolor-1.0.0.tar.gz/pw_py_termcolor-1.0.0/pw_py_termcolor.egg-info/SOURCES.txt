@@ -1,0 +1,8 @@
+README.md
+setup.py
+pw_py_termcolor/__init__.py
+pw_py_termcolor/termcolor.py
+pw_py_termcolor.egg-info/PKG-INFO
+pw_py_termcolor.egg-info/SOURCES.txt
+pw_py_termcolor.egg-info/dependency_links.txt
+pw_py_termcolor.egg-info/top_level.txt
