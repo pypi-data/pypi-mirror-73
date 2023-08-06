@@ -1,0 +1,31 @@
+# Making a mkfile so I don't have to remember to copy {README/lex-api}.org into
+# the lexapi distribution folder. I currently hate setuptools for deprecating
+# the one feature that would mean I do not have to duplicate those files >:(
+# This is the only reason this file exists.
+
+# This command does not work because of how setuptools grabs input
+# Fun times :)
+# upload: build
+#   python3 -m twine upload --repository testpypi dist/*
+
+SRCDIR    = lexapi
+FILES     = `{ls $SRCDIR/*}
+README    = README.org
+APIDOC    = lex-api.org
+PDOC      = pydoc
+
+build: copy_info markdown_readme setup.py $FILES pdoc
+  python3 setup.py sdist bdist_wheel
+
+copy_info: $APIDOC
+  cp $APIDOC $SRCDIR/
+
+markdown_readme: $README
+  pandoc -f org -t markdown -o README.md $README
+
+pdoc:
+  [ -e $PDOC ] && rm -rf $PDOC
+  pdoc --html -o $PDOC $SRCDIR
+
+clean:V:
+  rm -rf build dist lexapi.egg-info $SRCDIR/__pycache__ README.md $SRCDIR/$APIDOC

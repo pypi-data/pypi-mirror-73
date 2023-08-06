@@ -1,0 +1,65 @@
+* Lex API
+
+#+BEGIN_SRC shell
+    pip install lexapi
+#+END_SRC
+
+[[https://thisislex.app][Lex]] is a personal ads service for queer people. It's a brilliant service, and if you fall under the target groups you should definitely go check it out.
+
+This is a Python 3 API created from the work I did between early-mid 2020, gathering the web request data the app sent from my phone. Because of this work I was able to alert the Lex team one possible privacy vulnerability from the service, which has since been removed.
+
+This work was performed with the help of Android-86x, and [[http://mitmproxy.org][mitmproxy]].
+
+Lex relies on Google's Identity toolkit and Firebase to handle authentication, and relies on Chatkit to handle messaging, through a websockets interface.
+
+Currently this API supports probably about half of the available functions, including feed-viewing and user profile updating. See [[id:0c2915c7-e3d5-4a80-95af-0c78880dd823][Lex API/Currently missing]]
+
+The functions are all named after their respective calls, so you can use [[file:lex-api.org][Lex-api]] for examples of the expected responses.
+
+Docmentation of the API calls themselves, along with IdentityToolkit authentication, and information about X-Goog-Spatula are contained in [[file:lex-api.org][lex-api]], the code itself should be clean enough to extend, but please open an issue if there's anything re: code style, etc. that I've messed up. Literally any improvements or iterations would be nice :)
+
+This readme wouldn't be complete without a *huge* thanks to the Lex team for making such a cool and unique service :)
+
+** Example
+#+BEGIN_SRC python
+# Importing:
+
+    from lexapi import LexAPI
+    lex = LexAPI()
+
+# Logging in:
+
+    # Pass the user's phone number
+    lex.send_verification_code(phone_number)
+    # User gets a message with the auth code, so now we can pass it
+    lex.verify_phone_number(verification_code)
+    # We are now logged in to the service, but we need the user's feed
+    # preferences to get the feed, so:
+    lex.get_user()
+
+# Refreshing the token:
+
+    lex.refresh_token()
+
+# Getting the feed:
+
+    lex.get_feed()
+
+# or alternately:
+
+    filters = {
+        'max_age': 32,
+        'filters': 'foo, bar'
+    }
+    lex.get_feed(filters)
+#+END_SRC
+** Currently missing
+:PROPERTIES:
+:ID:       0c2915c7-e3d5-4a80-95af-0c78880dd823
+:END:
+
+Currently missing functionality is:
+
+- Username / Instagram logging in, and logging out (It's on my TODO)
+- Because of the limitations of mitmproxy, and the updates to the service, posting new personals is not supported (It's on my TODO list to jury-rig something with HTTP/2 support so we can support adding new posts).
+- Because of the method they use with Chatkit, viewing anything but the most and posting messages cannot, and will not be supported by this API, as it requires a private encryption key stored in the application.

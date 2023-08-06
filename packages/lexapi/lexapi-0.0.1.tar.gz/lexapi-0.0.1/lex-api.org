@@ -1,0 +1,930 @@
+
+This is documentation I've written for the Lex App API and other APIs that the app calls.
+
+It is based on information captured on the following dates:
+#+begin_quote
+  2020-07-10
+
+  2020-05-13
+
+  2020-02-09
+
+  2020-01-28
+
+  2020-01-26
+ 
+  2020-01-25
+#+end_quote
+and has been updated based on the information taken from the most recent captures. It is unlikely, but possible, that some information on this page is out of date with one of those captures. It is also likely that the interface has changed and the information here is no longer valid. Contact me if this is the case.
+
+Currently writing posts relies on HTTP/2 prior knowledge connections (H2C), which mitmproxy drops. I don't remember this being the case with the older API, maybe it's possible to use that (I could be wrong, it's been a while since I looked over those dumps). Most of the mitmproxy replacements do not support it either. It's in my TODO list because I'm not entirely familiar with the HTTP/2 spec and if it is possible to get dumps of it that are decrypted (via Wireshark+SSLproxy+nghttp2), it's certainly not documented anywhere and seems fiddly.
+
+In addition, accessing chat data relies on a websocket connection. mitmproxy does not have very useful support for this, so I hacked a script to grab the data. The results from that show that /grabbing chat data is impossible without disassembly of the application, as each websocket request is accompanied with a signed JWT token, that we can't replicate without the private certificate used./
+
+Finally, it's worth noting, *if the data is the same as old data, requests from the personals API will return 304 No Content.*
+
+* Types
+Any place where there can be arbitrary data in a JSON string is represented like so:
+
+#+begin_src
+    "..."
+#+end_src
+
+** FirebaseKey
+The firebase key for the application. This was taken from the data sent by the Lex app.
+** SessionInfo
+Information returned from the protobuf-encoded sendVerificationCode request. Used for the verifyPhoneNumber request and all requests to the personals API.
+** IDToken
+Information returned from the protobuf-encoded verifyPhoneNumber. Used for all requests to the personals API.
+** ISODate
+This is an ISO 8601 formatted date. This may include all of the information (like the example given) or may exclude portions (like "1800-01-01").
+
+A JSON string.
+
+#+begin_src
+    "1800-01-01T20:06:00.555Z"
+#+end_src
+** UserID
+A 28 character alpha-numeric string including lowercase and upper case letters representing a user ID.
+
+A JSON string.
+
+#+begin_src
+    "Aaa0aaAaaaaAAA0aaAaaAa0aa000"
+#+end_src
+** PostID
+A 20 character alpha-numeric string including lowercase and upper case letters representing a user ID.
+
+A JSON string.
+
+#+begin_src
+    "Aaa0aaAaaaaAAA0aaAaa"
+#+end_src
+** ChatID
+A 20 character alpha-numeric string including lowercase and upper case letters representing a ChatID.
+
+A JSON string.
+
+#+begin_src
+    "Aaa0aaAaaaaAAA0aaAaa"
+#+end_src
+** ChatkitUserID
+A string (presumably) representing a chatkit UserID, consisting of the following elements separated by a dot:
+    10 alphanumeric characters
+    7 alphanumeric characters
+    32 alphanumeric characters
+
+It doesn't seem to be used anymore, presumably if it is it's part of the HTTP/2 interface. See the "Interfaces found in old captures" section.
+
+A JSON string.
+
+#+begin_src
+    "0000000000.00aa00a.0000a000a00000a0a0a0a0000aaa0a00"
+#+end_src
+** ChatkitRoomID
+A 36-character alphanumeric string consisting of several elements separated by dashes. It's only used in the chatkit interfaces
+
+#+begin_src
+0aaa00aa-00a0-0aa0-000a-0a000a0a00a0
+#+end_src
+** GooglePlaceID
+This is a google placeid, see [[https://developers.google.com/places/place-id][Google's documentation on this]] (Sample data taken from that page).
+
+A JSON string.
+
+#+begin_src
+    "ChIJgUbEo8cfqokR5lP9_Wh_DaM"
+#+end_src
+** SearchQuery
+A search query is a list of keywords to filter the feed data with. Keywords consist of alphabetical characters (might be alphanumeric, I haven't checked), separated with commas and (optionally?) spaces.
+
+A search query can either be a JSON string or URL Encoded (Depending on how it's passed). The content looks like the following:
+
+#+begin_src
+    foo, bar, baz
+#+end_src
+** UserData
+Information about the user's account. The values "instagramData", "instagramUsername", "showInstagramInProfile" are all optional. The API might choose not to return some keys (including but not necessarily limited to "settings", much of the "location" object, the "fcmToken" field, and the aforementioned instagram-related keys).
+
+A JSON object
+
+#+begin_src json
+{
+    "birthdate": ISODate,
+    "birthdateSimple": ISODate,
+    "blocks": [
+        UserID,
+        ...
+    ],
+    "createdAt": ISODate,
+    "fcmToken": "...",
+    "firstName": "...",
+    "id": UserID,
+    "instagramData": {
+        "username": "..."
+    },
+    "instagramUsername": "...",
+    "location": {
+        "administrativeLevels": {
+            "city": "...",
+            "continent": "...",
+            "country": "...",
+            "countryCode": "...",
+            "level1": "...",
+            "level1short": "...",
+            "level2": "...",
+            "neighborhood": "..."
+        },
+        "formattedAddress": "...",
+        "formattedLocation": "...",
+        "googlePlaceId": GooglePlaceID,
+        "latitude": number,
+        "longitude": number
+    },
+    "pronoun": "...",
+    "settings": {
+        "showInstagramInProfile": boolean
+        "enableNotificationsMessages": boolean,
+        "enableNotificationsNewPostNearby": boolean,
+        "enableNotificationsPostLikes": boolean,
+        "savedFilters": {
+            "ageMax": number,
+            "distanceInMeters": number,
+            "searchQuery": SearchQuery
+        }
+    },
+    "updatedAt": ISODate,
+    "username": "..."
+}
+#+end_src
+** Post
+A post are the objects that we deal with :)
+There are four types of posts that can appear in a feed, and two types of posts that a user can create ("personal", "missedConnection").
+
+*** adminMessage
+#+BEGIN_SRC json
+    {
+      "content": "...",
+      "createdAt": IsoDate,
+      "id": "adminMessage",
+      "numberOfLikes": number,
+      "title": "...",
+      "type": "adminMessage",
+      "updatedAt": IsoDate,
+    },
+#+END_SRC
+
+*** advertisment
+#+BEGIN_SRC json
+    {
+      "content": "...",
+      "createdAt": ISODate,
+      "id": "...",
+      "position": number,
+      "title": "...",
+      "type": "advertisement",
+      "url": "...",
+      "updatedAt": ISODate,
+    },
+#+END_SRC
+
+*** personal
+#+BEGIN_SRC json
+    {
+        "content": "...",
+        "createdAt": IsoDate,
+        "id": PostID,
+        "location": {
+            "formattedLocation": "..."
+        },
+        "numberOfLikes": number,
+        "title": "...",
+        "type": "personal",
+        "updatedAt": ISODate,
+        "user": UserData,
+        "userId": UserID
+    },
+#+END_SRC
+
+*** missedConnection
+#+BEGIN_SRC json
+    {
+        "content": "...",
+        "createdAt": ISODate,
+        "id": PostID,
+        "location": {
+            "formattedLocation": "..."
+        },
+        "numberOfLikes": number,
+        "title": "...",
+        "type": "missedConnection",
+        "updatedAt": ISODate,
+        "user": UserData,
+        "userId": UserID
+    },
+#+END_SRC
+
+* Login Flow / Identity Toolkit Info
+
+The login flow is done through the Google Identity Toolkit. Login information requires the Firebase authentication key, and x-goog-spatula. This has been left out from the documentation, and is easy to harvest (You can grab them from observing the requests, if needed. They don't seem to change very much).
+
+The following events take place when the app logs in properly:
+#+begin_quote
+    * Client posts the sendVerificationCode request to IdentityToolkit, supplying the user's phone number, recieves the SessionInfo data.
+
+    * User recieves VerifyCode on their phone via SMS.
+
+    * Client posts the verifyPhoneNumber request to IdentityToolkit, supplying the VerifyCode and SessionInfo, recieving an IdToken, RefreshToken, and a UserID.
+
+    * Client posts the getAccountInfo request to IdentityToolkit, supplying the IdToken, and gets back information including the UserID, the user's email address, and phone number, along with other miscellaneous data.
+
+    * Client posts the refresh_token request to the SecureToken Google API, supplying the RefreshToken, and an enum ("refresh_token"), and recieves the IdToken (twice!), the timeout value for the given tokens, an enum ("Bearer"), and the RefreshToken.
+
+    * Client now accesses the personals API!
+
+#+end_quote
+
+However, it's sufficient simply to do the following:
+#+begin_quote
+    * Client posts the sendVerificationCode request to IdentityToolkit,
+      supplying the user's phone number, recieves the SessionInfo data.
+
+    * User recieves VerifyCode on their phone via SMS
+
+    * Client posts the verifyPhoneNumber request to IdentityToolkit,
+      supplying the VerifyCode and SessionInfo, recieving a RefreshToken, an IdToken, and a UserID.
+
+    * Client can use the Idtoken, UserID, and RefresToken to access the personals API!
+#+end_quote
+
+Protocol Buffers are, for some reason, the only valid method of authenticating. This is despite the fact that the documentation linked below lists JSON as equally valid. Why this is so I have no idea.
+
+Docs:
+[[https://developers.google.com/resources/api-libraries/documentation/identitytoolkit/v3/python/latest/identitytoolkit_v3.relyingparty.html][Google Identity Toolkit Docs]]
+
+[[https://developers.google.com/identity/toolkit/reference/securetoken/rest/v1/token][identitytoolkit securetoken documentation]]
+
+[[https://cloud.google.com/identity-platform/docs/use-rest-api][identity-platform documentation]]
+
+(Literally the only place on the web where the API return values are documented in any useful capacity to puzzle together what they are)
+
+** X-Goog-Spatula
+*** Introduction
+X-Goog-Spatula is _required_ for identity toolkit requests. I have yet to
+figure out what the heck it is though. It's a protobuf structure, and
+contains at least some reference to the app used ('us.personals', i.e. the contents of X-Android-Package)
+
+There are no direct references to it in documentation or code on the internet whatsoever (Ok, actually a bit of a lie, but most of the references are in accept headers). Aside from a Firebase documentation page that says:
+
+#+begin_quote
+RejectedCredential
+  Indicates that credential related request data is invalid.
+  This can occur when there is a project number mismatch (sessionInfo,
+  *spatula header*, temporary proof), an incorrect temporary proof phone
+  number, or during game center sign in when the user is already signed
+  into a different game center account.
+#+end_quote
+
+Shoving the URL correlated (See Disassembly):
+#+begin_src
+    "http://android.clients.google.com/c2dm/register3"
+#+end_src
+turns up [[https://github.com/nborrmann/gcmreverse][this page.]] It's definitely related to Google's GCM and C2DM. It would be nice to generate it by ourselves, so we don't have to collect values and hope they're valid forever.
+
+*** Anatomy of the X-Goog-Spatula structure
+Protobuf structure is:
+#+BEGIN_SRC json
+  {
+    "string": {
+      "us.personals",
+      "<some base 64 here>"
+    },
+    "string": {
+        32-byte hexidecimal, decodes to binary data
+    },
+    "variant": 9-byte hexidecimal, decodes to a number(?)
+    "variant": 9-byte hexidecimal, decodes to a number(?)
+    "string": {
+        89-byte hexidecimal, decodes to binary data
+    }
+  }
+#+END_SRC
+
+The first string is given by the app name
+The second string is unknown.
+
+When we run "us.personals:<base64>" through base64, we get a match with the following request:
+
+#+begin_src
+POST http://android.clients.google.com/c2dm/register3
+  cert=df9e715706bab26bf0667f93ae0cc98ce989f32a
+#+end_src
+
+* Interfaces found in old captures
+Interfaces that have been found in older captures. These are presumably still used by the application, but via HTTP/2 which mitmproxy does not support. Some data here has very likely changed, like the format of ChatkitUserIDs.
+
+More info about the chatkit interface can be found [[https://pusher.com/docs/channels/library_auth_reference/rest-api][here]].
+
+** POST HTTP/1.1 - personals chatkitAuth
+
+It used to return a JSON struct with an access token for the chatkit websockets api. Now it gives 401 Unauthorized. It likely still exists but uses HTTP/2
+
+#+begin_src
+POST https://us-central1-personals-personals.cloudfunctions.net/chatkitAuth
+#+end_src
+
+URL Parameters:
+#+begin_src
+    user_id: <UserID>
+    userId: <UserID>
+    authToken: <IdToken>
+#+end_src
+
+Headers:
+#+begin_src
+    Content-Type:   application/x-www-form-urlencoded
+#+end_src
+
+Body:
+#+begin_src
+    grant_type: client_credentials
+#+end_src
+
+Returns (Old):
+#+begin_src
+    {
+        "access_token": ChatkitAccessToken,
+        "expires_in": number,
+        "token_type": "bearer"
+    }
+#+end_src
+
+#+begin_src
+    401 Unauthorized
+#+end_src
+
+** GET  HTTP/1.1 - chatkit users_by_ids
+
+Grabs chatkit conversation data for what is presumably a ChatID, but the form of the ChatID referenced in getUserChatsV2 doesn't match the form of the data that's sent, so that might not be correct! So we're calling it a ChatkitUserID.
+
+#+begin_src
+GET https://us1.pusherplatform.io/services/chatkit/v6/e595449a-4f89-481d-9870-ec7b1ffa60ea/users_by_ids
+#+end_src
+
+URL Parameters:
+#+begin_src
+    id: <ChatkitUserID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns :
+#+BEGIN_SRC json
+    [
+        {
+            "created_at": ISODate,
+            "id": ChatkitUserID,
+            "name": Username,
+            "updated_at": ISODate
+        }
+    ]
+#+END_SRC
+
+** GET  HTTP/1.1 - chatkit rooms/<RoomID>/messages
+
+Grabs chatkit room data and the latest message(s).
+
+#+begin_src
+GET https://us1.pusherplatform.io/services/chatkit/v6/e595449a-4f89-481d-9870-ec7b1ffa60ea/rooms/<ChatkitRoomID>/messages
+#+end_src
+
+URL Parameters:
+#+begin_src
+    limit: <Number>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns :
+#+BEGIN_SRC json
+    [
+        {
+            "created_at": ISODate,
+            "id": ChatkitUserID,
+            "parts": [
+                {
+                    "content": "..."
+                    "type": "text/plain"
+                },
+                ...
+            ],
+            "room_id": ChatkitRoomID,
+            "truncated": boolean,
+            "updated_at": ISODate
+            "user_id": ChatkitUserID
+        }
+    ]
+#+END_SRC
+
+* POST HTTP/1.1 - identitytoolkit sendVerificationCode
+
+Request a verification code to be sent to the provided phone number
+Data given and returned in the protobuf format, JSON doesn't seem to work
+despite the fact that identitytoolkit supports passing JSON. There are
+other fields we can pass but Lex doesn't use them. You can find the API
+described in the [[https://developers.google.com/resources/api-libraries/documentation/identitytoolkit/v3/python/latest/identitytoolkit_v3.relyingparty.html#sendVerificationCode][identitytoolkit v3 documentation]]
+
+#+begin_src
+POST https://www.googleapis.com/identitytoolkit/v3/relyingparty/sendVerificationCode
+#+end_src
+
+URL Parameters:
+#+BEGIN_SRC
+    alt: proto
+    key: <FirebaseKey>
+#+END_SRC
+
+Headers:
+#+begin_src
+    X-Goog-Spatula: <x-goog-spatula>
+    Content-Type:   application/x-protobuf
+#+end_src
+
+Body:
+#+BEGIN_SRC
+    phone_number: str (field 1)
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC
+    session_info: str (field 1)
+#+END_SRC
+
+* POST HTTP/1.1 - identitytoolkit verifyPhoneNumber
+
+Request authentication using the verification code gained from
+sendVerificationCode. Data is returned and given in the protobuf format.
+There are other fields Lex doesn't use that are documented in the documentation linked under the 'Login Flow' section above.
+
+#+begin_src
+POST https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPhoneNumber
+#+end_src
+
+URL Parameters:
+#+BEGIN_SRC
+    alt: proto
+    key: <FirebaseKey>
+#+END_SRC
+
+Headers:
+#+begin_src
+    X-Goog-Spatula: <x-goog-spatula>
+    Content-Type:   application/x-protobuf
+#+end_src
+
+Body:
+#+BEGIN_SRC
+    session_info: str (field 1)
+    verify_code:  str (field 3)
+#+END_SRC
+
+Returns:
+#+begin_src
+    id_token:      str   (field 1)
+    refresh_token: str   (field 2)
+    expires_in:    int32 (field 3)
+    user_id:       str   (field 4)
+    is_new_user:   int32 (field 5)
+    phone_number:  str   (field 9)
+#+end_src
+
+* POST HTTP/1.1 - identitytoolkit getAccountInfo
+
+This isn't needed because we get the user id in verifyPhoneNumber
+Since this isn't needed, I haven't done much work on figuring out the
+response. The "Returns" here is what mitmproxy tells us we get back, if
+you need it you can go to the identitytookit docs to puzzle it out
+
+#+begin_src
+POST https://www.googleapis.com/identitytoolkit/v3/relyingparty/getAccountInfo
+#+end_src
+
+URL Parameters:
+#+begin_src
+    alt: proto
+    key: <FirebaseKey>
+#+end_src
+
+Headers:
+#+begin_src
+    X-Goog-Spatula: <x-goog-spatula>
+    Content-Type:   application/x-protobuf
+#+end_src
+
+Body:
+#+begin_src
+    session_info: str (field 1)
+#+end_src
+
+Returns:
+#+begin_src
+    1: identitytoolkit#GetAccountInfoResponse | str (field 1)
+    2: {
+          1: <user id>
+          14 {
+            1: phone
+            6: +111111111111
+            9: +111111111111
+          }
+          17: 1111111111111
+          18: 1111111111111
+          22: +111111111111
+          28 {
+            1: 1111111111
+            2: 111111111
+          }
+       }
+#+end_src
+
+* POST HTTP/1.1 - securetoken token
+
+Lex uses this to refresh the authentication code. Some fields are unused by Lex. Data is given and returned in the protobuf format. It's documented in the [[https://developers.google.com/identity/toolkit/reference/securetoken/rest/v1/token][identitytoolkit securetoken documentation]], and also in the [[https://cloud.google.com/identity-platform/docs/use-rest-api][identity-platform documentation]]. Beware however, the protobuf interface is not documented fully, for some reason.
+
+#+begin_src
+POST https://securetoken.googleapis.com/v1/token
+#+end_src
+
+URL Parameters:
+#+BEGIN_SRC
+    alt: proto
+    key: <FirebaseKey>
+#+END_SRC
+
+Headers:
+#+begin_src
+    X-Goog-Spatula: <x-goog-spatula>
+    Content-Type:   application/x-protobuf
+#+end_src
+
+Body:
+#+BEGIN_SRC
+    grant_type:    str (field 1, default value 'refresh_token')
+    refresh_token: str (field 3)
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC
+    access_token:  str   (field 1)
+    expires_in:    int32 (field 2)
+    token_type:    str   (field 3)
+    refresh_token: str   (field 4)
+    id_token:      str   (field 5)
+    user_id:       str   (field 6)
+    project_id:    int32 (field 7)
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getUser
+
+Gets the user data for the current account
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getUser
+#+end_src
+
+URL Parameters:
+#+begin_src
+    id: <UserID>
+#+end_src
+
+Headers:
+#+begin_src
+    Authorization: Bearer <IdToken>
+#+end_src
+
+Returns:
+#+BEGIN_SRC json
+{
+    "age": number,
+    "birthdate": ISODate,
+    "birthdateSimple": ISODate,
+    "blocks": [
+        UserID,
+        ...
+    ],
+    "createdAt": ISODate,
+    "fcmToken": "...",
+    "firstName": "...",
+    "id": UserID,
+    "location": {
+        "administrativeLevels": {
+            "city": "...",
+            "continent": "...",
+            "country": "...",
+            "countryCode": "...",
+            "level1": "...",
+            "level1short": "...",
+            "level2": "...",
+            "neighborhood": "..."
+        },
+        "formattedAddress": "...",
+        "formattedLocation": "...",
+        "googlePlaceId": GooglePlaceID,
+        "latitude": number,
+        "longitude": number
+    },
+    "pronoun": "...",
+    "settings": {
+        "enableNotificationsMessages": boolean,
+        "enableNotificationsNewPostNearby": boolean,
+        "enableNotificationsPostLikes": boolean,
+        "savedFilters": {
+            "ageMax": number,
+            "distanceInMeters": number,
+            "searchQuery": SearchQuery
+        }
+    },
+    "updatedAt": ISODate,
+    "username": "..."
+}
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getFeed
+
+Gets the local feed data, relative to the provided inputs
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getFeed
+#+end_src
+
+URL Parameters:
+#+begin_src
+    maxAge: number
+    latitude: number
+    longitude: number
+    distance: number
+    query: valueA, valueB, ...
+#+end_src
+
+Headers:
+#+begin_src
+    Authorization: Bearer <IdToken>
+#+end_src
+
+Returns:
+
+#+begin_src json
+    [
+        Post,
+        ...
+    ]
+#+end_src
+
+* GET  HTTP/1.1 - personals getLikesFeed
+
+Gets the user's likes feed
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getLikesFeed
+#+end_src
+
+URL Parameters:
+#+begin_src
+    userId: <UserID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns :
+#+BEGIN_SRC json
+[
+    Post,
+    ...
+]
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getUserLikes
+
+Returns the users who have liked the given user's posts.
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getUserLikes
+#+end_src
+
+URL Parameters:
+#+begin_src
+    userId: <UserID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC
+[
+    UserID,
+    ...
+]
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getUserFavorites
+
+Return a lists of posts that the given user has liked
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getUserFavorites
+#+end_src
+
+URL Parameters:
+#+begin_src
+    userId: <UserID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC json
+[
+    Post,
+    ...
+]
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getUserPosts
+
+Return a lists of posts written by the given user
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getUserPosts
+#+end_src
+
+URL Parameters:
+#+begin_src
+    userId: <UserID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC json
+[
+    Post,
+    ...
+]
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getPost
+
+Returns post data associated with the given PostID
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getPost
+#+end_src
+
+URL Parameters:
+#+begin_src
+    id: <PostID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC json
+    Post
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getUserChatsV2
+
+Returns a list of the last message, last read message IDs, along with user data. It's used for displaying the messages listing.
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getUserChatsV2
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC json
+[
+    {
+        "createdAt": ISODate,
+        "creatorUserId": UserID,
+        "id": ChatID,
+        "lastMessage": {
+            "content": "...",
+            "createdAt": ISODate,
+            "id": MessageID,
+            "senderId": UserID,
+            "updatedAt": ISODate
+        },
+        "memberIds": [
+            UserID,
+            ...
+        ],
+        "members": [
+            UserData,
+            ...
+        ],
+        "updatedAt": "..."
+    }
+]
+#+END_SRC
+
+* GET  HTTP/1.1 - personals getMutuallyBlockedUsers
+
+Return a lists of user profiles that have been blocked by the given user
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/getMutuallyBlockedUsers
+#+end_src
+
+URL Parameters:
+#+begin_src
+    userId: <UserID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC json
+[
+    UserData,
+    ...
+]
+#+END_SRC
+
+* GET  HTTP/1.1 - personals usernameAvailable
+
+Return whether or not a username has been taken
+
+#+begin_src
+GET https://us-central1-personals-personals.cloudfunctions.net/usernameAvailable
+#+end_src
+
+URL Parameters:
+#+begin_src
+    username: "..."
+    userId: <UserID>
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Returns:
+#+BEGIN_SRC json
+{
+    "available": boolean
+}
+#+END_SRC
+
+* POST HTTP/1.1 - personals updateUser
+
+Update the user's profile. The passed UserData object must include "fcmToken", "settings", the full "location" object, and can exclude "creationDate" (At least, they seem to do that internally). Aside from "fcmToken", those constraints might not be required. I haven't done much testing on this, to be honest.
+
+Generating a new fcmToken is not required, it's generally sufficient to call getUser, alter the data, and then post it back, reusing the given fcmToken.
+
+#+begin_src
+POST https://us-central1-personals-personals.cloudfunctions.net/updateUser
+#+end_src
+
+Headers:
+#+BEGIN_SRC
+    Authorization: Bearer <IdToken>
+#+END_SRC
+
+Body:
+#+begin_src json
+    UserData
+#+end_src
+
+Returns:
+#+BEGIN_SRC json
+    UserData
+#+END_SRC

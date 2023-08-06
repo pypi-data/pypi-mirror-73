@@ -1,0 +1,2 @@
+requests>=2.22.0
+pure-protobuf>=2.0.0
