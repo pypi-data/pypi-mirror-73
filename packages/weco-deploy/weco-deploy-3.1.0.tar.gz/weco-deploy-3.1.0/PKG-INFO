@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: weco-deploy
+Version: 3.1.0
+Summary: A tool for deploying ECS services at the Wellcome Collection
+Home-page: https://github.com/wellcomecollection/weco-deploy
+Author: Wellcome Collection
+Author-email: wellcomedigitalplatform@wellcome.ac.uk
+License: MIT
+Description: weco-deploy
+        ===========
+        
+        A tool for deploying ECS services at the Wellcome Collection.
+        
+        .. image:: https://travis-ci.org/wellcomecollection/weco-deploy.svg?branch=master
+            :target: https://travis-ci.org/wellcomecollection/weco-deploy
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/x-rst
