@@ -1,0 +1,10 @@
+setup.py
+salemGaussianBinomial/Binomialdistribution.py
+salemGaussianBinomial/Gaussiandistribution.py
+salemGaussianBinomial/Generaldistribution.py
+salemGaussianBinomial/__init__.py
+salemGaussianBinomial.egg-info/PKG-INFO
+salemGaussianBinomial.egg-info/SOURCES.txt
+salemGaussianBinomial.egg-info/dependency_links.txt
+salemGaussianBinomial.egg-info/not-zip-safe
+salemGaussianBinomial.egg-info/top_level.txt
