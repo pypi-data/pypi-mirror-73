@@ -1,0 +1,12 @@
+openrgb/Network.py,sha256=djOX1L5_PZW-TnyyAcwHjxYXXnXC4fxpstkgizjnbks,1259
+openrgb/ORGBDevice.py,sha256=IyKFyd4jZLhZZCNm0Lv9-Fbzr096E5iRPXqBvwN15mY,9352
+openrgb/OpenRGB.py,sha256=y7wznBpoGo1Q_nA5RXr6s5tpWY_d42hH5Nk3PsNrLYY,5273
+openrgb/__init__.py,sha256=jgcbcheyqSqGlxF0Wyjf41zg5-OOfnm-FvhING8KyYs,171
+openrgb/binreader.py,sha256=23zL3cCoYPE5aX1Gff2D5DktXMp1DIEW1OvMFVTSjAA,1713
+openrgb/consts.py,sha256=ciFMcd71IvrW_mL2VhVkHbfFeJNWk4B9HeHlcYVG688,774
+openrgb/utils.py,sha256=CQN3gFu50DlcJHKh-9yb1twUHe6hjGVxzi3q66N7uyM,291
+OpenRGB_PyClient-0.1.1.dist-info/LICENSE,sha256=Begl7C-SIDAr6c73O2ApQlvlLfRl5kUF3HW-da8WK4U,1046
+OpenRGB_PyClient-0.1.1.dist-info/METADATA,sha256=JIZ2jKI3o8WMWPB5XZky2XlSquA59YiVg2JtNPUi7Wc,2472
+OpenRGB_PyClient-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+OpenRGB_PyClient-0.1.1.dist-info/top_level.txt,sha256=yNes8nIDoxIE_kygTiq79hcTrc_6zLOLeucTQKn-7Lw,8
+OpenRGB_PyClient-0.1.1.dist-info/RECORD,,
