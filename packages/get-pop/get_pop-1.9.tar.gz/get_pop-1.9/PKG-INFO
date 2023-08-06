@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: get_pop
+Version: 1.9
+Summary: Command line tool to generates CSVs of population data for specified US states.
+Home-page: UNKNOWN
+Author: DSR
+License: MIT
+Description: ### Get Pop
+        
+        Command line tool that generates CSVs of population data for specified US states.
+        
+        #### Install
+        
+        ```pip install get-pop```
+        
+        #### Basic usage
+        
+        To generate CSVs for specific states, use the 'getpop' command followed by the two letter postal code abbreviation
+         for one or more states.
+         
+         CSVs will be output in the current working directory in a directory named 'data'.
+         
+         Example 1:
+         
+         ```getpop ny```
+         
+          Example 2:
+          
+          ```getpop ny nj tx pa```
+Keywords: population csv geography usa counties
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
