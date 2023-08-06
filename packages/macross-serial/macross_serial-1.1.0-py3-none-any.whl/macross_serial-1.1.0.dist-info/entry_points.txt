@@ -1,0 +1,3 @@
+[console_scripts]
+macross-serial=macross_serial.macross_serial:main
+
