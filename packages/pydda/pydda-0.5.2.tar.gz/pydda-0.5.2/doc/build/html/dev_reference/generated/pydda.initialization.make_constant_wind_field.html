@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pydda.initialization.make_constant_wind_field &#8212; PyDDA 0.5.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-dataframe.css" />
+    
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="pydda.initialization.make_wind_field_from_profile" href="pydda.initialization.make_wind_field_from_profile.html" />
+    <link rel="prev" title="pydda.vis.plot_horiz_xsection_quiver_map" href="pydda.vis.plot_horiz_xsection_quiver_map.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pydda.initialization.make_wind_field_from_profile.html" title="pydda.initialization.make_wind_field_from_profile"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="pydda.vis.plot_horiz_xsection_quiver_map.html" title="pydda.vis.plot_horiz_xsection_quiver_map"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">PyDDA 0.5.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Developer Reference Manual</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">pydda.initialization.make_constant_wind_field</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pydda-initialization-make-constant-wind-field">
+<h1>pydda.initialization.make_constant_wind_field<a class="headerlink" href="#pydda-initialization-make-constant-wind-field" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="pydda.initialization.make_constant_wind_field">
+<code class="sig-prename descclassname">pydda.initialization.</code><code class="sig-name descname">make_constant_wind_field</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">Grid</span></em>, <em class="sig-param"><span class="n">wind</span><span class="o">=</span><span class="default_value">0.0, 0.0, 0.0</span></em>, <em class="sig-param"><span class="n">vel_field</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/pydda/initialization/wind_fields.html#make_constant_wind_field"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pydda.initialization.make_constant_wind_field" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function makes a constant wind field given a wind vector.</p>
+<p>This function is useful for specifying the intialization arrays
+for get_dd_wind_field.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>Grid: Py-ART Grid object</strong></dt><dd><p>This is the Py-ART Grid containing the coordinates for the analysis
+grid.</p>
+</dd>
+<dt><strong>wind: 3-tuple of floats</strong></dt><dd><p>The 3-tuple specifying the (u,v,w) of the wind field.</p>
+</dd>
+<dt><strong>vel_field: String</strong></dt><dd><p>The name of the velocity field. None will automatically
+try to detect this field.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>u: 3D float array</dt><dd><p>Returns a 3D float array containing the u component of the wind field.
+The shape will be the same shape as the fields in Grid.</p>
+</dd>
+<dt>v: 3D float array</dt><dd><p>Returns a 3D float array containing the v component of the wind field.
+The shape will be the same shape as the fields in Grid.</p>
+</dd>
+<dt>w: 3D float array</dt><dd><p>Returns a 3D float array containing the u component of the wind field.
+The shape will be the same shape as the fields in Grid.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="pydda.vis.plot_horiz_xsection_quiver_map.html"
+                        title="previous chapter">pydda.vis.plot_horiz_xsection_quiver_map</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="pydda.initialization.make_wind_field_from_profile.html"
+                        title="next chapter">pydda.initialization.make_wind_field_from_profile</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/dev_reference/generated/pydda.initialization.make_constant_wind_field.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pydda.initialization.make_wind_field_from_profile.html" title="pydda.initialization.make_wind_field_from_profile"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="pydda.vis.plot_horiz_xsection_quiver_map.html" title="pydda.vis.plot_horiz_xsection_quiver_map"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">PyDDA 0.5.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Developer Reference Manual</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">pydda.initialization.make_constant_wind_field</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, PyDDA Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.2.
+    </div>
+  </body>
+</html>

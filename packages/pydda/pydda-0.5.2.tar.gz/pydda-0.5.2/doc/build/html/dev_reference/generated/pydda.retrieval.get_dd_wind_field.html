@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pydda.retrieval.get_dd_wind_field &#8212; PyDDA 0.5.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-dataframe.css" />
+    
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="pydda.retrieval.get_dd_wind_field_nested" href="pydda.retrieval.get_dd_wind_field_nested.html" />
+    <link rel="prev" title="pydda.cost_functions.calculate_point_gradient" href="pydda.cost_functions.calculate_point_gradient.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pydda.retrieval.get_dd_wind_field_nested.html" title="pydda.retrieval.get_dd_wind_field_nested"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="pydda.cost_functions.calculate_point_gradient.html" title="pydda.cost_functions.calculate_point_gradient"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">PyDDA 0.5.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Developer Reference Manual</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">pydda.retrieval.get_dd_wind_field</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pydda-retrieval-get-dd-wind-field">
+<h1>pydda.retrieval.get_dd_wind_field<a class="headerlink" href="#pydda-retrieval-get-dd-wind-field" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="pydda.retrieval.get_dd_wind_field">
+<code class="sig-prename descclassname">pydda.retrieval.</code><code class="sig-name descname">get_dd_wind_field</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">Grids</span></em>, <em class="sig-param"><span class="n">u_init</span></em>, <em class="sig-param"><span class="n">v_init</span></em>, <em class="sig-param"><span class="n">w_init</span></em>, <em class="sig-param"><span class="n">points</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">vel_name</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">refl_field</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">u_back</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">v_back</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">z_back</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">frz</span><span class="o">=</span><span class="default_value">4500.0</span></em>, <em class="sig-param"><span class="n">Co</span><span class="o">=</span><span class="default_value">1.0</span></em>, <em class="sig-param"><span class="n">Cm</span><span class="o">=</span><span class="default_value">1500.0</span></em>, <em class="sig-param"><span class="n">Cx</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">Cy</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">Cz</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">Cb</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">Cv</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">Cmod</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">Cpoint</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">Ut</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">Vt</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">filt_iterations</span><span class="o">=</span><span class="default_value">2</span></em>, <em class="sig-param"><span class="n">mask_outside_opt</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">weights_obs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">weights_model</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">weights_bg</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">max_iterations</span><span class="o">=</span><span class="default_value">200</span></em>, <em class="sig-param"><span class="n">mask_w_outside_opt</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">filter_window</span><span class="o">=</span><span class="default_value">9</span></em>, <em class="sig-param"><span class="n">filter_order</span><span class="o">=</span><span class="default_value">3</span></em>, <em class="sig-param"><span class="n">min_bca</span><span class="o">=</span><span class="default_value">30.0</span></em>, <em class="sig-param"><span class="n">max_bca</span><span class="o">=</span><span class="default_value">150.0</span></em>, <em class="sig-param"><span class="n">upper_bc</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">model_fields</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">output_cost_functions</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">roi</span><span class="o">=</span><span class="default_value">1000.0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/pydda/retrieval/wind_retrieve.html#get_dd_wind_field"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pydda.retrieval.get_dd_wind_field" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function takes in a list of Py-ART Grid objects and derives a
+wind field. Every Py-ART Grid in Grids must have the same grid
+specification.</p>
+<p>In order for the model data constraint to be used,
+the model data must be added as a field to at least one of the
+grids in Grids. This involves interpolating the model data to the
+Grids’ coordinates. There are helper functions for this for WRF
+and HRRR data in <a class="reference internal" href="../index.html#module-pydda.constraints" title="pydda.constraints"><code class="xref py py-func docutils literal notranslate"><span class="pre">pydda.constraints()</span></code></a>:</p>
+<p><code class="xref py py-func docutils literal notranslate"><span class="pre">make_constraint_from_wrf()</span></code></p>
+<p><code class="xref py py-func docutils literal notranslate"><span class="pre">add_hrrr_constraint_to_grid()</span></code></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>Grids: list of Py-ART Grids</strong></dt><dd><p>The list of Py-ART grids to take in corresponding to each radar.
+All grids must have the same shape, x coordinates, y coordinates
+and z coordinates.</p>
+</dd>
+<dt><strong>u_init: 3D ndarray</strong></dt><dd><p>The intial guess for the zonal wind field, input as a 3D array
+with the same shape as the fields in Grids.</p>
+</dd>
+<dt><strong>v_init: 3D ndarray</strong></dt><dd><p>The intial guess for the meridional wind field, input as a 3D array
+with the same shape as the fields in Grids.</p>
+</dd>
+<dt><strong>w_init: 3D ndarray</strong></dt><dd><p>The intial guess for the vertical wind field, input as a 3D array
+with the same shape as the fields in Grids.</p>
+</dd>
+<dt><strong>points: None or list of dicts</strong></dt><dd><p>Point observations as returned by <a class="reference internal" href="pydda.constraints.get_iem_obs.html#pydda.constraints.get_iem_obs" title="pydda.constraints.get_iem_obs"><code class="xref py py-func docutils literal notranslate"><span class="pre">pydda.constraints.get_iem_obs()</span></code></a>. Set
+to None to disable.</p>
+</dd>
+<dt><strong>vel_name: string</strong></dt><dd><p>Name of radial velocity field. Setting to None will have PyDDA attempt
+to automatically detect the velocity field name.</p>
+</dd>
+<dt><strong>refl_field: string</strong></dt><dd><p>Name of reflectivity field. Setting to None will have PyDDA attempt 
+to automatically detect the reflectivity field name.</p>
+</dd>
+<dt><strong>u_back: 1D array</strong></dt><dd><p>Background zonal wind field from a sounding as a function of height.
+This should be given in the sounding’s vertical coordinates.</p>
+</dd>
+<dt><strong>v_back: 1D array</strong></dt><dd><p>Background meridional wind field from a sounding as a function of
+height. This should be given in the sounding’s vertical coordinates.</p>
+</dd>
+<dt><strong>z_back: 1D array</strong></dt><dd><p>Heights corresponding to background wind field levels in meters. This
+is given in the sounding’s original coordinates.</p>
+</dd>
+<dt><strong>frz: float</strong></dt><dd><p>Freezing level used for fall speed calculation in meters.</p>
+</dd>
+<dt><strong>Co: float</strong></dt><dd><p>Weight for cost function related to observed radial velocities.</p>
+</dd>
+<dt><strong>Cm: float</strong></dt><dd><p>Weight for cost function related to the mass continuity equation.</p>
+</dd>
+<dt><strong>Cx: float</strong></dt><dd><p>Weight for cost function related to smoothness in x direction</p>
+</dd>
+<dt><strong>Cy: float</strong></dt><dd><p>Weight for cost function related to smoothness in y direction</p>
+</dd>
+<dt><strong>Cz: float</strong></dt><dd><p>Weight for cost function related to smoothness in z direction</p>
+</dd>
+<dt><strong>Cv: float</strong></dt><dd><p>Weight for cost function related to vertical vorticity equation.</p>
+</dd>
+<dt><strong>Cmod: float</strong></dt><dd><p>Weight for cost function related to custom constraints.</p>
+</dd>
+<dt><strong>Cpoint: float</strong></dt><dd><p>Weight for cost function related to point observations.</p>
+</dd>
+<dt><strong>weights_obs: list of floating point arrays or None</strong></dt><dd><p>List of weights for each point in grid from each radar in Grids.
+Set to None to let PyDDA determine this automatically.</p>
+</dd>
+<dt><strong>weights_model: list of floating point arrays or None</strong></dt><dd><p>List of weights for each point in grid from each custom field in
+model_fields. Set to None to let PyDDA determine this automatically.</p>
+</dd>
+<dt><strong>weights_bg: list of floating point arrays or None</strong></dt><dd><p>List of weights for each point in grid from the sounding. Set to None
+to let PyDDA determine this automatically.</p>
+</dd>
+<dt><strong>Ut: float</strong></dt><dd><p>Prescribed storm motion in zonal direction.
+This is only needed if Cv is not zero.</p>
+</dd>
+<dt><strong>Vt: float</strong></dt><dd><p>Prescribed storm motion in meridional direction.
+This is only needed if Cv is not zero.</p>
+</dd>
+<dt><strong>filt_iterations: int</strong></dt><dd><p>If this is greater than 0, PyDDA will run a low pass filter on
+the retrieved wind field and then do the optimization step for
+filt_iterations iterations. Set to 0 to disable the low pass filter.</p>
+</dd>
+<dt><strong>mask_outside_opt: bool</strong></dt><dd><p>If set to true, wind values outside the multiple doppler lobes will
+be masked, i.e. if less than 2 radars provide coverage for a given
+point.</p>
+</dd>
+<dt><strong>max_iterations: int</strong></dt><dd><p>The maximum number of iterations to run the optimization loop for.</p>
+</dd>
+<dt><strong>mask_w_outside_opt: bool</strong></dt><dd><p>If set to true, vertical winds outside the multiple doppler lobes will
+be masked, i.e. if less than 2 radars provide coverage for a given
+point.</p>
+</dd>
+<dt><strong>filter_window: int</strong></dt><dd><p>Window size to use for the low pass filter. A larger window will
+increase the number of points factored into the polynomial fit for
+the filter, and hence will increase the smoothness.</p>
+</dd>
+<dt><strong>filter_order: int</strong></dt><dd><p>The order of the polynomial to use for the low pass filter. Higher
+order polynomials allow for the retention of smaller scale features
+but may also not remove enough noise.</p>
+</dd>
+<dt><strong>min_bca: float</strong></dt><dd><p>Minimum beam crossing angle in degrees between two radars. 30.0 is the
+typical value used in many publications.</p>
+</dd>
+<dt><strong>max_bca: float</strong></dt><dd><p>Minimum beam crossing angle in degrees between two radars. 150.0 is the
+typical value used in many publications.</p>
+</dd>
+<dt><strong>upper_bc: bool</strong></dt><dd><p>Set this to true to enforce w = 0 at the top of the atmosphere. This is
+commonly called the impermeability condition.</p>
+</dd>
+<dt><strong>model_fields: list of strings</strong></dt><dd><p>The list of fields in the first grid in Grids that contain the custom
+data interpolated to the Grid’s grid specification. Helper functions
+to create such gridded fields for HRRR and NetCDF WRF data exist
+in ::pydda.constraints::. PyDDA will look for fields named U_(model
+field name), V_(model field name), and W_(model field name). For
+example, if you have U_hrrr, V_hrrr, and W_hrrr, then specify [“hrrr”]
+into model_fields.</p>
+</dd>
+<dt><strong>output_cost_functions: bool</strong></dt><dd><p>Set to True to output the value of each cost function every
+10 iterations.</p>
+</dd>
+<dt><strong>roi: float</strong></dt><dd><p>Radius of influence for the point observations. The point observation will
+not hold any weight outside this radius.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>new_grid_list: list</dt><dd><p>A list of Py-ART grids containing the derived wind fields. These fields
+are displayable by the visualization module.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="pydda.cost_functions.calculate_point_gradient.html"
+                        title="previous chapter">pydda.cost_functions.calculate_point_gradient</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="pydda.retrieval.get_dd_wind_field_nested.html"
+                        title="next chapter">pydda.retrieval.get_dd_wind_field_nested</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/dev_reference/generated/pydda.retrieval.get_dd_wind_field.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pydda.retrieval.get_dd_wind_field_nested.html" title="pydda.retrieval.get_dd_wind_field_nested"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="pydda.cost_functions.calculate_point_gradient.html" title="pydda.cost_functions.calculate_point_gradient"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">PyDDA 0.5.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Developer Reference Manual</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">pydda.retrieval.get_dd_wind_field</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, PyDDA Developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.2.
+    </div>
+  </body>
+</html>
