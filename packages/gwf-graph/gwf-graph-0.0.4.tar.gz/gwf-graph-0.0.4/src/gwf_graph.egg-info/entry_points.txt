@@ -1,0 +1,3 @@
+[gwf.plugins]
+graph = gwf_graph.main:graph
+
