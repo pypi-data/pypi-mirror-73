@@ -1,0 +1,10 @@
+setup.py
+Distribution_Ritika/Binomialdistribution.py
+Distribution_Ritika/Gaussiandistribution.py
+Distribution_Ritika/Generaldistribution.py
+Distribution_Ritika/__init__.py
+Distribution_Ritika.egg-info/PKG-INFO
+Distribution_Ritika.egg-info/SOURCES.txt
+Distribution_Ritika.egg-info/dependency_links.txt
+Distribution_Ritika.egg-info/not-zip-safe
+Distribution_Ritika.egg-info/top_level.txt
