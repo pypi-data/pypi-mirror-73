@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+dishevel/__init__.py
+dishevel.egg-info/PKG-INFO
+dishevel.egg-info/SOURCES.txt
+dishevel.egg-info/dependency_links.txt
+dishevel.egg-info/top_level.txt

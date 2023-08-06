@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dishevel
+Version: 0.0.2
+Summary: a telegram bot framework.
+Home-page: https://gist.github.com/kaecy/3c1a6a6f2d39d9df907f6935d8b2ba40
+Author: Kaecy
+Author-email: keacy@earth.org
+License: UNKNOWN
+Description: # dishevel
+        version 0.0.2
+        
+        A simple telegram bot framework.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
