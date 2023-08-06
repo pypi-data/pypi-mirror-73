@@ -1,0 +1,13 @@
+README.md
+setup.py
+slackflow-run
+slackflow/__init__.py
+slackflow/airflow.py
+slackflow/constants.py
+slackflow/models.py
+slackflow/slack.py
+slackflow.egg-info/PKG-INFO
+slackflow.egg-info/SOURCES.txt
+slackflow.egg-info/dependency_links.txt
+slackflow.egg-info/requires.txt
+slackflow.egg-info/top_level.txt
