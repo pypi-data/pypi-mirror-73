@@ -1,0 +1,12 @@
+odoo_build/__init__.py,sha256=pjHONtDrORzWNYZnGoJUVTALcR5RLhVGbp42slgpY4g,130
+odoo_build/argument_parser.py,sha256=ZT7mYVmMlbUb6HNjJr87BL_zVr9qJEuTwpjf889Rr_k,3479
+odoo_build/command.py,sha256=8LpFXYNFF9NsLIz3o3TdYJSVE5_kxAz2BEjdktx-VWk,747
+odoo_build/console.py,sha256=zZbX9Ipg1CC0d8Z_ztpYZKvDuofOYvVeoot2tfcDhuk,478
+odoo_build/database.py,sha256=zIRU_4cCuiInb2Q80blrvbpRnZb5yPF1zLzXsW-G1gI,530
+odoo_build/obuild,sha256=Mn1QlarG_GJGwQWxjVPH2yXb9DaM2e62BEsHF0ZW9CM,6877
+odoo_build-3.0.2.data/scripts/obuild,sha256=glybKQk0D_7wJL8sfhvgEFHXaqy7sKBTzzKu-TlF59c,6864
+odoo_build-3.0.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+odoo_build-3.0.2.dist-info/METADATA,sha256=vXphBOGkcFw7Wou9mgsvbD6ANMXWVor8ViWq39rOZms,2102
+odoo_build-3.0.2.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+odoo_build-3.0.2.dist-info/top_level.txt,sha256=KCUjl3fSwh6sC6JtEjECgv6d3bS6-BwKjYMQVZKK6MA,11
+odoo_build-3.0.2.dist-info/RECORD,,
