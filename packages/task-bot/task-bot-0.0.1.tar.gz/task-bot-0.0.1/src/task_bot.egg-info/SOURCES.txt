@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/task_bot.egg-info/PKG-INFO
+src/task_bot.egg-info/SOURCES.txt
+src/task_bot.egg-info/dependency_links.txt
+src/task_bot.egg-info/top_level.txt

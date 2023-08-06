@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: task-bot
+Version: 0.0.1
+Summary: task-bot is designed for simple&strong task-oriented dialogue bot
+Home-page: https://github.com/wj-Mcat/task-bot
+Author: wj-Mcat
+Author-email: 1435130236@qq.com
+License: Apache-2.0
+Description: # task-bot
+        a simple and smart task-oriented chatbot
+        
+        # Quick start
+        
+        ## Install the package
+        
+        ```shell
+        pip install task-bot
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
