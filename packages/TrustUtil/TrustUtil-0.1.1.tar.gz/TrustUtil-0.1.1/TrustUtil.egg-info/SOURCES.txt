@@ -1,0 +1,8 @@
+README.md
+setup.py
+EasyTrust/__init__.py
+TrustUtil.egg-info/PKG-INFO
+TrustUtil.egg-info/SOURCES.txt
+TrustUtil.egg-info/dependency_links.txt
+TrustUtil.egg-info/requires.txt
+TrustUtil.egg-info/top_level.txt
