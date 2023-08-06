@@ -1,0 +1,3 @@
+Datasets
+========
+.. automodule:: mokapot.dataset
