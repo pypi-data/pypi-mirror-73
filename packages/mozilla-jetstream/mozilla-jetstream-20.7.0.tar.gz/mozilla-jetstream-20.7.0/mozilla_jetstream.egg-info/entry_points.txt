@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        pensieve=pensieve.cli:cli
+        jetstream=pensieve.cli:cli
+    
