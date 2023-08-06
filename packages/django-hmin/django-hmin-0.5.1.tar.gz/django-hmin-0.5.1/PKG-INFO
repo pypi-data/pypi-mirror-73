@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: django-hmin
+Version: 0.5.1
+Summary: Entrypoint and version.
+Home-page: https://github.com/xfenix/django-hmin/
+Author: Denis Anikin
+Author-email: ad@xfenix.ru
