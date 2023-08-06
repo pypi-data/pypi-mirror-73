@@ -1,0 +1,8 @@
+my_library/VERSION.txt,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+my_library/__init__.py,sha256=DDRU7oSN6vccPwFYM7iwLHMbnFCnNoqLJ-4W8dw5AX0,111
+my_library/functions.py,sha256=4DRW2-WYWAfkrolx9MIG2YRNNbKSyTKAGOxrSPoXiDo,300
+my_library-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+my_library-0.0.1.dist-info/METADATA,sha256=hFQv99anZa94LknkdjtMillOzHvLRJZeiUioV_uNqgU,484
+my_library-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+my_library-0.0.1.dist-info/top_level.txt,sha256=jfkoxk-TAQjGYuYttHG36iLOhURpoNGEZT9uRM-wg6A,11
+my_library-0.0.1.dist-info/RECORD,,
