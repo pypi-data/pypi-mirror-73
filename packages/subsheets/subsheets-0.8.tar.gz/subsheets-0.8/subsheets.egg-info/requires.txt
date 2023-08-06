@@ -1,0 +1,6 @@
+pandas
+xlrd
+XlsxWriter
+Click
+colorama
+inquirer
