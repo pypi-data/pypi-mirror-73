@@ -1,0 +1,8 @@
+python-language-server<0.32.0
+mypy
+
+[test]
+tox
+pytest
+pytest-cov
+coverage
