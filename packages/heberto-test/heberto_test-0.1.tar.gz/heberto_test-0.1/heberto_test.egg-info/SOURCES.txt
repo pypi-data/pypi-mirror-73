@@ -1,0 +1,10 @@
+setup.py
+heberto_test/Binomialdistribution.py
+heberto_test/Gaussiandistribution.py
+heberto_test/Generaldistribution.py
+heberto_test/__init__.py
+heberto_test.egg-info/PKG-INFO
+heberto_test.egg-info/SOURCES.txt
+heberto_test.egg-info/dependency_links.txt
+heberto_test.egg-info/not-zip-safe
+heberto_test.egg-info/top_level.txt
