@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+simple_xls2json.egg-info/PKG-INFO
+simple_xls2json.egg-info/SOURCES.txt
+simple_xls2json.egg-info/dependency_links.txt
+simple_xls2json.egg-info/top_level.txt
+test/__init__.py
+test/test_main.py
+xls2json/__init__.py
+xls2json/xls2json.py
