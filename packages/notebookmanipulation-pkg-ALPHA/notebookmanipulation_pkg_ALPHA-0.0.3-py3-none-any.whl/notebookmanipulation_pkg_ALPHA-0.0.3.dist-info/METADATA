@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: notebookmanipulation-pkg-ALPHA
+Version: 0.0.3
+Summary: A simple package made by Callysto containing various functions to maintain and update Jupyter Notebooks. Written with educators in mind.
+Home-page: https://github.com/lisancao/notebook-manipulation/tree/package_development
+Author: Lisa Cao, David Hays, with Contributions from Cybera
+Author-email: lisa.cao@cybera.ca
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Jupyter
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Jupyter Notebook Manipulation
+Various functions for manipulating and performing maintenance on Jupyter notebooks. Built and released by Callysto.
+
+Crawl directories with multiple notebooks and check cell contents for the following: 
+- Readability
+- Dead links & image attributions 
+- Callysto Banner and notebook template adherance 
+- Indexing of notebooks
+- Tagging of cells that may cause issues when migrating to Jupyterlab
+
+
+** THIS PACKAGE IS STILL UNDER EARLY DEVELOPMENT.**
+If you would like to raise and issue, please do so here: https://github.com/lisancao/notebook-manipulation
+
+

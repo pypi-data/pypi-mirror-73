@@ -1,0 +1,12 @@
+notebookmanipulation_pkg/__init__.py,sha256=RbWk2iWE7leIjb29Lm6_kMV9WtS5jo5yNPWp0wvsTRE,234
+notebookmanipulation_pkg/googleslides.py,sha256=-AONi5W633MkiMACvc5kEuH1fsr4xCh1K8wE3hOYJ2w,736
+notebookmanipulation_pkg/imageverify.py,sha256=tRnvXcXMwMgRTHDyphVRuD2WqiHX9Wcr9-NXQi-3zcQ,4271
+notebookmanipulation_pkg/metadataframes.py,sha256=M5YRmTQG4v2d_ATwYAQ9OD2wtVlxDeRGBoimwiezs-4,544
+notebookmanipulation_pkg/notebookchecks.py,sha256=rGxyf_ScOCrz_nihiCo4sQ5iey0GVorREqDAUTdr_xw,9984
+notebookmanipulation_pkg/notebookformatter.py,sha256=A2BS9a4KslOl3rwC2PyfzXu4fmmFM-4sIF0gBY2uApc,3816
+notebookmanipulation_pkg/textcheck.py,sha256=VephkN2fxbEUT_voBwD6sJBsCmjhGKkz7zxPffGake0,3014
+notebookmanipulation_pkg_ALPHA-0.0.3.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+notebookmanipulation_pkg_ALPHA-0.0.3.dist-info/METADATA,sha256=VF5ktkfwIdQyLgn_7-75V9oX8ys5O_0BxgUFmT46sDQ,1267
+notebookmanipulation_pkg_ALPHA-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+notebookmanipulation_pkg_ALPHA-0.0.3.dist-info/top_level.txt,sha256=2oK-QVwzDEOHokJDz9IwWVqfS71FgMM7ris6WLuPy3I,25
+notebookmanipulation_pkg_ALPHA-0.0.3.dist-info/RECORD,,
