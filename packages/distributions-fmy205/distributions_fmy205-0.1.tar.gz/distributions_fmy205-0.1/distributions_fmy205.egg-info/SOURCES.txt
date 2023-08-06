@@ -1,0 +1,10 @@
+setup.py
+distributions_fmy205/Binomialdistribution.py
+distributions_fmy205/Gaussiandistribution.py
+distributions_fmy205/Generaldistribution.py
+distributions_fmy205/__init__.py
+distributions_fmy205.egg-info/PKG-INFO
+distributions_fmy205.egg-info/SOURCES.txt
+distributions_fmy205.egg-info/dependency_links.txt
+distributions_fmy205.egg-info/not-zip-safe
+distributions_fmy205.egg-info/top_level.txt
