@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pytoexe
+Version: 1.0.1
+Summary: A Python module to convert python scripts to exe
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: cx_Freeze
