@@ -1,0 +1,16 @@
+pyhesaff/__init__.py,sha256=7X_68vlMwaFIV_RyKaYpLLUWwUs1oSmwuoEsZuGz_Po,1659
+pyhesaff/__main__.py,sha256=jmLYyqwhkiUD00EmxkAsFYUisv9_pkH1VvFJwyfKUfs,535
+pyhesaff/_pyhesaff.py,sha256=BDvSBC_OQIRXcLl71PEHhWyhzwHXiVdmoEgEbc3sBn4,38982
+pyhesaff/_version.py,sha256=TW4M0G7hsAL3kmlthpBdKuM8rVJCPVchqIs8NDeaNdg,21
+pyhesaff/ctypes_interface.py,sha256=F3hCkdtK1tb_3MNzhvKw7tcQQQgUV67EpopKgvOVkOk,5666
+pyhesaff/lib/libhesaff.3.1.1.dylib,sha256=snelIU22YFyW7GWqi8BhOXuJxhnM8l5tPLHnXrB06wg,39185080
+pyhesaff/lib/libhesaff.3.1.dylib,sha256=snelIU22YFyW7GWqi8BhOXuJxhnM8l5tPLHnXrB06wg,39185080
+pyhesaff/lib/libhesaff.dylib,sha256=snelIU22YFyW7GWqi8BhOXuJxhnM8l5tPLHnXrB06wg,39185080
+pyhesaff/lib/libhesaff_s.a,sha256=2Z5CU9ZSVWe6afAwxWOZoKCVr2zaXiEQDxyJLJKIPEo,170224
+wbia_pyhesaff-3.1.1.dist-info/COPYING,sha256=WO7LvihDXBFwphOoKu6QDNE5qqDZEweJRD1Kz_HunVs,1306
+wbia_pyhesaff-3.1.1.dist-info/LICENSE.SIFT,sha256=O8fkPxeMBeYRUe_Uw4iMlvCTd_lPqND7I04dNnigHSs,769
+wbia_pyhesaff-3.1.1.dist-info/LICENSE.txt,sha256=tr5dcMN5qEUT2rab1tJjG1jS67hT7ZEfkcEe33esIYI,11955
+wbia_pyhesaff-3.1.1.dist-info/METADATA,sha256=yQwkGX3fOPbMi6SpaToSB9ZJOGap9M4TdIU5vVA1ZxI,5447
+wbia_pyhesaff-3.1.1.dist-info/WHEEL,sha256=YNbYuQQsAZNDzCi7jPYmA7NCtqYSO06rd_mp6h8k6uQ,104
+wbia_pyhesaff-3.1.1.dist-info/top_level.txt,sha256=Z04OHacETKkac4Ua9tw15e-tE6xAGv1gI4WhQR5mzbA,9
+wbia_pyhesaff-3.1.1.dist-info/RECORD,,
