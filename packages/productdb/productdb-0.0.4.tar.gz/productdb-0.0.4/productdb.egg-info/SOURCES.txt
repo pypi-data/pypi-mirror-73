@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+productdb/__init__.py
+productdb/_version.py
+productdb.egg-info/PKG-INFO
+productdb.egg-info/SOURCES.txt
+productdb.egg-info/dependency_links.txt
+productdb.egg-info/requires.txt
+productdb.egg-info/top_level.txt
