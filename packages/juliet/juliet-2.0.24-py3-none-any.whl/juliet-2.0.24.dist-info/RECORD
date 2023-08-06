@@ -1,0 +1,12 @@
+juliet/__init__.py,sha256=NB6ogaEnymzZJV2rrWgvbFTqxPqwOgm5ed3C5h4OIwM,98
+juliet/__main__.py,sha256=OtrisP2UNNwmD_FIhQz5U_akk-FFNAVksF2Ac-0UQOM,326
+juliet/fit.py,sha256=FPYx0LbNwA0-9Qkm-ByF4sy19zhirBkbqZW7LyH34zw,179767
+juliet/plots.py,sha256=roJT85NUHdj7TVd3w5WfRcC_RGMcMRLKksAzLQcxZhE,189
+juliet/utils.py,sha256=kVjrw8rJ_Seu9k1y-FNvL-ptd88a5kyVW738mmuoXnU,26880
+juliet-2.0.24.dist-info/AUTHORS.rst,sha256=6iZIF6CbeK5sL77UcB835AIph8kKXpPxDutPn_0Dhsk,176
+juliet-2.0.24.dist-info/LICENSE,sha256=zKur8ptlX4XyJxfU3fFtLjNek-wgEZG6Os9OzvBh6vk,1084
+juliet-2.0.24.dist-info/METADATA,sha256=I98O5O7ubUJaG1BPVs-9SADA1Lw288sWKs4Z4r_ZkSA,506
+juliet-2.0.24.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+juliet-2.0.24.dist-info/entry_points.txt,sha256=bpsrq3JNHbgGVMkf1oXNURIasK4nrdxDi3WH8QPDGU8,49
+juliet-2.0.24.dist-info/top_level.txt,sha256=MKTSHObmhzPeKYPKx7ALHf0zgLcwYWLgnt9wHK1cMK4,7
+juliet-2.0.24.dist-info/RECORD,,
