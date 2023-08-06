@@ -1,0 +1,6 @@
+boto3
+boto3-stubs
+psutil
+pyfakeuse
+pylogconf
+pytconf
