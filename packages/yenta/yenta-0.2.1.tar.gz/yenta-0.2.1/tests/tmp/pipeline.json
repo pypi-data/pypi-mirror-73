@@ -1,0 +1,41 @@
+{
+    "task_results": {
+        "foo": {
+            "values": {
+                "x": {
+                    "value": 1
+                }
+            },
+            "artifacts": {},
+            "status": "success",
+            "error": null
+        },
+        "bar": {
+            "values": {},
+            "artifacts": {},
+            "status": "failure",
+            "error": "Can not wrap abc in a Value"
+        }
+    },
+    "task_inputs": {
+        "foo": {
+            "task_results": {},
+            "task_inputs": {}
+        },
+        "bar": {
+            "task_results": {
+                "foo": {
+                    "values": {
+                        "x": {
+                            "value": 1
+                        }
+                    },
+                    "artifacts": {},
+                    "status": "success",
+                    "error": null
+                }
+            },
+            "task_inputs": {}
+        }
+    }
+}
