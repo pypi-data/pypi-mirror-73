@@ -1,0 +1,8 @@
+taylogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taylogger/middleware.py,sha256=Z8f3NFsNY-u8f1bF23bopRisLRbf2sV-ct8lg6mYKSM,997
+taylogger/utils.py,sha256=h5E_FnfcWIOLrqqFo9OI06-7QDjTqr9IklmAs9mHT7E,891
+django_taylogger_middleware-0.1.dist-info/LICENSE,sha256=D0rV7R126-odxi_-hnYGSAcduaazwTvGDO23P0_yu1E,1074
+django_taylogger_middleware-0.1.dist-info/METADATA,sha256=fIxlpdYWLcOnovw5XFyAspLKpl04iSQepxcofPTJRIk,1653
+django_taylogger_middleware-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_taylogger_middleware-0.1.dist-info/top_level.txt,sha256=1wBxCrQUTx2WEhYyrmHqnwJMzry-PuudRL3v4yrqk6A,10
+django_taylogger_middleware-0.1.dist-info/RECORD,,
