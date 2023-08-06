@@ -1,0 +1,11 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/docx_example.py,sha256=ZdPdjzicIVA-jrJytfrRXc1iOfKdtdyK1puq6AI8gMU,847
+examples/pptx_example.py,sha256=GvB7V4OKsCKaQwIEMUi8jzxVWZyv5eWsu323YUnDDx4,847
+py_redact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_redact/docx_redactor.py,sha256=SjNuCXO3h1GCRQCl4D77bm_gBRpxFaFmqM59CAjC3XY,1664
+py_redact/pptx_redactor.py,sha256=up3ZFMagQOBxFndXRLik00X9APQmoO9av64gsvsOmVU,2951
+py_redact-0.0.1.dist-info/LICENSE,sha256=DhFEYX9rwiK_kj0ITsodArCv6LSacjrEui8AItrYxfQ,1068
+py_redact-0.0.1.dist-info/METADATA,sha256=o89qz9ojrUFNg6mLYC2UsTsyzO2wA9fm--hsa9QXZ6c,1215
+py_redact-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_redact-0.0.1.dist-info/top_level.txt,sha256=Br0n0LKtcwAp3VbTnrZadig9yp-T9p-FYl4OOG394HU,19
+py_redact-0.0.1.dist-info/RECORD,,
