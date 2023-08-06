@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: simple-xls2json
+Version: 1.0.3
+Summary: Convert table data to json format output
+Home-page: UNKNOWN
+Author: Antiless
+Author-email: antiless.dev@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: xls json xlrd
+Platform: UNKNOWN
