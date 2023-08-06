@@ -1,0 +1,3 @@
+[console_scripts]
+hickory = hickory.cli:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+hickory/__init__.py
+hickory/cli.py
+hickory/every.py
+hickory/run.py
+hickory.egg-info/PKG-INFO
+hickory.egg-info/SOURCES.txt
+hickory.egg-info/dependency_links.txt
+hickory.egg-info/entry_points.txt
+hickory.egg-info/requires.txt
+hickory.egg-info/top_level.txt
