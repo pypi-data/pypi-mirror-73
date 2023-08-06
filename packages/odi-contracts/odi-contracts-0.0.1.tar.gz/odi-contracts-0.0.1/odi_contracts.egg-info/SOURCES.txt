@@ -1,0 +1,6 @@
+README.md
+setup.py
+odi_contracts.egg-info/PKG-INFO
+odi_contracts.egg-info/SOURCES.txt
+odi_contracts.egg-info/dependency_links.txt
+odi_contracts.egg-info/top_level.txt
