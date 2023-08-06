@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+pyyaml = "*"
+python-dotenv = "*"
+pandas = "*"
+iso8601 = "*"
+click = "*"
+mypy-extensions = "*"
+
+[dev-packages]
+pytest = "*"
+twine = "*"
+setuptools = "*"
+wheel = "*"
+tox = "*"
+restructuredtext-lint = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+
+[requires]
+python_version = "3.6"
