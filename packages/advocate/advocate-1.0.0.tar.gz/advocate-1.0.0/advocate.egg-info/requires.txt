@@ -1,0 +1,7 @@
+ndg-httpsclient
+netifaces>=0.10.5
+pyasn1
+pyopenssl
+requests<3.0,>=2.18.0
+six
+urllib3<2.0,>=1.22
