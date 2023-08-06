@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: caitk
+Version: 0.0.5
+Summary: Caitum Artificial Intelligence Toolkit
+Home-page: https://github.com/caitum/caitk
+Author: Caitum Technologies
+Author-email: devel@caitum.com
+License: GPL-3.0-only
+Project-URL: Issues, https://github.com/caitum/caitk/issues
+Description: 
+        Caitum Artificial Intelligence Toolkit
+        ======================================
+        
+        License
+        -------
+        
+        This program is free software: you can redistribute it and/or modify it under
+        the terms of the GNU General Public License as published by the Free Software
+        Foundation, either version 3 of the License, or (at your option) any later
+        version.
+        
+        This program is distributed in the hope that it will be useful, but WITHOUT ANY
+        WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+        PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License along with
+        this program.  If not, see <http://www.gnu.org/licenses/>.
+        
+Keywords: caitum artificial-intelligence
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
