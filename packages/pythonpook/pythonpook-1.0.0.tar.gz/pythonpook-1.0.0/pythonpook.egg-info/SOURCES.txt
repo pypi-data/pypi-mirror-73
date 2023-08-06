@@ -1,0 +1,9 @@
+README.md
+setup.py
+pythonpook/__init__.py
+pythonpook.egg-info/PKG-INFO
+pythonpook.egg-info/SOURCES.txt
+pythonpook.egg-info/dependency_links.txt
+pythonpook.egg-info/requires.txt
+pythonpook.egg-info/top_level.txt
+pythonpook/data/data_file
