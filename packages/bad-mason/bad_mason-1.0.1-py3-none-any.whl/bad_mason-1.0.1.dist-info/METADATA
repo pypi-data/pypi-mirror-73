@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: bad-mason
+Version: 1.0.1
+Summary: fake get useful data but do something evil
+Home-page: https://github.com/Mason-Lin/bad_mason
+Author: Bad Mason
+Author-email: pizza.0117@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requires
+
+# bad_mason [![Version][version-badge]][version-link] ![MIT License][license-badge]
+A small sample to demo what python can do
+
+`bad_mason` is a a small sample to demo what python can do
+
+
+### Demo
+```
+CALL bad_mason -g
+or
+CALL python -m bad_mason -g
+
+DEMO!! You have been hacked
+=====5a8fWOxg/4=====
+Also write a hacked file in .ssh
+It could send it out to somewhere!!
+b'<!doctype html><html'
+```
+
+### Usage
+
+```
+usage: bad_mason [-h] [-g]
+
+optional arguments:
+  -h, --help         show this help message and exit
+  -g, --get          get some data like covid-19 (fake)
+
+or as a Module:
+  python -m bad_mason -g
+```
+
+### Install
+
+```
+$ pip install bad_mason
+```
+
+
+### Pack it
+```
+python -m pip install setuptools
+python -m pip install wheel
+python -m zipfile -c datahelper.zip .\datahelper\__init__.py .\datahelper\__main__.py .\datahelper\datahelper.py
+python setup.py sdist bdist_wheel
+```
+
+
+### Try to install locally
+```
+python -m pip install -U .\dist\bad_mason-1.0.1-py3-none-any.whl
+```
+
+
+### Upload to PyPI
+```
+python -m pip install twine
+twine upload dist/bad_mason-1.0.1-py3-none-any.whl
+```
+
+
+### License
+
+[MIT](https://github.com/Mason-Lin/bad_mason/blob/master/LICENSE)
+
+[version-badge]:   https://img.shields.io/badge/version-1.0.1-brightgreen.svg
+[version-link]:    https://pypi.python.org/pypi/bad_mason/
+[license-badge]:   https://img.shields.io/github/license/Mason-Lin/bad_mason.svg
+
+

@@ -1,0 +1,10 @@
+bad_mason/__init__.py,sha256=HShDNfEkHfDhJJRmTRatoikKFZHLBCNtrH36gT31DWU,374
+bad_mason/__main__.py,sha256=BoPTbMEp34I3wKK2a4hxXHNu9j0DGZLoXmIC9-jSQvA,30
+bad_mason/covid19getter.py,sha256=s8VXC0UIYjGb-p5ggHU5j2muSry4vP3m27b7xaw1U4Y,552
+bad_mason/datahelper.zip,sha256=WVjn_gPBYDw-lwALKz9ZgBfyZbD2ZesYt8Wg3vgRpNI,1674
+bad_mason-1.0.1.dist-info/LICENSE,sha256=yuZ3EIdHKrSLnAGK5GpGa5H3ivThe6eoQ9psSLEJ2w4,1087
+bad_mason-1.0.1.dist-info/METADATA,sha256=PlhESAUKcsAY7TTOgvfuaf960Su1pVMYxl3FRcHzEh8,1858
+bad_mason-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bad_mason-1.0.1.dist-info/entry_points.txt,sha256=0Az6lA6kFEqHmIyCmMWMNKO4Zy9gNh-Unvs7ucAGuug,46
+bad_mason-1.0.1.dist-info/top_level.txt,sha256=r5ycEbOITEP8B8SQAbhDqOz1Q3qVz7lkwGVjnyGV7j8,10
+bad_mason-1.0.1.dist-info/RECORD,,

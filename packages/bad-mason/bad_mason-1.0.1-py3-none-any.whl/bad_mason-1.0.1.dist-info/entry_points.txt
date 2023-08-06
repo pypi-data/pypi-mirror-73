@@ -1,0 +1,3 @@
+[console_scripts]
+bad_mason = bad_mason:main
+
