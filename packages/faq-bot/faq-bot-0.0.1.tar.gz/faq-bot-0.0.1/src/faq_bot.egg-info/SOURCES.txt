@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/faq_bot.egg-info/PKG-INFO
+src/faq_bot.egg-info/SOURCES.txt
+src/faq_bot.egg-info/dependency_links.txt
+src/faq_bot.egg-info/top_level.txt
