@@ -1,0 +1,9 @@
+tokko-rpc
+click==7.1.2
+arrow==0.15.6
+pyaml==20.4.0
+jinja2==2.11.2
+distro==1.5.0
+gitpython
+requests==2.24.0
+coloredlogs==14.0

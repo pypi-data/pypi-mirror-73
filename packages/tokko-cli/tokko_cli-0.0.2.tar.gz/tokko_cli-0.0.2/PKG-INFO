@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: tokko_cli
+Version: 0.0.2
+Summary: Radioactive Unicorns
+Home-page: https://github.com/TokkoLabs/services-tokkobroker/tools/tokko-cli
+Author: Jose Salgado
+Author-email: jsalgado@navent.com
+License: BSD License
+Description: # Install
+        Install tokkoCLI daemon as SystemD service.
+        ```
+        $ sudo tokky daemon install
+        ```
+        
+        ### Run
+        Run attached TokkoCLI Daemon.
+        ```
+        $ tokky daemon run [--port {custom-port}]
+        ```
+        
+        ### Status
+        Get current daemon status.
+        ```
+        $ tokky daemon status
+        ```
+        
+        #### SystemCtl CLI
+        Tokko CLI daemon is a SystemD service, therefore common SystemCtl commands are enabled
+        
+        ```
+        # Check serivce status
+        systemctl status tokko-cli-daemon.service
+        
+        # Enable TokkoCLI Daemon serivce
+        systemctl Enable tokko-cli-daemon.service
+        
+        # Start TokkoCLI Daemon serivce
+        systemctl start tokko-cli-daemon.service
+        
+        # Stop TokkoCLI Daemon serivce
+        systemctl stop tokko-cli-daemon.service
+        ```
+        
+        ### Uninstall
+        Remove tokkoCLI daemon from SystemCtl.
+        
+        ```
+        $ tokky daemon uninstall
+        ```
+        
+        ## RPC
+        TokkoRPC shell.
+        
+        ### Call rpc functions
+        
+        ```bash
+        tokky rpc call {function} [--service {my-serice: String}] [--data {data: String}]
+        ```
+        __Example__
+        ```
+        $ tokky rpc call echo --data "Hello world!"
+        >>> "Hello world!"
+        ```
+        
+        ## Workflow
+        
+        
+        ---
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
