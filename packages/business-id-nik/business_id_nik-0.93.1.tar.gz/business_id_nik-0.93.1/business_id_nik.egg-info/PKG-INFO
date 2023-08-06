@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: business-id-nik
+Version: 0.93.1
+Summary: Parse Indonesian citizenship registration number (NIK)
+Home-page: https://github.com/perlancar/python-business_id_nik
+Author: perlancar
+Author-email: perlancar@gmail.com
+License: MIT
+Description: # Parse Indonesian citizenship registration number (NIK)
+        
+        More description to be written.
+        
+Keywords: indonesia
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Indonesian
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
