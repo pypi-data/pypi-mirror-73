@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: synr
+Version: 0.1.0
+Summary: 
+Author: Jared Roesch
+Author-email: jroesch@octoml.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: attrs
