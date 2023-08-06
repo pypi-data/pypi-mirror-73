@@ -1,0 +1,3 @@
+attrs
+graphqlclient
+termcolor
