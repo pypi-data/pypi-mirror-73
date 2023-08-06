@@ -1,0 +1,2 @@
+class EloggingError(Exception):
+    pass
