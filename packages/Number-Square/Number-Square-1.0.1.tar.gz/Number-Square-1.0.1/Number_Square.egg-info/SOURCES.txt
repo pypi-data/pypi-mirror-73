@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Number_Square/square.py
+Number_Square.egg-info/PKG-INFO
+Number_Square.egg-info/SOURCES.txt
+Number_Square.egg-info/dependency_links.txt
+Number_Square.egg-info/entry_points.txt
+Number_Square.egg-info/requires.txt
+Number_Square.egg-info/top_level.txt
