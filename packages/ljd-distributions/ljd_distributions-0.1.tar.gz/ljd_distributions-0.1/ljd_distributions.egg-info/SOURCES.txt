@@ -1,0 +1,10 @@
+setup.py
+ljd_distributions/Binomialdistribution.py
+ljd_distributions/Gaussiandistribution.py
+ljd_distributions/Generaldistribution.py
+ljd_distributions/__init__.py
+ljd_distributions.egg-info/PKG-INFO
+ljd_distributions.egg-info/SOURCES.txt
+ljd_distributions.egg-info/dependency_links.txt
+ljd_distributions.egg-info/not-zip-safe
+ljd_distributions.egg-info/top_level.txt
