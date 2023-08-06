@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: path-manager
+Version: 0.102
+Summary: PathManager is an efficient, easy and convenient way to manage and access your local paths in python.
+Home-page: https://github.com/tomergt45/PathManager
+Author: Tomer Horowitz
+Author-email: tomergt89@gmail.com
+License: MIT
+Download-URL: https://github.com/tomergt45/PathManager/archive/v0.12.tar.gz
+Description: UNKNOWN
+Keywords: Path,Manager,Organization
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
