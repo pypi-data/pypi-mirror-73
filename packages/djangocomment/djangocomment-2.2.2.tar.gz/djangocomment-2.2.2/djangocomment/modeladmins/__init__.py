@@ -1,0 +1,1 @@
+from djangocomment.modeladmins.CommentModelAdmin import CommentModelAdmin
