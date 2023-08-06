@@ -1,0 +1,10 @@
+setup.py
+mlb_distributions/Binomialdistribution.py
+mlb_distributions/Gaussiandistribution.py
+mlb_distributions/Generaldistribution.py
+mlb_distributions/__init__.py
+mlb_distributions.egg-info/PKG-INFO
+mlb_distributions.egg-info/SOURCES.txt
+mlb_distributions.egg-info/dependency_links.txt
+mlb_distributions.egg-info/not-zip-safe
+mlb_distributions.egg-info/top_level.txt
