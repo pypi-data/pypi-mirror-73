@@ -1,0 +1,12 @@
+AUTHORS
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+django_raw_query.egg-info/PKG-INFO
+django_raw_query.egg-info/SOURCES.txt
+django_raw_query.egg-info/dependency_links.txt
+django_raw_query.egg-info/not-zip-safe
+django_raw_query.egg-info/top_level.txt
+rawquery/__init__.py
+rawquery/rawquery.py
