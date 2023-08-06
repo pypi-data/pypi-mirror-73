@@ -1,0 +1,31 @@
+Metadata-Version: 1.0
+Name: bg-prob
+Version: 0.4
+Summary: Gaussian distributions
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # bg_prob package
+        
+        This package calculates Gaussian and Binomial distributions
+        
+        ### Files
+        
+        - Binomialdistribution.py
+        - Generaldistribution.py
+        - Binomialdistribution.py
+        
+        - license.txt
+        - README.md
+        
+        ### Installation
+        pip install bg_prob
+        
+        ### Run
+        
+        python
+        
+        from bg_prob import Gaussian
+        from bg_prob import Binomial
+Platform: UNKNOWN
