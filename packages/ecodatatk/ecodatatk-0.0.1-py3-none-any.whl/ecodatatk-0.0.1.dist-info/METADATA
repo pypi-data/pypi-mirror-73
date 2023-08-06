@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: ecodatatk
+Version: 0.0.1
+Summary: Developed for limnological and hydrological studies
+Home-page: https://github.com/cayolopesbc/eco-data-manage-toolkit
+Author: Cayo Lopes B. Chalegre
+Author-email: cayo.chalegre@ufrgs.br
+License: MIT License
+Keywords: limnology hydrology spatial dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Education
+Requires-Dist: numpy (>=1.14.2)
+Requires-Dist: pandas (>=0.25.1)
+Requires-Dist: geopandas (>=0.6.1)
+Requires-Dist: xarray (>=0.15.0)
+Requires-Dist: rioxarray (>=0.0.28)
+Requires-Dist: netCDF4 (>=1.5.3)
+Requires-Dist: GDAL (>=2.3.3)
+Requires-Dist: pyproj (>=1.9.6)
+Requires-Dist: Shapely (>=1.6.4.post1)
+Requires-Dist: tqdm (>=4.42.1)
+
+## Eco-Data Manage Toolkit
+Eco-Data Manage Toolkit is a Python toolkit is a set of tools to facilitate data management for hydrology/limnology applications.
+
+ In this first version, it is only capable of reading data in NetCDF format. Its features include:
+    - Reading data
+    - Spatial and temporal filters
+    - Spatial and temporal interpolation
+    - Export to .tif and .csv formats
+
+## Installation
+To install lastest release version, use `pip install ecodatatk`.
+
+#### Microsoft Windows installation
+If the GeoPandas package is not installed, it is suggested that it be installed manually using [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html):
+
+`conda install -c conda-forge geopandas`
+
+## Application Examples
+Applications can be found in Jupyter Notebooks, in the `./Examples` directory in this repository.
+
+## Help
+You can use the `help()` to get more information about the methods uses and parameters.
+
+## License
+[BSD 3-Clause License](LICENSE)
+
+
