@@ -1,0 +1,393 @@
+2019-05-31 11:57:03,724 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 11:57:03,724 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0 --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 11:57:03,724 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 11:57:03,724 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 11:57:03,725 MDAnalysis.app CRITICAL protein structure and/or trajectory not correctly specified
+2019-05-31 11:57:30,863 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 11:57:30,863 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0 --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 11:57:30,863 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 11:57:30,863 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 11:57:30,863 MDAnalysis.app CRITICAL protein structure and/or trajectory not correctly specified
+2019-05-31 11:58:17,426 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 11:58:17,426 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0 --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 11:58:17,426 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 11:58:17,426 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 11:58:17,458 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11431c2b0> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11431c5c0> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x114439908> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x114439940> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x114439978> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1144399b0> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x1144399e8> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x114439a20> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x114439ac8> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x114439b00> to topology
+2019-05-31 11:58:17,459 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x114439b38> to topology
+2019-05-31 11:58:17,460 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading peptso.gro...
+2019-05-31 11:58:17,504 MDAnalysis.app INFO     Loading trajectory data as Universe(peptso.gro)
+2019-05-31 11:58:17,504 MDAnalysis.app INFO     Using rotamer library 'MTSSL 298K 2015' by Gunnar Jeschke
+2019-05-31 11:58:17,504 MDAnalysis.app INFO     Please cite: Polyhach Y, Bordignon E, Jeschke G. Phys Chem Chem Phys. 2011; 13(6):2356-2366. doi: 10.1039/c0cp01865a
+2019-05-31 11:58:17,504 MDAnalysis.app DEBUG    [rotamers] ensemble = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd with topology = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.pdb
+2019-05-31 11:58:17,505 MDAnalysis.app DEBUG    [rotamers] populations = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/R1A_298K_populations_2015.dat
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x1144332b0> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x1144330f0> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x114433080> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x114432fd0> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x114432f60> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x114432ef0> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x114436208> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x114432e80> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1144331d0> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x114433320> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x114433470> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x114433588> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1144336d8> to topology
+2019-05-31 11:58:17,507 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x114433978> to topology
+2019-05-31 11:58:17,508 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x114433be0> to topology
+2019-05-31 11:58:17,508 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x114433d30> to topology
+2019-05-31 11:58:17,508 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x114433e80> to topology
+2019-05-31 11:58:17,508 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x114433160> to topology
+2019-05-31 11:58:17,508 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd...
+2019-05-31 11:58:17,510 MDAnalysis.app INFO     Starting rotamer distance analysis of trajectory peptso.gro...
+2019-05-31 11:58:17,510 MDAnalysis.app INFO     clashDistance = 2.2 A; rotamer library = 'MTSSL 298K 2015'
+2019-05-31 11:58:17,510 MDAnalysis.app DEBUG    Temporary trajectories for rotamers 1 and 2 (only last frame of MD trajectory): dcd/peptso-xrd-47-330-1.dcd and dcd/peptso-xrd-47-330-2.dcd
+2019-05-31 11:58:17,510 MDAnalysis.app DEBUG    Results will be written to dat/peptso-xrd-47-330.dat.
+2019-05-31 11:58:17,644 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11442b940> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x11442b780> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x11442b710> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11442b6a0> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x11442b630> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x11442b5c0> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x11442f0b8> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11442b588> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11442c048> to topology
+2019-05-31 11:58:17,645 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x11442c198> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11442c2e8> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x11442c438> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x11442c550> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x11442c7f0> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x11442ca58> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x11442cba8> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x11442ccf8> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x11442ce48> to topology
+2019-05-31 11:58:17,646 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading dcd/peptso-xrd-47-330-1.dcd...
+2019-05-31 11:58:18,049 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x114423cf8> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x114423b70> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x114423b00> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x114423a90> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x114423a20> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x1144239b0> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x114427f28> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x114423940> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x114424048> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x114424198> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1144242e8> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x114424400> to topology
+2019-05-31 11:58:18,050 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x114424550> to topology
+2019-05-31 11:58:18,051 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x1144247f0> to topology
+2019-05-31 11:58:18,051 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x114424a90> to topology
+2019-05-31 11:58:18,051 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x114424be0> to topology
+2019-05-31 11:58:18,051 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x114424d30> to topology
+2019-05-31 11:58:18,051 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x114424e48> to topology
+2019-05-31 11:58:18,051 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading dcd/peptso-xrd-47-330-2.dcd...
+2019-05-31 11:58:28,525 MDAnalysis.app INFO     Distance distribution for residues 47 - 330 was written to dat/peptso-xrd-47-330.dat
+2019-05-31 11:58:28,541 MDAnalysis.app INFO     DONE with analysis, elapsed time     11 s
+2019-05-31 11:58:29,210 MDAnalysis.app INFO     Plotted distance distribution to dat/peptso-xrd.pdf
+2019-05-31 11:58:29,211 MDAnalysis   INFO     MDAnalysis STOPPED logging
+2019-05-31 11:59:49,802 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 11:59:49,802 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0 --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 11:59:49,802 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 11:59:49,802 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x1151fd908> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x115200c18> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x115200ba8> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x1152f29e8> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1152f2a20> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1152f2a58> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x1152f2a90> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x1152f2ac8> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x1152f2b70> to topology
+2019-05-31 11:59:49,831 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x1152f2ba8> to topology
+2019-05-31 11:59:49,832 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x1152f2be0> to topology
+2019-05-31 11:59:49,832 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading peptso.gro...
+2019-05-31 11:59:49,876 MDAnalysis.app INFO     Loading trajectory data as Universe(peptso.gro)
+2019-05-31 11:59:49,876 MDAnalysis.app INFO     Using rotamer library 'MTSSL 298K 2015' by Gunnar Jeschke
+2019-05-31 11:59:49,876 MDAnalysis.app INFO     Please cite: Polyhach Y, Bordignon E, Jeschke G. Phys Chem Chem Phys. 2011; 13(6):2356-2366. doi: 10.1039/c0cp01865a
+2019-05-31 11:59:49,877 MDAnalysis.app DEBUG    [rotamers] ensemble = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd with topology = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.pdb
+2019-05-31 11:59:49,877 MDAnalysis.app DEBUG    [rotamers] populations = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/R1A_298K_populations_2015.dat
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x1152ebc88> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x1152ebac8> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x1152eba58> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x1152eb9e8> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x1152eb978> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x1152eb908> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x1152eedd8> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x1152eb898> to topology
+2019-05-31 11:59:49,879 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1152ec0f0> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x1152ec240> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1152ec390> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x1152ec4e0> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1152ec5f8> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x1152ec898> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x1152ecb38> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x1152ecc50> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x1152ecda0> to topology
+2019-05-31 11:59:49,880 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x1152ecef0> to topology
+2019-05-31 11:59:49,881 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd...
+2019-05-31 11:59:49,882 MDAnalysis.app INFO     Starting rotamer distance analysis of trajectory peptso.gro...
+2019-05-31 11:59:49,882 MDAnalysis.app INFO     clashDistance = 2.2 A; rotamer library = 'MTSSL 298K 2015'
+2019-05-31 11:59:49,882 MDAnalysis.app DEBUG    Temporary trajectories for rotamers 1 and 2 (only last frame of MD trajectory): d and c
+2019-05-31 11:59:50,021 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x1152e43c8> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x1152e4240> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x1152e41d0> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x1152e4160> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x1152e40f0> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x1152e4080> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x1152e7da0> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x1152e3fd0> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1152e42e8> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x1152e4438> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1152e4588> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x1152e46a0> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1152e47f0> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x1152e4a90> to topology
+2019-05-31 11:59:50,022 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x1152e4cf8> to topology
+2019-05-31 11:59:50,023 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x1152e4e48> to topology
+2019-05-31 11:59:50,023 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x1152e4f98> to topology
+2019-05-31 11:59:50,023 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x1152e4278> to topology
+2019-05-31 11:59:50,023 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading dcd/peptso-xrd-47-all.dcd...
+2019-05-31 12:00:26,320 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 12:00:26,320 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0 --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 12:00:26,320 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 12:00:26,321 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 12:00:26,351 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x119721908> to topology
+2019-05-31 12:00:26,352 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x119724ba8> to topology
+2019-05-31 12:00:26,352 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x119724b38> to topology
+2019-05-31 12:00:26,353 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x119816978> to topology
+2019-05-31 12:00:26,353 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1198169b0> to topology
+2019-05-31 12:00:26,353 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1198169e8> to topology
+2019-05-31 12:00:26,353 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x119816a20> to topology
+2019-05-31 12:00:26,353 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x119816a58> to topology
+2019-05-31 12:00:26,353 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x119816b00> to topology
+2019-05-31 12:00:26,354 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x119816b38> to topology
+2019-05-31 12:00:26,354 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x119816b70> to topology
+2019-05-31 12:00:26,354 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading peptso.gro...
+2019-05-31 12:00:26,399 MDAnalysis.app INFO     Loading trajectory data as Universe(peptso.gro)
+2019-05-31 12:00:26,400 MDAnalysis.app INFO     Using rotamer library 'MTSSL 298K 2015' by Gunnar Jeschke
+2019-05-31 12:00:26,400 MDAnalysis.app INFO     Please cite: Polyhach Y, Bordignon E, Jeschke G. Phys Chem Chem Phys. 2011; 13(6):2356-2366. doi: 10.1039/c0cp01865a
+2019-05-31 12:00:26,400 MDAnalysis.app DEBUG    [rotamers] ensemble = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd with topology = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.pdb
+2019-05-31 12:00:26,400 MDAnalysis.app DEBUG    [rotamers] populations = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/R1A_298K_populations_2015.dat
+2019-05-31 12:00:26,402 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11980fc18> to topology
+2019-05-31 12:00:26,402 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x11980fa58> to topology
+2019-05-31 12:00:26,402 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x11980f9e8> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11980f978> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x11980f908> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x11980f898> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x119812d68> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11980f828> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x119810080> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x1198101d0> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x119810320> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x119810470> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x119810588> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x119810828> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x119810ac8> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x119810be0> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x119810d30> to topology
+2019-05-31 12:00:26,403 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x119810e80> to topology
+2019-05-31 12:00:26,404 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd...
+2019-05-31 12:00:26,405 MDAnalysis.app INFO     Starting rotamer distance analysis of trajectory peptso.gro...
+2019-05-31 12:00:26,405 MDAnalysis.app INFO     clashDistance = 2.2 A; rotamer library = 'MTSSL 298K 2015'
+2019-05-31 12:00:26,405 MDAnalysis.app DEBUG    Temporary trajectories for rotamers 1 and 2 (only last frame of MD trajectory): d and c
+2019-05-31 12:00:44,357 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 12:00:44,357 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0 --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 12:00:44,357 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 12:00:44,357 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x1190fcb70> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x1190fcbe0> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x1191ee9b0> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x1191ee9e8> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1191eea20> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1191eea58> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x1191eea90> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x1191eeac8> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x1191eeb70> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x1191eeba8> to topology
+2019-05-31 12:00:44,390 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x1191eebe0> to topology
+2019-05-31 12:00:44,391 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading peptso.gro...
+2019-05-31 12:00:44,445 MDAnalysis.app INFO     Loading trajectory data as Universe(peptso.gro)
+2019-05-31 12:00:44,446 MDAnalysis.app INFO     Using rotamer library 'MTSSL 298K 2015' by Gunnar Jeschke
+2019-05-31 12:00:44,446 MDAnalysis.app INFO     Please cite: Polyhach Y, Bordignon E, Jeschke G. Phys Chem Chem Phys. 2011; 13(6):2356-2366. doi: 10.1039/c0cp01865a
+2019-05-31 12:00:44,446 MDAnalysis.app DEBUG    [rotamers] ensemble = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd with topology = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.pdb
+2019-05-31 12:00:44,446 MDAnalysis.app DEBUG    [rotamers] populations = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/R1A_298K_populations_2015.dat
+2019-05-31 12:00:44,448 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x1191e7cc0> to topology
+2019-05-31 12:00:44,448 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x1191e7b00> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x1191e7a90> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x1191e7a20> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x1191e79b0> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x1191e7940> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x1191eae10> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x1191e78d0> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1191e8128> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x1191e8278> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1191e83c8> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x1191e8518> to topology
+2019-05-31 12:00:44,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1191e8630> to topology
+2019-05-31 12:00:44,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x1191e88d0> to topology
+2019-05-31 12:00:44,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x1191e8b70> to topology
+2019-05-31 12:00:44,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x1191e8c88> to topology
+2019-05-31 12:00:44,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x1191e8dd8> to topology
+2019-05-31 12:00:44,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x1191e8f28> to topology
+2019-05-31 12:00:44,450 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2015.dcd...
+2019-05-31 12:00:44,452 MDAnalysis.app INFO     Starting rotamer distance analysis of trajectory peptso.gro...
+2019-05-31 12:00:44,452 MDAnalysis.app INFO     clashDistance = 2.2 A; rotamer library = 'MTSSL 298K 2015'
+2019-05-31 12:00:44,452 MDAnalysis.app DEBUG    Temporary trajectories for rotamers 1 and 2 (only last frame of MD trajectory): d and c
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x1191e0470> to topology
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x1191e02b0> to topology
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x1191e0240> to topology
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x1191e0208> to topology
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x1191e0198> to topology
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x1191e0128> to topology
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x1191e3e80> to topology
+2019-05-31 12:00:44,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x1191e00b8> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1191e1080> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x1191e11d0> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x1191e1320> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x1191e1470> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x1191e15c0> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x1191e1828> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x1191e1a20> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x1191e1b70> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x1191e1c50> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x1191e1da0> to topology
+2019-05-31 12:00:44,607 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading dcd/peptso-xrd-47-all.dcd...
+2019-05-31 12:09:36,362 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 12:09:36,362 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0 --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 12:09:36,362 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 12:09:36,362 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 12:09:36,394 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11adc5908> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11adc9c18> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x11adc9ba8> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x11aebc9e8> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11aebca20> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x11aebca58> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11aebca90> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x11aebcac8> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x11aebcb70> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x11aebcba8> to topology
+2019-05-31 12:09:36,395 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x11aebcbe0> to topology
+2019-05-31 12:09:36,396 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading peptso.gro...
+2019-05-31 12:09:36,446 MDAnalysis.app INFO     Loading trajectory data as Universe(peptso.gro)
+2019-05-31 12:09:36,446 MDAnalysis.app INFO     Using rotamer library 'MTSSL 298K 2011' by Gunnar Jeschke
+2019-05-31 12:09:36,446 MDAnalysis.app INFO     Please cite: Polyhach Y, Bordignon E, Jeschke G. Phys Chem Chem Phys. 2011; 13(6):2356-2366. doi: 10.1039/c0cp01865a
+2019-05-31 12:09:36,446 MDAnalysis.app DEBUG    [rotamers] ensemble = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2011.dcd with topology = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2011.pdb
+2019-05-31 12:09:36,446 MDAnalysis.app DEBUG    [rotamers] populations = /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/R1A_298K_populations_2011.dat
+2019-05-31 12:09:36,449 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11aeb5c18> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x11aeb5ba8> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x11aeb5b38> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11aeb5ac8> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x11aeb5a58> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x11aeb59e8> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x11aeb8d68> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11aeb5978> to topology
+2019-05-31 12:09:36,450 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11aeb6080> to topology
+2019-05-31 12:09:36,451 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x11aeb61d0> to topology
+2019-05-31 12:09:36,451 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11aeb6320> to topology
+2019-05-31 12:09:36,451 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x11aeb6470> to topology
+2019-05-31 12:09:36,451 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x11aeb6588> to topology
+2019-05-31 12:09:36,452 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x11aeb6828> to topology
+2019-05-31 12:09:36,452 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x11aeb6ac8> to topology
+2019-05-31 12:09:36,455 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x11aeb6c18> to topology
+2019-05-31 12:09:36,456 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x11aeb6d30> to topology
+2019-05-31 12:09:36,456 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x11aeb6e80> to topology
+2019-05-31 12:09:36,457 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading /Users/oliver/anaconda3/envs/mda3/lib/python3.6/site-packages/rotcon/data/rotamer1_R1A_298K_2011.dcd...
+2019-05-31 12:09:36,459 MDAnalysis.app INFO     Starting rotamer distance analysis of trajectory peptso.gro...
+2019-05-31 12:09:36,459 MDAnalysis.app INFO     clashDistance = 2.2 A; rotamer library = 'MTSSL 298K 2011'
+2019-05-31 12:09:36,459 MDAnalysis.app DEBUG    Temporary trajectories for rotamers 1 and 2 (only last frame of MD trajectory): d and c
+2019-05-31 12:09:36,604 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11aeae4a8> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x11aeae438> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x11aeae3c8> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11aeae358> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x11aeae2e8> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x11aeae278> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x11aeb1cc0> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11aeae240> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11aeaf0b8> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x11aeaf208> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11aeaf358> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x11aeaf4a8> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x11aeaf5f8> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x11aeaf860> to topology
+2019-05-31 12:09:36,605 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x11aeafa58> to topology
+2019-05-31 12:09:36,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x11aeafba8> to topology
+2019-05-31 12:09:36,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x11aeafc88> to topology
+2019-05-31 12:09:36,606 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x11aeafdd8> to topology
+2019-05-31 12:09:36,606 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading dcd/peptso-xrd-47-all.dcd...
+2019-05-31 12:09:48,926 MDAnalysis.app INFO     DONE with analysis, elapsed time     12 s
+2019-05-31 12:09:52,347 MDAnalysis.app INFO     Plotted min and max distances to dat/peptso-xrd-47.pdf
+2019-05-31 12:09:52,349 MDAnalysis   INFO     MDAnalysis STOPPED logging
+2019-05-31 12:11:05,303 MDAnalysis   INFO     MDAnalysis 0.19.3-dev STARTED logging to 'MDAnalysis.log'
+2019-05-31 12:11:05,303 MDAnalysis.app INFO     Rotamer Convolve MD, release 1.3.0.dev --- Copyright (c) Philip W Fowler, Oliver Beckstein, Katrin Reichel, and AUTHORS 2011-2017
+2019-05-31 12:11:05,303 MDAnalysis.app INFO     Released under the GNU Public Licence, version 2 (or higher)
+2019-05-31 12:11:05,304 MDAnalysis.app INFO     Please cite: LS Stelzl, PW Fowler, MSP Sansom, O Beckstein. J Mol Biol 426 (2014), 735-751, doi:10.1016/j.jmb.2013.10.024
+2019-05-31 12:11:05,337 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11f8cb080> to topology
+2019-05-31 12:11:05,337 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11f8d2390> to topology
+2019-05-31 12:11:05,337 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x11f8d2320> to topology
+2019-05-31 12:11:05,337 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x11f9c0160> to topology
+2019-05-31 12:11:05,337 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11f9c0198> to topology
+2019-05-31 12:11:05,337 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x11f8cb0b8> to topology
+2019-05-31 12:11:05,337 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11f9c01d0> to topology
+2019-05-31 12:11:05,338 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x11f9c0208> to topology
+2019-05-31 12:11:05,338 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x11f9c02b0> to topology
+2019-05-31 12:11:05,338 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x11f9c02e8> to topology
+2019-05-31 12:11:05,338 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x11f9c0320> to topology
+2019-05-31 12:11:05,338 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading peptso.gro...
+2019-05-31 12:11:05,383 MDAnalysis.app INFO     Loading trajectory data as Universe(peptso.gro)
+2019-05-31 12:11:05,383 MDAnalysis.app INFO     Using rotamer library 'MTSSL 298K 2015' by Gunnar Jeschke
+2019-05-31 12:11:05,383 MDAnalysis.app INFO     Please cite: Polyhach Y, Bordignon E, Jeschke G. Phys Chem Chem Phys. 2011; 13(6):2356-2366. doi: 10.1039/c0cp01865a
+2019-05-31 12:11:05,383 MDAnalysis.app DEBUG    [rotamers] ensemble = /Volumes/Data/oliver/Biop/Projects/Methods/MDAnalysis/RotamerConvolveMD/rotcon/data/rotamer1_R1A_298K_2015.dcd with topology = /Volumes/Data/oliver/Biop/Projects/Methods/MDAnalysis/RotamerConvolveMD/rotcon/data/rotamer1_R1A_298K_2015.pdb
+2019-05-31 12:11:05,383 MDAnalysis.app DEBUG    [rotamers] populations = /Volumes/Data/oliver/Biop/Projects/Methods/MDAnalysis/RotamerConvolveMD/rotcon/data/R1A_298K_populations_2015.dat
+2019-05-31 12:11:05,385 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11f9b9d30> to topology
+2019-05-31 12:11:05,385 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x11f9b9ba8> to topology
+2019-05-31 12:11:05,385 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x11f9b9b38> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11f9b9ac8> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x11f9b9a58> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x11f9b99e8> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x11f9bcc88> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11f9b9978> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11f9ba080> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x11f9ba1d0> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11f9ba320> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x11f9ba438> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x11f9ba588> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x11f9ba828> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x11f9baac8> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x11f9babe0> to topology
+2019-05-31 12:11:05,386 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x11f9bad30> to topology
+2019-05-31 12:11:05,387 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x11f9bae80> to topology
+2019-05-31 12:11:05,387 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading /Volumes/Data/oliver/Biop/Projects/Methods/MDAnalysis/RotamerConvolveMD/rotcon/data/rotamer1_R1A_298K_2015.dcd...
+2019-05-31 12:11:05,390 MDAnalysis.app INFO     Starting rotamer distance analysis of trajectory peptso.gro...
+2019-05-31 12:11:05,390 MDAnalysis.app INFO     clashDistance = 2.2 A; rotamer library = 'MTSSL 298K 2015'
+2019-05-31 12:11:05,391 MDAnalysis.app DEBUG    Temporary trajectories for rotamers 1 and 2 (only last frame of MD trajectory): d and c
+2019-05-31 12:11:05,541 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomnames object at 0x11f9b2438> to topology
+2019-05-31 12:11:05,541 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.AltLocs object at 0x11f9b2278> to topology
+2019-05-31 12:11:05,541 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.RecordTypes object at 0x11f9b2208> to topology
+2019-05-31 12:11:05,541 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomids object at 0x11f9b2198> to topology
+2019-05-31 12:11:05,541 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Tempfactors object at 0x11f9b2128> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Occupancies object at 0x11f9b20b8> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomtypes object at 0x11f9b5e48> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Masses object at 0x11f9b2048> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11f9b2358> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resids object at 0x11f9b2470> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnums object at 0x11f9b25c0> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.ICodes object at 0x11f9b2710> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resnames object at 0x11f9b2860> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segids object at 0x11f9b2b00> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Atomindices object at 0x11f9b2d68> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Resindices object at 0x11f9b2eb8> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Segindices object at 0x11f9b3048> to topology
+2019-05-31 12:11:05,542 MDAnalysis.core.universe DEBUG    _process_attr: Adding <MDAnalysis.core.topologyattrs.Bonds object at 0x11f9b22e8> to topology
+2019-05-31 12:11:05,543 MDAnalysis.core.universe DEBUG    Universe.load_new(): loading dcd/peptso-xrd-47-all.dcd...
+2019-05-31 12:11:19,541 MDAnalysis.app INFO     DONE with analysis, elapsed time     14 s
+2019-05-31 12:11:22,625 MDAnalysis.app INFO     Plotted min and max distances to dat/peptso-xrd-47.pdf
+2019-05-31 12:11:22,627 MDAnalysis   INFO     MDAnalysis STOPPED logging

@@ -1,0 +1,56 @@
+==============================
+ RotamerConvolveMD CHANGELOG
+==============================
+
+The rules for this file:
+  * entries are sorted newest-first.
+  * summarize sets of changes - don't reproduce every commit log comment here.
+  * don't ever delete anything.
+  * keep the format consistent (79 char width, M/D/Y date format) and do not
+    use tabs but use spaces for formatting
+
+------------------------------------------------------------------------------
+07/11/2020 orbeckst
+  * 1.3.2
+    - fix installation issue that made 1.3.2 fail installation
+      (versioneer.py was not included) (issue #37)
+	
+07/08/2020 orbeckst, lilyminium
+  * 1.3.1
+    - fix library.find_file (issue #32)
+    - changed online docs theme (issue #35)
+
+05/31/2017 katrinr, orbeckst
+  * 1.3.0
+    - compatible with MDAnalysis 0.16.2, which is now the required version
+      (Issue #20)
+    - new script 'convolve-mtss-rotamers_pre.py' for analysis of
+      paramagnetic relaxation enhancement (PRE) experiments (PR #12)
+    - added --no-plot flag to suppress PDF output from scripts (requested
+      in issue #19)
+    - updated MTSSL rotamer library in 2017 (default), rotamer library
+      from 2011 can be chosen by defining the library name (--libname)
+
+05/24/2016 kain88-de, philipwfowler, orbeckst, katrinr
+  * 1.2.0
+    - compatible with MDAnalysis >= 0.11.0 (issue #2)
+    - code and library clean-up (removed superfluous duplicated
+      initial frame, see issue #6)
+    - additional output files: distance histograms and ensemble of
+      all non-clashing rotamers (PR #5)
+    - contact information updated
+    - use semantic versioning for release numbering
+      (http://semver.org)
+    - conda package at https://anaconda.org/MDAnalysis
+
+04/07/2015 orbeckst, seb-buch
+  * 1.1
+    - code to conform to PEP8
+    - meta data: link updates
+    - split off from MDAnalysis repository
+
+01/15/15  philipwfowler, orbeckst, alejob
+  * 1.0
+    - initial release
+    - includes Gunnar Jeschke's rotamers for MTSSL at 298 K
+    - used for work published in Stelzl et al, J Mol Biol 426 (2016), 735
