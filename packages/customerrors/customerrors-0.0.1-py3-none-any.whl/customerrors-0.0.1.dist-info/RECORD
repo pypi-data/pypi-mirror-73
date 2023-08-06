@@ -1,0 +1,12 @@
+main/__init__.py,sha256=tQzPhueF4xhjbiTNzEFKcjOTQ55DsULr59Icvqt_FwA,1082
+main/customerrors.py,sha256=8PnMlIs7lWLykHeNCqsCuYevwKI6Eszp2QgGqXAxiss,1058
+main/pgame.py,sha256=XNIhaeHWCvus6yM9GiuXHQWzZTBf5Sz0E2eU9ua1icY,283
+main/pgame_test.py,sha256=GEaa_XALi0vxn_rCnNUsx4vicuu-IyhP2ZrfasyRUWM,1051
+tests/__init__.py,sha256=tQzPhueF4xhjbiTNzEFKcjOTQ55DsULr59Icvqt_FwA,1082
+tests/customerrors.py,sha256=8PnMlIs7lWLykHeNCqsCuYevwKI6Eszp2QgGqXAxiss,1058
+tests/pgame.py,sha256=XNIhaeHWCvus6yM9GiuXHQWzZTBf5Sz0E2eU9ua1icY,283
+tests/pgame_test.py,sha256=GEaa_XALi0vxn_rCnNUsx4vicuu-IyhP2ZrfasyRUWM,1051
+customerrors-0.0.1.dist-info/METADATA,sha256=7pSV5a3uzBZQyud4yo31zKnGk49pKtlgebsH-QAqspU,402
+customerrors-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+customerrors-0.0.1.dist-info/top_level.txt,sha256=x4P7YEmuntAFqXdXu6txpQr4zx8irrnpYHruJS6QjWw,11
+customerrors-0.0.1.dist-info/RECORD,,
