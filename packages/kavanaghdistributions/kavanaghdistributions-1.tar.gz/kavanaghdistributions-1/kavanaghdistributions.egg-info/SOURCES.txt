@@ -1,0 +1,11 @@
+README.md
+setup.py
+kavanaghdistributions/__init__.py
+kavanaghdistributions/classes.py
+kavanaghdistributions/functions.py
+kavanaghdistributions.egg-info/PKG-INFO
+kavanaghdistributions.egg-info/SOURCES.txt
+kavanaghdistributions.egg-info/dependency_links.txt
+kavanaghdistributions.egg-info/not-zip-safe
+kavanaghdistributions.egg-info/requires.txt
+kavanaghdistributions.egg-info/top_level.txt
