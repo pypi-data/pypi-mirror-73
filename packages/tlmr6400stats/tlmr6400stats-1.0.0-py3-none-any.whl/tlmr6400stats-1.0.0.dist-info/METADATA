@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tlmr6400stats
+Version: 1.0.0
+Summary: Tool to read stats from TL-MR6400 LTE router and push these to influxdb
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: ssch@wheel.dk
+License: UNKNOWN
+Keywords: TL-MR6400,influxdb,LTE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: influxdb
+Requires-Dist: urllib3
+
+Tool to read stats from TL-MR6400 LTE router and push these to influxdb
+
+
