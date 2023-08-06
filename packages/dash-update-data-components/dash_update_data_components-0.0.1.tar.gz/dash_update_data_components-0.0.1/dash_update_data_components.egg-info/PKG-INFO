@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash-update-data-components
+Version: 0.0.1
+Summary: This is a library to update multiples traces in one graph using dash plotly in python
+Home-page: UNKNOWN
+Author: daniel tobon c <daniel.tobon@uao.edu.co>
+Author-email: UNKNOWN
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash

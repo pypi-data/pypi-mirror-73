@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_update_data_components/EditableGraph.py
+dash_update_data_components/__init__.py
+dash_update_data_components/_imports_.py
+dash_update_data_components/dash_update_data_components.min.js
+dash_update_data_components/dash_update_data_components.min.js.map
+dash_update_data_components/metadata.json
+dash_update_data_components/package-info.json
+dash_update_data_components.egg-info/PKG-INFO
+dash_update_data_components.egg-info/SOURCES.txt
+dash_update_data_components.egg-info/dependency_links.txt
+dash_update_data_components.egg-info/top_level.txt
