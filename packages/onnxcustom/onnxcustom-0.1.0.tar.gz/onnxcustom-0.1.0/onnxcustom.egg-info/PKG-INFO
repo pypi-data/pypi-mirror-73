@@ -1,0 +1,64 @@
+Metadata-Version: 1.0
+Name: onnxcustom
+Version: 0.1.0
+Summary: Custom ONNX operators and converters
+Home-page: https://github.com/sdpython/onnxcustom
+Author: Xavier Dupré
+Author-email: xavier.dupre@gmail.com
+License: UNKNOWN
+Description: onnxcustom: custom ONNX
+        =======================
+        
+        .. image:: https://raw.githubusercontent.com/sdpython/onnxcustom/master/doc/_static/logo.png
+            :width: 50
+        
+        `documentation <http://www.xavierdupre.fr/app/onnxcustom/helpsphinx/index.html>`_
+        
+        Tutorial on how to convert machine learned models into ONNX,
+        implement your own converter or runtime.
+        The module must be compiled to be used inplace:
+        
+        ::
+        
+            python setup.py build_ext --inplace
+        
+        Generate the setup in subfolder ``dist``:
+        
+        ::
+        
+            python setup.py sdist
+        
+        Generate the documentation in folder ``dist/html``:
+        
+        ::
+        
+            python -m sphinx -T -b html doc dist/html
+        
+        Run the unit tests:
+        
+        ::
+        
+            python -m unittest discover tests
+        
+        Or:
+        
+        ::
+        
+            python -m pytest
+            
+        To check style:
+        
+        ::
+        
+            python -m flake8 onnxcustom tests examples
+        
+        The function *check* or the command line ``python -m onnxcustom check``
+        checks the module is properly installed and returns processing
+        time for a couple of functions or simply:
+        
+        ::
+        
+            import onnxcustom
+            onnxcustom.check()
+        
+Platform: UNKNOWN
