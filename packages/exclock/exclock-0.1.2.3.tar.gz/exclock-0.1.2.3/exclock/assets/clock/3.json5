@@ -1,0 +1,11 @@
+{
+  "title": "3 minute timer",
+  "sounds": {
+    "3m": {
+      "message": "3 minutes have passed.",
+      "sound_filename": "_warning.mp3",
+      "confirm": "input"
+    }},
+  "loop": 1
+}
+
