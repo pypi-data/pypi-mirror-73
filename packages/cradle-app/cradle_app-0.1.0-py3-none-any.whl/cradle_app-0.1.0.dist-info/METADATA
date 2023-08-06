@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: cradle-app
+Version: 0.1.0
+Summary: Test ML models in production (or otherwise)
+Author: swiftdiaries
+Author-email: adhita94@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: black (>=19.10b0,<20.0)
+Requires-Dist: fastapi[all] (>=0.59.0,<0.60.0)
+Requires-Dist: gradio (>=1.0.0,<2.0.0)
+Requires-Dist: pre-commit (>=2.6.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.3.0,<0.4.0)
+Description-Content-Type: text/markdown
+
+# `cradle`
+
+![Lint](https://github.com/swiftdiaries/cradle/workflows/Lint/badge.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
+cradle is tool to test ML models in production.
+
+**Usage**:
+
+```console
+$ cradle [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `init`: init cradle app
+* `launch`: Launch gradio instance
+
+## `cradle init`
+
+init cradle app
+
+**Usage**:
+
+```console
+$ cradle init [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `cradle launch`
+
+Launch gradio instance
+
+**Usage**:
+
+```console
+$ cradle launch [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+

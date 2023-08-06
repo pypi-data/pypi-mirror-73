@@ -1,0 +1,3 @@
+[console_scripts]
+cradle-app=cradle_app.main:app
+
