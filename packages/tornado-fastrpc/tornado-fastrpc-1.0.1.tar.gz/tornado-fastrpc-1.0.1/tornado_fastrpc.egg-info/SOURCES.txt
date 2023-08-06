@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+tornado_fastrpc/__init__.py
+tornado_fastrpc/client.py
+tornado_fastrpc.egg-info/PKG-INFO
+tornado_fastrpc.egg-info/SOURCES.txt
+tornado_fastrpc.egg-info/dependency_links.txt
+tornado_fastrpc.egg-info/requires.txt
+tornado_fastrpc.egg-info/top_level.txt
+tornado_fastrpc.egg-info/zip-safe
