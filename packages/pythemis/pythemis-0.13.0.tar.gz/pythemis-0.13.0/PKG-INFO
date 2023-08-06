@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pythemis
+Version: 0.13.0
+Summary: UNKNOWN
+Home-page: https://cossacklabs.com
+Author: CossackLabs
+Author-email: dev@cossacklabs.com
+License: Apache 2.0
+Description: # PyThemis
+        
+        _Python_ wrapper for [Themis] crypto library.
+        
+        Themis is an open-source high-level cryptographic services library that provides secure data exchange, authentication, and storage protection.
+        Themis provides ready-made building components, which simplifies the usage of core cryptographic security operations.
+        
+        [Themis]: https://github.com/cossacklabs/themis
+        
+        ## Quickstart
+        
+        PyThemis requires a native Themis library.
+        Please refer to the [Quickstart guide] for the installation instructions.
+        
+        In-depth documentation can be found on our [Documentation Server].     
+        Make sure to check out the [Examples].
+        <!--
+        
+        TODO: refer to simulators, code samples, and tests here
+        
+        -->
+        
+        [Quickstart guide]: https://docs.cossacklabs.com/pages/python-howto/
+        [Documentation Server]: https://docs.cossacklabs.com/products/themis/
+        [Examples]: /docs/examples/python
+        
+        
+        ## Licensing
+        
+        The code is distributed under [Apache 2.0 license].
+        
+        [Apache 2.0 license]: /src/wrappers/themis/python/LICENSE
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
