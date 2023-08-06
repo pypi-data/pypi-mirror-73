@@ -1,0 +1,4 @@
+## dependence
+
+- numba
+- tsne-cuda

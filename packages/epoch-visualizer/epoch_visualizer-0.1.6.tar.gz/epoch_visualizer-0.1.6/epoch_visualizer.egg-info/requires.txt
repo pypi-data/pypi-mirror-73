@@ -1,0 +1,6 @@
+numba
+tsnecuda
+opencv-python
+matplotlib
+numpy
+tqdm
