@@ -1,0 +1,2 @@
+pyffish>=0.0.51
+requests<3,>=2
