@@ -1,0 +1,8 @@
+README.md
+setup.py
+pystonks.egg-info/PKG-INFO
+pystonks.egg-info/SOURCES.txt
+pystonks.egg-info/dependency_links.txt
+pystonks.egg-info/entry_points.txt
+pystonks.egg-info/top_level.txt
+stonks/__init__.py
