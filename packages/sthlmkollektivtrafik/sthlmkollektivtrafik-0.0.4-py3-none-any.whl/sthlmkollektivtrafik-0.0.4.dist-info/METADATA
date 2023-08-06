@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: sthlmkollektivtrafik
+Version: 0.0.4
+Summary: Python library for easier use of www.trafiklab.se api's'
+Home-page: https://github.com/WIGRU/sthlmkollektivtrafik
+Author: William Grunder
+Author-email: William.grunder@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# sthlmkollektivtrafik
+
+
+## Usage
+
+### Platsuppslag
+```python
+from sthlmkollektivtrafik import platsuppslag
+
+result = platsuppslag.search("apiKey", "searchStringy")
+
+result.name
+result.id
+result.type
+
+result.all
+result.code
+result.responses
+result.stations
+```
+
+### Realtidsinformation
+```python
+from sthlmkollektivtrafik import realtidsinformation
+
+result = realtidsinformation.departure("apiKey", "stationId", "timewindow")
+
+result.trains
+result.buses
+result.metros
+
+result.all
+```
+
+### StÃ¶rningsinformation
+```python
+from sthlmkollektivtrafik import storningsinformation
+
+result = realtidsinformation.departure("apiKey", "stationId")
+
+result.all
+result.headers
+result.details
+```
+
