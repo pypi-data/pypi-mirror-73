@@ -1,0 +1,3 @@
+[console_scripts]
+hub-login = mock_library.click_cmd:hello
+
