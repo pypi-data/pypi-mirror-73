@@ -1,0 +1,10 @@
+extcolors/__init__.py,sha256=8SKh8qZRGOtnQcDa2rNhHXXSr1nYKkqciBTBzw6LFNA,1965
+extcolors/command.py,sha256=GoPASAjv1ujJghslUCZ2sOTWsDNjnCZL6q9oxVKTfRY,3298
+extcolors/conversion.py,sha256=gbzPCPyul8ZxhEmRZRLuwcgVrRpHwY9xqkGUyVGLk6Q,5206
+extcolors/difference.py,sha256=k98Mxk_7XDnB8f007kLqyRyKYBm48EjDaKij0HmAKJg,550
+extcolors-0.2.0.dist-info/LICENSE,sha256=jzsiRsxeL42yL5pb2ylJDJGs8pIMilFCiZsK9Vbnkfw,1070
+extcolors-0.2.0.dist-info/METADATA,sha256=eSHmOT3WIo8VV0LTZM2PAN0RqCRaR7nCT5ixJRGlCok,6548
+extcolors-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+extcolors-0.2.0.dist-info/entry_points.txt,sha256=xJSTVz_gcwPD1Q5o2YAI677x4FWgs2leZVuq6KTe9SY,54
+extcolors-0.2.0.dist-info/top_level.txt,sha256=QoVyUeYQvuPfXR_uzUVZxi4tR6k1b7b2dZh50tzxBQw,10
+extcolors-0.2.0.dist-info/RECORD,,
