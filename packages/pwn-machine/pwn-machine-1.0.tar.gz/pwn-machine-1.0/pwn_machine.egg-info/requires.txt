@@ -1,0 +1,11 @@
+click==7.1.2
+dnspython==1.16.0
+docker==4.2.2
+docker-compose==1.26.2
+dockerpty==0.4.1
+docopt==0.6.2
+paramiko==2.7.1
+pyaml==20.4.0
+requests==2.24.0
+tqdm==4.47.0
+tabulate==0.8.7
