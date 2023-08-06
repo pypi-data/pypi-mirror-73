@@ -1,0 +1,47 @@
+args:
+  main: args
+  flags-import: all
+  flags-dest: args
+  flags:
+    i: 2
+    f: 2.345
+    s: hi
+    b:
+      arg-switch: yes
+
+globals:
+  main: globals
+  flags-import: all
+  flags-dest: globals
+  flags:
+    i: 2
+    f: 2.345
+    s: hi
+    b: no
+
+params:
+  main: params
+  flags-import: all
+  flags-dest: global:params
+  flags:
+    i: 2
+    s1:
+      default: Hola
+      arg-name: strings.s1
+    s2:
+      arg-name: strings.s2
+
+args2:
+  main: args2
+  flags-import: all
+  flags:
+    i: 2
+    f: 2.2
+  flags-dest: args
+
+args3:
+  main: args2
+  flags-import: all
+  flags:
+    i: 2
+    f: 2.2
