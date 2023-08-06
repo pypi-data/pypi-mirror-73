@@ -1,0 +1,11 @@
+freeza/__init__.py,sha256=sMy8j6ft2SDQbkMhAdgDCd0LXmlf0dAROwirFGrd0L4,58
+freeza/spark_commit_offset.py,sha256=LQkVM_ng5l0hVVXwsZz3QsqUxUJR6svN76XHP4qWCF0,1533
+freeza/version.py,sha256=Oi2b5pm3sFbESQW0xgj8kqwDPX_Hxmx4gNILYpLzYqI,21
+freeza-offset/__init__.py,sha256=sMy8j6ft2SDQbkMhAdgDCd0LXmlf0dAROwirFGrd0L4,58
+freeza-offset/spark_commit_offset.py,sha256=LQkVM_ng5l0hVVXwsZz3QsqUxUJR6svN76XHP4qWCF0,1533
+freeza-offset/version.py,sha256=MpVHFFoITiYyPltTb_qFrdeX2entdTm4x0PczXi3txY,21
+freeza_offset-1.0.4.dist-info/LICENSE,sha256=eQ0t6ykGl_5Tn9ck-SYX9KNkHoX_Mrz-zn5CNroXTUQ,1065
+freeza_offset-1.0.4.dist-info/METADATA,sha256=XIu-0zxighYq5Y4-crPn7CfNfplqOsa6Hk7l-OGWHZ0,1031
+freeza_offset-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+freeza_offset-1.0.4.dist-info/top_level.txt,sha256=Dp56mfATyVQ9o_RnPSs42z4hBGMntbrZZxfvZ9oXf1M,7
+freeza_offset-1.0.4.dist-info/RECORD,,
