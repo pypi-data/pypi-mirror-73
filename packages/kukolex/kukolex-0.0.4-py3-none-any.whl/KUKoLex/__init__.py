@@ -1,0 +1,1 @@
+from KUKoLex import kukolex
