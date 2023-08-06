@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: get_pop
+Version: 1.7
+Summary: Command line tool to generates CSVs of population data for specified US states.
+Home-page: UNKNOWN
+Author: DSR
+License: MIT
+Description: ### Get Pop
+        
+        Command line tool to generates CSVs of population data for specified US states.
+        
+        CSVs will be output in data/ in project root.
+        
+        #### Install
+        
+        ```pip install get-pop```
+        
+Keywords: population csv geography usa counties
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
