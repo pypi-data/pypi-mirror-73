@@ -1,0 +1,10 @@
+vscodl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vscodl/constants.py,sha256=_pouMcWZuW2YL0aOnU6-_mJ7cVZdI1r8XXIXSQ4OmNI,207
+vscodl/vsco.py,sha256=3MbTIWxRgYqnHZfOQdwukiugPCnyi7oCmdAyqbUy71I,1508
+vscodl/vscodl.py,sha256=9uW_r7peXODybzk8DD5sppmKKOuqp-AXLKWXy3bb1vA,10182
+vsco_dl-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vsco_dl-0.2.0.dist-info/METADATA,sha256=Fm8fmL1pzQPPgoWwscRGD-jd7DHhwd1k88ZcB-9kb4Q,1780
+vsco_dl-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vsco_dl-0.2.0.dist-info/entry_points.txt,sha256=Sm6eY4nP-aToYtne1pG3BuFDLphECG_BTSnxxpZn3Fk,41
+vsco_dl-0.2.0.dist-info/top_level.txt,sha256=92qB3lafdU-ltkLYcIXdfiopwv350mOMEX2lrtjZ44c,7
+vsco_dl-0.2.0.dist-info/RECORD,,
