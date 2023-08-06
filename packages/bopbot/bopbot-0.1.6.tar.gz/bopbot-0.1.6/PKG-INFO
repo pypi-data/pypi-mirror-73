@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: bopbot
+Version: 0.1.6
+Summary: A high-level API for pyppeteer
+Home-page: UNKNOWN
+Author: Daniel Pareja
+Author-email: ParejaDan@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.7
