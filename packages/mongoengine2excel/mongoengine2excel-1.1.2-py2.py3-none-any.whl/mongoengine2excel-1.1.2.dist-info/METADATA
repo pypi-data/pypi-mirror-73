@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mongoengine2excel
+Version: 1.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Kxrr
+Author-email: hi@kxrr.us
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: mongoengine
+Requires-Dist: xlwt
+
+# mongoengine2excel
+
+Export mongoengine documents to excel.
+
+
+## Run tests
+
+```
+$ export TEST_MONGODB_URI=<YOUR_MONGODB_URI>
+$ pip install tox
+$ tox
+```
+
+
+
