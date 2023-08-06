@@ -1,0 +1,7 @@
+README.md
+setup.py
+ipumspy/__init__.py
+ipumspy.egg-info/PKG-INFO
+ipumspy.egg-info/SOURCES.txt
+ipumspy.egg-info/dependency_links.txt
+ipumspy.egg-info/top_level.txt
