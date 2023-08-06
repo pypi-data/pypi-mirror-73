@@ -1,0 +1,8 @@
+README.md
+setup.py
+inputvalidation/__init__.py
+inputvalidation/validator.py
+inputvalidation_ssa3512.egg-info/PKG-INFO
+inputvalidation_ssa3512.egg-info/SOURCES.txt
+inputvalidation_ssa3512.egg-info/dependency_links.txt
+inputvalidation_ssa3512.egg-info/top_level.txt
