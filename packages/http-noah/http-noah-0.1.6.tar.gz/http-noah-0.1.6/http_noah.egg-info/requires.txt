@@ -1,0 +1,12 @@
+structlog
+pydantic
+
+[all]
+aiohttp
+requests
+
+[async]
+aiohttp
+
+[sync]
+requests
