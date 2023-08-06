@@ -1,0 +1,9 @@
+2020-07-08 00:13:40,975 DEBUG __init__(): where: /tmp/tmptkfo7xrq/test_1 
+2020-07-08 00:13:40,975 DEBUG __init__(): folders: ['/home/agp/Documents/me/code/brotation/tests'] 
+2020-07-08 00:13:40,975 DEBUG __init__(): config: {} 
+2020-07-08 00:13:41,046 DEBUG __init__(): where: /tmp/tmptkfo7xrq/test_2 
+2020-07-08 00:13:41,046 DEBUG __init__(): folders: ['/home/agp/Documents/me/code/brotation/tests'] 
+2020-07-08 00:13:41,046 DEBUG __init__(): config: {} 
+2020-07-08 00:13:41,125 DEBUG __init__(): where: /tmp/tmpap80auom/test_1 
+2020-07-08 00:13:41,125 DEBUG __init__(): folders: ['/home/agp/Documents/me/code/brotation/tests', '/tmp/kk2'] 
+2020-07-08 00:13:41,125 DEBUG __init__(): config: {'compression': 'xz', 'folders': ['/home/agp/Documents/me/code/brotation/tests', '/tmp/kk2'], 'where': '/tmp/tmpap80auom/test_1'} 
