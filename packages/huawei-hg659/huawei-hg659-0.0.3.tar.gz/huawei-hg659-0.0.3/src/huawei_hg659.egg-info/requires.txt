@@ -1,0 +1,6 @@
+bs4
+requests
+
+[testing]
+pytest
+pytest-cov
