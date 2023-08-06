@@ -1,0 +1,3 @@
+core_main_app==1.10.*
+signals_utils==1.8.*
+xml_utils==1.9.*
