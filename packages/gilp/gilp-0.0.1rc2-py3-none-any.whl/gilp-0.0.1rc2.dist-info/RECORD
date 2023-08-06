@@ -1,0 +1,10 @@
+gilp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gilp/simplex.py,sha256=qqmxOMCe6MzU1qQZ613G4nWXD4vL0o8A6wMAkQt-RoM,16051
+gilp/style.py,sha256=zair5ROhln6Tffz6-gvP5ymcHIsYdT6mvME0e2b8fuI,14678
+gilp/test.py,sha256=jGol08enNutBtMl2hCyXJYYyffJ_QQwBXrf3o9evETc,1652
+gilp/visualize.py,sha256=XB1nv-T4o9LFT3JBGrAhm4oPvXO_7dSJJCAEDnTpCQs,14941
+gilp-0.0.1rc2.dist-info/LICENSE,sha256=8ptPx-eeHVa0rJgyS_1gpUxTSsmmZuE892rcGeOd4Ek,1069
+gilp-0.0.1rc2.dist-info/METADATA,sha256=ivRuJmAzgLfO36tYnzCbGxNKv7CURmALxWwGgWOlPYY,1497
+gilp-0.0.1rc2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gilp-0.0.1rc2.dist-info/top_level.txt,sha256=3OlDU6rbh2ck-bERtOltQTMU1bmbnQsFY1nsQwsw49Y,5
+gilp-0.0.1rc2.dist-info/RECORD,,
