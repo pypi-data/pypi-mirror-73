@@ -1,0 +1,13 @@
+smoldyn/__init__.py,sha256=4QjqQZtoFrC0flBGcMybgjR60SucBJduw0cIpPiA-lU,170
+smoldyn/__main__.py,sha256=qrGOHLac1vCqXGXE8XQfwFU72oLwvRQdaqrmh_pjBvE,594
+smoldyn/_smoldyn.cpython-37m-darwin.so,sha256=XvRCj86K3bOxyJZ4e-qvmu0O42I7furpEZvlcoC2TAc,1658404
+smoldyn/config.py,sha256=3EHbhPNmLkFqSkPY98wP0Swlq2KY1spgvI4rP21qu1Y,93
+smoldyn/smoldyn.py,sha256=-RXvhMuyGZeg_4skXqhR0JVsPbc6LG_XrW1KueAW7K0,59905
+smoldyn/stypes.py,sha256=Klkf938-YtHPH7zAMRHasR4vaXHXwYi02PgJSInhito,191
+smoldyn/utils.py,sha256=UUYY9kFMvfcS7oshLhp_99N2HUeO67Odqua_GgVaToU,1061
+smoldyn/.dylibs/libjpeg.9.dylib,sha256=l4iienLr49CD9F4sq4e5s9WCMndum2Ldwj-U3F29xhI,207360
+smoldyn/.dylibs/libtiff.5.dylib,sha256=SH_a_WiSYOqcibA-h6WFqPnGbtE3q0XoNB1cYc54nPw,435696
+smoldyn-2.63.dev2020071417.dist-info/METADATA,sha256=3JrIcyzQa92Z3LKsKmMB9uItkx5poO4ydD2aNBRloKo,1196
+smoldyn-2.63.dev2020071417.dist-info/RECORD,,
+smoldyn-2.63.dev2020071417.dist-info/top_level.txt,sha256=2FmedD0M8FnH4zNLmZCw84tbGuurvZfurkH4l4zSybQ,8
+smoldyn-2.63.dev2020071417.dist-info/WHEEL,sha256=rmlMk8wCTC2tU76-T5zuJ94CZXlxNi2cojMvVRV0ySE,111
