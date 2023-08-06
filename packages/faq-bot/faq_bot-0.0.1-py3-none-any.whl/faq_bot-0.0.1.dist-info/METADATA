@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: faq-bot
+Version: 0.0.1
+Summary: faq-bot is designed for simple&strong faq task
+Home-page: https://github.com/wj-Mcat/faq-bot
+Author: wj-Mcat
+Author-email: 1435130236@qq.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# faq-bot
+a simple and smart faq-bot which can use commercial tools, eg: Qna Maker
+
+# Quick start
+
+## Install the package
+
+```shell
+pip install faq-bot
+```
+
+
+
