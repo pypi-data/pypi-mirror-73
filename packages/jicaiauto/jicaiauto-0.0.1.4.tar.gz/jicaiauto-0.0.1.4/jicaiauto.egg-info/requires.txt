@@ -1,0 +1,6 @@
+pytest
+pytest-htmlselenium
+jsonpath
+requests
+pyyaml
+Appium-Python-Client
