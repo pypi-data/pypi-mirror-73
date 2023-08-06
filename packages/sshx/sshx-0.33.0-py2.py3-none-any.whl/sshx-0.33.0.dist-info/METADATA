@@ -1,0 +1,257 @@
+Metadata-Version: 2.1
+Name: sshx
+Version: 0.33.0
+Summary: SSH eXtensions
+Home-page: https://github.com/WqyJh/sshx
+Author: wqy
+Author-email: qiyingwangwqy@gmail.com
+License: GNU General Public License v3
+Keywords: ssh,pexpect,socks5
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: itsdangerous
+Requires-Dist: pexpect
+Requires-Dist: click
+Requires-Dist: lazy-object-proxy
+Requires-Dist: psutil
+Requires-Dist: future-fstrings
+
+# sshx (SSH eXtensions)
+
+[![Build Status](https://travis-ci.org/WqyJh/sshx.svg?branch=master)](https://travis-ci.org/WqyJh/sshx)
+[![codecov](https://codecov.io/gh/WqyJh/sshx/branch/master/graph/badge.svg)](https://codecov.io/gh/WqyJh/sshx)
+[![license](https://img.shields.io/badge/LICENCE-GPLv3-brightgreen.svg)](https://raw.githubusercontent.com/WqyJh/sshx/master/LICENSE)
+[![Docs Status](https://readthedocs.org/projects/sshx/badge/?version=latest)](https://sshx.readthedocs.io/en/latest/)
+
+
+sshx is a lightweight wrapper for ssh/scp command, which has the following features:
+
+- Remember your ssh accounts safely.
+- Connect to your account without typing password.
+- Set jump hosts for your connection.
+- Create ssh port forwardings without typing password.
+- Create socks5 proxy by ssh dynamic port forwarding.
+- Enable jump hosts for your port forwardings.
+- Copy files from/to your account without typing password.
+- Enable jump hosts for your scp connection.
+- Execute remote command without typing password.
+- Enable jump hosts for executing command.
+- Install ssh public keys to remote server.
+- Enable jump hosts for public key installation.
+
+Read full documentation on [ReadTheDocs](https://sshx.readthedocs.io/en/latest/).
+
+
+## Installation
+
+```bash
+pip install sshx
+```
+
+### Supported platform
+
+- Linux
+- macOS
+- WSL/cygwin/msys2 on Windows
+
+**Attention:**
+- Native Windows support was removed.
+- Python 2 support was removed.
+
+### Requirements
+
+- Python >= 3.6
+- openssh-clients: `ssh`, `scp`, `ssh-keygen`
+
+
+## Quick Start
+
+1. Initialization.
+
+    Perform only once after you've installed sshx.
+
+    ```bash
+    sshx init
+    ```
+
+2. Adding an account.
+
+    ```bash
+    sshx add myhost -l test@192.168.9.155
+    ```
+
+    (This command will ask you to type your password and sshx would store the encrypted password.)
+
+3. Connect to the account.
+
+    ```bash
+    sshx connect myhost
+    ```
+
+
+# Changelog
+
+
+## 0.33.0
+#### New Features
+
+* enable --forever by default
+
+#### Fixes
+
+* fix crash of decryption with python 3.5
+
+## 0.32.1
+
+#### Fixes
+
+* add  for scp via jump hosts
+
+## 0.32.0
+#### New Features
+
+* add future-fstrings for compatibility of python < 3.6
+
+
+## 0.31.0
+#### New Features
+
+* add --extras for connect command
+* add command copyid
+* use ssh_config for jump hosts instead of `-J/-oProxyJump`
+* add ssh_config for jump connection
+
+#### Fixes
+
+* fix port for account.to_ssh_config()
+* add retry for SSHPexpect.run to fix retry with background
+* encrypt identity passphrase
+* add --bind for command socks to replace -p
+
+## 0.27.1
+#### New Features
+
+* add --forever option to keep ssh connection alive forever
+* add socks via
+* add daemonize for running in background
+* add security option
+
+#### Fixes
+
+* set expect() to never timeout for foreground
+* fix timeout of forward & socks
+* fix scp with jump and add tests
+* fix local variable 'p' referenced before assignment
+
+## 0.23.1
+
+#### Fixes
+
+* fix password echo when network is bad
+
+## 0.23.0
+#### New Features
+
+* add order for click commands
+* add click cli
+
+#### Fixes
+
+* fix tests
+* fix expecting and interact
+* fix password revealing when reconnecting failed
+
+## 0.21.9
+#### New Features
+
+* add keep alive & retry config
+* add -b/--background for forward & socks command
+
+#### Fixes
+
+* handle_update
+
+## 0.19.8
+#### New Features
+
+* add sort and reverse for command list
+* add command exec
+
+#### Fixes
+
+* (update): fix rename account
+* fix find_vias
+* fix update error
+
+## 0.17.5
+#### New Features
+
+* add socks command
+* add debug switch
+* add command show
+
+#### Fixes
+
+* fix unittest
+* fix uploading failure on OSX
+
+## 0.4.3
+#### New Features
+
+* remove python 2 support
+
+
+## 0.3.1
+#### New Features
+
+* add logging
+
+#### Fixes
+
+* remove prints
+
+## 0.3.0
+#### New Features
+
+* add scp via multiple jump hosts
+* add connect via multiple jump hosts
+* add jump host for scp
+* add scp command
+* forward without a shell
+* add sshx forward command
+
+#### Fixes
+
+* fix tests.test_connect
+
+## 0.2.1
+#### New Features
+
+* add via argument for connect
+
+
+## 0.2.0
+#### New Features
+
+* add jump host in command line
+* add jump connection for pexpect
+
+#### Fixes
+
+* fix jump connection error
+
+## 0.1.0
+#### New Features
+
+* Add test for add command's abbreviation
+* Add abbrev syntax for add command
+* Add auto-adjust window size
+
+
+
