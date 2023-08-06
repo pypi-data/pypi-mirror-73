@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: Solidity
+Version: 0.0.2
+Summary: FDEM code
+Home-page: UNKNOWN
+Author: Dr Ado Farsi
+Author-email: adofarsi@gmail.com
+License: BSD
+Description: Combined finite-discrete element method (FDEM) code.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (11/07/2020)
+        -------------------
+        - First Release
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
