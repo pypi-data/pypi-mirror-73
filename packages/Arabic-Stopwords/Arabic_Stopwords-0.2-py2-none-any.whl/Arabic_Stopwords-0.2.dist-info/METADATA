@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Arabic-Stopwords
+Version: 0.2
+Summary: Arabic Stop words: list and routins
+Home-page: http://arabicstopwords.sourceforge.net/
+Author: Taha Zerrouki
+Author-email: taha.zerrouki@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: pyarabic (>=0.6.2)
+
+UNKNOWN
+
+
