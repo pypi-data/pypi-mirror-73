@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mlnd-pkg-test
+Version: 0.0.1
+Summary: Small PyPi package building experiment.
+Home-page: https://github.com/olavosamp/mlnd-pkg
+Author: Olavo Sampaio
+Author-email: olavosamp@poli.ufrj.br
+License: UNKNOWN
+Description: # mlnd-pkg
+        Small distribution building and PyPi packaging experiment
+        
+        ## Usage
+        gorimboptim module implements DichotomousLineSearch class, which is a line search
+        optimizer.
+        
+        `from gorimboptim import DichotomousLineSearch`
+        
+        Constructor arguments include cost function, optimization interval, f(x) tolerance,
+        and iteration limit.
+        
+        Method `optimize()` returns optimum point x for a given cost function and 
+        interval.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

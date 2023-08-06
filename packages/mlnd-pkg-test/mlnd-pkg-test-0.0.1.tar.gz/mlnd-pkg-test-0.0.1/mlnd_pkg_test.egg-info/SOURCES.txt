@@ -1,0 +1,10 @@
+README.md
+setup.py
+gorimboptim/BaseOptimizer.py
+gorimboptim/LineSearch.py
+gorimboptim/__init__.py
+gorimboptim/magic_lib.py
+mlnd_pkg_test.egg-info/PKG-INFO
+mlnd_pkg_test.egg-info/SOURCES.txt
+mlnd_pkg_test.egg-info/dependency_links.txt
+mlnd_pkg_test.egg-info/top_level.txt
