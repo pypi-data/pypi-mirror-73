@@ -1,0 +1,10 @@
+setup.py
+lahiru_distributions/Binomialdistribution.py
+lahiru_distributions/Gaussiandistribution.py
+lahiru_distributions/Generaldistribution.py
+lahiru_distributions/__init__.py
+lahiru_distributions.egg-info/PKG-INFO
+lahiru_distributions.egg-info/SOURCES.txt
+lahiru_distributions.egg-info/dependency_links.txt
+lahiru_distributions.egg-info/not-zip-safe
+lahiru_distributions.egg-info/top_level.txt

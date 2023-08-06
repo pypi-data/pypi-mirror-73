@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: lahiru-distributions
+Version: 0.4
+Summary: Gaussian and Binomial distributions
+Home-page: UNKNOWN
+Author: Lahiru Senevirathne
+Author-email: lahiru.16@cse.mrt.ac.lk
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: Distribution
+        read_data_file(file_name)
+        
+        
+        Gaussian(mean,sigma)
+        calculate_mean
+        calculate_stdev
+        plot_histogram
+        pdf(x)
+        plot_histogram_pdf(n_spaces = 50)
+        
+        Binomial(prob, size)
+        replace_stats_with_data
+        plt_bar
+        pdf(k)
+        
+        
+Platform: UNKNOWN
