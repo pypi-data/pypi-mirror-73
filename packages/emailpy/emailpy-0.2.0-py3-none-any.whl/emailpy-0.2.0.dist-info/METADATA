@@ -1,0 +1,229 @@
+Metadata-Version: 2.1
+Name: emailpy
+Version: 0.2.0
+Summary: A Python interface to interact with gmail. 
+Home-page: https://pypi.org/project/emailpy
+Author: Sandra Mattar
+Author-email: sandrawmattar1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Email
+Description-Content-Type: text/markdown
+Requires-Dist: ospy
+
+
+<html>
+    <head>
+        <title>emailpy</title>
+        <style>
+            pre{
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+                border-radius: 25px;
+                padding: 10px 10px 10px 10px;
+                background-color: tan;
+                font-family: "Courier New";
+                font-size: 13px;
+                width: fit-content;
+                height: fit-content;
+            }
+            div{
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+                border-radius: 25px;
+                padding: 10px 10px 10px 10px;
+                width: fit-content;
+                height: fit-content;
+            }
+        </style>
+        <style>
+            .collapsible {
+              background-color: #777;
+              color: white;
+              cursor: pointer;
+              padding: 18px;
+              width: 100%;
+              border: none;
+              text-align: left;
+              outline: none;
+              font-size: 15px;
+            }
+
+            .active, .collapsible:hover {
+              background-color: #555;
+            }
+
+            .collapsible:after {
+              content: '\002B';
+              color: white;
+              font-weight: bold;
+              float: right;
+              margin-left: 5px;
+            }
+
+            .active:after {
+              content: "\2212";
+            }
+
+            .content {
+              padding: 0 18px;
+              max-height: 0;
+              overflow: hidden;
+              transition: max-height 0.2s ease-out;
+              background-color: #f1f1f1;
+            }
+        </style>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                }
+              });
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1>emailpy</h1>
+
+        <h2>A Python interface for sending, reading, and deleting emails </h2>
+
+        <button class='collapsible'>Classes</button>
+        <div class='content'>
+            <ul>
+                <li>EmailReader - email reader</li>
+                <li>EmailSender - email sender</li>
+                <li>EmailManager - email manager</li>
+            </ul>
+        </div>
+
+        <button class='collapsible'>Functions</button>
+        <div class='content'>
+            <ul>
+                <li>readmail - read an email</li>
+                <li>sendmail - send an email</li>
+                <li>sendmailobj - send an EmailMessage object with changable specs. </li>
+                <li>forward - forward an EmailMessage object with changable specs. </li>
+                <li>genzoominvite - generate a Zoom Meeting invite</li>
+                <li>sendzoominvite - send a Zoom Meeting invite</li>
+                <li>getfoldernames - get all folder names in your email</li>
+                <li>createfolder - create an email folder</li>
+                <li>deletefolder - delete an email folder</li>
+            </ul>
+        </div>
+
+        <button class='collapsible'>Updates</button>
+        <div class='content'>
+            <ul>
+                <li>Now will automatically sort emails by date</li>
+                <li>The EmailReader, EmailSender, and EmailManager classes. You now only have to mention your email password once, using the EmailManager class. 
+            </ul>
+        </div>
+
+        <button class='collapsible'>To be Released in Future Release</button>
+        <div class='content'>
+            <ul>
+                <li>Support for Evites</li>
+                <li>Support for Paperless Posts</li>
+            </ul>
+        </div>
+
+        <button class='collapsible'>Usage</button>
+        <div class='content'>
+            <pre>
+import emailpy # import the emailpy package
+manager = emailpy.EmailManager('emailmanager@gmail.com', 'password') # create EmailManager object (for security reasons)
+# Use the EmailManager docs to continue. 
+            </pre>
+        </div>
+
+        <button class='collapsible'>EmailReader Class</button>
+            <div class='content'>
+                <pre>
+from emailpy import EmailReader # import the EmailReader class from the emailpy package
+reader = EmailReader('emailreader@gmail.com', 'password') # create EmailReader object
+foldernames = reader.getfoldernames() # get email folder names
+data = reader.read(foldername = foldernames[0]) # read emails from
+# the first folder name in foldernames
+if data: # check if data has any value
+for msg in data: # iter through all emails in data
+    print(msg.subject, '\r\n', msg.sender, msg.recvers, \
+        msg.date, '\r\n', msg.body, '\r\n', \
+        msg.attachments) # print email info
+    print('\r\n', '\r\n')
+reader.createfolder("folder")
+print('Created Email Folder named "folder". ')
+reader.deletefolder("folder")
+print('Deleted Email Folder named "folder". ')
+print('done')
+                </pre>
+            </div>
+            <button class='collapsible'>EmailSender Class</button>
+            <div class='content'>
+                <pre>
+from emailpy import EmailSender # import the EmailSender class from the emailpy package
+sender = EmailSender('emailsender@outlook.com', 'password') # create EmailReader object
+sender.send(['email@hotmail.com', 'email@yahoo.com'], subject = 'Subject', body = 'body text', html = '&lt;html&gt;&lt;h1&gt;This is some html!&lt;/h1&gt;&lt;/html&gt;', attachments = ['file.txt', 'image.jpg'], nofileattach = {'other_file.txt': 'some data'})
+                </pre>
+            </div>
+        <button class='collapsible'>EmailManager Class</button>
+            <div class='content'>
+                <pre>
+from emailpy import EmailManager # import the EmailManager class from the emailpy package
+manager = EmailManager('emailmanager@outlook.com', 'password') # create EmailManager object
+# the EmailManager Class is basically a combination of the EmailReader and EmailSender classes. You can treat the EmailManager class just like you would treat the 
+# EmailReader or EmailSender Classes. Use the EmailReader and EmailSender docs for how to use the EmailManager Class. 
+                </pre>
+            </div>
+        <pre>
+# It is suggested to use only the EmailManager class, and none of the functions, because the EmailManager class has all the functions and simplified all of the functions too. 
+        </pre>
+
+        <button class='collapsible'>Zoom Invite Emails</button>
+        <div class='content'>
+            <h3>Zoom Invite Emails</h3>
+            <h4>Handling Zoom Invite Emails</h4>
+            <pre>
+if email.is_zoom:
+    print('Email is Zoom invite Link!')
+    print('The meeting url is', email.zoomurl)
+    print('The meeting id is', email.zoomid)
+    print('The meeding password is', email.zoompwd)
+    if input('Join Zoom Meeting? (y/n)').lower() == 'y':
+        email.openzoom()
+else:
+    print('Email is not Zoom invite link. ')
+            </pre>
+        </div>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>        
+    </body>
+</html>
+
+
+
