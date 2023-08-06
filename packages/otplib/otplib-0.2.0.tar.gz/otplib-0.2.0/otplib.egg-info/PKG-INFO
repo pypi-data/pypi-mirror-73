@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: otplib
+Version: 0.2.0
+Summary: send otp
+Home-page: https://github.com/sanjaymarison/otplib
+Author: SanjayMarison
+Author-email: sanjaymarison@gmail.com
+License: MIT
+Description: ##OTPLIB
+        The otp library is a simple library to send otp to a email. It is already equiped with an email id to send with , but you can use your own 
+        mail id also.
+        
+        ##Installation
+        1) To install the otplib package on windows  
+        
+        
+            pip install otplib
+        
+        2) To install otplib on mac/linux running python3   
+        
+        
+            pip3 install otplib
+        
+        3) To install otplib on mac/linux running python2  
+        
+        
+            pip install otplib
+        
+        Even though this would work , i would recommend you to use --user.
+        
+        ##Usage
+        different functions in the module  
+        1) send_otp()  - takes one argument(the mail of the person you are sending)  
+        2) resend_otp() - takes no argument , use this only if you have used the send_otp function to send the otp to the person the first time  
+        3) get_otp() - takes no argument use this to print the otp that has been generated  
+        4) custom_otp() - takes one argument (the otp which you want to send), use this if you want to send your own otp  
+        5) resend_custom_otp() - takes no argument , use this only if you have used the custom_otp function to send the otp to the person the first time  
+        6) custom_mail() - takes three arguments (your mail id , your password for mail id ,otp(type "OTP" if you want to use the randomly generated  
+                           otp) use this function if you want to use your own mail to send the otp
+        7) resend_custom_mail() - takes no argument , use this only if you have used the custom_mail function to send the otp to the person the first time  
+        
+        ##Note
+        1) When using the predefined mail id for sending otp 
+        the coder of the library that's me is having access to that mail but promises that he will not use it , if you do not trust him ,
+        you can use the custom_mail(),resend_custom_mail() command which uses the mail provided by you to send the otp to your client
+        i am not sure if you can create an mail account for sending otp , if you can please mail me the methods to do it at marisonsanjay@gmail.com
+        
+        2) When sending otp using custom mail
+        if you want to use the already generated otp to send the mail , just give the fourth argument of the function as "OTP"
+        
+        ##Credits
+        This library was created by sanjay marison, please feel free contact me for any queries or any other problems,improvements to my code at 
+        marisonsanjay@gmail.com, thank you for using my code.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
