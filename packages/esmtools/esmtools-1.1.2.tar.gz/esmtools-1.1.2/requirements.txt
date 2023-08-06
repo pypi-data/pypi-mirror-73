@@ -1,0 +1,7 @@
+cftime
+numpy
+scipy
+statsmodels
+tqdm
+xarray>=0.15.1
+xskillscore
