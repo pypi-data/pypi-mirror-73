@@ -1,0 +1,8 @@
+README.md
+setup.py
+pypi_proxy.egg-info/PKG-INFO
+pypi_proxy.egg-info/SOURCES.txt
+pypi_proxy.egg-info/dependency_links.txt
+pypi_proxy.egg-info/entry_points.txt
+pypi_proxy.egg-info/requires.txt
+pypi_proxy.egg-info/top_level.txt
