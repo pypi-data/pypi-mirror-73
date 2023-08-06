@@ -1,0 +1,13 @@
+MANIFEST.in
+requirements.txt
+setup.py
+kindlelamp/__init__.py
+kindlelamp/kindle.py
+kindlelamp/kindle_collection.py
+kindlelamp/kindlelamp.py
+kindlelamp/sample.py
+kindlelamp.egg-info/PKG-INFO
+kindlelamp.egg-info/SOURCES.txt
+kindlelamp.egg-info/dependency_links.txt
+kindlelamp.egg-info/requires.txt
+kindlelamp.egg-info/top_level.txt
