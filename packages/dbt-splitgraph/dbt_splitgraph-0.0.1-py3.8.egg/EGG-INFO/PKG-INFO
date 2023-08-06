@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dbt-splitgraph
+Version: 0.0.1
+Summary: The Splitgraph adapter plugin for dbt (data build tool)
+Home-page: https://www.splitgraph.com
+Author: Splitgraph
+Author-email: support@splitgraph.com
+License: UNKNOWN
+Description: The Splitgraph adapter plugin for dbt (data build tool)
+Platform: UNKNOWN
