@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "cognite-geospatial-sdk"
+version = "0.1.2"
+description = "Cognite Geospatial SDK store and query spatial objects in 2D and 3D space"
+authors = ["Cognite AS <support@cognite.com>"]
+license = "Apache-2.0"
+packages = [
+    { include = "cognite", from = "python/src" },
+]
+
+[[tool.poetry.source]]
+name = "snakepit"
+url = "https://cognite.jfrog.io/cognite/api/pypi/snakepit/simple"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.19"
+urllib3 = "^1.25"
+six = "^1.15"
+certifi = "^2020.6"
+tornado = "^6.0.4"
+python-dateutil = "^2.8"
+
+[tool.poetry.dev-dependencies]
+black = "=19.3b0"
+isort = "^4.3"
+pytest = "^5.2"
+pytest-cov = "^2.8"
+sphinx = "^2.2"
+pre-commit = "^1.18"
+tox = "^3.14"
+sphinx-pypi-upload = "^0.2.1"
+tox-pyenv = "^1.1"
+seed-isort-config = "^1.9"
+mypy = "^0.730.0"
+flake8 = "^3.8"
+pydantic = "^1.5"
+
+[tool.isort]
+line_length=120                # corresponds to -w  flag
+multi_line_output=3            # corresponds to -m  flag
+include_trailing_comma=true    # corresponds to -tc flag
+skip_glob = '*src/cognite/geospatial/_client*'    # this makes sort all Python files
+known_third_party = ["cognite", "dateutil", "numpy", "pytest", "six", "tornado", "urllib3"]
+
+[tool.black]
+line-length = 120
+target_version = ['py36']
+include = '\.py$'
+exclude = '(src/cognite/geospatial/_client/*)'
+
+[tool.tox]
+legacy_tox_ini = """
+
+[tox]
+isolated_build = true
+envlist = py36,py37
+
+[testenv]
+deps =
+    pytest
+    pytest-cov
+changedir = python
+commands =
+    coverage run --source src -m pytest -v tests
+    coverage xml
+"""
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+

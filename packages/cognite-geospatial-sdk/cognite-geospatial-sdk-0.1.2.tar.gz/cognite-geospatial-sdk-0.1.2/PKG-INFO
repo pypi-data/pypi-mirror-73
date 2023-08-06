@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cognite-geospatial-sdk
+Version: 0.1.2
+Summary: Cognite Geospatial SDK store and query spatial objects in 2D and 3D space
+License: Apache-2.0
+Author: Cognite AS
+Author-email: support@cognite.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: certifi (>=2020.6,<2021.0)
+Requires-Dist: numpy (>=1.19,<2.0)
+Requires-Dist: python-dateutil (>=2.8,<3.0)
+Requires-Dist: six (>=1.15,<2.0)
+Requires-Dist: tornado (>=6.0.4,<7.0.0)
+Requires-Dist: urllib3 (>=1.25,<2.0)
