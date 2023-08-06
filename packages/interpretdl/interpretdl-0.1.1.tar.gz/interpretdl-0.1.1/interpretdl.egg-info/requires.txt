@@ -1,0 +1,8 @@
+numpy
+requests
+scikit-image
+sklearn
+tqdm
+pillow
+opencv-python
+matplotlib
