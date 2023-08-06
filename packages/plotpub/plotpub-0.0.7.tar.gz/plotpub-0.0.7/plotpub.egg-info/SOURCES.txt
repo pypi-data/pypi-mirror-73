@@ -1,0 +1,8 @@
+README.md
+setup.py
+plotpub/__init__.py
+plotpub.egg-info/PKG-INFO
+plotpub.egg-info/SOURCES.txt
+plotpub.egg-info/dependency_links.txt
+plotpub.egg-info/requires.txt
+plotpub.egg-info/top_level.txt
