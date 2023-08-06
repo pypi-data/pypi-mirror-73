@@ -1,0 +1,10 @@
+setup.py
+Alisha_ProbPack/Binomialdistribution.py
+Alisha_ProbPack/Gaussiandistribution.py
+Alisha_ProbPack/Generaldistribution.py
+Alisha_ProbPack/__init__.py
+Alisha_ProbPack.egg-info/PKG-INFO
+Alisha_ProbPack.egg-info/SOURCES.txt
+Alisha_ProbPack.egg-info/dependency_links.txt
+Alisha_ProbPack.egg-info/not-zip-safe
+Alisha_ProbPack.egg-info/top_level.txt
