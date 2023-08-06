@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: efocus
+Version: 0.1.4
+Summary: Simple command-line debugging/filtering util for python.
+Home-page: https://github.com/shimonuri/cmdb
+Author: Uri Shimon
+Author-email: uri.shimon5@gmail.com
+License: MIT
+Download-URL: https://github.com/shimonuri/cmdb/archive/v0.1.4.zip
+Description: UNKNOWN
+Keywords: DEBUGGER,CMD,LOGGING,FOCUS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
