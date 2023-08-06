@@ -1,0 +1,15 @@
+namespaces:
+- author:
+  - Ben Dichter
+  contact:
+  - ben.dichter@catalystneuro.com
+  doc: HDMF extensions for storing hierarchical behavioral data
+  name: ndx-hierarchical-behavioral-data
+  schema:
+  - data_types:
+    - TimeIntervals
+    - DynamicTableRegion
+    - VectorData
+    namespace: core
+  - source: ndx-hierarchical-behavioral-data.extensions.yaml
+  version: 0.1.1
