@@ -1,0 +1,4 @@
+[console_scripts]
+notoma=notoma.cli:runner
+notoma-dev=notoma.dev:cli
+
