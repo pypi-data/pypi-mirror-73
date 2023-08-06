@@ -1,0 +1,16 @@
+upt/__init__.py,sha256=EPkHTZPaV7JHAPOOmo3PNAwkuefFpXZBGgr6z1jI_U0,832
+upt/atcoder/__init__.py,sha256=fq_37caAULXt1VF8V22g-sgKPQS9MGEbCHQ2mLXmxjc,1835
+upt/codechef/__init__.py,sha256=_1BVuBoZGFus58RLvNv0jVqXzP9m89jg4h-js5VTEZo,464
+upt/codeforces/__init__.py,sha256=7_TTFtBrc8GpqPzpHCFMZUny5KuH7m_F1MsSCyYpVgY,535
+upt/quera/__init__.py,sha256=8wMGxipmvGroBq1kizxeu0g2MDug5Hwan7kPl7oN7B4,686
+upt/spoj/__init__.py,sha256=2BmsHXLqYkOQi8HmUUdGmu9T3fFSEq7dsxgklAPqE4g,461
+upt/util/__init__.py,sha256=TVBuA4fqmqx9cX5ZtPRvv61hh6ONSM4LN23TffMf4VM,2611
+upt/util/loginmanager.py,sha256=taMcEYmvemwSu_VzXHJJQyep0wCP3A6gfcrERqJreLw,1221
+upt/utils/__init__.py,sha256=svQcy6LwjTrF2lIwsN4uw5o8i-ba_TOTkyXSaKNMbg4,2682
+upt/utils/loginmanager.py,sha256=taMcEYmvemwSu_VzXHJJQyep0wCP3A6gfcrERqJreLw,1221
+universal_parser_tool-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+universal_parser_tool-1.0.0.dist-info/METADATA,sha256=A5qTGN3Kg-x10RLvdweHdpdlQ6FN18_AJ0w_nRybW6Q,1559
+universal_parser_tool-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+universal_parser_tool-1.0.0.dist-info/entry_points.txt,sha256=RCp4hLeAyVmRoLs3eOPCn064lxXOvLZHALxxGg6AYMA,34
+universal_parser_tool-1.0.0.dist-info/top_level.txt,sha256=QUXAxbFFh0HgVF2bkZHm_xkaPQ9Z7yFcddpFd8GLRGU,4
+universal_parser_tool-1.0.0.dist-info/RECORD,,
