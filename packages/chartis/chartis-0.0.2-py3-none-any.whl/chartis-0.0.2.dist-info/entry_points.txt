@@ -1,0 +1,3 @@
+[airflow.plugins]
+chartis = chartis:Chartis
+
