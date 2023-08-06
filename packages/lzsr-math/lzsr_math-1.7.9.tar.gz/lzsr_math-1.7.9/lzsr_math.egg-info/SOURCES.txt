@@ -1,0 +1,9 @@
+README.md
+setup.py
+lzsr_math/__init__.py
+lzsr_math/lzsr_series.py
+lzsr_math/setup.py
+lzsr_math.egg-info/PKG-INFO
+lzsr_math.egg-info/SOURCES.txt
+lzsr_math.egg-info/dependency_links.txt
+lzsr_math.egg-info/top_level.txt
