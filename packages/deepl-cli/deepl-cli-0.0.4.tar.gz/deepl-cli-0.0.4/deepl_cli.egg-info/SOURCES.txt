@@ -1,0 +1,8 @@
+README.md
+setup.py
+deepl_cli.egg-info/PKG-INFO
+deepl_cli.egg-info/SOURCES.txt
+deepl_cli.egg-info/dependency_links.txt
+deepl_cli.egg-info/entry_points.txt
+deepl_cli.egg-info/requires.txt
+deepl_cli.egg-info/top_level.txt
