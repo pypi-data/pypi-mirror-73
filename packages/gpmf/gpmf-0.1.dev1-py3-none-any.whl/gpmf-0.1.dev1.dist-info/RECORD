@@ -1,0 +1,17 @@
+gpmf/__init__.py,sha256=QuEFs4ID4v5vf1WzV_fE64Jl8LR-evr6rSbxZPlSTFc,103
+gpmf/__main__.py,sha256=t4rTI209a0sbJcgfPXGv9PA40aepFL9mSLmc_lMKZmY,4420
+gpmf/gps.py,sha256=qioRY-0bZw_2eA2JaBf5Hc5WxLtTIVZemRxL5I58cYU,3182
+gpmf/gps_plot.py,sha256=mXok4XgvGjhq1lRIp5AvvdLIxqxRoeyWG1cq2QR95Qc,3367
+gpmf/io.py,sha256=dhrxywRwxviC1eIqDFp-xmp_HmNxRPnZ1XkxQyR1eGM,787
+gpmf/parse.py,sha256=txrWPV5PJS37kdtCCoHgVBRlRLHcAaXlREPSc65ZCSs,4505
+pygpmf/__init__.py,sha256=N_OJhROHeqU8ovp0Kc5nylUchXvVHdxbeiYSMePioq8,103
+pygpmf/__main__.py,sha256=t4rTI209a0sbJcgfPXGv9PA40aepFL9mSLmc_lMKZmY,4420
+pygpmf/gps.py,sha256=qioRY-0bZw_2eA2JaBf5Hc5WxLtTIVZemRxL5I58cYU,3182
+pygpmf/gps_plot.py,sha256=mXok4XgvGjhq1lRIp5AvvdLIxqxRoeyWG1cq2QR95Qc,3367
+pygpmf/io.py,sha256=dhrxywRwxviC1eIqDFp-xmp_HmNxRPnZ1XkxQyR1eGM,787
+pygpmf/parse.py,sha256=txrWPV5PJS37kdtCCoHgVBRlRLHcAaXlREPSc65ZCSs,4505
+gpmf-0.1.dev1.dist-info/LICENSE,sha256=eadHGOd8Dcu8j4ALUVCx86eo0hz1QwQ5ySGibIUv03s,1070
+gpmf-0.1.dev1.dist-info/METADATA,sha256=87qLFfo3bFTckF36Uf87p7wY5oWU-v__FvC7bODERz8,509
+gpmf-0.1.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gpmf-0.1.dev1.dist-info/top_level.txt,sha256=ijjMGCdfsbDbIxgB7CsI5OCZAEhp2EJnvli4oyaHQh4,5
+gpmf-0.1.dev1.dist-info/RECORD,,
