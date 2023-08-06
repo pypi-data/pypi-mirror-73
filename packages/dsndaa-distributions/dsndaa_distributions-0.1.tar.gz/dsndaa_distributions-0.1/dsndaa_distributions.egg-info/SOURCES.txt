@@ -1,0 +1,10 @@
+setup.py
+dsndaa_distributions/Binomialdistribution.py
+dsndaa_distributions/Gaussiandistribution.py
+dsndaa_distributions/Generaldistribution.py
+dsndaa_distributions/__init__.py
+dsndaa_distributions.egg-info/PKG-INFO
+dsndaa_distributions.egg-info/SOURCES.txt
+dsndaa_distributions.egg-info/dependency_links.txt
+dsndaa_distributions.egg-info/not-zip-safe
+dsndaa_distributions.egg-info/top_level.txt
