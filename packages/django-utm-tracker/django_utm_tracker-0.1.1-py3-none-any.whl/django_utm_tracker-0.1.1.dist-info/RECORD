@@ -1,0 +1,12 @@
+utm_tracker/__init__.py,sha256=MxS4QlMNM5Q6NM_mvrtRoVCK0yWErdR-Zp10KDqlDSc,57
+utm_tracker/admin.py,sha256=imATMKvf-x4ohGp-57FP3Z6Ly7NsfmxA6eNdf6IkBuQ,424
+utm_tracker/apps.py,sha256=1rRQrEKNLj_aHnzolUjV37Y5SFKBGRC8MnAS2JHWmss,137
+utm_tracker/middleware.py,sha256=1mhBARYbvxW9_XXgrZPisetOZsaKbpJej2MBRqnmsDs,3162
+utm_tracker/migrations/0001_initial.py,sha256=GapmDicTOb6ncKuusyh4t3cXTII9IqOsNeMPW5ir708,2912
+utm_tracker/migrations/0002_leadsource_created_at.py,sha256=feorx_wSzqicBKWIe5RyqTO5AAni4IP8EiIqgR_i8Z8,527
+utm_tracker/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utm_tracker/models.py,sha256=gu212wCkKilarYkhQaHCBohu_uuKXpGN62gz3lI42dU,3173
+django_utm_tracker-0.1.1.dist-info/LICENSE,sha256=Pg-AVb8HD6XJZn52p0p3tjxjJKv92gfGnwrakjFEkp8,1065
+django_utm_tracker-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+django_utm_tracker-0.1.1.dist-info/METADATA,sha256=B5HKy31f44T4G1LIRHGsRomUdfKjFG1_3dMmVBM7hOY,3375
+django_utm_tracker-0.1.1.dist-info/RECORD,,
