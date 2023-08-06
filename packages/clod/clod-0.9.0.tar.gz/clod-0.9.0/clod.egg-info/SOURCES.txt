@@ -1,0 +1,10 @@
+README.rst
+clod.py
+setup.cfg
+setup.py
+clod.egg-info/PKG-INFO
+clod.egg-info/SOURCES.txt
+clod.egg-info/dependency_links.txt
+clod.egg-info/requires.txt
+clod.egg-info/top_level.txt
+test/test_clod.py
