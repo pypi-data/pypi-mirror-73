@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Flask-REST-multiformat-api
+Version: 0.1.0
+Summary: Flask extension to create REST api using different                       kind of format like JSONAPI 1.0
+Home-page: https://github.com/Aimage/flask_rest_multiformat_api
+Author: RAKOTOSON Ainanirina Jean
+Author-email: rainanirina@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
