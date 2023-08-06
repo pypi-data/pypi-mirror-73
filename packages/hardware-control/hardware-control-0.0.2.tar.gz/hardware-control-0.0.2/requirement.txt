@@ -1,0 +1,10 @@
+appdirs
+docopt
+matplotlib
+mpmath
+numpy
+qtconsole
+pymodbus
+pyvisa-py
+setuptools
+visa

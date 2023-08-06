@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: hardware-control
+Version: 0.0.2
+Summary: A package to write QT programs to control hardware
+Home-page: https://bitbucket.org/berkeleylab/hardware-control.git
+Author: Arun Persaud
+Author-email: apersaud@lbl.gov
+License: modified BSD
+Description: # README #
+        
+        ### What is this repository for? ###
+        
+        The goal is to provide some reusable code for hardware control using python and Qt.
+        
+        ### How do I get set up? ###
+        
+        The easiest way is to pip install the software:
+        
+           pip install hardware-control
+        
+        ### Contribution guidelines ###
+        
+        Feel free to contribute new drivers for hardware or other changes.
+        
+        We use black to format the code, so please format your code
+        accordingly. The easiest way to achieve this is to install pre-commit
+        and use the config file we provide:
+        
+          pip install pre-commit
+          # cd into repo
+          pre-commit install
+        
+        ### Who do I talk to? ###
+        
+        If you have questions, please contact Arun at apersaud@lbl.gov.
+        
+        ### Copyright and License ###
+        
+        * See the files COPYRIGHT and LICENSE in the top level directory
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
