@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/nse50bse30.egg-info/PKG-INFO
+src/nse50bse30.egg-info/SOURCES.txt
+src/nse50bse30.egg-info/dependency_links.txt
+src/nse50bse30.egg-info/requires.txt
+src/nse50bse30.egg-info/top_level.txt
