@@ -1,0 +1,12 @@
+README.md
+setup.py
+unicodeit/__init__.py
+unicodeit/cli.py
+unicodeit/data.py
+unicodeit/export_data.py
+unicodeit/replace.py
+unicodeit.egg-info/PKG-INFO
+unicodeit.egg-info/SOURCES.txt
+unicodeit.egg-info/dependency_links.txt
+unicodeit.egg-info/requires.txt
+unicodeit.egg-info/top_level.txt
