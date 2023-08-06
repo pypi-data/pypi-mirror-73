@@ -1,0 +1,8 @@
+README.md
+gcloudtail.py
+setup.py
+gcloud_tail.egg-info/PKG-INFO
+gcloud_tail.egg-info/SOURCES.txt
+gcloud_tail.egg-info/dependency_links.txt
+gcloud_tail.egg-info/entry_points.txt
+gcloud_tail.egg-info/top_level.txt
