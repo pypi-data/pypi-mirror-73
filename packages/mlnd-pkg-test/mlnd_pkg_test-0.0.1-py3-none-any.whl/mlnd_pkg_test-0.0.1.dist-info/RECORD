@@ -1,0 +1,9 @@
+gorimboptim/BaseOptimizer.py,sha256=m24wXqctRkVySSz5bTSgHd9OJmWp6QcgL07Vnk8N2UM,718
+gorimboptim/LineSearch.py,sha256=y2E5iIsW1jAblHmRYkCkreerRZaZ9dL9FfKAbIJ4afw,3262
+gorimboptim/__init__.py,sha256=-kw1SlHhJkxdLtI6UxmFh_GAURp2DLtQRlj2zabU5jM,84
+gorimboptim/magic_lib.py,sha256=pBqxICsOSQm1Lx-w4LVavaxLaOPJcWkqaNyPvNiXt70,565
+mlnd_pkg_test-0.0.1.dist-info/LICENSE,sha256=RMgZuNec-8vTsAJYHGEWxZ5NA0XEhdIVSVX_sNhT-sQ,1091
+mlnd_pkg_test-0.0.1.dist-info/METADATA,sha256=pE7z9g3U10b23sU0hjGc9EkHHbkaVkVuy8xjFiv8i7E,873
+mlnd_pkg_test-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+mlnd_pkg_test-0.0.1.dist-info/top_level.txt,sha256=UbtNO9n_rUcnNhEayzhq8WHQNf0Bd_uYFbAUAzecGSg,12
+mlnd_pkg_test-0.0.1.dist-info/RECORD,,
