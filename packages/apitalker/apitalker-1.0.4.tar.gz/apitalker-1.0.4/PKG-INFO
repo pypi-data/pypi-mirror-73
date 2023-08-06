@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: apitalker
+Version: 1.0.4
+Summary: Python wrapper for using Apitalks API.
+Home-page: https://github.com/bednaJedna/att
+Author: Radek 'bednaJedna' Bednarik
+Author-email: bednarik.radek@gmail.com
+License: UNKNOWN
+Description: # Apitalker
+        
+        ![Upload Python Package](https://github.com/bednaJedna/att/workflows/Upload%20Python%20Package/badge.svg)
+        [![Documentation Status](https://readthedocs.org/projects/att/badge/?version=latest)](https://att.readthedocs.io/en/latest/?badge=latest)
+        
+        ## Table of Contents
+        
+        - [About](#about)
+        - [Documentation](#documentation)
+        - [Getting Started](#getting_started)
+        - [Usage](#usage)
+          - [Examples](#examples)
+        
+        ## About <a name = "about"></a>
+        
+        Python3 library. Wrapper for [Apitalks API](https://www.api.store/) calls. Enables simple calls for api resources with optional use of available parameters, as specified in [Apitalks documentation](https://www.api.store/czso.cz/dokumentace#section/Query-parametry).
+        
+        Returned data (when method `apitalker.api.API.get_data()` is used) are handled by `apitalker.data.Data` class, which provides some convenient methods for working with data.
+        
+        ## Documentation <a name= "documentation"></a>
+        
+        Documentation including examples is [HERE](https://att.readthedocs.io/en/stable/index.html).
+        
+        ## Getting Started <a name = "getting_started"></a>
+        
+        These instructions will get you up and running.
+        
+        ### Prerequisites
+        
+        What things you need to install the software.
+        
+            - Python 3+
+        
+            - requests
+        
+            - pandas
+        
+        ### Installing
+        
+        To install this package, simply use standard `pip install apitalker` or clone this repo and run `python setup.py install`.
+        
+        ## Usage <a name = "usage"></a>
+        
+        See examples in [Documentation](https://att.readthedocs.io/en/latest/)
+        
+Keywords: api Apitalks wrapper python3 data library utility
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
