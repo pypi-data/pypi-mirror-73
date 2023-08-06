@@ -1,0 +1,9 @@
+README.md
+setup.py
+mdi/__init__.py
+mdi.egg-info/PKG-INFO
+mdi.egg-info/SOURCES.txt
+mdi.egg-info/dependency_links.txt
+mdi.egg-info/entry_points.txt
+mdi.egg-info/requires.txt
+mdi.egg-info/top_level.txt
