@@ -1,0 +1,25 @@
+name: import-git-files CD
+on:
+  release:
+    types: [ published ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - uses: actions/checkout@v2
+    - name: setup source distribution
+      run: |
+        make install_dev_dependencies
+        python setup.py sdist bdist_wheel
+    - name: test release setup
+      run: make test_release_setup
+    - name: Publish package
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        user: __token__
+        password: ${{ secrets.pypi_password }}
+        skip_existing: true
