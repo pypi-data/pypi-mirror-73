@@ -1,0 +1,3 @@
+[console_scripts]
+pipelinr = pipelinr.pipelinr:run
+
