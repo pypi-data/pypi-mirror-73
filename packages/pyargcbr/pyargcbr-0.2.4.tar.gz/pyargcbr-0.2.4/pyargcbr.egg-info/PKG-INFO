@@ -1,0 +1,96 @@
+Metadata-Version: 1.2
+Name: pyargcbr
+Version: 0.2.4
+Summary: Case-Based Argumentation Infrastructure in Python
+Home-page: https://github.com/jaumejordan/pyargcbr
+Author: Jaume Jordan
+Author-email: jjordan@dsic.upv.es
+License: MIT license
+Description: ========
+        PyArgCBR
+        ========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/pyargcbr.svg
+                :target: https://pypi.python.org/pypi/pyargcbr
+        
+        .. image:: https://img.shields.io/travis/jaumejordan/pyargcbr.svg
+                :target: https://travis-ci.org/jaumejordan/pyargcbr
+        
+        .. image:: https://readthedocs.org/projects/pyargcbr/badge/?version=latest
+                :target: https://pyargcbr.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Case-Based Argumentation Infrastructure in Python
+        
+        
+        * Free software: MIT license
+        * Documentation: https://pyargcbr.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Argumentative agents that solve problems reasoning about the possible solutions.
+        * Domain CBR (Case-based Reasoning) system to store and update domain knowledge.
+        * Argumentation CBR system to store and update argumentation knowledge of agents.
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.2.4 (2020-07-10)
+        ------------------
+        
+        * Package only compatible with python >= 3.7
+        * Tox updated
+        
+        0.2.3 (2020-07-09)
+        ------------------
+        
+        * Tests fixed for build.
+        
+        0.2.2 (2020-07-07)
+        ------------------
+        
+        * API documentation fixed
+        
+        0.2.1 (2020-07-07)
+        ------------------
+        
+        * Modified package structure
+        * API documentation generated
+        
+        
+        0.2.0 (2020-07-06)
+        ------------------
+        
+        * First release with agents and CBRs working.
+        
+        
+        0.1.0 (2019-11-29)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: pyargcbr
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
