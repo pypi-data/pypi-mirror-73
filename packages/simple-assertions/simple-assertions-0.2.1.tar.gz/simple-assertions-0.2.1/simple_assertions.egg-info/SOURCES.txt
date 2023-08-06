@@ -1,0 +1,7 @@
+README.md
+setup.py
+simple_assertions/__init__.py
+simple_assertions.egg-info/PKG-INFO
+simple_assertions.egg-info/SOURCES.txt
+simple_assertions.egg-info/dependency_links.txt
+simple_assertions.egg-info/top_level.txt
