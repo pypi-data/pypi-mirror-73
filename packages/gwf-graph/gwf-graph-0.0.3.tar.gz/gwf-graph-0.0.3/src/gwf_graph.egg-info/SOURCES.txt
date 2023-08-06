@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/gwf_graph/__init__.py
+src/gwf_graph/main.py
+src/gwf_graph.egg-info/PKG-INFO
+src/gwf_graph.egg-info/SOURCES.txt
+src/gwf_graph.egg-info/dependency_links.txt
+src/gwf_graph.egg-info/entry_points.txt
+src/gwf_graph.egg-info/requires.txt
+src/gwf_graph.egg-info/top_level.txt
