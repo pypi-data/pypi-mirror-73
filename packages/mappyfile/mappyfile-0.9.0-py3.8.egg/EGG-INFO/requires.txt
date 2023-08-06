@@ -1,0 +1,4 @@
+lark-parser==0.9.0
+jsonschema>=2.0
+jsonref==0.2
+click
