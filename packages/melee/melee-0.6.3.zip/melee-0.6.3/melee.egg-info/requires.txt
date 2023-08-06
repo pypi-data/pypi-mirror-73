@@ -1,0 +1,3 @@
+pyenet
+serial
+py-ubjson
