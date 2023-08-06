@@ -1,0 +1,12 @@
+emailpy/__init__.py,sha256=fsUsCP2vXcXdWl0Qild5nabSJCqc7oM9dM24BLD9wpI,3097
+emailpy/__main__.py,sha256=y9SbWMt_683Ms9c_qR6GwVELMR9hPU6HP0KmgDP-6Gs,25
+emailpy/gethostport.py,sha256=-UDZk5eegpbApN1CgXZCO7mp0xCaC_pM9mB0xomLvMg,1711
+emailpy/read.py,sha256=l9yLxKR1A4FJldx4RG1yO7TTykaMtIC-8WP5x6j6lH0,12086
+emailpy/send.py,sha256=Pt8cFhdhxMTMEbS-RxqKlBtorg0fBrpiueRXyPmc7ws,7392
+emailpy/servers.py,sha256=yVHEmaTIMqBZbcbIExGW5euaR0a3ThwfSH4UnwSITRk,268
+emailpy/util.py,sha256=Pgbsc145KY5GPmgoEUTCCCRvEA_8IRzPvFYhAoIcwlI,1562
+emailpy-0.1.8.data/scripts/emailpy,sha256=jLWri-DUSijk--i4fbFuL79hYKIVxfqWt2uIR29vsoA,46
+emailpy-0.1.8.dist-info/METADATA,sha256=BuSe5oJFcijKZXuxrSUkFBgULGsfC5ubLZOt8a6jdPM,3348
+emailpy-0.1.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+emailpy-0.1.8.dist-info/top_level.txt,sha256=zqcm0jCqS4C18VGSRyMkyu-FQ38IJxId6INZi6rhZu4,8
+emailpy-0.1.8.dist-info/RECORD,,
