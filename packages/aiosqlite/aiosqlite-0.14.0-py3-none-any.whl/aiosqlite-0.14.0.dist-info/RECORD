@@ -1,0 +1,13 @@
+aiosqlite/__init__.py,sha256=9ZFffn_ha1mbtaxRkLyhmm7JU09kYUL_TiaplnHoQDk,811
+aiosqlite/context.py,sha256=ccBQYJDOhNBr3CwzvEDYn4DKGBa8ji1g-6H8AIejlB4,1287
+aiosqlite/core.py,sha256=I7WmPXT4-UrU05Mf_UWryBHj-PbZicdy80INBjifk8w,13006
+aiosqlite/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosqlite/tests/__init__.py,sha256=qTswaX4I6Coj7PFnKQsv1o4Bj0WC5htk2ORJS6VWHpU,91
+aiosqlite/tests/__main__.py,sha256=z-W9LNR8Xoi7RLJMorLkwyHnxmU25hBdIRa-7eDAS9o,163
+aiosqlite/tests/helpers.py,sha256=n3mNmEkKbmRRwMbqlyMFnzNKUJHEvJ6oTumQ9eEITxg,723
+aiosqlite/tests/perf.py,sha256=Fc1jc1CjlbzceTA1F73olTPL3D9q_PyBsTNnQibxSWg,4692
+aiosqlite/tests/smoke.py,sha256=XEvofcpEZ9DmOdRJ53R6UFC2WIaLHWU_Yj6nugfG774,13775
+aiosqlite-0.14.0.dist-info/LICENSE,sha256=ioOSTQj-ywAUDdv7RYnDEZs7e4lM5Ur5AtxBubSYCzY,1067
+aiosqlite-0.14.0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+aiosqlite-0.14.0.dist-info/METADATA,sha256=QDml7-YPzFEW1VZCZkX_uXeQlo0nX3dm3hKMavEERl8,4092
+aiosqlite-0.14.0.dist-info/RECORD,,
