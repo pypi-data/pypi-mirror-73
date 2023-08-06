@@ -1,0 +1,14 @@
+tax_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tax_module/errors.py,sha256=Ul6HMmwTZdt24XushNiHUwdQND2sUgNPKJQY1SujrfU,96
+tax_module/gst.py,sha256=rpViOlVjuR4HU6ZpyQIwVTt6ZBehjYalQqo_CKn9q7Y,1411
+tax_module/indian_tax.py,sha256=FDSJfYMrwezHW8ZyDEjqiP7ptcdAlxCwyT8ExinyFTA,302
+tax_module/models.py,sha256=vOZZ08zIstGgqtNA05Mm6CoH_sTjL0zVkw3eIwsh7G4,2772
+tax_module/tds.py,sha256=okIrOBydNNf8UysBnd8rxHCgVFIeLC1tKm7upUSEeZk,963
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/factories.py,sha256=KI1Ic_b4EpR2drbcz5fgqgr1KFzelzg-MQ7BKYmalhs,1355
+tests/test_gst_module.py,sha256=cEtuRlkHzGBGhL0y1FyorBu59ByCpJNRwCYAAoP-8U4,3266
+tests/test_tds_module.py,sha256=cJR-2_rvG9FTJaubMZUej-kOvFfahbarX0bfp3mehgA,2293
+tax_module-0.0.3.dist-info/METADATA,sha256=F5K4vWL26Y_yJ3f4RBM9RFuLXlEbqOq9_AzX2m0BlSU,605
+tax_module-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tax_module-0.0.3.dist-info/top_level.txt,sha256=YpZrqvxlHN5IHmKmhHP-lAOz1_u9DlfHJFNUaLIqqvk,17
+tax_module-0.0.3.dist-info/RECORD,,
