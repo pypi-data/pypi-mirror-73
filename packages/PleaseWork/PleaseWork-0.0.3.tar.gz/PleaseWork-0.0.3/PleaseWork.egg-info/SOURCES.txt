@@ -1,0 +1,8 @@
+README.txt
+setup.py
+PleaseWork/Hello.py
+PleaseWork/__init__.py
+PleaseWork.egg-info/PKG-INFO
+PleaseWork.egg-info/SOURCES.txt
+PleaseWork.egg-info/dependency_links.txt
+PleaseWork.egg-info/top_level.txt
