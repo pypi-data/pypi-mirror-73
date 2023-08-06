@@ -1,0 +1,10 @@
+setup.py
+guassbase/Binomialdistribution.py
+guassbase/Gaussiandistribution.py
+guassbase/Generaldistribution.py
+guassbase/__init__.py
+guassbase.egg-info/PKG-INFO
+guassbase.egg-info/SOURCES.txt
+guassbase.egg-info/dependency_links.txt
+guassbase.egg-info/not-zip-safe
+guassbase.egg-info/top_level.txt
