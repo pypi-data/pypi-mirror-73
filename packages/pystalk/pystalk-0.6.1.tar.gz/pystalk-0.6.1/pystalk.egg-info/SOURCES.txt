@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements-docs.txt
+requirements-tests.txt
+requirements.txt
+setup.py
+pystalk/__init__.py
+pystalk/client.py
+pystalk.egg-info/PKG-INFO
+pystalk.egg-info/SOURCES.txt
+pystalk.egg-info/dependency_links.txt
+pystalk.egg-info/requires.txt
+pystalk.egg-info/top_level.txt
