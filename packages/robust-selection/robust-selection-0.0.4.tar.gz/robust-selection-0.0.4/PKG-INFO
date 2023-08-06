@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robust-selection
+Version: 0.0.4
+Summary: A small example package
+Home-page: https://github.com/cbtran/robust_selection
+Author: Example Author
+Author-email: author@example.com
+License: UNKNOWN
+Description: Robust Selection
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
