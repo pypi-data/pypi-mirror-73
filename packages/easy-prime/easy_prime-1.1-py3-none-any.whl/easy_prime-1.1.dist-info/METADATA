@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: easy-prime
+Version: 1.1
+Summary: Prime editor gRNA design tool
+Home-page: https://github.com/YichaoOU/easy_prime
+Author: Yichao Li
+Author-email: Yichao.Li@stjude.org
+License: LICENSE
+Keywords: prime editor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: Unix
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+[![Version][version-shield]][version-url]
+[![Python versions][python-shield]][python-url]
+[![Platforms][platform-shield]][python-url]
+
+# Easy-Prime: an optimized prime editor gRNA design tool based on gradient boosting trees
+
+Easy-Prime provides optimized pegRNA and ngRNA combinations efficient Prime editing design.
+
+# Summary
+
+
+Dependency:
+
+- bedtools
+- RNAfold
+https://anaconda.org/bioconda/viennarna
+
+# Installation
+
+The most easiest way to install change-seq pipeline is via conda.
+
+
+# Input
+
+
+## Searching parameters for PE design
+
+
+# Output
+
+
+
+
