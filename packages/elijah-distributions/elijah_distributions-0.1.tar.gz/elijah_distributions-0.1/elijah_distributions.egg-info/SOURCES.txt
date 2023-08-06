@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+elijah_distributions/Binomialdistribution.py
+elijah_distributions/Gaussiandistribution.py
+elijah_distributions/Generaldistribution.py
+elijah_distributions/__init__.py
+elijah_distributions.egg-info/PKG-INFO
+elijah_distributions.egg-info/SOURCES.txt
+elijah_distributions.egg-info/dependency_links.txt
+elijah_distributions.egg-info/not-zip-safe
+elijah_distributions.egg-info/top_level.txt
