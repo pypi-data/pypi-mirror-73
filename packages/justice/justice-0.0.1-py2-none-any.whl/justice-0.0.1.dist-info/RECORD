@@ -1,0 +1,13 @@
+justice/__init__.py,sha256=mBQ1rqeLo7vlxAmG8E1iS_vI-io89upuo7SxZMzQICU,74
+justice/justice.py,sha256=3fkBF3S2dAq05J90ao7WBen9_EnRO5M85mkbn-YU11k,1268
+justice/parser/__init__.py,sha256=NbqJfhfAKrtih8r5D2BEEUzV-OX86sHXDFsAfEQTOAA,1953
+justice/parser/line_parser/__init__.py,sha256=UDoXtr3dM9AhDxThp_HdsBxnpdL11Y8pVsJzwEhH7Z8,339
+justice/parser/line_parser/abc.py,sha256=iiP9I69MZZK7psSMaQYx7KvTrQAzD92D39SJcZds8l0,745
+justice/parser/line_parser/company_name.py,sha256=ryrXuYa04RQYljjT4ISaivODSp_j7PmTspy52yNvZSQ,132
+justice/parser/line_parser/empty.py,sha256=B28pj3JzUGXcAGzoCspP3FbOcwD2bYnh2XsaG3Q37LU,187
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+justice-0.0.1.dist-info/LICENCE,sha256=TvzuRwOxPkYR9TmdIJzexApdyebZIiEY2b0ttJBP9bE,1069
+justice-0.0.1.dist-info/METADATA,sha256=Ydj_-MUYGIfLrh80ThpKEmEv4ZeBYBG-Q0mzw6sU1E8,540
+justice-0.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+justice-0.0.1.dist-info/top_level.txt,sha256=ztSgIj8WapBASvfyx8aEf4sZSqZeOf_wYKSy_KH5TkE,14
+justice-0.0.1.dist-info/RECORD,,
