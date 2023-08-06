@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+growattRS232/__init__.py
+growattRS232/const.py
+growattRS232.egg-info/PKG-INFO
+growattRS232.egg-info/SOURCES.txt
+growattRS232.egg-info/dependency_links.txt
+growattRS232.egg-info/requires.txt
+growattRS232.egg-info/top_level.txt
