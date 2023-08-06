@@ -1,0 +1,5 @@
+PySide2
+lz4
+sqlalchemy
+beautifulsoup4
+youtube-dl
