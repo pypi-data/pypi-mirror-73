@@ -1,0 +1,11 @@
+gustavgrad/__init__.py,sha256=NmxeLbNDfhEtar6qUluMQcaBpqOGC_F3lhRysVJ6RCc,62
+gustavgrad/function.py,sha256=26yx5pqAi7ARLOaCftBhsKNmwut1AaJpLkK37_DtE6Y,1341
+gustavgrad/loss.py,sha256=yTXTaE-JXZpgaKA9NKY7mmIjQbLm2gwmcBF_pLKkRNc,1522
+gustavgrad/module.py,sha256=4FZukwD60pokBREmwwqIapsjvYmEb358EBdqnXVhjFQ,877
+gustavgrad/optim.py,sha256=bqZA1mr6UH4Vhh_ZIaTVpubTtfTTUduVPVLsgRyGiEs,410
+gustavgrad/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gustavgrad/tensor.py,sha256=1isbCZn6ux602FLeHuotOsfsUh_DHkKJ-zTAP0HokRc,10087
+gustavgrad-0.1.1a0.dist-info/LICENSE,sha256=bgHo6KNoq-OsNO2fZpeZYUGOSsHMYgLQk6w0_HyzDNM,1093
+gustavgrad-0.1.1a0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+gustavgrad-0.1.1a0.dist-info/METADATA,sha256=fs1gtuKeHiKYtmvLtgOcswO-5mKnmx3h9Fh2BmzQrR8,1347
+gustavgrad-0.1.1a0.dist-info/RECORD,,
