@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+pokeman/__init__.py
+pokeman/pokeman.py
+pokeman.egg-info/PKG-INFO
+pokeman.egg-info/SOURCES.txt
+pokeman.egg-info/dependency_links.txt
+pokeman.egg-info/requires.txt
+pokeman.egg-info/top_level.txt
+pokeman.egg-info/zip-safe

@@ -1,0 +1,44 @@
+Metadata-Version: 1.2
+Name: pokeman
+Version: 0.0.1
+Summary: Pokeman RabbitMQ Service Choreography Library
+Home-page: https://github.com/wmarcuse/pokeman
+Maintainer: Wolf Marcuse
+Maintainer-email: wmarcuse@gmail.com
+License: BSD
+Description: Pokeman
+        =======
+        
+        Pokeman is a RabbitMQ (AMQP 0-9-1) service choreography library for Python, implementing
+        various instantly deployable service resources like producers and consumers.
+        
+        The service resources are inspired by the `Enterprise Integration Patterns <https://www.enterpriseintegrationpatterns.com/patterns/messaging/>`_.
+        
+        
+        Introduction
+        ------------
+        Pokeman is a service choreography library for Python, currently built on top of `Pika <https://github.com/pika/pika>`_.
+        
+        - Manage RabbitMQ resources like Connections, Channels, Exchanges and Queues with OOP style objects.
+        - Deploy multiple producers and consumers with just a few lines of code.
+        - Use Pokeman at multiple Python-based (micro-)services to implement easy service choreography.
+        
+        
+        # Run tests
+        
+            docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
