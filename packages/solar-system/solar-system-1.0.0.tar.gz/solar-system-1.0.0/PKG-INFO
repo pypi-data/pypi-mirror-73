@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: solar-system
+Version: 1.0.0
+Summary: A Solar system simulation using Python. 一个太阳系模拟器。
+Home-page: https://pypi.org/project/solar-system/
+Author: 七分诚意 qq:3076711200
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description:
+
+Solar system simulation using the
+approximation method from Feynman-lectures,
+p.9-8, using turtlegraphics.
+
+Planet has a circular orbit, moon a stable
+orbit around the planet.
+
+Press Ctrl+"+" or Ctrl+"-" to zoom.
+Press key ↑,↓,←,→ to move.
+Press key "+" or key "-" to increase
+or decrease the speed.
+
+You can hold the movement temporarily by
+pressing the left mouse button with the
+mouse over the scrollbar of the canvas.
+
+Keywords: solar,system,solarsys
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Natural Language :: Chinese (Simplified)
