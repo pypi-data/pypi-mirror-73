@@ -1,0 +1,11 @@
+githubot/__init__.py,sha256=09hol5ovL6ArILJIJZ-MiscnOjKa6RjaETmtdgJpW2c,22
+githubot/config.py,sha256=RCwlI31w2nK_KF4jQo_p4K6rtXSUI62OX_YcazHyc3o,918
+githubot/file.py,sha256=8uksqq4lBjn6v1z92eKvLG3kWUVPc0p0bGxEQs8WeGc,3641
+githubot/githubot.py,sha256=vFZ5Vvtoujzm1vc-nJ6GSlP3sVEFta7Wv4TFdBjxXys,1256
+githubot/release.py,sha256=F1mdVMzeDSSlFIhNtKOS9o2NSddEmGBfJ7uUUUnPZCk,1676
+githubot-0.7.0.dist-info/LICENSE,sha256=pwHrllmxXqYGzQwb9ZowvYsxZqXBauD6DrgYfXhEmIw,1068
+githubot-0.7.0.dist-info/METADATA,sha256=EuKExEzsKahqBG6aHxIJAK_7xnUHBOc5W1nZF2VDmSA,5966
+githubot-0.7.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+githubot-0.7.0.dist-info/entry_points.txt,sha256=F7Jx3vmSvuATZRlYhRcipoKKvQaSC-Qy_H9nevgDwKY,53
+githubot-0.7.0.dist-info/top_level.txt,sha256=0JyHs3AtxUJbl2mrIqLbqmsu6qcjiRp6dHNUpadaOXo,9
+githubot-0.7.0.dist-info/RECORD,,
