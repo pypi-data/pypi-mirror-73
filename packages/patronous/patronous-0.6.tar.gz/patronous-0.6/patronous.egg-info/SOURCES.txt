@@ -1,0 +1,10 @@
+setup.py
+patronous/__init__.py
+patronous/cli.py
+patronous/utils.py
+patronous.egg-info/PKG-INFO
+patronous.egg-info/SOURCES.txt
+patronous.egg-info/dependency_links.txt
+patronous.egg-info/entry_points.txt
+patronous.egg-info/not-zip-safe
+patronous.egg-info/top_level.txt
