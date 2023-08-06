@@ -1,0 +1,13 @@
+faiss_cpu_noavx2.libs/libgomp-f7e03b3e.so.1.0.0,sha256=zbIl_S4-7kPHDUQOH1n_ENyLfww1WJv0eKBvWVHOPkI,93080
+faiss_cpu_noavx2.libs/libgfortran-2e0d59d6.so.5.0.0,sha256=JMjcIbTz5oewsN_UN6za6DHAcb0ULRVRAaNDwpuKaKg,2260064
+faiss_cpu_noavx2.libs/libquadmath-2d0c479f.so.0.0.0,sha256=tCwceSJCYTl4In_F2s_zDGmBvAYzVOcU3lJ2N7BVbFM,263992
+faiss_cpu_noavx2.libs/libz-eb09ad1d.so.1.2.3,sha256=J5v9FALEH3CNbOUOLz0XHG_FiJvYj96SHQSEhiXJULc,92080
+faiss/_swigfaiss.cpython-37m-x86_64-linux-gnu.so,sha256=JPkYcrvIMOIiU6Gjdb9u5_1J7FPJFKC9HkgebjUWl3A,28058784
+faiss/setup.py,sha256=HF9sl8RxkGLBm9oRMm-lUknxISYh_v1Gd3gtKeWhunw,1734
+faiss/__init__.py,sha256=OvlJSee25keFWHSC9_HjskP6hXXJ7hHdj26ylP5K9_s,26311
+faiss/swigfaiss.py,sha256=AHHqq21RhY9pCz7pqYovl5FW0STGTYB79aA_rHEYGF8,210559
+faiss_cpu_noavx2-1.6.3.dist-info/RECORD,,
+faiss_cpu_noavx2-1.6.3.dist-info/WHEEL,sha256=fgEDqTvJ7t6Dks7wJIP8MuGNJfT7rZstMDs3LUSwCl8,112
+faiss_cpu_noavx2-1.6.3.dist-info/METADATA,sha256=-wrvUf8oGhx7253iznScc623poqV1Xs2-qMENAuA2KY,701
+faiss_cpu_noavx2-1.6.3.dist-info/top_level.txt,sha256=nr2S-1YAhqAuAlFJukntDvRGXfI1KmwnUNs_iFlNiig,6
+faiss_cpu_noavx2-1.6.3.dist-info/LICENSE,sha256=WIeseFb8XlKsip07StlCDHeYTCME9qlvgxSryQpfc-4,1071
