@@ -1,0 +1,10 @@
+wheel
+PySide2
+numpy
+matplotlib
+scipy
+Dijkstar
+requests
+tornado
+multiprocess
+jsoncomment
