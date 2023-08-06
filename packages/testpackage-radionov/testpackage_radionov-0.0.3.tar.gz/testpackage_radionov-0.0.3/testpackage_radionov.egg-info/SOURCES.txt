@@ -1,0 +1,7 @@
+README.md
+setup.py
+test-package/__init__.py
+testpackage_radionov.egg-info/PKG-INFO
+testpackage_radionov.egg-info/SOURCES.txt
+testpackage_radionov.egg-info/dependency_links.txt
+testpackage_radionov.egg-info/top_level.txt
