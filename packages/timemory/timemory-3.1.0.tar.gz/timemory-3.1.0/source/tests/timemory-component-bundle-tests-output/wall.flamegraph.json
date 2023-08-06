@@ -1,0 +1,81 @@
+{
+  "traceEvents": [
+    {
+      "args": {
+        "detail": ">>> variadic"
+      },
+      "dur": 30208.279000000002,
+      "name": " variadic",
+      "ph": "X",
+      "pid": 33359,
+      "tid": 0,
+      "ts": 0.0
+    },
+    {
+      "args": {
+        "detail": ">>> get/rhs"
+      },
+      "dur": 2004040.963,
+      "name": " get/rhs",
+      "ph": "X",
+      "pid": 33359,
+      "tid": 0,
+      "ts": 30208.279000000002
+    },
+    {
+      "args": {
+        "detail": ">>> |_get/lhs"
+      },
+      "dur": 2003973.1160000002,
+      "name": "get/lhs",
+      "ph": "X",
+      "pid": 33359,
+      "tid": 0,
+      "ts": 30208.279000000002
+    },
+    {
+      "args": {
+        "detail": ">>> native_type_count_wo_init/test<TIMEMORY_API>::direct_auto"
+      },
+      "dur": 47.51,
+      "name": " native_type_count_wo_init/test<TIMEMORY_API>::direct_auto",
+      "ph": "X",
+      "pid": 33359,
+      "tid": 0,
+      "ts": 2034249.242
+    },
+    {
+      "args": {
+        "detail": ">>> |_native_type_count_wo_init/test<TIMEMORY_API>::derive_auto"
+      },
+      "dur": 5.034000000000001,
+      "name": "native_type_count_wo_init/test<TIMEMORY_API>::derive_auto",
+      "ph": "X",
+      "pid": 33359,
+      "tid": 0,
+      "ts": 2034249.242
+    },
+    {
+      "args": {
+        "detail": ">>> native_type_count_w_init/test<TIMEMORY_API>::direct_auto"
+      },
+      "dur": 112.793,
+      "name": " native_type_count_w_init/test<TIMEMORY_API>::direct_auto",
+      "ph": "X",
+      "pid": 33359,
+      "tid": 0,
+      "ts": 2034296.752
+    },
+    {
+      "args": {
+        "detail": ">>> |_native_type_count_w_init/test<TIMEMORY_API>::derive_auto"
+      },
+      "dur": 22.377,
+      "name": "native_type_count_w_init/test<TIMEMORY_API>::derive_auto",
+      "ph": "X",
+      "pid": 33359,
+      "tid": 0,
+      "ts": 2034296.752
+    }
+  ]
+}
