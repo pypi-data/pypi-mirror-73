@@ -1,0 +1,6 @@
+README.md
+setup.py
+CalcRate.egg-info/PKG-INFO
+CalcRate.egg-info/SOURCES.txt
+CalcRate.egg-info/dependency_links.txt
+CalcRate.egg-info/top_level.txt
