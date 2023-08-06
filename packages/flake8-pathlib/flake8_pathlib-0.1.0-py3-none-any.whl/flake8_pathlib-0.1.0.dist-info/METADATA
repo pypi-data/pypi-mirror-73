@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flake8-pathlib
+Version: 0.1.0
+Summary: 
+Author: Rodolphe Pelloux-Prayer
+Author-email: rodolphe@damsy.net
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: flake8 (>=3.8.3,<4.0.0)
