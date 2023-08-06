@@ -1,0 +1,14 @@
+ankidmpy/__init__.py,sha256=zS1dCBOgwMf9g8gVAHJk9UcdJVt8rnMAFX9PJtlFtEM,73
+ankidmpy/__main__.py,sha256=UZzJ0y1oQCaQC51Fhqx_8gDERaRcUP2-rStjot2Z68w,40
+ankidmpy/builder.py,sha256=81PopDhn6rYIkg_OVsM8XwcvG7gG1FMUTbZrdP9XWwM,7722
+ankidmpy/copier.py,sha256=dtbTsNlY-E6lu2DZFW7Fd55_F6NdtLmHDpjZWLEqouw,1134
+ankidmpy/importer.py,sha256=QSW76S_qi3i-OcCr3FgnNk7jnstkKoVjea5MAWwP580,4348
+ankidmpy/indexer.py,sha256=VP8GZkb8XyyRdZY7YzAZGvVHoKjb-4zrkb2uE9UNPTU,1200
+ankidmpy/runner.py,sha256=Uhd7gqWhnB9pF06L5_9SeuZMZRU4IgyP_o4Tcazzjj8,4982
+ankidmpy/templates/Default/Default.json,sha256=Dn3jtis5S6acNIgVipY1FZrJjM7tvhm7EFn9k8D_toI,3419
+ankidmpy/util.py,sha256=VVJT7TUDj5dK-We6rGpleCsRAdAqlfp6jIFW-Dv8Cco,7083
+ankidmpy-0.1.1.dist-info/entry_points.txt,sha256=7Pk0UG3043czyQVb92nHXzCcdOp2aEYBvylyk_fLJfI,41
+ankidmpy-0.1.1.dist-info/LICENSE.md,sha256=1z-fnk17AOy88Z8W_k_JpPUm9iWqf1a54iotJYQbxQE,1069
+ankidmpy-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+ankidmpy-0.1.1.dist-info/METADATA,sha256=uyYJp5x5j1kb1dfSca8uux-SJ7iLdwN8bOBiDRfZfsA,4279
+ankidmpy-0.1.1.dist-info/RECORD,,
