@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: jsonflattifier
+Version: 1.1.5
+Summary: Converts a JSON Document with nested objects and their parameters to the JSON Document with Flat Denormalised Data.
+Home-page: https://gitlab.com/v.grigoryevskiy/json-flattifier
+Author: Valentin Grigoryevskiy
+Author-email: v.grigoryevskiy@gmail.com
+License: MIT
+Project-URL: Source, https://gitlab.com/v.grigoryevskiy/json-flattifier
+Project-URL: Tracker, https://gitlab.com/v.grigoryevskiy/json-flattifier/issues
+Keywords: json csv flat flattify flatten table convert denormalise combinations
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: terminaltables
+
+# jsonflattifier
+
+Converts a JSON Document with nested objects and their parameters to the JSON Document with Flat Denormalised Data.
+
+**Installation**
+
+```shell
+> pip install jsonflattifier
+```
+
+**Input**
+
+```json
+{
+  "name": "John",
+  "has": [
+    "apple",
+    "peach"
+  ]
+}
+```
+
+**Get flat JSON**
+
+```shell
+> python3 -m jsonflattifier flattify '{"name":"John","has":["apple","peach"]}' --json --jsonpath-keys --no-table
+```
+
+```json
+[
+  {
+    "$['name']": "John",
+    "$['has'][0]": "apple"
+  },
+  {
+    "$['name']": "John",
+    "$['has'][1]": "peach"
+  }
+]
+```
+
+**Get CSV**
+
+```shell
+> python3 -m jsonflattifier flattify '{"name":"John","has":["apple","peach"]}' --csv --no-table
+```
+
+```csv
+['name'],['has']
+John,apple
+John,peach
+```
+
+**Print Table**
+
+```shell
+> python3 -m jsonflattifier flattify '{"name":"John","has":["apple","peach"]}'
+```
+
+| ['name'] | ['has'] |
+| -------- | ------- |
+| John     | apple   |
+| John     | peach   |
+
+2 rows in set
+
+
+**More Examples**
+
+https://gitlab.com/v.grigoryevskiy/json-flattifier/-/tree/master/tests/data
+
+
+
