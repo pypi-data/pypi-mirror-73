@@ -1,0 +1,535 @@
+// SAL_VERSION=4.1.4 XML_VERSION=6.1.0
+module Electrometer {
+struct command_abort_d1f555e2 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_abort_d1f555e2 ElectrometerID
+struct command_disable_1e0168d6 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_disable_1e0168d6 ElectrometerID
+struct command_enable_06e243a5 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enable_06e243a5 ElectrometerID
+struct command_enterControl_7c1ebbfc {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enterControl_7c1ebbfc ElectrometerID
+struct command_exitControl_4a519024 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_exitControl_4a519024 ElectrometerID
+struct command_performZeroCalib_be6d48a1 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Attribute required by the API; but is unused")
+	};
+#pragma keylist command_performZeroCalib_be6d48a1 ElectrometerID
+struct command_setAuthList_3cda0ea3 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC;")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC;")
+	};
+#pragma keylist command_setAuthList_3cda0ea3 ElectrometerID
+struct command_setDigitalFilter_78745617 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	activateFilter; // @Metadata=(Units="unitless",Description="Activate the filter. If this is OFF (set to 0); none of the filters will operate regardless of their settings below")
+	  boolean	activateAvgFilter; // @Metadata=(Units="unitless",Description="Activate the average filter inside the electrometer; it uses the Default value inside the device (last 10 readings) to do the average calculation; 1 for ON and 0 for OFF ")
+	  boolean	activateMedFilter; // @Metadata=(Units="unitless",Description="The median filter is used to determine the middle-most reading from a group of readings that are arranged according to size. Activate the median filter inside the electrometer; 1 for ON and 0 for OFF")
+	};
+#pragma keylist command_setDigitalFilter_78745617 ElectrometerID
+struct command_setIntegrationTime_2776bef5 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	intTime; // @Metadata=(Units="second",Description="Integration rate in seconds (166.67e-6 to 200e-3) for each sample")
+	};
+#pragma keylist command_setIntegrationTime_2776bef5 ElectrometerID
+struct command_setLogLevel_0037582c {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Logging level; as a Python logging level: error=40; warning=30; info=20; debug=10.")
+	};
+#pragma keylist command_setLogLevel_0037582c ElectrometerID
+struct command_setMode_b6582931 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="Set electrometer to use different modes: 1.- Current  2.- Volt  3.- Charge  4.- Resistance. The units will depend on the current settings")
+	};
+#pragma keylist command_setMode_b6582931 ElectrometerID
+struct command_setRange_6e4acf46 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	setRange; // @Metadata=(Units="unitless",Description="-1 for automatic range. Volts range from 0 to 210 Volts; Current range from 0 to 21e-3 Amps; Resistance from 0 to 100e18 Ohms; Charge from 0 to +2.1e-6 Coulombs")
+	};
+#pragma keylist command_setRange_6e4acf46 ElectrometerID
+struct command_setValue_dd51d0fa {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	parametersAndValues; // @Metadata=(Units="unitless",Description="List of parameters and their values as a Json string")
+	};
+#pragma keylist command_setValue_dd51d0fa ElectrometerID
+struct command_standby_ece72bed {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_standby_ece72bed ElectrometerID
+struct command_start_db90c2b2 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsToApply; // @Metadata=(Units="unitless",Description="Name of the selected settings set")
+	};
+#pragma keylist command_start_db90c2b2 ElectrometerID
+struct command_startScan_5d4b85cd {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Attribute required by the API; but is unused")
+	};
+#pragma keylist command_startScan_5d4b85cd ElectrometerID
+struct command_startScanDt_8dd3e326 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	scanDuration; // @Metadata=(Units="second",Description="Time in seconds from the start of the reading until the stop and then store into the FITS file. The start of the scan will take about 0.2seconds which is what the device takes to start the reading process")
+	};
+#pragma keylist command_startScanDt_8dd3e326 ElectrometerID
+struct command_stopScan_a0b35c11 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Attribute required by the API; but is unused")
+	};
+#pragma keylist command_stopScan_a0b35c11 ElectrometerID
+	 const long indexEnumeration_first=1;
+	 const long indexEnumeration_second=2;
+struct logevent_appliedSettingsMatchStart_b8d0cd7a {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	appliedSettingsMatchStartIsTrue; // @Metadata=(Units="unitless",Description="True when the configuration matches the start conditions")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_appliedSettingsMatchStart_b8d0cd7a ElectrometerID
+struct logevent_authList_8d321957 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC.")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_authList_8d321957 ElectrometerID
+struct logevent_detailedState_c1b83a41 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	detailedState; // @Metadata=(Units="unitless",Description="An enumeration indicating the Electrometer detailed state. See the DetailedStateValue enumeration defined on top of this document.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_detailedState_c1b83a41 ElectrometerID
+	 const long Electrometer_shared_DetailedState_DisabledState=1;
+	 const long Electrometer_shared_DetailedState_EnabledState=2;
+	 const long Electrometer_shared_DetailedState_FaultState=3;
+	 const long Electrometer_shared_DetailedState_OfflineState=4;
+	 const long Electrometer_shared_DetailedState_StandbyState=5;
+	 const long Electrometer_shared_DetailedState_NotReadingState=6;
+	 const long Electrometer_shared_DetailedState_ConfiguringState=7;
+	 const long Electrometer_shared_DetailedState_ManualReadingState=8;
+	 const long Electrometer_shared_DetailedState_ReadingBufferState=9;
+	 const long Electrometer_shared_DetailedState_SetDurationReadingState=10;
+	 const long Electrometer_shared_SummaryState_DisabledState=1;
+	 const long Electrometer_shared_SummaryState_EnabledState=2;
+	 const long Electrometer_shared_SummaryState_FaultState=3;
+	 const long Electrometer_shared_SummaryState_OfflineState=4;
+	 const long Electrometer_shared_SummaryState_StandbyState=5;
+	 const long Electrometer_shared_UnitToRead_Current=1;
+	 const long Electrometer_shared_UnitToRead_Charge=2;
+struct logevent_deviceErrorCode_373f1552 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	errorCode; // @Metadata=(Units="unitless",Description="The error code being published. This code is the same as the one that the Electrometer publishes")
+	  string	errorReport; // @Metadata=(Units="unitless",Description="Handle a few sentences of higher-level information describing the error.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_deviceErrorCode_373f1552 ElectrometerID
+struct logevent_digitalFilterChange_4deff67b {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	activateFilter; // @Metadata=(Units="unitless",Description="If this is OFF; none of the filters will operate. 0 for not active and 1 for active")
+	  boolean	activateMedianFilter; // @Metadata=(Units="unitless",Description="The median filter is used to determine the middle-most reading from a group of readings that are arranged according to size. Activate the median filter inside the electrometer; 1 for active and 0 for not active")
+	  boolean	activateAverageFilter; // @Metadata=(Units="unitless",Description="Activate the average filter inside the electrometer; it uses the Default value inside the device (last 10 readings) to do the average calculation; 1 for active and 0 for not active ")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_digitalFilterChange_4deff67b ElectrometerID
+struct logevent_errorCode_24f23bf4 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	errorCode; // @Metadata=(Units="unitless",Description="A numeric error code")
+	  string	errorReport; // @Metadata=(Units="unitless",Description="An string providing detailed information about the error")
+	  string	traceback; // @Metadata=(Units="unitless",Description="An optional stack trace of the error condition")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_errorCode_24f23bf4 ElectrometerID
+struct logevent_heartbeat_daf13aed {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	heartbeat; // @Metadata=(Units="unitless",Description="Beats the drum.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_heartbeat_daf13aed ElectrometerID
+struct logevent_integrationTime_5a7138d4 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	intTime; // @Metadata=(Units="second",Description="Integration rate in seconds (166.67e-6 to 200e-3)")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_integrationTime_5a7138d4 ElectrometerID
+struct logevent_intensity_c73a2b01 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	intensity; // @Metadata=(Units="unitless",Description="Measure read by the device")
+	  string	unit; // @Metadata=(Units="unitless",Description="Unit used ")
+	  double	timestamp; // @Metadata=(Units="second",Description="Timestamp when the measurement was taken")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_intensity_c73a2b01 ElectrometerID
+struct logevent_largeFileObjectAvailable_3ac8a690 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	url; // @Metadata=(Units="unitless",Description="A Uniform Resource Locator which links to a Large File Object")
+	  string<32>	generator; // @Metadata=(Units="unitless",Description="Name of the package which generated the file being announced")
+	  float	version; // @Metadata=(Units="unitless",Description="A dotted x.y version number denoting the file format revision")
+	  string<32>	checkSum; // @Metadata=(Units="unitless",Description="Hexadecimal character string holding the checksum of the file")
+	  string<32>	mimeType; // @Metadata=(Units="unitless",Description="Mime Type code for the file")
+	  long	byteSize; // @Metadata=(Units="unitless",Description="Size of file in bytes")
+	  string<32>	id; // @Metadata=(Units="unitless",Description="A generic identifier field")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_largeFileObjectAvailable_3ac8a690 ElectrometerID
+struct logevent_logLevel_f5c0b054 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Current logging level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logLevel_f5c0b054 ElectrometerID
+struct logevent_logMessage_2e82e5d7 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	name; // @Metadata=(Units="unitless",Description="Log name.")
+	  long	level; // @Metadata=(Units="unitless",Description="Message level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  string	message; // @Metadata=(Units="unitless",Description="Log message.")
+	  string	traceback; // @Metadata=(Units="unitless",Description="Exception traceback; "" if not an exception.")
+	  string	filePath; // @Metadata=(Units="unitless",Description="Path to source file.")
+	  string	functionName; // @Metadata=(Units="unitless",Description="Function or method name.")
+	  long	lineNumber; // @Metadata=(Units="unitless",Description="Line number in the file specified by filePath.")
+	  long	process; // @Metadata=(Units="unitless",Description="Process ID.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logMessage_2e82e5d7 ElectrometerID
+struct logevent_measureRange_35fec05d {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	rangeValue; // @Metadata=(Units="unitless",Description="The range for the intensity for measure selected.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_measureRange_35fec05d ElectrometerID
+struct logevent_measureType_01393536 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="mode: 1- Current; 2- Charge; 3- Voltage; 4- Resistance")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_measureType_01393536 ElectrometerID
+struct logevent_settingVersions_5895668a {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	recommendedSettingsVersion; // @Metadata=(Units="unitless",Description="List of comma seperated recomended versions of settings sets")
+	  string	recommendedSettingsLabels; // @Metadata=(Units="unitless",Description="List of comma seperated names of settings sets")
+	  string	settingsUrl; // @Metadata=(Units="unitless",Description="The URL where the settings sets definitions can be found")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingVersions_5895668a ElectrometerID
+struct logevent_settingsApplied_9f05d799 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsVersion; // @Metadata=(Units="unitless",Description="The SHA or name corresponding to the published configuration")
+	  string	otherSettingsEvents; // @Metadata=(Units="unitless",Description="A comma delimited list of other specific CSC configuration events. This may be blank if no other CSC specific events are necessary")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsApplied_9f05d799 ElectrometerID
+struct logevent_settingsAppliedReadSets_7292dc71 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	filterActive; // @Metadata=(Units="unitless",Description="Digital Filter configuration. If this is OFF; none of the filters will operate")
+	  boolean	avgFilterActive; // @Metadata=(Units="unitless",Description="Average digital filter status inside the electrometer; it uses the Default value inside the device (last 10 readings) to do the average calculation; true for ON and False for OFF ")
+	  double	inputRange; // @Metadata=(Units="unitless",Description="Ranges use to read values from the photodiode using the current Mode. -1 for automatic range. Volts range from 0 to 210V; Current range from 0 to 21e-3Amps; Resistance from 0 to 100e18; Charge from 0 to +2.1e-6")
+	  double	integrationTime; // @Metadata=(Units="second",Description="Integration rate; this will directly affect reading rates but reading rates are not going to be the same as reading rates")
+	  boolean	medianFilterActive; // @Metadata=(Units="unitless",Description="The median filter is used to determine the middle-most reading from a group of readings that are arranged according to size. Activate the median filter inside the electrometer; true for ON and False for OFF")
+	  long	mode; // @Metadata=(Units="unitless",Description="Mode used in the configuration file; 0-Current; 1-Charge; 2-Voltage; 3-Resistance")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsAppliedReadSets_7292dc71 ElectrometerID
+struct logevent_settingsAppliedSerConf_67dbb889 {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	visaResource; // @Metadata=(Units="unitless",Description="Visa resource or port")
+	  long	baudRate; // @Metadata=(Units="unitless",Description="Baud rate as a number. Allowed values are: 2400; 4800; 9600; 14400; 19200; 38400; 57600; 115200")
+	  long	parity; // @Metadata=(Units="unitless",Description="Parity checking. PARITY_NONE=0; PARITY_EVEN=1; PARITY_ODD=2; PARITY_MARK=3; PARITY_SPACE=4")
+	  long	dataBits; // @Metadata=(Units="unitless",Description="Number of data bits. Possible values: 5; 6; 7; 8")
+	  long	stopBits; // @Metadata=(Units="unitless",Description="Number of stop bits. Possible values: 1; 2 ")
+	  float	timeout; // @Metadata=(Units="unitless",Description="time out in seconds")
+	  string	termChar; // @Metadata=(Units="unitless",Description="termination char; endl for end line")
+	  boolean	xonxoff; // @Metadata=(Units="unitless",Description="Software flow control.")
+	  boolean	dsrdtr; // @Metadata=(Units="unitless",Description="hardware (DSR/DTR) flow control")
+	  long	bytesToRead; // @Metadata=(Units="unitless",Description="The maximum amount of bytes to read")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsAppliedSerConf_67dbb889 ElectrometerID
+struct logevent_simulationMode_e9d22d9c {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="Current simulation mode; 0 for normal operation (no simulation); other supported values are specific to each CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_simulationMode_e9d22d9c ElectrometerID
+struct logevent_softwareVersions_86c99a5a {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<16>	salVersion; // @Metadata=(Units="unitless",Description="This is the current version of SAL generation")
+	  string<16>	xmlVersion; // @Metadata=(Units="unitless",Description="This is the current version of CSC XML")
+	  string<16>	openSpliceVersion; // @Metadata=(Units="unitless",Description="This is the current version of OpenSplice")
+	  string<16>	cscVersion; // @Metadata=(Units="unitless",Description="This is the top-level version of the CSC")
+	  string	subsystemVersions; // @Metadata=(Units="unitless",Description="A comma delimited list of key=value pairs relating subsystem name (key) to its version number (value). This may be left blank if there are no subsystems within a CSC")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_softwareVersions_86c99a5a ElectrometerID
+struct logevent_summaryState_75eac35e {  // @Metadata=(Description="")
+	  long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	summaryState; // @Metadata=(Units="unitless",Description="High level state machine state identifier")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_summaryState_75eac35e ElectrometerID
+struct ackcmd_70012eeb {  // @Metadata=(Description="")
+      string<8>	private_revCode;
+      double		private_sndStamp;
+      double		private_rcvStamp;
+      long		private_origin;
+      long 		private_host;
+      long		private_seqNum;
+      long	ElectrometerID; // @Metadata=(Description="Index number for CSC with multiple instances")
+      long 		ack;
+      long 		error;
+      string<256>	result;
+      long		host;
+      long		origin;
+      long		cmdtype;
+      double		timeout;
+	};
+#pragma keylist ackcmd_70012eeb ElectrometerID
+};
+

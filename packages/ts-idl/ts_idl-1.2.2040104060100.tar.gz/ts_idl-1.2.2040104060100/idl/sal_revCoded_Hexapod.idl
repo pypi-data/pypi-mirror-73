@@ -1,0 +1,625 @@
+// SAL_VERSION=4.1.4 XML_VERSION=6.1.0
+module Hexapod {
+struct actuators_817c1d26 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	calibrated[6]; // @Metadata=(Units="um",Description="Linear encoder readings from each hexapod actuator (x1;x2;x3;x4;x5;x6) in microns")
+	  double	raw[6]; // @Metadata=(Units="dimensionless",Description="Linear encoder readings from each hexapod actuator (x1;x2;x3;x4;x5;x6)in counts")
+	};
+#pragma keylist actuators_817c1d26 HexapodID
+struct application_2bbb0352 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	demand[6]; // @Metadata=(Units="dimensionless",Description="Commanded hexapod position in order (X; Y; Z; RX; RY; RZ). Linear positions are in microns; angular positions are in degrees.")
+	  double	position[6]; // @Metadata=(Units="dimensionless",Description="Actual hexapod position; in order (X; Y; Z; RX; RY; RZ). Linear positions are in microns; angular positions are in degrees.")
+	  double	error[6]; // @Metadata=(Units="dimensionless",Description="Position error (position - demand); in order (x1;x2;x3;x4;x5;x6). Linear positions are in microns; angular positions are in degrees.")
+	};
+#pragma keylist application_2bbb0352 HexapodID
+struct command_abort_bedfb39d {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_abort_bedfb39d HexapodID
+struct command_clearError_3602c54d {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	};
+#pragma keylist command_clearError_3602c54d HexapodID
+struct command_configureAcceleration_40505900 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	accmax; // @Metadata=(Units="um/s2",Description="Maximum acceleration.")
+	};
+#pragma keylist command_configureAcceleration_40505900 HexapodID
+struct command_configureLimits_89e51983 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	xymax; // @Metadata=(Units="um",Description="xy max")
+	  double	zmin; // @Metadata=(Units="um",Description="z min")
+	  double	zmax; // @Metadata=(Units="um",Description="z max")
+	  double	uvmax; // @Metadata=(Units="deg",Description="uv max")
+	  double	wmin; // @Metadata=(Units="deg",Description="w min")
+	  double	wmax; // @Metadata=(Units="deg",Description="w max")
+	};
+#pragma keylist command_configureLimits_89e51983 HexapodID
+struct command_configureVelocity_7ed27862 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	xymax; // @Metadata=(Units="um/s",Description="xymax")
+	  double	rxrymax; // @Metadata=(Units="deg/s",Description="rxrymax")
+	  double	zmax; // @Metadata=(Units="um/s",Description="zmax")
+	  double	rzmax; // @Metadata=(Units="deg/s",Description="rzmax")
+	};
+#pragma keylist command_configureVelocity_7ed27862 HexapodID
+struct command_disable_dcab4f22 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_disable_dcab4f22 HexapodID
+struct command_enable_a7aaea49 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enable_a7aaea49 HexapodID
+struct command_enterControl_a98bb7db {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enterControl_a98bb7db HexapodID
+struct command_exitControl_ea8e27fe {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_exitControl_ea8e27fe HexapodID
+struct command_move_d3269d2a {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	x; // @Metadata=(Units="um",Description="x position")
+	  double	y; // @Metadata=(Units="um",Description="y position")
+	  double	z; // @Metadata=(Units="um",Description="z position")
+	  double	u; // @Metadata=(Units="deg",Description="Rotation about x")
+	  double	v; // @Metadata=(Units="deg",Description="Rotation about y")
+	  double	w; // @Metadata=(Units="deg",Description="Rotation about z")
+	  boolean	sync; // @Metadata=(Units="dimensionless",Description="Synchronize motion so that all actuators start and stop moving at the same time?")
+	};
+#pragma keylist command_move_d3269d2a HexapodID
+struct command_moveLUT_14970b3e {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	elevation; // @Metadata=(Units="deg",Description="Telescope elevation")
+	  double	azimuth; // @Metadata=(Units="deg",Description="Telescope azimuth")
+	  double	temperature; // @Metadata=(Units="Celsius",Description="Ambient temperature")
+	  double	x; // @Metadata=(Units="um",Description="x position")
+	  double	y; // @Metadata=(Units="um",Description="y position")
+	  double	z; // @Metadata=(Units="um",Description="z position")
+	  double	u; // @Metadata=(Units="deg",Description="Rotation about x")
+	  double	v; // @Metadata=(Units="deg",Description="Rotation about y")
+	  double	w; // @Metadata=(Units="deg",Description="Rotation about z")
+	  boolean	sync; // @Metadata=(Units="dimensionless",Description="Synchronize motion so that all actuators start and stop moving at the same time?")
+	};
+#pragma keylist command_moveLUT_14970b3e HexapodID
+struct command_offset_9fc43ab7 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	x; // @Metadata=(Units="um",Description="Offset in x")
+	  double	y; // @Metadata=(Units="um",Description="Offset in y")
+	  double	z; // @Metadata=(Units="um",Description="Offset in z")
+	  double	u; // @Metadata=(Units="deg",Description="Offset of rotation about x")
+	  double	v; // @Metadata=(Units="deg",Description="Offset of rotation about y")
+	  double	w; // @Metadata=(Units="deg",Description="Offset of rotation about z")
+	  boolean	sync; // @Metadata=(Units="dimensionless",Description="Synchronize motion so that all actuators start and stop moving at the same time?")
+	};
+#pragma keylist command_offset_9fc43ab7 HexapodID
+struct command_offsetLUT_8693a133 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	elevation; // @Metadata=(Units="deg",Description="Telescope elevation")
+	  double	azimuth; // @Metadata=(Units="deg",Description="Telescope azimuth")
+	  double	temperature; // @Metadata=(Units="Celsius",Description="Ambient temperature")
+	  double	x; // @Metadata=(Units="um",Description="Offset in x")
+	  double	y; // @Metadata=(Units="um",Description="Offset in y")
+	  double	z; // @Metadata=(Units="um",Description="Offset in z")
+	  double	u; // @Metadata=(Units="deg",Description="Offset of rotation about x")
+	  double	v; // @Metadata=(Units="deg",Description="Offset of rotation about y")
+	  double	w; // @Metadata=(Units="deg",Description="Offset of rotation about z")
+	  boolean	sync; // @Metadata=(Units="dimensionless",Description="Synchronize motion so that all actuators start and stop moving at the same time?")
+	};
+#pragma keylist command_offsetLUT_8693a133 HexapodID
+struct command_pivot_f1410191 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	x; // @Metadata=(Units="um",Description="x")
+	  double	y; // @Metadata=(Units="um",Description="y")
+	  double	z; // @Metadata=(Units="um",Description="z")
+	};
+#pragma keylist command_pivot_f1410191 HexapodID
+struct command_setAuthList_011006c1 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC;")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC;")
+	};
+#pragma keylist command_setAuthList_011006c1 HexapodID
+struct command_setLogLevel_849131c6 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Logging level; as a Python logging level: error=40; warning=30; info=20; debug=10.")
+	};
+#pragma keylist command_setLogLevel_849131c6 HexapodID
+struct command_setValue_4871d7e4 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	parametersAndValues; // @Metadata=(Units="unitless",Description="List of parameters and their values as a Json string")
+	};
+#pragma keylist command_setValue_4871d7e4 HexapodID
+struct command_standby_a519dc3c {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_standby_a519dc3c HexapodID
+struct command_start_7e74efd3 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsToApply; // @Metadata=(Units="unitless",Description="Name of the selected settings set")
+	};
+#pragma keylist command_start_7e74efd3 HexapodID
+struct command_stop_8c42c27c {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	};
+#pragma keylist command_stop_8c42c27c HexapodID
+struct electrical_7e7ede58 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  unsigned short	copleyStatusWordDrive[6]; // @Metadata=(Units="dimensionless",Description="Bus undervoltage fault; bus overvoltage fault; and overcurrent fault are all being monitored for each drive channel")
+	  unsigned short	copleyLatchingFaultStatus[6]; // @Metadata=(Units="dimensionless",Description="Copley latching fault status")
+	};
+#pragma keylist electrical_7e7ede58 HexapodID
+	 const long indexEnumeration_CameraHexapod=1;
+	 const long indexEnumeration_m2msHexapod=2;
+struct logevent_actuatorInPosition_551fad7b {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	inPosition[6]; // @Metadata=(Units="unitless",Description="Actuator in position.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_actuatorInPosition_551fad7b HexapodID
+struct logevent_appliedSettingsMatchStart_06d05258 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	appliedSettingsMatchStartIsTrue; // @Metadata=(Units="unitless",Description="True when the configuration matches the start conditions")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_appliedSettingsMatchStart_06d05258 HexapodID
+struct logevent_authList_9db26323 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC.")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_authList_9db26323 HexapodID
+struct logevent_commandableByDDS_2c1ac3ec {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	state; // @Metadata=(Units="dimensionless",Description="If true the CSC can control the hexapod; else the Engineering User Interface has control.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_commandableByDDS_2c1ac3ec HexapodID
+struct logevent_configuration_f49d78de {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	accelerationAccmax; // @Metadata=(Units="um/s2",Description="Maximum acceleration")
+	  double	limitXYMax; // @Metadata=(Units="um",Description="Maximum XY (Combined linear motion limit)")
+	  double	limitZMin; // @Metadata=(Units="um",Description="Minimum Z")
+	  double	limitZMax; // @Metadata=(Units="um",Description="Maximum Z limit")
+	  double	limitUVMax; // @Metadata=(Units="deg",Description="Maximum UV (Combined angular motion limit)")
+	  double	limitWMin; // @Metadata=(Units="deg",Description="Minimum W limit")
+	  double	limitWMax; // @Metadata=(Units="deg",Description="Maximum W limit")
+	  double	velocityXYMax; // @Metadata=(Units="um/s",Description="Maximum XY velocity limit")
+	  double	velocityRxRyMax; // @Metadata=(Units="deg/s",Description="Maximum RXRY velocity limit")
+	  double	velocityZMax; // @Metadata=(Units="um/s",Description="Maximum Z velocity")
+	  double	velocityRzMax; // @Metadata=(Units="deg/s",Description="Maximum Rz velocity")
+	  double	positionX; // @Metadata=(Units="um",Description="x position")
+	  double	positionY; // @Metadata=(Units="um",Description="y position")
+	  double	positionZ; // @Metadata=(Units="um",Description="z position")
+	  double	positionU; // @Metadata=(Units="deg",Description="U position")
+	  double	positionV; // @Metadata=(Units="deg",Description="V position")
+	  double	positionW; // @Metadata=(Units="deg",Description="W position")
+	  double	pivotX; // @Metadata=(Units="um",Description="Pivot coordinate X")
+	  double	pivotY; // @Metadata=(Units="um",Description="Pivot coordinate Y")
+	  double	pivotZ; // @Metadata=(Units="um",Description="Pivot coordinate Z")
+	  short	elevationRawLUTElevIndex[19]; // @Metadata=(Units="dimensionless",Description="elevationRawLUTElevIndex")
+	  double	elevationRawLUTX[19]; // @Metadata=(Units="um",Description="elevationRawLUTX")
+	  double	elevationRawLUTY[19]; // @Metadata=(Units="um",Description="elevationRawLUTY")
+	  double	elevationRawLUTZ[19]; // @Metadata=(Units="um",Description="elevationRawLUTZ")
+	  double	elevationRawLUTRx[19]; // @Metadata=(Units="deg",Description="elevationRawLUTRx")
+	  double	elevationRawLUTRy[19]; // @Metadata=(Units="deg",Description="elevationRawLUTRy")
+	  double	elevationRawLUTRz[19]; // @Metadata=(Units="deg",Description="elevationRawLUTRz")
+	  short	azimuthRawLUTAzIndex[37]; // @Metadata=(Units="dimensionless",Description="azimuthRawLUTAzIndex")
+	  double	azimuthRawLUTX[37]; // @Metadata=(Units="um",Description="azimuthRawLUTX")
+	  double	azimuthRawLUTY[37]; // @Metadata=(Units="um",Description="azimuthRawLUTY")
+	  double	azimuthRawLUTZ[37]; // @Metadata=(Units="um",Description="azimuthRawLUTZ")
+	  double	azimuthRawLUTRx[37]; // @Metadata=(Units="deg",Description="azimuthRawLUTRx")
+	  double	azimuthRawLUTRy[37]; // @Metadata=(Units="deg",Description="azimuthRawLUTRy")
+	  double	azimuthRawLUTRz[37]; // @Metadata=(Units="deg",Description="azimuthRawLUTRz")
+	  short	temperatureRawLUTTempIndex[9]; // @Metadata=(Units="dimensionless",Description="temperatureRawLUTTempIndex")
+	  double	temperatureRawLUTX[9]; // @Metadata=(Units="um",Description="temperatureRawLUTX")
+	  double	temperatureRawLUTY[9]; // @Metadata=(Units="um",Description="temperatureRawLUTY")
+	  double	temperatureRawLUTZ[9]; // @Metadata=(Units="um",Description="temperatureRawLUTZ")
+	  double	temperatureRawLUTRx[9]; // @Metadata=(Units="deg",Description="temperatureRawLUTRx")
+	  double	temperatureRawLUTRy[9]; // @Metadata=(Units="deg",Description="temperatureRawLUTRy")
+	  double	temperatureRawLUTRz[9]; // @Metadata=(Units="deg",Description="temperatureRawLUTRz")
+	  double	strutDisplacementMax; // @Metadata=(Units="um",Description="strutDisplacementMax")
+	  double	strutVelocityMax; // @Metadata=(Units="um/s",Description="strutVelocityMax")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_configuration_f49d78de HexapodID
+struct logevent_connected_2a3f4034 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	command; // @Metadata=(Units="unitless",Description="Is the command socket connected (true=yes; false=no)?")
+	  boolean	telemetry; // @Metadata=(Units="unitless",Description="Is the telemetry/config socket connected (true=yes; false=no)?")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_connected_2a3f4034 HexapodID
+struct logevent_controllerState_083002f0 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	controllerState; // @Metadata=(Units="unitless",Description="Basic state; a ControllerState enumeration value. The state names and meanings are the same as standard CSC summaryState; but the numeric values differ. We report the controller state in addition to summaryState because we need to report a summaryState even when the controller is not connected; and to aid diagnostics; e.g. in case the controller reports an unrecognized state.")
+	  long	offlineSubstate; // @Metadata=(Units="unitless",Description="Substate in OFFLINE mode; an OfflineSubstate enumeration value.")
+	  long	enabledSubstate; // @Metadata=(Units="unitless",Description="Substate in ENABLED mode; an EnabledSubstate enumeration value.")
+	  long	applicationStatus[6]; // @Metadata=(Units="unitless",Description="Application status; one value for each linear actuator. A bitmask of ApplicationStatus enumeration values.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_controllerState_083002f0 HexapodID
+	 const long Hexapod_shared_ControllerState_Standby=0;
+	 const long Hexapod_shared_ControllerState_Disabled=1;
+	 const long Hexapod_shared_ControllerState_Enabled=2;
+	 const long Hexapod_shared_ControllerState_Offline=3;
+	 const long Hexapod_shared_ControllerState_Fault=4;
+	 const long Hexapod_shared_OfflineSubstate_PublishOnly=0;
+	 const long Hexapod_shared_OfflineSubstate_Available=1;
+	 const long Hexapod_shared_EnabledSubstate_Stationary= 0;
+	 const long Hexapod_shared_EnabledSubstate_MovingPointToPoint=1;
+	 const long Hexapod_shared_EnabledSubstate_SlewingOrTracking=2;
+	 const long Hexapod_shared_EnabledSubstate_ControlledStopping=3;
+	 const long Hexapod_shared_EnabledSubstate_Initializing=4;
+	 const long Hexapod_shared_EnabledSubstate_Relative=5;
+	 const long Hexapod_shared_EnabledSubstate_ConstantVelocity=6;
+	 const long Hexapod_shared_ApplicationStatus_HEX_FOLLOWING_ERROR_MASK=0x00000001;
+	 const long Hexapod_shared_ApplicationStatus_HEX_MOVE_COMPLETE_MASK=0x00000002;
+	 const long Hexapod_shared_ApplicationStatus_COMMAND_REJECT_MASK=0x00000020;
+	 const long Hexapod_shared_ApplicationStatus_SAFTEY_INTERLOCK=0x00000040;
+	 const long Hexapod_shared_ApplicationStatus_EXTEND_LIMIT_SWITCH=0x00000080;
+	 const long Hexapod_shared_ApplicationStatus_RETRACT_LIMIT_SWITCH=0x00000100;
+	 const long Hexapod_shared_ApplicationStatus_ETHERCAT_PROBLEM=0x00000200;
+	 const long Hexapod_shared_ApplicationStatus_DDS_COMMAND_SOURCE=0x00000400;
+	 const long Hexapod_shared_ApplicationStatus_MOTION_TIMEOUT=0x00000800;
+	 const long Hexapod_shared_ApplicationStatus_DRIVE_FAULT=0x00002000;
+	 const long Hexapod_shared_ApplicationStatus_SIMULINK_FAULT=0x00004000;
+	 const long Hexapod_shared_ApplicationStatus_ENCODER_FAULT=0x00008000;
+struct logevent_errorCode_09e22578 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	errorCode; // @Metadata=(Units="unitless",Description="A numeric error code")
+	  string	errorReport; // @Metadata=(Units="unitless",Description="An string providing detailed information about the error")
+	  string	traceback; // @Metadata=(Units="unitless",Description="An optional stack trace of the error condition")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_errorCode_09e22578 HexapodID
+struct logevent_heartbeat_76539112 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	heartbeat; // @Metadata=(Units="unitless",Description="Beats the drum.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_heartbeat_76539112 HexapodID
+struct logevent_inPosition_05ca78c7 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	inPosition; // @Metadata=(Units="unitless",Description="All actuators are in position.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_inPosition_05ca78c7 HexapodID
+struct logevent_interlock_2293dc19 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	detail; // @Metadata=(Units="dimensionless",Description="One of two values: Engaged or Disengaged")
+	  double	timestamp; // @Metadata=(Units="dimensionless",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_interlock_2293dc19 HexapodID
+struct logevent_logLevel_9ff95581 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Current logging level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logLevel_9ff95581 HexapodID
+struct logevent_logMessage_602a71f4 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	name; // @Metadata=(Units="unitless",Description="Log name.")
+	  long	level; // @Metadata=(Units="unitless",Description="Message level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  string	message; // @Metadata=(Units="unitless",Description="Log message.")
+	  string	traceback; // @Metadata=(Units="unitless",Description="Exception traceback; "" if not an exception.")
+	  string	filePath; // @Metadata=(Units="unitless",Description="Path to source file.")
+	  string	functionName; // @Metadata=(Units="unitless",Description="Function or method name.")
+	  long	lineNumber; // @Metadata=(Units="unitless",Description="Line number in the file specified by filePath.")
+	  long	process; // @Metadata=(Units="unitless",Description="Process ID.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logMessage_602a71f4 HexapodID
+struct logevent_settingVersions_a0172759 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	recommendedSettingsVersion; // @Metadata=(Units="unitless",Description="List of comma seperated recomended versions of settings sets")
+	  string	recommendedSettingsLabels; // @Metadata=(Units="unitless",Description="List of comma seperated names of settings sets")
+	  string	settingsUrl; // @Metadata=(Units="unitless",Description="The URL where the settings sets definitions can be found")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingVersions_a0172759 HexapodID
+struct logevent_settingsApplied_25aeae69 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsVersion; // @Metadata=(Units="unitless",Description="The SHA or name corresponding to the published configuration")
+	  string	otherSettingsEvents; // @Metadata=(Units="unitless",Description="A comma delimited list of other specific CSC configuration events. This may be blank if no other CSC specific events are necessary")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsApplied_25aeae69 HexapodID
+struct logevent_simulationMode_d804c145 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="Current simulation mode; 0 for normal operation (no simulation); other supported values are specific to each CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_simulationMode_d804c145 HexapodID
+struct logevent_softwareVersions_a9f2c3ef {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<16>	salVersion; // @Metadata=(Units="unitless",Description="This is the current version of SAL generation")
+	  string<16>	xmlVersion; // @Metadata=(Units="unitless",Description="This is the current version of CSC XML")
+	  string<16>	openSpliceVersion; // @Metadata=(Units="unitless",Description="This is the current version of OpenSplice")
+	  string<16>	cscVersion; // @Metadata=(Units="unitless",Description="This is the top-level version of the CSC")
+	  string	subsystemVersions; // @Metadata=(Units="unitless",Description="A comma delimited list of key=value pairs relating subsystem name (key) to its version number (value). This may be left blank if there are no subsystems within a CSC")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_softwareVersions_a9f2c3ef HexapodID
+struct logevent_summaryState_9a2f7045 {  // @Metadata=(Description="")
+	  long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	summaryState; // @Metadata=(Units="unitless",Description="High level state machine state identifier")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_summaryState_9a2f7045 HexapodID
+struct ackcmd_01ebeda3 {  // @Metadata=(Description="")
+      string<8>	private_revCode;
+      double		private_sndStamp;
+      double		private_rcvStamp;
+      long		private_origin;
+      long 		private_host;
+      long		private_seqNum;
+      long	HexapodID; // @Metadata=(Description="Index number for CSC with multiple instances")
+      long 		ack;
+      long 		error;
+      string<256>	result;
+      long		host;
+      long		origin;
+      long		cmdtype;
+      double		timeout;
+	};
+#pragma keylist ackcmd_01ebeda3 HexapodID
+};
+

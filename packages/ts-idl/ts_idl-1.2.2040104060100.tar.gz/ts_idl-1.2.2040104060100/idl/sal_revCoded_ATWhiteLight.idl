@@ -1,0 +1,586 @@
+// SAL_VERSION=4.1.4 XML_VERSION=6.1.0
+module ATWhiteLight {
+struct bulbWatthour_f67a45a3 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	bulbhour; // @Metadata=(Units="watt hour",Description="The uptime in watt-hour of the WLS bulb")
+	};
+#pragma keylist bulbWatthour_f67a45a3 
+struct bulbhour_08e564f3 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	bulbhour; // @Metadata=(Units="hour",Description="The uptime of the WLS bulb")
+	};
+#pragma keylist bulbhour_08e564f3 
+struct chillerFansSpeed_2cbbb020 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	fan1Speed; // @Metadata=(Units="Hz",Description="fan 1 speed")
+	  long	fan2Speed; // @Metadata=(Units="Hz",Description="fan 2 speed")
+	  long	fan3Speed; // @Metadata=(Units="Hz",Description="fan 3 speed")
+	  long	fan4Speed; // @Metadata=(Units="Hz",Description="fan 4 speed")
+	  double	timestamp; // @Metadata=(Units="second",Description="time stamp")
+	};
+#pragma keylist chillerFansSpeed_2cbbb020 
+struct chillerProcessFlow_e67833e5 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	flow; // @Metadata=(Units="liter/min",Description="flow rate in liters/min")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	};
+#pragma keylist chillerProcessFlow_e67833e5 
+struct chillerTECBankCurrent_399737dc {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	bank1Current; // @Metadata=(Units="ampere",Description="DC Amps bank 1")
+	  float	bank2Current; // @Metadata=(Units="ampere",Description="DC Amps bank 2")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	};
+#pragma keylist chillerTECBankCurrent_399737dc 
+struct chillerTEDriveLevel_73274b63 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	chillerTEDriveLevel; // @Metadata=(Units="percent",Description="thermo electric drive level")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	};
+#pragma keylist chillerTEDriveLevel_73274b63 
+struct chillerTempSensors_67611100 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	setTemperature; // @Metadata=(Units="degree",Description="the celsius temperature we currently targetting")
+	  float	supplyTemperature; // @Metadata=(Units="degree",Description="the celsius temperature of the coolant supply")
+	  float	returnTemperature; // @Metadata=(Units="degree",Description="the celsius return temperature of coolant")
+	  float	ambientTemperature; // @Metadata=(Units="degree",Description="ambient temperature celsius")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	};
+#pragma keylist chillerTempSensors_67611100 
+struct chillerUpTime_2e66324d {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	upTime; // @Metadata=(Units="minute",Description="chiller uptime")
+	  double	timestamp; // @Metadata=(Units="second",Description="time stamp")
+	};
+#pragma keylist chillerUpTime_2e66324d 
+struct command_abort_0c45cb38 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_abort_0c45cb38 
+struct command_disable_60136c2b {  // @Metadata=(Description="Transition from state Enabled to Disabled.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_disable_60136c2b 
+struct command_emergencyPowerLightOff_f3d00bbf {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	power; // @Metadata=(Units="dimensionless",Description="immediately turns light off without regard for minimum warmup time constraint")
+	};
+#pragma keylist command_emergencyPowerLightOff_f3d00bbf 
+struct command_enable_9ec0ea78 {  // @Metadata=(Description="Transition from state Disabled to Enabled.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enable_9ec0ea78 
+struct command_enterControl_7a968f9c {  // @Metadata=(Description="Transition from state Offline to Standby. Only "externally commandable" CSCs support this command; other CSCs start in Standby state and quit when they go to Offline.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enterControl_7a968f9c 
+struct command_exitControl_52d6612b {  // @Metadata=(Description="Transition from state Standby to Offline. For CSCs that are not "externally commandable" this makes the CSC quit.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_exitControl_52d6612b 
+struct command_powerLightOff_3861d21f {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	power; // @Metadata=(Units="dimensionless",Description="turns light off")
+	};
+#pragma keylist command_powerLightOff_3861d21f 
+struct command_powerLightOn_955330a0 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	power; // @Metadata=(Units="dimensionless",Description="turns light on")
+	};
+#pragma keylist command_powerLightOn_955330a0 
+struct command_setAuthList_5e42dabc {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC;")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC;")
+	};
+#pragma keylist command_setAuthList_5e42dabc 
+struct command_setChillerTemperature_e99f4eee {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	temperature; // @Metadata=(Units="degree",Description="sets the target temp for the chiller system (celsius)")
+	};
+#pragma keylist command_setChillerTemperature_e99f4eee 
+struct command_setLightPower_6e1c24b1 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	power; // @Metadata=(Units="W",Description="Power intensity; it could a value between 800 to 1200W. Any value under this range will power the light off safely.")
+	};
+#pragma keylist command_setLightPower_6e1c24b1 
+struct command_setLogLevel_f79b3e51 {  // @Metadata=(Description="Set the logging level.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Logging level; as a Python logging level: error=40; warning=30; info=20; debug=10.")
+	};
+#pragma keylist command_setLogLevel_f79b3e51 
+struct command_setValue_b40dfab3 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	parametersAndValues; // @Metadata=(Units="unitless",Description="List of parameters and their values as a Json string")
+	};
+#pragma keylist command_setValue_b40dfab3 
+struct command_standby_14ebc342 {  // @Metadata=(Description="Transition from state Offline; Disabled or Fault to Standby.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_standby_14ebc342 
+struct command_start_e82f0f6f {  // @Metadata=(Description="Transition from state Standby to Disable; in a specified configuration.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsToApply; // @Metadata=(Units="unitless",Description="Name of the selected settings set")
+	};
+#pragma keylist command_start_e82f0f6f 
+struct command_startCooling_3fc767a8 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	powerOn; // @Metadata=(Units="second",Description="activates the chiller")
+	};
+#pragma keylist command_startCooling_3fc767a8 
+struct command_stopCooling_63f39e9a {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	powerOffTime; // @Metadata=(Units="second",Description="disables the chiller")
+	};
+#pragma keylist command_stopCooling_63f39e9a 
+struct logevent_appliedSettingsMatchStart_d8c02b01 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	appliedSettingsMatchStartIsTrue; // @Metadata=(Units="unitless",Description="True when the configuration matches the start conditions")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_appliedSettingsMatchStart_d8c02b01 
+struct logevent_authList_f44c91f1 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC.")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_authList_f44c91f1 
+struct logevent_chillerFluidLevelWarning_cf1d3fe7 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	warning; // @Metadata=(Units="dimensionless",Description="Chiller reporting low fluid level.")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerFluidLevelWarning_cf1d3fe7 
+struct logevent_chillerHighAmbientTempWarning_1ba4d867 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	warning; // @Metadata=(Units="dimensionless",Description="Chiller High Ambient Temp Warning")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerHighAmbientTempWarning_1ba4d867 
+struct logevent_chillerHighControlTempWarning_34cb937f {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	warning; // @Metadata=(Units="dimensionless",Description="Chiller High Control Temp Warning.")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerHighControlTempWarning_34cb937f 
+struct logevent_chillerLowAmbientTempWarning_6be0d848 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	warning; // @Metadata=(Units="dimensionless",Description="Chiller Low Ambient Temp Warning")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerLowAmbientTempWarning_6be0d848 
+struct logevent_chillerLowControlTempWarning_48a0f6a4 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	warning; // @Metadata=(Units="dimensionless",Description="Chiller Low Control Temp Warning.")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerLowControlTempWarning_48a0f6a4 
+struct logevent_chillerLowFlowWarning_6a19becd {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	warning; // @Metadata=(Units="dimensionless",Description="Chiller coolant flow rate is below the minimum.")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerLowFlowWarning_6a19becd 
+struct logevent_chillerSwitchToSupplyTempWarning_a48c9471 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	warning; // @Metadata=(Units="dimensionless",Description="Switch to Supply Temp as Control Temp Warning.")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerSwitchToSupplyTempWarning_a48c9471 
+struct logevent_chillerTempReached_e3f790db {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	inTemperature; // @Metadata=(Units="dimensionless",Description="for when the measured temperature reaches the temperature we targetted.")
+	  double	timestamp; // @Metadata=(Units="dimensionless",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_chillerTempReached_e3f790db 
+struct logevent_errorCode_ecf1809b {  // @Metadata=(Description="Output when a CSC goes into the Fault state as an explanation of the problem.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	errorCode; // @Metadata=(Units="unitless",Description="A numeric error code")
+	  string	errorReport; // @Metadata=(Units="unitless",Description="An string providing detailed information about the error")
+	  string	traceback; // @Metadata=(Units="unitless",Description="An optional stack trace of the error condition")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_errorCode_ecf1809b 
+struct logevent_heartbeat_5f9ad1b1 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	heartbeat; // @Metadata=(Units="unitless",Description="Beats the drum.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_heartbeat_5f9ad1b1 
+struct logevent_logLevel_87b777b4 {  // @Metadata=(Description="Current logging level.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Current logging level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logLevel_87b777b4 
+struct logevent_logMessage_9ac09735 {  // @Metadata=(Description="A log message.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	name; // @Metadata=(Units="unitless",Description="Log name.")
+	  long	level; // @Metadata=(Units="unitless",Description="Message level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  string	message; // @Metadata=(Units="unitless",Description="Log message.")
+	  string	traceback; // @Metadata=(Units="unitless",Description="Exception traceback; "" if not an exception.")
+	  string	filePath; // @Metadata=(Units="unitless",Description="Path to source file.")
+	  string	functionName; // @Metadata=(Units="unitless",Description="Function or method name.")
+	  long	lineNumber; // @Metadata=(Units="unitless",Description="Line number in the file specified by filePath.")
+	  long	process; // @Metadata=(Units="unitless",Description="Process ID.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logMessage_9ac09735 
+struct logevent_loopTimeOutOfRange_ef2de92c {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	loopTimeOutOfRange; // @Metadata=(Units="dimensionless",Description="Attribute required by the API; but is unused.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_loopTimeOutOfRange_ef2de92c 
+	 const long ATWhiteLight_shared_DetailedState_DisabledState=1;
+	 const long ATWhiteLight_shared_DetailedState_EnabledState=2;
+	 const long ATWhiteLight_shared_DetailedState_FaultState=3;
+	 const long ATWhiteLight_shared_DetailedState_OfflineState=4;
+	 const long ATWhiteLight_shared_DetailedState_StandbyState=5;
+struct logevent_rejectedCommand_a378260f {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  unsigned short	commandValue; // @Metadata=(Units="dimensionless",Description="Attribute required by the API; but is unused.")
+	  long	detailedState; // @Metadata=(Units="dimensionless",Description="Attribute required by the API; but is unused.")
+	  double	timestamp; // @Metadata=(Units="second",Description="timestamp")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_rejectedCommand_a378260f 
+	 const long rejectedCommand_detailedState_detailedState_disabledState=1;
+	 const long rejectedCommand_detailedState_detailedState_enabledState=2;
+	 const long rejectedCommand_detailedState_detailedState_faultState=3;
+	 const long rejectedCommand_detailedState_detailedState_offlineState=4;
+	 const long rejectedCommand_detailedState_detailedState_standbyState=5;
+struct logevent_settingVersions_5db58c2a {  // @Metadata=(Description="Information about settings which can be specified in the start command.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	recommendedSettingsVersion; // @Metadata=(Units="unitless",Description="List of comma seperated recomended versions of settings sets")
+	  string	recommendedSettingsLabels; // @Metadata=(Units="unitless",Description="List of comma seperated names of settings sets")
+	  string	settingsUrl; // @Metadata=(Units="unitless",Description="The URL where the settings sets definitions can be found")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingVersions_5db58c2a 
+struct logevent_settingsApplied_ca07fd96 {  // @Metadata=(Description="Base settings applied.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsVersion; // @Metadata=(Units="unitless",Description="The SHA or name corresponding to the published configuration")
+	  string	otherSettingsEvents; // @Metadata=(Units="unitless",Description="A comma delimited list of other specific CSC configuration events. This may be blank if no other CSC specific events are necessary")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsApplied_ca07fd96 
+struct logevent_simulationMode_2404cb52 {  // @Metadata=(Description="Current simulation mode.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="Current simulation mode; 0 for normal operation (no simulation); other supported values are specific to each CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_simulationMode_2404cb52 
+struct logevent_softwareVersions_09971fe6 {  // @Metadata=(Description="Current versions of software in use by CSC.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<16>	salVersion; // @Metadata=(Units="unitless",Description="This is the current version of SAL generation")
+	  string<16>	xmlVersion; // @Metadata=(Units="unitless",Description="This is the current version of CSC XML")
+	  string<16>	openSpliceVersion; // @Metadata=(Units="unitless",Description="This is the current version of OpenSplice")
+	  string<16>	cscVersion; // @Metadata=(Units="unitless",Description="This is the top-level version of the CSC")
+	  string	subsystemVersions; // @Metadata=(Units="unitless",Description="A comma delimited list of key=value pairs relating subsystem name (key) to its version number (value). This may be left blank if there are no subsystems within a CSC")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_softwareVersions_09971fe6 
+struct logevent_summaryState_f7c0e5c6 {  // @Metadata=(Description="Current summary state of the CSC")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	summaryState; // @Metadata=(Units="unitless",Description="High level state machine state identifier")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_summaryState_f7c0e5c6 
+struct logevent_whiteLightStatus_452dde84 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  float	wattageChange; // @Metadata=(Units="watt",Description="Current Wattage reporting from the CSC.")
+	  boolean	coolingDown; // @Metadata=(Units="dimensionless",Description="Blue LED status from the digital output")
+	  boolean	error; // @Metadata=(Units="dimensionless",Description="Red LED status from the digital output. The kiloarc has some safe switches. The lamp system immediately extinguishes the bulb; the status indicator turns red; and the error indicator flashes the error code cycle (see above) continuously.")
+	  boolean	acceptingCommands; // @Metadata=(Units="dimensionless",Description="Greed LED status from the digital output. It could be in Standby or operation.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_whiteLightStatus_452dde84 
+struct loopTime_831c5f53 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	loopTime; // @Metadata=(Units="second",Description="The actual loop time is millisecond.")
+	};
+#pragma keylist loopTime_831c5f53 
+struct timestamp_1316951c {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	timestamp; // @Metadata=(Units="second",Description="The system time (TAI).")
+	};
+#pragma keylist timestamp_1316951c 
+struct ackcmd_71f932c5 {  // @Metadata=(Description="")
+      string<8>	private_revCode;
+      double		private_sndStamp;
+      double		private_rcvStamp;
+      long		private_origin;
+      long 		private_host;
+      long		private_seqNum;
+      long 		ack;
+      long 		error;
+      string<256>	result;
+      long		host;
+      long		origin;
+      long		cmdtype;
+      double		timeout;
+	};
+#pragma keylist ackcmd_71f932c5 
+};
+

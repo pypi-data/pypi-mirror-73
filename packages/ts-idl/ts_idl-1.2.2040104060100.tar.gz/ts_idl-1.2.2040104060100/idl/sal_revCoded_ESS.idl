@@ -1,0 +1,374 @@
+// SAL_VERSION=4.1.4 XML_VERSION=6.1.0
+module ESS {
+struct airFlow_6f305d34 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	timestamp; // @Metadata=(Units="second",Description="Time at which the data was determined (TAI unix seconds).")
+	  short	direction; // @Metadata=(Units="unitless",Description="Wind direction Telemetry")
+	  float	speed; // @Metadata=(Units="m/s",Description="Wind speed Telemetry")
+	  unsigned short	status; // @Metadata=(Units="unitless",Description="Status Code Telemetry")
+	};
+#pragma keylist airFlow_6f305d34 ESSID
+struct airTurbulence_830df449 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	timestamp; // @Metadata=(Units="second",Description="Time at which the data was determined (TAI unix seconds).")
+	  float	ux; // @Metadata=(Units="m/s",Description="x-axis wind speed")
+	  float	uy; // @Metadata=(Units="m/s",Description="y-axis wind speed")
+	  float	uz; // @Metadata=(Units="m/s",Description="z-axis wind speed")
+	  float	ts; // @Metadata=(Units="unitless",Description="Sonic temperature")
+	  short	diagWord; // @Metadata=(Units="unitless",Description="Diagnostic word")
+	  short	recordCounter; // @Metadata=(Units="unitless",Description="Record counter (0-63)")
+	};
+#pragma keylist airTurbulence_830df449 ESSID
+struct cloudRainLight_e8585335 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	timestamp; // @Metadata=(Units="second",Description="Time at which the data was determined (TAI unix seconds).")
+	  float	ambientTemperature; // @Metadata=(Units="deg_C",Description="Ambient Temperature Sensor Telemetry")
+	  float	skyTemperature; // @Metadata=(Units="deg_C",Description="Sky Temperature Sensor Telemetry")
+	  float	lightLevel; // @Metadata=(Units="unitless",Description="Light Level Telemetry")
+	  float	rainLevel; // @Metadata=(Units="mm",Description="Rain Level Telemetry")
+	};
+#pragma keylist cloudRainLight_e8585335 ESSID
+	 const long indexEnumeration_any=1;
+struct command_abort_936106d8 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_abort_936106d8 ESSID
+struct command_disable_10bf02d3 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_disable_10bf02d3 ESSID
+struct command_enable_05a1ed9e {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enable_05a1ed9e ESSID
+struct command_enterControl_73eac85f {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enterControl_73eac85f ESSID
+struct command_exitControl_46d1ae37 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_exitControl_46d1ae37 ESSID
+struct command_setAuthList_50513e1b {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC;")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC;")
+	};
+#pragma keylist command_setAuthList_50513e1b ESSID
+struct command_setLogLevel_24b8a735 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Logging level; as a Python logging level: error=40; warning=30; info=20; debug=10.")
+	};
+#pragma keylist command_setLogLevel_24b8a735 ESSID
+struct command_setValue_b4302e31 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	parametersAndValues; // @Metadata=(Units="unitless",Description="List of parameters and their values as a Json string")
+	};
+#pragma keylist command_setValue_b4302e31 ESSID
+struct command_standby_ed72eb57 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_standby_ed72eb57 ESSID
+struct command_start_4fa92983 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsToApply; // @Metadata=(Units="unitless",Description="Name of the selected settings set")
+	};
+#pragma keylist command_start_4fa92983 ESSID
+struct logevent_appliedSettingsMatchStart_740f9357 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	appliedSettingsMatchStartIsTrue; // @Metadata=(Units="unitless",Description="True when the configuration matches the start conditions")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_appliedSettingsMatchStart_740f9357 ESSID
+struct logevent_authList_3a2b43f7 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC.")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_authList_3a2b43f7 ESSID
+struct logevent_errorCode_38be76bd {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	errorCode; // @Metadata=(Units="unitless",Description="A numeric error code")
+	  string	errorReport; // @Metadata=(Units="unitless",Description="An string providing detailed information about the error")
+	  string	traceback; // @Metadata=(Units="unitless",Description="An optional stack trace of the error condition")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_errorCode_38be76bd ESSID
+struct logevent_heartbeat_2ab24b1a {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	heartbeat; // @Metadata=(Units="unitless",Description="Beats the drum.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_heartbeat_2ab24b1a ESSID
+struct logevent_logLevel_d5ade16d {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Current logging level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logLevel_d5ade16d ESSID
+struct logevent_logMessage_97e61bcd {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	name; // @Metadata=(Units="unitless",Description="Log name.")
+	  long	level; // @Metadata=(Units="unitless",Description="Message level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  string	message; // @Metadata=(Units="unitless",Description="Log message.")
+	  string	traceback; // @Metadata=(Units="unitless",Description="Exception traceback; "" if not an exception.")
+	  string	filePath; // @Metadata=(Units="unitless",Description="Path to source file.")
+	  string	functionName; // @Metadata=(Units="unitless",Description="Function or method name.")
+	  long	lineNumber; // @Metadata=(Units="unitless",Description="Line number in the file specified by filePath.")
+	  long	process; // @Metadata=(Units="unitless",Description="Process ID.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logMessage_97e61bcd ESSID
+struct logevent_settingVersions_ccda9123 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	recommendedSettingsVersion; // @Metadata=(Units="unitless",Description="List of comma seperated recomended versions of settings sets")
+	  string	recommendedSettingsLabels; // @Metadata=(Units="unitless",Description="List of comma seperated names of settings sets")
+	  string	settingsUrl; // @Metadata=(Units="unitless",Description="The URL where the settings sets definitions can be found")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingVersions_ccda9123 ESSID
+struct logevent_settingsApplied_e85e3e7a {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsVersion; // @Metadata=(Units="unitless",Description="The SHA or name corresponding to the published configuration")
+	  string	otherSettingsEvents; // @Metadata=(Units="unitless",Description="A comma delimited list of other specific CSC configuration events. This may be blank if no other CSC specific events are necessary")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsApplied_e85e3e7a ESSID
+struct logevent_simulationMode_f97e7f49 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="Current simulation mode; 0 for normal operation (no simulation); other supported values are specific to each CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_simulationMode_f97e7f49 ESSID
+struct logevent_softwareVersions_ee43dbb6 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<16>	salVersion; // @Metadata=(Units="unitless",Description="This is the current version of SAL generation")
+	  string<16>	xmlVersion; // @Metadata=(Units="unitless",Description="This is the current version of CSC XML")
+	  string<16>	openSpliceVersion; // @Metadata=(Units="unitless",Description="This is the current version of OpenSplice")
+	  string<16>	cscVersion; // @Metadata=(Units="unitless",Description="This is the top-level version of the CSC")
+	  string	subsystemVersions; // @Metadata=(Units="unitless",Description="A comma delimited list of key=value pairs relating subsystem name (key) to its version number (value). This may be left blank if there are no subsystems within a CSC")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_softwareVersions_ee43dbb6 ESSID
+struct logevent_summaryState_218906a5 {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	summaryState; // @Metadata=(Units="unitless",Description="High level state machine state identifier")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_summaryState_218906a5 ESSID
+struct temperature1Ch_1f9c40bb {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	timestamp; // @Metadata=(Units="second",Description="Time at which the data was determined (TAI unix seconds).")
+	  float	temperatureC01; // @Metadata=(Units="deg_C",Description="Temperature Sensor 1 Telemetry")
+	};
+#pragma keylist temperature1Ch_1f9c40bb ESSID
+struct temperature4Ch_111de36e {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	timestamp; // @Metadata=(Units="second",Description="Time at which the data was determined (TAI unix seconds).")
+	  float	temperatureC01; // @Metadata=(Units="deg_C",Description="Temperature Sensor 1 Telemetry")
+	  float	temperatureC02; // @Metadata=(Units="deg_C",Description="Temperature Sensor 2 Telemetry")
+	  float	temperatureC03; // @Metadata=(Units="deg_C",Description="Temperature Sensor 3 Telemetry")
+	  float	temperatureC04; // @Metadata=(Units="deg_C",Description="Temperature Sensor 4 Telemetry")
+	};
+#pragma keylist temperature4Ch_111de36e ESSID
+struct temperature8Ch_9eb1de1e {  // @Metadata=(Description="")
+	  long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	timestamp; // @Metadata=(Units="second",Description="Time at which the data was determined (TAI unix seconds).")
+	  float	temperatureC01; // @Metadata=(Units="deg_C",Description="Temperature Sensor 1 Telemetry")
+	  float	temperatureC02; // @Metadata=(Units="deg_C",Description="Temperature Sensor 2 Telemetry")
+	  float	temperatureC03; // @Metadata=(Units="deg_C",Description="Temperature Sensor 3 Telemetry")
+	  float	temperatureC04; // @Metadata=(Units="deg_C",Description="Temperature Sensor 4 Telemetry")
+	  float	temperatureC05; // @Metadata=(Units="deg_C",Description="Temperature Sensor 5 Telemetry")
+	  float	temperatureC06; // @Metadata=(Units="deg_C",Description="Temperature Sensor 6 Telemetry")
+	  float	temperatureC07; // @Metadata=(Units="deg_C",Description="Temperature Sensor 7 Telemetry")
+	  float	temperatureC08; // @Metadata=(Units="deg_C",Description="Temperature Sensor 8 Telemetry")
+	};
+#pragma keylist temperature8Ch_9eb1de1e ESSID
+struct ackcmd_fd61fd2b {  // @Metadata=(Description="")
+      string<8>	private_revCode;
+      double		private_sndStamp;
+      double		private_rcvStamp;
+      long		private_origin;
+      long 		private_host;
+      long		private_seqNum;
+      long	ESSID; // @Metadata=(Description="Index number for CSC with multiple instances")
+      long 		ack;
+      long 		error;
+      string<256>	result;
+      long		host;
+      long		origin;
+      long		cmdtype;
+      double		timeout;
+	};
+#pragma keylist ackcmd_fd61fd2b ESSID
+};
+

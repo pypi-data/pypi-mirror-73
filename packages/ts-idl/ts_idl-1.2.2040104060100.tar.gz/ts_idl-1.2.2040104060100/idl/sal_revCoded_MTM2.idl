@@ -1,0 +1,650 @@
+// SAL_VERSION=4.1.4 XML_VERSION=6.1.0
+module MTM2 {
+struct axialActuatorSteps_3ac2d03b {  // @Metadata=(Description="Axial actuator stepper motor position in steps. Increasing step corresponds to counterclockwise rotation of the motor shaft; looking along the shaft in the direction of the motor. The elements are the actuator Ids from 1 to 72. The related ring Ids are B1-B30; C1-C24; and D1-D18.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	steps[72]; // @Metadata=(Units="unitless",Description="Array of steps for each axial actuator in sequence.")
+	};
+#pragma keylist axialActuatorSteps_3ac2d03b 
+struct axialEncoderPositions_35982999 {  // @Metadata=(Description="Axial actuator encoder position. The sign of the position is consistent with the optical coordinate system as per LTS-136. The elements are the actuator Ids from 1 to 72. The related ring Ids are B1-B30; C1-C24; and D1-D18.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	position[72]; // @Metadata=(Units="micron",Description="Encoder position of each axial encoder in sequence.")
+	};
+#pragma keylist axialEncoderPositions_35982999 
+struct axialForce_2f30cdfc {  // @Metadata=(Description="Axial actuator forces data. Increasing force corresponds to increasing tension in the load cell. The elements are the actuator Ids from 1 to 72. The related ring Ids are B1-B30; C1-C24; and D1-D18.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	lutGravity[72]; // @Metadata=(Units="newton",Description="Gravity component (F_e + F_0 + F_a + F_f) of look-up table (LUT) force for each actuator in sequence.")
+	  double	lutTemperature[72]; // @Metadata=(Units="newton",Description="Temperature component (T_u + T_x + T_y + T_r) of look-up table (LUT) force for each actuator in sequence.")
+	  double	applied[72]; // @Metadata=(Units="newton",Description="Force applied by SAL command or script for each actuator in sequence.")
+	  double	measured[72]; // @Metadata=(Units="newton",Description="Force measurement by load cell for each actuator in sequence.")
+	  double	hardpointCorrection[72]; // @Metadata=(Units="newton",Description="Hardpoint compensation force correction for each actuator in sequence.")
+	};
+#pragma keylist axialForce_2f30cdfc 
+struct command_abort_e3dbffb5 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_abort_e3dbffb5 
+struct command_applyForces_cc1232a3 {  // @Metadata=(Description="Provide the delta accumulated force vector used in adjusting the target force settings in the closed-loop control. This vector will add to the look-up table (LUT) force directly. A potential use of this command is the active optics system (AOS) to apply the bending mode.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	axial[72]; // @Metadata=(Units="newton",Description="Accumulated axial force vector adds to the LUT force. The elements are the actuator Ids from 1 to 72. The related ring Ids are B1-B30; C1-C24; and D1-D18.")
+	  double	tangent[6]; // @Metadata=(Units="newton",Description="Accumulated tangent force vector adds to the LUT force. The elements are the actuator Ids from 73 to 78. The related ring Ids are A1-A6.")
+	};
+#pragma keylist command_applyForces_cc1232a3 
+struct command_clearErrors_d054fdab {  // @Metadata=(Description="Clear all errors and transit to the Standby state from Fault state.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="This value is ignored.")
+	};
+#pragma keylist command_clearErrors_d054fdab 
+struct command_disable_6f9a81ef {  // @Metadata=(Description="Transition from state Enabled to Disabled.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_disable_6f9a81ef 
+struct command_enable_b774186b {  // @Metadata=(Description="Transition from state Disabled to Enabled.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enable_b774186b 
+struct command_enterControl_a0769c08 {  // @Metadata=(Description="Transition from state Offline to Standby. Only "externally commandable" CSCs support this command; other CSCs start in Standby state and quit when they go to Offline.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_enterControl_a0769c08 
+struct command_exitControl_8459d479 {  // @Metadata=(Description="Transition from state Standby to Offline. For CSCs that are not "externally commandable" this makes the CSC quit.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_exitControl_8459d479 
+struct command_positionMirror_7f6250f3 {  // @Metadata=(Description="Adjust the mirror's rigid body positions based on LTS-136 relative from the home position. The home position can be reconfigured.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	x; // @Metadata=(Units="micron",Description="Position x.")
+	  double	y; // @Metadata=(Units="micron",Description="Position y.")
+	  double	z; // @Metadata=(Units="micron",Description="Position z.")
+	  double	xRot; // @Metadata=(Units="arcsec",Description="Rotation about x.")
+	  double	yRot; // @Metadata=(Units="arcsec",Description="Rotation about y.")
+	  double	zRot; // @Metadata=(Units="arcsec",Description="Rotation about z.")
+	};
+#pragma keylist command_positionMirror_7f6250f3 
+struct command_resetForceOffsets_1e6549fb {  // @Metadata=(Description="This shall cause the M2 assembly zero all force offsets in the closed-loop control.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="This value is ignored.")
+	};
+#pragma keylist command_resetForceOffsets_1e6549fb 
+struct command_selectInclinationSource_b6d8b198 {  // @Metadata=(Description="Select the inclination source onboard or from main telescope mount (MTMount) control system. The default is onboard.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  short	source; // @Metadata=(Units="unitless",Description="Enumeration: 1: OnBoard. 2: MTMount.")
+	};
+#pragma keylist command_selectInclinationSource_b6d8b198 
+	 const long selectInclinationSource_OnBoard=1;
+	 const long selectInclinationSource_MTMount=2;
+struct command_setAuthList_3cede2b9 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC;")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC;")
+	};
+#pragma keylist command_setAuthList_3cede2b9 
+struct command_setLogLevel_98843ad1 {  // @Metadata=(Description="Set the logging level.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Logging level; as a Python logging level: error=40; warning=30; info=20; debug=10.")
+	};
+#pragma keylist command_setLogLevel_98843ad1 
+struct command_setTemperatureOffset_6601261d {  // @Metadata=(Description="Set the offset of temperature sensors.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	ring[12]; // @Metadata=(Units="deg_C",Description="Offset of ring temperatures: LG2-1; LG2-2; LG2-3; LG2-4; LG3-1; LG3-2; LG3-3; LG3-4; LG4-1; LG4-2; LG4-3; and LG4-4.")
+	  double	intake[2]; // @Metadata=(Units="deg_C",Description="Offset of intake temperatures: #1 and #2.")
+	  double	exhaust[2]; // @Metadata=(Units="deg_C",Description="Offset of exhaust temperatures: #1 and #2.")
+	};
+#pragma keylist command_setTemperatureOffset_6601261d 
+struct command_setValue_2c847a88 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	parametersAndValues; // @Metadata=(Units="unitless",Description="List of parameters and their values as a Json string")
+	};
+#pragma keylist command_setValue_2c847a88 
+struct command_standby_7967900a {  // @Metadata=(Description="Transition from state Offline; Disabled or Fault to Standby.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	value; // @Metadata=(Units="unitless",Description="Not used")
+	};
+#pragma keylist command_standby_7967900a 
+struct command_start_799d614f {  // @Metadata=(Description="Transition from state Standby to Disable; in a specified configuration.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsToApply; // @Metadata=(Units="unitless",Description="Name of the selected settings set")
+	};
+#pragma keylist command_start_799d614f 
+struct command_switchForceBalanceSystem_0004215a {  // @Metadata=(Description="Switch the force balance (FB) system. The default is that FB is on.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	status; // @Metadata=(Units="unitless",Description="True: turn on FB. False: turn off FB.")
+	};
+#pragma keylist command_switchForceBalanceSystem_0004215a 
+struct displacementSensors_8474ba3b {  // @Metadata=(Description="Raw measurements from displacement sensors.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	thetaZ[6]; // @Metadata=(Units="micron",Description="Readings of theta-z from displacement sensors. The elements are A1; A2; A3; A4; A5; and A6.")
+	  double	deltaZ[6]; // @Metadata=(Units="micron",Description="Readings of delta-z from displacement sensors. The elements are A1; A2; A3; A4; A5; and A6.")
+	};
+#pragma keylist displacementSensors_8474ba3b 
+struct forceBalance_d3c5aed8 {  // @Metadata=(Description="Net forces and moments as commanded by the force balance system. These are calculated using the 72 axial and 6 tangent balance forces; which are a component of the total forces being commanded.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	fx; // @Metadata=(Units="newton",Description="Total x-force commanded by the force balance system.")
+	  double	fy; // @Metadata=(Units="newton",Description="Total y-force commanded by the force balance system.")
+	  double	fz; // @Metadata=(Units="newton",Description="Total z-force commanded by the force balance system.")
+	  double	mx; // @Metadata=(Units="newton*meter",Description="Total x-moment of force commanded by the force balance system.")
+	  double	my; // @Metadata=(Units="newton*meter",Description="Total y-moment of force commanded by the force balance system.")
+	  double	mz; // @Metadata=(Units="newton*meter",Description="Total z-moment of force commanded by the force balance system.")
+	};
+#pragma keylist forceBalance_d3c5aed8 
+struct ilcData_d824adc6 {  // @Metadata=(Description="Inner-loop controller (ILC) data.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  unsigned short	status[78]; // @Metadata=(Units="unitless",Description="ILC status. The elements are the actuator Ids from 1 to 78. The value needs to be transformed from decimal to hexadecimal to understand. The details are in code 67; LTS-346.")
+	};
+#pragma keylist ilcData_d824adc6 
+struct logevent_appliedSettingsMatchStart_433782ac {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	appliedSettingsMatchStartIsTrue; // @Metadata=(Units="unitless",Description="True when the configuration matches the start conditions")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_appliedSettingsMatchStart_433782ac 
+struct logevent_authList_3582c70b {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	authorizedUsers; // @Metadata=(Units="unitless",Description="Comma seperated list of authorized users currently allowed to command this CSC.")
+	  string	nonAuthorizedCSCs; // @Metadata=(Units="unitless",Description="Comma seperated list of CSC's not currently allowed to command this CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_authList_3582c70b 
+struct logevent_cellTemperatureHiWarning_73fdb9ee {  // @Metadata=(Description="Indicates if the measured cell temperature is more than the specified value above the conditioned supply air temperature.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	hiWarning; // @Metadata=(Units="unitless",Description="True if the cell temperature is high.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_cellTemperatureHiWarning_73fdb9ee 
+struct logevent_commandableByDDS_8c0be589 {  // @Metadata=(Description="Can the commandable SAL component (CSC) control the MTM2?")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	state; // @Metadata=(Units="unitless",Description="If true the CSC can control the MTM2; else the Engineering User Interface has control.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_commandableByDDS_8c0be589 
+struct logevent_detailedState_57664b24 {  // @Metadata=(Description="New detailed state on each summary state transition.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	detailedState; // @Metadata=(Units="unitless",Description="M2 detailed state.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_detailedState_57664b24 
+struct logevent_errorCode_43371e9b {  // @Metadata=(Description="Output when a CSC goes into the Fault state as an explanation of the problem.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	errorCode; // @Metadata=(Units="unitless",Description="A numeric error code")
+	  string	errorReport; // @Metadata=(Units="unitless",Description="An string providing detailed information about the error")
+	  string	traceback; // @Metadata=(Units="unitless",Description="An optional stack trace of the error condition")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_errorCode_43371e9b 
+struct logevent_forceBalanceSystemStatus_f662c3e3 {  // @Metadata=(Description="The status of force balance (FB) system (on or off).")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	status; // @Metadata=(Units="unitless",Description="True if FB is on; False if off.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_forceBalanceSystemStatus_f662c3e3 
+struct logevent_hardpointList_29f0122d {  // @Metadata=(Description="Hardpoint list in the low-level controller.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  unsigned short	actuators[6]; // @Metadata=(Units="unitless",Description="Actuator Ids to be the hardpoint.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_hardpointList_29f0122d 
+struct logevent_heartbeat_fa378a98 {  // @Metadata=(Description="")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	heartbeat; // @Metadata=(Units="unitless",Description="Beats the drum.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_heartbeat_fa378a98 
+struct logevent_inclinationTelemetrySource_9b59aec6 {  // @Metadata=(Description="The source of inclination telemetry (onboard or from main telescope mount (MTMount) control system).")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  short	source; // @Metadata=(Units="unitless",Description="1: onboard. 2: MTMount.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_inclinationTelemetrySource_9b59aec6 
+	 const long inclinationTelemetrySource_OnBoard=1;
+	 const long inclinationTelemetrySource_MTMount=2;
+struct logevent_interlock_db5e0940 {  // @Metadata=(Description="MTM2 interlock")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	state; // @Metadata=(Units="unitless",Description="True if the interlock is engaged. False if it is cleared.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_interlock_db5e0940 
+struct logevent_logLevel_cac4187b {  // @Metadata=(Description="Current logging level.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	level; // @Metadata=(Units="unitless",Description="Current logging level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logLevel_cac4187b 
+struct logevent_logMessage_2d74a8b5 {  // @Metadata=(Description="A log message.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	name; // @Metadata=(Units="unitless",Description="Log name.")
+	  long	level; // @Metadata=(Units="unitless",Description="Message level; a Python logging level: error=40; warning=30; info=20; debug=10.")
+	  string	message; // @Metadata=(Units="unitless",Description="Log message.")
+	  string	traceback; // @Metadata=(Units="unitless",Description="Exception traceback; "" if not an exception.")
+	  string	filePath; // @Metadata=(Units="unitless",Description="Path to source file.")
+	  string	functionName; // @Metadata=(Units="unitless",Description="Function or method name.")
+	  long	lineNumber; // @Metadata=(Units="unitless",Description="Line number in the file specified by filePath.")
+	  long	process; // @Metadata=(Units="unitless",Description="Process ID.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_logMessage_2d74a8b5 
+struct logevent_m2AssemblyInPosition_a473f2e4 {  // @Metadata=(Description="Indicates when all of the M2 axes are within tolerance of the target positions.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	inPosition; // @Metadata=(Units="unitless",Description="True if the M2 assembly is in position.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_m2AssemblyInPosition_a473f2e4 
+	 const long MTM2_shared_InclinationTelemetrySource_OnBoard=1;
+	 const long MTM2_shared_InclinationTelemetrySource_MTMount=2;
+struct logevent_settingVersions_6dee6682 {  // @Metadata=(Description="Information about settings which can be specified in the start command.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string	recommendedSettingsVersion; // @Metadata=(Units="unitless",Description="List of comma seperated recomended versions of settings sets")
+	  string	recommendedSettingsLabels; // @Metadata=(Units="unitless",Description="List of comma seperated names of settings sets")
+	  string	settingsUrl; // @Metadata=(Units="unitless",Description="The URL where the settings sets definitions can be found")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingVersions_6dee6682 
+struct logevent_settingsApplied_63874df5 {  // @Metadata=(Description="Base settings applied.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<256>	settingsVersion; // @Metadata=(Units="unitless",Description="The SHA or name corresponding to the published configuration")
+	  string	otherSettingsEvents; // @Metadata=(Units="unitless",Description="A comma delimited list of other specific CSC configuration events. This may be blank if no other CSC specific events are necessary")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_settingsApplied_63874df5 
+struct logevent_simulationMode_02f1c8bc {  // @Metadata=(Description="Current simulation mode.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	mode; // @Metadata=(Units="unitless",Description="Current simulation mode; 0 for normal operation (no simulation); other supported values are specific to each CSC.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_simulationMode_02f1c8bc 
+struct logevent_softwareVersions_05e4f383 {  // @Metadata=(Description="Current versions of software in use by CSC.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  string<16>	salVersion; // @Metadata=(Units="unitless",Description="This is the current version of SAL generation")
+	  string<16>	xmlVersion; // @Metadata=(Units="unitless",Description="This is the current version of CSC XML")
+	  string<16>	openSpliceVersion; // @Metadata=(Units="unitless",Description="This is the current version of OpenSplice")
+	  string<16>	cscVersion; // @Metadata=(Units="unitless",Description="This is the top-level version of the CSC")
+	  string	subsystemVersions; // @Metadata=(Units="unitless",Description="A comma delimited list of key=value pairs relating subsystem name (key) to its version number (value). This may be left blank if there are no subsystems within a CSC")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_softwareVersions_05e4f383 
+struct logevent_summaryState_d3ffb0cb {  // @Metadata=(Description="Current summary state of the CSC")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	summaryState; // @Metadata=(Units="unitless",Description="High level state machine state identifier")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_summaryState_d3ffb0cb 
+struct logevent_tcpIpConnected_f42ce481 {  // @Metadata=(Description="State of TCP/IP connection between the server and the low level controller.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  boolean	isConnected; // @Metadata=(Units="unitless",Description="Is the socket connected (true=yes; false=no)?")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_tcpIpConnected_f42ce481 
+struct logevent_temperatureOffset_773b0238 {  // @Metadata=(Description="Offset of temperature sensors.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	ring[12]; // @Metadata=(Units="deg_C",Description="Offset of ring temperatures: LG2-1; LG2-2; LG2-3; LG2-4; LG3-1; LG3-2; LG3-3; LG3-4; LG4-1; LG4-2; LG4-3; and LG4-4.")
+	  double	intake[2]; // @Metadata=(Units="deg_C",Description="Offset of intake temperatures: #1 and #2.")
+	  double	exhaust[2]; // @Metadata=(Units="deg_C",Description="Offset of exhaust temperatures: #1 and #2.")
+	  long	priority; // @Metadata=(Units="unitless",Description="Priority code")
+	};
+#pragma keylist logevent_temperatureOffset_773b0238 
+struct netForcesTotal_d73ce425 {  // @Metadata=(Description="Totol actuator net forces.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	fx; // @Metadata=(Units="newton",Description="Net force in x direction.")
+	  double	fy; // @Metadata=(Units="newton",Description="Net force in y direction.")
+	  double	fz; // @Metadata=(Units="newton",Description="Net force in z direction.")
+	};
+#pragma keylist netForcesTotal_d73ce425 
+struct netMomentsTotal_abb4578c {  // @Metadata=(Description="Totol actuator net moments of force.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	mx; // @Metadata=(Units="newton*meter",Description="Net moment of force in x direction.")
+	  double	my; // @Metadata=(Units="newton*meter",Description="Net moment of force in y direction.")
+	  double	mz; // @Metadata=(Units="newton*meter",Description="Net moment of force in z direction.")
+	};
+#pragma keylist netMomentsTotal_abb4578c 
+struct position_820fe11d {  // @Metadata=(Description="M2 mirror's rigid body position. Measured from hardpoints.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	x; // @Metadata=(Units="micron",Description="Position x.")
+	  double	y; // @Metadata=(Units="micron",Description="Position y.")
+	  double	z; // @Metadata=(Units="micron",Description="Position z.")
+	  double	xRot; // @Metadata=(Units="arcsec",Description="Rotation about x.")
+	  double	yRot; // @Metadata=(Units="arcsec",Description="Rotation about y.")
+	  double	zRot; // @Metadata=(Units="arcsec",Description="Rotation about z.")
+	};
+#pragma keylist position_820fe11d 
+struct positionIMS_6dff9dac {  // @Metadata=(Description="M2 mirror's rigid body position measured by the independent measurement system (IMS).")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	x; // @Metadata=(Units="micron",Description="Position x.")
+	  double	y; // @Metadata=(Units="micron",Description="Position y.")
+	  double	z; // @Metadata=(Units="micron",Description="Position z.")
+	  double	xRot; // @Metadata=(Units="arcsec",Description="Rotation about x.")
+	  double	yRot; // @Metadata=(Units="arcsec",Description="Rotation about y.")
+	  double	zRot; // @Metadata=(Units="arcsec",Description="Rotation about z.")
+	};
+#pragma keylist positionIMS_6dff9dac 
+struct powerStatus_b3982667 {  // @Metadata=(Description="Total voltage and current for motors and communication system of M2.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	motorVoltage; // @Metadata=(Units="volt",Description="Total motor voltage.")
+	  double	motorCurrent; // @Metadata=(Units="ampere",Description="Total motor current.")
+	  double	commVoltage; // @Metadata=(Units="volt",Description="Total communication voltage.")
+	  double	commCurrent; // @Metadata=(Units="ampere",Description="Total communication current.")
+	};
+#pragma keylist powerStatus_b3982667 
+struct tangentActuatorSteps_76b16060 {  // @Metadata=(Description="Tangent actuator stepper motor position in steps. Increasing sign indicates extension towards the mirror. The elements are the actuator Ids from 73 to 78. The related ring Ids are A1-A6. The related degrees are 0; 60; 120; 180; 240; and 300.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  long	steps[6]; // @Metadata=(Units="unitless",Description="Array of steps for each actuator in sequence.")
+	};
+#pragma keylist tangentActuatorSteps_76b16060 
+struct tangentEncoderPositions_0e374003 {  // @Metadata=(Description="Tangent actuator encoder position. The sign of the position is consistent with the optical coordinate system as per LTS-136. The elements are the actuator Ids from 73 to 78. The related ring Ids are A1-A6. The related degrees are 0; 60; 120; 180; 240; and 300.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	position[6]; // @Metadata=(Units="micron",Description="Encoder position of each tangent encoder in sequence.")
+	};
+#pragma keylist tangentEncoderPositions_0e374003 
+struct tangentForce_4bbf7fee {  // @Metadata=(Description="Tangent actuator forces data. Increasing force corresponds to increasing tension in the load cell. The elements are the actuator Ids from 73 to 78. The related ring Ids are A1-A6. The related degrees are 0; 60; 120; 180; 240; and 300.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	lutGravity[6]; // @Metadata=(Units="newton",Description="Gravity component (F_e + F_0 + F_a + F_f) of look-up table (LUT) force for each actuator in sequence.")
+	  double	lutTemperature[6]; // @Metadata=(Units="newton",Description="Temperature component (T_u + T_x + T_y + T_r) of look-up table (LUT) force for each actuator in sequence.")
+	  double	applied[6]; // @Metadata=(Units="newton",Description="Force applied by SAL command or script for each actuator in sequence.")
+	  double	measured[6]; // @Metadata=(Units="newton",Description="Force measurement by load cell for each actuator in sequence.")
+	  double	hardpointCorrection[6]; // @Metadata=(Units="newton",Description="Hardpoint compensation force correction for each actuator in sequence.")
+	};
+#pragma keylist tangentForce_4bbf7fee 
+struct temperature_7b49b3b9 {  // @Metadata=(Description="Mirror and cell temperature sensor readings relative to the origin (offset).")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	ring[12]; // @Metadata=(Units="deg_C",Description="Ring temperatures: LG2-1; LG2-2; LG2-3; LG2-4; LG3-1; LG3-2; LG3-3; LG3-4; LG4-1; LG4-2; LG4-3; and LG4-4.")
+	  double	intake[2]; // @Metadata=(Units="deg_C",Description="Intake temperatures: #1 and #2.")
+	  double	exhaust[2]; // @Metadata=(Units="deg_C",Description="Exhaust temperatures: #1 and #2.")
+	};
+#pragma keylist temperature_7b49b3b9 
+struct zenithAngle_de68a638 {  // @Metadata=(Description="M2 internal inclinometer reading transforms to the zenith angle.")
+	  string<8>	private_revCode; //private // @Metadata=(Units="unitless",Description="Revision code of topic")
+	  double	private_sndStamp; //private // @Metadata=(Units="second",Description="TAI at sender")
+	  double	private_rcvStamp; //private // @Metadata=(Units="second",Description="TAI at receiver")
+	  long		private_seqNum; //private // @Metadata=(Units="unitless",Description="Sequence number")
+	  long		private_origin; //private // @Metadata=(Units="unitless",Description="PID code of sender")
+	  long		private_host; //private // @Metadata=(Units="unitless",Description="IP of sender")
+	  double	measured; // @Metadata=(Units="degree",Description="Zenith angle is 0 degree when the telescope is at zenith.")
+	  double	inclinometerRaw; // @Metadata=(Units="degree",Description="Reading raw angle of inclinometer (0-360 degree).")
+	  double	inclinometerProcessed; // @Metadata=(Units="degree",Description="Processed angle of inclinometer (0-360 degree).")
+	};
+#pragma keylist zenithAngle_de68a638 
+struct ackcmd_3d5461fc {  // @Metadata=(Description="")
+      string<8>	private_revCode;
+      double		private_sndStamp;
+      double		private_rcvStamp;
+      long		private_origin;
+      long 		private_host;
+      long		private_seqNum;
+      long 		ack;
+      long 		error;
+      string<256>	result;
+      long		host;
+      long		origin;
+      long		cmdtype;
+      double		timeout;
+	};
+#pragma keylist ackcmd_3d5461fc 
+};
+
