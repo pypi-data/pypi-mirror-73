@@ -1,0 +1,12 @@
+moldudp/__init__.py,sha256=DqO-xaEbHw76TE7SWaRJ7fYZKkEyM7KVKP7Vju_-V48,74
+moldudp/codec/__init__.py,sha256=hVYYAQOF2ILApzwaQSlR91CLBuaBY-ONernidfHKkFE,132
+moldudp/codec/const.py,sha256=MQn7AzQJ6SPtoRutdmA9gNTlxMgFjpus8bm-c7AuWQ4,703
+moldudp/codec/decoder.py,sha256=5pHHjL6hvBhoH60OFG1lpITuqX2ihmFwS2dA3Zil2Jc,2646
+moldudp/codec/encoder.py,sha256=PLg26ZsH2OVQvqSo-HFGvFnJTAEXtHG4qcrsufoHpck,3952
+moldudp/codec/msgpub.py,sha256=a7ZHHO4IlYhhgw838Jyc8LZftCe2Wj1Vk2CEGnoI2As,212
+moldudp/codec/msgsub.py,sha256=vBQrP_5IGjETOTgtTDOmnZs2pu6qP1LynHDGTbzMplg,331
+moldudp-0.0.20.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+moldudp-0.0.20.dist-info/METADATA,sha256=rI_eZJc-b7OBKUVNXFsInG9hYiJIKIqJqcaW7Bv7MPA,2468
+moldudp-0.0.20.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+moldudp-0.0.20.dist-info/top_level.txt,sha256=_CGtEx237o6BNyKgCRzelVd4m9FNLspO4GxLok4EaxE,8
+moldudp-0.0.20.dist-info/RECORD,,
