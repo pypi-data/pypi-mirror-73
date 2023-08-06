@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aimai-search
+Version: 0.1.0
+Summary: 
+Author: reiyw
+Author-email: reiyw.setuve@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: attrs (>=19.3.0,<20.0.0)
+Requires-Dist: cutlet (>=0.1.3,<0.2.0)
+Requires-Dist: more-itertools (>=8.4.0,<9.0.0)
+Requires-Dist: rapidfuzz (>=0.9.1,<0.10.0)
+Requires-Dist: unidic-lite (>=1.0.6,<2.0.0)
