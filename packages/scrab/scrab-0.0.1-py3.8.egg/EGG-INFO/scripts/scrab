@@ -1,0 +1,14 @@
+#!/Users/yevgen/.pyenv/versions/3.8.2/bin/python
+import click
+
+from scrab.scraper import scrape
+
+@click.command()
+@click.argument('url', nargs=1)
+def scrab(url):
+    content = scrape(url)
+    print(content)
+
+
+if __name__ == '__main__':
+    scrab()
