@@ -1,0 +1,6 @@
+numpy
+tiledimage
+sk-video
+videosequence
+opencv-python-headless
+pyqt5
