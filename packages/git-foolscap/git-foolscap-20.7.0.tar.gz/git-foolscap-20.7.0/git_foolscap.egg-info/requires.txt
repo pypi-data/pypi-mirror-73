@@ -1,0 +1,2 @@
+foolscap>=20.4.0
+magic-wormhole>=0.10.5
