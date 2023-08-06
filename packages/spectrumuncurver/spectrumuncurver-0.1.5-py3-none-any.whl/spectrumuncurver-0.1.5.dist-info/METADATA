@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: spectrumuncurver
+Version: 0.1.5
+Summary: Simple spectrum image processing toolbox which include functions such as uncurving, and more to come.
+Home-page: https://github.com/DCC-Lab/spectrum-uncurver
+Author: Marc-André Vigneault
+Author-email: marc-andre.vigneault.02@hotmail.com
+License: Apache License 2.0
+Keywords: raman spectrum curved curve spectra
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: scipy
+
+SERS-project
+
+
