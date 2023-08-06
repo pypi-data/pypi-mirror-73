@@ -1,0 +1,14 @@
+mock_library/__init__.py,sha256=LBBfcw-1r4I2StNPCWLpl5SR0rFD6FfFTF0P9_KDoVs,51
+mock_library/check_env.py,sha256=QP0Zo65_Q3R7P5Iqc6AFoKYtqf5s3qg3vktjZYTszJs,67
+mock_library/click_cmd.py,sha256=68KLwp1yDZWccqnvNMSnNsrf9DhKQ3UZ7e1JhQ8IcS0,581
+mock_library/functions.py,sha256=weI2fYLI3tRzz2PoQkVGK4I3glrnpOv_7Yn8tZVyM6A,71
+mock_library/library_test.py,sha256=fZFOl1J_1-Ss80xhGUqmjwm9MEStq3w7cxKcEhXPoT8,67
+mock_library_copy/__init__.py,sha256=oEwNP7H2no_1mx5tShnt3AWfrwR6A7PbTEzm1YOSzkA,87
+mock_library_copy/functions.py,sha256=AJ-vjzdlJXhhLZlWPknuOtm10I2d3eEnYituMX-whNg,117
+mock_library_copy/library_test.py,sha256=fZFOl1J_1-Ss80xhGUqmjwm9MEStq3w7cxKcEhXPoT8,67
+upload_to_pip_demo_v_4-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+upload_to_pip_demo_v_4-0.0.4.dist-info/METADATA,sha256=CSFHSusBSKsKUg8qCZ2YxJ6R8EwJpfhukwkV1GWXX10,536
+upload_to_pip_demo_v_4-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+upload_to_pip_demo_v_4-0.0.4.dist-info/entry_points.txt,sha256=jOhx_nu5aKiwhyE98bwtZr7Q1fEruPVDjxCbUStn37A,60
+upload_to_pip_demo_v_4-0.0.4.dist-info/top_level.txt,sha256=d-SDSTjDWAcHxaX_GzI-4iikUz9giIduNT4tvy5Epaw,31
+upload_to_pip_demo_v_4-0.0.4.dist-info/RECORD,,
