@@ -1,0 +1,3 @@
+[console_scripts]
+chonk = src.pychonk:chonk
+
