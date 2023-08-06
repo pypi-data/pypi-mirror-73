@@ -1,0 +1,11 @@
+README.md
+setup.py
+homophones/__init__.py
+homophones/homophones.py
+homophones/test_homophones.py
+homophones.egg-info/PKG-INFO
+homophones.egg-info/SOURCES.txt
+homophones.egg-info/dependency_links.txt
+homophones.egg-info/entry_points.txt
+homophones.egg-info/requires.txt
+homophones.egg-info/top_level.txt
