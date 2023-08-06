@@ -1,0 +1,9 @@
+faiss/__init__.py,sha256=OvlJSee25keFWHSC9_HjskP6hXXJ7hHdj26ylP5K9_s,26311
+faiss/_swigfaiss.cpython-35m-darwin.so,sha256=RG803zXN4dEu9Fyr6l9RZrqHEA_yEdAD7d1t6AJl4HA,7057968
+faiss/setup.py,sha256=HF9sl8RxkGLBm9oRMm-lUknxISYh_v1Gd3gtKeWhunw,1734
+faiss/swigfaiss.py,sha256=AHHqq21RhY9pCz7pqYovl5FW0STGTYB79aA_rHEYGF8,210559
+faiss_cpu_noavx2-1.6.3.dist-info/LICENSE,sha256=WIeseFb8XlKsip07StlCDHeYTCME9qlvgxSryQpfc-4,1071
+faiss_cpu_noavx2-1.6.3.dist-info/METADATA,sha256=-wrvUf8oGhx7253iznScc623poqV1Xs2-qMENAuA2KY,701
+faiss_cpu_noavx2-1.6.3.dist-info/WHEEL,sha256=sET63Ry8MyNJ-zrE56GG4eSXqeQuIC7H8vuKJVdN9JY,111
+faiss_cpu_noavx2-1.6.3.dist-info/top_level.txt,sha256=nr2S-1YAhqAuAlFJukntDvRGXfI1KmwnUNs_iFlNiig,6
+faiss_cpu_noavx2-1.6.3.dist-info/RECORD,,
