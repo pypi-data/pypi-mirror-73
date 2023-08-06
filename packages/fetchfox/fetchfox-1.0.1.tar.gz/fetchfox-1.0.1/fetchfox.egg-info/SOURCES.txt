@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fetchfox/__init__.py
+fetchfox/main.py
+fetchfox.egg-info/PKG-INFO
+fetchfox.egg-info/SOURCES.txt
+fetchfox.egg-info/dependency_links.txt
+fetchfox.egg-info/entry_points.txt
+fetchfox.egg-info/requires.txt
+fetchfox.egg-info/top_level.txt
