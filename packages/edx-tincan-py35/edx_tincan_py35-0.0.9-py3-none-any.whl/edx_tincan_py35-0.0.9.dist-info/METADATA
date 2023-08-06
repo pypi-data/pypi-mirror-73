@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: edx-tincan-py35
+Version: 0.0.9
+Summary: A Python 3 library for implementing Tin Can API.
+Home-page: http://rusticisoftware.github.io/TinCanPython/
+Author: edX
+Author-email: oscm@edx.org
+Maintainer-email: mailto:brian.miller@tincanapi.com
+License: Apache License 2.0
+Keywords: Tin Can,TinCan,Tin Can API,TinCanAPI,Experience API,xAPI,SCORM,AICC
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pytz
+Requires-Dist: aniso8601
+
+UNKNOWN
+
+
