@@ -1,0 +1,10 @@
+seckerwiki/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seckerwiki/install.py,sha256=J8IsI0iQIA_QJB1MGF8knTgK1myzBq89-KA-lKz65dM,983
+seckerwiki/lecture_gen.py,sha256=mBGn4_C1NYfpscdOOuxMbAZIl-kWq5TFSEn12MXSRBU,6566
+seckerwiki/wiki.py,sha256=VIFAWprC2-wKmDqK-i8TkxhayQdl6I3JbZSC4e7I1B4,13508
+seckerwiki-1.0.dist-info/LICENSE.txt,sha256=wxng8jakD_ArH_jvZ6tiU40GM3pmmaP-S2Nag49nowc,1053
+seckerwiki-1.0.dist-info/METADATA,sha256=d8j-xqyXP27MiIAQ1tadTtHYCCA3XbO8kAx5XLU00sA,4956
+seckerwiki-1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+seckerwiki-1.0.dist-info/entry_points.txt,sha256=3_nVvZCz95aXoxgSCgSnmk-EaUW-hqRbZYpd1fWM7wQ,47
+seckerwiki-1.0.dist-info/top_level.txt,sha256=lXydUEJ8yaF4cuuTgdUBzyLRIoyyChW7I8Mf0SH7r_I,11
+seckerwiki-1.0.dist-info/RECORD,,
