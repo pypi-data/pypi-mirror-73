@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytoexe
+Version: 1.0.4
+Summary: A Python module to convert python scripts to exe
+Home-page: UNKNOWN
+Author: pennacap
+Maintainer: pennacap
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: cx_Freeze
+Requires-Python: >=3.5.2
+
+A Python module to convert python scripts to exe
+
+
