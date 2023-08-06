@@ -1,0 +1,11 @@
+README.md
+setup.py
+pg_rds_params_sync.egg-info/PKG-INFO
+pg_rds_params_sync.egg-info/SOURCES.txt
+pg_rds_params_sync.egg-info/dependency_links.txt
+pg_rds_params_sync.egg-info/entry_points.txt
+pg_rds_params_sync.egg-info/requires.txt
+pg_rds_params_sync.egg-info/top_level.txt
+rdsparamsync/__init__.py
+rdsparamsync/__main__.py
+rdsparamsync/main.py
