@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pretf-helpers
+Version: 0.2.6
+Summary: Helper functions and classes for the pretf package
+Home-page: https://gitlab.com/pepoluan/pretf_helpers
+Author: Pandu POLUAN
+Author-email: pepoluan@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/pepoluan/pretf_helpers/-/issues
+Project-URL: Source Code, https://gitlab.com/pepoluan/pretf_helpers/-/tree/master
+Project-URL: Documentation, https://gitlab.com/pepoluan/pretf_helpers/-/wikis/home
+Description: # `pretf-helpers`
+        
+        ## Description
+        
+        This is a set of functions and classes to make using `pretf` easier and "more Pythonic".
+        
+        ## Installation
+        
+        ```bash
+        pip install pretf-helpers
+        ```
+        
+        ### Documentation
+        
+        ... still a work in progress, but hopefully will soon appear in this repo's Wiki.
+        
+        ## License
+        
+        This package is licensed under the [**MPL 2.0** license](https://www.mozilla.org/en-US/MPL/2.0/FAQ/).
+        
+        Do note that this means (my interpretation):
+        
+         * Only files explicitly part of this package must be kept open source.
+         * If you add _your own_ files to this package, you are NOT required to open source those files.
+         * If you use this package in your software, you are NOT required to open source your software.
+        
+        Full license text is available in the `LICENSE` file.
+        
+Keywords: terraform pretf provisioning cloud
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
