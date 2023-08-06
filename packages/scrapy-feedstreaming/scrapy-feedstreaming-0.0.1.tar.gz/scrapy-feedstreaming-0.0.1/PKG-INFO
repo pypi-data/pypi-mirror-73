@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: scrapy-feedstreaming
+Version: 0.0.1
+Summary: Based on scrapy.extensions.feedexport.FeedExporter to live stream data
+Home-page: https://github.com/alex-ber/scrapy-feedstreaming
+Author: Alexander Berkovich
+License: Apache 2.0
+Description: ## scrapy-feedstreaming
+        
+        Scrapy live Streaming data. `scrapy.extensions.feedexport.FeedExporter` fork to export item during scraping. See 
+        [https://medium.com/@alex_ber/scrapy-streaming-data-cdf97434dc15]
+        
+        See CHANGELOG.md for detail description.
+        
+        
+        
+        ### Getting Help
+        
+        
+        ### QuickStart
+        ```bash
+        python3 -m pip install -U scrapy-feedstreaming
+        ```
+        
+        
+        ### Installing from Github
+        
+        ```bash
+        python3 -m pip install -U https://github.com/alex-ber/scrapy-feedstreaming/archive/master.zip
+        ```
+        Optionally installing tests requirements.
+        
+        ```bash
+        python3 -m pip install -U https://github.com/alex-ber/scrapy-feedstreaming/archive/master.zip#egg=alex-ber-utils[tests]
+        ```
+        
+        Or explicitly:
+        
+        ```bash
+        wget https://github.com/alex-ber/scrapy-feedstreaming/archive/master.zip -O master.zip; unzip master.zip; rm master.zip
+        ```
+        And then installing from source (see below).
+        
+        
+        ### Installing from source
+        ```bash
+        python3 -m pip install -r req.txt # only installs "required" (relaxed)
+        ```
+        ```bash
+        python3 -m pip install . # only installs "required"
+        ```
+        ```bash
+        python3 -m pip install .[tests] # installs dependencies for tests
+        ```
+        
+        #### Alternatively you install install from requirements file:
+        ```bash
+        python3 -m pip install -r requirements.txt # only installs "required"
+        ```
+        ```bash
+        python3 -m pip install -r requirements-tests.txt # installs dependencies for tests
+        ```
+        
+        ##
+        
+        From the directory with setup.py
+        ```bash
+        python3 setup.py test #run all tests
+        ```
+        
+        or
+        
+        ```bash
+        
+        pytest
+        ```
+        
+        ## Installing new version
+        See https://docs.python.org/3.1/distutils/uploading.html 
+        
+        ```bash
+        python3 setup.py sdist upload
+        ```
+        
+        ## Requirements
+        
+        
+        scrapy-feedstreaming requires the following modules.
+        
+        * Python 3.6+
+        
+        
+        
+        # Changelog
+        
+        Scrapy live Streaming data. `scrapy.extensions.feedexport.FeedExporter` fork to export item during scraping. See 
+        [https://medium.com/@alex_ber/scrapy-streaming-data-cdf97434dc15]
+        
+        All notable changes to this project will be documented in this file.
+        
+        \#https://pypi.org/manage/project/scrapy-feedstreaming/releases/
+        
+        ## [Unrelased]
+        
+        
+        ## [0.0.1] - 12/07/2020
+        
+        ### Added
+        * Buffering was added to `item_scraped()`.
+        * S3FeedStorage: you can specify `ACL` as query part of URI.
+        * S3FeedStorage: support of `region` is added. 
+        * FEEDS: `slot_key_param`: New (not available in Scrapy itself) specify (global) function which takes item and spider as parameter 
+        and `slot_key`. Given the item that is passed through the pipeline to what URI you want to send it.
+        Fall back to noop method â€” method that does nothing.
+        * FEEDS: `buff_capacity`: New (not available in Scrapy itself) â€” after what amount of item you want to export them. 
+        The fall back value is 1. 
+        * `_FeedSlot` instances are created from your settings. They are created per supplied URI. 
+        Some extra (compare to Scraping) information is stored, namely:
+        - `uri_template` â€” it is available through public API get_slots() method, see below.
+        - `spider_name` â€” is used in public API get_slots() method to restrict returned slots for requested spider.
+        - `buff_capacity` â€”bufferâ€™s capacity, if the number of item exceed this number the buffer is flushed
+        - `buff` â€” buffer where all items pending export are stored.
+        * `FeedExported` there is 1 extra public method 
+        - `get_slots()` â€” this method is used to get feed slotâ€™s information (see implementation note above). It is populated from the settings. For example, you can retrieve to either URI you will export the items.
+        Note:
+        1. `slot_key` is slot identifier as described above. If you have only 1 URI you can supply None for this value.
+        2. You can retrieve feed slotâ€™s information only from your spider.
+        3. It has optional `force_create=True` parameter. 
+        If youâ€™re calling this method early in the Scrapy life-cycle feed slotâ€™s information may be not yet created. 
+        In this case, the default behavior is to create this information and return it for you. 
+        If `force_create=False` is supplied you will receive an empty collection of feed slotâ€™s information.
+        * On `S3FeedStorage` there couple of public methods:
+        
+        - `botocore_session`
+        - `botocore_client`
+        - `botocore_base_kwargs` â€” dict of minimal parameters for `botocore_client.put_object()` method as supplied in settings.
+        - `botocore_kwargs` â€” dict of all supplied parameters `for botocore_client.put_object()` method as supplied in settings. 
+        For example, if supplied, it will contain `ACL` parameter while `botocore_base_kwargs` will not contain it.
+        
+        
+        ### Changed
+        * You can have multiple URI for exports.
+        * Logic of sending the item was moved from the `close_spider()` to `item_scraped()`.
+        * back-port Fix missing `storage.store()` calls in `FeedExporter.close_spider()` [https://github.com/scrapy/scrapy/pull/4626]
+        * back-port Fix duplicated feed logs [https://github.com/scrapy/scrapy/pull/4629]
+        
+         
+        ### Removed
+        * removed deprecated: fallback to `boto` library if `botocore` is not found
+        * removed deprecated: implicit retrieval of settings from the project â€” settings is passed explicitly now
+        
+        
+        <!--
+        ### Added 
+        ### Changed
+        ### Removed
+        -->
+        
+Keywords: Scrapy Feed Exports S3 streaming data online extension plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Scrapy
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests

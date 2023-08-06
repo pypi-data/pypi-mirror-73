@@ -1,0 +1,2 @@
+Scrapy==2.1.0
+botocore==1.16.4
