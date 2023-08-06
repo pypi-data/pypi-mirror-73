@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: seckerwiki
+Version: 0.1.1
+Summary: Markdown wiki CLI and scripts
+Home-page: https://github.com/bsecker/wiki
+Author: Benjamin Secker
+Author-email: Benjamin.secker@gmail.com
+License: MIT
+Keywords: Markdown,wiki,scripts,cli,mdwiki
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: PyInquirer
+Requires-Dist: pyyaml
+Requires-Dist: pdf2image (==1.5.4)
+Requires-Dist: Pillow (==6.0.0)
+Requires-Dist: requests
+
+UNKNOWN
+
+
