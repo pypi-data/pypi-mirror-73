@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: competest
+Version: 0.0.1
+Summary: A python cli tool to test a program against test cases for some desired output.
+Home-page: UNKNOWN
+Author: Shailesh Aanand
+Author-email: anaandshailu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click
+
+UNKNOWN
+
+
