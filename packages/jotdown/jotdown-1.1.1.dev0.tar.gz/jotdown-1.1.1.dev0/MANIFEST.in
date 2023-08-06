@@ -1,0 +1,2 @@
+recursive-include moonlight *.h
+recursive-include pybind11 *.h
