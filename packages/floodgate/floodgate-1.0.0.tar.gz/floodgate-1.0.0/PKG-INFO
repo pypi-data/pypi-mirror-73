@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: floodgate
+Version: 1.0.0
+Summary: Request rate limiter for Flask
+Home-page: UNKNOWN
+Author: Bhavesh Pareek
+Author-email: bhavesh.pareek36@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
