@@ -1,0 +1,10 @@
+setup.py
+pudhutry/Binomialdistribution.py
+pudhutry/Gaussiandistribution.py
+pudhutry/Generaldistribution.py
+pudhutry/__init__.py
+pudhutry.egg-info/PKG-INFO
+pudhutry.egg-info/SOURCES.txt
+pudhutry.egg-info/dependency_links.txt
+pudhutry.egg-info/not-zip-safe
+pudhutry.egg-info/top_level.txt
