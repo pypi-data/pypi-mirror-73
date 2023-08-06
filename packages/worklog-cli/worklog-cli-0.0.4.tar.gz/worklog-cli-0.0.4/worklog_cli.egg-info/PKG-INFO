@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: worklog-cli
+Version: 0.0.4
+Summary: Worklog time-tracking utility
+Home-page: https://github.com/cproctor/worklog
+Author: Chris Proctor
+Author-email: pypi.org@accounts.chrisproctor.net
+License: UNKNOWN
+Description: # Worklog
+        
+        A personal time-tracking system. 
+        
+        Worklog provides a simple mechanism for logging in and out of accounts which are
+        billed for time elapsed. The author, a professor, uses it to bill time to
+        various commitments. Some really are paid hourly (e.g. consulting), but most are
+        not. The primary use is to track and analyze how time is spent. 
+        
+        ## Installation
+        
+        Assuming you have a Python 3 environment installed, Worklog can be installed by
+        running `pip install worklog-cli`. You will also need to install
+        [hledger](https://hledger.org/). 
+        
+        ## Usage
+        
+        If you are just getting started, make a list of the ways you spend time (or at
+        least those you want to track). If you want to nest accounts, separate them with
+        colons. For example, here are a few of my top-level accounts:
+        
+        ```
+         academic:code          
+         academic:conferences   
+         academic:outreach      
+         academic:overhead      
+         academic:reading       
+         academic:research      
+         academic:service       
+         personal:correspondence
+         personal:overhead      
+         personal:planning      
+        ```
+        
+        Now run `work`. You will be asked to log in to an account, and then to enter a
+        description of the work you are doing. (Accounts can be auto-completed using tab.)
+        
+        ```
+        $ work
+        Log in to account: academic:code
+        Work description: Writing the Worklog README
+        [Enter to log out]
+        ```
+        
+        Press enter when you finish that work session, and you will be prompted to log
+        in to another account. Press Control + C when you are finished. That's it!
+        
+        ## Commands
+        
+        The base command is `work`, which enters a loop for logging in and out of
+        accounts. There are several other modes available:
+        
+        - `work --report` shows recent work statistics and quits. 
+        - `work --edit` opens the current worklog for editing. Sometimes I find I need to
+        edit the worklog to add a work session or change times (for example, if I forgot
+        to log out before going to bed). 
+        - `work --archive` archives the current worklog at the given filename and starts a
+        new worklog. If you plan to log your work over time, I suggest you keep your log
+        files in version control. 
+        
+        ## Configuration
+        
+        Worklog relies on a simple configuration file which will be automatically
+        created at `~/.worklog/worklog.config` by default. 
+        
+        ```
+        [WORKLOG]
+        logfile = /Users/me/.worklog/worklog.timeclock
+        editor = vim
+        ```
+        
+        ## Formats
+        
+        Worklog relies on [hledger](https://hledger.org/), a Haskell implementation of
+        [ledger](https://github.com/ledger/ledger), for double-entry bookkeeping which
+        regards time as a resource just like money. One main design goal of this system
+        is a [human-readable ledger format](https://hledger.org/timeclock.html) which
+        can also be parsed by scripts. 
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
