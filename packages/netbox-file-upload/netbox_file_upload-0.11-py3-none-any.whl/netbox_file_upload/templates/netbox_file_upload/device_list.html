@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<table class="table">
+    {% for device in devices %}
+    <tr>
+        <td>{{device.name}}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+        <td>{{device1.name}}</td>
+        <td>{{device1.serial}}</td>
+    </tr>
+</table>
+{% endblock %}
