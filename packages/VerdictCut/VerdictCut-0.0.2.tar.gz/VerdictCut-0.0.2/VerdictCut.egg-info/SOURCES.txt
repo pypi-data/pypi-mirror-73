@@ -1,0 +1,6 @@
+README.md
+setup.py
+VerdictCut.egg-info/PKG-INFO
+VerdictCut.egg-info/SOURCES.txt
+VerdictCut.egg-info/dependency_links.txt
+VerdictCut.egg-info/top_level.txt
