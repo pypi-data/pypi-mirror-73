@@ -1,0 +1,9 @@
+README.md
+setup.py
+YouGlance/__init__.py
+YouGlance/spy.py
+YouGlance.egg-info/PKG-INFO
+YouGlance.egg-info/SOURCES.txt
+YouGlance.egg-info/dependency_links.txt
+YouGlance.egg-info/requires.txt
+YouGlance.egg-info/top_level.txt
