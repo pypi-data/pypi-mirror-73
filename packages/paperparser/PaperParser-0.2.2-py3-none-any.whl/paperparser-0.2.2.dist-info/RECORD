@@ -1,0 +1,10 @@
+paperparser/__init__.py,sha256=_A5AJcwImqVDFtM9EpZadsV9JBlf9V3FYny6mT4_-TY,350
+paperparser/abstract_parser.py,sha256=3KtVrku5lzs9lFtc10fTiwWayHyOKylFqK4CN5OcGeg,2388
+paperparser/bibtex_parser.py,sha256=ZLtyx94DhIequjDQqX8K7pnfMT6ZFkn_1V0OOIEOOt0,3377
+paperparser/console.py,sha256=TBDN73lIcRsS1eqxphRZ_W-2Gdw62g-_jYoDpMSJwIw,370
+paperparser/page.py,sha256=C7O9mcDFwl11er11fu1fUCFhNFz6WdmlqaxusNnb83s,1128
+paperparser-0.2.2.dist-info/entry_points.txt,sha256=QR4FCsh9TN1wU8mEiaaeO9996CewmyHfhA4c6Wwp0o4,56
+paperparser-0.2.2.dist-info/LICENSE,sha256=PqHFpqaCUs8Jy__yKrh8J6QVFwixs-ZZCgVqD4csfJI,1068
+paperparser-0.2.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+paperparser-0.2.2.dist-info/METADATA,sha256=T0G6xphPTnKWuR5g3bTH0sSXIE7JdvbGxV7V8TcY6Uk,2979
+paperparser-0.2.2.dist-info/RECORD,,
