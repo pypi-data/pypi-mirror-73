@@ -1,0 +1,10 @@
+setup.py
+soso_distributions/Binomialdistribution.py
+soso_distributions/Gaussiandistribution.py
+soso_distributions/Generaldistribution.py
+soso_distributions/__init__.py
+soso_distributions.egg-info/PKG-INFO
+soso_distributions.egg-info/SOURCES.txt
+soso_distributions.egg-info/dependency_links.txt
+soso_distributions.egg-info/not-zip-safe
+soso_distributions.egg-info/top_level.txt
