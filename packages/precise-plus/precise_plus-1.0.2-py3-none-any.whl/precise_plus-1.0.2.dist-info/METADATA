@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: precise-plus
+Version: 1.0.2
+Summary: PRECISE+
+Home-page: https://github.com/NKI-CCB/PRECISE_plus
+Author: Soufiane Mourragui <soufiane.mourragui@gmail.com>, 
+Author-email: soufiane.mourragui@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+
+# PRECISE+
+
+PRECISE+ is a domain-adaptation tool to predict drug response in human tumors from pre-clinical models. It is presented in the following pre-print: https://www.biorxiv.org/content/10.1101/2020.06.29.177139v1
+<br/><br/>
+PRECISE+ requires Python 3.6 or higher. PRECISE+ runs on conda and requires matplotlib and pandas installed as follows:
+<br/>
+<em>
+	conda install matplotlib pandas
+</em>
+<br/><br/>
+
+You can install PRECISE+ with the following command:
+<br/>
+<em> pip install precise_plus </em>
+
+## Use-case
+
+You can find the code supporting the pre-print with examples of PRECISE+ usage in : https://github.com/NKI-CCB/precise_plus_manuscript
+
+## Contact
+
+Please contact me : s [dot] mourragui [at] nki [dot] nl
+
+
