@@ -1,0 +1,8 @@
+zoho_analytics_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zoho_analytics_connector/enhanced_report_client.py,sha256=cJc4r4wHxZ2lYya6CxYileSGRsAQIRmWs_HVcfqc3nc,7634
+zoho_analytics_connector/report_client.py,sha256=uK1x7aQBOyUzcfd_lEQpotRiQaa-2-RuP5OBq1aBbNg,78134
+zoho_analytics_connector/report_client_old.py,sha256=FYRfyrtUdFWEfFrMrOustX_8Pp6HQ1OP-5H7qdqnn1s,75248
+zoho_analytics_connector-0.5.1.dist-info/METADATA,sha256=oJ1ZwwnUFGBHNqWe9Y8Zn14s7Btnc3SoMpEyBLxAtvE,7381
+zoho_analytics_connector-0.5.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zoho_analytics_connector-0.5.1.dist-info/top_level.txt,sha256=1fxN46myaLeE9hrPPGGir8facIuN1pQ7HX7EpKCli7I,25
+zoho_analytics_connector-0.5.1.dist-info/RECORD,,
