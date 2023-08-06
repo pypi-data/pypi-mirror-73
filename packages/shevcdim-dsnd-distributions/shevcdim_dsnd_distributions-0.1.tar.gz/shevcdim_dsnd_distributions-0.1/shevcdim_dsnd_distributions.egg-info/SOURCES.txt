@@ -1,0 +1,10 @@
+setup.py
+shevcdim_dsnd_distributions/Binomialdistribution.py
+shevcdim_dsnd_distributions/Gaussiandistribution.py
+shevcdim_dsnd_distributions/Generaldistribution.py
+shevcdim_dsnd_distributions/__init__.py
+shevcdim_dsnd_distributions.egg-info/PKG-INFO
+shevcdim_dsnd_distributions.egg-info/SOURCES.txt
+shevcdim_dsnd_distributions.egg-info/dependency_links.txt
+shevcdim_dsnd_distributions.egg-info/not-zip-safe
+shevcdim_dsnd_distributions.egg-info/top_level.txt
