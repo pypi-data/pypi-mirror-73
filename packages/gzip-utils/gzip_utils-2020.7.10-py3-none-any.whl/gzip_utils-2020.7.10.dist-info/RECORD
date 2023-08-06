@@ -1,0 +1,8 @@
+gzip_utils/__init__.py,sha256=uFI4WHxvV4zo9aCPmqMrGHB8HSrTKJzEle2cVJ4GWYA,492
+gzip_utils/_compressed_json_list.py,sha256=RIciTzveKHL8_6mFna7uATCKePylsq3ykB7sIPAvD90,2824
+gzip_utils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gzip_utils-2020.7.10.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gzip_utils-2020.7.10.dist-info/LICENSE,sha256=Y4Dk2d5snmVm-IlmoAf_7TdjmVrAsVdgpvjPKXv_keo,1088
+gzip_utils-2020.7.10.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+gzip_utils-2020.7.10.dist-info/METADATA,sha256=yM19tz3Fsqgvi0fhqRDdLyx1A_xugDMRclDpLUIrXhg,1282
+gzip_utils-2020.7.10.dist-info/RECORD,,
