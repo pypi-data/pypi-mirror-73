@@ -1,0 +1,8 @@
+calixa_proto_py/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+calixa_proto_py/hello_pb2.py,sha256=ygIf6WQxm1ysfS1EuXY3preTHgGzkwHDEvRhb6sYYLE,4044
+calixa_proto_py/hello_pb2.pyi,sha256=vDXpWKvN_Gy7MFIdP59vwRkXND-KPgX0t1EEorDtn_o,1476
+calixa_proto_py/hello_pb2_grpc.py,sha256=ErN7nBlLuqQjt2_HrnmANjH_ASXcdbFrbIdPoIzSfio,1337
+calixa_proto_py-1.0.1.dist-info/entry_points.txt,sha256=2aDrGTy0aLqck8hHp9uXFTnTVfWJqBWPgn5a2Fdj3Fs,70
+calixa_proto_py-1.0.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+calixa_proto_py-1.0.1.dist-info/METADATA,sha256=xsFqikpvvtT8obEUxiC5rHKUGqRtkqcdhm6QDaGTS9Y,303
+calixa_proto_py-1.0.1.dist-info/RECORD,,
