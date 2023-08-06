@@ -1,0 +1,8 @@
+getarticle/__init__.py,sha256=pxFpjfuV3ev5d1aQHxhP7NSoaF6g0vgB93dK5KzC2tQ,35
+getarticle/cli.py,sha256=swFtywy5OQ3EaiZ8ohqj9uqUDhB8_V2DJMXh74OaFAI,621
+getarticle/getarticle.py,sha256=apqGDLQo3rFo0iafWa7wWfoIZb5p8HZGhTmMNgjZmP4,4160
+getarticle_dev-0.0.1.dist-info/LICENSE,sha256=wtUgFcACmnVCgYfbM653tuOFacIN7SS0eoaERNZ5RKo,1065
+getarticle_dev-0.0.1.dist-info/METADATA,sha256=UccDnh1Ay3sPZGeq9LsdARDulAyC3GKXSwGYlYVBkJQ,2277
+getarticle_dev-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+getarticle_dev-0.0.1.dist-info/top_level.txt,sha256=TNB5nxkGkNP0Bp32mJ1hC-iPUVTmfigAszKfDKKAPYs,11
+getarticle_dev-0.0.1.dist-info/RECORD,,
