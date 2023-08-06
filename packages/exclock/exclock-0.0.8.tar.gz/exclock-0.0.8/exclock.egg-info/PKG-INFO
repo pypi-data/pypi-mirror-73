@@ -1,0 +1,96 @@
+Metadata-Version: 1.1
+Name: exclock
+Version: 0.0.8
+Summary: exclock is a cui extended timer for mac OS.
+Home-page: https://gitlab.com/yassu/exclock
+Author: yassu
+Author-email: yasu0320.dev@gmail.com
+License: UNKNOWN
+Description: Exclock
+        ================================================================================
+        
+        `exclock` is a cui extended timer for mac OS.
+        
+        Required
+        ----------
+        
+        * vlc
+        
+        Usage
+        ----------
+        
+        ::
+        
+            $ exclock {json5-filename}
+        
+        Example
+        ----------
+        
+        ::
+        
+            {
+              "message": "ポモドーロ",
+              "sounds": {
+                "0": {
+                  "message": "お仕事開始! {count}-1",
+                  "sound_filename": "silent.mp3",
+                },
+                "25m":{
+                "message": "お仕事終了の時間です. お休みを取りましょう.",
+                "sound_filename": "warning.mp3",
+              },
+                "30m":{
+                "message": "休憩終了の時間です. お仕事を開始しましょう. {count}-2",
+                "sound_filename": "warning.mp3",
+              },
+                "55m":{
+                "message": "お仕事終了の時間です. お休みを取りましょう.",
+                "sound_filename": "warning.mp3",
+              },
+              "60m": {
+                "message": "休憩終了の時間です. お仕事を開始しましょう. {count}-3",
+                "sound_filename": "warning.mp3",
+              },
+              "85m": {
+                "message": "お仕事終了の時間です. お休みを取りましょう.",
+                "sound_filename": "warning.mp3",
+              },
+              "90m": {
+                "message": "休憩終了の時間です. お仕事を開始しましょう. {count}-4",
+                "sound_filename": "warning.mp3",
+              },
+              "115m": {
+                "message": "1ポモドーロが終わりました. 長い休みを取りましょう.",
+                "sound_filename": "warning.mp3",
+              },
+              "145m": {
+                "message": "",
+                "sound_filename": "silent.mp3",
+              },
+             },
+              "loop": 2
+            }
+        
+        
+        LICENSE
+        -------
+        
+        Apache 2.0
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players :: MP3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
