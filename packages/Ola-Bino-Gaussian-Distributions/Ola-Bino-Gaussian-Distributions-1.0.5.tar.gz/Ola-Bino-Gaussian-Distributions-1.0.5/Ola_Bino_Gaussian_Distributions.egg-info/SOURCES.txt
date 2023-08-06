@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+license.txt
+setup.py
+Ola-Bino-Gaussian-Distributions/Binomialdistribution.py
+Ola-Bino-Gaussian-Distributions/Gaussiandistribution.py
+Ola-Bino-Gaussian-Distributions/Generaldistribution.py
+Ola-Bino-Gaussian-Distributions/__init__.py
+Ola_Bino_Gaussian_Distributions.egg-info/PKG-INFO
+Ola_Bino_Gaussian_Distributions.egg-info/SOURCES.txt
+Ola_Bino_Gaussian_Distributions.egg-info/dependency_links.txt
+Ola_Bino_Gaussian_Distributions.egg-info/not-zip-safe
+Ola_Bino_Gaussian_Distributions.egg-info/top_level.txt
