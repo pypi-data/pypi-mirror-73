@@ -1,0 +1,18 @@
+paralelocs\_qlikapi.api package
+===============================
+
+paralelocs\_qlikapi.api.api module
+----------------------------------
+
+.. automodule:: paralelocs_qlikapi.api.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+paralelocs\_qlikapi.api.auth module
+-----------------------------------
+
+.. automodule:: paralelocs_qlikapi.api.auth
+   :members:
+   :undoc-members:
+   :show-inheritance:

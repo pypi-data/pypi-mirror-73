@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>paralelocs_qlikapi.method package &#8212; Paralelo CS Qlik API SDK for Python 0.2.5 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="paralelocs_qlikapi.api package" href="paralelocs_qlikapi.api.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="paralelocs-qlikapi-method-package">
+<h1>paralelocs_qlikapi.method package<a class="headerlink" href="#paralelocs-qlikapi-method-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-paralelocs_qlikapi.method.app">
+<span id="paralelocs-qlikapi-method-app-module"></span><h2>paralelocs_qlikapi.method.app module<a class="headerlink" href="#module-paralelocs_qlikapi.method.app" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="paralelocs_qlikapi.method.app.App">
+<em class="property">class </em><code class="sig-prename descclassname">paralelocs_qlikapi.method.app.</code><code class="sig-name descname">App</code><span class="sig-paren">(</span><em class="sig-param">auth=None</em>, <em class="sig-param">session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.app.App" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#paralelocs_qlikapi.method.base.DefaultMethods" title="paralelocs_qlikapi.method.base.DefaultMethods"><code class="xref py py-class docutils literal notranslate"><span class="pre">paralelocs_qlikapi.method.base.DefaultMethods</span></code></a></p>
+<p>Classe para trabalhar com o recurso APP da API do QLIK</p>
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.app.App.add_tag">
+<code class="sig-name descname">add_tag</code><span class="sig-paren">(</span><em class="sig-param">appid</em>, <em class="sig-param">tagname</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.app.App.add_tag" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.app.App.copy">
+<code class="sig-name descname">copy</code><span class="sig-paren">(</span><em class="sig-param">id</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.app.App.copy" title="Permalink to this definition">¶</a></dt>
+<dd><p>DESPUBLICAR APP</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.app.App.post">
+<code class="sig-name descname">post</code><span class="sig-paren">(</span><em class="sig-param">path</em>, <em class="sig-param">name</em>, <em class="sig-param">filename</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.app.App.post" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.app.App.publish_to_stream">
+<code class="sig-name descname">publish_to_stream</code><span class="sig-paren">(</span><em class="sig-param">appid</em>, <em class="sig-param">streamname</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.app.App.publish_to_stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>PUBLICAR APP NA STREAM</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.app.App.reload">
+<code class="sig-name descname">reload</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.app.App.reload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.app.App.unpublish">
+<code class="sig-name descname">unpublish</code><span class="sig-paren">(</span><em class="sig-param">id</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.app.App.unpublish" title="Permalink to this definition">¶</a></dt>
+<dd><p>DESPUBLICAR APP</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-paralelocs_qlikapi.method.base">
+<span id="paralelocs-qlikapi-method-base-module"></span><h2>paralelocs_qlikapi.method.base module<a class="headerlink" href="#module-paralelocs_qlikapi.method.base" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="paralelocs_qlikapi.method.base.Base">
+<em class="property">class </em><code class="sig-prename descclassname">paralelocs_qlikapi.method.base.</code><code class="sig-name descname">Base</code><span class="sig-paren">(</span><em class="sig-param">auth=None</em>, <em class="sig-param">session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.Base" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Classe base para os métodos da API</p>
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.Base.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.Base.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.Base.post">
+<code class="sig-name descname">post</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.Base.post" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.Base.search">
+<code class="sig-name descname">search</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.Base.search" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="paralelocs_qlikapi.method.base.DefaultMethods">
+<em class="property">class </em><code class="sig-prename descclassname">paralelocs_qlikapi.method.base.</code><code class="sig-name descname">DefaultMethods</code><span class="sig-paren">(</span><em class="sig-param">auth=None</em>, <em class="sig-param">session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.DefaultMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#paralelocs_qlikapi.method.base.Base" title="paralelocs_qlikapi.method.base.Base"><code class="xref py py-class docutils literal notranslate"><span class="pre">paralelocs_qlikapi.method.base.Base</span></code></a></p>
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.DefaultMethods.delete">
+<code class="sig-name descname">delete</code><span class="sig-paren">(</span><em class="sig-param">id</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.DefaultMethods.delete" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.DefaultMethods.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.DefaultMethods.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.DefaultMethods.search">
+<code class="sig-name descname">search</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">params=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.DefaultMethods.search" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.DefaultMethods.search_by_id">
+<code class="sig-name descname">search_by_id</code><span class="sig-paren">(</span><em class="sig-param">id</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.DefaultMethods.search_by_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.base.DefaultMethods.send">
+<code class="sig-name descname">send</code><span class="sig-paren">(</span><em class="sig-param">method=None</em>, <em class="sig-param">resource=None</em>, <em class="sig-param">headers=None</em>, <em class="sig-param">data=None</em>, <em class="sig-param">params=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.base.DefaultMethods.send" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-paralelocs_qlikapi.method.reloadtask">
+<span id="paralelocs-qlikapi-method-reloadtask-module"></span><h2>paralelocs_qlikapi.method.reloadtask module<a class="headerlink" href="#module-paralelocs_qlikapi.method.reloadtask" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task">
+<em class="property">class </em><code class="sig-prename descclassname">paralelocs_qlikapi.method.reloadtask.</code><code class="sig-name descname">Task</code><span class="sig-paren">(</span><em class="sig-param">auth=None</em>, <em class="sig-param">session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#paralelocs_qlikapi.method.base.DefaultMethods" title="paralelocs_qlikapi.method.base.DefaultMethods"><code class="xref py py-class docutils literal notranslate"><span class="pre">paralelocs_qlikapi.method.base.DefaultMethods</span></code></a></p>
+<p>Classe para trabalhar com o recurso APP da API do QLIK</p>
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.create_body_dict">
+<code class="sig-name descname">create_body_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.create_body_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.create_composite_events_dict">
+<code class="sig-name descname">create_composite_events_dict</code><span class="sig-paren">(</span><em class="sig-param">triggername</em>, <em class="sig-param">tasks</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.create_composite_events_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.create_daily">
+<code class="sig-name descname">create_daily</code><span class="sig-paren">(</span><em class="sig-param">appid</em>, <em class="sig-param">taskname</em>, <em class="sig-param">startdate</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.create_daily" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.create_hourly">
+<code class="sig-name descname">create_hourly</code><span class="sig-paren">(</span><em class="sig-param">appid</em>, <em class="sig-param">taskname</em>, <em class="sig-param">startdate</em>, <em class="sig-param">after</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.create_hourly" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.create_schema_events_dict">
+<code class="sig-name descname">create_schema_events_dict</code><span class="sig-paren">(</span><em class="sig-param">taskname</em>, <em class="sig-param">startdate</em>, <em class="sig-param">expirationDate='9999-01-01T00:00:00.000'</em>, <em class="sig-param">timeZone='America/New_York'</em>, <em class="sig-param">incrementDescription='0 0 1 0'</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.create_schema_events_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.create_task_dict">
+<code class="sig-name descname">create_task_dict</code><span class="sig-paren">(</span><em class="sig-param">appid</em>, <em class="sig-param">taskname</em>, <em class="sig-param">taskSessionTimeout=1440</em>, <em class="sig-param">maxRetries=0</em>, <em class="sig-param">enable=True</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.create_task_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.create_trigger">
+<code class="sig-name descname">create_trigger</code><span class="sig-paren">(</span><em class="sig-param">appid</em>, <em class="sig-param">taskname</em>, <em class="sig-param">triggername='Load sucessfully'</em>, <em class="sig-param">tasks=[]</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.create_trigger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tasks is a list of task with id
+tasks [{‘id’:’1212sdsad-asdsad-asd’}, {‘id’:’121212-dsad-asas’}]</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.reloadtask.Task.reload">
+<code class="sig-name descname">reload</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.reloadtask.Task.reload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-paralelocs_qlikapi.method.stream">
+<span id="paralelocs-qlikapi-method-stream-module"></span><h2>paralelocs_qlikapi.method.stream module<a class="headerlink" href="#module-paralelocs_qlikapi.method.stream" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="paralelocs_qlikapi.method.stream.Stream">
+<em class="property">class </em><code class="sig-prename descclassname">paralelocs_qlikapi.method.stream.</code><code class="sig-name descname">Stream</code><span class="sig-paren">(</span><em class="sig-param">auth=None</em>, <em class="sig-param">session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.stream.Stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#paralelocs_qlikapi.method.base.DefaultMethods" title="paralelocs_qlikapi.method.base.DefaultMethods"><code class="xref py py-class docutils literal notranslate"><span class="pre">paralelocs_qlikapi.method.base.DefaultMethods</span></code></a></p>
+<p>Classe para trabalhar com o recurso TAG da API do QLIK</p>
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.stream.Stream.post">
+<code class="sig-name descname">post</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.stream.Stream.post" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-paralelocs_qlikapi.method.tag">
+<span id="paralelocs-qlikapi-method-tag-module"></span><h2>paralelocs_qlikapi.method.tag module<a class="headerlink" href="#module-paralelocs_qlikapi.method.tag" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="paralelocs_qlikapi.method.tag.Tag">
+<em class="property">class </em><code class="sig-prename descclassname">paralelocs_qlikapi.method.tag.</code><code class="sig-name descname">Tag</code><span class="sig-paren">(</span><em class="sig-param">auth=None</em>, <em class="sig-param">session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.tag.Tag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#paralelocs_qlikapi.method.base.DefaultMethods" title="paralelocs_qlikapi.method.base.DefaultMethods"><code class="xref py py-class docutils literal notranslate"><span class="pre">paralelocs_qlikapi.method.base.DefaultMethods</span></code></a></p>
+<p>Classe para trabalhar com o recurso TAG da API do QLIK</p>
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.tag.Tag.post">
+<code class="sig-name descname">post</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.tag.Tag.post" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-paralelocs_qlikapi.method.task">
+<span id="paralelocs-qlikapi-method-task-module"></span><h2>paralelocs_qlikapi.method.task module<a class="headerlink" href="#module-paralelocs_qlikapi.method.task" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="paralelocs_qlikapi.method.task.Task">
+<em class="property">class </em><code class="sig-prename descclassname">paralelocs_qlikapi.method.task.</code><code class="sig-name descname">Task</code><span class="sig-paren">(</span><em class="sig-param">auth=None</em>, <em class="sig-param">session=None</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.task.Task" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#paralelocs_qlikapi.method.base.DefaultMethods" title="paralelocs_qlikapi.method.base.DefaultMethods"><code class="xref py py-class docutils literal notranslate"><span class="pre">paralelocs_qlikapi.method.base.DefaultMethods</span></code></a></p>
+<p>Classe para trabalhar com o recurso APP da API do QLIK</p>
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.task.Task.start_by_id">
+<code class="sig-name descname">start_by_id</code><span class="sig-paren">(</span><em class="sig-param">id</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.task.Task.start_by_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="paralelocs_qlikapi.method.task.Task.start_by_name">
+<code class="sig-name descname">start_by_name</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#paralelocs_qlikapi.method.task.Task.start_by_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Paralelo CS Qlik API SDK for Python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getstarted.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="paralelocs_qlikapi.api.html">paralelocs_qlikapi.api package</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">paralelocs_qlikapi.method package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-paralelocs_qlikapi.method.app">paralelocs_qlikapi.method.app module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-paralelocs_qlikapi.method.base">paralelocs_qlikapi.method.base module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-paralelocs_qlikapi.method.reloadtask">paralelocs_qlikapi.method.reloadtask module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-paralelocs_qlikapi.method.stream">paralelocs_qlikapi.method.stream module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-paralelocs_qlikapi.method.tag">paralelocs_qlikapi.method.tag module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-paralelocs_qlikapi.method.task">paralelocs_qlikapi.method.task module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="paralelocs_qlikapi.api.html" title="previous chapter">paralelocs_qlikapi.api package</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Paralelo Consultoria e Serviços Ltda.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/paralelocs_qlikapi.method.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

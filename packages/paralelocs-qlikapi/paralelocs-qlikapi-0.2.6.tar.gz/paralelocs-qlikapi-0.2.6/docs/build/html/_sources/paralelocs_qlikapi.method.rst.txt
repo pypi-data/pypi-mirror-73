@@ -1,0 +1,50 @@
+paralelocs\_qlikapi.method package
+==================================
+
+paralelocs\_qlikapi.method.app module
+-------------------------------------
+
+.. automodule:: paralelocs_qlikapi.method.app
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+paralelocs\_qlikapi.method.base module
+--------------------------------------
+
+.. automodule:: paralelocs_qlikapi.method.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+paralelocs\_qlikapi.method.reloadtask module
+--------------------------------------------
+
+.. automodule:: paralelocs_qlikapi.method.reloadtask
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+paralelocs\_qlikapi.method.stream module
+----------------------------------------
+
+.. automodule:: paralelocs_qlikapi.method.stream
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+paralelocs\_qlikapi.method.tag module
+-------------------------------------
+
+.. automodule:: paralelocs_qlikapi.method.tag
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+paralelocs\_qlikapi.method.task module
+--------------------------------------
+
+.. automodule:: paralelocs_qlikapi.method.task
+   :members:
+   :undoc-members:
+   :show-inheritance:

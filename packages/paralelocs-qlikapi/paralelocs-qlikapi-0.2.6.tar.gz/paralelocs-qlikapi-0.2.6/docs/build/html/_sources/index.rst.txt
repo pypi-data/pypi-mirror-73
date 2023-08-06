@@ -1,0 +1,37 @@
+.. paralelocs-qlikapi documentation master file, created by
+   sphinx-quickstart on Wed Nov 20 14:54:29 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Paralelo CS Qlik API SDK for Python!
+==============================================
+
+
+This documentation cover how you deal with the QlikAPI. The QlikAPI is a high level api in order to call methods from QLIK API.
+
+First step
+----------
+
+Here how you install and setup the high level Qlik API. ::
+
+    pip install paralelocs-qlikapi
+
+Work with QlikAPI instance, the high level API. ::
+
+    from paralelocs_qlikapi.api.api import QlikAPI
+
+
+
+.. toctree::
+   :maxdepth: 2
+   
+   getstarted
+   paralelocs_qlikapi.api
+   paralelocs_qlikapi.method
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

@@ -1,0 +1,30 @@
+paralelocs\_qlikapi package
+===========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   paralelocs_qlikapi.api
+   paralelocs_qlikapi.method
+
+Submodules
+----------
+
+paralelocs\_qlikapi.cli module
+------------------------------
+
+.. automodule:: paralelocs_qlikapi.cli
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: paralelocs_qlikapi
+   :members:
+   :undoc-members:
+   :show-inheritance:

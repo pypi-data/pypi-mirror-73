@@ -1,0 +1,30 @@
+Getting started
+===============
+
+Assuming you already have python installed, install paralelocs_qlikapi. ::
+
+    pip install paralelocs-qlikapi
+
+First, create a QlikAPI instance. ::
+
+    from paralelocs_qlikapi.api.api import QlikAPI
+
+    # defining the information to make the connection to Qlik Repository Server
+
+    hostname = 'localhost'
+    sslfile = '/path/client.pem'
+    sslfile_key = '/path/client_key.pem'
+    verify = False  # Turn true if you want to verify the authenticity of certificate CA
+
+    api = QlikAPI(hostname=hostname, sslfile=sslfile, sslfile_key=sslfile_key, verify=verify)
+
+Once you got the QlikAPI instance you can call all others methods you want. The QlikAPI handle all of imports to deal with others methods, so you don't need to worry about it.
+
+Lets make a APP POST to turn some QVF available on Qlik Hub and QMC. ::
+
+    qvf_path = '/path/apps/'
+    qvf_name = 'telemetry.qvf'
+    app_name = 'Telemetry'
+    response = api.app.post(path = qvf_path, name=app_name, filename=qvf_name)
+    print(response['status_code'])
+    >> 200

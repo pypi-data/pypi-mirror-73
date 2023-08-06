@@ -1,0 +1,11 @@
+Get started
+===========
+
+Quick start
+^^^^^^^^^^^
+
+Assuming you already have python installed. ::
+
+    pip install paralelocs-qlikapi
+
+sdsd faz
