@@ -1,0 +1,17 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+pykooh/__init__.py
+pykooh/smooth_cython.pyx
+pykooh/smooth_numba.py
+pykooh/smoothing.c
+pykooh/smoothing.h
+pykooh.egg-info/PKG-INFO
+pykooh.egg-info/SOURCES.txt
+pykooh.egg-info/dependency_links.txt
+pykooh.egg-info/not-zip-safe
+pykooh.egg-info/top_level.txt
