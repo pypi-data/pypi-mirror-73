@@ -1,0 +1,7 @@
+[console_scripts]
+servo=servo.entry_points:run_cli
+
+[servo.connectors]
+kubernetes=connectors.kubernetes.kubernetes:KubernetesConnector
+vegeta=connectors.vegeta.vegeta:VegetaConnector
+
