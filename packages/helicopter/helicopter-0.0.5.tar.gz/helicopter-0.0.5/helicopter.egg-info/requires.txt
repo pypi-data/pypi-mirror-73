@@ -1,0 +1,7 @@
+numpy
+pandas
+pathlib
+requests
+microprediction>=0.9.11
+copulas
+matplotlib
