@@ -1,0 +1,14 @@
+.DS_Store,sha256=wNBXVvmCvpNH6Es4bkhpfPsd8GVoUTDJUg-XIyKbMLo,6148
+fawkes/__init__.py,sha256=oEaggJsTdjIpwxUvwPTd0Smh-1sJd0sEBguf_xAabew,652
+fawkes/__main__.py,sha256=U6Rpc9Xbe6qo_8JqjoGPkkaqxkysdSmc-_0o6u8k8us,68
+fawkes/align_face.py,sha256=AN3AZ2K_KJzJrbDKJ6mvPg-HwIrD9N_bsNDnjS3b-pA,2637
+fawkes/detect_face.py,sha256=2jpsENjIBG0xxD7r5cy8BVjUIircZlFk63H7MjPmYYI,30654
+fawkes/detect_faces.py,sha256=nl0iBg3VC5PaTzeOEfRKQB95ytlabhNxvsF-qFPVWZI,30936
+fawkes/differentiator.py,sha256=-pYyCrqpemMuhEgI2x65DiImAEnq2IvOYlu2kA70GYo,18946
+fawkes/protection.py,sha256=7Ltxc16799Woof9pNn8JAasD1kScdwC1DoJ-r-JmOHk,6166
+fawkes/utils.py,sha256=XUAIfbUcml3G4gZGQi7YmxY_1XJKz-x6z2tLK-78lt4,19292
+fawkes-0.0.6.dist-info/METADATA,sha256=HrnUdBMA6o55xlLjEoefhp-iwlGhae3V7QMGH9DAjuk,3367
+fawkes-0.0.6.dist-info/RECORD,,
+fawkes-0.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+fawkes-0.0.6.dist-info/entry_points.txt,sha256=vFCWmrj5N3v64_g7ktXMIxpe3tt0zhSskW2FQ4t_PXQ,40
+fawkes-0.0.6.dist-info/top_level.txt,sha256=WwB1IWXNVNjKYaTLQB1VfsdlXi0a-EQVHLWCNUoyEcg,7
