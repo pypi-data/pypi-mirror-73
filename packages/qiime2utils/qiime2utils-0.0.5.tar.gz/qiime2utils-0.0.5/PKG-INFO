@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: qiime2utils
+Version: 0.0.5
+Summary: qiime2utils - Utility scripts for Qiime 2
+Home-page: https://github.com/vinisalazar/qiime2utils
+Author: Vini Salazar
+Author-email: viniws@gmail.com
+License: UNKNOWN
+Description: qiime2utils is a command-line tool for manipulating Qiime 2 data.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
