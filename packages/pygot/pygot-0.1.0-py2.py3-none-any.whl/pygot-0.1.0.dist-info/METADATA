@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pygot
+Version: 0.1.0
+Summary: A Python library for https://anapioficeandfire.com (Python 3.6+)
+Home-page: https://github.com/ernane/pygot
+Author: Ernane Sena
+Author-email: ernane.sena@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black (==19.10b0) ; extra == 'dev'
+Requires-Dist: flake8 (==3.8.3) ; extra == 'dev'
+Requires-Dist: ipython (==7.16.1) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.6.0) ; extra == 'dev'
+Requires-Dist: isort (==5.0.9) ; extra == 'dev'
+
+# pygot
+
+[![Github Actions Status](https://github.com/ernane/pygot/workflows/main-workflow/badge.svg)](https://github.com/ernane/pygot/actions) [![Coverage Status](https://codecov.io/gh/ernane/pygot/branch/feature%2Fci/graph/badge.svg)](https://codecov.io/gh/ernane/pygot) [![Code Climate](https://codeclimate.com/github/ernane/pygot/badges/gpa.svg)](https://codeclimate.com/github/ernane/pygot) [![Requirements Status](https://requires.io/github/ernane/pygot/requirements.svg?branch=feature%2Fci)](https://requires.io/github/ernane/pygot/requirements/?branch=feature%2Fci)
+
+
