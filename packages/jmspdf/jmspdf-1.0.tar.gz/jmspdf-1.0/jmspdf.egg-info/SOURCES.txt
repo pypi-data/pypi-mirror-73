@@ -1,0 +1,9 @@
+README.md
+setup.py
+jmspdf/__init__.py
+jmspdf/pdf2image.py
+jmspdf/pdf2text.py
+jmspdf.egg-info/PKG-INFO
+jmspdf.egg-info/SOURCES.txt
+jmspdf.egg-info/dependency_links.txt
+jmspdf.egg-info/top_level.txt
