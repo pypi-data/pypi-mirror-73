@@ -1,0 +1,6 @@
+argparse
+pandas
+sys
+PyQt5
+easygui
+pathlib
