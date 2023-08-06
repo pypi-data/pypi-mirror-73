@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: flake8-pathlib
+Version: 0.1.2
+Summary: A plugin for flake8 finding use of functions that can be replace by pathlib module.
+Home-page: https://gitlab.com/RoPP/flake8-pathlib
+License: MIT
+Keywords: flake8,linter,pathlib
+Author: Rodolphe Pelloux-Prayer
+Author-email: rodolphe@damsy.net
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: dataclasses (>=0.7,<0.8); python_version >= "3.6" and python_version < "3.7"
+Requires-Dist: flake8 (>=3.8.3,<4.0.0)
+Project-URL: Repository, https://gitlab.com/RoPP/flake8-pathlib
+Description-Content-Type: text/markdown
+
+# flake8-pathlib
+
+A plugin for flake8 finding use of functions that can be replace by pathlib module.
