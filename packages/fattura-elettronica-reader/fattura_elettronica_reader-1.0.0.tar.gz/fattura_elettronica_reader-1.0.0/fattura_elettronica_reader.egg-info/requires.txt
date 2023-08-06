@@ -1,0 +1,5 @@
+atomicwrites>=1.4.0
+filetype>=1.0.7
+appdirs>=1.4.4
+requests>=2.24.0
+lxml>=4.5.2
