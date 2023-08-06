@@ -1,0 +1,8 @@
+server_side_matomo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server_side_matomo/middleware.py,sha256=XdDnAEf_c_rnFqL93UirRLaYFr7p7qZvbNK2XB9c-kA,1220
+server_side_matomo/tasks.py,sha256=H4ZZD0VKa-O2Z9Wab5i1v1_ih2xEPhNufjsYGASbaTM,1225
+server_side_matomo/tests.py,sha256=AOvyStlndxLxG48nvLbO3QPdBY2Jei4b7RRwsVxuupA,1308
+django_server_side_matomo-2.1.0.dist-info/LICENSE,sha256=ZaKTDoYEZog6c2kmB52A2c4gd0x40EGPnac98LucmAk,1514
+django_server_side_matomo-2.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+django_server_side_matomo-2.1.0.dist-info/METADATA,sha256=qsvD7Fs2GexKfPEzF7c_2aQdocemHvm17RVzWyScH-M,2194
+django_server_side_matomo-2.1.0.dist-info/RECORD,,
