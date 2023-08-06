@@ -1,0 +1,11 @@
+README.md
+setup.py
+easysparql/__init__.py
+easysparql/easysparql.py
+easysparql.egg-info/PKG-INFO
+easysparql.egg-info/SOURCES.txt
+easysparql.egg-info/dependency_links.txt
+easysparql.egg-info/requires.txt
+easysparql.egg-info/top_level.txt
+tests/__init__.py
+tests/tests.py
