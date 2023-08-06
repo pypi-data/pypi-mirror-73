@@ -1,0 +1,7 @@
+opencc
+numpy
+torch
+transformers
+pandas
+scikit-learn
+tensorflow>=2.2.0
