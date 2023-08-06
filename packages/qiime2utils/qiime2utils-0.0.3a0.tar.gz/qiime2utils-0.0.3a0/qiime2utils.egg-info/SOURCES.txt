@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+qiime2utils/__init__.py
+qiime2utils/main.py
+qiime2utils/qiime2utils
+qiime2utils.egg-info/PKG-INFO
+qiime2utils.egg-info/SOURCES.txt
+qiime2utils.egg-info/dependency_links.txt
+qiime2utils.egg-info/requires.txt
+qiime2utils.egg-info/top_level.txt
