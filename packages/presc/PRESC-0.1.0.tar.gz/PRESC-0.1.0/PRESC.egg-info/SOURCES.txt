@@ -1,0 +1,297 @@
+.flake8
+.gitignore
+Dockerfile
+LICENSE
+Makefile
+README.md
+environment.yml
+setup.py
+.circleci/config.yml
+.github/workflows/main.yml
+.idea/.gitignore
+PRESC.egg-info/PKG-INFO
+PRESC.egg-info/SOURCES.txt
+PRESC.egg-info/dependency_links.txt
+PRESC.egg-info/not-zip-safe
+PRESC.egg-info/top_level.txt
+archive/Addi-11/auc_roc.ipynb
+archive/Addi-11/auc_roc.py
+archive/Addi-11/calibration.ipynb
+archive/Addi-11/calibration.py
+archive/Addi-11/classifiers.py
+archive/Addi-11/data_split_examine.py
+archive/Addi-11/dataloader.py
+archive/Addi-11/demo.ipynb
+archive/Addi-11/evaluation.py
+archive/Addi-11/gain-lift-charts.ipynb
+archive/Addi-11/gain_lift.py
+archive/Addi-11/issue3_demo.ipynb
+archive/Addi-11/k-fold_demo.ipynb
+archive/Addi-11/kfold.py
+archive/Addi-11/kfold_map.py
+archive/Addi-11/lfm.py
+archive/Addi-11/misclassification.ipynb
+archive/Addi-11/repeat_cv.py
+archive/AnastasiaRizzo/#2  Train and test a classification model, eeg.csv.ipynb
+archive/BBimie/#7 visualization for misclassifications.ipynb
+archive/BBimie/#9 Comparing test sample classifications between models.ipynb
+archive/BBimie/Wine quality.ipynb
+archive/BBimie/compare_model_function.py
+archive/BBimie/functions.ipynb
+archive/BBimie/misclassification_function.py
+archive/BBimie/Traversal of the space of train-test splits #3/Traversal of the space of train-test splits #3.ipynb
+archive/BBimie/Traversal of the space of train-test splits #3/traversal_function.py
+archive/BBimie/misclassification visualization/#7 visualization for misclassifications.ipynb
+archive/BBimie/misclassification visualization/misclassification_function.py
+archive/Clare-Joyce/winequality.ipynb
+archive/KaairaGupta/Compare_test_sample/compare_model_classification.py
+archive/KaairaGupta/Compare_test_sample/example_comparision_of_test_samples.ipynb
+archive/KaairaGupta/calibration_plot/calibration_plot.py
+archive/KaairaGupta/calibration_plot/example_calibration_plot.ipynb
+archive/KaairaGupta/evaluation metric/example_visualise_evaluation_metric.ipynb
+archive/KaairaGupta/evaluation metric/visualise_evaluation_metric.py
+archive/KaairaGupta/importance_score/example_importance_score.ipynb
+archive/KaairaGupta/importance_score/importance_score.py
+archive/KaairaGupta/learning_from_misclassification/example_plot_misclassification_data_binary.ipynb
+archive/KaairaGupta/learning_from_misclassification/example_plot_misclassification_data_multiclass.ipynb
+archive/KaairaGupta/learning_from_misclassification/plot_misclassification_data.py
+archive/KaairaGupta/winequality/Ml_functions.py
+archive/KaairaGupta/winequality/data_loader.py
+archive/KaairaGupta/winequality/data_visualisation.ipynb
+archive/KairaGupta/importance_score/example_importance_score.ipynb
+archive/KairaGupta/importance_score/importance_score.py
+archive/Omobolaji/modules.py
+archive/Omobolaji/vehicles.ipynb
+archive/Omobolaji/Traversal-space-cv-folds/traversal_space_cv_folds.ipynb
+archive/Omobolaji/Traversal-space-cv-folds/traversal_space_cv_folds.py
+archive/Omobolaji/Traversal-space-train-test-split/traversal_space_train_test_split.ipynb
+archive/Omobolaji/Traversal-space-train-test-split/traversal_space_train_test_split.py
+archive/SanchiMittal/dataloader.py
+archive/SanchiMittal/models_eval.py
+archive/SanchiMittal/winequality_LR.ipynb
+archive/Saumya/Cross validation exploration.ipynb
+archive/Saumya/Importance score for datapoints.ipynb
+archive/Saumya/Readme.md
+archive/Saumya/Train-test split traversal.ipynb
+archive/Saumya/Visualisation of evaluation metrics.ipynb
+archive/Saumya/Visualize misclassifications.ipynb
+archive/Saumya/visualisation_helpers.py
+archive/Sidrah-Madiha/Visualization_for_misclassifications.py
+archive/Sidrah-Madiha/train_test_split_v2.py
+archive/Sidrah-Madiha/Calibration_plot/Test_calibration_plot.ipynb
+archive/Sidrah-Madiha/Calibration_plot/calibration_plot.py
+archive/Sidrah-Madiha/Comparative_Models_vehicle_dataset/Visualization_for_misclassifications.py
+archive/Sidrah-Madiha/Comparative_Models_vehicle_dataset/allcustommodules.py
+archive/Sidrah-Madiha/Comparative_Models_vehicle_dataset/train_test_split_v2.py
+archive/Sidrah-Madiha/Comparative_Models_vehicle_dataset/vehicles_dataset_classifer_v2.ipynb
+archive/Sidrah-Madiha/Comparing-test_sample_classifications_between_models/Test_for_compare_test_sample_classifications_across_models.ipynb
+archive/Sidrah-Madiha/Comparing-test_sample_classifications_between_models/compare_test_sample_classifications.py
+archive/Sidrah-Madiha/Importance score for dataset training samples/allcustommodules.py
+archive/Sidrah-Madiha/Importance score for dataset training samples/helper_for_senstivity_calculation.py
+archive/Sidrah-Madiha/Importance score for dataset training samples/vehicles_dataset_classifer_v1.ipynb
+archive/Sidrah-Madiha/Importance_score_for_dataset_training_samples/allcustommodules.py
+archive/Sidrah-Madiha/Importance_score_for_dataset_training_samples/helper_for_senstivity_calculation.py
+archive/Sidrah-Madiha/Importance_score_for_dataset_training_samples/vehicles_dataset_classifer_v1.ipynb
+archive/Sidrah-Madiha/Learning_from_misclassifications/Demo_file.ipynb
+archive/Sidrah-Madiha/Learning_from_misclassifications/extra_function_for_text_file.py
+archive/Sidrah-Madiha/Learning_from_misclassifications/visualize_misclassification_in_probablity_space.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of cross_validation_folds_Issue#4/allcustommodules.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of cross_validation_folds_Issue#4/helper_performance_evaluater_over_folds.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of cross_validation_folds_Issue#4/vehicles_dataset_classifer_for_testing_issue#4 .ipynb
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/allcustommodules.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/helper_performance_evaluater_over_folds.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/helper_traversal_train_test_splits.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/vehicles_dataset_classifer_for_testing_issue#3.ipynb
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/Another_version_of_fix_of_3/Visualization_for_misclassifications.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/Another_version_of_fix_of_3/allcustommodules.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/Another_version_of_fix_of_3/train_test_split_v2.py
+archive/Sidrah-Madiha/Traversal_of_the_space_of_train_test_splits/Another_version_of_fix_of_3/vehicles_dataset_classifer_v1.ipynb
+archive/Sidrah-Madiha/Visualization_for_misclassifications/Visualization_for_misclassifications.py
+archive/Sidrah-Madiha/Visualization_for_misclassifications/allcustommodules.py
+archive/Sidrah-Madiha/Visualization_for_misclassifications/vehicles_dataset_classifer_v1.ipynb
+archive/Sidrah-Madiha/Visualization_for_misclassifications/vehicles_dataset_classifer_v2.ipynb
+archive/Sidrah-Madiha/Visualization_of_an_evaluation_metric/Test_file_for_issue_6.ipynb
+archive/Sidrah-Madiha/Visualization_of_an_evaluation_metric/metric_evaluation_plot.py
+archive/Soniyanayak51/OutreachyStartupTaskSoniyanayak51.ipynb
+archive/Soniyanayak51/classificationModelFunctions.py
+archive/Soniyanayak51/issue5/CalibrationPlots.ipynb
+archive/Soniyanayak51/issue5/calibration_plots_module.py
+archive/Soniyanayak51/issue5/classificationModelFunctions.py
+archive/Soniyanayak51/issue63/LearningFromMisclassifications.ipynb
+archive/Soniyanayak51/issue63/classificationModelFunctions.py
+archive/Soniyanayak51/issue63/learning_from_misclassifications.py
+archive/Soniyanayak51/issue63/misclassificationVisualisationFunctions.py
+archive/Soniyanayak51/misclassificationVisualization/VisualisationOfMisclassifications.ipynb
+archive/Soniyanayak51/misclassificationVisualization/classificationModelFunctions.py
+archive/Soniyanayak51/misclassificationVisualization/misclassificationVisualisationFunctions.py
+archive/Sumangrewal/Data_vizualization.ipynb
+archive/Sumangrewal/program.py
+archive/Swatik718/Issue#2.ipynb
+archive/Swatik718/main.py
+archive/Swatik718/preprocess.py
+archive/Swatik718/view_data.py
+archive/archisha-chandel/Analyzing Importance of Data Points.ipynb
+archive/archisha-chandel/Covariate Shift.ipynb
+archive/archisha-chandel/KFoldC-V.ipynb
+archive/archisha-chandel/KFoldCV.py
+archive/archisha-chandel/data_importance.py
+archive/archisha-chandel/defaults.ipynb
+archive/archisha-chandel/defaults_modules.py
+archive/archisha-chandel/learning.ipynb
+archive/archisha-chandel/learning.py
+archive/archisha-chandel/visualize_misclass.py
+archive/archisha-chandel/winequality.ipynb
+archive/archisha-chandel/winequality_modules.py
+archive/archisha-chandel/data/Capture1.PNG
+archive/archisha-chandel/data/Capture2.PNG
+archive/archisha-chandel/data/Capture3.PNG
+archive/archisha-chandel/winequality issue #2/winequality.ipynb
+archive/archisha-chandel/winequality issue #2/winequality_modules.py
+archive/asthad16/#issue-3_train_test_split.ipynb
+archive/asthad16/#issue-4_k-fold.ipynb
+archive/asthad16/data_exploration.py
+archive/asthad16/data_preprocess.py
+archive/asthad16/decision_tree.py
+archive/asthad16/evaluation.py
+archive/asthad16/k_fold_estimator.py
+archive/asthad16/knn_classifier.py
+archive/asthad16/readme
+archive/asthad16/task#2_wine_quality.ipynb
+archive/asthad16/train_test_ratio_estimator.py
+archive/dzekem/issue #2/project.ipynb
+archive/dzekem/issue #5/calibration plots.ipynb
+archive/dzekem/issue#4/cross validation folds.ipynb
+archive/dzekem/issue#63/learning from misclassifications.ipynb
+archive/dzekem/issue#7/misclassification.ipynb
+archive/dzekem/issue#78/covariate shift.ipynb
+archive/dzekem/issue#8/Importance score.ipynb
+archive/dzekem/issue#9/compare test samples.ipynb
+archive/elie_wanko/.gitignore
+archive/elie_wanko/Issue #2 - Train and test a classification model.html
+archive/elie_wanko/Issue #2.1 - Train and test a classification model.ipynb
+archive/elie_wanko/Issue #4 - Traversal of the space of cross-validation folds.html
+archive/elie_wanko/Issue #4 - Traversal of the space of cross-validation folds.ipynb
+archive/elie_wanko/defaults_data.csv
+archive/elie_wanko/modules/helpers.py
+archive/elie_wanko/modules/knn.py
+archive/elie_wanko/modules/logreg.py
+archive/elie_wanko/modules/summary.py
+archive/hammedb197/initial.ipynb
+archive/hammedb197/plot_confusionmatrix.py
+archive/hammedb197/predict_evaluate.py
+archive/hammedb197/removeoutliers.py
+archive/ishagarg06/WINEQUALITY.ipynb
+archive/ishagarg06/winequality_doc.py
+archive/janvi04/Classification using KNN on wine quality dataset..ipynb
+archive/lalapupa/Startup task on defaults dataset.ipynb
+archive/lauramurphy12/WineClassification.ipynb
+archive/lauramurphy12/wineClassification.py
+archive/mhmohona/Calibration plot.ipynb
+archive/mhmohona/Comparing test sample classifications between models.ipynb
+archive/mhmohona/Startup task - Train and test a classification model.ipynb
+archive/mhmohona/Traversal of the space of cross-validation folds .ipynb
+archive/msmelo/Mozilla analysis - Gradient Boosting Classifier.ipynb
+archive/namrathagopalabhatla/.gitignore
+archive/namrathagopalabhatla/classification_models.py
+archive/namrathagopalabhatla/cross_validation.ipynb
+archive/namrathagopalabhatla/cross_validation.py
+archive/namrathagopalabhatla/data_processing.py
+archive/namrathagopalabhatla/demo.ipynb
+archive/namrathagopalabhatla/demo_split.ipynb
+archive/namrathagopalabhatla/misclassification.ipynb
+archive/namrathagopalabhatla/train_test_splitting.py
+archive/namrathagopalabhatla/visualize_eval_metric.ipynb
+archive/namrathagopalabhatla/visualize_eval_metric.py
+archive/opeyemiferanmi1/.gitignore
+archive/opeyemiferanmi1/First Contribution.ipynb
+archive/opeyemiferanmi1/classification model using Vehicle dataset.ipynb
+archive/opeyemiferanmi1/helper.py
+archive/opeyemiferanmi1/vehicles.csv
+archive/shashigharti/calibration_plot.py
+archive/shashigharti/helpers.py
+archive/shashigharti/issue#3-traversal-of-the-space-of-train-test-splits-II.ipynb
+archive/shashigharti/issue#3-traversal-of-the-space-of-train-test-splits.ipynb
+archive/shashigharti/issue#4-traversal-of-the-space-of-cross-validation-folds.ipynb
+archive/shashigharti/issue#5_calibration_plots.ipynb
+archive/shashigharti/issue#8-importance-score-for-dataset-training-samples .ipynb
+archive/shashigharti/issue3_helper.py
+archive/shashigharti/issue4_helper.py
+archive/shashigharti/issue8_helper.py
+archive/shashigharti/train-n-test-model-for-vehicle-recognition-from-silhouette-I.ipynb
+archive/shashigharti/train-n-test-model-for-vehicle-recognition-from-silhouette-II.ipynb
+archive/shashigharti/files/sensitivity.csv
+archive/shiza16/ModelEvaluation.py
+archive/shiza16/Vehicle_Classifier.ipynb
+archive/shiza16/VisualizationForMisclassification.py
+archive/shiza16/modules.py
+archive/shiza16/Calibration plot/Calibration plot.ipynb
+archive/shiza16/Calibration plot/CalibrationPlot.py
+archive/shiza16/Calibration plot/CrossValidationFold_Traversal.py
+archive/shiza16/Calibration plot/ModelEvaluation.py
+archive/shiza16/Calibration plot/TrainTest_Split_Traversal.py
+archive/shiza16/Calibration plot/VisualizationForMisclassification.py
+archive/shiza16/Calibration plot/modules.py
+archive/shiza16/CrossValidationFoldTraversal/CrossValidationFoldTraversal_v2.ipynb
+archive/shiza16/CrossValidationFoldTraversal/CrossValidationFold_Traversal.py
+archive/shiza16/CrossValidationFoldTraversal/ModelEvaluation.py
+archive/shiza16/CrossValidationFoldTraversal/TrainTest_Split_Traversal.py
+archive/shiza16/CrossValidationFoldTraversal/VisualizationForMisclassification.py
+archive/shiza16/CrossValidationFoldTraversal/modules.py
+archive/shiza16/Train_Test_Split_Traversal/ModelEvaluation.py
+archive/shiza16/Train_Test_Split_Traversal/TrainTestSplit_Traversal.ipynb
+archive/shiza16/Train_Test_Split_Traversal/TrainTestSplit_Traversal_v2.ipynb
+archive/shiza16/Train_Test_Split_Traversal/TrainTest_Split_Traversal.py
+archive/shiza16/Train_Test_Split_Traversal/VisualizationForMisclassification.py
+archive/shiza16/Train_Test_Split_Traversal/modules.py
+archive/simran0117/Sample.ipynb
+archive/simran0117/Visualization.py
+archive/simran0117/mymodule.py
+archive/tab1tha/compare_estimators.ipynb
+archive/tab1tha/compare_estimators.py
+archive/tab1tha/cv_folds_score.ipynb
+archive/tab1tha/cv_folds_score.py
+archive/tab1tha/explore_data.py
+archive/tab1tha/explore_datav2.py
+archive/tab1tha/k_nn.py
+archive/tab1tha/load_dataset.py
+archive/tab1tha/main.py
+archive/tab1tha/s_v_m.py
+archive/tab1tha/sample_importance.ipynb
+archive/tab1tha/sample_importance.py
+archive/tab1tha/test_size_vary.py
+archive/tab1tha/train_test.ipynb
+archive/tab1tha/train_test_ratio.ipynb
+archive/tab1tha/train_test_ratio.py
+archive/tab1tha/vary_folds.py
+archive/urvigodha/startup.ipynb
+archive/urvigodha/wine.py
+bin/build
+bin/run
+datasets/README.md
+datasets/defaults.csv
+datasets/eeg.csv
+datasets/generated.csv
+datasets/vehicles.csv
+datasets/winequality.csv
+datasets/Bike sharing demand dataset/test.csv
+datasets/Bike sharing demand dataset/train.csv
+literature/1127-a-realizable-learning-task-which-exhibits-overfitting.pdf
+literature/5993-generalization-in-adaptive-data-analysis-and-holdout-reuse.pdf
+literature/9117-a-meta-analysis-of-overfitting-in-machine-learning.pdf
+literature/9185-learning-to-learn-by-self-critique.pdf
+literature/9190-model-similarity-mitigates-test-set-overuse.pdf
+literature/9392-calibration-tests-in-multi-class-classification-a-unifying-framework.pdf
+literature/9547-can-you-trust-your-models-uncertainty-evaluating-predictive-uncertainty-under-dataset-shift.pdf
+literature/9611-likelihood-ratios-for-out-of-distribution-detection.pdf
+literature/brereton2014.pdf
+presc/.gitkeep
+presc/__init__.py
+presc/alberginia/__init__.py
+presc/alberginia/alberginia_issue2_5datasets.ipynb
+presc/alberginia/alberginia_issue7_3datasets.ipynb
+presc/alberginia/data_exploration.py
+presc/alberginia/missclassification_visuals.py
+presc/alberginia/img/winequality_confusion_matrix_hits-fails.png
+presc/alberginia/img/winequality_confusion_matrix_which-fail.png
+presc/alberginia/img/winequality_confusion_matrix_which-hit.png
+tests/test_alberginia.py

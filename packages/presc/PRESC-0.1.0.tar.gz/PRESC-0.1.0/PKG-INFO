@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: PRESC
+Version: 0.1.0
+Summary: Performance Robustness Evaluation for Statistical Classifiers
+Home-page: https://github.com/mozilla/presc
+Author: Mozilla Corporation
+Author-email: mroviraesteva@mozilla.com
+License: MPL 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment :: Mozilla
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
