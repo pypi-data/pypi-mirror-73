@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/testmoduleBI.egg-info/PKG-INFO
+src/testmoduleBI.egg-info/SOURCES.txt
+src/testmoduleBI.egg-info/dependency_links.txt
+src/testmoduleBI.egg-info/entry_points.txt
+src/testmoduleBI.egg-info/requires.txt
+src/testmoduleBI.egg-info/top_level.txt
