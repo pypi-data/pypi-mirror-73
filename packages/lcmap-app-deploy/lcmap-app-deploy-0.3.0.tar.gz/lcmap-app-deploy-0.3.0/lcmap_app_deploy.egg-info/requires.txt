@@ -1,0 +1,14 @@
+cytoolz
+requests
+
+[deploy]
+twine
+
+[docs]
+sphinx
+sphinx-autobuild
+sphinx_rtd_theme
+
+[tests]
+pytest
+pytest-cov
