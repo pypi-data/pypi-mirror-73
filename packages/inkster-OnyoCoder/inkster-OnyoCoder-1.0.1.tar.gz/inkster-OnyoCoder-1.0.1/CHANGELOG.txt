@@ -1,0 +1,22 @@
+Change Log
+==========
+
+0.0.1 (7/5/2020)
+----------------
+- First Release.
+
+0.0.2 (7/7/2020)
+----------------
+- Inkster raises up to the competition!
+
+0.0.3 (7/8/2020)
+----------------
+- Starting on the discord bots.
+
+0.0.4 (7/10/2020)
+-----------------
+- Stopped starting on discord bots
+
+1.0.1 (7/10/2020)
+-----------------
+- A new beginning/Uploaded to PyPi.
