@@ -1,0 +1,10 @@
+setup.py
+nav_distributions/Binomialdistribution.py
+nav_distributions/Gaussiandistribution.py
+nav_distributions/Generaldistribution.py
+nav_distributions/__init__.py
+nav_distributions.egg-info/PKG-INFO
+nav_distributions.egg-info/SOURCES.txt
+nav_distributions.egg-info/dependency_links.txt
+nav_distributions.egg-info/not-zip-safe
+nav_distributions.egg-info/top_level.txt
