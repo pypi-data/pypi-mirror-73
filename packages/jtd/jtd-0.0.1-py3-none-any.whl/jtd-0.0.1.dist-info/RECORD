@@ -1,0 +1,11 @@
+jtd/__init__.py,sha256=WK9LSgNQ5uJifgcylGIaPCGCcZ-Yh8Sy_SsN2VP_AGw,75
+jtd/schema.py,sha256=d9Kyg9pNdjgzeYWi-GHd2P_ecVtBmkUfokQHGpHKON8,8387
+jtd/validate.py,sha256=FiAzJm4czkWKMC80B3gt-sQRmwgmFj4-yvoCPVk06jo,7527
+jtd/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jtd/tests/test_schema.py,sha256=AaKuGQS1GwtHKyEueAvZm5WS4FA3FSzq4r4Dlnt_PFM,571
+jtd/tests/test_validate.py,sha256=WCo4G8xRx6e7kr6I843T4pUv0YKC09S1-EZlhHLUf3M,1051
+jtd-0.0.1.dist-info/LICENSE,sha256=D4bkRwW2NGuln_A0a5wKLO35u3ReJEcGHxYswCGsJcI,1077
+jtd-0.0.1.dist-info/METADATA,sha256=c_TrjWLEsFKPJ6cc6UEY0NXUq12834_hXd2zOtaX8ww,553
+jtd-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jtd-0.0.1.dist-info/top_level.txt,sha256=rNoFCjOuRzUwA3mEaUeY4ajQ0IcIjmrQ-En57teFdRU,4
+jtd-0.0.1.dist-info/RECORD,,
