@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+pygot/__init__.py
+pygot/pygot.py
+pygot.egg-info/PKG-INFO
+pygot.egg-info/SOURCES.txt
+pygot.egg-info/dependency_links.txt
+pygot.egg-info/requires.txt
+pygot.egg-info/top_level.txt
+pygot/api/__init__.py
+pygot/api/resources/__init__.py
+pygot/api/resources/book.py
+pygot/api/resources/character.py
+pygot/api/resources/house.py
+pygot/api/settings/__init__.py
