@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: snippet-converter
+Version: 0.1a9
+Summary: A simple command line utility to convert and export snippets.
+Home-page: https://github.com/pr4shan7/snippet-converter
+Author: Prashant Tripathi
+Author-email: pr4shan7@gmail.com
+License: MIT
+Download-URL: https://github.com/pr4shan7/snippet-converter/archive/v0.1-alpha.9.tar.gz
+Project-URL: Bug Reports, https://github.com/pr4shan7/snippet-converter/issues
+Project-URL: Source, https://github.com/pr4shan7/snippet-converter
+Keywords: snippet
+Platform: Debian
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# snippet-converter
+
+[![PyPI version](https://badge.fury.io/py/snippet-converter.svg)](https://badge.fury.io/py/snippet-converter) &nbsp;![Upload Python Package](https://github.com/pr4shan7/snippet-converter/workflows/Upload%20Python%20Package/badge.svg)
+
+A simple command line utility to export Sublime Text code snippets to VS Code.
+
+## Installation
+
+```shellscript
+pip install snippet-converter
+```
+
+## Usage
+
+```shellscript
+$ scli
+Sublime snippets successfully exported to VS Code!
+```
+
+
