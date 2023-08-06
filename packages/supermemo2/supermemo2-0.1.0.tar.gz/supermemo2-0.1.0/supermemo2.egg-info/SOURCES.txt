@@ -1,0 +1,7 @@
+CHANGELOG.txt
+MANIFEST.in
+README.md
+README.txt
+setup.py
+supermemo2/__init__.py
+supermemo2/sm_two.py
