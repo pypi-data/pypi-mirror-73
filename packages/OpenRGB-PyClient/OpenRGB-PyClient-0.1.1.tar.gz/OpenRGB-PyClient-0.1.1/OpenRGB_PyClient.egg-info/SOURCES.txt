@@ -1,0 +1,13 @@
+README.md
+setup.py
+OpenRGB_PyClient.egg-info/PKG-INFO
+OpenRGB_PyClient.egg-info/SOURCES.txt
+OpenRGB_PyClient.egg-info/dependency_links.txt
+OpenRGB_PyClient.egg-info/top_level.txt
+openrgb/Network.py
+openrgb/ORGBDevice.py
+openrgb/OpenRGB.py
+openrgb/__init__.py
+openrgb/binreader.py
+openrgb/consts.py
+openrgb/utils.py
