@@ -1,0 +1,12 @@
+datamonitor/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+datamonitor/__main__.py,sha256=J6_rTcQRCeBPysRCEP60AKMLC1d78rVULlaWBzXMI8s,369
+datamonitor/cli.py,sha256=WPgZhCHN1vxkYKkgiPx_C_4GTWvd3OfNBiyhV4xkJmI,926
+datamonitor/datamonitor.py,sha256=T-gX5zsWFJj9bTmgd5CWq5niR_syzG6C4jmv20ZYutI,3002
+datamonitor-0.0.3.dist-info/AUTHORS.rst,sha256=iG6z8MPtGMIS3WGbj1fje7JUVsai5JRfipYIVgoa1iM,124
+datamonitor-0.0.3.dist-info/LICENSE,sha256=Pt2cuLGM70tAaKeYvf0xUJm-kBbogY1su-n7AJfVw3o,1100
+datamonitor-0.0.3.dist-info/METADATA,sha256=aQHPVor-szbH1X-pSW4jtEzvWKrfM_ipKuO03fo9UQM,2067
+datamonitor-0.0.3.dist-info/Pipfile,sha256=lP1OapQkDMy02hRJLtmaIAktF_JskipVTamZrL7-htM,138
+datamonitor-0.0.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+datamonitor-0.0.3.dist-info/entry_points.txt,sha256=aUt3BsdB_74m-O3xrlo2WWGJKF7zrVWqD3k5B8xYudo,54
+datamonitor-0.0.3.dist-info/top_level.txt,sha256=9i-SFHWnXv9leKIXJ8ZNGc9vf3CqBzjPOrsZBpxhteE,12
+datamonitor-0.0.3.dist-info/RECORD,,
