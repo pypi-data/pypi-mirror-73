@@ -1,0 +1,10 @@
+setup.py
+anawesomepackage/Binomialdistribution.py
+anawesomepackage/Gaussiandistribution.py
+anawesomepackage/Generaldistribution.py
+anawesomepackage/__init__.py
+anawesomepackage.egg-info/PKG-INFO
+anawesomepackage.egg-info/SOURCES.txt
+anawesomepackage.egg-info/dependency_links.txt
+anawesomepackage.egg-info/not-zip-safe
+anawesomepackage.egg-info/top_level.txt
