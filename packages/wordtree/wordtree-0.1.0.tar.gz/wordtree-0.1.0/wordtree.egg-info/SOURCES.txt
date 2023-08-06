@@ -1,0 +1,9 @@
+README.md
+setup.py
+wordtree/__init__.py
+wordtree.egg-info/PKG-INFO
+wordtree.egg-info/SOURCES.txt
+wordtree.egg-info/dependency_links.txt
+wordtree.egg-info/not-zip-safe
+wordtree.egg-info/requires.txt
+wordtree.egg-info/top_level.txt
