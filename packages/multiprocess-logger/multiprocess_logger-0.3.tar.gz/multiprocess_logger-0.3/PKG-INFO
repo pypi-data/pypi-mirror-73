@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: multiprocess_logger
+Version: 0.3
+Summary: 一个安全可靠高效的进程间日志处理器  A safe, reliable and efficient inter process log processor 修复描述
+Home-page: https://gitee.com
+Author: liuyancong
+Author-email: lyc456789@163.com
+License: UNKNOWN
+Description: ###                                                                        多进程日志切换处理器
+        
+        - 一个安全可靠高效的进程间日志处理器  A safe, reliable and efficient inter process log processor fix bugs 修复上一版的bug
+        
+        - speed about 7100 lines/s 0.8M/s (10 processes) 7100行/s 0.8M/s 测试环境 虚拟机(virtual machine) 
+        
+        - CentOS7 64 
+        
+        - python3.7 
+        
+        - 机械硬盘 hard disk
+        
+        - 添加测试用例
+        
+        - ```
+          import logging
+          
+          from multiprocessing import Process
+          
+          from multiprocess_logger import MultiprocessingHandler
+          from logging import Formatter
+          
+          handler = MultiprocessingHandler(filename='./ppp.log',
+                                           maxBytes=1024 * 1024, backupCount=10)
+          fmt = Formatter(fmt='%(asctime)s - %(process)d - %(name)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
+          handler.setFormatter(fmt=fmt)
+          logger = logging.getLogger('SHIT')
+          logger.addHandler(handler)
+          logger.setLevel(logging.INFO)
+          
+          logging.basicConfig(level=logging.ERROR,
+                              format='%(asctime)s - %(process)d - %(name)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
+          
+          
+          def write_log():
+              while True:
+                  logger.info('Hello World!------------Hello World!')
+          
+          
+          if __name__ == '__main__':
+              # write_log()
+              p_list = []
+              for i in range(6):
+                  p_list.append(Process(target=write_log))
+          
+              for i in p_list:
+                  i.start()
+          
+          ```
+        
+          
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
