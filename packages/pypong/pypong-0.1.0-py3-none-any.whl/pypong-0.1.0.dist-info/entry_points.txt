@@ -1,0 +1,3 @@
+[console_scripts]
+pypong=pypong.game:main
+

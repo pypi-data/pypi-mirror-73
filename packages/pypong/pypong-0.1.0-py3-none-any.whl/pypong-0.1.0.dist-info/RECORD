@@ -1,0 +1,12 @@
+pypong/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypong/assets/font/OFL.txt,sha256=uzbqC14CQx8Dcu3eh7ApzrBxgG9SlsT_s4dWhQpU4u0,4466
+pypong/assets/font/Teko-Regular.ttf,sha256=eW7nQZLkpV0ZyXKkuY4BIlPZehejYKM9BDd-Fd7cUAM,289336
+pypong/assets/sfx/bounce.wav,sha256=cxTFhnoVMWqCHMzt1UdrMH60wmLwbBsfJ6mSHifTqEI,23312
+pypong/assets/sfx/missed.wav,sha256=8MI3cHjvy_F3X0vJau1KOAzp8w0eJeLk3QHjcsu3NZ0,13258
+pypong/assets/sfx/wall.wav,sha256=0_70UU3Grt1Yn6LFIR2n6XO4qknJeZm6nGKlF8UYfo8,22798
+pypong/game.py,sha256=YMC0wDyQgwew6xBS1-ACU0VSO29vO-ZcsHHTH4KVvQ0,8646
+pypong-0.1.0.dist-info/entry_points.txt,sha256=IqqbXtpBKE0VBvKU84JSt5VsB04zzhiE3Dkh63DC3yQ,43
+pypong-0.1.0.dist-info/LICENSE,sha256=X5SBQrXtMPELUlC3gqkeZV_yqKykPmHYdqv7fh7LCt4,1074
+pypong-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pypong-0.1.0.dist-info/METADATA,sha256=jcNZeAjyhhU0TZapCYzMNsQkTRQ2WTxuZOkyzt_kZYI,1202
+pypong-0.1.0.dist-info/RECORD,,
