@@ -1,0 +1,11 @@
+gpsfun/__init__.py,sha256=8PZiwpqJO8ls45xeLqgNcjvWkRVdvbwcrnjV6QtN-WQ,134
+gpsfun/col.py,sha256=BBn_LONMSYhpMtP75AJAYYkrnerU-t4cPuQT1ocXd_c,511
+gpsfun/gpsfun.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+gpsfun/readers.py,sha256=HJo2DA58VaXDiHrsaqQgqgXXqOkghwj99h_Z0bwbkSQ,5701
+gpsfun/tracks.py,sha256=t4g9PHgKJSjizsxnQ1OZQJsyoGs2OQ1NZdKSkQlryMg,5800
+gpsfun-0.0.1.dist-info/AUTHORS.rst,sha256=u1HV18kv4dcQfAn4ggal0cMmRcJ1CK7c6B0rU7mgKuc,166
+gpsfun-0.0.1.dist-info/LICENSE,sha256=11glrB6pjt04VtnY7Pmz_68DW8yE4ki_5NOPeJUeNhs,1072
+gpsfun-0.0.1.dist-info/METADATA,sha256=06swmWrD0uKI4MgPxYKiLRsaYE308qKTYnBfDufHc34,2221
+gpsfun-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gpsfun-0.0.1.dist-info/top_level.txt,sha256=ts_ysOW81brlyzkzEGz-B9V0In5-hJAhUL-0owEON5w,7
+gpsfun-0.0.1.dist-info/RECORD,,
