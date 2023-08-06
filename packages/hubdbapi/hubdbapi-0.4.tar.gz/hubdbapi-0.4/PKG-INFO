@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: hubdbapi
+Version: 0.4
+Summary: Python utilities for integrating with the HubDB API.
+Home-page: https://github.com/khookguy/hubdbapi
+Author: Mark Hansen
+Author-email: mark@rarekarma.com
+License: agpl-3.0
+Download-URL: https://github.com/khookguy/hubdbapi/archive/v0.4.tar.gz
+Description: UNKNOWN
+Keywords: HubSpot,HubDB,API
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
