@@ -1,0 +1,7 @@
+setup.py
+wxchatlib/ConsoleWx.py
+wxchatlib/WxpyChat.py
+wxchatlib.egg-info/PKG-INFO
+wxchatlib.egg-info/SOURCES.txt
+wxchatlib.egg-info/dependency_links.txt
+wxchatlib.egg-info/top_level.txt
