@@ -1,0 +1,17 @@
+xlrd/__init__.py,sha256=HvR56kMg_fuhulY5r2NcLf3CyFEJ9_s8Z9mTHb2p3G8,6842
+xlrd/biffh.py,sha256=GjtBoI9PNIEdbZmGTvfDQ8HuhZiLJd2ofdo2qmunzmA,16651
+xlrd/book.py,sha256=iWlbzDV82BCEHKHlZbP_21aI-VOJPQ0-w24Bq1m7HOM,58303
+xlrd/compdoc.py,sha256=3xkfuJbLRGRMdPiZVBsWAgGktw7Jna-w3p_lcTCT6YQ,21091
+xlrd/formatting.py,sha256=hJC4oFTyf1SGX-nSzYrwe1ry1v1dqHRQTb5C06dDHUs,45546
+xlrd/formula.py,sha256=VskzjScNbPKqDxOa_wOmGZ2u_5xac3lqFgDM0dTGJ30,94455
+xlrd/info.py,sha256=8O46DhE6HvaCvc8RycNh7mwtqoFaUVIf5At9CGSR2kk,39
+xlrd/sheet.py,sha256=r0-ntpxk1kg1wnK6NT5RmGBQ-A5EFtGdcoZ8-zi5fkI,106797
+xlrd/timemachine.py,sha256=7CtU7FY6mQW7HSP5FjM1K9pIfNexVCt_PJXG2M3FEAc,1757
+xlrd/xldate.py,sha256=S-uUaLX8kauGy2SkX_M-S-FBqqQ6H9EfTAVpv5FMX0I,7934
+xlrd/xlsx.py,sha256=-5z3xj2zahKoHhplmOxlmoc3f7ZWkR2YQwkiwkcgaqo,33842
+xlrd_demo-12.25.53.data/scripts/runxlrd.py,sha256=R6q512qkPgJJDA5XFRdr8boK-t1BP--T6wLYae5nwUQ,16060
+xlrd_demo-12.25.53.dist-info/LICENSE,sha256=taXbzmAmXjBagVpsuD7QfyRRnYumRPKjB5lEiLztiBU,3771
+xlrd_demo-12.25.53.dist-info/METADATA,sha256=YTfXMgY4z-1z8FTJde9xv0--53mmAYfozoprwIhtRAY,1296
+xlrd_demo-12.25.53.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+xlrd_demo-12.25.53.dist-info/top_level.txt,sha256=nZ-t3Sc_CqNsctS3L-V36qXwC5DuAFvkB1inJApF_vM,5
+xlrd_demo-12.25.53.dist-info/RECORD,,
