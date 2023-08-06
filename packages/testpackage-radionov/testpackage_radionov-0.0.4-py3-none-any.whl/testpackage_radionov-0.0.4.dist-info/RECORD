@@ -1,0 +1,7 @@
+test-package/__init__.py,sha256=AYsPRc9qhYpW2Ca_bEkf_rWtieEo5y-UGJxQU8m85UM,86
+testpackage/__init__.py,sha256=AYsPRc9qhYpW2Ca_bEkf_rWtieEo5y-UGJxQU8m85UM,86
+testpackage_radionov-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+testpackage_radionov-0.0.4.dist-info/METADATA,sha256=gYAUgYcgbljmgERKAr2LeIEh1n1StHYUXS8u8jdRgps,633
+testpackage_radionov-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+testpackage_radionov-0.0.4.dist-info/top_level.txt,sha256=NFu-6JwGtkqfk1pcmorI0Cr2jjoQChpvEg9wVr1_aYA,12
+testpackage_radionov-0.0.4.dist-info/RECORD,,
