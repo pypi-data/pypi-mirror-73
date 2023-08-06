@@ -1,0 +1,17 @@
+tiatoolbox/__init__.py,sha256=b8qIZdCYgxrz4hD810pOCrXb4VGM6OYL0dQhDar09fM,265
+tiatoolbox/__main__.py,sha256=b3lKnBcn1NrtI8VXFusFLgm50IEGIQUbtLN-bkRoQFA,105
+tiatoolbox/cli.py,sha256=Fy7QGff9Z9K-c4uz2LUahT0wGgI0gjEPEDRVpWYXOoU,3534
+tiatoolbox/tiatoolbox.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+tiatoolbox/dataloader/__init__.py,sha256=NQW8frcB-TYHtAXQ_wvBjunbT1xbwomQXKDBvXEBYv0,98
+tiatoolbox/dataloader/slide_info.py,sha256=ZwlQ-0G3odXYkSfCS1m8F7lrQMzHMJOZsjNtcmFljZQ,1639
+tiatoolbox/dataloader/wsireader.py,sha256=f8p4a8jH3i5Y9O-GQZxbq4LNAdm8JJ2emerAqAS5pLs,5224
+tiatoolbox/decorators/__init__.py,sha256=fjEzuaEl7zduPPCkDdtRhHQhgSv354ir2_m_NLFECLc,93
+tiatoolbox/decorators/multiproc.py,sha256=U8Z-30sW4eTxGHyMVH4Zbi26uNAY6Ovn7umteSfem-E,1933
+tiatoolbox/utils/__init__.py,sha256=RHjuUYNqYH_GcCmGM3aGPZTkD1e_ccbSe-nTeJpabWU,76
+tiatoolbox/utils/misc.py,sha256=0NSy_rDTa1PWFuH_AhFbeEmB8lt-G_cFTi3to5L0FB8,2784
+tiatoolbox-0.2.0.dist-info/AUTHORS.md,sha256=Bbm9-1VRUyYBlhEKUG0Hq3THU-30yaESIF40hr6_VeI,159
+tiatoolbox-0.2.0.dist-info/METADATA,sha256=qQC2qumWuENc3Em6CKhBmPKWXH9s5NFTPkpAli9tMXs,3306
+tiatoolbox-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tiatoolbox-0.2.0.dist-info/entry_points.txt,sha256=BJ3-3jCQtXhuFtI4QnAa9BYDkAwP1PX3Y67fxyA3Gh8,52
+tiatoolbox-0.2.0.dist-info/top_level.txt,sha256=Y3N6VGc_iYmwkKY0VHHMN8b2qQr8q7II0KCk5f0DXxw,11
+tiatoolbox-0.2.0.dist-info/RECORD,,
