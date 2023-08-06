@@ -1,0 +1,8 @@
+picea/__init__.py,sha256=32IRuAsqfHHVurB5w1NxNV28itMvgTQ0yb4OKQCgTi4,298
+picea/sequence.py,sha256=fU-d7fZBLYAmy5rFGwG_ZSbauC0bK5FpqIfTdZa1jOw,33218
+picea/tree.py,sha256=OeIm_Wd4ReSs_3QO9bCNPpzS63TKZg_BV56Hi2Kf8U0,12174
+picea-0.0.13.dist-info/LICENSE,sha256=oDDADNcgF9aOX9nXusNYNaThlbmDt5bFwh5Q2a_o3E0,1078
+picea-0.0.13.dist-info/METADATA,sha256=E3gq1gnz0OghyMB0kCsKHRw9SmlwEqOWTFRqB2Ujnhs,2776
+picea-0.0.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+picea-0.0.13.dist-info/top_level.txt,sha256=n5QPSTxPfukxGXrAUT0CV4iBRkX8jzw5NhiVOrYo_0I,6
+picea-0.0.13.dist-info/RECORD,,
