@@ -1,0 +1,9 @@
+cliente
+core
+filial
+fornecedor
+funcionario
+log
+produto
+sistema
+usr
