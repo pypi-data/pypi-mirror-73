@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_lee_4135/Binomialdistribution.py
+distributions_lee_4135/Gaussiandistribution.py
+distributions_lee_4135/Generaldistribution.py
+distributions_lee_4135/__init__.py
+distributions_lee_4135.egg-info/PKG-INFO
+distributions_lee_4135.egg-info/SOURCES.txt
+distributions_lee_4135.egg-info/dependency_links.txt
+distributions_lee_4135.egg-info/not-zip-safe
+distributions_lee_4135.egg-info/top_level.txt
