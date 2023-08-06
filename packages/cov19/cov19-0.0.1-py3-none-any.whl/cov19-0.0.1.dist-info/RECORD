@@ -1,0 +1,13 @@
+cov19/__init__.py,sha256=vLbLYNEVgIiVtcF_pq66mzurCr-XaFVwG1w3v2UDuss,490
+cov19/__main__.py,sha256=id2nVz4WVBz-JZ9hyX_5_bCweSJF0FvMOzYUseVirO0,3852
+cov19/country.py,sha256=Uxob3pUzBbgC7xzaoVEqZzSa8FWMQm9hPz97QuA2x48,3454
+cov19/dataset.py,sha256=Kcc7T_43aJEWyG4SU6jDoG_7gYZUonJ-3VHD8YTTRRU,5966
+cov19/functions.py,sha256=mdadQO278DOLtQJPSt-cjD5EgA269UdP6lZaKuMkKPY,5114
+cov19/models.py,sha256=2kyxJFfRJHtHol4MPHhKSJZfxuMBpb9XRggiba36CLw,13894
+cov19/region.py,sha256=a6GCMnMKlvHqp-aLCHDYZMRBFFTmYjP2yghA-nOCjXk,3355
+cov19/stat.py,sha256=SYjGpt0CbBQitUJJ5SNIMTdj2XY_ajcAqTUmcG_BRzU,21747
+cov19-0.0.1.dist-info/LICENSE,sha256=E_cjpTgs35QZ8Vo8KRD6Q8XRfRVSNMlHr0XUAiElZd8,1065
+cov19-0.0.1.dist-info/METADATA,sha256=2hTzXDiCs-M0Xw4__OS0pcfiSHRpG-oYL-CVp11u5qk,2104
+cov19-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cov19-0.0.1.dist-info/top_level.txt,sha256=TbhI3_GVlwYMIBD1FY6y4N54GFXGZzW4Q2X7UURaNMI,6
+cov19-0.0.1.dist-info/RECORD,,
