@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-websocket-notifications
+Version: 1.0.0
+Summary: A Django package to handle notifications using Django Channels and WebSockets.
+Home-page: https://github.com/marcosgabarda/django-websocket-notifications
+License: MIT
+Author: Marcos Gabarda
+Author-email: hey@marcosgabarda.com
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: channels (>=2.4.0,<3.0.0)
+Requires-Dist: django (>=3.0.7,<4.0.0)
+Requires-Dist: django-model-utils (>=4.0.0,<5.0.0)
+Requires-Dist: django-snitch (>=1.7.1,<2.0.0)
+Requires-Dist: djangorestframework (>=3.11.0,<4.0.0)
+Description-Content-Type: text/x-rst
+
+==============================
+Django Websocket Notifications
+==============================
+
+A Django application to deliver user notifications made with 
+`django-snitch <https://github.com/marcosgabarda/django-snitch>`_ using WebSockets.
+
