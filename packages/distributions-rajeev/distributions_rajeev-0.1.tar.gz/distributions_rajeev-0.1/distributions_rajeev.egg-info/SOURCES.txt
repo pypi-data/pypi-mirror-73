@@ -1,0 +1,10 @@
+setup.py
+distributions_rajeev/Binomialdistribution.py
+distributions_rajeev/Gaussiandistribution.py
+distributions_rajeev/Generaldistribution.py
+distributions_rajeev/__init__.py
+distributions_rajeev.egg-info/PKG-INFO
+distributions_rajeev.egg-info/SOURCES.txt
+distributions_rajeev.egg-info/dependency_links.txt
+distributions_rajeev.egg-info/not-zip-safe
+distributions_rajeev.egg-info/top_level.txt
