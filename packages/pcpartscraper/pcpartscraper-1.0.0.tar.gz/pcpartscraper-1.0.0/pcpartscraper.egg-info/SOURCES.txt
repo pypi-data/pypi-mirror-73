@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+__init__.py
+changelog.txt
+example.py
+scraper.py
+setup.py
+pcpartscraper.egg-info/PKG-INFO
+pcpartscraper.egg-info/SOURCES.txt
+pcpartscraper.egg-info/dependency_links.txt
+pcpartscraper.egg-info/requires.txt
+pcpartscraper.egg-info/top_level.txt
