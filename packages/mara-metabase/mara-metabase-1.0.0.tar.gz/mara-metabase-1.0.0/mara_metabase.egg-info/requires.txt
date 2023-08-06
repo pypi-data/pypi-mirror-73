@@ -1,0 +1,5 @@
+mara-db>=4.5.0
+mara-page
+sympy
+bcrypt
+requests
