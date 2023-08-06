@@ -1,0 +1,13 @@
+pentagraph/__init__.py,sha256=F9TRWaZD0THGfpxyN6GKBVUAxYTJD8z_R5_1_u46zis,17
+pentagraph/lib/__init__.py,sha256=nV1v97IOHq3EjLmVTDtF4b88x3Hg_9YWWnLRgcPlNuE,134
+pentagraph/lib/constants.py,sha256=Yfs9h1JVqe7c3gbl-BZ8RCMY_HCcVSpKu-l7xxS0bGw,758
+pentagraph/lib/figures.py,sha256=hKsGjJhPPWvPcwXHUqozVdbmAiab-JuAmg1jC7mPqDo,976
+pentagraph/lib/graph.py,sha256=H1RZnREfPDHrfRrSrmW48prX8OnyKf396nTov04_R2c,7316
+pentagraph/lib/graphic.py,sha256=6XN1wm-U_Y2z2wSx67A1zmK50puPBQNJDSvMMNN7zBY,816
+pentagraph/lib/math.py,sha256=lp5dPg-Ep2Mi87kISQPYaluH6nBNY9cHwFv7g-8JQ74,762
+pentagraph/ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pentagraph-0.0.1b0.dist-info/LICENSE,sha256=Pqc_peOzybfznNXQ8JQ4VybQ4CKhw8sZGw2INy0ppD4,1155
+pentagraph-0.0.1b0.dist-info/METADATA,sha256=EFFzzChj1VlpeQzqVlGCF6ujlReKiCYAk3bRSuJEA8U,2307
+pentagraph-0.0.1b0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pentagraph-0.0.1b0.dist-info/top_level.txt,sha256=ms-Gg2Y4PriqcK0gMSWWyUCIAWdjNEeYohtuqbzThZs,11
+pentagraph-0.0.1b0.dist-info/RECORD,,
