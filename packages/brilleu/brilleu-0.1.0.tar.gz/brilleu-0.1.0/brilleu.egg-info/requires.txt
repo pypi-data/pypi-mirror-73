@@ -1,0 +1,3 @@
+brille==0.4.0
+euphonic==0.3.0
+spglib>=1.12.2
