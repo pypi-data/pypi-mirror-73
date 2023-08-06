@@ -1,0 +1,10 @@
+colorama
+cryptography
+dnspython
+domain2idna
+PyMySQL
+python-box[all]
+python-dotenv
+PyYAML
+requests<3
+setuptools
