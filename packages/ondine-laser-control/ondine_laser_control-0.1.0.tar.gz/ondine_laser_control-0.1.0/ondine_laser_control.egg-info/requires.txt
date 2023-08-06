@@ -1,0 +1,3 @@
+opentrons==*
+pyserial==*
+pydantic==*
