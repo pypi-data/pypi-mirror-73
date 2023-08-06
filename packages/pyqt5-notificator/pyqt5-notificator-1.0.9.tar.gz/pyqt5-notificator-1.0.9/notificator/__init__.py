@@ -1,0 +1,2 @@
+from notificator.notificator import notificator
+import notificator.alingments
