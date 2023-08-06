@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: prefectplus
+Version: 1.1.7
+Summary: A package that extends prefect
+Home-page: UNKNOWN
+Author: Victor Soria
+Author-email: vjsoria@gmail.com
+License: UNKNOWN
+Description: 
+         ## prefectplus
+         This is the starter text for a python package.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
