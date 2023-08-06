@@ -1,0 +1,1 @@
+This is a basic implementation of single linked lists in Python for beginners. It has the basic addition, removal, getting the size, and traversal functionality.

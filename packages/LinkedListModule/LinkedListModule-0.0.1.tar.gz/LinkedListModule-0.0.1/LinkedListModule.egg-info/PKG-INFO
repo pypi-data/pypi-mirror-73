@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: LinkedListModule
+Version: 0.0.1
+Summary: This is a basic implementation of single linked lists in Python.
+Home-page: UNKNOWN
+Author: Abeer Rao
+Author-email: abeerrao@icloud.com
+License: MIT
+Description: This is a basic implementation of single linked lists in Python for beginners. It has the basic addition, removal, getting the size, and traversal functionality.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (13/07/2020)
+        ------------------
+        - First Release
+Keywords: LinkedLists
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

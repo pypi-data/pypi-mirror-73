@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+LinkedListModule.egg-info/PKG-INFO
+LinkedListModule.egg-info/SOURCES.txt
+LinkedListModule.egg-info/dependency_links.txt
+LinkedListModule.egg-info/top_level.txt
+LinkedListsModule/__init__.py
