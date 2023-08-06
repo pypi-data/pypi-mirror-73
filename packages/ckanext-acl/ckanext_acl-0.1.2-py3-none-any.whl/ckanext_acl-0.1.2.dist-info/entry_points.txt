@@ -1,0 +1,6 @@
+
+        [ckan.plugins]
+        acl=ckanext.acl.plugin:AclPlugin
+	[babel.extractors]
+	ckan = ckan.lib.extract:extract_ckan
+    
