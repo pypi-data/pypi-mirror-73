@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: print_structure
+Version: 0.0.2
+Summary: print_structure prints out the structure of any arbitrary python object.
+Home-page: https://github.com/kuchedav/print_structure
+License: UNKNOWN
+Author: David Kuchelmeister
+Author-email: kuchelmeister.david@gmail.com
+Classifier: License :: OSI Approved :: MIT License
