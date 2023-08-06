@@ -1,0 +1,8 @@
+setup.py
+discum/__init__.py
+discum/__version__.py
+discum/discum.py
+discum.egg-info/PKG-INFO
+discum.egg-info/SOURCES.txt
+discum.egg-info/dependency_links.txt
+discum.egg-info/top_level.txt
