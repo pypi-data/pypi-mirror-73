@@ -1,0 +1,3 @@
+zmq
+jsondiff
+psutil
