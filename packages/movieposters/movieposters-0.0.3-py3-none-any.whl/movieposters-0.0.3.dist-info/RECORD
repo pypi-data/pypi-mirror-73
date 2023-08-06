@@ -1,0 +1,8 @@
+movieposters/__init__.py,sha256=0VvcOgj2udSpXw4aVmDlzKoDh4qulwIIFxmcjsmZ5u8,68
+movieposters/errors.py,sha256=Ylw713htZGA0unlSqgvMIepUe7LJq0BPirYAar0mpo4,85
+movieposters/imdbapi.py,sha256=WgGT83gO0ttYtM2Bbd60wkcRzWKL_0hk_2QBev2eJfI,2666
+movieposters-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+movieposters-0.0.3.dist-info/METADATA,sha256=_qVPAp0ViYtKe0ZagUZiQGpLZegmOpR4Hxz7UcfZP5A,650
+movieposters-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+movieposters-0.0.3.dist-info/top_level.txt,sha256=qAF0eQxiLwOf4krXM9sZZUdQg1t44t1WVTvsiFodDhU,13
+movieposters-0.0.3.dist-info/RECORD,,
