@@ -1,0 +1,9 @@
+database/__init__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+database/database.py,sha256=2l5AhTT9bIoHt1XuFM1ZF6cC8BAjM4iPCDy8gMMLDfY,2784
+database/sql.py,sha256=pf_37r60QaETwZVLSvV60JWDlr-gbzIPoe_Qfe5JYQA,595
+easy_database-1.0.0.dist-info/LICENSE,sha256=zfML7BOQjX6n2RHDcw9SZhSGJvU5lj4DqyXWzuYNBcI,1320
+easy_database-1.0.0.dist-info/METADATA,sha256=bs2EvhmWpcBu7s5z8ApafQ3gc5ZZsZJfbSNd3NNzrvk,554
+easy_database-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+easy_database-1.0.0.dist-info/entry_points.txt,sha256=BieeEHemBVYFNws2n6OiLcbWPuKB1HcS2_2NrblUfyo,58
+easy_database-1.0.0.dist-info/top_level.txt,sha256=tmpRGutTzqFK960jAO0KoCC3TnP-Zk8dP_PP4eK1-SU,9
+easy_database-1.0.0.dist-info/RECORD,,
