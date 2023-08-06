@@ -1,0 +1,11 @@
+lib_platform/__init__.py,sha256=Ybte1-HRSxL7edfJMMl5ozkH0uMLYPRY4Z8AcPONTfI,333
+lib_platform/__init__conf__.py,sha256=C2H-cxDC9isFPXa_DcYjIGajLuBuh7oPdApPqKWjYKI,540
+lib_platform/lib_platform.py,sha256=8ofxsUAqM1XtlNlnTvZt7WL76SN-HBKdiaAqOtNMqHk,5579
+lib_platform/lib_platform_cli.py,sha256=pehh56gGztmwMwTXzrX7cDYuyJt_Aa4RiMi-i3hSPKQ,979
+lib_platform/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_platform-0.2.1.dist-info/LICENSE,sha256=oDwssQSAjS-hnod1j2znQg0TPXFE98fIjHSksSWYl-Q,1076
+lib_platform-0.2.1.dist-info/METADATA,sha256=GU0TjfTIqO2vSBzBDHSCb4bvot27TZYYJ4SaSKCuerM,9323
+lib_platform-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lib_platform-0.2.1.dist-info/entry_points.txt,sha256=7pUdzzBxBbFtKSDjohpuE0s3S5gfUowi4nr3mSGwBuk,73
+lib_platform-0.2.1.dist-info/top_level.txt,sha256=IG_pwRMsaO_wp9fzO690XuEV8dvkKLegN3aauz0m5DA,13
+lib_platform-0.2.1.dist-info/RECORD,,
