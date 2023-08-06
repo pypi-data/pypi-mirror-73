@@ -1,0 +1,16 @@
+gcloud_rest_pubsub-1.2.3-py3.8-nspkg.pth,sha256=yh_2vbQ3vJpMiFbvaFfXmGdXqzGytdeN5hxcSUNFt5g,1692
+gcloud/rest/pubsub/__init__.py,sha256=5RoupwoGH4ALpZkkxydhIn9XcpwUZ0hSUUc1F4dPUK0,689
+gcloud/rest/pubsub/publisher_client.py,sha256=uQKg8rHXHdC7ncxV9qI1imRYWdXdst9vZatC5yUYAok,3782
+gcloud/rest/pubsub/subscriber_client.py,sha256=DGhIPZMpmDtovx2z2H1eBgcr6cIc-G6it-GZuWa0CKM,5206
+gcloud/rest/pubsub/utils.py,sha256=P9mQKh_8kiAql7iKixvNCDa6sV8fo6USQyqp6Z4Q3ME,3299
+tests/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/conftest.py,sha256=P4CWD2E5WK_fl9LXEvGU2CyzJNmZzWwcxSbHa1ADX7M,810
+tests/integration/constructor_test.py,sha256=vf4KoAy728CmYsqpxhra4R1wp-_Y_t8GitlN-RpjDKE,661
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/subscription_test.py,sha256=Wxu8Xrcy_QnwzHR3ev7Kq9kMR5QPgx80WxWxFJ-_7wk,347
+gcloud_rest_pubsub-1.2.3.dist-info/LICENSE,sha256=hTrzzvP5FXQsib0f5T6vOJ9WSqihuArAzakBbxZr04U,1068
+gcloud_rest_pubsub-1.2.3.dist-info/METADATA,sha256=qGlGHmMcYChaJ-HeS-4lTzct4AMMFUNtS7lR4efaqIc,11555
+gcloud_rest_pubsub-1.2.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gcloud_rest_pubsub-1.2.3.dist-info/namespace_packages.txt,sha256=lvTjKP_ervwXKvwypRaaIo5JBgFsERlMNd73yVqrX10,19
+gcloud_rest_pubsub-1.2.3.dist-info/top_level.txt,sha256=sox9WnuebKsnnDxekC1Pd7Q7wUz_DL8DRjlHhthn-ik,13
+gcloud_rest_pubsub-1.2.3.dist-info/RECORD,,
