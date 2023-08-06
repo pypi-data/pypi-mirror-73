@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: cone.zodb
+Version: 1.0a1
+Summary: ZODB integration for cone.app
+Home-page: https://github.com/bluedynamics/cone.zodb
+Author: Robert Niederreiter
+Author-email: dev@bluedynamics.com
+License: Simplified BSD
+Description: .. image:: https://img.shields.io/pypi/v/cone.zodb.svg
+            :target: https://pypi.python.org/pypi/cone.zodb
+            :alt: Latest PyPI version
+        
+        .. image:: https://img.shields.io/pypi/dm/cone.zodb.svg
+            :target: https://pypi.python.org/pypi/cone.zodb
+            :alt: Number of PyPI downloads
+        
+        .. image:: https://travis-ci.org/bluedynamics/cone.zodb.svg?branch=master
+            :target: https://travis-ci.org/bluedynamics/cone.zodb
+        
+        .. image:: https://coveralls.io/repos/github/bluedynamics/cone.zodb/badge.svg?branch=master
+            :target: https://coveralls.io/github/bluedynamics/cone.zodb?branch=master
+        
+        This package provides ZODB integration in ``cone.app`` and basic
+        application nodes for publishing ZODB models.
+        
+        
+        Changes
+        =======
+        
+        1.0a1 (2020-07-09)
+        ------------------
+        
+        - Fix case where ``_v_parent`` is not set if ``ZODBEntryNode`` is not read via
+          ``ZODBEntryStorage`` but from ZODB root directly.
+          [rnix]
+        
+        - Remove ``AsAttrAccess``, ``Nodespaces``, and ``Attributes`` behaviors from
+          ``ZODBEntry``.
+          [rnix]
+        
+        - Add ``ZODBEntryStorage.attrs``. Returns attributes of related
+          ``ZODBEntryNode``.
+          [rnix]
+        
+        - Add ``ZODBEntryNode.__getitem__``. Sets ``ZODBEntryNode.entry`` as parent
+          on children to keep traversal and acquisition paths sane.
+          [rnix]
+        
+        - Access ``principal_roles`` when initializing nodes with ``ZODBPrincipalACL``
+          behavior applied to avoid lazy creation. Needed to prevent ``_p_changed``
+          being set on first access.
+          [rnix]
+        
+        - Do not remember ``principal_roles`` via ``instance_property`` decorator
+          on ``ZODBEntryPrincipalACL`` to avoid ``ZODB.POSException.ConnectionStateError``
+          errors.
+          [rnix]
+        
+        - Proper handling of ``ZODBEntry`` and ``ZODBEntryNode`` in ``zodb_path``.
+          [rnix]
+        
+        - Add ``include_entry`` attribute to ``CatalogAware`` behavior. Flag controls
+          whether to index entry node in calatog.
+          [rnix]
+        
+        - Add ``entry`` property to ``ZODBEntryNode``.
+          [rnix]
+        
+        - Use ``pyramid_zodbconn`` instead of ``repoze.zodbconn``.
+          [rnix]
+        
+        - Set ``node.interfaces.IOrdered`` on ``cone.zodb.entry.ZODBEntry`` to fix
+          ``treerepr``.
+          [rnix]
+        
+        - Python 3 compatibility.
+          [rnix]
+        
+        - Upgrade to ``cone.app`` 1.0b1.
+          [rnix]
+        
+        
+        < 1.0
+        -----
+        
+        - Initial work.
+          [rnix]
+        
+        
+        License
+        =======
+        
+        Copyright (c) 2011-2020, BlueDynamics Alliance, Austria
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above copyright notice, this
+          list of conditions and the following disclaimer in the documentation and/or
+          other materials provided with the distribution.
+        * Neither the name of the BlueDynamics Alliance nor the names of its
+          contributors may be used to endorse or promote products derived from this
+          software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY BlueDynamics Alliance ``AS IS`` AND ANY
+        EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL BlueDynamics Alliance BE LIABLE FOR ANY
+        DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+        ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Keywords: node pyramid cone web
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Provides-Extra: test
