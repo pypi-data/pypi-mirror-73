@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jiminy-py
+Version: 1.2.43
+Summary: Python-native helper methods and wrapping classes for Jiminy open-source simulator.
+Home-page: https://github.com/Wandercraft/jiminy
+Author: Alexis Duburcq
+Author-email: alexis.duburcq@wandercraft.eu
+Maintainer: Wandercraft
+License: MIT
+Download-URL: https://github.com/Wandercraft/jiminy/archive/1.2.43.tar.gz
+Platform: UNKNOWN
+Requires-Dist: Pillow
+Requires-Dist: meshcat
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: xmltodict
+Requires-Dist: psutil
+
+UNKNOWN
+
+
