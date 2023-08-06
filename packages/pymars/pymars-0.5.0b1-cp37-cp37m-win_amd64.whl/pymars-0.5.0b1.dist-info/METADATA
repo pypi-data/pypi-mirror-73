@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pymars
+Version: 0.5.0b1
+Summary: MARS: a tensor-based unified framework for large-scale data computation.
+Home-page: http://github.com/mars-project/mars
+Author: Qin Xuye
+Author-email: qin@qinxuye.me
+Maintainer: Qin Xuye
+Maintainer-email: qin@qinxuye.me
+License: Apache License 2.0
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: requests (>=2.4.0)
+Requires-Dist: cloudpickle (>=1.0.0)
+Requires-Dist: pandas (<1.0.0,>=0.24.0) ; python_version < "3.6"
+Requires-Dist: pandas (>=0.24.0) ; python_version >= "3.6"
+Provides-Extra: dev
+Requires-Dist: scipy (>=1.0.0) ; extra == 'dev'
+Requires-Dist: scikit-learn (>=0.20) ; extra == 'dev'
+Requires-Dist: numexpr (>=2.6.4) ; extra == 'dev'
+Requires-Dist: pyarrow (!=0.16.*,>=0.11.0) ; extra == 'dev'
+Requires-Dist: psutil (>=4.0.0) ; extra == 'dev'
+Requires-Dist: lz4 (>=1.0.0) ; extra == 'dev'
+Requires-Dist: protobuf (>=3.6) ; extra == 'dev'
+Requires-Dist: gevent (<20.5.0,>=1.2.0) ; extra == 'dev'
+Requires-Dist: jinja2 (>=2.0) ; extra == 'dev'
+Requires-Dist: numpy (>=1.14.0) ; extra == 'dev'
+Requires-Dist: requests (>=2.4.0) ; extra == 'dev'
+Requires-Dist: cython (>=0.29) ; extra == 'dev'
+Requires-Dist: pytest (>=3.5.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.5.0) ; extra == 'dev'
+Requires-Dist: pytest-timeout (>=1.2.0) ; extra == 'dev'
+Requires-Dist: pytest-xdist (>=1.15.0) ; extra == 'dev'
+Requires-Dist: cloudpickle (>=1.0.0) ; extra == 'dev'
+Requires-Dist: sqlalchemy (>=1.2.0) ; extra == 'dev'
+Requires-Dist: bokeh (<2.0.0,>=1.0.0) ; (python_version < "3.6") and extra == 'dev'
+Requires-Dist: pandas (<1.0.0,>=0.24.0) ; (python_version < "3.6") and extra == 'dev'
+Requires-Dist: bokeh (>=1.0.0) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: pandas (>=0.24.0) ; (python_version >= "3.6") and extra == 'dev'
+Provides-Extra: distributed
+Requires-Dist: scipy (>=1.0.0) ; extra == 'distributed'
+Requires-Dist: scikit-learn (>=0.20) ; extra == 'distributed'
+Requires-Dist: numexpr (>=2.6.4) ; extra == 'distributed'
+Requires-Dist: pyarrow (!=0.16.*,>=0.11.0) ; extra == 'distributed'
+Requires-Dist: psutil (>=4.0.0) ; extra == 'distributed'
+Requires-Dist: lz4 (>=1.0.0) ; extra == 'distributed'
+Requires-Dist: protobuf (>=3.6) ; extra == 'distributed'
+Requires-Dist: gevent (<20.5.0,>=1.2.0) ; extra == 'distributed'
+Requires-Dist: jinja2 (>=2.0) ; extra == 'distributed'
+Requires-Dist: bokeh (<2.0.0,>=1.0.0) ; (python_version < "3.6") and extra == 'distributed'
+Requires-Dist: bokeh (>=1.0.0) ; (python_version >= "3.6") and extra == 'distributed'
+
+.. image:: https://raw.githubusercontent.com/mars-project/mars/master/docs/source/images/mars-logo-title.png
+
+
