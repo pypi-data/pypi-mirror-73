@@ -1,0 +1,121 @@
+#!python
+#-*- coding: utf-8 -*-
+import warnings
+warnings.filterwarnings("ignore")
+import sys
+import argparse
+import datetime
+import getpass
+import os
+import easy_prime
+"""
+
+Output
+--------
+
+The output folder will contain:
+1. all pegRNA + ngRNA combination for the input vcf file
+2. top1 pegRNA + ngRNA combination for each variant
+3. visualization of the top1s [TODO]
+4. a summary file of each variant
+
+"""
+
+def my_args():
+	mainParser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,description="easy_prime for pegRNA design")
+	username = getpass.getuser()
+	
+	mainParser.add_argument('-f','--vcf_file',  help="input target mutations to look for pegRNAs",required=True)
+	mainParser.add_argument('-c','--config',  help="A YAML file specifying parameters",default=None)
+	mainParser.add_argument('-v','--version',  help="print version",default=easy_prime.__version__)
+	mainParser.add_argument('-o','--output',  help="output dir",default="easy_prime_%s_%s_result_dir"%(username,str(datetime.date.today())))
+	
+	##------- add parameters above ---------------------
+	args = mainParser.parse_args()	
+	return args
+
+def run_steps(t,**kwargs):
+
+	t.init(**kwargs)
+	t.search(**kwargs)
+	t.predict(**kwargs)
+
+	return [t.topX,t.rawX,t.X_p,t.found_PE3b,t.found_PE3,t.found_dPAM,t.found_PE2,t.N_sgRNA_found]
+
+def main():
+
+	args = my_args()
+	
+	## get parameters
+	from easy_prime.utils import get_parameters, print_parameters,vcf2fasta
+	parameters = get_parameters(args.config)
+	print_parameters(parameters)
+
+	## get a list of targets
+	from easy_prime import target_mutation
+	import pandas as pd
+	## read vcf
+	vcf = pd.read_csv(args.vcf_file,comment="#",sep="\t",header=None)
+	vcf[1] = vcf[1].astype(int)
+	vcf =vcf.drop_duplicates(2) # remove duplicated names
+	vcf[3] = [x.upper() for x in vcf[3]]
+	vcf[4] = [x.upper() for x in vcf[4]]
+	vcf[5] = vcf2fasta(vcf,**parameters)
+	vcf = vcf[list(range(6))]
+
+	## for each target, create target mutation class
+	my_targets = [target_mutation(*r) for i,r in vcf.iterrows()]
+
+	## find best pegRNAs
+	from joblib import Parallel, delayed
+	# df_list = Parallel(n_jobs=parameters['n_jobs'],verbose=10,prefer="threads")(delayed(run_steps)(t,**parameters) for t in my_targets)
+	df_list = Parallel(n_jobs=parameters['n_jobs'],verbose=10)(delayed(run_steps)(t,**parameters) for t in my_targets)
+	# df_list = [run_steps(t,**parameters) for t in my_targets]
+	import subprocess
+	## save output
+	subprocess.call("mkdir -p %s"%(args.output),shell=True)
+	df_top = pd.concat([x[0] for x in df_list])
+	df_top = df_top.sort_values("predicted_efficiency",ascending=False)
+	df_top.to_csv("%s/topX_pegRNAs.csv"%(args.output),index=False)
+	
+	df_all = pd.concat([x[1] for x in df_list])
+	df_all = df_all.sort_values("predicted_efficiency",ascending=False)
+	df_all.to_csv("%s/rawX_pegRNAs.csv.gz"%(args.output),index=False,compression="gzip")
+	
+	X_p = pd.concat([x[2] for x in df_list])
+	X_p = X_p.sort_values("predicted_efficiency",ascending=False)
+	X_p.to_csv("%s/X_p_pegRNAs.csv.gz"%(args.output),index=True,compression="gzip")
+	
+	summary = pd.DataFrame([x[3:8] for x in df_list]).astype(int)
+	summary.columns = ['found_PE3b','found_PE3','found_dPAM','found_PE2',"N_sgRNA_found"]
+	summary.index = [r[2] for i,r in vcf.iterrows()]
+	summary.to_csv("%s/summary.csv"%(args.output),index=True)
+
+if __name__ == "__main__":
+	main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
