@@ -1,0 +1,7 @@
+README.rst
+setup.py
+firestore_utils.egg-info/PKG-INFO
+firestore_utils.egg-info/SOURCES.txt
+firestore_utils.egg-info/dependency_links.txt
+firestore_utils.egg-info/requires.txt
+firestore_utils.egg-info/top_level.txt
