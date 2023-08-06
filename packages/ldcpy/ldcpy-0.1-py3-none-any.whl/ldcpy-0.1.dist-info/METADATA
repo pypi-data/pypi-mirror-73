@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: ldcpy
+Version: 0.1
+Summary: A library for lossy compression of netCDF files using xarray
+Home-page: https://ldcpy.readthedocs.io
+Maintainer: Alex Pinard
+Maintainer-email: apinard@mines.edu
+License: Apache 2.0
+Project-URL: Documentation, https://ldcpy.readthedocs.io
+Project-URL: Source, https://github.com/NCAR/ldcpy
+Project-URL: Tracker, https://github.com/NCAR/ldcpy/issues
+Keywords: compression,xarray
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Requires-Dist: xarray
+Requires-Dist: numpy
+Requires-Dist: netcdf4
+Requires-Dist: cython
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: cmocean
+Requires-Dist: jupyterlab
+Requires-Dist: xrft
+Requires-Dist: pip
+
+.. image:: https://img.shields.io/github/workflow/status/NCAR/ldcpy/CI?logo=github&style=for-the-badge
+    :target: https://github.com/NCAR/ldcpy/actions
+    :alt: GitHub Workflow CI Status
+
+.. image:: https://img.shields.io/circleci/project/github/NCAR/ldcpy/master.svg?style=for-the-badge&logo=circleci
+    :target: https://circleci.com/gh/NCAR/ldcpy/tree/master
+
+.. image:: https://img.shields.io/github/workflow/status/NCAR/ldcpy/code-style?label=Code%20Style&style=for-the-badge
+    :target: https://github.com/NCAR/ldcpy/actions
+    :alt: GitHub Workflow Code Style Status
+
+.. image:: https://img.shields.io/codecov/c/github/NCAR/ldcpy.svg?style=for-the-badge
+    :target: https://codecov.io/gh/NCAR/ldcpy
+
+.. image:: https://img.shields.io/readthedocs/ldcpy/latest.svg?style=for-the-badge
+    :target: https://ldcpy.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+Lossy Data Compression for Python
+=================================
+
+Development
+------------
+
+For a development install, do the following in the repository directory:
+
+.. code-block:: bash
+
+    conda env update -f environment_dev.yml
+    conda activate ldcpy
+    python -m pip install -e .
+
+Documentation and usage examples are available `here <http://ldcpy.readthedocs.io>`_.
+
+
