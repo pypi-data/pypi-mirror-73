@@ -1,0 +1,17 @@
+smallparts/__init__.py,sha256=u4ORSHcpiWDqVfVcTc2Jk0QAv1Pr-0ITc6KyA8gQljM,120
+smallparts/constants.py,sha256=rf4h8jf5fvGRqjS2FIOLAR4unrleHZrXSf5_GVJ3MrE,1034
+smallparts/markup.py,sha256=UW8yItyZRmkGv94_nAIsxKsgxYQXrI-P4HSpvz9i8kA,19808
+smallparts/namespaces.py,sha256=uYdRlo0ZhjZ9TrkYhUjK9E9-1EzvrvV9b1jJNTeHeUM,5232
+smallparts/sequences.py,sha256=45o9x4HjhsrXwGIh8dUai4ASERZPzGH__ZM4bDZF2CM,737
+smallparts/time_display.py,sha256=pil7-NnOwJH4NSIiHMor0vYB8CBjdsoxM07PQF8Bh8Y,4365
+smallparts/text/__init__.py,sha256=tAVeuo_2WacHRSwFpAi1hRpWiJKo6qzjsqFhSfQL_lM,1164
+smallparts/text/join.py,sha256=gTrA87HwAHoYbc66Rf4uMaVcI595M2RQ432aVEWcv2Y,710
+smallparts/text/reduce.py,sha256=q4_phl7hTnhvdPBf3nBPnHVd650AUBeJsDO2Yzmyem8,9022
+smallparts/text/templates.py,sha256=fWQtpJQkhNPw8nPwIeRk0GGGrFtYj-eQWIPvXm8xgck,705
+smallparts/text/transcode.py,sha256=hMIlgpP3qN5PM9rEs9qLA7Ix06TGYRi7tcL4vGkXshU,11064
+smallparts/text/translate.py,sha256=kVv8lZaC0wQnc6XASigd9mpZZA90HaMrIMlnsHYCP9U,3541
+smallparts-0.1.0.dist-info/LICENSE.txt,sha256=n04aJVd7zuyAL9x2JyEQlyon6ZSIPw_vUf2uIAvYC70,1067
+smallparts-0.1.0.dist-info/METADATA,sha256=ldJEBrvzZyp7gqmPZZeKW2GFWIKfX_CSdy9RB9whkEo,1645
+smallparts-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+smallparts-0.1.0.dist-info/top_level.txt,sha256=tr6FBg0NrtswXGDo0shk-sTCuj8WZWtIC5h4jhqOlmc,27
+smallparts-0.1.0.dist-info/RECORD,,
