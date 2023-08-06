@@ -1,0 +1,445 @@
+import inspect
+import abc
+from collections import defaultdict, deque
+from uuid import uuid4
+import types
+import time
+
+
+class Effect(metaclass=abc.ABCMeta):
+    """
+    Base class for effects which can be yielded to the tapystry event loop.
+    """
+    def __init__(self, type, oncancel=(lambda: None), name=None, caller=None):
+        self.type = type
+        self.cancel = oncancel
+        self.name = name
+        if caller is None:
+            caller = inspect.stack()[2]
+        self._caller = caller
+
+    def __str__(self):
+        if self.name is not None:
+            return f"{self.type}({self.name})"
+        return f"{self.type}"
+
+
+class Broadcast(Effect):
+    """
+    Effect which broadcasts a message for all strands to hear
+    """
+    def __init__(self, key, value=None, name=None, immediate=False, **effect_kwargs):
+        self.key = key
+        self.value = value
+        self.immediate = immediate
+        if name is None:
+            name = key
+        super().__init__(type="Broadcast", name=name, **effect_kwargs)
+
+
+class Receive(Effect):
+    """
+    Effect which waits until it hears a broadcast at the specified key, with value satisfying the specified predicate.
+    The tapystry engine returns the matched message's value
+    """
+    def __init__(self, key, predicate=None, name=None, **effect_kwargs):
+        self.key = key
+        self.predicate = predicate
+        if name is None:
+            name = key
+        super().__init__(type="Receive", name=name, **effect_kwargs)
+
+
+class Call(Effect):
+    """
+    Effect which spins up a new strand by calling generator on the specified arguments,
+    The tapystry engine returns the generator's return value
+    """
+    def __init__(self, gen, args=(), kwargs=None, name=None, **effect_kwargs):
+        self.gen = gen
+        self.args = args
+        self.kwargs = kwargs
+        if name is None:
+            name = gen.__name__
+        super().__init__(type="Call", name=name, **effect_kwargs)
+
+
+class CallFork(Effect):
+    """
+    Effect which spins up a new strand by calling generator on the specified arguments
+    The tapystry engine immediately returns a Strand object.
+    """
+    def __init__(self, gen, args=(), kwargs=None, name=None, **effect_kwargs):
+        self.gen = gen
+        self.args = args
+        self.kwargs = kwargs
+        if name is None:
+            name = gen.__name__
+        super().__init__(type="CallFork", name=name, **effect_kwargs)
+
+
+class First(Effect):
+    """
+    Effect which returns when one of the strands is done.
+    The tapystry engine returns the index of the winning strand, and its value.
+    NOTE: Use of this can be dangerous and can lead to deadlocks, as it cancels losers.
+          It is safer to us higher-level APIs such as Race and Join
+    """
+    def __init__(self, strands, name=None, cancel_losers=True, **effect_kwargs):
+        self.strands = strands
+        self.cancel_losers = cancel_losers
+        if name is None:
+            name = ", ".join([str(x) for x in self.strands])
+        self.name = name
+        super().__init__(type="Race", name=name, **effect_kwargs)
+
+
+# TODO: does this really need to be an effect?  what's wrong with just exposing _canceled on Strand?
+class Cancel(Effect):
+    """
+    Effect which cancels the strand specified
+    """
+    def __init__(self, strand, name=None, **effect_kwargs):
+        self.strand = strand
+        if name is None:
+            name = str(self.strand)
+        super().__init__(type="Cancel", name=name, **effect_kwargs)
+
+
+class Sleep(Effect):
+    """
+    Effect which sleeps the calling strand for the specified period of time
+    """
+    def __init__(self, t, name=None, **effect_kwargs):
+        self.t = t
+        if name is None:
+            name = str(t)
+        super().__init__(type="Sleep", name=name, **effect_kwargs)
+
+
+class Intercept(Effect):
+    """
+    Effect which waits until the engine finds an effect matching the given predicate, and allows you to modify the yielded value of that effect.
+    This is intended for testing only, and can only be used in test_mode.
+    The tapystry engine returns a tuple of (effect, inject), where `effect` is the effect intercepted, and `inject` is a function taking a value, and returning an effect that yields that value for the intercepted effect.
+    """
+    def __init__(self, predicate=None, name=None, **effect_kwargs):
+        self.predicate = predicate
+        if name is None:
+            name = ""
+        super().__init__(type="Intercept", name=name, **effect_kwargs)
+
+
+class TapystryError(Exception):
+    pass
+
+
+_noval = object()
+
+
+class Strand():
+    def __init__(self, caller, gen, args=(), kwargs=None, parent=None):
+        if kwargs is None:
+            kwargs = dict()
+        self._it = gen(*args, **kwargs)
+        self._done = False
+        self._result = None
+        self.id = uuid4()
+        self._canceled = False
+        # self._error = None
+        self._children = []
+        self._parent = parent
+        if not isinstance(self._it, types.GeneratorType):
+            self._result = self._it
+            self._done = True
+        self._effect = None
+        if self._parent is None:
+            self._parent_effect = None
+        else:
+            self._parent_effect = self._parent[0]._effect
+            assert self._parent_effect is not None
+
+        self._caller = caller
+
+    def send(self, value=None):
+        assert not self._canceled
+        assert not self._done
+        try:
+            effect = self._it.send(value)
+            self._effect = effect
+            return dict(done=False, effect=effect)
+        except StopIteration as e:
+            self._done = True
+            self._result = e.value
+            self._effect = None
+            return dict(done=True)
+        except Exception as e:
+            tb = e.__traceback__.tb_next
+            line = tb.tb_lineno
+            # line = tb.tb_frame.f_code.co_firstlineno
+            # line number is not exactly right?
+            raise TapystryError(
+                "\n".join([
+                    f"Exception caught at",
+                    f"{self.stack()}",
+                    f":",
+                    f"File {tb.tb_frame.f_code.co_filename}, line {line}, in {tb.tb_frame.f_code.co_name}",
+                    f"{type(e).__name__}: {e}",
+                ])
+            )
+
+    def __hash__(self):
+        return self.id.int
+
+    def __str__(self):
+        return f"Strand[{self.id.hex}] (waiting for {self._effect})"
+
+    def stack(self):
+        # if self._parent is None:
+        #     return [f"Strand[{self.id.hex}]"]
+        # else:
+        #     stack = list(self._parent[0].stack())
+        #     stack.append(f"{self._parent[1]} Strand[{self.id.hex}]")
+        #     return stack
+
+        s = "\n".join([
+            f"File {self._caller[1]}, line {self._caller[2]}, in {self._caller[3]}",
+            f"  {self._caller[4][0].strip()}",
+        ])
+        if self._parent is None:
+            return s
+        else:
+            return "\n".join([
+                self._parent[0].stack(),
+                f"Yields effect {self._parent_effect}, created at",
+                s
+            ])
+
+        # print(self._stack[2][0])
+        # print(self._stack[2][1])  # file
+        # print(self._stack[2][2])  # line
+        # print(self._stack[2][3])  # name
+        # print(self._stack[2][4])  # code
+
+
+    def is_done(self):
+        return self._done
+
+    def get_result(self):
+        if not self._done:
+            raise TapystryError("Tried to get result on a Strand that was still running!")
+        return self._result
+
+    def cancel(self):
+        # if self._done:  ??
+        if self._effect is not None:
+            self._effect.cancel()
+        for child in self._children:
+            child.cancel()
+        self._canceled = True
+
+    def is_canceled(self):
+        return self._canceled
+
+
+def _indented(lines):
+    indent = 0
+    s = ""
+    for line in lines:
+        s += " " * indent + line + "\n"
+        indent += 2
+    return s
+
+
+class _QueueItem():
+    def __init__(self, effect, strand, wake_time=None):
+        self.strand = strand
+        self.effect = effect
+        self.wake_time = wake_time
+
+
+def run(gen, args=(), kwargs=None, debug=False, test_mode=False):
+    # dict from string to waiting functions
+    waiting = defaultdict(list)
+    # dict from strand to waiting key
+    # TODO: gc hanging strands
+    hanging_strands = set()
+    q = deque()
+
+    # list of intercept items
+    intercepts = []
+
+    initial_strand = Strand(inspect.stack()[1], gen, args, kwargs)
+    if initial_strand.is_done():
+        # wasn't even a generator
+        return initial_strand.get_result()
+
+    def queue_effect(effect, strand):
+        if not isinstance(effect, Effect):
+            raise TapystryError(f"Strand yielded non-effect {type(effect)}")
+        if isinstance(effect, Broadcast):
+            if effect.immediate:
+                q.append(_QueueItem(effect, strand))
+            else:
+                q.appendleft(_QueueItem(effect, strand))
+        elif isinstance(effect, Sleep):
+            wake_time = time.time() + effect.t
+            q.appendleft(_QueueItem(effect, strand, wake_time))
+        else:
+            q.append(_QueueItem(effect, strand))
+
+    def advance_strand(strand, value=_noval):
+        if strand.is_canceled():
+            return
+        if value == _noval:
+            result = strand.send()
+        else:
+            result = strand.send(value)
+        if result['done']:
+            resolve_waiting("done." + strand.id.hex, strand.get_result())
+            return
+        effect = result['effect']
+        queue_effect(effect, strand)
+
+    def add_waiting_strand(key, strand, fn=None):
+        assert strand not in hanging_strands
+        hanging_strands.add(strand)
+
+        def receive(val):
+            assert strand in hanging_strands
+            if fn is not None and not fn(val):
+                return False
+            hanging_strands.remove(strand)
+            advance_strand(strand, val)
+            return True
+        waiting[key].append(receive)
+
+    def add_racing_strand(racing_strands, race_strand, cancel_losers):
+        assert race_strand not in hanging_strands
+        hanging_strands.add(race_strand)
+
+        received = False
+
+        def receive_fn(i):
+            def receive(val):
+                nonlocal received
+                assert not (cancel_losers and received)
+                if received:
+                    return
+                for j, strand in enumerate(racing_strands):
+                    if j == i:
+                        assert strand.is_done()
+                    else:
+                        assert not strand.is_done()
+                        if cancel_losers:
+                            strand.cancel()
+                received = True
+                assert race_strand in hanging_strands
+                hanging_strands.remove(race_strand)
+                advance_strand(race_strand, (i, val))
+            return receive
+        for i, strand in enumerate(racing_strands):
+            if strand.is_done():
+                raise TapystryError(f"Race between effects that are already completed")
+            waiting["done." + strand.id.hex].append(receive_fn(i))
+
+    def resolve_waiting(wait_key, value):
+        fns = waiting[wait_key]
+        if debug:
+            print("resolving", wait_key, len(fns))
+        # clear first in case it mutates
+        waiting[wait_key] = [fn for fn in fns if not fn(value)]
+
+    def make_injector(intercepted_strand):
+        def inject(value):
+            advance_strand(intercepted_strand, value)
+            hanging_strands.remove(intercepted_strand)
+        return lambda x: Call(inject, (x,))
+
+    advance_strand(initial_strand)
+    while len(q):
+        item = q.pop()
+
+        effect = item.effect
+        if isinstance(effect, Intercept):
+            if not test_mode:
+                raise TapystryError(f"Cannot intercept outside of test mode!")
+            intercepts.append(item)
+            hanging_strands.add(item.strand)
+            continue
+
+        if test_mode:
+            intercepted = False
+            for intercept_item in intercepts:
+                intercept_effect = intercept_item.effect
+                if intercept_effect.predicate is None or intercept_effect.predicate(effect):
+                    intercepted = True
+                    break
+            if intercepted:
+                hanging_strands.remove(intercept_item.strand)
+                intercepts.remove(intercept_item)
+                hanging_strands.add(item.strand)
+                advance_strand(intercept_item.strand, (effect, make_injector(item.strand)))
+                continue
+
+        if item.wake_time is not None and item.wake_time > time.time():
+            q.appendleft(item)
+
+            # actually sleep
+            min_wake_time = min([item.wake_time or 0 for item in q])
+            t = time.time()
+            if min_wake_time > t:
+                time.sleep(min_wake_time - t)
+
+            continue
+
+        if item.strand.is_canceled():
+            continue
+
+        if debug:
+            print(f"Handling {effect} (from {item.strand})")
+
+        if not isinstance(effect, Effect):
+            raise TapystryError(f"Strand yielded non-effect {type(effect)}")
+
+        if isinstance(effect, Broadcast):
+            resolve_waiting("broadcast." + effect.key, effect.value)
+            advance_strand(item.strand)
+        elif isinstance(effect, Receive):
+            add_waiting_strand("broadcast." + effect.key, item.strand, effect.predicate)
+        elif isinstance(effect, Call):
+            strand = Strand(effect._caller, effect.gen, effect.args, effect.kwargs, parent=(item.strand, effect.name or "call"))
+            item.strand._children.append(strand)
+            if strand.is_done():
+                # wasn't even a generator
+                advance_strand(item.strand, strand.get_result())
+            else:
+                add_waiting_strand("done." + strand.id.hex, item.strand)
+                advance_strand(strand)
+        elif isinstance(effect, CallFork):
+            fork_strand = Strand(effect._caller, effect.gen, effect.args, effect.kwargs, parent=(item.strand, effect.name or "fork"))
+            item.strand._children.append(fork_strand)
+            advance_strand(item.strand, fork_strand)
+            if not fork_strand.is_done():
+                # otherwise wasn't even a generator
+                advance_strand(fork_strand)
+        elif isinstance(effect, First):
+            add_racing_strand(effect.strands, item.strand, effect.cancel_losers)
+        elif isinstance(effect, Cancel):
+            effect.strand.cancel()
+            advance_strand(item.strand)
+        elif isinstance(effect, Sleep):
+            advance_strand(item.strand)
+        else:
+            raise TapystryError(f"Unhandled effect type {type(effect)}: {item.strand.stack()}")
+
+    for strand in hanging_strands:
+        if not strand.is_canceled():
+            # TODO: add notes on how this can happen
+            # forgetting to join fork or forgot to cancel subscription?
+            # joining thread that never ends
+            # receiving message that never gets broadcast
+            raise TapystryError(f"Hanging strands detected waiting for {strand._effect}, in {strand.stack()}")
+
+    assert initial_strand.is_done()
+    return initial_strand.get_result()
