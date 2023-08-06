@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "binsmooth"
+author = "Stephen Tierney"
+author-email = "sjtrny@gmail.com"
+home-page = "http://github.com/sjtrny/binsmooth"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''

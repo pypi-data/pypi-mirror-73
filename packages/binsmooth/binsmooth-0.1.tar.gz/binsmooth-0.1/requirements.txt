@@ -1,0 +1,7 @@
+black
+flake8
+flit
+numpy
+pydocstyle
+pytest
+scipy
