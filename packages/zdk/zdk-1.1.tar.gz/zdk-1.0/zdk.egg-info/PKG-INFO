@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zdk
+Version: 1.0
+Summary: SDK for Zinobe Tech API's
+Home-page: https://https://gitlab.sg-zinobe.com/pythagoras/zdk/-/tree/develop
+Author: Deisy Muñoz
+Author-email: deisy.dymo@gmail.com
+License: UNKNOWN
+Download-URL: https://gitlab.sg-zinobe.com/pythagoras/zdk.git
+Description: This SKD for Zinobe Tech allows to consume any API in a disengaged way. 
+Keywords: sdk,api,zinobe
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
