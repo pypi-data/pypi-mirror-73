@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jotdown
+Version: 1.0.0
+Summary: Jotdown structrured document language, C++ to python wrapper module.
+Home-page: https://github.com/lainproliant/xeno
+Author: Lain Musgrove (lainproliant)
+Author-email: lainproliant@gmail.com
+License: BSD
+Description: <TODO>
+        
+Keywords: document structure parser query language
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
