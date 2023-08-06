@@ -1,0 +1,3 @@
+json_minify
+pandas
+numpy

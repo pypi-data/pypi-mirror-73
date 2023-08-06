@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/AppConfiguration.py
+src/mcr_mclib.py
+src/mcLib.egg-info/PKG-INFO
+src/mcLib.egg-info/SOURCES.txt
+src/mcLib.egg-info/dependency_links.txt
+src/mcLib.egg-info/requires.txt
+src/mcLib.egg-info/top_level.txt

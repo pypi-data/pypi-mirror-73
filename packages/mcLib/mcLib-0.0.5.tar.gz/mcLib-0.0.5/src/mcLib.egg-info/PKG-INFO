@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mcLib
+Version: 0.0.5
+Summary: This is just a base package for logging and other handy functions
+Home-page: UNKNOWN
+Author: Michael Robinson
+Author-email: michael.robinson@kochind.com
+License: MIT
+Description: Hello World This is a BASIC read me.
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
