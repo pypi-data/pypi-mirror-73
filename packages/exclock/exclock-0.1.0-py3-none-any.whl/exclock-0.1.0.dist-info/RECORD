@@ -1,0 +1,16 @@
+exclock/__init__.py,sha256=J8A_jefla71CaJh3WcFD2mvYWMPJuIInpfDQvp7qxz0,69
+exclock/entities.py,sha256=1RDxs5sbiPf1eVuub58YCS-m3rwtCRHBV8s-uDRQYj4,4474
+exclock/main.py,sha256=M-SLNN38468_GuhCK5wp7xbstW2PLL1Dz-L4psXZOKA,1318
+exclock/assets/silent.mp3,sha256=eYS5sAOsxzqeDbcI6uEUxQm0HvV1eMP6ivbxry714vk,4365
+exclock/assets/warning.mp3,sha256=zMHxszUhmWC7OzdotcTqWWbTAvtCMflu6raOZV26VSU,54587
+exclock/assets/clocks/pomodoro.json5,sha256=Wa4xruSKof0478pCZ5oI4FzAI_UhuPKxHgmnVcs9a54,1230
+exclock/assets/clocks/simple.json5,sha256=9jjy0RjN9xoSXlTDfqO0kyjRVINyp1KOIUgtRX59wgs,168
+exclock/assets/clocks/warning.json5,sha256=mRNKqXNfPlsPwx7fRWDgkqbxDNEQWKlHdQBXSHyAMe0,135
+exclock/assets/musics/silent.mp3,sha256=eYS5sAOsxzqeDbcI6uEUxQm0HvV1eMP6ivbxry714vk,4365
+exclock/assets/musics/warning.mp3,sha256=zMHxszUhmWC7OzdotcTqWWbTAvtCMflu6raOZV26VSU,54587
+exclock-0.1.0.dist-info/LICENSE,sha256=tT76e0atDka9tSC8WsXYrMdQUe6WhJaoStO4IBfzIzk,11092
+exclock-0.1.0.dist-info/METADATA,sha256=nmRyjE8gD6XHjwU1Wgcsx7DsoozfibuWhHdA35e6Wwo,2821
+exclock-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+exclock-0.1.0.dist-info/entry_points.txt,sha256=l27eMf0-bxafRANTqEpHcpArUgngqW75H-xMhV7mDFg,47
+exclock-0.1.0.dist-info/top_level.txt,sha256=PhFU9PfLGRT32XEt15hWRRb217HpWB9Y5Jzu87xw-_8,8
+exclock-0.1.0.dist-info/RECORD,,
