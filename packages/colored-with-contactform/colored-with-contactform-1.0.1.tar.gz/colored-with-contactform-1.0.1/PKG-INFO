@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: colored-with-contactform
+Version: 1.0.1
+Summary: Colored theme with contact form
+Home-page: https://github.com/abderrahimsoumer/pelican-hardweb-theme
+Author: Abderrahim soumer
+Author-email: contact@hardweb.dev
+Maintainer: Abderrahim soumer
+Maintainer-email: contact@hardweb.dev
+License: MIT
+Description: # colored-with-contactform
+        *Colored-with-contactform* is a theme I used for my personal blog, I make it public so everyone can benefit from it. I used css3 preprocessor `Sass` to make it easy to customized,  You can change the colors and font and sizes easy and generate new css file.
+        
+        [Live preview](http://hardweb.dev/blogs/index.html)
+        
+        ## Installation 
+        This theme is available at [pypi.org](https://pypi.org/project/Colored-with-contact-form/), so you can install it with: 
+        
+        ```
+        pip install colored-with-contact-form
+        ```
+        
+        then add to your `pelicanconf.py`:
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Pelican :: Themes
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown

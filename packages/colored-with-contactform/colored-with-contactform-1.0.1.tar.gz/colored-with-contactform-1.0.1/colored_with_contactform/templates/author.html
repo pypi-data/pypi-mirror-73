@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}{{ SITENAME }} - {% trans t_author=author %}Articles by {{ t_author }}{% endtrans %}{% endblock %}
+{% block description %}{{ SITENAME }} - {% trans t_author=author %}Read the latest articles by {{ t_author }}{% endtrans %}{% endblock %}
+{% block content_head %} 
+<section id="head" class="relative zIdx100">
+    <div class="head">
+        <header class="intro">
+            <h1>{% trans %}Articles by{% endtrans %} <span  class="second_strong">{{ author }}</span> </h1>
+            <p></p>
+        </header>
+    </div>
+    <div class="bgbehind">
+        
+    </div>
+</section>
+{% endblock %}

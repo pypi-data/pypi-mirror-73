@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}{{ SITENAME }} - {% trans t_category=category %}{{ t_category }} category{% endtrans %}{% endblock %}
+{% block description %}{{ SITENAME }} - {% trans t_category=category %}Read the latest articles in the {{ t_category }} category{% endtrans %}{% endblock %}
+{% block content_head %} 
+<section id="head" class="relative zIdx100">
+    <div class="head">
+        <header class="intro">
+            <h1>{% trans %}Articles in the{% endtrans %} <span class="second_strong">{{ category }}</span> {% trans %}category{% endtrans %}</h1>
+            <p></p>
+        </header>
+    </div>
+    <div class="bgbehind">
+        
+    </div>
+</section>
+{% endblock %}

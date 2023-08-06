@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }} - {% trans %}All articles{% endtrans %} {%endblock%}
+{% block description %}{{ SITENAME }} - {% trans %}Find your interest and read the article you love.{% endtrans %} {%endblock%}
+{% block content %}        
+{% block content_head %} 
+<section id="head" class="relative zIdx100">
+    <div class="head">
+        <header class="intro">
+            <h1>{% trans %}All articles{% endtrans %}</h1>
+            <p>{% trans %}Find your interest and read the article you love.{% endtrans %}</p>
+        </header>
+    </div>
+    <div class="bgbehind">
+        
+    </div>
+</section>
+{% endblock %} 
+{% if articles %}
+{% for article in articles_page.object_list %}        
+    {% if loop.index == 1 %}
+    <section class="section section--odd zIdx90">
+        <div class="section__content {% if loop.length  == 1 %}no-round{%endif%}">
+            <article  id="last_article" class="listing">
+                <header>
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"><h3>{{ article.title }}</h3></a>
+                </header>
+                <div class="divider"></div>
+                {% import 'article_infos.html' as articleInfos with context %}
+                {{ articleInfos.article_infos(article) }}
+            </article>
+            {% if loop.length <= 1 and articles_page.has_other_pages() %}
+                {% include 'pagination.html' %}
+            {% endif %}
+        </div>
+        
+    </section>
+        {% if loop.length  > 1 %}
+        <section class="section section--even zIdx80">
+            <div class="section__content">
+                <ol class="article_listing">
+        {% endif %}
+    {% else %}
+            <li>
+                <article class="listing">
+                    <header>
+                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"><h3>{{ article.title }}</h3></a>
+                    </header>
+                    <div class="divider"></div>
+                    {% import 'article_infos.html' as articleInfos with context %}
+                    {{ articleInfos.article_infos(article) }}
+                </article>
+            </li>
+            
+        
+{% endif %}
+{% endfor %}
+{% if articles_page.object_list|length  > 1 %}
+</ol>
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+</div>
+</section>
+{% endif %}
+{% endif %}
+{% endblock content %}
+
+{% block getintouch_msg %}
+{% trans %}If you have a project in mind or you want to work with me or you want me to write about something you didn't find, Don't hesitate to contact me by writing an email or otherwise.{% endtrans %}
+{% endblock %}
+

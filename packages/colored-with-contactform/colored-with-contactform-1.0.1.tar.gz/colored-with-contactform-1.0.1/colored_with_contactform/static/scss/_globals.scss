@@ -1,0 +1,318 @@
+/* Globals Styles*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: $textlightColor;
+}
+
+#head{
+    @extend .bg-grd-second;
+}
+
+.head{
+    @extend .flex;
+    //@extend .jstfc_center;
+    @extend .aligni_center;
+    min-height: 98vh;
+    background-color: transparent;
+    border-bottom-left-radius: 50% 100%;
+    box-shadow: 0px 2px 4px $dark_mainColor;
+    width: 100%;
+    position: absolute;
+}
+
+.bgbehind{
+    width: 100%;
+    height: 100vh;
+    background: $mainColor;
+    background: $gradient_main;
+    border-top-left-radius: 50% 100%;
+    box-shadow: -2px -2px 2px $dark_mainColor;
+}
+.intro {
+    //margin-top: #{$space_2xxl}; // I added aligni_center in the parent instead
+    width: 90%;
+    max-width: 1000px;
+    padding: 0 #{$space_s};
+    margin: 0 auto;
+}
+.section{
+    position: relative;
+
+    .section__content{
+        padding-top: #{$space_2xxl};
+        padding-bottom: #{$space_2xxl};
+    }
+    
+    &--odd{
+        @extend .bg-grd-second2;
+    }
+    &--odd .section__content{
+        @extend .bg-grd-main2;
+        @extend .round-bottom-right;
+    }
+    &--even{
+        @extend .bg-grd-main;
+    }
+    &--even .section__content{
+        @extend .bg-grd-second;
+        @extend .round-bottom-left;
+    }
+    &--last{
+        background-color: $dark_mainColor;
+    }
+    &--last .section__content{
+        @extend .bg-grd-main2;
+        @extend .round-bottom-right;
+    }
+}
+
+
+
+.section__content > * {
+    width: 90%;
+    max-width: 1000px;
+    padding-right: #{$space_s};
+    padding-left: #{$space_s};
+    margin: 0 auto;
+    
+}
+/*
+if you want less space between all articles remove  padding-bottom from article.listing and decomment this
+.section__content > *:last-child{
+    padding-bottom: #{$space_2xxl}; 
+}
+*/
+/*Articles */
+header a{
+    text-decoration: none !important;
+}
+article {
+    padding-top: #{$space_2xxl};
+    padding-bottom: #{$space_2xxl}; 
+    footer {
+        color: $grayscale300;
+    }
+    a{
+        color: $thirdColor;
+        text-decoration: underline;
+        transition: all .3s cubic-bezier(0.77, 0, 0.175, 1);
+        &:hover{
+            background: $thirdColor;
+            color: $mainColor !important;
+        }
+    }
+    a img {border: 0px; text-decoration: none;}
+    abbr {
+        display: inline-block;
+        padding: $space_xs 0 ;
+    }
+    address {
+        display: inline-block; 
+        padding: $space_xs 0 $space_xs $space_xs ;
+    }
+    
+    
+}
+abbr{
+    color: $grayscale300;
+    font-size: $fontSize_xs;
+}
+
+.article {
+    h1,h2,h3,h4,h5,h6{
+        margin-top: $space_m;
+        margin-bottom: $space_xs;
+    }
+    p{
+        padding: 0 0 1em 0;
+    }
+    ul li {
+        list-style-type: disc;
+        li{
+            list-style-type: circle;
+            li {
+                list-style-type: square;
+            }
+        }
+    }
+    ol li {
+        list-style-type: decimal;
+        li{
+            list-style-type: upper-alpha;
+            li {
+                list-style-type: lower-alpha;
+            }
+        }
+        
+    }
+    li {
+        margin-left: 2em;
+        padding: 0;
+        p{
+            padding: 0;
+        }
+    }
+    blockquote {
+        margin-left: 1em;
+        padding: $space_xs;
+        border-left: 5px solid $dark_mainColor;
+    
+    }
+    code {
+        padding: 2px 4px;
+        font-size: 90%;
+        background-color: $dark_mainColor;
+        border-radius: 4px;
+    }
+
+    table{
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+
+        td {
+            padding: 8px;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border-top: 1px solid $textlightColor;
+        }
+        th {
+            text-align: left;
+            vertical-align: bottom;
+            border-bottom: 2px solid #ddd;
+        }
+        
+    }
+    img{
+        max-width: 100%;
+    }
+}
+/* keepintouch */
+.keepintouch{
+    h2 {
+        text-align: center;
+    }
+    p{
+        padding: $space_s 0;
+    }
+    .content {
+        max-width: 700px;
+        text-align: left;
+        margin: 0 auto;
+
+
+        
+        span{
+            padding-left: 10px;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            margin-bottom: 10px;
+            color: $textlightColor;
+            font-size: $fontSize_xs;
+        }
+
+    }
+
+    form{
+        padding-top: 14px;
+    }
+    
+}
+
+.twitter-share-button{
+    margin: -8px 0;
+}
+/* Footer */
+svg{
+    fill: $thirdColor;
+    transition: all .4s ease-out;
+    
+    &:hover{
+        fill: transparent;
+        transform: scale(1.5);
+        stroke: $thirdColor;
+    }
+}
+
+.footer{
+    background-color: $dark_mainColor;
+      .me{
+          width: 40%;
+      }
+      .me img{
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          margin: 10px;
+          float: left;
+          box-shadow: 0px 0px 4px $thirdColor;
+      }
+      .me p {
+        padding: 40px 10px;
+        color: $thirdColor;
+      }
+      
+  }
+
+.mysocialnetwork{
+    padding: 20px;
+
+    ul li{
+        float: left;
+
+        a {
+            padding: 12px;
+        }
+    }
+}
+/*pagination design*/
+.paginator {
+    text-align: center;
+    a{
+        background: #ffe4a8;
+        color: #1b1023;
+        width: 40px;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
+/*mobile */
+@media screen and (max-width: $breakpoints_small){
+    h1{
+        font-size: $fontSize_h2;
+        word-break: break-word;
+    }
+    h2{
+        font-size: $fontSize_h3;
+        word-break: break-word;
+    }
+    h3{
+        font-size: $fontSize_h4;
+        word-break: break-word;
+    }
+    h4{
+        font-size: $fontSize_h5;
+    }
+    h5{
+        font-size: $fontSize_h6;
+    }
+       
+    footer.flex{
+        justify-content: center;
+    }
+    footer .me {
+        width: 100% !important;
+    }
+    footer svg{
+        width: 25px;
+    } 
+}
