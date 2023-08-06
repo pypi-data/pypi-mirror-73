@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fzfaws
+Version: 0.0.1
+Summary: An interactive aws cli experience with the help of fzf.
+Home-page: https://github.com/kazhala/fzf.aws
+Author: Kevin Zhuang
+Author-email: kevin7441@gmail.com
+License: UNKNOWN
+Description: # fzf.aws
+        
+        WIP
+        
+Keywords: aws,fzf,cli,boto3
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
