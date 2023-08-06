@@ -1,0 +1,11 @@
+README.md
+setup.py
+pygan/__init__.py
+pygan/ebaae_image_generator.py
+pygan/ebgan_image_generator.py
+pygan/gan_image_generator.py
+pygan.egg-info/PKG-INFO
+pygan.egg-info/SOURCES.txt
+pygan.egg-info/dependency_links.txt
+pygan.egg-info/requires.txt
+pygan.egg-info/top_level.txt
