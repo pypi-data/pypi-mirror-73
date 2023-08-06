@@ -1,0 +1,9 @@
+pyrai/__init__.py,sha256=_UZU-ehfWGgsHxpSEjuYtOTHvpa_XV7VzIUqFCT0rn8,377
+pyrai/api.py,sha256=KVH7dAKoAK00iBoZwZ0G8EJjzFkFK5iSEppHcu1Q6aY,47929
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/pyrai_test.py,sha256=KdHlsaOu9jE59obYx8_AMGCiyiIjZ27LjI5xzSl-T7I,3262
+pyrai-0.0.3.dist-info/LICENSE,sha256=xCs5ywcMLkMC-TvTeDkUMLmDVEBNtjCVCqz5NAo3SJY,1073
+pyrai-0.0.3.dist-info/METADATA,sha256=sEL3KNnIjSnppKHrgy2zUK7L_oVEyggnA1FbGV42-RE,18276
+pyrai-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyrai-0.0.3.dist-info/top_level.txt,sha256=rx96XC8n8qF5uLdRhnfDyXF08QMT3AjqY4FMs4l9w0g,12
+pyrai-0.0.3.dist-info/RECORD,,
