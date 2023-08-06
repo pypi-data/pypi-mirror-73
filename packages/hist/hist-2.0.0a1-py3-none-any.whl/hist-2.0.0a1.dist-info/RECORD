@@ -1,0 +1,16 @@
+hist/__init__.py,sha256=EZEiABgh56OVRQLLxWBausS7LWYDiyWoc9vlMJuoT1U,485
+hist/axestuple.py,sha256=7C6QCIBLUO-K9t6q4JfLkEctIfbazNrst9Z-ucJafXU,1362
+hist/axis.py,sha256=FftExzgHN1vhEHiobA0-LXiz_rxIbqQQIyY3RqJmcmc,5679
+hist/basehist.py,sha256=pi39DoGZjkjlwsbxRHLfF7LMy451htjIbrWCBaZ-HX8,18690
+hist/classic_hist.py,sha256=Yqx5yQmlnE9WQSGRXPSHxSULV0NdJ55xd11yAIOEnZQ,1315
+hist/hist.py,sha256=rmr1_24UroFPR7vUjwxORVlIwiMHlqovY40jDO1g_QM,88
+hist/namedhist.py,sha256=vAKffym0l2lwy-9H6kyOY3T4TCrUXwpaKU8c6w-AHtI,2585
+hist/numpy.py,sha256=Aj4JxTCiJT2aLOpmmNh9IW2Exw-NHKbvnAorxerH7mg,149
+hist/utils.py,sha256=j-bYag5W59UYsmHy2OJK0co9Aw6Jy-bMMPbTkvpVEJA,134
+hist/version.py,sha256=AZmjaBOeOl5O0wXJjGrrIIoUEE-y5ihNZIz_QbQSmaI,118
+hist-2.0.0a1.dist-info/LICENSE,sha256=9jtNeBe2F0hRHAgv6h08ciTt5xT0JOEzJoYAPB2uUCc,1523
+hist-2.0.0a1.dist-info/METADATA,sha256=foMGvSuckXgDwW5ingBRPc_CLFlQynWKoXYNvcs2XgQ,3745
+hist-2.0.0a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hist-2.0.0a1.dist-info/entry_points.txt,sha256=kn3iXZ1rNSWfbbX1Ea6_K_AYiwPRPXgq8gstttI9e-g,49
+hist-2.0.0a1.dist-info/top_level.txt,sha256=0J0bHMNP3w64WFWGXHodJ8U16f3IWs9BcOhrvgojuWI,5
+hist-2.0.0a1.dist-info/RECORD,,
