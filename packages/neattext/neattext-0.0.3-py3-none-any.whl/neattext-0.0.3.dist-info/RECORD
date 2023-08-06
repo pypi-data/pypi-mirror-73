@@ -1,0 +1,12 @@
+neattext/__init__.py,sha256=21h_47Dh6dNnGqy2B2cRlB52zbTlsxC8pbNnjuhgWvg,268
+neattext/explainer/__init__.py,sha256=zcRb_uoFavD_2OHsVNQPY3HOgYw3GL-_GSKLZhc_iMw,25
+neattext/explainer/explainer.py,sha256=wL-mpZR-HUqlCiCsEMkiZpFa8J3J6-Oqn-1gRS6RYpY,87857
+neattext/functions/__init__.py,sha256=xj6d0EGBslRMqwegomzD_egs_JIiUAgqULcq3ZW7t1I,25
+neattext/functions/functions.py,sha256=8Rs_urgv4FFNQfouhpSrw_7-gfXxicsSKaiUESfKZAc,5263
+neattext/neattext.py,sha256=fcjiXBXjpIe5JEOlP-pE74vBH6cRfwUaUuA_YuaCRuQ,12110
+neattext/pattern_data/__init__.py,sha256=dODTwmqIQHSN2l6amQTLVtpfUxuoGT0p6acjwPzARWE,27
+neattext/pattern_data/pattern_data.py,sha256=QPIYdN7_wkfxA_LT6imJy0nB7nQWX9sZNFeWJugThjs,3933
+neattext-0.0.3.dist-info/LICENSE,sha256=6m73zv-ATqZTBOJhT_eC0yUyUoBe0qzpmCIm_YPkLb0,1060
+neattext-0.0.3.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+neattext-0.0.3.dist-info/METADATA,sha256=ZxpVjCLIlkQUAZYQ16kWPr39Ho2EhMpwds52kppbv9Q,4918
+neattext-0.0.3.dist-info/RECORD,,
