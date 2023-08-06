@@ -1,0 +1,3 @@
+[console_scripts]
+pandocfilters.sh = pandocfilters_sh.__main__:main
+
