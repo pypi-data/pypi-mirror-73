@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Add method to {{ service_name }}{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="title">Method name</label>
+    <input name="title" id="title" value="{{ request.form['title'] }}" required>
+    <label for="body">Method response</label>
+    <textarea name="body" id="body">{{ request.form['body'] }}</textarea>
+    <label for="status_code">Response status code</label>
+    <input name="status_code" id="status_code" value="{{ request.form['status_code'] or 200}}" required>
+    <label for="delay">Response delay (ms)</label>
+    <input name="delay" id="delay" value="{{ request.form['delay'] or 0}}" required>
+    <label for="mimetype">Response mimetype</label>
+    <input name="mimetype" id="mimetype" value="{{ request.form['mimetype'] or 'application/json'}}" required>
+    <input type="submit" value="Save">
+  </form>
+{% endblock %}
