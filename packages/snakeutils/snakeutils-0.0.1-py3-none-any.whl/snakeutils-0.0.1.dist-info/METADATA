@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: snakeutils
+Version: 0.0.1
+Summary: A collection of tools used by the Datasnakes.
+Home-page: https://github.com/snakeutils
+Author: Datasnakes
+Author-email: datasnakes@gmail.com
+License: MIT
+
+.. image:: https://travis-ci.org/datasnakes/snakebox.svg?branch=master
+
+
