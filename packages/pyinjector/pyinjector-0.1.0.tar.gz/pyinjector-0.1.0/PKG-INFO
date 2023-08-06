@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyinjector
+Version: 0.1.0
+Summary: A tool/library allowing dynamic library injection into running processes
+Home-page: https://github.com/kmaork/pyinjector
+Author: Maor Kleinberger
+Author-email: kmaork@gmail.com
+License: UNKNOWN
+Description: # Pyinjector
+        
+        A tool/library allowing dynamic library injection into running processes.
+        
+        Has no external python dependencies.
+        
+        Implemented as a python wrapper for [kubo/injector](https://github.com/kubo/injector).
+Keywords: injection dll so library
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
