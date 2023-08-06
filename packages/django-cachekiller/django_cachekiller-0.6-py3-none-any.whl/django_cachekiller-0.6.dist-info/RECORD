@@ -1,0 +1,8 @@
+django_cachekiller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cachekiller/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cachekiller/templatetags/cdnstaticfiles.py,sha256=IwA3zyXvTSskQNGHx2NsY5BIgp8t74TZg80yw4UKyjI,2634
+django_cachekiller-0.6.dist-info/LICENSE,sha256=ztbWQYMmWqR1Kmpk3ZwoI0cxgfd7-DVRhNsKUu4xESs,1080
+django_cachekiller-0.6.dist-info/METADATA,sha256=j697yXbtj1QuWrYJAaOFN9e3fkb9DSaqwED8oDmva8s,2768
+django_cachekiller-0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_cachekiller-0.6.dist-info/top_level.txt,sha256=RHSaMEW65VhZ-iAlt2N5O_ZQLAC8j1v7G--19XuqWWI,19
+django_cachekiller-0.6.dist-info/RECORD,,
