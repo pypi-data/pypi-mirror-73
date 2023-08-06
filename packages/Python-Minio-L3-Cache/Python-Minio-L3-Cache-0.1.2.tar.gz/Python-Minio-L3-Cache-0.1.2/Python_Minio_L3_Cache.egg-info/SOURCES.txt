@@ -1,0 +1,11 @@
+README.md
+setup.py
+L3MinioCache/CacheInterface.py
+L3MinioCache/FileL2Cache.py
+L3MinioCache/MinioL3Cache.py
+L3MinioCache/PickleL2Cache.py
+L3MinioCache/__init__.py
+Python_Minio_L3_Cache.egg-info/PKG-INFO
+Python_Minio_L3_Cache.egg-info/SOURCES.txt
+Python_Minio_L3_Cache.egg-info/dependency_links.txt
+Python_Minio_L3_Cache.egg-info/top_level.txt
