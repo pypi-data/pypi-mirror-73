@@ -1,0 +1,17 @@
+morra/__init__.py,sha256=14Qyf3-DuSWcCL_DDt8Sc9gYr5LJbJstaDO3kr4xE5Y,529
+morra/_version.py,sha256=iNeZ6LZ9iCV_ugsqAh5K1fFqbKkfU8o3NbLYBWI3m1I,22
+morra/base_features.py,sha256=qN7uVuAe2nRDvn0gFXnVt8IfWaOY_x46uJqC2m3Cqbo,2112
+morra/base_parser.py,sha256=lRS14ZYW8GbBqSza3w8qReGL92Q8EsBpx5HjCO8H8IM,36984
+morra/features.py,sha256=MaZQJvmQq4CDE_MBhop7T0QVUNp4I6mHdhBL-oyJ0V0,7315
+morra/features2.py,sha256=_uMqRh-_HBZ1BV6EhFjRGfiJ3waCUIODJmVnGRwyCco,9564
+morra/features_ne.py,sha256=PwHUHElIDtxzKwuh0SiMdn7IflKMt0PQb-iyjePkTy8,7478
+morra/morph_ensemble.py,sha256=AWRKnVJkan_PKXKm5QH3M8fh_Vs6xErQG2-_Q_6BVUw,10628
+morra/morph_parser.py,sha256=MYIaAK1CvMOBGSvaOI5jpV9ijvcIPnC5CJnYR118lQE,61665
+morra/morph_parser2.py,sha256=17-QuG5QmisWr_f4euLH-QOZ5Bb1rOEG-6WhvVO1MTc,53848
+morra/morph_parser3.py,sha256=L1xnwJCkomMtUOLZ9OYR4g0TjG-4Cf-EmrkQoEDz-YY,15306
+morra/morph_parser_ne.py,sha256=v14kidqtzyX6teD6y8t0FW7dNUsmz1L9nqZSO4ZQ1xA,66171
+morra-1.0.6.dist-info/LICENSE,sha256=RTbsYWce8UG-sSMHhcJ7GJ5GbZfR6vqoVDgft_TJqnQ,1524
+morra-1.0.6.dist-info/METADATA,sha256=2L7ORt5X5HqwEnpYzTyJF_2dr8ikvlWnDIaukh4eYdA,3798
+morra-1.0.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+morra-1.0.6.dist-info/top_level.txt,sha256=3BdZQEDMbWSfldaf0vnxEk1qgM55k60ReBE8eOcnExA,6
+morra-1.0.6.dist-info/RECORD,,
