@@ -1,0 +1,41 @@
+{
+  "sounds": {
+    "0": {
+      "message": "Begin Working! {count}-1",
+      "sound_filename": "silent.mp3",
+    },
+    "25m":{
+    "message": "It's time to finish work. Let's time a break.",
+    "sound_filename": "warning.mp3",
+  },
+    "30m":{
+    "message": "It's time to finish the break. Let's start work. {count}-2",
+    "sound_filename": "warning.mp3",
+  },
+    "55m":{
+    "message": "It's time to finish work. Let's time a break.",
+    "sound_filename": "warning.mp3",
+  },
+  "60m": {
+    "message": "It's time to finish the break. Let's start work. {count}-3",
+    "sound_filename": "warning.mp3",
+  },
+  "85m": {
+    "message": "It's time to finish work. Let's time a break.",
+    "sound_filename": "warning.mp3",
+  },
+  "90m": {
+    "message": "It's time to finish the break. Let's start work. {count}-4",
+    "sound_filename": "warning.mp3",
+  },
+  "115m": {
+    "message": "It's time to finish work. Let's time a long break.",
+    "sound_filename": "warning.mp3",
+  },
+  "145m": {
+    "message": "",
+    "sound_filename": "silent.mp3",
+  },
+ },
+  "loop": 2
+}
