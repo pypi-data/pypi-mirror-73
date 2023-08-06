@@ -1,0 +1,13 @@
+quart_session/__init__.py,sha256=eGUaJbBZ1s837W91L5GdtsYuIma3ILmGy7Go9CL_gjE,5621
+quart_session/sessions.py,sha256=zpSADHV46J4CL0stjL7uNqtnLKiJsCKpkPmsezqaJI8,12926
+quart_session/redis_trio/README.md,sha256=xcwnGCDZz6WXRWthOcNDgFlCgdQYXw5fF42vFwGEeRE,899
+quart_session/redis_trio/__init__.py,sha256=tvc8EWwRh7b8Fxa-TR9pJ0tnAFdZGdhczFi-X_-vzFM,353
+quart_session/redis_trio/client.py,sha256=vqFRRFP7JkGXkhpHeni-UuBv7GFgU7yFrkXvQFeHVi8,2522
+quart_session/redis_trio/connection.py,sha256=y30ux-LDqBX9v_6SdFY1MpHwYFppxh3NoPof7etM4xU,3875
+quart_session/redis_trio/errors.py,sha256=BKvUreBpwxG_FuDDaxia6rXl7HvzzqZrxID4To_UvPE,749
+quart_session/redis_trio/serialization.py,sha256=eMinGP4qJxNOugn90eC1QosKcigqMofG6IFrPgUpvg4,1344
+Quart_Session-1.0.1.dist-info/LICENSE,sha256=XjHydi8VQ1_xLPILII8_xj7xOAWo5QfiMxWeAGmMhoc,1482
+Quart_Session-1.0.1.dist-info/METADATA,sha256=saUOqJXvhx_3sPYVuIWapJgWs1nW6jbj9WZtjS0Ew58,6095
+Quart_Session-1.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+Quart_Session-1.0.1.dist-info/top_level.txt,sha256=ZAxNaG2a_Z9qZtnRfIwqix8tgULSIivnBUQYbuR_H_I,14
+Quart_Session-1.0.1.dist-info/RECORD,,
