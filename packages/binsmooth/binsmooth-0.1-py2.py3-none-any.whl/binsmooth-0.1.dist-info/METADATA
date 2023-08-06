@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: binsmooth
+Version: 0.1
+Summary: binsmooth - Better Estimates from Binned Income Data.
+Home-page: http://github.com/sjtrny/binsmooth
+License: UNKNOWN
+Author: Stephen Tierney
+Author-email: sjtrny@gmail.com
+Classifier: License :: OSI Approved :: MIT License
