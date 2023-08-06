@@ -1,0 +1,6 @@
+cone.app
+setuptools
+yafowil.widget.cron
+
+[test]
+zope.testrunner
