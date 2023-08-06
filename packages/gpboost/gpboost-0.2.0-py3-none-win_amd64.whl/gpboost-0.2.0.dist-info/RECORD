@@ -1,0 +1,21 @@
+gpboost/VERSION (whsigris-Erazer's conflicted copy 2020-07-14).txt,sha256=nHoE8FMMFXdl2qjzGU0tG9XOQ7ZoQgNKO_xFPVyMbNA,7
+gpboost/VERSION.txt,sha256=xYp0n3D14bpTlOvNv8-gL6k4xKFz2OQebEdqfIsqzd0,7
+gpboost/__init__.py,sha256=1tKzFC9g5xO1JX8i_HRBpJBbkfvwVx92T8gXWT_14Pk,1342
+gpboost/basic (whsigris-Erazer's conflicted copy 2020-07-14).py,sha256=f5Z93DDjzRCHM7eY1mMzGXItTBPV3nq70dXUPKgNPw0,180076
+gpboost/basic.py,sha256=36G2pV79-P-ytu3k0ewvjBdrxe5mGgenuQL5LAXBdek,181196
+gpboost/callback.py,sha256=Z9NelPcvW3WRLUGjSTm79AfxKHX-E4YwkFvm9VOybpg,9650
+gpboost/compat.py,sha256=1FmzX3HjwdM8zuieVglAa9afui5jZYLLsjTMrLMBHCE,4835
+gpboost/engine.py,sha256=V4fdY8lPCMlUTaT0fhTTVtwfzz1KlyzP6SMSWr1eJkg,36227
+gpboost/lib_gpboost.dll,sha256=0Ho3HFa9KJjnFhS7QXaQu7362je8npgIDXMFFuOpbvs,1900032
+gpboost/libpath.py,sha256=sYLmRIXq5qTQywoiN4MX9ozvkxupr0SO5MEXGB6mRBw,1556
+gpboost/plotting.py,sha256=hvqocUAdqH48hZGa203vifgwKHPAsP7hhfuiXFGYMRI,25304
+gpboost/sklearn.py,sha256=H_ODTJBUKOEhM52CxWL1pFrpGcKexWgvgJOsC6q0WDo,48036
+gpboost-0.2.0.dist-info/LICENSE,sha256=M_owFm-Yzf4Rhj9GZ1NW3600y4AcFGB4YUUbaTvTrTE,12065
+gpboost-0.2.0.dist-info/METADATA,sha256=pqimaWPqwlNyJ9taYzHBfc6S31qnE9jTODBVbE2JVBI,5999
+gpboost-0.2.0.dist-info/PKG-INFO (whsigris-Erazer's conflicted copy 2020-07-14),sha256=ezPmP5Qf3MA4IAaqtV3j_kI1tBw5nM8i9PFoQBflccE,6812
+gpboost-0.2.0.dist-info/SOURCES (whsigris-Erazer's conflicted copy 2020-07-14).txt,sha256=N-bXreihTsUIEbZFEBj6jTFn8B76IdpOwHsYM4WgqcQ,5450
+gpboost-0.2.0.dist-info/WHEEL,sha256=4MWKnU79UwuVmfDf_0O5xTF3JjAgsSzJkvi7FI0hFSI,103
+gpboost-0.2.0.dist-info/not-zip-safe (whsigris-Erazer's conflicted copy 2020-07-14),sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gpboost-0.2.0.dist-info/requires (whsigris-Erazer's conflicted copy 2020-07-14).txt,sha256=A5OsMlwgbY2fU0zfMZEZ6DMmw1oTOAx9LKXzRo7cINM,33
+gpboost-0.2.0.dist-info/top_level.txt,sha256=rPle8fhF4Rn9f0hnFg1aCjo_MPM1zly2u8yIoANpPh0,8
+gpboost-0.2.0.dist-info/RECORD,,
