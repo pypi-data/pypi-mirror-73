@@ -1,0 +1,13 @@
+psycopg2
+pyodbc
+tornado
+Flask
+Flask_Cors
+Flask_RESTful
+redis
+six
+pymediainfo
+itsdangerous
+Werkzeug
+requests
+pycrypto
