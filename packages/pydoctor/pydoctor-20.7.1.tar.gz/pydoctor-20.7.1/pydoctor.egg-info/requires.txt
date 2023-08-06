@@ -1,0 +1,10 @@
+incremental
+appdirs
+CacheControl[filecache]
+Twisted
+requests
+six
+astor
+
+[:python_version < "3.4"]
+enum34
