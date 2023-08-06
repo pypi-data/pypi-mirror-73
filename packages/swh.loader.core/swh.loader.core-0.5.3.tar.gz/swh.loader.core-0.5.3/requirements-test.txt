@@ -1,0 +1,6 @@
+pytest
+pytest-mock
+requests_mock
+swh-core[testing]
+swh-scheduler[testing]
+swh-storage[testing]
