@@ -1,0 +1,552 @@
+propre
+	schoon
+	eigen
+	rein
+	
+
+balle
+	kogel
+	bal
+	kaf
+	
+
+tourniquet
+	draaideur
+	draaihek
+	carrousel
+	
+
+argenterie
+	bestek
+	tafelzilver
+	zilverwerk
+	
+
+sous
+	onder
+	beneden
+	in
+	
+
+sceptique
+	sceptisch
+	twijfelzuchtig
+	scepticus
+	
+
+indécis
+	besluiteloos
+	ongedefinieerd
+	willekeurig
+	
+
+panier
+	mand
+	korf
+	ben
+	
+
+récipient
+	bak
+	pot
+	doos
+	
+
+raconter
+	vertellen
+	verhalen
+	debiteren
+	
+
+démanteler
+	ontmantelen
+	demonteren
+	afbreken
+	
+
+dénoncer
+	aangeven
+	verklikken
+	aanbrengen
+	
+
+reposer
+	rusten
+	slapen
+	uitrusten
+	
+
+athée
+	atheïst
+	godloochenaar
+	atheïstisch
+	
+
+léthargie
+	lethargie
+	winterslaap
+	futloosheid
+	
+
+houle
+	deining
+	zeegang
+	zeedeining
+	
+
+fainéant
+	lui
+	luiaard
+	leegloper
+	
+
+frêle
+	tenger
+	zwak
+	iel
+	
+
+signifiant
+	significant
+	belangrijk
+	betekenaar
+	
+
+rachat
+	inlossing
+	overname
+	afkoopsom
+	
+
+gracieux
+	gracieus
+	bevallig
+	sierlijk
+	
+
+homonyme
+	homoniem
+	gelijknamig
+	naamgenoot
+	
+
+calculette
+	calculator
+	rekenmachine
+	zakrekenmachine
+	
+
+perspective
+	perspectief
+	vooruitzicht
+	prospect
+	
+
+chevalet
+	schildersezel
+	ezel
+	kam
+	
+
+horrible
+	afgrijselijk
+	afschuwelijk
+	ijselijk
+	
+
+envers
+	tegen
+	aan
+	bij
+	
+
+téter
+	zuigen
+	lurken
+	zogen
+	
+
+urinoir
+	urinoir
+	pisbak
+	piesbak
+	
+
+loi
+	wet
+	theorema
+	wetgeving
+	
+
+élémentaire
+	elementair
+	elementaal
+	rudimentair
+	
+
+fidèlement
+	betrouwbaar
+	eerlijk
+	oprecht
+	
+
+grogne
+	geklaag
+	gelamenteer
+	ontevredenheid
+	
+
+ragot
+	roddel
+	kletspraatje
+	achterklap
+	
+
+transitoire
+	voorbijgaand
+	transitoir
+	eindig
+	
+
+nier
+	ontkennen
+	loochenen
+	verloochenen
+	
+
+tampon
+	buffer
+	tampon
+	stootkussen
+	
+
+alerte
+	alarm
+	kwiek
+	levendig
+	
+
+diversité
+	diversiteit
+	verscheidenheid
+	afwisseling
+	
+
+époques
+	maandbloeding
+	maandstonden
+	menstruatie
+	
+
+rimer
+	rijmen
+	dichten
+	verzen schrijven
+	
+
+diminution
+	vermindering
+	afname
+	besnoeien
+	
+
+légaliser
+	legaliseren
+	wettigen
+	legitimiseren
+	
+
+suite
+	gevolg
+	rij
+	suite
+	
+
+piston
+	zuiger
+	piston
+	plunjer
+	
+
+nouvelle
+	nieuw
+	novelle
+	vers
+	
+
+peinture
+	verf
+	schilderij
+	schilderkunst
+	
+
+estime
+	achting
+	tel
+	aanzien
+	
+
+corruption
+	corruptie
+	omkoping
+	omkoperij
+	
+
+assorti
+	geassorteerd
+	gemengd
+	gemixed
+	
+
+lyre
+	lier
+	lyra
+	Lier
+	
+
+amateur
+	amateur
+	dilettant
+	liefhebber
+	
+
+psychologue
+	psycholoog
+	Psychologe
+	Psycholoog
+	
+
+déshabiller
+	uitkleden
+	ontkleden
+	negligé
+	
+
+mail
+	e-mail
+	winkelcentrum
+	elektronische post
+	
+
+flexible
+	flexibel
+	buigzaam
+	soepel
+	
+
+substituer
+	vervangen
+	inboeten
+	substitueren
+	
+
+décrire
+	beschrijven
+	omschrijven
+	afbeelden
+	
+
+fraîche
+	vers
+	fris
+	grof
+	
+
+culture
+	cultuur
+	teelt
+	beschaving
+	
+
+imagination
+	verbeelding
+	verbeeldingskracht
+	fantasie
+	
+
+sonnette
+	bel
+	klok
+	schel
+	
+
+indisponible
+	beschikbaar
+	niet
+	verkrijgbaar
+	
+
+monter
+	stijgen
+	instappen
+	klimmen
+	
+
+notamment
+	onder andere
+	onder meer
+	zoal
+	
+
+brutal
+	bruut
+	ruw
+	geweldig
+	
+
+froisser
+	kreukelen
+	verfrommelen
+	verkreukelen
+	
+
+cybernétique
+	cybernetica
+	cybernetika
+	cybernetisch
+	
+
+enchaînement
+	aaneenschakeling
+	opeenvolging
+	volgorde
+	
+
+concevoir
+	ontvangen
+	ontwerpen
+	bevatten
+	
+
+interdit
+	verboden
+	interdict
+	interdictie
+	
+
+voulu
+	gewild
+	bedoeld
+	bewust
+	
+
+martyr
+	martelaar
+	martelares
+	bloedgetuige
+	
+
+respirer
+	ademen
+	ademhalen
+	inademen
+	
+
+corail
+	koraal
+	koraalrif
+	koraalrood
+	
+
+faune
+	fauna
+	faun
+	wildleven
+	
+
+pan
+	bonk
+	brok
+	eindje
+	
+
+hall
+	hal
+	zaal
+	inkomhal
+	
+
+lot
+	lot
+	bundel
+	kavel
+	
+
+pimbêche
+	aanstelster
+	kreng
+	verwaand mens
+	
+
+combustible
+	brandstof
+	brandbaar
+	ontvlambaar
+	
+
+contemporain
+	eigentijds
+	tijdgenoot
+	hedendaags
+	
+
+plaquette
+	bloedplaatje
+	plaquette
+	plaat
+	
+
+précis
+	precies
+	juist
+	minutieus
+	
+
+retraite
+	pensioen
+	aftocht
+	pensionering
+	
+
+syllabe
+	lettergreep
+	syllabe
+	syllabel
+	
+
+muscle
+	spier
+	spierbal
+	spieren
+	
+
+marmotte
+	marmot
+	bosmarmot
+	marmotten
+	
+
+ha
+	ha
+	nou
+	wel
+	
+
+carcasse
+	karkas
+	geraamte
+	skelet
+	
+
+achèvement
+	afwerking
+	voltooiing
+	afronding
+	
+
+hacher
+	hakken
+	houwen
+	kappen
+	
+
