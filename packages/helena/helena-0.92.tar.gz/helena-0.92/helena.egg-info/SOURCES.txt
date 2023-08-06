@@ -1,0 +1,8 @@
+README.md
+setup.py
+helena.egg-info/PKG-INFO
+helena.egg-info/SOURCES.txt
+helena.egg-info/dependency_links.txt
+helena.egg-info/not-zip-safe
+helena.egg-info/top_level.txt
+src/main.cpp
