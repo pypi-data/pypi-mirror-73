@@ -1,0 +1,10 @@
+jgf/__init__.py,sha256=btdWc0gEB2A2y-bPh3A-q2_7_trA8IxRaDQW7tnr0O4,136
+jgf/conmat.py,sha256=XHvaIuO7mcpQga0zNmRsPpN_mNwKE3LCiVCON20ozIM,9278
+jgf/core.py,sha256=YhKjqn8w4ejGQU0kNeB9J_f5EBoe6h_dJ6JSPpx12eI,11259
+jgf/igraph.py,sha256=J_b4xEDk3PBZxLOtQWNav3SKPoOw8yPmwhIhDOlLN0M,4361
+jgf/networkx.py,sha256=M9T71qJKxRTvwA1dsl-WFSS3c9-SVY6mC6Y1aQidBek,4457
+jgf-0.2.1.dist-info/LICENSE,sha256=XccvTkaeEfqoE7mxYmwcNOPgeJwI9FH_ohVHSdI-AfI,1080
+jgf-0.2.1.dist-info/METADATA,sha256=oBqXudlonYwC8EaWapVqWcv_sAtn5yF__tL02s-bU2U,2637
+jgf-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jgf-0.2.1.dist-info/top_level.txt,sha256=4qYhSZOe7nbqghijNiUut2dQ0NXui_44pxZF_0SPbPA,4
+jgf-0.2.1.dist-info/RECORD,,
