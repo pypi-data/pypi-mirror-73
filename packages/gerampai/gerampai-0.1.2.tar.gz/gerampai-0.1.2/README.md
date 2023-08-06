@@ -1,0 +1,52 @@
+# GERAMPAI
+GERAMPAI (grampy atau instagram-python) merupakan tools untuk mengekstrak feed user instagram menjadi CSV. GERAMPAI merupakan implementasi dari package [instagram-private-api](https://github.com/ping/instagram_private_api).
+
+## Instalasi
+`pip install gerampai`
+
+## Pengunaan
+```bash
+usage: gerampai [-h] [--delay DELAY] [--page-size PAGE_SIZE]
+                [--max-retry MAX_RETRY]
+                username
+```
+
+Contoh Pengunaan:
+
+```bash
+user@host $ gerampai lalalalaliz_m --page-size 25
+```
+
+Output:
+
+```
+   ______                                      _
+  / ____/__  _________ _____ ___  ____  ____ _(_)
+ / / __/ _ \/ ___/ __ `/ __ `__ \/ __ \/ __ `/ /
+/ /_/ /  __/ /  / /_/ / / / / / / /_/ / /_/ / /
+\____/\___/_/   \__,_/_/ /_/ /_/ .___/\__,_/_/
+          Instagram Extractor /_/ Ver. 0.1.1
+
+User Profile
+Username           : @lalalalaliz_m
+Full Name          : LALISA MANOBAN�
+Bussines Account   : True
+Bussiness Category : Creators & Celebrities
+Private            : False
+Verified           : False
+Website            : https://youtu.be/je_R3gEtDbw
+Total Post         : 432
+Followers          : 37338
+Following          : 138
+Biography          : 리사�~ Hello BLINKS�❤ Fan account for @lalalalisa_m • lead rapper and main dancer� Always support @blackpinkofficial
+
+Extracting 432 of 432 data (100.00%)
+Save results to lalalalaliz_m.csv and lalalalaliz_m-profile.txt
+```
+
+## Results
+Aplikasi akan menghasilkan 2 file yaitu `username-profile.txt` untuk data profile user dan `username.csv` untuk daftar postingan user dalam format csv dengan koma (`,`) sebagai delimiter. 
+Untuk kolom `taken_at` dan `created_time` adalah waktu dalam format UTC, sehingga perlu diubah secara manual jika menginginkan waktu lokal.
+
+## Lisensi
+Released under MIT License
