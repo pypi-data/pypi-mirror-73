@@ -1,0 +1,10 @@
+setup.py
+victor_distributions/Binomialdistribution.py
+victor_distributions/Gaussiandistribution.py
+victor_distributions/Generaldistribution.py
+victor_distributions/__init__.py
+victor_distributions.egg-info/PKG-INFO
+victor_distributions.egg-info/SOURCES.txt
+victor_distributions.egg-info/dependency_links.txt
+victor_distributions.egg-info/not-zip-safe
+victor_distributions.egg-info/top_level.txt
