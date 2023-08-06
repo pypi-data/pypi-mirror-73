@@ -1,0 +1,11 @@
+Flask
+numpy
+tensorflow>=2.1.0
+torch
+torchvision
+transformers
+elasticsearch>=7.7.1
+pyyaml>=3.13
+
+[test]
+pytest
