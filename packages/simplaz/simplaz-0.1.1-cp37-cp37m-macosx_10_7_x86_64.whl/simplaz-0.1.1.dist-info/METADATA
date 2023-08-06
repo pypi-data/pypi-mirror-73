@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: simplaz
+Version: 0.1.1
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: toml==0.10.0
+Summary: A simple Python package to read LAZ files (LAS too).
+Home-Page: https://github.com/hugoledoux/simplaz
+Author: Hugo Ledoux <h.ledoux@tudelft.nl>
+Author-Email: Hugo Ledoux <h.ledoux@tudelft.nl>
+License: MIT
