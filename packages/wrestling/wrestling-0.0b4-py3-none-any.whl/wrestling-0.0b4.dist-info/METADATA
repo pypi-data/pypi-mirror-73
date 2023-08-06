@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: wrestling
+Version: 0.0b4
+Summary: A package for wrestling statistics and visualizations.
+Home-page: https://github.com/nanthony007/wrestling/
+Author: Nicholas Anthony
+Author-email: nanthony007@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: aenum
+Requires-Dist: attrs
+Requires-Dist: wheel
+
+# wrestling
+Python package for wrestling statistics and visualizations.
+
+### Installation
+
+pip install wrestling
+
+
+### Example
+
+from wrestling import CollegeMatch
+
+
