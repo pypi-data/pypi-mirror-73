@@ -1,0 +1,8 @@
+README.md
+setup.py
+logutilities/__init__.py
+logutilities/functions.py
+logutilities.egg-info/PKG-INFO
+logutilities.egg-info/SOURCES.txt
+logutilities.egg-info/dependency_links.txt
+logutilities.egg-info/top_level.txt
