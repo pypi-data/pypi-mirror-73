@@ -1,0 +1,16 @@
+build/lib/dbt/adapters/splitgraph/__init__.py,sha256=TemNdEEQ9sfr0PVeIDrMoyvfOSok0xvOd4NxUeWQIlg,456
+build/lib/dbt/adapters/splitgraph/connections.py,sha256=1470qTqZXcxBuXSRG9jXfL5XFHBU-sNwFeISEEX7vBs,3056
+build/lib/dbt/adapters/splitgraph/impl.py,sha256=8K7IGiYet__SlDMqSXKm5KMt0JquM4lPaamCnqaI3qg,216
+build/lib/dbt/include/splitgraph/__init__.py,sha256=vBGWeG-dHHkimfnX8axBJ4IgAowFw8xADmo6Auzn2xc,52
+dbt/adapters/splitgraph/__init__.py,sha256=TemNdEEQ9sfr0PVeIDrMoyvfOSok0xvOd4NxUeWQIlg,456
+dbt/adapters/splitgraph/connections.py,sha256=1470qTqZXcxBuXSRG9jXfL5XFHBU-sNwFeISEEX7vBs,3056
+dbt/adapters/splitgraph/impl.py,sha256=8K7IGiYet__SlDMqSXKm5KMt0JquM4lPaamCnqaI3qg,216
+dbt/include/splitgraph/__init__.py,sha256=vBGWeG-dHHkimfnX8axBJ4IgAowFw8xADmo6Auzn2xc,52
+dbt/include/splitgraph/dbt_project.yml,sha256=zfSRIDI9zIvInAMDCOUCHei3rUANAUL-Ow4y7wDg6-I,258
+dbt/include/splitgraph/macros/adapters.sql,sha256=78BQYSaeAzR7LcBOYPA4koHT0j9DwHWVcYQOUFgRbDU,1905
+dbt/include/splitgraph/macros/catalog.sql,sha256=Anty2vYsn564nR8_69yBBUC1DgghdLBUbHYh_SGKB2Y,148
+dbt/include/splitgraph/macros/relations.sql,sha256=9kL5BMOTkm6ZB1ZCSdJ2YeU5o8f1ampOAUAABrCKHkE,103
+dbt_splitgraph-0.0.1.dist-info/METADATA,sha256=QWTGAUNKxhO5DFuxESt_QZAbc22x4-BEX41l995bzO0,361
+dbt_splitgraph-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dbt_splitgraph-0.0.1.dist-info/top_level.txt,sha256=ffGq-68baEqirmCUWlas874sDw9ZHo_1O2VTBSk4ZCQ,30
+dbt_splitgraph-0.0.1.dist-info/RECORD,,
