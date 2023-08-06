@@ -1,0 +1,10 @@
+pandas_utils/__init__.py,sha256=YUqiesis7t_CcpW-zLpZBajVUULFv4pcw9W3lC0Yxsc,188
+pandas_utils/connection.py,sha256=6UJtalaNnJhiXTPFIm7ki8qXIfj16W2TjWeDDBZEna4,488
+pandas_utils/read.py,sha256=5KM3hHaYdf0324_YPlrShw2h23ZJqBXmGcXeEY9fXaQ,1169
+pandas_utils/utils.py,sha256=V-Ex4Y51EE3H62NmMTzs9l79iGZko6WAw7hx1pG-9Tk,2640
+pandas_utils/write.py,sha256=34sjwHQkKgyr0iGY9b8ZG1Vmf72DklkK3YTcXbiwYFg,1894
+pandas_utils_pkg-0.0.1.dist-info/LICENSE,sha256=bIA14Lcosk5lF75JppCkN9Ufu2m8dGGQ0DWKb7jHArA,1069
+pandas_utils_pkg-0.0.1.dist-info/METADATA,sha256=9MG4KNB3FowE5QbPk5-Q40IKd1bsJ1tc9VsVXKO_uIs,1459
+pandas_utils_pkg-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pandas_utils_pkg-0.0.1.dist-info/top_level.txt,sha256=BSmqDTm7EXoWPghH5p8j4lpcLAv7vi36HjyFYbUO32w,13
+pandas_utils_pkg-0.0.1.dist-info/RECORD,,
