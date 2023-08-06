@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: recommenderutils
+Version: 0.1.1
+Summary: Recommender system for Crisp ML
+Home-page: https://gitlab.com/brewedlogic/hq-pos/crisp-ml/-/tree/master/recommender-builder
+Author: Ron Medina
+Author-email: ron@brewedlogic.com
+License: UNKNOWN
+Description: 
+        
+        
+        
+        
+        ---
+        
+        Copyright (c) 2020. BrewedLogic, Inc.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
