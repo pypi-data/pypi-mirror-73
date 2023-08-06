@@ -1,0 +1,5 @@
+numpy
+scipy
+boolean.py
+networkx
+scikit-umfpack
