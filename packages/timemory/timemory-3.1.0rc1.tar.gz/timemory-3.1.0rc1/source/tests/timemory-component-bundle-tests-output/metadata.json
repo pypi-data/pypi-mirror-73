@@ -1,0 +1,777 @@
+{
+  "timemory": {
+    "metadata": {
+      "settings": {
+        "cereal_class_version": 0,
+        "TIMEMORY_SUPPRESS_PARSING": false,
+        "TIMEMORY_ENABLED": true,
+        "TIMEMORY_AUTO_OUTPUT": true,
+        "TIMEMORY_COUT_OUTPUT": true,
+        "TIMEMORY_FILE_OUTPUT": true,
+        "TIMEMORY_TEXT_OUTPUT": true,
+        "TIMEMORY_JSON_OUTPUT": true,
+        "TIMEMORY_DART_OUTPUT": true,
+        "TIMEMORY_TIME_OUTPUT": false,
+        "TIMEMORY_PLOT_OUTPUT": true,
+        "TIMEMORY_DIFF_OUTPUT": false,
+        "TIMEMORY_FLAMEGRAPH_OUTPUT": true,
+        "TIMEMORY_VERBOSE": 0,
+        "TIMEMORY_DEBUG": false,
+        "TIMEMORY_BANNER": false,
+        "TIMEMORY_FLAT_PROFILE": false,
+        "TIMEMORY_TIMELINE_PROFILE": false,
+        "TIMEMORY_COLLAPSE_THREADS": true,
+        "TIMEMORY_COLLAPSE_PROCESSES": true,
+        "TIMEMORY_MAX_DEPTH": 65535,
+        "TIMEMORY_TIME_FORMAT": "%F_%I.%M_%p",
+        "TIMEMORY_PRECISION": -1,
+        "TIMEMORY_WIDTH": -1,
+        "TIMEMORY_MAX_WIDTH": 120,
+        "TIMEMORY_SCIENTIFIC": true,
+        "TIMEMORY_TIMING_PRECISION": -1,
+        "TIMEMORY_TIMING_WIDTH": -1,
+        "TIMEMORY_TIMING_UNITS": "",
+        "TIMEMORY_TIMING_SCIENTIFIC": false,
+        "TIMEMORY_MEMORY_PRECISION": -1,
+        "TIMEMORY_MEMORY_WIDTH": -1,
+        "TIMEMORY_MEMORY_UNITS": "",
+        "TIMEMORY_MEMORY_SCIENTIFIC": false,
+        "TIMEMORY_OUTPUT_PATH": "timemory-component-bundle-tests-output",
+        "TIMEMORY_OUTPUT_PREFIX": "",
+        "TIMEMORY_INPUT_PATH": "",
+        "TIMEMORY_INPUT_PREFIX": "",
+        "TIMEMORY_INPUT_EXTENSIONS": "json,xml",
+        "TIMEMORY_DART_TYPE": "",
+        "TIMEMORY_DART_COUNT": 1,
+        "TIMEMORY_DART_LABEL": true,
+        "TIMEMORY_CPU_AFFINITY": false,
+        "TIMEMORY_MAX_THREAD_BOOKMARKS": 50,
+        "TIMEMORY_TARGET_PID": 33359,
+        "TIMEMORY_STACK_CLEARING": true,
+        "TIMEMORY_ADD_SECONDARY": true,
+        "TIMEMORY_THROTTLE_COUNT": 10000,
+        "TIMEMORY_THROTTLE_VALUE": 10000,
+        "TIMEMORY_GLOBAL_COMPONENTS": "",
+        "TIMEMORY_TUPLE_COMPONENTS": "",
+        "TIMEMORY_LIST_COMPONENTS": "",
+        "TIMEMORY_OMPT_COMPONENTS": "",
+        "TIMEMORY_MPIP_COMPONENTS": "",
+        "TIMEMORY_TRACE_COMPONENTS": "",
+        "TIMEMORY_PROFILER_COMPONENTS": "",
+        "TIMEMORY_COMPONENTS": "",
+        "TIMEMORY_MPI_INIT": false,
+        "TIMEMORY_MPI_FINALIZE": false,
+        "TIMEMORY_MPI_THREAD": false,
+        "TIMEMORY_MPI_THREAD_TYPE": "",
+        "TIMEMORY_UPCXX_INIT": true,
+        "TIMEMORY_UPCXX_FINALIZE": true,
+        "TIMEMORY_PAPI_MULTIPLEXING": true,
+        "TIMEMORY_PAPI_FAIL_ON_ERROR": false,
+        "TIMEMORY_PAPI_QUIET": false,
+        "TIMEMORY_PAPI_EVENTS": "",
+        "TIMEMORY_PAPI_ATTACH": false,
+        "TIMEMORY_PAPI_OVERFLOW": 0,
+        "TIMEMORY_CUDA_EVENT_BATCH_SIZE": 5,
+        "TIMEMORY_NVTX_MARKER_DEVICE_SYNC": true,
+        "TIMEMORY_CUPTI_ACTIVITY_LEVEL": 1,
+        "TIMEMORY_CUPTI_ACTIVITY_KINDS": "",
+        "TIMEMORY_CUPTI_EVENTS": "",
+        "TIMEMORY_CUPTI_METRICS": "",
+        "TIMEMORY_CUPTI_DEVICE": 0,
+        "TIMEMORY_ROOFLINE_MODE": "op",
+        "TIMEMORY_ROOFLINE_MODE_CPU": "op",
+        "TIMEMORY_ROOFLINE_MODE_GPU": "op",
+        "TIMEMORY_ROOFLINE_EVENTS_CPU": "",
+        "TIMEMORY_ROOFLINE_EVENTS_GPU": "",
+        "TIMEMORY_ROOFLINE_TYPE_LABELS": false,
+        "TIMEMORY_ROOFLINE_TYPE_LABELS_CPU": false,
+        "TIMEMORY_ROOFLINE_TYPE_LABELS_GPU": false,
+        "TIMEMORY_INSTRUCTION_ROOFLINE": false,
+        "TIMEMORY_ERT_NUM_THREADS": 0,
+        "TIMEMORY_ERT_NUM_THREADS_CPU": 12,
+        "TIMEMORY_ERT_NUM_THREADS_GPU": 1,
+        "TIMEMORY_ERT_NUM_STREAMS": 1,
+        "TIMEMORY_ERT_GRID_SIZE": 0,
+        "TIMEMORY_ERT_BLOCK_SIZE": 1024,
+        "TIMEMORY_ERT_ALIGNMENT": 0,
+        "TIMEMORY_ERT_MIN_WORKING_SIZE": 0,
+        "TIMEMORY_ERT_MIN_WORKING_SIZE_CPU": 64,
+        "TIMEMORY_ERT_MIN_WORKING_SIZE_GPU": 10000000,
+        "TIMEMORY_ERT_MAX_DATA_SIZE": 0,
+        "TIMEMORY_ERT_MAX_DATA_SIZE_CPU": 0,
+        "TIMEMORY_ERT_MAX_DATA_SIZE_GPU": 500000000,
+        "TIMEMORY_ERT_SKIP_OPS": "",
+        "TIMEMORY_ALLOW_SIGNAL_HANDLER": true,
+        "TIMEMORY_ENABLE_SIGNAL_HANDLER": false,
+        "TIMEMORY_ENABLE_ALL_SIGNALS": false,
+        "TIMEMORY_DISABLE_ALL_SIGNALS": false,
+        "TIMEMORY_NODE_COUNT": 0,
+        "TIMEMORY_DESTRUCTOR_REPORT": false,
+        "TIMEMORY_PYTHON_EXE": "/opt/local/bin/python3.7",
+        "TIMEMORY_COMMAND_LINE": [
+          "/Users/jrmadsen/devel/c++/qt-timemory/clang-MinimumSizeRelease/source/tests/component_bundle_tests"
+        ],
+        "TIMEMORY_ENVIRONMENT": [
+          "SHELL=/bin/bash",
+          "LSCOLORS=gxfxcxdxbxegedabagacad",
+          "LESS=-XFRmgiJ --underline-special",
+          "M_PI=3.141592653589793238462643383279502884197169399375105820974944592307816406286",
+          "XPC_FLAGS=0x0",
+          "HISTCONTROL=ignoreboth:erasedups",
+          "TERM_PROGRAM_VERSION=433",
+          "DEFAULT_LIBRARY_PATH=",
+          "OPT_DIR=/opt",
+          "PYTHON_VERSION=3.6",
+          "Spack_ROOT_DIR=/opt/spack",
+          "CTEST_TOKEN=648d185989bd098e2b176126c546ad93",
+          "INTEL_MKL_LIBS=/opt/intel/mkl/lib/intel64 /opt/intel/mkl/lib",
+          "JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk12/Contents/Home",
+          "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.a82TqKhelr/Listeners",
+          "SVN_EDITOR=emacs",
+          "BASH_CONFIG_ROOT_DIR=/Users/jrmadsen",
+          "TERM_SESSION_ID=773B8F01-3C2A-4FDE-AF7D-D506514E93B5",
+          "BASH_CONFIG_DIR=/Users/jrmadsen/.bash_config/darwin",
+          "CTEST_SITE=JRM-macOS-DOE",
+          "ENV=/usr/local/modules/init/profile.sh",
+          "PWD=/Users/jrmadsen/devel/c++/qt-timemory/clang-MinimumSizeRelease",
+          "LOGNAME=jrmadsen",
+          "MODULESHOME=/usr/local/modules",
+          "MANPATH=/opt/spack/share/man:/usr/local/modules/share/man:/opt/local/man:/opt/local/share/man:/usr/local/share/man:/usr/share/man:/opt/local/Library/Frameworks/Python.framework/Versions/3.6/share/man:/opt/geant4/g4svn/share/man:/usr/share/man:/usr/local/share/man:/usr/local/modules/share/man:/usr/local/MacGPG2/share/man:/opt/toast/deps/toast-deps/2.2.0.dev759_aux/share/man:/opt/madthreading/3.0.0/share/man:/opt/local/share/texmf-texlive/doc/man:/opt/local/share/perl5.26/man:/opt/local/share/perl5.24/man:/opt/local/share/man:/opt/local/libexec/root6/share/man:/opt/local/libexec/llvm-5.0/share/man:/opt/local/libexec/llvm-4.0/share/man:/opt/local/libexec/llvm-3.9/share/man:/opt/local/libexec/llvm-3.8/share/man:/opt/local/libexec/gnubin/man:/opt/local/Library/Frameworks/Python.framework/Versions/3.6/share/man:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/share/man:/opt/local/Library/Frameworks/Python.framework/Versions/2.6/share/man:/opt/fftw/3.3.7/share/man:/opt/X11/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man",
+          "GOOGLE_APPLICATION_CREDENTIALS=/Users/jrmadsen/.google-cloud/pypi-info-542046f1ea5e.json",
+          "CXX=/opt/local/bin/g++",
+          "VPNUSER=madsen_jr",
+          "MBOX=/var/mail/jrmadsen",
+          "DEFAULT_PYTHON_VERSION=3.6",
+          "HOME=/Users/jrmadsen",
+          "LANG=en_US.UTF-8",
+          "DYLD_LIBRARY_PATH=",
+          "ENABLE_INTEL_MKL=0",
+          "BOOST_VERSION=1.58.0",
+          "DEFAULT_MANPATH=",
+          "SCRIPTS_DIR=/Users/jrmadsen/devel/scripts",
+          "TMPDIR=/var/folders/jc/3bsnzszd1mg94rg1vmk1qvf000299l/T/",
+          "CMAKE_PREFIX_PATH=/opt/spack",
+          "STAPL_NUM_THREADS=1",
+          "DEFAULT_LD_LIBRARY_PATH=",
+          "SPACK_ROOT=/opt/spack",
+          "FORCE_NUM_THREADS=4",
+          "DBUS_LAUNCHD_SESSION_BUS_SOCKET=/private/tmp/com.apple.launchd.1SuBFiq6Ow/unix_domain_listener",
+          "PYTHONPATH=:/usr/local/bin/pyscripts/pypath",
+          "TERM=xterm-256color",
+          "LESSOPEN=| /opt/local/bin/src-hilite-lesspipe.sh %s",
+          "USER=jrmadsen",
+          "LIBRARY_PATH=/opt/local/Library/Frameworks/Python.framework/Versions/3.6/lib:/opt/local/lib:/usr/lib:/usr/local/lib",
+          "LOADEDMODULES=spack/develop",
+          "VISUAL=emacs",
+          "PRECISION=8",
+          "DISPLAY=/private/tmp/com.apple.launchd.ZsY6M1YgIA/org.macports:0",
+          "INCLUDE=:/usr/local/include:/opt/X11/include:/Users/jrmadsen/C++/includes:/Users/jrmadsen/C++/includes/tools",
+          "SHLVL=1",
+          "BASH_ENV=/usr/local/modules/init/bash",
+          "TOAST_NUM_THREADS=4",
+          "PS1_TYPE=2",
+          "XPC_SERVICE_NAME=0",
+          "HOMEBREW_GITHUB_API_TOKEN=57b933a0461ed25f4ca36a92f95309ff4a791341",
+          "LD_LIBRARY_PATH=/opt/local/Library/Frameworks/Python.framework/Versions/3.6/lib:/opt/local/lib:/usr/lib:/usr/local/lib",
+          "PS1=[ \\[\\e[1;33m\\]\\# \\[\\e[0;22m\\]- \\[\\e[1;31m\\]\\u@\\h \\[\\e[0;22m\\]- \\[\\e[1;33m\\]\\@ \\[\\e[0;22m\\]- \\[\\e[1;35m\\]$(totalfilesize)\\[\\e[0;22m\\]: \\[\\e[1;36m\\]$(get_ps1_string) \\[\\e[0;22m\\]] $ \\[\\e[m\\]\\[\\e[0;22m\\]",
+          "OMP_NUM_THREADS=4",
+          "G4ROOT=/opt/geant4",
+          "PATH=/opt/spack/bin:/usr/local/modules/bin:/opt/local/bin:/opt/local/sbin:/bin:/opt/local/bin:/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/jrmadsen/devel/scripts:/bin:/opt/X11/bin:/opt/local/libexec/gnubin:/usr/libexec:/opt/local/Library/Frameworks/Python.framework/Versions/3.6/bin",
+          "HISTIGNORE=&:bg:fg:ll:ls",
+          "MODULEPATH=/opt/spack/share/spack/modules/darwin-catalina-x86_64:/opt/share/modulefiles:/usr/local/modules/modulefiles",
+          "CC=/opt/local/bin/gcc",
+          "HISTFILESIZE=5000000",
+          "_LMFILES_=/opt/share/modulefiles/spack/develop",
+          "DEFAULT_PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin",
+          "GOPATH=",
+          "MODULES_USE_COMPAT_VERSION=1",
+          "TERM_PROGRAM=Apple_Terminal",
+          "BASH_FUNC_switchml%%=() {  typeset swfound=1;\n if [ \"$MODULES_USE_COMPAT_VERSION\" = '1' ]; then\n typeset swname='main';\n if [ -e /usr/local/modules/libexec/modulecmd.tcl ]; then\n typeset swfound=0;\n unset MODULES_USE_COMPAT_VERSION;\n fi;\n else\n typeset swname='compatibility';\n if [ -e /usr/local/modules/libexec/modulecmd-compat ]; then\n typeset swfound=0;\n MODULES_USE_COMPAT_VERSION=1;\n export MODULES_USE_COMPAT_VERSION;\n fi;\n fi;\n if [ $swfound -eq 0 ]; then\n echo \"Switching to Modules $swname version\";\n source /usr/local/modules/init/bash;\n else\n echo \"Cannot switch to Modules $swname version, command not found\";\n return 1;\n fi\n}",
+          "BASH_FUNC_module%%=() {  _moduleraw $* 2>&1\n}",
+          "BASH_FUNC_spack%%=() {  for var in LD_LIBRARY_PATH DYLD_LIBRARY_PATH DYLD_FALLBACK_LIBRARY_PATH;\n do\n eval \"if [ -n \\\"\\${${var}-}\\\" ]; then export SPACK_$var=\\${${var}}; fi\";\n done;\n if [ -n \"${ZSH_VERSION:-}\" ]; then\n emulate -L sh;\n fi;\n _sp_flags=\"\";\n while [ ! -z ${1+x} ] && [ \"${1#-}\" != \"${1}\" ]; do\n _sp_flags=\"$_sp_flags $1\";\n shift;\n done;\n if [ -n \"$_sp_flags\" ] && [ \"${_sp_flags#*h}\" != \"${_sp_flags}\" ] || [ \"${_sp_flags#*V}\" != \"${_sp_flags}\" ]; then\n command spack $_sp_flags \"$@\";\n return;\n fi;\n _sp_subcommand=\"\";\n if [ ! -z ${1+x} ]; then\n _sp_subcommand=\"$1\";\n shift;\n fi;\n case $_sp_subcommand in \n \"cd\")\n _sp_arg=\"\";\n if [ -n \"$1\" ]; then\n _sp_arg=\"$1\";\n shift;\n fi;\n if [ \"$_sp_arg\" = \"-h\" ] || [ \"$_sp_arg\" = \"--help\" ]; then\n command spack cd -h;\n else\n LOC=\"$(spack location $_sp_arg \"$@\")\";\n if [ -d \"$LOC\" ]; then\n cd \"$LOC\";\n else\n return 1;\n fi;\n fi;\n return\n ;;\n \"env\")\n _sp_arg=\"\";\n if [ -n \"$1\" ]; then\n _sp_arg=\"$1\";\n shift;\n fi;\n if [ \"$_sp_arg\" = \"-h\" ] || [ \"$_sp_arg\" = \"--help\" ]; then\n command spack env -h;\n else\n case $_sp_arg in \n activate)\n _a=\" $@\";\n if [ -z ${1+x} ] || [ \"${_a#* --sh}\" != \"$_a\" ] || [ \"${_a#* --csh}\" != \"$_a\" ] || [ \"${_a#* -h}\" != \"$_a\" ] || [ \"${_a#* --help}\" != \"$_a\" ]; then\n command spack env activate \"$@\";\n else\n eval $(command spack $_sp_flags env activate --sh \"$@\");\n fi\n ;;\n deactivate)\n _a=\" $@\";\n if [ \"${_a#* --sh}\" != \"$_a\" ] || [ \"${_a#* --csh}\" != \"$_a\" ]; then\n command spack env deactivate \"$@\";\n else\n if [ -n \"$*\" ]; then\n command spack env deactivate -h;\n else\n eval $(command spack $_sp_flags env deactivate --sh);\n fi;\n fi\n ;;\n *)\n command spack env $_sp_arg \"$@\"\n ;;\n esac;\n fi;\n return\n ;;\n \"load\" | \"unload\")\n _a=\" $@\";\n if [ \"${_a#* --sh}\" != \"$_a\" ] || [ \"${_a#* --csh}\" != \"$_a\" ] || [ \"${_a#* -h}\" != \"$_a\" ] || [ \"${_a#* --help}\" != \"$_a\" ]; then\n command spack $_sp_flags $_sp_subcommand \"$@\";\n else\n eval $(command spack $_sp_flags $_sp_subcommand --sh \"$@\" ||                     echo \"return 1\");\n fi\n ;;\n *)\n command spack $_sp_flags $_sp_subcommand \"$@\"\n ;;\n esac\n}",
+          "BASH_FUNC__moduleraw%%=() {  eval `/usr/local/modules/libexec/modulecmd-compat bash $*`\n}",
+          "OLDPWD=/Users/jrmadsen/devel/c++/qt-timemory/gcc-MinimumSizeRelease",
+          "_=/opt/local/bin/ctest",
+          "__CF_USER_TEXT_ENCODING=0x12533:0x0:0x0",
+          "CTEST_INTERACTIVE_DEBUG_MODE=1"
+        ]
+      },
+      "output": {
+        "json": [
+          {
+            "key": "cpu",
+            "value": [
+              "timemory-component-bundle-tests-output/cpu.flamegraph.json",
+              "timemory-component-bundle-tests-output/cpu.json"
+            ]
+          },
+          {
+            "key": "page_rss",
+            "value": [
+              "timemory-component-bundle-tests-output/page_rss.json"
+            ]
+          },
+          {
+            "key": "peak_rss",
+            "value": [
+              "timemory-component-bundle-tests-output/peak_rss.json"
+            ]
+          },
+          {
+            "key": "sys",
+            "value": [
+              "timemory-component-bundle-tests-output/sys.flamegraph.json",
+              "timemory-component-bundle-tests-output/sys.json"
+            ]
+          },
+          {
+            "key": "user",
+            "value": [
+              "timemory-component-bundle-tests-output/user.flamegraph.json",
+              "timemory-component-bundle-tests-output/user.json"
+            ]
+          },
+          {
+            "key": "wall",
+            "value": [
+              "timemory-component-bundle-tests-output/wall.flamegraph.json",
+              "timemory-component-bundle-tests-output/wall.json"
+            ]
+          }
+        ],
+        "text": [
+          {
+            "key": "cpu",
+            "value": [
+              "timemory-component-bundle-tests-output/cpu.txt"
+            ]
+          },
+          {
+            "key": "page_rss",
+            "value": [
+              "timemory-component-bundle-tests-output/page_rss.txt"
+            ]
+          },
+          {
+            "key": "peak_rss",
+            "value": [
+              "timemory-component-bundle-tests-output/peak_rss.txt"
+            ]
+          },
+          {
+            "key": "sys",
+            "value": [
+              "timemory-component-bundle-tests-output/sys.txt"
+            ]
+          },
+          {
+            "key": "user",
+            "value": [
+              "timemory-component-bundle-tests-output/user.txt"
+            ]
+          },
+          {
+            "key": "wall",
+            "value": [
+              "timemory-component-bundle-tests-output/wall.txt"
+            ]
+          }
+        ]
+      },
+      "value0": {
+        "cereal_class_version": 0,
+        "environment": [
+          {
+            "key": "DYLD_INSERT_LIBRARIES",
+            "value": ""
+          },
+          {
+            "key": "LD_PRELOAD",
+            "value": ""
+          },
+          {
+            "key": "PAT_RT_PERFCTR",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_ADD_SECONDARY",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_ALLOW_SIGNAL_HANDLER",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_AUTO_OUTPUT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_BANNER",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_COLLAPSE_PROCESSES",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_COLLAPSE_THREADS",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_COUT_OUTPUT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_CPU_AFFINITY",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_CPU_ENABLED",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_CRAYPAT",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_CUDA_EVENT_BATCH_SIZE",
+            "value": "5"
+          },
+          {
+            "key": "TIMEMORY_CUPTI_ACTIVITY_KINDS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_CUPTI_ACTIVITY_LEVEL",
+            "value": "1"
+          },
+          {
+            "key": "TIMEMORY_CUPTI_DEVICE",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_CUPTI_EVENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_CUPTI_METRICS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_CUSTOM_TAG_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_CXX_PLOT_MODE",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_DART_COUNT",
+            "value": "1"
+          },
+          {
+            "key": "TIMEMORY_DART_LABEL",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_DART_OUTPUT",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_DART_TYPE",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_DEBUG",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_DESTRUCTOR_REPORT",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_DIFF_OUTPUT",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_DISABLE_ALL_SIGNALS",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_ENABLED",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_ENABLE_ALL_SIGNALS",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_ENABLE_SIGNAL_HANDLER",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_ERT_ALIGNMENT",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_ERT_BLOCK_SIZE",
+            "value": "1024"
+          },
+          {
+            "key": "TIMEMORY_ERT_GRID_SIZE",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_ERT_MAX_DATA_SIZE",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_ERT_MAX_DATA_SIZE_CPU",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_ERT_MAX_DATA_SIZE_GPU",
+            "value": "500000000"
+          },
+          {
+            "key": "TIMEMORY_ERT_MIN_WORKING_SIZE",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_ERT_MIN_WORKING_SIZE_CPU",
+            "value": "64"
+          },
+          {
+            "key": "TIMEMORY_ERT_MIN_WORKING_SIZE_GPU",
+            "value": "10000000"
+          },
+          {
+            "key": "TIMEMORY_ERT_NUM_STREAMS",
+            "value": "1"
+          },
+          {
+            "key": "TIMEMORY_ERT_NUM_THREADS",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_ERT_NUM_THREADS_CPU",
+            "value": "12"
+          },
+          {
+            "key": "TIMEMORY_ERT_NUM_THREADS_GPU",
+            "value": "1"
+          },
+          {
+            "key": "TIMEMORY_ERT_SKIP_OPS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_FILE_OUTPUT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_FLAMEGRAPH_OUTPUT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_FLAT_PROFILE",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_GLOBAL_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_INPUT_EXTENSIONS",
+            "value": "json,xml"
+          },
+          {
+            "key": "TIMEMORY_INPUT_PATH",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_INPUT_PREFIX",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_INSTRUCTION_ROOFLINE",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_JSON_OUTPUT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_LIBRARY_CTOR",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_LIST_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_MAX_DEPTH",
+            "value": "65535"
+          },
+          {
+            "key": "TIMEMORY_MAX_THREAD_BOOKMARKS",
+            "value": "50"
+          },
+          {
+            "key": "TIMEMORY_MAX_WIDTH",
+            "value": "120"
+          },
+          {
+            "key": "TIMEMORY_MEMORY_PRECISION",
+            "value": "-1"
+          },
+          {
+            "key": "TIMEMORY_MEMORY_SCIENTIFIC",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_MEMORY_UNITS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_MEMORY_WIDTH",
+            "value": "-1"
+          },
+          {
+            "key": "TIMEMORY_MPIP_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_MPI_FINALIZE",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_MPI_INIT",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_MPI_THREAD",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_MPI_THREAD_TYPE",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_NATIVE_TAG_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_NODE_COUNT",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_NVTX_MARKER_DEVICE_SYNC",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_OMPT_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_OUTPUT_PATH",
+            "value": "timemory-component-bundle-tests-output"
+          },
+          {
+            "key": "TIMEMORY_OUTPUT_PREFIX",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_PAGE_RSS_ENABLED",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_PAPI_ATTACH",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_PAPI_EVENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_PAPI_FAIL_ON_ERROR",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_PAPI_MULTIPLEXING",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_PAPI_OVERFLOW",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_PAPI_QUIET",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_PEAK_RSS_ENABLED",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_PLOT_OUTPUT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_PRECISION",
+            "value": "-1"
+          },
+          {
+            "key": "TIMEMORY_PRINT_MIN",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_PRINT_STDDEV",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_PRINT_VARIANCE",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_PROFILER_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_PYTHON_EXE",
+            "value": "/opt/local/bin/python3.7"
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_EVENTS_CPU",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_EVENTS_GPU",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_MODE",
+            "value": "op"
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_MODE_CPU",
+            "value": "op"
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_MODE_GPU",
+            "value": "op"
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_TYPE_LABELS",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_TYPE_LABELS_CPU",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_ROOFLINE_TYPE_LABELS_GPU",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_SCIENTIFIC",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_STACK_CLEARING",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_SUPPRESS_PARSING",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_SYS_ENABLED",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_TARGET_PID",
+            "value": "33359"
+          },
+          {
+            "key": "TIMEMORY_TEXT_OUTPUT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_THROTTLE_COUNT",
+            "value": "10000"
+          },
+          {
+            "key": "TIMEMORY_THROTTLE_VALUE",
+            "value": "10000"
+          },
+          {
+            "key": "TIMEMORY_TIMELINE_PROFILE",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_TIME_FORMAT",
+            "value": "%F_%I.%M_%p"
+          },
+          {
+            "key": "TIMEMORY_TIME_OUTPUT",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_TIMING_PRECISION",
+            "value": "-1"
+          },
+          {
+            "key": "TIMEMORY_TIMING_SCIENTIFIC",
+            "value": "false"
+          },
+          {
+            "key": "TIMEMORY_TIMING_UNITS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_TIMING_WIDTH",
+            "value": "-1"
+          },
+          {
+            "key": "TIMEMORY_TRACE_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_TUPLE_COMPONENTS",
+            "value": ""
+          },
+          {
+            "key": "TIMEMORY_UPCXX_FINALIZE",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_UPCXX_INIT",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_USER_ENABLED",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_VERBOSE",
+            "value": "0"
+          },
+          {
+            "key": "TIMEMORY_WALL_ENABLED",
+            "value": "true"
+          },
+          {
+            "key": "TIMEMORY_WIDTH",
+            "value": "-1"
+          }
+        ]
+      },
+      "value1": 0
+    }
+  }
+}
