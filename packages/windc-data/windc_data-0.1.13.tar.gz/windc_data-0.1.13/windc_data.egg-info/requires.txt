@@ -1,0 +1,10 @@
+gams
+ipython
+networkx
+pandas
+pip
+tqdm
+xlrd
+argparse
+schema
+terminaltables
