@@ -1,0 +1,10 @@
+setup.py
+maha-my-first-package/Binomialdistribution.py
+maha-my-first-package/Gaussiandistribution.py
+maha-my-first-package/Generaldistribution.py
+maha-my-first-package/__init__.py
+maha_my_first_package.egg-info/PKG-INFO
+maha_my_first_package.egg-info/SOURCES.txt
+maha_my_first_package.egg-info/dependency_links.txt
+maha_my_first_package.egg-info/not-zip-safe
+maha_my_first_package.egg-info/top_level.txt
