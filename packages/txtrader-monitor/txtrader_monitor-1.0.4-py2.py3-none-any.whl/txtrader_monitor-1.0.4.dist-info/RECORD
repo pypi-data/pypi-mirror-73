@@ -1,0 +1,13 @@
+txtrader_monitor/__init__.py,sha256=KuQH6YGW9EXxYmm2Bcs0s3IEQ_s4JvTZ1s_8b1EEooc,57
+txtrader_monitor/channel.py,sha256=31FGT1_2s545vCL8BhaAUml3rTjKFlyrmfc8sszMq5w,824
+txtrader_monitor/connection_state.py,sha256=bDyf_MtzncEpmswOnPiBV8Yk3UI0DRvaNQ9QZTxeroA,628
+txtrader_monitor/monitor.py,sha256=lpA3HCVmQ2mAK9k3IvSs82K96wDxN5rVUrZKo3eyduA,14736
+txtrader_monitor/version.py,sha256=Kx2cxZgFRs5x_mkv88eqD1nnmVrQAa5TuzDHLGSsnBk,50
+txtrader_monitor-1.0.4.data/data/LICENSE,sha256=NB9wDabppz1_7IhTJhouc-rZsIHrJjRXPZL3oEgh9FM,1100
+txtrader_monitor-1.0.4.data/data/requirements.txt,sha256=eoKb7hQizJDfdZb5SW3LyHRLgRGcqSDLBdTgXYenyK8,20
+txtrader_monitor-1.0.4.dist-info/LICENSE,sha256=NB9wDabppz1_7IhTJhouc-rZsIHrJjRXPZL3oEgh9FM,1100
+txtrader_monitor-1.0.4.dist-info/METADATA,sha256=MW5rqRgv4bigtVQbvnN7lfK4zuMdvhZF4dipzzMhFlI,1292
+txtrader_monitor-1.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+txtrader_monitor-1.0.4.dist-info/entry_points.txt,sha256=gBMSftabDG37iSj3XQQYmZPOK0o_1T3v_7TJ85JnOiY,72
+txtrader_monitor-1.0.4.dist-info/top_level.txt,sha256=WnBHtzpqt9nJNIimLzbZ4gWsQ8Eui_kfoMuR9xFV69s,17
+txtrader_monitor-1.0.4.dist-info/RECORD,,
