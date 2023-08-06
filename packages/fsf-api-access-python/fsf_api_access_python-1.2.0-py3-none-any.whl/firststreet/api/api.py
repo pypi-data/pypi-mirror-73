@@ -1,0 +1,90 @@
+# Author: Kelvin Lai <kelvin@firststreet.org>
+# Copyright: This module is owned by First Street Foundation
+
+# Standard Imports
+import asyncio
+
+# Internal Imports
+import os
+
+from firststreet.errors import InvalidArgument
+from firststreet.util import read_search_items_from_file
+
+
+class Api:
+    """This class handles the calls to the API through the http class
+
+        Attributes:
+            http (Http): A http class to connect to the First Street Foundation API
+        Methods:
+            call_api: Creates an endpoint
+        """
+
+    def __init__(self, http):
+        self._http = http
+
+    def call_api(self, search_item, product, product_subtype, location, limit=100):
+        """Receives an item, a product, a product subtype, and a location to create and call an endpoint to the First
+        Street Foundation API.
+
+        Args:
+            search_item (list/file): A First Street Foundation IDs, lat/lng pair, address, or a
+                file of First Street Foundation IDs
+            product (str): The overall product to call
+            product_subtype (str): The product subtype (if suitable)
+            location (str/None): The location type (if suitable)
+            limit (int): max number of connections to make
+        Returns:
+            A list of JSON responses
+        """
+        # Not a list
+        if not isinstance(search_item, list):
+
+            # Check if it's a file
+            if isinstance(search_item, str):
+                if os.path.isfile(os.getcwd() + "/" + search_item):
+
+                    # Get search items from file
+                    search_item = read_search_items_from_file(os.getcwd() + "/" + search_item)
+
+                else:
+                    raise InvalidArgument("File provided is not a valid file. "
+                                          "Please check the file name. '{}'".format(os.path.curdir + str(search_item)))
+            else:
+                raise InvalidArgument("File provided is not a list or a valid file. "
+                                      "Please check the file name. '{}'".format(os.path.curdir + str(search_item)))
+
+        # No items found
+        if not search_item:
+            raise InvalidArgument(search_item)
+
+        base_url = self._http.options.get('url')
+        version = self._http.version
+
+        # Create the endpoint
+        endpoints = []
+        for item in search_item:
+            if location:
+                endpoint = "/".join([base_url, version, product, product_subtype, location])
+            else:
+                endpoint = "/".join([base_url, version, product, product_subtype])
+
+            # fsid
+            if isinstance(item, int):
+                endpoint = endpoint + "/{}".format(item)
+
+            # lat/lng
+            elif isinstance(item, tuple):
+                endpoint = endpoint + "?lat={}&lng={}".format(item[0], item[1])
+
+            # address
+            elif isinstance(item, str):
+                endpoint = endpoint + "?address={}".format(item)
+
+            endpoints.append((endpoint, item, product, product_subtype))
+
+        # Asynchronously call the API for each endpoint
+        loop = asyncio.get_event_loop()
+        response = loop.run_until_complete(self._http.endpoint_execute(endpoints, limit))
+
+        return response
