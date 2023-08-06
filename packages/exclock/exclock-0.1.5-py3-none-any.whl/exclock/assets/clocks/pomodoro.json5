@@ -1,0 +1,42 @@
+{
+  "message": "ポモドーロ",
+  "sounds": {
+    "0": {
+      "message": "お仕事開始! {count}-1",
+      "sound_filename": "silent.mp3",
+    },
+    "25m":{
+    "message": "お仕事終了の時間です. お休みを取りましょう.",
+    "sound_filename": "warning.mp3",
+  },
+    "30m":{
+    "message": "休憩終了の時間です. お仕事を開始しましょう. {count}-2",
+    "sound_filename": "warning.mp3",
+  },
+    "55m":{
+    "message": "お仕事終了の時間です. お休みを取りましょう.",
+    "sound_filename": "warning.mp3",
+  },
+  "60m": {
+    "message": "休憩終了の時間です. お仕事を開始しましょう. {count}-3",
+    "sound_filename": "warning.mp3",
+  },
+  "85m": {
+    "message": "お仕事終了の時間です. お休みを取りましょう.",
+    "sound_filename": "warning.mp3",
+  },
+  "90m": {
+    "message": "休憩終了の時間です. お仕事を開始しましょう. {count}-4",
+    "sound_filename": "warning.mp3",
+  },
+  "115m": {
+    "message": "1ポモドーロが終わりました. 長い休みを取りましょう.",
+    "sound_filename": "warning.mp3",
+  },
+  "145m": {
+    "message": "",
+    "sound_filename": "silent.mp3",
+  },
+ },
+  "loop": 2
+}

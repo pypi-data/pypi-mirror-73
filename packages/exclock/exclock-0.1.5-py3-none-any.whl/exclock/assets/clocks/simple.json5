@@ -1,0 +1,9 @@
+{
+  "message": "DummyClockTimer2",
+  "sounds": {
+    "0":{
+    "message": "せせらぎ",
+    "sound_filename": "~/repos/python/exclock/music.mp3",
+  }},
+  "loop": 2
+}

@@ -1,0 +1,164 @@
+Metadata-Version: 2.1
+Name: exclock
+Version: 0.1.5
+Summary: exclock is a cui extended timer.
+Home-page: https://gitlab.com/yassu/exclock
+Author: yassu
+Author-email: yasu0320.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players :: MP3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Dist: python-vlc
+Requires-Dist: json5
+Requires-Dist: notify-py
+
+Exclock
+================================================================================
+
+.. image:: https://gitlab.com/yassu/exclock/badges/master/pipeline.svg
+  :target: https://gitlab.com/yassu/exclock/pipelines/latest
+
+.. image:: https://gitlab.com/yassu/exclock/badges/master/coverage.svg
+  :target: https://gitlab.com/yassu/exclock/-/commits/master
+
+
+`exclock` is a cui extended timer.
+
+Required
+----------
+
+* vlc
+* notify for
+  * Windows 10
+  * MaxOS 10 >= 10.10
+  * Linux with libnotify
+
+Usage
+----------
+
+::
+
+    $ exclock {json5-filename}
+
+Example
+----------
+
+::
+
+    {
+      "message": "Pomodoro",
+      "sounds": {
+        "0": {
+          "message": "Begin Working! {count}-1",
+          "sound_filename": "silent.mp3",
+        },
+        "25m":{
+        "message": "It's time to finish work. Let's time a break.",
+        "sound_filename": "warning.mp3",
+      },
+        "30m":{
+        "message": "It's time to finish the break. Let's start work. {count}-2",
+        "sound_filename": "warning.mp3",
+      },
+        "55m":{
+        "message": "It's time to finish work. Let's time a break.",
+        "sound_filename": "warning.mp3",
+      },
+      "60m": {
+        "message": "It's time to finish the break. Let's start work. {count}-3",
+        "sound_filename": "warning.mp3",
+      },
+      "85m": {
+        "message": "It's time to finish work. Let's time a break.",
+        "sound_filename": "warning.mp3",
+      },
+      "90m": {
+        "message": "It's time to finish the break. Let's start work. {count}-4",
+        "sound_filename": "warning.mp3",
+      },
+      "115m": {
+        "message": "It's time to finish work. Let's time a long break.",
+        "sound_filename": "warning.mp3",
+      },
+      "145m": {
+        "message": "",
+        "sound_filename": "silent.mp3",
+      },
+     },
+      "loop": 2
+    }
+
+
+LICENSE
+-------
+
+`Apache 2.0 <https://gitlab.com/yassu/exclock/blob/master/LICENSE>`_
+
+Todo
+-------
+
+* Icon作成
+
+  * [ ] アイコン作成
+
+  * [ ] プロジェクトのアイコンをそれにする
+
+  * [ ] notifyのデフォルトのアイコンもそれにして 変更できるようにする
+
+* [ ] 環境にあるclock一覧を表示するコマンドを追加
+* Exception対応
+
+  * [x] 音声ファイルがない場合
+
+  * [x] mainに与える引数の形式が違うとき
+
+  * [x] json5ファイルがない場合
+
+  * [x] json5ファイルがloadできないとき
+
+  * [x] 与えられたjson5ファイルの形式のvalidation
+
+  * [ ] 'Error: No available formula with the name "vlc"'対応
+
+* [x] json5ファイルがフォーマット上正しいことのテストを追加
+* [ ] poetry導入
+* [x] tox使ってみる
+* [ ] KeyboardInteraptのエラー処理を書く
+* [ ] 真面目にdocumentを書く
+* [ ] setup.pyでPipenvのpackagesを使うようにする
+* [-] black導入
+* [x] 3.json5作成
+* [x] 5.json5作成
+* [x] Clockを表すファイルで自動的にloadされるディレクトリを設定する
+* [x] Soundを表すファイルで自動的にloadされるディレクトリを設定する
+* [x] clockからmessageの項目を削除
+* [x] inv testの出力をいい感じにする
+* [ ] is_bgm flag
+* [ ] Add n variable
+* [ ] 1秒ごとにログに吐くようにする(Soundのmessageも一緒に)
+* [ ] 指定された時間になったらタイマーを発火させるコマンドを追加
+* [x] package_dataとか整える
+* バッジを出す
+
+  * [x] build passing or not
+
+  * [x] coverage
+
+
+
