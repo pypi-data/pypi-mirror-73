@@ -1,0 +1,5 @@
+Click
+certifi
+idna
+requests
+urllib3
