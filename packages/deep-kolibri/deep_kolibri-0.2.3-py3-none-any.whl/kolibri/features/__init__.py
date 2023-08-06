@@ -1,0 +1,3 @@
+from kolibri.features.tf_idf_featurizer import TFIDFFeaturizer
+from .hashing_featurizer import HashingFeaturizer
+from .streamed_tf_idf_featurizer import StreamedTFIDFFeaturizer
