@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ftime
+Version: 1.1
+Summary: A decorator to profile function runtime
+Home-page: https://github.com/bennosski/ftime/
+Author: Ben Nosarzewski
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
