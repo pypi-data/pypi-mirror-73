@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jtd
+Version: 0.0.1
+Summary: A Python implementation of JSON Type Definition
+Home-page: https://github.com/jsontypedef/json-typedef-py
+Author: JSON Typedef Contributors
+Author-email: friends@jsontypedef.com
+License: UNKNOWN
+Description: # jtd: JSON Validation for Python
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
