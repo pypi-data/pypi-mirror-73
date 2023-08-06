@@ -1,0 +1,2 @@
+pyyaml
+oidcendpoint>=0.13.2
