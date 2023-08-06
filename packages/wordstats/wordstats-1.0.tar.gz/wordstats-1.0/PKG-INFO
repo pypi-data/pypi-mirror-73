@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: wordstats
+Version: 1.0
+Summary: Multilingual word frequency statistics for Python based on subtitles corpora
+Home-page: https://github.com/zeeguu-ecosystem/Python-Wordstats
+Author: Mircea Lungu
+Author-email: me@mir.lu
+License: MIT
+Download-URL: https://github.com/zeeguu-ecosystem/Python-Wordstats/archive/v_1.0.tar.gz
+Description: UNKNOWN
+Keywords: natural language processing,multilingual
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
