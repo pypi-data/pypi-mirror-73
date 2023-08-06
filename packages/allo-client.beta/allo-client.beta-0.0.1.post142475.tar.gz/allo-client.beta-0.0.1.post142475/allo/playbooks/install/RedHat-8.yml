@@ -1,0 +1,7 @@
+---
+- name: install glibc locale
+  yum:
+    name:
+      - glibc-langpack-fr
+    state: present
+- include_tasks: '{{ ansible_os_family }}.yml'

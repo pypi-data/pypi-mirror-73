@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+    - include_tasks: 'install/{{ ansible_os_family }}-{{ansible_distribution_major_version}}.yml'
