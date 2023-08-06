@@ -1,0 +1,10 @@
+L3MinioCache/CacheInterface.py,sha256=9staHB0prED5Ozo79kdBsMayzYhPAkWQ2w797OgE1aw,56
+L3MinioCache/FileL2Cache.py,sha256=WMRwE6bbg_qc3VESplCQ1McG2xRwTbt-gyqgBbHxOWQ,1021
+L3MinioCache/MinioL3Cache.py,sha256=3Ds3pCx0oSBhDFlNJK5uX0sbGg1XKAvN90nlSRlZeM4,1891
+L3MinioCache/PickleL2Cache.py,sha256=BVsglu4ImAZ11HBpozLvjMmXg4MPEkfdWwWrg9k6M8k,994
+L3MinioCache/__init__.py,sha256=6tekEZew--rNUJf8tjE9GQdAzFd6cCD9ST86rqnWis8,3393
+Python_Minio_L3_Cache-0.1.1.dist-info/LICENSE,sha256=8PgLffzGat5irLEG7pLKNn9APnOyphW5cyP_218aNMA,1096
+Python_Minio_L3_Cache-0.1.1.dist-info/METADATA,sha256=al-XhinW09fY9qKfKR5-pNrDl0IaqbXEPqN_VQvYNT0,1718
+Python_Minio_L3_Cache-0.1.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+Python_Minio_L3_Cache-0.1.1.dist-info/top_level.txt,sha256=A1UE0ZoOk2pamyfWZlfP_wl9xfwT0UEPZRsqfcyOP0c,13
+Python_Minio_L3_Cache-0.1.1.dist-info/RECORD,,
