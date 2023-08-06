@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: dataflow_gegham_test
+Version: 0.7.0
+Summary: Snark Hub
+Home-page: https://github.com/snarkai/dataflow
+Author: Snark AI Inc.
+Author-email: support@snark.ai
+License: UNKNOWN
+Description: # DataFlow &middot; [![SnarkAI](https://circleci.com/gh/snarkai/dataflow.svg?style=shield&circle-token=529446a9a8d3b2e209900afa0359e85fcf430b40)](https://circleci.com/gh/snarkai/dataflow)
+        
+        Prototyping for Hub Dataflow
+        
+        # Setup
+        1. Install the package
+        ```
+        > pip3 install git+https://github.com/snarkai/dataflow@v0.2.2
+        ```
+        Make sure gdal and opencv is installed as required by `image_io.py`
+        
+        2. Setup credentials in the local folder and don't forget to put those in .gitignore
+        ```
+        .secrets/agmri.cfg
+        .secrets/intelinair #AWS credentials
+        ```
+        
+        3. Example to get started
+        
+        ```
+        from dataflow import hub
+        import torch
+        
+        hub.init()
+        
+        df = hub.agmri().get_polygons_by_type(hub.agmri.UIUC_ENDROW, max=1) 
+        ds = hub.polygon_sampler(df, sample_count=32, shape=(1024,1024,4))
+        ds[0]
+        ```
+        
+        # Troubleshooting 
+        
+        ## Install GDAL and OpenCV
+        If it throws error on gdal or opencv install those manually
+        
+        ```
+        ./bin/prepare.sh
+        ./bin/gdal.sh
+        ./bin/opencv.sh
+        ```
+        
+        ## Credentials examples
+        `intelinair` file should look like this
+        ```
+        [default]
+        aws_access_key_id = ...
+        aws_secret_access_key = ...
+        region = us-east-1
+        
+        ```
+        `agmri.cfg`
+        ```
+        [production]
+        admin_username = ...
+        admin_password = ...
+        ```
+        
+        ## Known Issues
+        [ ] Credentials are not flexible where to be stored
+        
+        
+        ## Push a new version
+        ```
+        git commit -a -m 'current changes'
+        git tag -a 'v0.2.2' -m 'some message here'
+        git push origin 'v0.2.2' 
+        ```
+        
+        
+        ## Automated integration testing
+        To run pytest before git push we need to do create .git/hooks/pre-push file with the following content:
+        ```
+        #!/bin/bash
+        docker-compose run test
+        ```
+        And make it executable
+        ```
+        chmod +x .git/hooks/pre-push
+        ```
+        
+        Also whenever updating requirements.txt and options.txt please rebuild the test
+        ```
+        docker-compose build test
+        ```
+        
+        ## Formatting and Linting
+        Hub uses Black and Flake8 to ensure a consistent code format throughout the project.
+        Replace .vscode/settings.json content withthe following:
+        ```
+        {
+            "[py]": {
+                "editor.formatOnSave": true
+            },
+            "python.formatting.provider": "black",
+            "python.linting.flake8Enabled": true,
+            "python.linting.flake8Path": "flake8",
+            "python.linting.flake8Args": [
+                "--max-line-length=80",
+                "--select=B,C,E,F,W,B950",
+                "--ignore=E203,E501,W503"
+            ],
+            "python.linting.pylintEnabled": false,
+            "python.linting.enabled": true,
+        }
+        ```
+        
+Keywords: snark-hub
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
