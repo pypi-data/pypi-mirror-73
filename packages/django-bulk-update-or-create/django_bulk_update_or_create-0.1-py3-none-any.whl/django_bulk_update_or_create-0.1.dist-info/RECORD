@@ -1,0 +1,11 @@
+bulk_update_or_create/__init__.py,sha256=WunFa67628pt9jRr--YGOWY4pXIJu0itQFig2wLXv4U,90
+bulk_update_or_create/apps.py,sha256=fwCo6dhmm6kXgQCExijjqpnqmQudf2N2zm9w1i7-jME,370
+bulk_update_or_create/locks.py,sha256=VwzQa9Lgf9B0SVuYbQv7qJBLJbSlt4VOYRJ5T5YSRPY,8658
+bulk_update_or_create/models.py,sha256=kTsf4wa-medIig3s5fe-jqQKcKVM5qnb2gKExnULxzk,383
+bulk_update_or_create/migrations/0001_initial.py,sha256=3pyBXBrvhRG_eNAB45ZBFBOB9sZLNWVW7kh9VmMDXw0,647
+bulk_update_or_create/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_bulk_update_or_create-0.1.dist-info/LICENSE,sha256=PyUkJhADY2m6ixMabj9hrdhSCm49l8MMV8ctGNYIQTg,1068
+django_bulk_update_or_create-0.1.dist-info/METADATA,sha256=QQac58xV20GvQTIS6cIaBdWd3t6flI3yUjtrb3lKdTM,4514
+django_bulk_update_or_create-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_bulk_update_or_create-0.1.dist-info/top_level.txt,sha256=IPjsxNRTLB1GikCFigNtMDSdpq0CVlmHjcR6Ke6B7aw,22
+django_bulk_update_or_create-0.1.dist-info/RECORD,,
