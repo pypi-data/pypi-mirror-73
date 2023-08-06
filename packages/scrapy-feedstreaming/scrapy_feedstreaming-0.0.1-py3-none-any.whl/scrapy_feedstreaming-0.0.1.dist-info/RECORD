@@ -1,0 +1,12 @@
+scrapy_feedstreaming-0.0.1-py3.7-nspkg.pth,sha256=B3e218A53xhMPAPGT6uz8eWw0PBaMBlCoZkXpKA6a-s,545
+alexber/feedstreaming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alexber/feedstreaming/export.py,sha256=1--OnXu9qqY4W5HWlBFJLIv8ytRsLVHKKd-FS3DdWY4,12735
+alexber/feedstreaming/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests_data/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_feedstreaming-0.0.1.dist-info/LICENSE.txt,sha256=QnWlJXamxAc_2PTpTGrh3NOWOLZdmkjVLaeMk-HD-00,1317
+scrapy_feedstreaming-0.0.1.dist-info/METADATA,sha256=qKGTuUOl82MUvTdhHoTC6-Dv1EV7S2QgGKAoPHBKz_I,7210
+scrapy_feedstreaming-0.0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+scrapy_feedstreaming-0.0.1.dist-info/namespace_packages.txt,sha256=VDuPd7dQwrD0T8ff_Y0UomZ_dz8UVi5HfmDVnZZRGGs,8
+scrapy_feedstreaming-0.0.1.dist-info/top_level.txt,sha256=WcM3XzoC_lwtE8utFdT2MH9hyk7krH_sC_38Q8Eht7w,19
+scrapy_feedstreaming-0.0.1.dist-info/RECORD,,
