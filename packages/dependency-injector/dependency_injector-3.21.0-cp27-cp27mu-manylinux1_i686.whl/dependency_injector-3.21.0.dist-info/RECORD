@@ -1,0 +1,14 @@
+dependency_injector-3.21.0.dist-info/LICENSE.rst,sha256=pmsLOXC_1aWhZUEQbF2DMzewenDwuqAdmkBfbZtI-xU,1487
+dependency_injector-3.21.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dependency_injector-3.21.0.dist-info/top_level.txt,sha256=6U6YBWxum6uGC9akRHp6rhr8V7Pub4pPOsDTlyQX-2Y,20
+dependency_injector-3.21.0.dist-info/RECORD,,
+dependency_injector-3.21.0.dist-info/METADATA,sha256=S_ieLocrdKAB7Eb-WMec6tt6dMyvdU9yMxL_YEM6nNg,7776
+dependency_injector-3.21.0.dist-info/WHEEL,sha256=31FdkUPPKcSCxKXZ5P_ti6Q97mohqQ6uN9IeBMDVMp8,108
+dependency_injector/providers.pxd,sha256=d6uKwvmvee-1E53v5xBd1hitmDur2l_gI7tOXghRigU,7251
+dependency_injector/containers.pxd,sha256=XZfC-PsQGkuPeOrnJNk7lr7aPCQqf1V_3ldMkZB-Ego,282
+dependency_injector/__init__.py,sha256=zhgIjjJPa3M-G-qoiD8r7hfA9_-oxrl-zdj8mrF85ns,137
+dependency_injector/errors.py,sha256=iZiFNUCZ8_G14N_aFs3UFBB4V_98Kx5d3uPVZHBy1QY,263
+dependency_injector/containers.so,sha256=52jqL0sYXb3wAJkX3WEjSG9XhFrJGL2WVGPHf3rBu3A,630940
+dependency_injector/providers.so,sha256=MGEL1LQz7PDmJXUxYoREhTZJfLZICwRypOD2YgM2vi4,3218144
+dependency_injector/ext/flask.py,sha256=u2yPNnjVINu5scocutUzAXOlL8yAltzdI6SMkn1xp7s,1932
+dependency_injector/ext/__init__.py,sha256=_a_MFebyeeGneRMi9riR4AbHXSzeyC8-N_2PMfvmY8s,26
