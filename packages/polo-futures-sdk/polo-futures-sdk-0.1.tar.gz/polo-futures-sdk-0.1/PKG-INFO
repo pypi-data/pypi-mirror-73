@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: polo-futures-sdk
+Version: 0.1
+Summary: Poloniex Futures Exchange Python 3 Wrapper
+Home-page: https://github.com/poloniex/polo-futures-sdk-python
+Author: Team Poloniex
+Author-email: pysdk-admin@poloniex.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
