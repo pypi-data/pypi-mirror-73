@@ -1,0 +1,3 @@
+[console_scripts]
+nhk = reader.__main__:main
+
