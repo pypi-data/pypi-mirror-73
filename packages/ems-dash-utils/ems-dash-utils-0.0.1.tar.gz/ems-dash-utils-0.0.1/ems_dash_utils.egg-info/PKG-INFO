@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: ems-dash-utils
+Version: 0.0.1
+Summary: A utility package for dash apps
+Home-page: https://github.com/
+Author: Jesper Halkjær Jensen
+Author-email: gedemagt@gmail.com
+License: MIT
+Description: # Dash utilities
+        
+        ## dash_utils
+        This module containes convient methods to typical dash related methods:
+        
+        #### Timezone related
+        To make the client timezone available in callbacks, invoke the following during you setup
+        ```python
+        init_client_tz_javascript(dashappp)
+        ```
+        This adds a small snippet of javascript, which sets a cookie with the timezone. After this, a couple of functions
+        has been implemented to conveniently deal with `datetime` objects such as
+        ```python
+        get_client_tz()
+        to_client_tz(dt)
+        format_client_date()
+        parse_client_date()
+        ```
+        
+        Notice the two last functions uses `dash_utils.CLIENT_DATE_FORMAT` which defaults to `%Y-%m-%d %H:%M:%S`.
+        
+        #### Dash callback related
+        
+        Two functions to deal with the trigger source of a callback has also been implemented
+        ```
+        was_source(id_str)
+        get_source()
+        ```
+        
+        ## keycloak_utils
+        This module implements some convenient functions when integrating with dash-keycloak and dealing with roles.
+        
+        Firstly, one should set the client in `keycloak_utils.KEYCLOAK_CLIENT`. 
+        
+        It is now possible to check if a user has a given role or even decorate a flask route to abort with 401 if the user does not have a role from a given list.
+        ```python
+        check_role("admin")
+        
+        @require_role(["READ", "WRITE"])
+        @app.route('/api/status', methods=["GET"])
+        def do_stuff():
+            ...
+        ```
+        
+        #### Read and write
+        A small scheme to determine read and write access has also been implemented. In this scheme
+        a user can have either READ or WRITE access to a __subject__.
+        
+        The role names is thus defined as `<subject>/READ`, `<subject>/WRITE` or `<subject>/ALL`.
+        The `admin` role has special privileges, i.e. both READ and WRITE for all subjects.
+        
+        A users access for a subject can now be checked with 
+        ```python
+        has_read_access(subject)
+        has_read_write(subject)
+        ```
+        
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
