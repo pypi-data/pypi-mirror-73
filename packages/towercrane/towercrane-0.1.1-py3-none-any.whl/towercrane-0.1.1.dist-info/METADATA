@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: towercrane
+Version: 0.1.1
+Summary: TowerCrane helps you keep your large local datasets in the cloud
+Home-page: https://github.com/ashtianicode
+Author: Taha
+Author-email: taha.m.ashtiani@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: fire
+Requires-Dist: boto3
+Requires-Dist: db-sqlite3
+Requires-Dist: zipfile36
+
+# towercrane
+
+```python
+
+towercrane config 
+
+towercrane scan 
+towercrane state
+
+towercrane init 
+towercrane upload 
+towercrane remove 
+towercrane download
+
+ ```
+
+
+## State lifecycle of a project 
+
+local
+cloud
+local_and_cloud
+
+upload
+uploaded
+
+remove
+removed
+
+download
+
+
+
+
