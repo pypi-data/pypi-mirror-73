@@ -1,0 +1,68 @@
+# youtubepy
+youtubepy is a package to search for youtube videos through python code.
+
+# Usage
+```python
+from youtubepy import Video
+video = Video("me at the zoo")
+result = video.search()
+print(result)
+> https://www.youtube.com/watch?v=A8AlbaDmaec
+```
+
+## SafeSearch Filter
+```python
+from youtubepy import Video
+video = Video("fuck", safesearch=True)
+result = video.search()
+print(result)
+
+> "youtube.BlockedWordError: A blocked word detected in the result video! Don't use safesearch to ignore this error!"
+```
+
+Attributes available for Video
+```
+search() - Returns video url
+title() - Returns video title
+description() - Returns description of the video
+channel_url() - Returns the url of the channel that published the video
+channel_name() - Returns the name of the channel that published the video
+published_date() - Returns the date the video was published to YouTube
+thumbnail_url() - Returns thumbnail url of the video
+thumbnail_save(/path/to/directory/to/save/filename.jpg) - Saves the thumbnail of the video, if path is not given, saves to the path in which the script is saved
+duration() - Returns duration of the video
+view_count() - Returns view count of the video
+like_count() - Returns like count of the video
+dislike_count() - Returns dislike count of the video
+average_rating() - Returns average rating of the video
+```
+
+```python
+from youtubepy import ExtractInfo
+video = ExtractInfo("https://youtu.be/A8AlbaDmaec")
+title = video.title()
+print(title)
+> Me at the zoo - 4k Upscaled, 60 FPS
+```
+
+Attributes available for ExtractInfo
+```
+title() - Returns video title
+description() - Returns description of the video
+channel_url() - Returns the url of the channel that published the video
+channel_name() - Returns the name of the channel that published the video
+published_date() - Returns the date the video was published to YouTube
+thumbnail_url() - Returns thumbnail url of the video
+thumbnail_save(/path/to/directory/to/save/filename.jpg) - Saves the thumbnail of the video, if path is not given, saves to the path in which the script is saved
+duration() - Returns duration of the video
+view_count() - Returns view count of the video
+like_count() - Returns like count of the video
+dislike_count() - Returns dislike count of the video
+average_rating() - Returns average rating of the video
+```
+
+Latest and the fastest working version! You may experience bugs and glitches in other versions
+
+Warning - Do NOT install other versions of this library!
+
+Note - This package is currently under development
