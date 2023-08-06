@@ -1,0 +1,4 @@
+Pillow
+
+[pdf_export]
+pdfkit
