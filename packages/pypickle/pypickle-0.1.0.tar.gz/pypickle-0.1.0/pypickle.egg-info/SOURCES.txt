@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pypickle/__init__.py
+pypickle/examples.py
+pypickle/pypickle.py
+pypickle.egg-info/PKG-INFO
+pypickle.egg-info/SOURCES.txt
+pypickle.egg-info/dependency_links.txt
+pypickle.egg-info/top_level.txt
+pypickle/utils/__init__.py
