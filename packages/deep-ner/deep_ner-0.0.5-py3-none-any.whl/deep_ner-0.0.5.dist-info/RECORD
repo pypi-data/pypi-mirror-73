@@ -1,0 +1,12 @@
+deep_ner/__init__.py,sha256=ZBWj60aZpcftp_f2F87xaEP8_x3oagsq7iJLj6NMozM,100
+deep_ner/bert_ner.py,sha256=U5Ik4iWMy9XSMyhRds0FkAc3mgjeBULm0Bc3jU8daT4,74357
+deep_ner/dataset_splitting.py,sha256=nydjNq4bbwiqsm_1_l3RLAaSkgD2ExfUbl2Mvo_5P74,3516
+deep_ner/elmo_ner.py,sha256=zIXjpHGxzHjVp709dQjh70vmPu6eeepbgSS_kLzKDOo,62665
+deep_ner/quality.py,sha256=anX5M8T2Sho7FaM_ZRlgozvJy-s9HMfIsNcHwDumizA,12364
+deep_ner/udpipe_data.py,sha256=9tP7WPX-cfwFVFGf8X5MhLWFSP-bRog3Eq6glOq3JkQ,1613
+deep_ner/utils.py,sha256=y0Uks2XfgUUuzLr5OCPqpsJ1q6wuQ-KDIK6eSMYJc68,63960
+deep_ner-0.0.5.dist-info/LICENSE,sha256=mSCC8HOtX5Csdx-QPjq9M9-1EeNoCX6IelzIdb5dhec,11546
+deep_ner-0.0.5.dist-info/METADATA,sha256=xsy4AiKMI1VS4OJEMvAek3RKRp1WdNn1p7sC4cnBwtM,2016
+deep_ner-0.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+deep_ner-0.0.5.dist-info/top_level.txt,sha256=tSu7uY2bmp27D_nq-mN5YNLWqPjBMVzI4pH86DrKdpw,9
+deep_ner-0.0.5.dist-info/RECORD,,
