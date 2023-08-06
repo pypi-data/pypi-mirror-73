@@ -1,0 +1,7 @@
+setup.py
+uswapper/__init__.py
+uswapper.egg-info/PKG-INFO
+uswapper.egg-info/SOURCES.txt
+uswapper.egg-info/dependency_links.txt
+uswapper.egg-info/not-zip-safe
+uswapper.egg-info/top_level.txt
