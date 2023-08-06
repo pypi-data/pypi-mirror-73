@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: py-raider-reporter
+Version: 0.0.1
+Summary: Raider Reporter for Python
+Home-page: https://github.com/M0r13n/py-raider-reporter
+Author: Leon Morten Richter
+Author-email: leon.morten@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# py-raider-reporter
+
+
+#### Raider Reporter for Python. Used in pair with [Vigil](https://github.com/valeriansaliou/raider), the Affiliates Tracker Page.
+
+
+## Who uses it?
+
+<table>
+<tr>
+<td align="center"><a href="https://smartphoniker.shop/"><img src="https://smartphoniker.shop/static/images/smartphoniker-logo.svg" height="64" /></a></td>
+</tr>
+<tr>
+<td align="center">Smartphoniker</td>
+</tr>
+</table>
+
+
+
+# How to install
+Install with pip:
+
+```sh
+$ pip install py-raider-reporter
+```
+
+
+# How to use
+`raider-reporter` can be instantiated as such:
+
+```py
+TODO
+```
+
+
+# What is Raider?
+ℹ️ **Wondering what Vigil is?** Check out **[valeriansaliou/vigil](https://github.com/valeriansaliou/raider)**.
+
+
