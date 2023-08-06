@@ -1,0 +1,5 @@
+[console_scripts]
+sf-client = shakenfist.client.main:cli
+sf-daemon = shakenfist.daemons.main:main
+sf-passwd = shakenfist.client.passwd:main
+
