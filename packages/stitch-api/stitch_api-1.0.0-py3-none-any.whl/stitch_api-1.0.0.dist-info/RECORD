@@ -1,0 +1,14 @@
+stitch_api/__init__.py,sha256=sZ7eYnI4cVi1KXKo8RNAzED3YN5efNaN40AwGdrxrXo,142
+stitch_api/api_client.py,sha256=ktBEf2K13cqF81_In2rSJn10NnWdVfTRZ9M4Wylw5Z0,2277
+stitch_api/destination_types.py,sha256=61bfy8YGcivr8YXKk_WwByY8xfc6ew4oqCEtq6io_EY,526
+stitch_api/destinations.py,sha256=y9DhMu6A4SfjLpmdvMQr7GB_N-HK-KB9KMc7sMGAUiA,713
+stitch_api/jobs.py,sha256=QXjZfu0GME3OvVoVPhOT-O7G78_EBPH2BuC0qYiOSsM,452
+stitch_api/notifications.py,sha256=0fdnSzQMIwnmComF0OsgO2dOB9I-7vvPoGoY4MdmpMU,1531
+stitch_api/source_types.py,sha256=0ladroguaKXZCrC-q8AVxtaCcz2DRYkLAD7HW4IfKTo,476
+stitch_api/sources.py,sha256=6HWbXnEh0z9fXhx8lLnO3XAAJNk6H7sB9WocVNWmw8A,1706
+stitch_api/streams.py,sha256=3SlLNnURhIPQe75XjuS-NTOYA_YKJ0snihUf8YthPT4,651
+stitch_api-1.0.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+stitch_api-1.0.0.dist-info/METADATA,sha256=c3rAqCR6H67wXI6DOsSWUI6kj2lBBVD_zdNOYfFcTa8,836
+stitch_api-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+stitch_api-1.0.0.dist-info/top_level.txt,sha256=O1KvYT09Uc9vyrd3eCuOrGRcgerbLH9Cv5dLq3Fgy-Y,11
+stitch_api-1.0.0.dist-info/RECORD,,
