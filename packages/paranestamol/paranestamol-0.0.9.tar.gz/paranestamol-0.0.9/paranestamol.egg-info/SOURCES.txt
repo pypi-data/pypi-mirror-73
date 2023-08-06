@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+paranestamol/LoadWindow.qml
+paranestamol/Manipulator.qml
+paranestamol/__init__.py
+paranestamol/__main__.py
+paranestamol/plt_managers.py
+paranestamol/samples_model.py
+paranestamol/utils.js
+paranestamol/view.qml
+paranestamol.egg-info/PKG-INFO
+paranestamol.egg-info/SOURCES.txt
+paranestamol.egg-info/dependency_links.txt
+paranestamol.egg-info/requires.txt
+paranestamol.egg-info/top_level.txt
