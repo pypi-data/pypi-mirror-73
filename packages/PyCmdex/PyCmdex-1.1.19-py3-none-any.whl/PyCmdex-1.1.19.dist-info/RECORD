@@ -1,0 +1,12 @@
+PyCmdex/__init__.py,sha256=kVRscBWTMnu0ZQJoXdnA08pDOXG6FNmKmtYkUHxDa-Q,1473
+PyCmdex/cmdex.py,sha256=IZmIiNLwufmUpxHORWS-3JN8VW5DYJYNtniBf075VdY,12980
+PyCmdex/cmdex_apis.py,sha256=nwOFsneZPqbdPu4gAsXvRZGS_nks3Rc5WdMQG2anG4w,3569
+PyCmdex/cmdex_core.py,sha256=XxDJSOgWjLNu0-gD515D9LTVioE9Ty4bGrkQb7zoDoA,8337
+PyCmdex/cmdex_mcu.py,sha256=nx6SM_pVG8tMr0fb62Z9eYX-_r8t9KhArRpxj5ApU_E,4156
+PyCmdex/cmdex_serial.py,sha256=lpn0nTiVartx4-inNUVyInvqYRnOspOVx3GXv3bM7zo,3243
+PyCmdex-1.1.19.dist-info/LICENSE,sha256=pAqmCXUpmvBn-ES1fU8JsKy6JSeIBa1Ifdte2-74NFQ,1073
+PyCmdex-1.1.19.dist-info/METADATA,sha256=cFqmphQJkP1RhBZqK6mMkAZ0GMXbmBxnGeRUS9v284g,1631
+PyCmdex-1.1.19.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+PyCmdex-1.1.19.dist-info/entry_points.txt,sha256=0u7XPxbnknd5rDBIZ9DPWql_RSbtuYZI7S-WqL7-wFE,48
+PyCmdex-1.1.19.dist-info/top_level.txt,sha256=Tq6rH1pt5_iM9oJPGKF6MEL16RSGRsJr1HTRq7RpngA,8
+PyCmdex-1.1.19.dist-info/RECORD,,
