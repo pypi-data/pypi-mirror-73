@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+movieposters/__init__.py
+movieposters/errors.py
+movieposters/imdbapi.py
+movieposters.egg-info/PKG-INFO
+movieposters.egg-info/SOURCES.txt
+movieposters.egg-info/dependency_links.txt
+movieposters.egg-info/requires.txt
+movieposters.egg-info/top_level.txt
