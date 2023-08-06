@@ -1,0 +1,12 @@
+fastrec/GraphSimRec.py,sha256=VPxlj4Zqe4iIrSDns7Hf_J9RemukJT2GS1EU8-nNyww,35552
+fastrec/RecAPI.py,sha256=POVRkZTnOK3WKWIK8RU58ullMbEg_D_4APe-3JRylO8,2177
+fastrec/__init__.py,sha256=sIrfnCoMBFU8QoPjFcIoSWCeNXfjYMuSiCBzX-lCExw,142
+fastrec/fastrec-deploy,sha256=rnozq9mogH1rQVpihvG1-Uf_oQD5huJRm-CSlBMRhDA,80
+fastrec/geosim.py,sha256=4OFW_2ankBpZeF_AKkH0P_HAmBKfBTDl-lYxHzEk57A,4261
+fastrec/torchmodels.py,sha256=UKtrUJVgA16NkvloDngxwRtFZrKrPFmKUixuB2qwAKE,7288
+fastrec-0.0.2.post2.data/scripts/fastrec-deploy,sha256=rnozq9mogH1rQVpihvG1-Uf_oQD5huJRm-CSlBMRhDA,80
+fastrec-0.0.2.post2.dist-info/METADATA,sha256=H4iw5u4zhPoie77dMlh1F684nlmlE5G5W8eexCr0X7w,10737
+fastrec-0.0.2.post2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fastrec-0.0.2.post2.dist-info/dependency_links.txt,sha256=XCHRoIKNdWp90FYwXBzmSQGeRi3igwH1Fi13mqDqazE,51
+fastrec-0.0.2.post2.dist-info/top_level.txt,sha256=vicph6eWsne4ETinWqJgNLzTTjkGAQUWKM0ksaCcTJo,8
+fastrec-0.0.2.post2.dist-info/RECORD,,
