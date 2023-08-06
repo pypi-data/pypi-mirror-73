@@ -1,0 +1,6 @@
+prometheus_flask_instrumentator/__init__.py,sha256=G6dgzqPehg06EItRkxZl9oRYx-bNPAiKL6ehDVa3hs4,101
+prometheus_flask_instrumentator/flask_instrumentation.py,sha256=0Ebllcvjou-Cdo13Fs2FPiTV70-4Nlcd_12KaVy82UA,5041
+prometheus_flask_instrumentator-20.7.5.dist-info/LICENSE.txt,sha256=yNsJ-tSyF-YMCQi44oU8mXEKIWzmMXAwML7lgxAzrgo,1069
+prometheus_flask_instrumentator-20.7.5.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+prometheus_flask_instrumentator-20.7.5.dist-info/METADATA,sha256=3WxCTbraDwtSqTZchqtbVWYZHO8VKm_N6EWzvmqFQwA,5168
+prometheus_flask_instrumentator-20.7.5.dist-info/RECORD,,
