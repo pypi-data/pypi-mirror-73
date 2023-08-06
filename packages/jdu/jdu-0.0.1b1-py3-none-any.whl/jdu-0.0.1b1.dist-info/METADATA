@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: jdu
+Version: 0.0.1b1
+Summary: JingDong Union SDK
+Home-page: UNKNOWN
+Author: joshzda
+Author-email: joshzda@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: arrow (==0.15.6)
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: idna (==2.9)
+Requires-Dist: ipython (==7.14.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: jedi (==0.17.0)
+Requires-Dist: parso (==0.7.0)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: prompt-toolkit (==3.0.5)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: wcwidth (==0.1.9)
+
+UNKNOWN
+
+
