@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: sefr
+Version: 1.0.2
+Summary: A Fast Linear-Time Classifier for Ultra-Low Power Devices
+Home-page: https://github.com/eloquentarduino/sefr
+Author: Simone Salerno
+Author-email: eloquentarduino@gmail.com
+License: MIT
+Download-URL: https://github.com/eloquentarduino/sefr/archive/v_102.tar.gz
+Description: UNKNOWN
+Keywords: ML,microcontrollers,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
