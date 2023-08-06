@@ -1,0 +1,16 @@
+beamx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beamx/io/__init__.py,sha256=QxRiU_9rBvD5Gs5xqSnZB7YiL_0QUpsVsnL-Q6y3hNk,26
+beamx/io/filesource.py,sha256=VrKYk4L5c8Yz2ATBg1esy2qmqWjGYQpvpTQq3jqZs7A,9604
+beamx/io/aws/__init__.py,sha256=mO8MlKy4wHGAt38bIkTPg_kURowJHQ1guVpGm3IpPuk,22
+beamx/io/aws/glueio.py,sha256=-LU_nsKYsc-C9MwycuW8TXm4YuwfTKBSJbJixW-h0jY,4531
+beamx/reader/__init__.py,sha256=h2njsmPsKCd8yCDOoTeZ5fCMRgHarY-DpK_wP0kIED0,40
+beamx/reader/orc.py,sha256=UUe9vIxtliU8Qj0k5zKCbmTK8AuADe3YShY5hVp2f-g,1075
+beamx/reader/orc_test.py,sha256=jFpdWNgQWVlrXVcTZfT6WIguXwPBktcSkSMZ4m6wNwE,1660
+beamx/reader/utils.py,sha256=aaV4O0Euw96IFtgGn3GPGtGfX7_nhiEA-IivhAXAOF8,569
+beamx/transforms/__init__.py,sha256=x0hqXPkyo1pj8LZ5FmXgJbWS1Ydn6N-UIdivYFOX9kI,29
+beamx/transforms/restruct_dict.py,sha256=BA8zOCM9uWl51guC8BMtK80Pi9c459LYqKEttBkWW2A,1128
+beamx/transforms/restruct_dict_test.py,sha256=Aif4YOcTA2naGqrnEZUUdf1F5qusIwSTvyoUCsOi18w,2177
+beamx-0.0.1.dist-info/METADATA,sha256=7Sc-XDQjmlCymPVpc3Puj3Lr_ChnQZwhXNp0IJNrGQk,561
+beamx-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+beamx-0.0.1.dist-info/top_level.txt,sha256=CvyNTMGmSwOiQG1Zo7mGfRSsQSPiwq90ZQ-NU5fyJ78,6
+beamx-0.0.1.dist-info/RECORD,,
