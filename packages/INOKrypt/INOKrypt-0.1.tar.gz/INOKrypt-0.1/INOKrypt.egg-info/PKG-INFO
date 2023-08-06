@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: INOKrypt
+Version: 0.1
+Summary: INOKrypt Testing Algorithm for IoT Data Communication Security
+Home-page: https://github.com/TheThingsPlanet/INOKrypt
+Author: Shobhit Sharma
+Author-email: shobhit@technical0812.com
+License: UNKNOWN
+Description: # INOKrypt
+        
+        INOKrypt - For Secure Data Communication between IoT Devices & IoT Server.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
