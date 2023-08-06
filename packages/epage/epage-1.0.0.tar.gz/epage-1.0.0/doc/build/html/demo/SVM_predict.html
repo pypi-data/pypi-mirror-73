@@ -1,0 +1,396 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>3. SVM_predict.py &mdash; epage documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4. gComposite.py" href="gComposite.html" />
+    <link rel="prev" title="2. SVM_performance.py" href="SVM_performance.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> epage
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">About the package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview.html#workflow">Workflow</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Installation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html#python-dependencies">Python dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html#install">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html#upgrade">Upgrade</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Usage Information</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="SVM_ROC.html">1. SVM_ROC.py</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SVM_performance.html">2. SVM_performance.py</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. SVM_predict.py</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#description">3.1. Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#options">3.2. Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#input-files-format">3.3. Input files format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#command">3.4. Command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#output-to-screen">3.5. Output to screen</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gComposite.html">4. gComposite.py</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Release history</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">Version 1.0.0</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">epage</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>3. SVM_predict.py</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/demo/SVM_predict.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="svm-predict-py">
+<h1>3. SVM_predict.py<a class="headerlink" href="#svm-predict-py" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="description">
+<h2>3.1. Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>Build SVM model from “train_file” and then predict cases in “data_file”</p>
+</div>
+<div class="section" id="options">
+<h2>3.2. Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><dl class="option-list">
+<dt><kbd><span class="option">--version</span></kbd></dt>
+<dd><p>show program’s version number and exit</p>
+</dd>
+<dt><kbd><span class="option">-h</span>, <span class="option">--help</span></kbd></dt>
+<dd><p>show this help message and exit</p>
+</dd>
+<dt><kbd><span class="option">-t <var>TRAIN_FILE</var></span>, <span class="option">--train_file=<var>TRAIN_FILE</var></span></kbd></dt>
+<dd><p>Tab or space separated file (for tranining purpose, to
+build SVM model). The first column contains <em>sample
+IDs</em>; the second column contains <em>sample labels</em> in
+integer (must be 0 or 1); the third column contains
+<em>sample label names</em> (string, must be consistent with
+column-2). The remaining columns contain featuers used
+to build SVM model.</p>
+</dd>
+<dt><kbd><span class="option">-d <var>DATA_FILE</var></span>, <span class="option">--data_file=<var>DATA_FILE</var></span></kbd></dt>
+<dd><p>Tab or space separated file (new data to predict the
+label). The first column contains <em>sample IDs</em>; the
+second column contains <em>sample labels</em> in integer
+(must be 0 or 1); the third column contains <em>sample
+label names</em> (string, must be consistent with
+column-2). The remaining columns contain featuers used
+to build SVM model.</p>
+</dd>
+<dt><kbd><span class="option">-C <var>C_VALUE</var></span>, <span class="option">--cvalue=<var>C_VALUE</var></span></kbd></dt>
+<dd><p>C value. default=1.0</p>
+</dd>
+<dt><kbd><span class="option">-k <var>S_KERNEL</var></span>, <span class="option">--kernel=<var>S_KERNEL</var></span></kbd></dt>
+<dd><p>Specifies the kernel type to be used in the algorithm.
+It must be one of ‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’,
+‘precomputed’ or a callable. If none is given, ‘rbf’
+will be used. default=linear</p>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="input-files-format">
+<h2>3.3. Input files format<a class="headerlink" href="#input-files-format" title="Permalink to this headline">¶</a></h2>
+<p>TRAIN_FILE and DATA_FILE use the same format as below. the 2nd and 3rd columns in DATA_FILE
+can be consideres as <strong>Original Label</strong> and <strong>Original Name</strong>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 9%" />
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 4%" />
+<col style="width: 14%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>ID</p></td>
+<td><p>Label</p></td>
+<td><p>Label_name</p></td>
+<td><p>feature_1</p></td>
+<td><p>feature_2</p></td>
+<td><p>feature_3</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-even"><td><p>sample_1</p></td>
+<td><p>1</p></td>
+<td><p>WT</p></td>
+<td><p>1560</p></td>
+<td><p>795</p></td>
+<td><p>0.9716</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-odd"><td><p>sample_2</p></td>
+<td><p>1</p></td>
+<td><p>WT</p></td>
+<td><p>784</p></td>
+<td><p>219</p></td>
+<td><p>0.4087</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-even"><td><p>sample_3</p></td>
+<td><p>1</p></td>
+<td><p>WT</p></td>
+<td><p>2661</p></td>
+<td><p>2268</p></td>
+<td><p>1.1691</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-odd"><td><p>sample_4</p></td>
+<td><p>0</p></td>
+<td><p>Mut</p></td>
+<td><p>643</p></td>
+<td><p>198</p></td>
+<td><p>0.5458</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-even"><td><p>sample_5</p></td>
+<td><p>0</p></td>
+<td><p>Mut</p></td>
+<td><p>534</p></td>
+<td><p>87</p></td>
+<td><p>1.0545</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-odd"><td><p>sample_6</p></td>
+<td><p>0</p></td>
+<td><p>Mut</p></td>
+<td><p>332</p></td>
+<td><p>75</p></td>
+<td><p>0.5115</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="command">
+<h2>3.4. Command<a class="headerlink" href="#command" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python3  SVM_predict.py -t lung_CES_5features.tsv  -d lung_CES_data_to_predict.tsv -C 10
+</pre></div>
+</div>
+</div>
+<div class="section" id="output-to-screen">
+<h2>3.5. Output to screen<a class="headerlink" href="#output-to-screen" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">TCGA_ID</span>        <span class="n">Ori_Label</span>       <span class="n">Ori_name</span>        <span class="n">Predict_Label</span>   <span class="n">Predict_Name</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">4244</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">4249</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">4250</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">4389</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">4390</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">4403</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">38</span><span class="o">-</span><span class="mi">7271</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">38</span><span class="o">-</span><span class="n">A44F</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">0</span>       <span class="n">Normal</span>
+<span class="n">TCGA</span><span class="o">-</span><span class="mi">39</span><span class="o">-</span><span class="mi">5030</span>   <span class="n">unknown</span> <span class="n">TP53_WT</span> <span class="mi">1</span>       <span class="n">Truncating</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="gComposite.html" class="btn btn-neutral float-right" title="4. gComposite.py" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="SVM_performance.html" class="btn btn-neutral float-left" title="2. SVM_performance.py" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Liguo Wang et al
+      <span class="lastupdated">
+        Last updated on July 9, 2020.
+      </span>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXX-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

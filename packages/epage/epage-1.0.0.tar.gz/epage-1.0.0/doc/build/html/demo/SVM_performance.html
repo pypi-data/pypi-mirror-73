@@ -1,0 +1,470 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. SVM_performance.py &mdash; epage documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="3. SVM_predict.py" href="SVM_predict.html" />
+    <link rel="prev" title="1. SVM_ROC.py" href="SVM_ROC.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> epage
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">About the package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview.html#workflow">Workflow</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Installation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html#python-dependencies">Python dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html#install">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html#upgrade">Upgrade</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Usage Information</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="SVM_ROC.html">1. SVM_ROC.py</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. SVM_performance.py</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#description">2.1. Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#options">2.2. Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#input-files-format">2.3. Input files format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example-of-input-file">2.4. Example of input file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#command">2.5. Command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#output-to-screen">2.6. Output to screen</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="SVM_predict.html">3. SVM_predict.py</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gComposite.html">4. gComposite.py</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Release history</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">Version 1.0.0</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">epage</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>2. SVM_performance.py</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/demo/SVM_performance.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="svm-performance-py">
+<h1>2. SVM_performance.py<a class="headerlink" href="#svm-performance-py" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="description">
+<h2>2.1. Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>Calculating performance metrics using K-fold cross-validation.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>F1_micro</p></li>
+<li><p>F1_macro</p></li>
+<li><p>Accuracy</p></li>
+<li><p>Precision</p></li>
+<li><p>Recall</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="options">
+<h2>2.2. Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><dl class="option-list">
+<dt><kbd><span class="option">--version</span></kbd></dt>
+<dd><p>show program’s version number and exit</p>
+</dd>
+<dt><kbd><span class="option">-h</span>, <span class="option">--help</span></kbd></dt>
+<dd><p>show this help message and exit</p>
+</dd>
+<dt><kbd><span class="option">-i <var>INPUT_FILE</var></span>, <span class="option">--input_file=<var>INPUT_FILE</var></span></kbd></dt>
+<dd><p>Tab or space separated file. The first column contains
+<em>sample IDs</em>; the second column contains <em>sample
+labels</em> in integer (must be 0 or 1); the third column
+contains <em>sample label names</em> (string, must be
+consistent with column-2). The remaining columns
+contain featuers used to build SVM model.</p>
+</dd>
+<dt><kbd><span class="option">-n <var>N_FOLD</var></span>, <span class="option">--nfold=<var>N_FOLD</var></span></kbd></dt>
+<dd><p>The original sample is randomly partitioned into <em>n</em>
+equal sized subsamples (2 =&lt; n &lt;= 10). Of the n
+subsamples, a single subsample is retained as the
+validation data for testing the model, and the
+remaining n − 1 subsamples are used as training data.
+default=5.</p>
+</dd>
+<dt><kbd><span class="option">-p <var>N_THREAD</var></span>, <span class="option">--nthread=<var>N_THREAD</var></span></kbd></dt>
+<dd><p>Number of threads to use. default=2</p>
+</dd>
+<dt><kbd><span class="option">-C <var>C_VALUE</var></span>, <span class="option">--cvalue=<var>C_VALUE</var></span></kbd></dt>
+<dd><p>C value. default=1.0</p>
+</dd>
+<dt><kbd><span class="option">-k <var>S_KERNEL</var></span>, <span class="option">--kernel=<var>S_KERNEL</var></span></kbd></dt>
+<dd><p>Specifies the kernel type to be used in the algorithm.
+It must be one of ‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’,
+‘precomputed’ or a callable. If none is given, ‘rbf’
+will be used. default=linear</p>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="input-files-format">
+<h2>2.3. Input files format<a class="headerlink" href="#input-files-format" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 9%" />
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 4%" />
+<col style="width: 14%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>ID</p></td>
+<td><p>Label</p></td>
+<td><p>Label_name</p></td>
+<td><p>feature_1</p></td>
+<td><p>feature_2</p></td>
+<td><p>feature_3</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-even"><td><p>sample_1</p></td>
+<td><p>1</p></td>
+<td><p>WT</p></td>
+<td><p>1560</p></td>
+<td><p>795</p></td>
+<td><p>0.9716</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-odd"><td><p>sample_2</p></td>
+<td><p>1</p></td>
+<td><p>WT</p></td>
+<td><p>784</p></td>
+<td><p>219</p></td>
+<td><p>0.4087</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-even"><td><p>sample_3</p></td>
+<td><p>1</p></td>
+<td><p>WT</p></td>
+<td><p>2661</p></td>
+<td><p>2268</p></td>
+<td><p>1.1691</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-odd"><td><p>sample_4</p></td>
+<td><p>0</p></td>
+<td><p>Mut</p></td>
+<td><p>643</p></td>
+<td><p>198</p></td>
+<td><p>0.5458</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-even"><td><p>sample_5</p></td>
+<td><p>0</p></td>
+<td><p>Mut</p></td>
+<td><p>534</p></td>
+<td><p>87</p></td>
+<td><p>1.0545</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+<tr class="row-odd"><td><p>sample_6</p></td>
+<td><p>0</p></td>
+<td><p>Mut</p></td>
+<td><p>332</p></td>
+<td><p>75</p></td>
+<td><p>0.5115</p></td>
+<td><p>…</p></td>
+<td><p>feature_n</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="example-of-input-file">
+<h2>2.4. Example of input file<a class="headerlink" href="#example-of-input-file" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cat lung_CES_5features.tsv
+TCGA_ID Label   Group   gsva_p53_activated      gsva_p53_repressed      ssGSEA_p53_activated    ssGSEA_p53_repressed    PC1
+TCGA-22-4593-11A        0       Normal  0.97337963      -0.965872505    0.446594884     -0.332230329    10.12036762
+TCGA-22-4609-11A        0       Normal  0.974507532     -0.971830001    0.480743696     -0.373937866    12.57932272
+TCGA-22-5471-11A        0       Normal  0.981934732     -0.991054313    0.465087717     -0.354705367    11.50908022
+TCGA-22-5472-11A        0       Normal  0.914660832     -0.889643616    0.433541263     -0.316566781    7.96785884
+TCGA-22-5478-11A        0       Normal  0.983080513     -0.989789407    0.478239013     -0.370840097    11.81998124
+TCGA-22-5481-11A        0       Normal  0.958950969     -0.973021839    0.441116626     -0.325822867    10.62201083
+TCGA-22-5482-11A        0       Normal  0.97113164      -0.976324136    0.471515295     -0.362373723    10.78576876
+TCGA-22-5483-11A        0       Normal  0.957377049     -0.986013986    0.378674475     -0.253223408    7.487083257
+TCGA-22-5489-11A        0       Normal  0.963911525     -0.982725528    0.45219094      -0.339061168    9.49806089
+TCGA-22-5491-11A        0       Normal  0.981934732     -0.991054313    0.475345705     -0.367218333    12.2813137
+TCGA-33-4587-11A        0       Normal  0.90739615      -0.930774072    0.403446401     -0.281428331    9.368460346
+TCGA-33-6737-11A        0       Normal  0.962025316     -0.957522049    0.495340808     -0.391557543    10.79155095
+TCGA-34-7107-11A        0       Normal  0.949717514     -0.934120795    0.451010344     -0.337452999    10.04177079
+TCGA-34-8454-11A        0       Normal  0.992397661     -0.987269255    0.480060883     -0.372603029    10.6050578
+...
+</pre></div>
+</div>
+</div>
+<div class="section" id="command">
+<h2>2.5. Command<a class="headerlink" href="#command" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$  python3  SVM_performance.py -i lung_CES_5features.tsv -C 10
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There is no rule of thumb to choose a C value, people can try a bunch of different C values
+and choose the one which gives you “best performance scores”</p>
+</div>
+</div>
+<div class="section" id="output-to-screen">
+<h2>2.6. Output to screen<a class="headerlink" href="#output-to-screen" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Preprocessing</span> <span class="n">data</span> <span class="o">...</span>
+<span class="n">Evaluate</span> <span class="n">metric</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="n">by</span> <span class="n">cross</span><span class="o">-</span><span class="n">validation</span> <span class="o">...</span>
+<span class="n">F1</span> <span class="n">score</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">weighted</span> <span class="n">average</span> <span class="n">of</span> <span class="n">the</span> <span class="n">precision</span> <span class="ow">and</span> <span class="n">recall</span><span class="o">.</span> <span class="n">F1</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="n">precision</span> <span class="o">*</span> <span class="n">recall</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">precision</span> <span class="o">+</span> <span class="n">recall</span><span class="p">)</span>
+
+
+<span class="n">F1_macro</span> <span class="n">calculate</span> <span class="n">metrics</span> <span class="k">for</span> <span class="n">each</span> <span class="n">label</span><span class="p">,</span> <span class="ow">and</span> <span class="n">find</span> <span class="n">their</span> <span class="n">unweighted</span> <span class="n">mean</span><span class="o">.</span> <span class="n">This</span> <span class="n">does</span> <span class="ow">not</span> <span class="n">take</span> <span class="n">label</span> <span class="n">imbalance</span> <span class="n">into</span> <span class="n">account</span><span class="o">.</span>
+       <span class="n">Iteration</span> <span class="mi">1</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">2</span><span class="p">:</span> <span class="mf">0.983518</span>
+       <span class="n">Iteration</span> <span class="mi">3</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">4</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">5</span><span class="p">:</span> <span class="mf">0.967273</span>
+<span class="n">F1</span><span class="o">-</span><span class="n">macro</span><span class="p">:</span> <span class="mf">0.9902</span> <span class="p">(</span><span class="o">+/-</span> <span class="mf">0.0262</span><span class="p">)</span>
+
+
+<span class="n">F1_micro</span> <span class="n">calculate</span> <span class="n">metrics</span> <span class="n">globally</span> <span class="n">by</span> <span class="n">counting</span> <span class="n">the</span> <span class="n">total</span> <span class="n">true</span> <span class="n">positives</span><span class="p">,</span> <span class="n">false</span> <span class="n">negatives</span> <span class="ow">and</span> <span class="n">false</span> <span class="n">positives</span><span class="o">.</span>
+       <span class="n">Iteration</span> <span class="mi">1</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">2</span><span class="p">:</span> <span class="mf">0.986301</span>
+       <span class="n">Iteration</span> <span class="mi">3</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">4</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">5</span><span class="p">:</span> <span class="mf">0.972222</span>
+<span class="n">F1</span><span class="o">-</span><span class="n">micro</span><span class="p">:</span> <span class="mf">0.9917</span> <span class="p">(</span><span class="o">+/-</span> <span class="mf">0.0222</span><span class="p">)</span>
+
+
+<span class="n">accuracy</span> <span class="ow">is</span> <span class="n">equal</span> <span class="n">to</span> <span class="n">F1_micro</span> <span class="k">for</span> <span class="n">binary</span> <span class="n">classification</span> <span class="n">problem</span>
+       <span class="n">Iteration</span> <span class="mi">1</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">2</span><span class="p">:</span> <span class="mf">0.986301</span>
+       <span class="n">Iteration</span> <span class="mi">3</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">4</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">5</span><span class="p">:</span> <span class="mf">0.972222</span>
+<span class="n">Accuracy</span><span class="p">:</span> <span class="mf">0.9917</span> <span class="p">(</span><span class="o">+/-</span> <span class="mf">0.0222</span><span class="p">)</span>
+
+
+<span class="n">Precision</span> <span class="o">=</span> <span class="n">tp</span> <span class="o">/</span> <span class="p">(</span><span class="n">tp</span> <span class="o">+</span> <span class="n">fp</span><span class="p">)</span><span class="o">.</span> <span class="n">It</span> <span class="n">measures</span> <span class="s2">&quot;out of all *predictive positives*, how many are correctly predicted?&quot;</span>
+       <span class="n">Iteration</span> <span class="mi">1</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">2</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">3</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">4</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">5</span><span class="p">:</span> <span class="mf">1.000000</span>
+<span class="n">Precision</span><span class="p">:</span> <span class="mf">1.0000</span> <span class="p">(</span><span class="o">+/-</span> <span class="mf">0.0000</span><span class="p">)</span>
+
+
+<span class="n">Recall</span> <span class="o">=</span> <span class="n">tp</span> <span class="o">/</span> <span class="p">(</span><span class="n">tp</span> <span class="o">+</span> <span class="n">fn</span><span class="p">)</span><span class="o">.</span> <span class="n">Recall</span> <span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">e</span><span class="o">.</span> <span class="n">sensitivity</span><span class="p">)</span> <span class="n">measures</span> <span class="s2">&quot;out of all  *positives*, how many are correctly predicted?&quot;</span>
+       <span class="n">Iteration</span> <span class="mi">1</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">2</span><span class="p">:</span> <span class="mf">0.980769</span>
+       <span class="n">Iteration</span> <span class="mi">3</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">4</span><span class="p">:</span> <span class="mf">1.000000</span>
+       <span class="n">Iteration</span> <span class="mi">5</span><span class="p">:</span> <span class="mf">0.960784</span>
+<span class="n">Recall</span><span class="p">:</span> <span class="mf">0.9883</span> <span class="p">(</span><span class="o">+/-</span> <span class="mf">0.0313</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="SVM_predict.html" class="btn btn-neutral float-right" title="3. SVM_predict.py" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="SVM_ROC.html" class="btn btn-neutral float-left" title="1. SVM_ROC.py" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Liguo Wang et al
+      <span class="lastupdated">
+        Last updated on July 9, 2020.
+      </span>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXX-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>
