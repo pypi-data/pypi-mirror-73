@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: freeza-offset
+Version: 1.0.8
+Summary: Spark stream consumption commit in kafka consumer group
+Home-page: https://github.com/HashLoad/freeza-offset
+Author: HashLoad team
+Author-email: rodrigo@rbernardi.dev, lviecelli199@gmail.com
+License: UNKNOWN
+Description: # freeza-offset
+Keywords: spark spark-streaming kafka kafka-commit kafka-offset-commits databricks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
