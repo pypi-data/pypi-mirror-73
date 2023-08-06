@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: fluxlib
+Version: 0.0.4
+Summary: left blank
+Home-page: https://github.com/soonyenju/fluxlib
+Author: Songyan Zhu
+Author-email: sz394@exeter.ac.uk
+License: MIT Licence
+Description: left blank
+Keywords: eddy covariance postprocessing, gapfilling and partitioning,flux
+Platform: any
