@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_taylogger_middleware.egg-info/PKG-INFO
+django_taylogger_middleware.egg-info/SOURCES.txt
+django_taylogger_middleware.egg-info/dependency_links.txt
+django_taylogger_middleware.egg-info/top_level.txt
+taylogger/__init__.py
+taylogger/middleware.py
+taylogger/utils.py
