@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include leafage *
+recursive-include templates *
+recursive-include static *
+recursive-include docs *
