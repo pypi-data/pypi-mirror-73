@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+ipywidgets_game_jugs/Jugs.py
+ipywidgets_game_jugs/JugsPlayer.py
+ipywidgets_game_jugs/SingleJug.py
+ipywidgets_game_jugs/__init__.py
+ipywidgets_game_jugs.egg-info/PKG-INFO
+ipywidgets_game_jugs.egg-info/SOURCES.txt
+ipywidgets_game_jugs.egg-info/dependency_links.txt
+ipywidgets_game_jugs.egg-info/requires.txt
+ipywidgets_game_jugs.egg-info/top_level.txt
+ipywidgets_game_jugs/__global__/__init__.py
+ipywidgets_game_jugs/__global__/en.py
+ipywidgets_game_jugs/__global__/fr.py
