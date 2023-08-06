@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "loggers": {
+    "eglogging": {
+      "level"   : "DEBUG",
+      "handlers": ["console_handler"]
+    }
+  },
+  "handlers": {
+    "console_handler": {
+      "level"    : "DEBUG",
+      "formatter": "human",
+      "class"    : "logging.StreamHandler"
+    }
+  },
+  "formatters": {
+    "human": {
+      "format" : "%(color_code)s%(levelname)s %(message)s (%(line)s @ %(asctime)s)%(color_reset)s",
+      "datefmt": "%H:%M:%S"
+    }
+  },
+  "disable_existing_loggers": true
+}

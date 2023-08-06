@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+eglogging/VERSION
+eglogging/__init__.py
+eglogging/eglogging.py
+eglogging/eglogging_demo.py
+eglogging/logger_config_DEFAULT.json
+eglogging/logger_config_HUMAN.json
+eglogging.egg-info/PKG-INFO
+eglogging.egg-info/SOURCES.txt
+eglogging.egg-info/dependency_links.txt
+eglogging.egg-info/top_level.txt
