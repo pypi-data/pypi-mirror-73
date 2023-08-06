@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+"""Generates customizable publications webpage from a Google Scholar
+
+1. Build bibtex from arxiv and google scholar
+2. Generate webpage from bibtex
+"""
+
+from webfscholar import config, bibtex, web
+import argparse
+import os
+
+
+def get_parser():
+    parent = argparse.ArgumentParser(add_help=False)
+    parent.add_argument('--reset', action='store_true')
+
+    parser = argparse.ArgumentParser()
+    subparsers = parser.add_subparsers(dest='command')
+
+    config.add_parser(subparsers, parent)
+    bibtex.add_parser(subparsers, parent)
+    web.add_parser(subparsers, parent)
+
+    parser_clean = subparsers.add_parser('clean', parents=[parent])
+
+    return parser
+
+
+def clean(_):
+    os.remove(bibtex.PATH_BIBTEX)
+    os.remove(config.PATH_CONFIG)
+    os.remove(web.PATH_OUT)
+    os.remove('scholar.log')
+
+
+command_to_function = {
+    'config': config.main,
+    'bibtex': bibtex.main,
+    'web': web.main,
+    'clean': clean
+}
+
+
+def main():
+    parser = get_parser()
+    args = parser.parse_args()
+
+    command = command_to_function.get(args.command, web.main)
+    command(args)
+
+
+if __name__ == '__main__':
+    main()
