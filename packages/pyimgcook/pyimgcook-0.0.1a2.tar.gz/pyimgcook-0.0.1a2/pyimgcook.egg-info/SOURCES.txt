@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyimgcook/__init__.py
+pyimgcook/cook.py
+pyimgcook.egg-info/PKG-INFO
+pyimgcook.egg-info/SOURCES.txt
+pyimgcook.egg-info/dependency_links.txt
+pyimgcook.egg-info/top_level.txt
