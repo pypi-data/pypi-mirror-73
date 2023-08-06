@@ -1,0 +1,17 @@
+soops/__init__.py,sha256=kcNmg-jtzjJr5i0_uR7AE4QzMhFkNJw4QhmbyEroksY,226
+soops/base.py,sha256=V1GY_S-HhhIqlUrya8yGokl3rRnsvWCrlBcZbUVZc9Y,7343
+soops/formatting.py,sha256=nDAz0C3KkY318gXaZeyP41IiG4j0y7w0mnO-Isj9Vtw,503
+soops/ioutils.py,sha256=H-fK0LD-N2TvaCgj7fEn5vkq5fP6JhiaxVXvT3boLKM,2936
+soops/parsing.py,sha256=7byGwptG151a8AQAyCoYSIlWgkpgzYTb7Ub_5arm2jU,5436
+soops/plot_selected.py,sha256=flRXsO6H6AjD03DaUBu4XIanCJBmeBv2i7wtM_s7WGM,4606
+soops/plugins.py,sha256=YDfHzMgq-6udv3xxMgmQZUOQ6QDwTz3u04NOL9YKSSE,97
+soops/print_info.py,sha256=-l75DxlfTLRZoMmfeJ3Ha4xZab0Yvtp3v5DcGQ5J3SI,2332
+soops/run_parametric.py,sha256=ci4fKL3IKwEX8st6gm4dp67au36mXKY5aUnfbFhTfPA,7310
+soops/scoop_outputs.py,sha256=ISVW6rJtSmZrKpFSEJS2XNedNB4TZOPGqfWLm8HnWro,11153
+soops/version.py,sha256=GBDZ3817h1LQLGJNYANSDwmDj6grpovqCZkF3u1J2nk,23
+soops-2020.2.dist-info/LICENSE.txt,sha256=zoPYDpetbGrXNF5lEArU-GBt-0tfFaD7NiHtQknWI38,1513
+soops-2020.2.dist-info/METADATA,sha256=b3jYXKBuHEH1EPGZIAqDgk9Jcx6TCrPDes2KM0ePIgc,18282
+soops-2020.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+soops-2020.2.dist-info/entry_points.txt,sha256=B4LcOsx-yCrLVGV_Kdn1eptmS-FWWSYdUAam6iMQxsw,131
+soops-2020.2.dist-info/top_level.txt,sha256=MPCIMW4JHF3CHP9wVVoMOxYBC0USXYOxbUItJ1fw_ZU,6
+soops-2020.2.dist-info/RECORD,,
