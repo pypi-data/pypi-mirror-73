@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Homevee
+Version: 0.1.1.36
+Summary: Dein neues Smarthome-System!
+Home-page: https://github.com/Homevee/Homevee
+Author: Homevee
+Author-email: support@Homevee.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: packaging
+Requires-Dist: python-dateutil
+Requires-Dist: pyOpenSSL
+Requires-Dist: pymax
+Requires-Dist: paho-mqtt
+Requires-Dist: Pillow
+Requires-Dist: passlib
+Requires-Dist: numpy
+Requires-Dist: azure-iothub-device-client
+Requires-Dist: flask
+Requires-Dist: psutil
+
+#Homevee - Dein neues Smarthome-System
+
+[![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/homevee/Homevee)
+[![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/homevee/Homevee)
+[![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-1F5081.svg)](https://bitbucket.org/homevee/Homevee)
+
+##Installation:
+sudo apt-get install wakeonlan libjpeg-dev mosquitto python3-pip -y
+sudo pip3 install Homevee
+
+
