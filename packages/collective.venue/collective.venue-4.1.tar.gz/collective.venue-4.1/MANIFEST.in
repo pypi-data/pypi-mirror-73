@@ -1,0 +1,6 @@
+include *.rst
+exclude buildout.cfg
+recursive-include docs *
+recursive-include collective *
+global-include *.mo
+global-exclude *.pyc
