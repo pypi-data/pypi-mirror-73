@@ -1,0 +1,55 @@
+image:
+  name: debian:buster-slim
+
+services:
+  - docker:dind
+
+stages:
+  - test
+  - build
+  - testbuild
+  - publish
+
+.install: &install
+  - 'apt-get update && apt-get install -qy python3-pytest python3-pytest-cov python3-pytest-mock python3-pip mypy codespell make black flake8 shunit2 git'
+  - python3 -m pip install flit
+
+before_script: *install
+
+unittests:
+  stage: test
+  script:
+    - make unit-tests
+
+style:
+  stage: test
+  script:
+    - make style
+
+typecheck:
+  stage: test
+  script:
+    - make typecheck
+
+codespell:
+  stage: test
+  script:
+    - make codespell
+
+build:
+  stage: build
+  script:
+    - git status
+    - rm -rf dist/
+    - flit --debug build
+  artifacts:
+    paths:
+      - dist/
+
+integration:
+  stage: testbuild
+  dependencies:
+    - build
+  script:
+    - python3 -m pip install dist/*.whl
+    - make integration-tests TMV=1
