@@ -1,0 +1,3 @@
+[console_scripts]
+hist = hist.classic_hist:main
+
