@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+pynvg/__init__.py
+pynvg/core.py
+pynvg/text.py
+pynvg/var.py
+pynvg.egg-info/PKG-INFO
+pynvg.egg-info/SOURCES.txt
+pynvg.egg-info/dependency_links.txt
+pynvg.egg-info/not-zip-safe
+pynvg.egg-info/top_level.txt
