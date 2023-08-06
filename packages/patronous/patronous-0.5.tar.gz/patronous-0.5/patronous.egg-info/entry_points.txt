@@ -1,0 +1,5 @@
+[console_scripts]
+expecto = patronous.cli:main
+lumos = patronous.cli:lumos
+nox = patronous.cli:nox
+
