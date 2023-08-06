@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flask-threaded-sockets
+Version: 0.1.0
+Summary: Barebones websocket extension for Flask, using Pythonthreading for low-traffic concurrency
+Author: Joel Collins
+Author-email: joel@jtcollins.net
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Dist: flask (>=1.1.2,<2.0.0)
+Requires-Dist: werkzeug (>=1.0.1,<2.0.0)
