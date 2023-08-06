@@ -1,0 +1,11 @@
+#Style sheet for presentations
+
+font.family: serif
+font.serif: STIXGeneral
+mathtext.fontset : stix
+
+#Activate latex
+text.usetex: true
+#Use times new roman and include siunitx-package
+text.latex.preamble: \usepackage{mathptmx},\usepackage{siunitx}\usepackage[T1]{fontenc}
+

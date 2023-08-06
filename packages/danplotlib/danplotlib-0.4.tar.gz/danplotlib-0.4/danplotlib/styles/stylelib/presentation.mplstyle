@@ -1,0 +1,5 @@
+#Style sheet for presentations
+
+font.family: serif
+font.serif: STIXGeneral
+mathtext.fontset : stix

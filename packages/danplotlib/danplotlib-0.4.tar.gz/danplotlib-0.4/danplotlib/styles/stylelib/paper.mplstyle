@@ -1,0 +1,4 @@
+#Paper stylesheet: Use the same font (Computer Modern) as is used by LaTex by default
+
+font.family: CMU Serif
+mathtext.fontset: cm
