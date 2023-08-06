@@ -1,0 +1,5 @@
+
+[docs]
+sphinx
+python-docs-theme
+sphinx-argparse
