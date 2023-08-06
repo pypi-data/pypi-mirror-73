@@ -1,0 +1,12 @@
+numpy
+jieba
+textrank4zh
+pandas
+tqdm
+pytest
+
+[http]
+flask
+flask-compress
+flask-cors
+flask-json
