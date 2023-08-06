@@ -1,0 +1,4 @@
+py-solc-x
+web3
+hmt-basemodels
+boto3
