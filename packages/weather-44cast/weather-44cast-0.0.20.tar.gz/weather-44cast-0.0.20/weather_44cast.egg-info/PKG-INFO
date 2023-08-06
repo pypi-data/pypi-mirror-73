@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: weather-44cast
+Version: 0.0.20
+Summary: Forecast weather production with Deep Learning
+Home-page: https://github.com/waelchabir/Renewable-Energy-Production-forecasting---4Cast-GmbH-internship
+Author: Wael Chabir
+Author-email: wael.chabir@4-cast.de
+License: BSD 3-Clause License
+Description: UNKNOWN
+Keywords: deep_learning,forecasting,LSTM,CNN
+Platform: any
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
