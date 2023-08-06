@@ -1,0 +1,17 @@
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/serveitlearn/__init__.py
+src/serveitlearn/__main__.py
+src/serveitlearn/cli.py
+src/serveitlearn/decorator.py
+src/serveitlearn/py.typed
+src/serveitlearn.egg-info/PKG-INFO
+src/serveitlearn.egg-info/SOURCES.txt
+src/serveitlearn.egg-info/dependency_links.txt
+src/serveitlearn.egg-info/not-zip-safe
+src/serveitlearn.egg-info/requires.txt
+src/serveitlearn.egg-info/top_level.txt
