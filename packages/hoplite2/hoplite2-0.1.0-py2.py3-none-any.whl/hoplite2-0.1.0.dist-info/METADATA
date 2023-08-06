@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hoplite2
+Version: 0.1.0
+Summary: A Sparsity Analysis Tool and Library
+Home-page: https://github.com/prydt/hoplite2
+License: UNKNOWN
+Author: Pranoy Dutta
+Author-email: pranoydll@gmail.com
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: tensorflow >= 2.2.0
+
+# hoplite2
+a sparsity analysis tool for neural networks
+
