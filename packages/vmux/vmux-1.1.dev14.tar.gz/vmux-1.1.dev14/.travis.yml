@@ -1,0 +1,21 @@
+language: python
+dist: xenial
+python:
+- '3.4'
+- '3.5'
+- '3.6'
+- '3.7'
+install:
+- pip install -r requirements.txt
+- pip install --no-deps -e .
+script:
+- pytest
+deploy:
+  provider: pypi
+  user: jceb81
+  password:
+    secure: H//ZaLAM/6UsvM+AQQeTbJENjVkjumWnzEUuNMqYFt3ynZVxrIja2D7I9zWrQADvbmJa9iONVSkhKXmOUo/F0hT3qw1VN0xeRbadfC9QO1ZuOp91iNBjeKORJjbE4tVNQc4KIC5ph+LyFdScu5IGSrT47XuAMgVMTIoyqqlwTeTSgZCCVNKyNW0OJLs7tPhoswPuFRSMUwe5P8CjMUJqtmf5M4cJXyVU7U598pek1STDIQIFH1ucj2uAG0rGPDm/1JHQW3Brq+tYicUV+zUs/UJXcC3/kWmtjJD1/A03+nRwIqm6zI47vhCJqaQeqAx9Y14RDh8DPFGDIAhKrX3OxvRf4UyNFqu5Ehga9tFFrYIKEUkdYxkD3vyZ2gsMzKO9C0eBjfcW60GCzDAQpnbVuk+QSFi5Q951R+ovoXCYtdtaMe0dwtUgMsTydltzLM+S/uzDfgeY0QANWnpT21f24AymJtRYCTbfi7eVwvErCpxkPRz6oMbFbW2LJpPuPb5SvcEWGD7nq3VKfTUPE6Rd7faBxiXgnsniWgPELI+xKZnkONhXDaUZwLyhJ+LhzFs7jsf92FxYGz+8d4rFRJD1KZoWTFsFJt0eDkxl/BRvn7aw3TjGZfryyDj2HFAM5iBMfx8NgvRW4jNuavRTWXaL9I5DeJhWNYltNeDp2i4iZh0=
+  on:
+    tags: true
+  distributions: sdist bdist_wheel
+

@@ -1,0 +1,3 @@
+[console_scripts]
+vmux = vmux.__main__:main
+
