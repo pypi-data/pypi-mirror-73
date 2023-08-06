@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: blogue
+Version: 0.1.0
+Summary: a dead simple static blog generator with no opinions whatsoever
+Home-page: https://github.com/olvn/blogue
+Author: goode bye
+Author-email: hey@olvn.work
+License: MIT
+Description: # blogue 
+        
+        a dead simple, frill-less static blog generator with no opinions whatsoever
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
