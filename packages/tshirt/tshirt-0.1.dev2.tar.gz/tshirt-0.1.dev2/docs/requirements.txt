@@ -1,0 +1,8 @@
+nbsphinx
+photutils
+astropy
+matplotlib
+numpy
+scipy
+bokeh
+sphinx-rtd-theme
