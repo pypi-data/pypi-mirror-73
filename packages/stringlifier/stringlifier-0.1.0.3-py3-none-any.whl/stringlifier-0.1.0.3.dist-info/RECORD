@@ -1,0 +1,16 @@
+stringlifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stringlifier/api.py,sha256=TdnuBktcHmsCjlkFXWjvsYXfCafUZpESXSQoe-DiIDA,6017
+stringlifier/data/enhanced-c.bestType,sha256=-Flwhw9Q0w29ZoqtQic1GhTGWqYjIlZw_MBrk--4Oh0,2103503
+stringlifier/data/enhanced-c.conf,sha256=--iTYmb94lMRMAhjDienDFz0f6j100BYnRPwa3_Y8zU,71
+stringlifier/data/enhanced-c.encodings,sha256=ZI1yPB4uMYVlT7guDt0cvNsnJaovshwlXsdWgubeHkc,687
+stringlifier/data/string-c.bestType,sha256=uHcWj9coc9QLQRBSP3grI3dLWJqgVu0WHYZJa2uFJMo,877156
+stringlifier/data/string-c.conf,sha256=--iTYmb94lMRMAhjDienDFz0f6j100BYnRPwa3_Y8zU,71
+stringlifier/data/string-c.encodings,sha256=esxbDXHtbYgE0fKLScbve4CC0Mw1toI1G2ZT5DXwj54,470
+stringlifier/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stringlifier/modules/stringc.py,sha256=SKKCUELpBp1iijZm0FT0r-NWKTYwllLhIT9dquhODY4,14075
+stringlifier/modules/stringc2.py,sha256=uGHV9d7f2_vAgLdB2Pbfq94qhZvPeNSC-wmnpH_Czcs,12835
+stringlifier-0.1.0.3.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+stringlifier-0.1.0.3.dist-info/METADATA,sha256=d3pUV5jjlN79K3ylGYCGCrvC-gFl8jgvLURHru8T6z0,3645
+stringlifier-0.1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+stringlifier-0.1.0.3.dist-info/top_level.txt,sha256=yUBmza22rVS_2VwPf70hXmQbOmw8LUWEEvhQ9930gHg,13
+stringlifier-0.1.0.3.dist-info/RECORD,,
