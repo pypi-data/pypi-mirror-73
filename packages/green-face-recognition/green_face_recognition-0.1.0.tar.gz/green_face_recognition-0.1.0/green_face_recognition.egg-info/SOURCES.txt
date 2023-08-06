@@ -1,0 +1,12 @@
+README.md
+setup.py
+custom_configs/__init__.py
+custom_configs/keras.py
+custom_configs/pytorch.py
+custom_configs/tensorflow.py
+custom_configs/utils.py
+green_face_recognition.egg-info/PKG-INFO
+green_face_recognition.egg-info/SOURCES.txt
+green_face_recognition.egg-info/dependency_links.txt
+green_face_recognition.egg-info/not-zip-safe
+green_face_recognition.egg-info/top_level.txt
