@@ -1,0 +1,11 @@
+airflow_tm1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_tm1/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_tm1/hooks/tm1.py,sha256=R6Du1Brk3UQKZ3PjpY3-I5TLnxzcvx8D0IU7h-GqJMc,1848
+airflow_tm1/hooks/tm1_hook.py,sha256=y62_gNH2NCg8J3eEx4dUIqkJjpYRPXm0zQ_6fRCeXnI,1818
+airflow_tm1/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_tm1/operators/tm1_run_ti.py,sha256=g9T0qDiwp3UabXVdh5O4yoCEsvcJ33qClIYUAVBRwJ4,1167
+airflow_tm1-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airflow_tm1-0.0.4.dist-info/METADATA,sha256=6DjD125QUwEU1-co2RdvyNaQl97sgLXP--waynJCosM,1649
+airflow_tm1-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+airflow_tm1-0.0.4.dist-info/top_level.txt,sha256=-ueEttowT3hXO-kq1kl0JJSflnP9okMegh4ZOkOk72g,12
+airflow_tm1-0.0.4.dist-info/RECORD,,
