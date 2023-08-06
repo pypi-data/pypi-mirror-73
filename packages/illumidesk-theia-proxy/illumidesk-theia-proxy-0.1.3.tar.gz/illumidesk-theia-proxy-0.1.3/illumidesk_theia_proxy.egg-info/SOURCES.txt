@@ -1,0 +1,9 @@
+README.md
+setup.py
+illumidesk_theia_proxy/__init__.py
+illumidesk_theia_proxy.egg-info/PKG-INFO
+illumidesk_theia_proxy.egg-info/SOURCES.txt
+illumidesk_theia_proxy.egg-info/dependency_links.txt
+illumidesk_theia_proxy.egg-info/entry_points.txt
+illumidesk_theia_proxy.egg-info/requires.txt
+illumidesk_theia_proxy.egg-info/top_level.txt
