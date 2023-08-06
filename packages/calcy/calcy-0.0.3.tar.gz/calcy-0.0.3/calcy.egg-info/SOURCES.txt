@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+calcy/__init__.py
+calcy.egg-info/PKG-INFO
+calcy.egg-info/SOURCES.txt
+calcy.egg-info/dependency_links.txt
+calcy.egg-info/top_level.txt

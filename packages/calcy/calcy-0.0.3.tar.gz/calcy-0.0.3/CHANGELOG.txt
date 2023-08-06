@@ -1,0 +1,15 @@
+Change Log
+==========
+
+0.0.1 (11/07/2020)
+------------------
+- First Release
+
+0.0.2 (11/07/2020)
+------------------
+- Add help function
+- Change return type on passing invalid arguments
+
+0.0.3 (11/07/2020)
+------------------
+- Update README.txt
