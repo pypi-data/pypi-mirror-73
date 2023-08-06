@@ -1,0 +1,6 @@
+clldutils
+lingpy
+
+[test]
+pytest
+pytest-coverage
