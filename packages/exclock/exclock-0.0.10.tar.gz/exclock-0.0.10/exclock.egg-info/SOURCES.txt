@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.cfg
+setup.py
+assets/silent.mp3
+assets/warning.mp3
+examples/pomodoro.json5
+examples/simple.json5
+examples/warning.json5
+exclock/__init__.py
+exclock/entities.py
+exclock/main.py
+exclock.egg-info/PKG-INFO
+exclock.egg-info/SOURCES.txt
+exclock.egg-info/dependency_links.txt
+exclock.egg-info/entry_points.txt
+exclock.egg-info/requires.txt
+exclock.egg-info/top_level.txt
