@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cplxmodule
+Version: 2020.7
+Summary: An extension for pytorch providing essential building blocks for Complex-valued Neural Networks and `torch.nn`-compatible Variational Dropout methods. Implements the tools necessary to train and sparsify both real and complex-valued models, and seamlessly integrate them into existing pipelines.
+Home-page: https://github.com/ivannz/cplxmodule
+Author: Ivan Nazarov
+Author-email: ivan.nazarov@skolkovotech.ru
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
