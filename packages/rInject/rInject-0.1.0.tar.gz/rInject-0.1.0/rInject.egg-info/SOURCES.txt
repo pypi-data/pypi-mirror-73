@@ -1,0 +1,8 @@
+README.md
+setup.py
+rInject.egg-info/PKG-INFO
+rInject.egg-info/SOURCES.txt
+rInject.egg-info/dependency_links.txt
+rInject.egg-info/requires.txt
+rInject.egg-info/top_level.txt
+rinject/__init__.py
