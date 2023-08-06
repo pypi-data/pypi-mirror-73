@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pydownloads
+Version: 0.1.0
+Summary: Statistics download python packages PiPy.
+Home-page: https://github.com/pystorage/pydownloads
+Author: PyMaster
+Author-email: 
+License: MIT
+Description: <div align="center">
+        <p align="center">
+        <img src="https://raw.githubusercontent.com/pystorage/pydownloads/master/docs/source/images/logo.png" alt="PyDownloads">
+        </p>
+        </div>
+        
+        ## Installation
+        
+        ```shell
+        pip install pydownloads
+        ```
+        
+        ## Documentation
+        
+        ### Total downloads
+        
+        ```python
+        from pydownloads import Stats
+        ```
+        
+        #### Parameters:
+        
+        - package_name (string) - Python package name
+        
+        ##### Code
+        
+        ```python
+        from pydownloads import Stats
+        
+        
+        stats = Stats('pykeyboard')
+        print(stats.total)
+        ```
+        
+        ##### Result
+        
+        1292
+        
+Keywords: statistics download python PiPy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
