@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: easy-database
+Version: 1.0.0
+Summary: abstraction for ETL Database interaction
+Home-page: https://github.com/bclipp/easy_database
+Author: Brian Lipp
+Author-email: bclipp770@gmail.com
+License: MIT
+Description: ## easy_database
+        
+        ### Description
+        sadfasdfasdfasdf
+        ### How to install
+        asdfasdfasd
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
