@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: optimyze
+Version: 0.0.2
+Summary: Hyperparamter optimization package
+Home-page: https://github.com/SaadMTSA/optimyze
+Author: Saed SayedAhmed
+Author-email: saadmtsa@gmail.com
+License: UNKNOWN
+Description: # optimyze
+        This package is meant to implement hyperparameter optimization techniques that are sklearn-compatible.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
