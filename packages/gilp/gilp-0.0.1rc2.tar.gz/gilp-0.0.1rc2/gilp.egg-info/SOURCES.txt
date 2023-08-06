@@ -1,0 +1,12 @@
+README.md
+setup.py
+gilp/__init__.py
+gilp/simplex.py
+gilp/style.py
+gilp/test.py
+gilp/visualize.py
+gilp.egg-info/PKG-INFO
+gilp.egg-info/SOURCES.txt
+gilp.egg-info/dependency_links.txt
+gilp.egg-info/requires.txt
+gilp.egg-info/top_level.txt
