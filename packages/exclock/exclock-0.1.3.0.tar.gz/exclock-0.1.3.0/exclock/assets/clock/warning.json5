@@ -1,0 +1,9 @@
+{
+  "sounds": {
+    "0":{
+    "message": "Warning",
+    "sound_filename": "_warning.mp3",
+  }},
+  "loop": 2
+}
+
