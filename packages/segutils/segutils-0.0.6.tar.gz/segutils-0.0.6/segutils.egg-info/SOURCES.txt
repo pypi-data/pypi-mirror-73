@@ -1,0 +1,12 @@
+README.md
+setup.py
+segutils/Visualizer.py
+segutils/__init__.py
+segutils/graphutils.py
+segutils/imutils.py
+segutils/visutils.py
+segutils.egg-info/PKG-INFO
+segutils.egg-info/SOURCES.txt
+segutils.egg-info/dependency_links.txt
+segutils.egg-info/requires.txt
+segutils.egg-info/top_level.txt
