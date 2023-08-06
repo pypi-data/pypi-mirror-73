@@ -1,0 +1,10 @@
+setup.py
+pp_gaussian_binomial/Binomialdistribution.py
+pp_gaussian_binomial/Gaussiandistribution.py
+pp_gaussian_binomial/Generaldistribution.py
+pp_gaussian_binomial/__init__.py
+pp_gaussian_binomial.egg-info/PKG-INFO
+pp_gaussian_binomial.egg-info/SOURCES.txt
+pp_gaussian_binomial.egg-info/dependency_links.txt
+pp_gaussian_binomial.egg-info/not-zip-safe
+pp_gaussian_binomial.egg-info/top_level.txt
