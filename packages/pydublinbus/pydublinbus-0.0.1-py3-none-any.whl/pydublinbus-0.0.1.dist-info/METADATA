@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydublinbus
+Version: 0.0.1
+Summary: Python library to get the real-time transport information (RTPI) from Dublin Bus
+Home-page: UNKNOWN
+Author: Alex Iepuras
+Author-email: iepuras.alex@gmail.com
+License: MIT
+Keywords: dublin bus RTPI
+Platform: any
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+UNKNOWN
+
+
