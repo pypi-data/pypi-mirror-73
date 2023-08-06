@@ -1,0 +1,4 @@
+[console_scripts]
+rsendmail = rsendmail:main
+sshsendmail = sshsendmail:main
+
