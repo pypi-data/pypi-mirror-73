@@ -1,0 +1,29 @@
+Metadata-Version: 1.0
+Name: probability-gaussian-binomial
+Version: 0.4
+Summary: Gaussian and binomial distributions
+Home-page: UNKNOWN
+Author: Gopi Mehta
+Author-email: gopimehta60@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # probability_gaussian_binomial package
+        
+        This package adapts the object oriented style of programming to make a simple python based package for solving Gaussian and Binomial distributions.
+        
+        # Files
+        
+        1. Generaldistribution.py - This file contains the base class or general class for both the distributions and extending the features of this class using inheritance the other two files calculate their respective distributions.
+        
+        2. Gaussiandistribution.py - This file implements all the functions related to gaussian distribution including plotting the graphs.
+        
+        3. Binomialdistribution.py - This file implements all the functions related to binomial distribution including plotting the graphs.
+        
+        # installation
+        
+        pip install probability-gaussian-binomial
+        
+        # usage
+        
+        from probability-gaussian-binomial import Gaussian, Binomial
+Platform: UNKNOWN
