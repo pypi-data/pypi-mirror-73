@@ -1,0 +1,10 @@
+include colored_with_contactform/static/**/**
+include colored_with_contactform/static/**/**/**
+include colored_with_contactform/templates/**
+include colored_with_contactform/templates/**/**
+include colored_with_contactform/translations/**
+include colored_with_contactform/translations/**/**
+include colored_with_contactform/translations/**/**/**
+include colored_with_contactform/babel.cfg
+include colored_with_contactform/messages.pot
+
