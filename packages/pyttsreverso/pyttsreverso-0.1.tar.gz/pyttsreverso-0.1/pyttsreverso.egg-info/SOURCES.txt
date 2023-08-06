@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyttsreverso/__init__.py
+pyttsreverso/pyttsreverso.py
+pyttsreverso.egg-info/PKG-INFO
+pyttsreverso.egg-info/SOURCES.txt
+pyttsreverso.egg-info/dependency_links.txt
+pyttsreverso.egg-info/top_level.txt
