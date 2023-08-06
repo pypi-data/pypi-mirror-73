@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: weatherReportNetappDemo
+Version: 0.0.1
+Summary: adding number
+Home-page: https://github.com/Pushkar-Singh-14/
+Author: Sahil Arora
+Author-email: sarora160@gmail.com
+License: UNKNOWN
+Description: # Weather Reporter
+        
+        A Python package to get weather reports for any location.
+        
+        ## Usage
+        
+        Following query on terminal will provide you the weather details of "delhi" for next 3 days.
+        
+        ```
+        weather-reporter -q delhi -d 3
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

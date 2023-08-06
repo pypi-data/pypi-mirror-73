@@ -1,0 +1,7 @@
+README.md
+setup.py
+weatherReportNetappDemo/__init__.py
+weatherReportNetappDemo.egg-info/PKG-INFO
+weatherReportNetappDemo.egg-info/SOURCES.txt
+weatherReportNetappDemo.egg-info/dependency_links.txt
+weatherReportNetappDemo.egg-info/top_level.txt
