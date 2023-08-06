@@ -1,0 +1,6 @@
+setup.py
+rupeshcalculator/__init__.py
+rupeshcalculator.egg-info/PKG-INFO
+rupeshcalculator.egg-info/SOURCES.txt
+rupeshcalculator.egg-info/dependency_links.txt
+rupeshcalculator.egg-info/top_level.txt
