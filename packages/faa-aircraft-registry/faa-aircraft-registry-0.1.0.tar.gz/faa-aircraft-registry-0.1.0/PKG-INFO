@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: faa-aircraft-registry
+Version: 0.1.0
+Summary: Format FAA aircraft registry database into Python dictionaries for programmatic use.
+Home-page: https://github.com/ClearAerospace/faa-aircraft-registry
+Author: Austin Baldwin
+Author-email: austin.baldwin@clearaerospace.com
+License: MIT
+Description: # faa-aircraft-registry
+        This Python package formats the multiple CSV files provided from the [FAA Aircraft Registry](https://registry.faa.gov/aircraftinquiry/) and reformats them into a single list of Python dictionaries allowing for easier use for programmatic usage.
+        
+        ## Data Information
+        The downloaded data is read from multiple comma-delimited files contained within one zipped file. The expected structure is:
+        - `ReleasableAircraft.zip`
+          - `ACFTREF.txt`: aircraft reference file by make/model/series sequence
+          - `ardata.pdf`: documentation for file content and configuration
+          - `DEALER.txt`: aircraft dealer applicant file
+          - `DEREG.txt`: deregistered aircraft file
+          - `DOCINDEX.txt`: aircraft document index file
+          - `ENGINE.txt`: engine reference file
+          - `MASTER.txt`: aircraft registration master file
+        
+        ## Installation
+        ```
+        pip install faa_aircraft_registry
+        ```
+        
+        ## Example Usage
+        ```python
+        import io
+        import zipfile
+        import requests
+        from faa_aircraft_registry import read
+        
+        registry_zipped_file = 'ReleasableAircraft.zip'
+        with zipfile.ZipFile(registry_zipped_file) as z:
+            registrations = read(z)
+        ```
+        
+Keywords: faa aircraft registry
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
