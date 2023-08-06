@@ -1,0 +1,14 @@
+uplot/__init__.py,sha256=RNolsjjMnCsksti17O2t4FkGkXmv7ttWrfmFBRo3u40,161
+uplot/_version.py,sha256=uEZuLF30cqfWxp2sST31Cb-1Oqu1KIjlPC60SFNStgM,23
+uplot/core.py,sha256=uiNTUgGsTl9vEi-ESgTX82YXUfdCf-GjY5kdyCqRKU0,11910
+uplot/old.py,sha256=oGk8UDYW4KJK_8eHxPez0h6hcXhfabIKcoVwVzbVavg,3838
+uplot/options.py,sha256=hfWTxkMx7P7obVkhTv02vDo3TdSoTQGrJsN8TlQWRdI,64
+uplot/quick.py,sha256=VrR4_f4x7AzsuEs2A_w2xfFObNDWjegTJOHT-wK9rkk,1296
+uplot/_include/markers_mpl.yml,sha256=2_FZaA3E082p1vPyKnj-pQv2ut2r9nicvzQtVxbcmEY,135
+uplot/_include/uplot.mplstyle,sha256=7f2SQLOZYrnMd9U6tlLugPzOF--81GpWVttNJa6M5UU,1227
+uplot-0.1.26.dist-info/LICENSE.md,sha256=P6zxrd6YqdgO7lDlsCf8ZSgh6FoWX-ISS2ZEzXxS3Mc,1055
+uplot-0.1.26.dist-info/METADATA,sha256=50M0peBV57IB_j2AJCBSWl5glFNsXgE4ZxXFmNP9ynY,1502
+uplot-0.1.26.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+uplot-0.1.26.dist-info/top_level.txt,sha256=mAElsscgNRUJu-2h25eVAW1nJ-quuyjQvoIpu0d_Q2U,6
+uplot-0.1.26.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+uplot-0.1.26.dist-info/RECORD,,
