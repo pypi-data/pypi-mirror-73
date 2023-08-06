@@ -1,0 +1,14 @@
+grpcio
+protobuf
+
+[dev]
+grpcio-tools
+googleapis-common-protos
+pylint
+twine
+setuptools
+wheel
+pytest
+pytest-cov
+pytest-mock
+coverage

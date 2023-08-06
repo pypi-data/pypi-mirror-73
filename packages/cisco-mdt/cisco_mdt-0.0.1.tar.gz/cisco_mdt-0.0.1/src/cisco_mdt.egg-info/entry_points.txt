@@ -1,0 +1,3 @@
+[console_scripts]
+cisco-mdt = cisco_mdt.cli:main
+
