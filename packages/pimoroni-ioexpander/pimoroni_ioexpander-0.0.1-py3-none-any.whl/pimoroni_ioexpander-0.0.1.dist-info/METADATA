@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pimoroni-ioexpander
+Version: 0.0.1
+Summary: Python library for the Pimoroni IO Expander
+Home-page: https://www.pimoroni.com
+Author: Philip Howard
+Author-email: phil@pimoroni.com
+License: MIT
+Project-URL: GitHub, https://www.github.com/pimoroni/ioe-python
+Keywords: Raspberry Pi
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: smbus2
+
+# IO Expander
+
+[![Build Status](https://travis-ci.com/pimoroni/ioe-python.svg?branch=master)](https://travis-ci.com/pimoroni/ioe-python)
+[![Coverage Status](https://coveralls.io/repos/github/pimoroni/ioe-python/badge.svg?branch=master)](https://coveralls.io/github/pimoroni/ioe-python?branch=master)
+[![PyPi Package](https://img.shields.io/pypi/v/pimoroni-ioexpander.svg)](https://pypi.python.org/pypi/pimoroni-ioexpander)
+[![Python Versions](https://img.shields.io/pypi/pyversions/pimoroni-ioexpander.svg)](https://pypi.python.org/pypi/pimoroni-ioexpander)
+
+
+# Installing
+
+Stable library and dependencies from GitHub:
+
+* `git clone https://github.com/pimoroni/ioe-python`
+* `cd ioe-python`
+* `sudo ./install.sh`
+
+Latest/development library and dependencies from GitHub:
+
+* `git clone https://github.com/pimoroni/ioe-python`
+* `cd ioe-python`
+* `sudo ./install.sh --unstable`
+
+Stable (library only) from PyPi:
+
+* Just run `pip3 install pimoroni-ioexpander`
+
+In some cases you might need to use `sudo`.
+
+
+# Changelog
+
+0.0.1
+-----
+
+* Initial Release
+
+
