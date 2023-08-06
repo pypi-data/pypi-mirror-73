@@ -1,0 +1,9 @@
+competest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+competest/competest.py,sha256=e0bJU0hMNqJeJkO337lCRpw7RGRooyfIMvB-Tq78H5Q,2589
+competest/linux.py,sha256=w91ad-SdYpnuHpB_xKssIOPGywEELZP7-XbztNHQsj0,1300
+competest/windows.py,sha256=5HkfG6Qzp-XsTRBtioALpeIBqc_IY9Lt_fYWM81Pon0,1312
+competest-0.0.3.dist-info/METADATA,sha256=61QsuICCMBE2bNtRhVKaBNYyuYe2NLQrK3IeixmBQyk,289
+competest-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+competest-0.0.3.dist-info/entry_points.txt,sha256=UiM7K5sGQN2VjadSDEo_Bpq1wV48xTeytRN7v_Lz8vQ,79
+competest-0.0.3.dist-info/top_level.txt,sha256=w6i9YHAJHNFlVJqmBHw6_RMsSCSHL2MG7bZ7sEHEHiE,10
+competest-0.0.3.dist-info/RECORD,,
