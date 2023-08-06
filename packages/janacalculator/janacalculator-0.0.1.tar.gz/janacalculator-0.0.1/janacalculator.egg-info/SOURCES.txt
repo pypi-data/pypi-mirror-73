@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+janacalculator/__init__.py
+janacalculator.egg-info/PKG-INFO
+janacalculator.egg-info/SOURCES.txt
+janacalculator.egg-info/dependency_links.txt
+janacalculator.egg-info/top_level.txt
