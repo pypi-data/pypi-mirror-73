@@ -1,0 +1,15 @@
+pypolyline/pypolyline_p.pxd,sha256=aEJVgnX_ATwDSjdOboyKRuSJ-wURHTA6lKrTTWqN4Jw,303
+pypolyline/cutil.so,sha256=yNWG94KNamOXW4cVr_N-NNEYTkw6JoLOyr2Rbe2bzz8,182848
+pypolyline/header.h,sha256=Y-5zSS6oKhilmkjtlAGjHE0pkEB_uuJ2x254cOfVCnA,2662
+pypolyline/util.py,sha256=QuhCzQFD4x7Xr_XDSc1CUQKNeKCu2gs77wn_lYJs66Q,5800
+pypolyline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypolyline/cutil.pyx,sha256=peCU_LRlyLyb_vMlG_U3FADNVMDdY-LokKJ0UVlcv-M,2798
+pypolyline/cutil.c,sha256=LwH5X-gQNkG2BaGCzVmfVyNwgDvL1H1FxsVgOdPGB8U,798717
+pypolyline/libpolyline_ffi.dylib,sha256=ChLXdV4HtDFe724C_vmGu9J04CYoJzi5vN-MZnGlrR8,176912
+pypolyline/stdbool.h,sha256=Kh3yV7KFb1KFWAI41x-ekYZe4tLiQruhr5YP5jmmBEU,68
+pypolyline/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypolyline/test/test.py,sha256=P4bqYpfFHZrgtm08SyPPBepCTxOEKpb6tzgzaalgh8s,6153
+pypolyline-0.2.4.dist-info/RECORD,,
+pypolyline-0.2.4.dist-info/WHEEL,sha256=PupW5jClthWT2oi2edOXLpSQQp-QkObl0ciKiCZ3_LU,322
+pypolyline-0.2.4.dist-info/top_level.txt,sha256=7Gy8gUtBLfqNAieGRPPYYxALZUfJ818K7DtcrH7MWZE,11
+pypolyline-0.2.4.dist-info/METADATA,sha256=vdoacmacVnjxFMXirsUajr629wigG1ny6CIsr1KVX_s,3548
