@@ -1,0 +1,9 @@
+README.md
+setup.py
+wesleypdf/__init__.py
+wesleypdf/pdf2image.py
+wesleypdf/pdf2text.py
+wesleypdf.egg-info/PKG-INFO
+wesleypdf.egg-info/SOURCES.txt
+wesleypdf.egg-info/dependency_links.txt
+wesleypdf.egg-info/top_level.txt
