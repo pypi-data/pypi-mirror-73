@@ -1,0 +1,10 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+caitk/__init__.py
+caitk.egg-info/PKG-INFO
+caitk.egg-info/SOURCES.txt
+caitk.egg-info/dependency_links.txt
+caitk.egg-info/top_level.txt
+caitk.egg-info/zip-safe
