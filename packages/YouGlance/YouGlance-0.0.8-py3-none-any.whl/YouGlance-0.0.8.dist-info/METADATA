@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: YouGlance
+Version: 0.0.8
+Summary: Package for analyzing Youtube Videos from searching by relevant entities to analyzing sentiments and clustering different parts of the video according to your liking 
+Home-page: https://github.com/Jash271/YouGlance
+Author: Jash Shah
+Author-email: shahjash271@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6.8
+Requires-Dist: scikit-learn
+Requires-Dist: sklearn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: spacy
+Requires-Dist: nltk
+Requires-Dist: youtube-transcript-api
+
+`Link To Documentation <https://github.com/Jash271/YouGlance/blob/master/README.md>`_
+
+
