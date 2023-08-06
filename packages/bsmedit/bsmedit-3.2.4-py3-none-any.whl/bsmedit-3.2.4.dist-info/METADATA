@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: bsmedit
+Version: 3.2.4
+Summary: C/C++/SystemC Visualizer
+Home-page: http://bsmedit.feiyilin.com
+Author: Tianzhu Qiao
+Author-email: tq@feiyilin.com
+License: MIT
+Platform: any
+Requires-Dist: PyOpenGL
+Requires-Dist: PyOpenGL-accelerate
+Requires-Dist: click
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: wxpython (>=4.0.4)
+
+
+**bsmedit** is a C/C++/SystemC Visualizer.
+- [Documentation](http://bsmedit.feiyilin.com)
+
+
