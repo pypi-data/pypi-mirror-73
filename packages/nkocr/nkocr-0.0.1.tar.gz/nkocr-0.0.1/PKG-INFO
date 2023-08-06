@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nkocr
+Version: 0.0.1
+Summary: This is a module to make specifics OCRs at food products and nutricional tables.
+Home-page: https://github.com/Lucs1590/Nkocr
+Author: NK Sistemas de Informacao em Saude
+Author-email: ti@nkodontologia.com.br
+License: Apache License 2.0
+Download-URL: https://github.com/Lucs1590/Nkocr
+Description: # Nkocr
+        
+        This is a module to make specifics OCRs at food products and nutricional tables.
+        
+Keywords: ocr,tesseract-ocr,nk,python3,python-3,food-products
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Communications :: Email
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
