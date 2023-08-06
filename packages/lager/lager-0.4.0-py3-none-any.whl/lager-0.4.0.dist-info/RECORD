@@ -1,0 +1,10 @@
+lager/__init__.py,sha256=AeqU2Ghf9DVScQ18VZZdMW9nGmFgAjhTTN1tIGFOxdA,580
+lager/_version.py,sha256=C9fkylDpoXTkXP-W9ygQpsKdn04_U5uzWsGVGRY4KHA,335
+lager/const.py,sha256=d-qswNVIs7bOsdTltfvt-C_ooSwwgOCnYrsMJK9afVU,1092
+lager/core.py,sha256=bgKhgoEDIAevuNvB9scdvf82bacne0mNFLwTupvNSO0,3195
+lager/httpx.py,sha256=ksxKkvAOCGaPtWdlysTPbvxfJlo9jnjMJ_wh8vVMVmE,1290
+lager/pydantic.py,sha256=baZBVuoUl941MPf2-7rBMRtT_8CiY1lxb-x4-w6AhZQ,997
+lager-0.4.0.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+lager-0.4.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+lager-0.4.0.dist-info/METADATA,sha256=vXQZ0hNGA-0MjjQBpOdcKULXxjAenhXcPhzMISLFNy8,511
+lager-0.4.0.dist-info/RECORD,,
