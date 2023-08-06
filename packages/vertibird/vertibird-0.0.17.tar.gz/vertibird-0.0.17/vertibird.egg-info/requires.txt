@@ -1,0 +1,9 @@
+sqlalchemy
+pillow-simd
+vncdotool
+numpy
+opencv-python
+psutil
+filelock
+pyzmq
+python-dateutil
