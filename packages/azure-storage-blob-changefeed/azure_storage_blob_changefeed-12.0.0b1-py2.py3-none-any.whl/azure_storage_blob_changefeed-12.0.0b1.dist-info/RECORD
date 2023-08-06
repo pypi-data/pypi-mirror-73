@@ -1,0 +1,9 @@
+azure/storage/blob/changefeed/__init__.py,sha256=bFax0PMEf_dKiXhW0nzLRfZLLhnYLGP4hzpJ7nVxnig,452
+azure/storage/blob/changefeed/_change_feed_client.py,sha256=WiepPXSpTzsX-F9-nsx8J5GxS_eNg7gTCpwG_bXbstI,5440
+azure/storage/blob/changefeed/_models.py,sha256=f0U5FNMAsFIOZj_35a3z6a-UGjHQFBY841pRNyJ4yrk,17641
+azure/storage/blob/changefeed/_version.py,sha256=PnsYVl-uBjUBPj8nMMjsnZr1JZWm9L3KW4GupTC8ELc,332
+azure_storage_blob_changefeed-12.0.0b1.dist-info/LICENSE.txt,sha256=KQND5jEblPusDrPevmhNbWO6KfCsHBJcmr-2Ni1z_eI,1075
+azure_storage_blob_changefeed-12.0.0b1.dist-info/METADATA,sha256=WNfS2ZXkgJarFaaE_fD000V6Msn9DLBxRAVFVg7Qb-0,9376
+azure_storage_blob_changefeed-12.0.0b1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+azure_storage_blob_changefeed-12.0.0b1.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_storage_blob_changefeed-12.0.0b1.dist-info/RECORD,,
