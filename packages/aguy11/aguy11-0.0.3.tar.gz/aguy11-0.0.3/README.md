@@ -1,0 +1,49 @@
+## Aguy11 Useful Package
+
+This is a package used to find stuff that might take you a while to find otherwise.
+
+### Aguy11 Advice Function
+
+This is a function that gives you a slip of advice from an API that can be found here: https://api.adviceslip.com/advice
+It takes one parameter, display which is a bool that either prints the advice to the terminal or not. It is called by a .advice() function.
+
+### Aguy11 AsciiMake Function
+
+This is a not-yet-complete function that can find ASCII for the following:
+- A fish: Use 'fish' for model parameter
+- A cat: Use 'cat' for model parameter
+- A wolf: Use 'wolf' for model parameter
+- An egyptian Queen: Use 'egypt' for model parameter
+- Yoda: Use 'yoda' for model parameter
+- Pikachu: Use 'pikachu' for model parameter
+
+This function takes two parameters: The aforementioned model parameter that finds your model, and the also aforementioned display parameter.
+
+This function can be called by an .asciimake() function.
+
+
+### Volume Function
+
+This is a simple function that takes for parameters: x, y, z, display. If you read the above you know what display is and the other parameters are the x, y, and z axis lengths of the model. This function finds the volume of an object, and can be called by a .volume() function
+
+### Astros_Current
+
+This is another simple function that finds the number of astronauts currently in space. It takes the familiar display parameter and can be called by a .astros_current() function.
+
+### Rhyme Function
+
+This function can rhyme words using an API. It takes two parameters: word, and display. You already know what display is, and word is your word test subject. It can be called by a .rhyme() function.
+
+### Lastly, the corona function.
+
+This function finds a few things about the coronavirus statistics of a state:
+
+- Number of people confirmed (Found at index 0 of the result)
+- Number of people who died (Found at index 1 of the result)
+- Number of people tested (Found at index 2 of the result)
+ This function, as you might understand returns its result in a list. It takes two paramenters:
+
+ - State: The initials of the state you want to find out about
+ - Display: Responsible for whether or not you want to print your result
+
+ This function can be called by a .corona() function.
