@@ -1,0 +1,2 @@
+mozdevice<4,>=3.0.2
+mozlog>=6.0
