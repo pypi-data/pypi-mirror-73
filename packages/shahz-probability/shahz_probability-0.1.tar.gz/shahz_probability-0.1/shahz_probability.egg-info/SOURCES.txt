@@ -1,0 +1,10 @@
+setup.py
+shahz_probability/Binomialdistribution.py
+shahz_probability/Gaussiandistribution.py
+shahz_probability/Generaldistribution.py
+shahz_probability/__init__.py
+shahz_probability.egg-info/PKG-INFO
+shahz_probability.egg-info/SOURCES.txt
+shahz_probability.egg-info/dependency_links.txt
+shahz_probability.egg-info/not-zip-safe
+shahz_probability.egg-info/top_level.txt
