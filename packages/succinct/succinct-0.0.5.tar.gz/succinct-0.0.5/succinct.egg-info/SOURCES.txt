@@ -1,0 +1,13 @@
+README.md
+setup.py
+succinct/VERSION
+succinct/__init__.py
+succinct/bits.py
+succinct/eliasfano.py
+succinct/poppy.py
+succinct/py.typed
+succinct.egg-info/PKG-INFO
+succinct.egg-info/SOURCES.txt
+succinct.egg-info/dependency_links.txt
+succinct.egg-info/requires.txt
+succinct.egg-info/top_level.txt
