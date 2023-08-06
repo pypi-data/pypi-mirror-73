@@ -1,0 +1,3 @@
+[console_scripts]
+mockspace = mockspace.start_server:start_server
+
