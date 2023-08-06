@@ -1,0 +1,15 @@
+mpkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpkg/cli.py,sha256=IjK0yF23fT86F1Ue2p_P0Djg10k9FpvPEkpjO8YFwv8,1743
+mpkg/common.py,sha256=rJ12Nu0CHmyblb4mdQU-5ZmVx6Z4_2xeJZ3YTUYhSeg,2484
+mpkg/config.py,sha256=v-f3G2rVqbyXFWlSc3ILCN5dK_ivTMHWujrWS0PjPxU,1072
+mpkg/extras.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpkg/load.py,sha256=8baFO2jtTIwDq9_hkaHL_NHNj24GWK_-1N-6-t7z-_I,4457
+mpkg/main.py,sha256=rz_qjvE-btmFmPkj0-qgnssXlD27avzyu1xch8vnCSw,7250
+mpkg/mpkg.py,sha256=rz_qjvE-btmFmPkj0-qgnssXlD27avzyu1xch8vnCSw,7250
+mpkg/utils.py,sha256=wopuGRmCdePAKhmWO2bVU1mMBm9S4EPhL4oZQacP4QE,1727
+mpkg-0.0.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+mpkg-0.0.4.dist-info/METADATA,sha256=waYX1Osy0IXgPu_LbWzTV_owxeSo8tuGYM96dT5a-vc,634
+mpkg-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+mpkg-0.0.4.dist-info/entry_points.txt,sha256=nP6EcfrYgJHFPxIWRZD6NNpdFSCX0wIAevb63BcF7-E,39
+mpkg-0.0.4.dist-info/top_level.txt,sha256=HxygOBLsRk5yoCDEEz8rxuhgXsDq7p6a_DdCs8fmEhY,5
+mpkg-0.0.4.dist-info/RECORD,,
