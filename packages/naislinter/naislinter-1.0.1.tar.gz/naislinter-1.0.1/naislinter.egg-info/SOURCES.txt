@@ -1,0 +1,10 @@
+README.md
+setup.py
+naislinter/__init__.py
+naislinter/linter.py
+naislinter/naislinter
+naislinter.egg-info/PKG-INFO
+naislinter.egg-info/SOURCES.txt
+naislinter.egg-info/dependency_links.txt
+naislinter.egg-info/requires.txt
+naislinter.egg-info/top_level.txt
