@@ -1,0 +1,9 @@
+pillow
+matplotlib
+sklearn
+dnspython
+pandas
+pymongo
+numpy
+IPython
+graphviz
