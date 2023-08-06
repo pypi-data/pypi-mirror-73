@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+pillow
+scikit-image
+tensorflow>=2.0
+wandb>=0.7.0
