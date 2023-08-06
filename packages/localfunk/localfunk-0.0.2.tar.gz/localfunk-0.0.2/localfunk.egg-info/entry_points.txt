@@ -1,0 +1,3 @@
+[console_scripts]
+localfunk = localfunk.main:main
+
