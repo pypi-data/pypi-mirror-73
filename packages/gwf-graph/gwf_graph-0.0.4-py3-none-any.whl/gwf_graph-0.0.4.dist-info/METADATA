@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gwf-graph
+Version: 0.0.4
+Summary: Create a visual representation of the dependency graph in your gwf workflow
+Home-page: UNKNOWN
+Author: Per Høgfeldt
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: gwf (>=1.7.2)
+Requires-Dist: graphviz
+Requires-Dist: attrs
+
+UNKNOWN
+
+
