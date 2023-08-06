@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tools-d1zcord
+Version: 0.0.1
+Summary: Miscellaneous tools for everyday work
+Home-page: https://github.com/fdzuJ/tools
+Author: Stroganov Pavel Stanislavovich
+Author-email: pdizreq@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Miscellaneous tools for everyday work
+
+Just some everyday helper functions
+
