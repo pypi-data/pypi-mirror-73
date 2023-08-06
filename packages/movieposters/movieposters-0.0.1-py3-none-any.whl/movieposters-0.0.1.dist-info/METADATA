@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: movieposters
+Version: 0.0.1
+Summary: "A simple Python package to get the link a movie's poster given its title."
+Requires-Dist: beautifulsoup4 (==4.9.0)
+Requires-Dist: lxml (==4.5.0)
+Requires-Dist: urllib3 (==1.25.9)
+
+Code = https://github.com/thomasbreydo/movieposters
+Home-page: UNKNOWN
+Author: Thomas Breydo
+Author-email: tbreydo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
