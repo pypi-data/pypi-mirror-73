@@ -1,0 +1,10 @@
+pygds/__init__.py,sha256=Lfsa9yNx3p94Ced0irQrY89wY_2sWyb-LUrAsfjnKXI,38
+pygds/algorithms.py,sha256=5WDdftT_sLhdxn-QdWtN5tc-ou3oLhyFlxW17qw6t2E,2512
+pygds/gds.py,sha256=AkUNccaRBcRJcOo0bZxsW5tB8oyvlN3ZcfSM6CZT6Bw,2901
+pygds/graph.py,sha256=ayNEo6HWrz3bJiWjjCfEjx_nyiIL5H4es1tqj5qWqD4,2324
+pygds/mixins.py,sha256=YrKWaOPLbPKD1WQo77fLtG7-xGzpaN9lQjJbtZVuTdg,223
+pygds-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pygds-0.2.0.dist-info/METADATA,sha256=Ey_P-TWVG75ce5lRC8hmopLeouL9a8Tni3EbJdpwsk8,277
+pygds-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pygds-0.2.0.dist-info/top_level.txt,sha256=6dfqBaEF5jJG-_HtQ_PjWCvTnBbdrKWj7hVAY50VSc8,6
+pygds-0.2.0.dist-info/RECORD,,
