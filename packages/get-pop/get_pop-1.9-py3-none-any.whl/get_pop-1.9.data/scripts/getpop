@@ -1,0 +1,6 @@
+#!python
+
+from get_pop import get_pop
+
+if __name__ == "__main__":
+    get_pop.main()
