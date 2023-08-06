@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: AircraftDR
+Version: 0.1
+Summary: This is Aircraft Design Resources
+Home-page: https://github.com/CeuAzul/ADR
+Author: Ceu Azul Aeronaves
+Author-email: ceuazulufsc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: avlwrapper
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+UNKNOWN
+
+
