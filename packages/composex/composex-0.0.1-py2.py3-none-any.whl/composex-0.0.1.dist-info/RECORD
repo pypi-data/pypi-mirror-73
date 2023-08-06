@@ -1,0 +1,10 @@
+composex/__init__.py,sha256=5d4PcIGTpAG2RmEnTmxze-pcFjGKUoOgiIMTv3a8Jj0,129
+composex/cli.py,sha256=v4U9JGjpQeSBQatu24ZflkYAtDaOcQnWPyDDHPUW0b0,439
+composex/composex.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+composex-0.0.1.dist-info/AUTHORS.rst,sha256=pmgl3KureoZEcijmc9U9ITgLbeXQtoKOpfqNKR0iTyY,159
+composex-0.0.1.dist-info/LICENSE,sha256=GIqWbBe29o4laHsQqWvUFzkbv5qHMlKQYCKjjRaGD48,1574
+composex-0.0.1.dist-info/METADATA,sha256=yM8eJ37anVn2A149oK2PL5gTIPYfdtWnT8L39ow7gcs,1127
+composex-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+composex-0.0.1.dist-info/entry_points.txt,sha256=SFZaqXuI5cyvtZcP7Iypo5tkeyYBQ5-Imdqz4Iw6xCg,48
+composex-0.0.1.dist-info/top_level.txt,sha256=sKllLlH6G-thvgQ3CesgQ50YIQN-P_JI3jb2Dzc-5eY,9
+composex-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: composex
+Version: 0.0.1
+Summary: Be for AWS ECS and docker-compose what SAM is to AWS Lambda
+Home-page: https://github.com/johnpreston/composex
+Author: John Preston
+Author-email: john@lambda-my-aws.io
+License: GNU General Public License v3
+Keywords: composex
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+
+========
+ComposeX
+========
+
+
+.. image:: https://img.shields.io/pypi/v/composex.svg
+        :target: https://pypi.python.org/pypi/composex
+
+Be for AWS ECS and docker-compose what SAM is to AWS Lambda
+
+
+* Free software: GNU General Public License v3
+
+
+=======
+History
+=======
+
+0.0.1 (2020-07-14)
+------------------
+
+* First release on PyPI.
+
+
