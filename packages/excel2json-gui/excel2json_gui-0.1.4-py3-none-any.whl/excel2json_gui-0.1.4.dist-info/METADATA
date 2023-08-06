@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: excel2json-gui
+Version: 0.1.4
+Summary: GUI program to convert CH5 spreadsheet to JSON
+Author: mflorczak
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: PyQt5 (>=5.15.0,<6.0.0)
+Requires-Dist: openpyxl (>=3.0.4,<4.0.0)
