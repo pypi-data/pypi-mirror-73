@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: pg-rds-params-sync
+Version: 0.2a2
+Summary: Audit RDS PostgreSQL parameters for drift and compliance.
+Home-page: https://github.com/levkk/pg-rds-params-sync
+Author: Lev Kokotov
+Author-email: lev.kokotov@instacart.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: Click (>=7.0)
+Requires-Dist: colorama (>=0.4.3)
+Requires-Dist: prettytable (>=0.7.2)
+Requires-Dist: psycopg2 (>=2.8.4)
+Requires-Dist: diskcache (>=4.1.0)
+Requires-Dist: boto3 (>=1.11.9)
+Requires-Dist: tqdm (>=4.46.0)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+# PostgreSQL RDS Parameters Sync
+Compare PostgreSQL settings between two databases to detect drift.
+
+## Features
+
+### Audit particular settings
+Example:
+```bash
+$ pgrdsparamsync audit --parameters=max_wal_size
+```
+
+It will get all the databases in the account and region and display their `max_wal_size` value. 
+Since this can be an expensive operation, a local 1 hour cache is used for each parameter group.
+
+If only a subset of databases is of interest, `--db-name-like` can be used to filter based on the database name.
+
+Example:
+```bash
+$ pgrdsparamsync audit --parameters=max_wal_size,min_wal_size --db-name-like=production
+```
+
+It will audit only the databases that contain the string "production" in their name and display `max_wal_size` and `min_wal_size`.
+
+For reporting, we can also print out the above table in CSV format.
+
+Example:
+```bash
+$ pgrdsparamsync audit --parameters=max_wal_size,min_wal_size --fmt=csv
+```
+
+
+### Compare a database to another or a parameter group
+Example:
+```bash
+$ pgrdsparamsync rds-compare --target-db="users-production" --other-db="orders-production"
+```
+
+It will print all the settings that differ between the two databases.
+
+If the goal is to set a standard against the entire database fleet, it is possible to compare a database to a parameter group that represents that standard.
+
+Example:
+```bash
+$ pgrdsparamsync rds-compare --target-db="users-production" --parameter-group="pg-11-standard"
+```
+
+It will print all the settings that differ between the target database and the parameter group.
+
+
+### Compare two databases directly
+Example:
+```bash
+$ pgrdsparamsync pg-compare \
+--target-db-url="postgres://user:password@users-production.rds.awsamazon.com" \
+--other-db-url="postgres://user:password@orders-production.rds.awsamazom.com"
+```
+
+RDS parameter groups use formulas to calculate certain settings (e.g. `shared_buffers`, `effective_cache_size`, etc.) by default. Sometimes, it is useful to know the actual value. This will connect to the databases directly, query `pg_settings`, and print the settings that differ.
+
+
+### Caching
+Fetching parameter groups for 100s of databases is long and expensive. We added a local cache with a 1h TTL. It's stored in `/tmp/pgrdsparamsync`. The first run of the application will be slow, but subsequent runs will be much faster. To increase the TTL or bust the cache, add an environment variable `CACHE_TTL` with a value that's not 1h, for example `$ export CACHE_TTL=7200` which will set the TTL to 2 hours (7200 seconds).
+
+

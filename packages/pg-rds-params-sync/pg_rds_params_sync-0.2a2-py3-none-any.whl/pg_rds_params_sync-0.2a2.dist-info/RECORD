@@ -1,0 +1,8 @@
+rdsparamsync/__init__.py,sha256=RzmGAs5VMk3elRLvicteUY_LuShePLsYo96z-ZHhL7E,75
+rdsparamsync/__main__.py,sha256=WASUPxuJeieHaQ71lXpK3-dbEaGNyFdCGEJjQMxiqGI,51
+rdsparamsync/main.py,sha256=RAfjoB6hjasd2crZ7geBblSVPHSL0Zey7cI5YL0jZEU,16290
+pg_rds_params_sync-0.2a2.dist-info/METADATA,sha256=HRxcUc6OW-h9uZ7pRIc70nXI4aE_g3Rmp2hc_8z4B2g,3293
+pg_rds_params_sync-0.2a2.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+pg_rds_params_sync-0.2a2.dist-info/entry_points.txt,sha256=jd670lyCbYKfQwFold5KX65zAmv0vpEp8Jzgvy4J_T4,60
+pg_rds_params_sync-0.2a2.dist-info/top_level.txt,sha256=kv-3mAkJEEzKw1LXiYs6I59i8OKTQ0Fmz0jSm4jvCBc,13
+pg_rds_params_sync-0.2a2.dist-info/RECORD,,
