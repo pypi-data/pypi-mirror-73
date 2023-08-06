@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: stack_alert
+Version: 0.1.0
+Summary: Be notified when interesting questions are posted to Stack Exchange sites.
+Home-page: https://github.com/kalekundert/stack_alert
+Author: Kale Kundert
+Author-email: kale@thekunderts.net
