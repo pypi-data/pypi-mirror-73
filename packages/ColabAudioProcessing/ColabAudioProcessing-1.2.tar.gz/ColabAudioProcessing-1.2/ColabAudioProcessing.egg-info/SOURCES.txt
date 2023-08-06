@@ -1,0 +1,9 @@
+README.md
+setup.py
+ColabAudioProcessing/__init__.py
+ColabAudioProcessing/audio.py
+ColabAudioProcessing.egg-info/PKG-INFO
+ColabAudioProcessing.egg-info/SOURCES.txt
+ColabAudioProcessing.egg-info/dependency_links.txt
+ColabAudioProcessing.egg-info/requires.txt
+ColabAudioProcessing.egg-info/top_level.txt
