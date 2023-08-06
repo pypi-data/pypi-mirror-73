@@ -1,0 +1,3 @@
+[console_scripts]
+nhk-easy = nhk_easy.__main__:main
+
