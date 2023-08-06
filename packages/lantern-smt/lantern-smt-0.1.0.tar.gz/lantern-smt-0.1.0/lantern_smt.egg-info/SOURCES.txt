@@ -1,0 +1,8 @@
+README.md
+setup.py
+lantern/__init__.py
+lantern_smt.egg-info/PKG-INFO
+lantern_smt.egg-info/SOURCES.txt
+lantern_smt.egg-info/dependency_links.txt
+lantern_smt.egg-info/requires.txt
+lantern_smt.egg-info/top_level.txt

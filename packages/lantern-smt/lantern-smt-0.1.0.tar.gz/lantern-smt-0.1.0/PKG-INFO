@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lantern-smt
+Version: 0.1.0
+Summary: Tools to encode PyTorch modules as Z3 constraints
+Home-page: https://github.com/JHUAPL/lantern-smt
+Author: Joshua Brule
+Author-email: joshua.brule@jhuapl.edu
+License: 3-Clause BSD License
+Description: # Lantern: safer than a torch
+        
+        Lantern is a software package to support SMT analysis of affine
+        multiplexing neural networks using PyTorch and Z3.
+        
+        See: [docs/lantern/](docs/lantern/index.html) for (generated) documentation.
+        
+        See: [requirements.txt](requirements.txt) for dependencies.
+        
+        An annotated `example.py` demonstrates basic usage.
+        
+        Lantern was developed against `torch==1.5.0` and `z3-solver==4.8.7.0`.
+        Linear Real Arithmetic appears to be stable, but we have noticed some changes
+        to the floating point solvers as z3 continues to be developed.
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
