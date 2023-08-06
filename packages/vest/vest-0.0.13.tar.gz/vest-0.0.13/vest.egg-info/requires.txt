@@ -1,0 +1,7 @@
+Click
+tabulate
+pprint
+robin_stocks
+gnuplotlib
+numpy
+halo
