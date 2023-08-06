@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mango-distributions
+Version: 0.0.1
+Summary: Mango Distributions
+Home-page: UNKNOWN
+Author: JackR
+Author-email: jackrasa@example.com
+License: UNKNOWN
+Description: # Mango Distributions
+        
+        This is a package containing functions and classes to draw from distributions.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

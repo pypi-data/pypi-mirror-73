@@ -1,0 +1,7 @@
+README.md
+setup.py
+mango_distributions/__init__.py
+mango_distributions.egg-info/PKG-INFO
+mango_distributions.egg-info/SOURCES.txt
+mango_distributions.egg-info/dependency_links.txt
+mango_distributions.egg-info/top_level.txt
