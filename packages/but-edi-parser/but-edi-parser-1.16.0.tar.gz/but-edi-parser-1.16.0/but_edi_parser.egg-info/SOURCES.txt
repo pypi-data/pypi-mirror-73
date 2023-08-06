@@ -1,0 +1,8 @@
+README.md
+setup.py
+but_edi_parser/__init__.py
+but_edi_parser/sales_order_parser.py
+but_edi_parser.egg-info/PKG-INFO
+but_edi_parser.egg-info/SOURCES.txt
+but_edi_parser.egg-info/dependency_links.txt
+but_edi_parser.egg-info/top_level.txt
