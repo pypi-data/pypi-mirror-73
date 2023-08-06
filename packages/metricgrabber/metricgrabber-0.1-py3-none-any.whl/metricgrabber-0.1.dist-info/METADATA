@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: metricgrabber
+Version: 0.1
+Summary: Metricgrabber - Python Prometheus Exporter
+Home-page: https://github.com/Gallardo994/metricgrabber
+Author: Gallardo994
+Author-email: evolutionv8@yandex.ru
+License: GPL V3
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: kthread
+
+Git: https://github.com/Gallardo994/metricgrabber
+
+
