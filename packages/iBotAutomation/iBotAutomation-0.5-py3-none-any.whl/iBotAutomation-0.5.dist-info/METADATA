@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: iBotAutomation
+Version: 0.5
+Summary: UNKNOWN
+Home-page: https://github.com/ecrespo66/ibot
+Author: Enrique Crespo
+Author-email: oname.dohe@gmail.com
+License: LGPL v3
+Download-URL: https://github.com/ecrespo66/iBot-Automation/tarball/v0.2
+Keywords: Python RPA,Bot,Automation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: beautifulsoup4 (==4.9.1)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: DateTime (==4.3)
+Requires-Dist: python-docx (==0.8.10)
+Requires-Dist: docx2pdf (==0.1.7)
+Requires-Dist: imap-tools (==0.16.1)
+Requires-Dist: openpyxl (==3.0.4)
+Requires-Dist: Pillow (==7.1.2)
+Requires-Dist: PyPDF2 (==1.26.0)
+Requires-Dist: pytesseract (==0.3.4)
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: requests
+Requires-Dist: pyautogui
+
+UNKNOWN
+
+
