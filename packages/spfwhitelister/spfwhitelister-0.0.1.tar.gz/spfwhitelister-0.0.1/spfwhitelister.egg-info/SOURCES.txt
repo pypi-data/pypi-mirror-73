@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+spfwhitelister/__init__.py
+spfwhitelister/__main__.py
+spfwhitelister.egg-info/PKG-INFO
+spfwhitelister.egg-info/SOURCES.txt
+spfwhitelister.egg-info/dependency_links.txt
+spfwhitelister.egg-info/entry_points.txt
+spfwhitelister.egg-info/not-zip-safe
+spfwhitelister.egg-info/requires.txt
+spfwhitelister.egg-info/top_level.txt

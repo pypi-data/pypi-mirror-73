@@ -1,0 +1,3 @@
+[console_scripts]
+spfwhitelister = spfwhitelister.__main__:main
+
