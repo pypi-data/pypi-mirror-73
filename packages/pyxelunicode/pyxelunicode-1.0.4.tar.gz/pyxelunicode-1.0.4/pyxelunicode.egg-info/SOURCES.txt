@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyxelunicode/PyxelUnicode.py
+pyxelunicode/__init__.py
+pyxelunicode.egg-info/PKG-INFO
+pyxelunicode.egg-info/SOURCES.txt
+pyxelunicode.egg-info/dependency_links.txt
+pyxelunicode.egg-info/requires.txt
+pyxelunicode.egg-info/top_level.txt
