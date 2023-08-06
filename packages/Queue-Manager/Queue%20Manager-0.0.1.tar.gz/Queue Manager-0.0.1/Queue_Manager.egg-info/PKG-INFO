@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Queue-Manager
+Version: 0.0.1
+Summary: A library for using queues as both a producer and a consumer
+Home-page: https://gitlab.com/riftool/queue-manager
+Author: Barad & Riftin & Ori
+License: UNKNOWN
+Description: # Riftool Queue Manager
+        
+        ### QueueConsumer Example
+        ```python
+        from queue_manager import QueueConsumer
+        with QueueConsumer(amqp_url='http://queue/url', exchange_name='logs') as consumer:
+            consumer.start_consuming()
+        ```
+        
+        ### QueueProducer Example
+        ```python
+        from queue_manager import QueueProducer
+        with QueueProducer(amqp_url='http://queue/url', exchange_name='logs', queue_arguments={}) as producer:
+            producer.publish(priority=10, message='Message')
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
