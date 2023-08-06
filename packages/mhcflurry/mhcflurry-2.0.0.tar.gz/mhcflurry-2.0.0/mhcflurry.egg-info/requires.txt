@@ -1,0 +1,9 @@
+six
+pandas>=0.20.3
+appdirs
+tensorflow>=2.2.0
+scikit-learn
+mhcnames
+pyyaml
+tqdm
+np_utils
