@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+isentia_common/__init__.py
+isentia_common/__version__.py
+isentia_common/log.py
+isentia_common_python.egg-info/PKG-INFO
+isentia_common_python.egg-info/SOURCES.txt
+isentia_common_python.egg-info/dependency_links.txt
+isentia_common_python.egg-info/requires.txt
+isentia_common_python.egg-info/top_level.txt

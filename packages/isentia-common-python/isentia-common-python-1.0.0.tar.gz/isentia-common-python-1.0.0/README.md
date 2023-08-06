@@ -1,0 +1,112 @@
+# Isentia common tools for Python
+
+This library collects tools and code that are shared across repositories and projects within Isentia.
+
+## Instructions to use this library
+
+Installation is simple:
+
+```sh
+pip install isentia-common-python
+```
+
+Right now the library only contains json logging code. We might add more features later.
+
+## JSON logging
+
+Authors: Neville Tummon, Toney Thomas, Koen Douterloigne
+
+Place the following somewhere near the start of your app.
+
+```python
+from isentia_common.log import init_json_logging
+
+init_json_logging("my_namespace")
+```
+
+Now use logging just like you always do.
+
+```python
+import logging
+
+logging.info("Hello world!")
+logging.warning("Hello world!", extra={"http_code": 418, "reply": "I'm a teapot"})
+```
+
+This will print
+
+```
+{"asctime": "2020-07-06 13:01:46,859", "name": "root", "levelname": "INFO", "message": "Hello world!"}
+{"asctime": "2020-07-06 13:01:46,859", "name": "root", "levelname": "WARNING", "message": "Hello world!", "my_namespace": {"http_code": 418, "reply": "I'm a teapot"}}
+```
+
+As you see, it structures the output as JSON and adds the typical fields. You can use the "extra" parameter when logging objects. All objects logged like this will be put into the namespace that you specified in the init call, when you did `init_json_logging("my_namespace")`.
+
+The namespacing makes it very easy to search through your logs in tools like ElasticSearch / Kibana. In particular, it prevents conflicts with other teams or projects that want to use the same field names.
+
+By default, the logging level is set to INFO. You can override this just like normal, using
+
+```python
+logging.getLogger().setLevel(logging.DEBUG)
+```
+
+### More fields
+
+By default we only print the time, logger name (usually root), level, message and extra fields. If you need more visibility, you can enable `extended` mode.
+
+```python
+init_json_logging("my_namespace", extended=True)
+
+logging.info("Hello world!")
+```
+
+Enabling `extended` will also include process id, filename, lineno and funcname in the JSON:
+
+```
+{"asctime": "2020-07-06 13:48:38,015", "name": "root", "levelname": "INFO", "message": "Hello world!", "process": 8015, "filename": "inspect_logging.py", "lineno": 8, "funcName": "<module>"}
+```
+
+
+### Module-level loggers
+
+All Python logging will output JSON. In particular, module-level loggers will also log to JSON. (As an aside, code typically does not require module level loggers)
+
+```python
+module_lvl_logger = logging.getLogger("special.module")
+module_lvl_logger.setLevel(logging.DEBUG)
+module_lvl_logger.debug(
+    "an info message", extra={"http_status_code": 200, "endpoint": "/api/no-problemo"}
+)
+```
+
+will print
+
+```
+{"asctime": "2020-07-06 13:01:46,859", "name": "special.module", "levelname": "DEBUG", "message": "an info message", "my_namespace": {"http_status_code": 200, "endpoint": "/api/no-problemo"}}
+```
+
+Only the "name" field changes.
+
+### Global override
+
+Now you may be thinking: Great, all fields are namespaced, but what if I want to track a field across projects / apps? Like traceID or summary_id? I still want my apps to have different namespaces, but I also want to be able to log some fields that are global, i.e. that live outside of the namespace.
+
+For this usecase we've made the extra field "global" a special field, which gets moved out of the "extra". Look at the following example:
+
+```python
+import logging
+
+logging.info("Hello world!", extra={"http_code": 418, "reply": "I'm a teapot", "global": {"request_id": 50}})
+```
+
+This will print
+
+```
+{"asctime": "2020-07-06 13:01:46,859", "name": "root", "levelname": "INFO", "message": "info with global", "global": {"request_id": 50}, "my_app_name": {"http_code": 418, "reply": "I'm a teapot"}}
+```
+
+In short, the field "global" is like a shared namespace. Only put in there what you need, as you might clash with other teams.
+
+### Low-level details
+
+This library is built on top of [python-json-logger](https://github.com/madzak/python-json-logger). We extended python-json-logger via monkey-patching to add the concept of namespacing and global overrides.
