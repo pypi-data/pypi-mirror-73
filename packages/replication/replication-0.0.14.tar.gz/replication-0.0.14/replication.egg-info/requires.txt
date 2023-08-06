@@ -1,0 +1,5 @@
+zmq
+jsondiff
+
+[:platform_system == "Windows"]
+psutil
