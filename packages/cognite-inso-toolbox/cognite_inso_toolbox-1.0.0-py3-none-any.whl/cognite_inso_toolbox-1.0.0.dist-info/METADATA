@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cognite-inso-toolbox
+Version: 1.0.0
+Summary: Inso Toolbox
+Author: cognite
+Author-email: gustavo.zarruk@cognite.com, johannes.kolberg@cognite.com, nicolas.agnes@cognite.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cognite-sdk-experimental (>=0.11.0,<0.12.0)
+Requires-Dist: pytest-custom-exit-code (>=0.3.0,<0.4.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Requires-Dist: sphinx (>=3.1.2,<4.0.0)
+Requires-Dist: sphinx_rtd_theme (>=0.5.0,<0.6.0)
