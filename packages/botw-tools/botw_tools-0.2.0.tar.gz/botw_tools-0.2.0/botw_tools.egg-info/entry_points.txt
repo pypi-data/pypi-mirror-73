@@ -1,0 +1,7 @@
+[console_scripts]
+aamp = botw_tools.aamp:main
+actorinfo = botw_tools.actorinfo:main
+byml = botw_tools.byml:main
+sarc = botw_tools.sarc:main
+yaz0 = botw_tools.yaz0:main
+

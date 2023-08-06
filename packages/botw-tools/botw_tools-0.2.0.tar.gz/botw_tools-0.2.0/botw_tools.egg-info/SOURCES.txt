@@ -1,0 +1,15 @@
+README.md
+setup.py
+botw_tools/__init__.py
+botw_tools/__main__.py
+botw_tools/aamp.py
+botw_tools/actorinfo.py
+botw_tools/byml.py
+botw_tools/sarc.py
+botw_tools/yaz0.py
+botw_tools.egg-info/PKG-INFO
+botw_tools.egg-info/SOURCES.txt
+botw_tools.egg-info/dependency_links.txt
+botw_tools.egg-info/entry_points.txt
+botw_tools.egg-info/requires.txt
+botw_tools.egg-info/top_level.txt
