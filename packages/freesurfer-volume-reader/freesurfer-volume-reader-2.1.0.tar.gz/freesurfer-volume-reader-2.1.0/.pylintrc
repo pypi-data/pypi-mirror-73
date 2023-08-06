@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+
+disable=bad-continuation, # black
+        missing-class-docstring,
+        missing-function-docstring
+
+
+[SIMILARITIES]
+
+min-similarity-lines=8
