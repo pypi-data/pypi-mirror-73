@@ -1,0 +1,10 @@
+README.md
+setup.py
+django_tctip/__init__.py
+django_tctip.egg-info/PKG-INFO
+django_tctip.egg-info/SOURCES.txt
+django_tctip.egg-info/dependency_links.txt
+django_tctip.egg-info/requires.txt
+django_tctip.egg-info/top_level.txt
+django_tctip/templatetags/__init__.py
+django_tctip/templatetags/tctip_tags.py
