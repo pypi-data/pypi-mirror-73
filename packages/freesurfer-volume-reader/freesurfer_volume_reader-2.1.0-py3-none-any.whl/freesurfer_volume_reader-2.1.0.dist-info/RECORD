@@ -1,0 +1,10 @@
+freesurfer_volume_reader/__init__.py,sha256=5rjpaB7x9bG5J6YQtmEFiM7bNMz3y3TBzA80krSPMb0,2340
+freesurfer_volume_reader/__main__.py,sha256=dFHZWkR46LNxAfFfWyyzqn5Xl0AzqSehxmgY9lpPVMY,3327
+freesurfer_volume_reader/ashs.py,sha256=FOZe1DM_mW1qEuILKe6hfKPV2HvZVuRhyCUtlHnjkvw,3769
+freesurfer_volume_reader/freesurfer.py,sha256=6iwK3PXgdfk_QLmopebDTOu97tbe9ekur7guDeR_e_M,2876
+freesurfer_volume_reader/version.py,sha256=cnbImLBUM_Wrx30S4aft8gRQaZS-5GDhiP8LKlm-3og,65
+freesurfer_volume_reader-2.1.0.dist-info/METADATA,sha256=n2rSxsTwvdARErMVQhZzvO9Nl4a5GkFU0rAfwUqjDaA,4219
+freesurfer_volume_reader-2.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+freesurfer_volume_reader-2.1.0.dist-info/entry_points.txt,sha256=M_z1ozu_cK-BTv0F8KHZzMU732JmwG9mEe0Mu8lHKG4,85
+freesurfer_volume_reader-2.1.0.dist-info/top_level.txt,sha256=cviv5pq6nZTWGoe0b33yUSw18LWFtV2LvNA7y4GdR4k,25
+freesurfer_volume_reader-2.1.0.dist-info/RECORD,,
