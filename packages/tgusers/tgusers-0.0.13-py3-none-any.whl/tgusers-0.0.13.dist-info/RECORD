@@ -1,0 +1,16 @@
+tgusers/__init__.py,sha256=ww83wgfF0KMciFtKZizpvzI2pgTC8SrUMbwbWCOxHT0,309
+tgusers/bot/bot_class.py,sha256=8s8XmT8YPF0u7sCFbNIVeE4llP4FIt2N-EECIgIxIOk,5212
+tgusers/class_models/table.py,sha256=69L_AZETfvJyGlmBTl1WnxhQQYJdkvdJmyqi6F7o4wA,356
+tgusers/database/database.py,sha256=Qyl6fuP8hfacl8o29GTSoZo3MEfTwjSK7NDOCp_tQTw,1782
+tgusers/rooms/container.py,sha256=t2jAIpI2sciSKIKYV14CF2eT25eLmPax7aJGiFF4kaE,2075
+tgusers/rooms/room_class.py,sha256=KyxPgglfzHyW_K_l2ndBef9CZyMnosOX-rQJwRJFlfg,6247
+tgusers/tables/messages.py,sha256=Pp5dq2eH5ReMgnEuqvEhsHdM84pGdV6fVngTlp9hp78,900
+tgusers/tables/tables.py,sha256=751jfVZ5tMrWHMQY2faPtAbi-buZZDVKXRid4hC5fM4,256
+tgusers/tables/users.py,sha256=uvGormfY3v4Hd4ANpTWj1V3lNWY0Bk-RhqzgLOWSvPI,3633
+tgusers-0.0.13.data/data/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tgusers-0.0.13.data/data/README.md,sha256=KuLC0R7eNPLl9GQhhRL8sCaqibrqH8KqBw-IYQaOdbU,1395
+tgusers-0.0.13.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tgusers-0.0.13.dist-info/METADATA,sha256=duSt_MghYj6ysw41rUhCGrzPhCfZR6QEiEh9hYhKI1s,1947
+tgusers-0.0.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tgusers-0.0.13.dist-info/top_level.txt,sha256=Ssanw7tWP-QXArYU9tEp72tftlyDEn754DPe6HseeZg,8
+tgusers-0.0.13.dist-info/RECORD,,
