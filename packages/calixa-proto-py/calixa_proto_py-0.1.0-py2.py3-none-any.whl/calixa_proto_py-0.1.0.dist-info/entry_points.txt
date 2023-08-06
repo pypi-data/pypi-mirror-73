@@ -1,0 +1,3 @@
+[console_scripts]
+copy-py-proto-script=copy_generated_py_proto:start
+
