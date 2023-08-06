@@ -1,0 +1,8 @@
+setup.py
+startS.egg-info/PKG-INFO
+startS.egg-info/SOURCES.txt
+startS.egg-info/dependency_links.txt
+startS.egg-info/entry_points.txt
+startS.egg-info/top_level.txt
+startS/base_sh/check_.sh
+startS/base_sh/pro.sh
