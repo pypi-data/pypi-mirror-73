@@ -1,0 +1,12 @@
+Matrix.py,sha256=LZAAGDmaNoqQ9Kno0mxlGHmz5sHtv6XkWFusL2UUqfE,3881
+Triangle.py,sha256=A3u3fCAuNDZ_v3V-bHSWRcHS9DamxvDTa9xR03s2YcU,1303
+Vector.py,sha256=J3ujwwm_N-siVhUbawu7_z9EC16h0ngoj068wdNsK70,2549
+src/Matrix.py,sha256=LZAAGDmaNoqQ9Kno0mxlGHmz5sHtv6XkWFusL2UUqfE,3881
+src/Triangle.py,sha256=A3u3fCAuNDZ_v3V-bHSWRcHS9DamxvDTa9xR03s2YcU,1303
+src/Vector.py,sha256=J3ujwwm_N-siVhUbawu7_z9EC16h0ngoj068wdNsK70,2549
+src/__init__.py,sha256=c-JiW3k_-Az3vC7YzkuZDeU-2zxuVmLpWC9Aa3ESHOY,115
+SacraMathEngine-0.0.1.dist-info/LICENSE,sha256=U5c9PntRt1pSndpaAWtOEBL4GGcdzsLcdQbIYgylotg,1072
+SacraMathEngine-0.0.1.dist-info/METADATA,sha256=vv5T0PxghJ-AZA6NDnXYY2mmXTl1ZjYQmsm09pYDdvo,1312
+SacraMathEngine-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SacraMathEngine-0.0.1.dist-info/top_level.txt,sha256=QhZfzD7vN4jzJuxQ1ZW5aVHM0224ufKWBh1G9EYYzzo,27
+SacraMathEngine-0.0.1.dist-info/RECORD,,
