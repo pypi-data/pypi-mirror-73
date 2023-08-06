@@ -1,0 +1,12 @@
+README.md
+setup.py
+relay_transformer/__init__.py
+relay_transformer/autopadder.py
+relay_transformer/autoregressive_wrapper.py
+relay_transformer/relay_transformer.py
+relay_transformer/reversible.py
+relay_transformer.egg-info/PKG-INFO
+relay_transformer.egg-info/SOURCES.txt
+relay_transformer.egg-info/dependency_links.txt
+relay_transformer.egg-info/requires.txt
+relay_transformer.egg-info/top_level.txt
