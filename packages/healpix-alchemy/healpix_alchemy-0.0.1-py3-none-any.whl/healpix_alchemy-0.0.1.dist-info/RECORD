@@ -1,0 +1,11 @@
+healpix_alchemy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+healpix_alchemy/math.py,sha256=4qTq7XIAAHaLje3eQB6uXfo04I7eMzrGRebuD-wg_SI,1080
+healpix_alchemy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+healpix_alchemy/tests/conftest.py,sha256=DYnCtRUefuIxjVPPsP1nRLfBReuQTbPjm4KOMJQGoZU,362
+healpix_alchemy/tests/test_math.py,sha256=XFTD8Y0S2navfJHTeJsEv9JREcZ6BaDlqnDqaxcPmAQ,922
+healpix_alchemy/tests/test_unit_spherical.py,sha256=t7RPb9mcyTnpeWjH0rZa8Uy1g7OsL0LgqIsxJ2QkmyA,4009
+healpix_alchemy/unit_spherical.py,sha256=OGfTP-bCfoosRG-iuGq9k9u8YTCIlEFpw1Y2S0VbgJg,1853
+healpix_alchemy-0.0.1.dist-info/LICENSE,sha256=FfpLfig8j5RmY33RS0_mVFsxjREa54JlRVvVJUoRaMQ,1528
+healpix_alchemy-0.0.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+healpix_alchemy-0.0.1.dist-info/METADATA,sha256=liJFWa9BvYaz_h-jbzVDwbHfyyf7YrdUekawVkF98R4,747
+healpix_alchemy-0.0.1.dist-info/RECORD,,

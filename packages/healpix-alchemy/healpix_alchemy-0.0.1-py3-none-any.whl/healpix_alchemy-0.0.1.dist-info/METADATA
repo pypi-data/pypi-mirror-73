@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: healpix-alchemy
+Version: 0.0.1
+Summary: SQLAlchemy extensions for HEALPix spatially indexed astronomy data
+Home-page: https://github.com/skyportal/healpix-alchemy
+License: BSD-3-Clause
+Author: Leo Singer
+Author-email: leo.singer@ligo.org
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: astropy
+Requires-Dist: sqlalchemy
+Project-URL: Repository, https://github.com/skyportal/healpix-alchemy
