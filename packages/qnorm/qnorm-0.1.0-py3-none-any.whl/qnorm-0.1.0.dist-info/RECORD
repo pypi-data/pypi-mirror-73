@@ -1,0 +1,10 @@
+qnorm/__init__.py,sha256=qPYevPkMU8dspqiaKM0v2D8pP0gePKlp-mlbxt2Tpqo,225
+qnorm/cli.py,sha256=zRxukXj1DWIZC3ZmMxEGYV2jdMIHJ6iceHfD3nsJuGQ,670
+qnorm/quantile_normalize.py,sha256=-vUBkScQzUQG32-jnOATpUqA_44gyZN8ns5VozADS14,2815
+qnorm-0.1.0.data/data/LICENSE,sha256=DItcFQ3L9yi7IbTVTvjpJO70OXr9hmKoQd6VeE2dSm8,1080
+qnorm-0.1.0.data/data/pyproject.toml,sha256=8jAeR6voa0dMeTh3FtVVV1dZSxi6uw3wZ7XkdNFW1E0,918
+qnorm-0.1.0.dist-info/LICENSE,sha256=DItcFQ3L9yi7IbTVTvjpJO70OXr9hmKoQd6VeE2dSm8,1080
+qnorm-0.1.0.dist-info/METADATA,sha256=baaI8pAVTR-5EeRvU4426_05mzoTm0IrEKNzDLIJQlw,2246
+qnorm-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qnorm-0.1.0.dist-info/top_level.txt,sha256=qhVbKzGK2hdkxuOywbYllwMUIhxkbzEnkKV0vhAYVGs,6
+qnorm-0.1.0.dist-info/RECORD,,
