@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: worklog-cli
+Version: 0.0.2
+Summary: Worklog time-tracking utility
+Home-page: https://github.com/cproctor/worklog
+Author: Chris Proctor
+Author-email: pypi.org@accounts.chrisproctor.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: arrow
+
+# Worklog
+
+Personal time-tracking system. 
+
+## Installation
+
+**Future** this project will be released on pypi, which will allow something
+like:
+
+`pip install worklog`
+
+## Suggested use
+
+TODO
+
+## Commands
+
+The base command is `work`.
+
+`work --edit` opens the current worklog for editing.
+
+`work --archive` archives the current worklog 
+
+## Configuration
+
+
+
+## Formats
+
+Worklog relies on [hledger](https://hledger.org/), a Haskell implementation of
+[ledger](https://github.com/ledger/ledger), for double-entry bookkeeping which
+regards time as a resource just like money. One main design goal of this system
+is a [human-readable ledger format](https://hledger.org/timeclock.html) which
+can also be parsed by scripts. 
+
+
+
+
+
