@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: opsdata_magna_test
+Version: 0.1.0
+Summary: A toy ObsPlus dataset of the 2020 Salt Lake City earthquake
+Home-page: https://www.github.com/d-chambers/opsdata_magna_test
+Author: Derrick Chambers
+Author-email: djachambeador@gmail.com
+License: BSD
+Description: # Obsplus Dataset: slc_2020_small
+        
+        ObsPlus dataset of the 2020 Salt Lake City earthquake including only a
+        few stations and small amounts of continuous data. This dataset may not
+        be research quality and is only intended for testing. 
+        
+        # More info
+        
+        This dataset was collected and processed by the [University of Utah 
+        Seismograph Stations](https://quake.utah.edu/). It was the first large
+        earthquake to hit the Salt Lake Valley in many years. See the [Wikipedia
+        page](https://en.wikipedia.org/wiki/2020_Salt_Lake_City_earthquake) for
+        more details on the events impact.
+        
+        # References
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

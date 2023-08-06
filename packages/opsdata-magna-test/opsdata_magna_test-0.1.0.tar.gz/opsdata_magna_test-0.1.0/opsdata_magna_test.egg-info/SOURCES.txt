@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+opsdata_magna_test/__init__.py
+opsdata_magna_test/core.py
+opsdata_magna_test/version.py
+opsdata_magna_test.egg-info/PKG-INFO
+opsdata_magna_test.egg-info/SOURCES.txt
+opsdata_magna_test.egg-info/dependency_links.txt
+opsdata_magna_test.egg-info/entry_points.txt
+opsdata_magna_test.egg-info/not-zip-safe
+opsdata_magna_test.egg-info/top_level.txt
