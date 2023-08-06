@@ -1,0 +1,3 @@
+[console_scripts]
+import-git-files = import_git_files:main
+

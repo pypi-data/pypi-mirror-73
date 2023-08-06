@@ -1,0 +1,9 @@
+README.md
+import_git_files.py
+setup.py
+import_git_files.egg-info/PKG-INFO
+import_git_files.egg-info/SOURCES.txt
+import_git_files.egg-info/dependency_links.txt
+import_git_files.egg-info/entry_points.txt
+import_git_files.egg-info/requires.txt
+import_git_files.egg-info/top_level.txt
