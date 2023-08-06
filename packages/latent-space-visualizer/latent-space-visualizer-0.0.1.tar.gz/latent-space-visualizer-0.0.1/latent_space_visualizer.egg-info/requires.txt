@@ -1,0 +1,7 @@
+bokeh
+jupyterlab
+scikit-learn
+h5py
+numpy
+kora
+setuptools

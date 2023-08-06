@@ -1,0 +1,8 @@
+README.md
+setup.py
+latent_space_visualizer/__init__.py
+latent_space_visualizer.egg-info/PKG-INFO
+latent_space_visualizer.egg-info/SOURCES.txt
+latent_space_visualizer.egg-info/dependency_links.txt
+latent_space_visualizer.egg-info/requires.txt
+latent_space_visualizer.egg-info/top_level.txt
