@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: py-log
+Version: 1.3
+Summary: a simple logging tool(support file,email,dingtalk) ,Multithreading and Multi process safe
+Home-page: UNKNOWN
+Author: bfzs
+Author-email: ydf0509@sohu.com
+Maintainer: ydf
+Maintainer-email: ydf0509@sohu.com
+License: BSD License
+Description: #### Function description
+        a simple logging tool(support file,email,dingtalk) ,mutil thread and process safe
+        
+        #### Version description
+        * Supported version: Python 3.0+
+        
+        #### Pip installation
+        ```shell
+        pip install log4j
+        ```
+        
+        #### Demo
+        ```python
+            from py_log import LogManager
+        
+            logger = LogManager('test1').get_logger_and_add_handlers(log_filename='test1.log')
+            logger.info('aaaa')
+            logger.debug('bbbb')
+            logger.warning('cccc')
+            logger.error('dddd')
+        ```
+Keywords: logging,logger,multiprocess file handler,color handler
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
