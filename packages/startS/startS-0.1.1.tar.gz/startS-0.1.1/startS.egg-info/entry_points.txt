@@ -1,0 +1,3 @@
+[console_scripts]
+startS = startS.produce:run
+

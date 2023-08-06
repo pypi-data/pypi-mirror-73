@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: startS
+Version: 0.1.1
+Summary: 生成启动,停止,重启以及自检启动脚本
+Home-page: UNKNOWN
+Author: shijiang Pan
+Author-email: 1377161366@qq.com
+License: MIT Licence
+Description: 快速生成启动,停止,重启以及自检启动脚本
+Platform: all
