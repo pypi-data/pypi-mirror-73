@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: equities
+Version: 1.3.6
+Summary: equities aims to democratize access to publically avaliable financial data.
+Home-page: https://github.com/ljc-codes/equities.git
+Author: Luigi Charles
+Author-email: ljwcharles@gmail.com
+License: UNKNOWN
+Description: 
+        # 🦈 equities 
+        
+        ## Overview: 
+        
+            equities is a python library that allows easy access to the SEC's XLBR dataset.
+            Parsed data is stored locally and served to the user in pandas dataframes. 
+        
+        
+        
+        ###### The Dataset: 
+        
+        https://www.sec.gov/dera/data/financial-statement-data-sets.html
+        
+        
+        ## TUTORIAL: 
+        
+        The library consists of two central objects, Universe and Company. 
+        
+        ## Universe: 
+        
+        A Universe should be thought of as a set of Companies. The universe object gives us the ability to download,
+        access and purge our data. From the perspective of your computer, a universe is a little shell object that 
+        links to a location on your system that stores both the raw and parsed versions of our juicy sec data. 
+        
+            from equities.objects import Universe
+        
+            universe = Universe()
+        
+        #### Downloading Data:
+        
+        On first use the universe is empty as we have not downloaded data. Before calling the download function we can 
+        optionally supply the universe with an array of quarters and or an array of "CIK" (explained below) ints. 
+        
+            quarters = ["2019q1","2019q2","2019q3","2019q4","2020q1"] # quarters to be downloaded
+            ciks = 50 # limits parsing to first 50 companies. 
+        
+        If no optional arguments are supplied, we will proceed to download the entire dataset and parse all companies. 
+        
+        To download data we call
+        
+            universe.download(quarters=quarters,ciks=ciks)
+        
+        The requested data will then be downloaded and saved locally. This means that anytime you reinstantiate the 
+        universe object, python remembers what you have already parsed. 
+        
+        A small note on deleting data. To delete all locally saved data call 
+        
+            universe.purge()
+        
+        #### Note:  
+        Note that calling the download function automatically purges the universe before data is downloaded. It is 
+        critically important that you purge universes after use as data on your system will persistent even after 
+        you uninstall the package. If however, the use of pesistent data fits within the scope of your usecases by 
+        all means use it. This was intended in the design. On a personal note, one of my many qualms with open source 
+        financial data providers today is the limitations that come with having to GET request everything. Once parsed, 
+        the data in this library is quickly and reliably accessed. 
+        
+        #### Core Functionality:
+        
+        To see the number of companies in the universe we can do: 
+        
+            print(len(universe))
+        
+        Universe objects are indexable by a "CIK" or "Central Index Key" number. This is the unique identifier used by 
+        the sec to identify companies. To get a full list of the cik numbers in the universe one can do: 
+        
+            print(universe.ciks)
+        
+        A dataframe summary of all companies in the universe is included in:
+        
+            print(universe.properties())
+        
+        To access the first company in the above list you can do: 
+        
+            first_cik = universe.ciks[0]
+            print(universe[first_cik])
+        
+        This returns a Company Object.
+        
+        
+        ## Company: 
+        
+        A Company object should be thought of as an abstract representation of a real company. Every 
+        company must have an associated Universe of origin. 
+        
+            from equities.object import Company
+        
+        #### Accessing the Financial Statements
+        
+        Consider the first Company in our universe, universe[first_cik]. It is a Company object. 
+        
+            company = universe[first_cik]
+        
+        Dataframes of the company's financial statements over the universe in question is given by: 
+        
+            company.income()      # income statement dataframe
+        
+            company.balance()     # Balancesheet dataframe
+        
+            company.cash()        # Cash Flow Statement dataframe
+        
+            company.equity()      # Consolidatad Equity dataframe
+        
+        
+        #### Additional Company Methods
+        
+            company.name()        # Returns company name
+            company.sic()         # Returns company sic group
+            
+        
+        #### Example 
+        
+        I really want to demonstrate the beauty of this dataset as that is often difficult when looking
+        at thousands of numeric datatables. So let's take a very naive peek by plotting various statements 
+        as a kind of stacked timeseries. 
+        
+        The following  is a start to finish example of how one might plot the first quarter income statements 
+        of the companies below in the sec universe from 2016-2019.
+        
+        Company CIKS: 
+        
+            1556593
+            1499200
+            1220754
+            917520
+            1040593
+            24741
+        
+        
+        Code: 
+        
+            # Import modules
+            import matplotlib.pyplot as plt
+            from equities.objects import Universe, Company
+        
+            # Instantiate universe
+            u = Universe()
+        
+            # Download data
+            quarters = ["2016q1,"2017q1","2018q1","2019q1"]
+            ciks = [1556593,1499200,1220754,917520,1040593,24741]
+            u.download(quarters=quarters,ciks=ciks)
+        
+            # Plot Income Statements
+            for cik in ciks:
+                income_df = u[cik].income()
+                income_df.plot(kind="bar",
+                               stacked=True,
+                               fig_size=(20,10))
+            plt.show()
+        
+            # Purge local data store
+            u.purge()
+        
+        
+        
+        
+        
+        
+Keywords: sec stock stockmarket equities equity scrapper parser pandas
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
