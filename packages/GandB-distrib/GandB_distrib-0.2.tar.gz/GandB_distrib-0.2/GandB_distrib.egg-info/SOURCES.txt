@@ -1,0 +1,10 @@
+setup.py
+GandB_distrib/Binomialdistribution.py
+GandB_distrib/Gaussiandistribution.py
+GandB_distrib/Generaldistribution.py
+GandB_distrib/__init__.py
+GandB_distrib.egg-info/PKG-INFO
+GandB_distrib.egg-info/SOURCES.txt
+GandB_distrib.egg-info/dependency_links.txt
+GandB_distrib.egg-info/not-zip-safe
+GandB_distrib.egg-info/top_level.txt
