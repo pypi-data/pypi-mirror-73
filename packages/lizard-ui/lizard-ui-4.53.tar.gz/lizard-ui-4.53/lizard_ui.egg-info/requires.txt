@@ -1,0 +1,7 @@
+beautifulsoup4
+Django<3,>=1.9
+django_compressor>=1.1
+
+[test]
+nose
+coverage
