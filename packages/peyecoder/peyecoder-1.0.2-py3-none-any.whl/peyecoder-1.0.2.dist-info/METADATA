@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: peyecoder
+Version: 1.0.2
+Summary: Software for coding eye movements
+Home-page: https://github.com/rholson1/peyecoder
+Author: Rob Olson
+Author-email: rolson@waisman.wisc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python-headless
+Requires-Dist: PyAudio
+Requires-Dist: PySide2
+Requires-Dist: python-dateutil
+Requires-Dist: sortedcontainers
+Requires-Dist: timecode
+
+# peyecoder
+Software for coding eye movements in looking-while-listening tasks.
+
+Running
+--
+To run peyecoder from the project directory:
+
+```
+python run-peyecoder.py
+```
+
+
+Dependencies
+--
+- **PySide2**: Qt for Python
+- **opencv-python-headless**: Computer vision library used to read videos   
+- **timecode**: library for SMTPE timecode computations
+- **PyAudio**: library used to playback audio
+- **sortedcontainers**: data structures which maintain sort order
+- **python-dateutil**: date utilities
+
+additionally, **ffmpeg** should be installed and in the path. 
+
+
+
+
