@@ -1,0 +1,43 @@
+name: Docker
+
+on:
+  push:
+    # Publish `master` as Docker `latest` image.
+    branches:
+      - master
+
+    # Publish `v1.2.3` tags as releases.
+    tags:
+      - v*
+
+  # Run tests for any PRs.
+  pull_request:
+
+env:
+  IMAGE_NAME: conceptual
+
+jobs:
+
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag $IMAGE_NAME:$(git rev-parse HEAD)
+
+    - name: Run tests
+      run:  docker run $IMAGE_NAME:$(git rev-parse HEAD) sh -c ./scripts/run_tests.sh
+
+
+    - name: Build python package
+      run:  docker run $IMAGE_NAME:$(git rev-parse HEAD) sh -c ./scripts/build_python.sh
+
+    - name: Upload to PyPI
+      if: ${{ github.ref == 'refs/heads/master' && github.event_name == 'push' }}
+      env:
+        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+        TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      run:  docker run --env TWINE_USERNAME --env TWINE_PASSWORD $IMAGE_NAME:$(git rev-parse HEAD) bash -c "./scripts/build_python.sh && ./scripts/upload_package.sh"

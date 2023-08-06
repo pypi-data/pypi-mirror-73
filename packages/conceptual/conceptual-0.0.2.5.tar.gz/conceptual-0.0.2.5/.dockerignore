@@ -1,0 +1,6 @@
+.clangd
+build
+*.egg-info
+dist/**
+compile_commands.json
+__pycache__
