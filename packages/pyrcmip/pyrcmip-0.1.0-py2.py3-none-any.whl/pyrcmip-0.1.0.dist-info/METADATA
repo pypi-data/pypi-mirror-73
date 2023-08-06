@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: pyrcmip
+Version: 0.1.0
+Summary: Tools for accessing RCMIP data
+Home-page: https://gitlab.com/rcmip/pyrcmip
+Author: Zeb Nicholls, Jared Lewis
+Author-email: zebedee.nicholls@climate-energy-college.org, jared.lewis@climate-energy-college.org
+License: 3-Clause BSD License
+Project-URL: Bug Reports, https://github.com/rcmip/pyrcmip/issues
+Project-URL: Source, https://gitlab.com/rcmip/pyrcmip
+Keywords: data,simple climate model,climate,scm
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: click
+Requires-Dist: scmdata
+Requires-Dist: boto3
+Requires-Dist: pyjwt
+Requires-Dist: semver
+Requires-Dist: xlrd
+Requires-Dist: docutils (<0.16)
+Provides-Extra: deploy
+Requires-Dist: twine (>=1.11.0) ; extra == 'deploy'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'deploy'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'deploy'
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: nbval ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest (>=5.0.0) ; extra == 'dev'
+Requires-Dist: moto ; extra == 'dev'
+Requires-Dist: sphinx (<2.1,>=1.4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: twine (>=1.11.0) ; extra == 'dev'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (<2.1,>=1.4) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: nbval ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Requires-Dist: pytest (>=5.0.0) ; extra == 'tests'
+Requires-Dist: moto ; extra == 'tests'
+
+pyrcmip
+=======
+
+.. sec-begin-links
+
++-------------------+-----------+
+| Repository health | |License| |
++-------------------+-----------+
+
++-----------------+------------------+
+| Latest releases | |Latest Version| |
++-----------------+------------------+
+
++-----------------+----------------+---------------+
+| Latest activity | |Contributors| | |Last Commit| |
++-----------------+----------------+---------------+
+
+.. |License| image:: https://img.shields.io/github/license/rcmip/pyrcmip.svg
+    :target: https://gitlab.com/rcmip/pyrcmip/blob/master/LICENSE
+.. |Latest Version| image:: https://img.shields.io/gitlab/tag/rcmip/pyrcmip.svg
+    :target: https://gitlab.com/rcmip/pyrcmip/releases
+.. |Last Commit| image:: https://img.shields.io/gitlab/last-commit/rcmip/pyrcmip.svg
+    :target: https://gitlab.com/rcmip/pyrcmip/commits/master
+.. |Contributors| image:: https://img.shields.io/github/contributors/rcmip/pyrcmip.svg
+    :target: https://gitlab.com/rcmip/pyrcmip/graphs/contributors
+
+.. sec-begin-index
+
+pyrcmip is a tool for validating and uploading results to [RCMIP](http://rcmip.org).  Reduced Complexity Model Intercomparison Project (RCMIP)
+is a project to test the ability of  reduced-complexity, simple climate models to emuate a range of CMIP6 coupled models.
+
+
+.. sec-end-index
+
+Installation
+------------
+
+The easiest way to install pyrcmip is with `pip <https://pypi.org/project/pip/>`_
+
+::
+
+  # if you're using a virtual environment, make sure you're in it
+  pip install pyrcmip
+
+
+Documentation
+-------------
+
+Documentation to come in future
+
+
+Contributing
+------------
+
+If you'd like to contribute, please make a pull request!
+The pull request templates should ensure that you provide all the necessary information.
+
+.. sec-begin-license
+
+License
+-------
+
+pyrcmip is free software under a BSD 3-Clause License, see `LICENSE <https://gitlab.com/rcmip/pyrcmip/blob/master/LICENSE>`_. If you
+make use of pyrcmip or any of the RCMIP project, please cite:
+
+.. code-block::
+
+    Nicholls, Z. R. J., Meinshausen, M., Lewis, J., Gieseke, R., Dommenget, D., Dorheim, K., Fan, C.-S., Fuglestvedt, J. S., Gasser, T., Golüke, U., Goodwin, P., Kriegler, E., Leach, N. J., Marchegiani, D., Quilcaille, Y., Samset, B. H., Sandstad, M., Shiklomanov, A. N., Skeie, R. B., Smith, C. J., Tanaka, K., Tsutsui, J., and Xie, Z.: Reduced complexity model intercomparison project phase 1: Protocol, results and initial observations, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2019-375, 2020.
+
+.. sec-end-license
+
