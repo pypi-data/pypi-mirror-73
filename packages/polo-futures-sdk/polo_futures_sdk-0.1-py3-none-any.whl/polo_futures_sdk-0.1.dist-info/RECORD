@@ -1,0 +1,14 @@
+polofutures/__init__.py,sha256=nb3iRzjG_iAkhzKUz0x4R20u2dpe3eECzyYKQwpQ2o0,1075
+polofutures/rest/__init__.py,sha256=nYcivhEX0Lp4XWN0RMPqVp3Qmi02URyI_s8lHSQeMfo,966
+polofutures/rest/client.py,sha256=09X9sqtcrhRnkSv-h-oA-wKi2RnxrxI4g2et82_NzO0,1615
+polofutures/rest/core.py,sha256=-FCM_c73lm7GRV_Z7HQg2bK59OwvQ14a9rNjFDeTK8Q,2934
+polofutures/rest/market.py,sha256=kKrYytbxiKBTT3D3-so1G5dWeXpXxZhBptwXTRUiZt8,10676
+polofutures/rest/trade.py,sha256=wzJk9-1Il33XOW3o5cVTzF_h2hQs0wOExjTEK4Jf9WA,11784
+polofutures/rest/user.py,sha256=-aOyOY-_aPJIrEQDCHMdML5CokBDNgArf1TOyZNJXwU,2417
+polofutures/ws/__init__.py,sha256=nYcivhEX0Lp4XWN0RMPqVp3Qmi02URyI_s8lHSQeMfo,966
+polofutures/ws/client.py,sha256=GZH6jCxyDe_5XSkezamWhFJa3mSKP6I15Nlis-gmKPs,6325
+polo_futures_sdk-0.1.dist-info/LICENSE,sha256=2hD07Ju-TDeETTft0SJqF4XnY13PEIb9n23tfUgcz_4,1065
+polo_futures_sdk-0.1.dist-info/METADATA,sha256=Mr2TjxPBnpzNehLKoDWnbwt_1cJt-7WUyBdvlqgkJko,512
+polo_futures_sdk-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+polo_futures_sdk-0.1.dist-info/top_level.txt,sha256=wcDC_LaejWeFt8QscpTcBpjKyk98AVqd3Y0WdHSK1JI,12
+polo_futures_sdk-0.1.dist-info/RECORD,,
