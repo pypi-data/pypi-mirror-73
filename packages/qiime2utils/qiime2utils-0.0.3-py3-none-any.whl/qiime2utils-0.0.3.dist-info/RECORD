@@ -1,0 +1,9 @@
+qiime2utils/__init__.py,sha256=OYk6RN-Q-GPibU7_Hx7yOGtG9vtQA3FFqGcqjIvHbOA,198
+qiime2utils/main.py,sha256=rtjgXP9FLPpg2-VWe0AWV6EzD4jEUrgx7QQWgdx1SgM,11969
+qiime2utils/qiime2utils,sha256=CJhE5aWWr6X2GY0teTYN25y5jQQz2gPwvR4GK25L_jQ,5282
+qiime2utils-0.0.3.data/scripts/qiime2utils,sha256=Qs-twN_P6S8DXp8tJPpnAx3DW89gBvr5v2ZWBCJdTUA,5269
+qiime2utils-0.0.3.dist-info/LICENSE,sha256=6KGyuR1GDa91kLTA9JaOuKsueb21bIxVDnO6IdIT6r4,1069
+qiime2utils-0.0.3.dist-info/METADATA,sha256=ji-MaPh2RGGC0-WwZZoYmhXCVZo19m__X1FaJi52Hns,666
+qiime2utils-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qiime2utils-0.0.3.dist-info/top_level.txt,sha256=xQWVeaWQb-3rewKv0jJDJGnpRY-nOHf09f1KLPfNghA,12
+qiime2utils-0.0.3.dist-info/RECORD,,
