@@ -1,0 +1,17 @@
+hyperbuild/__init__.py,sha256=onsoNDX2OA-IPidvwIl9YGK9OLtMdtk1CaJu40H9QDc,894
+hyperbuild/linux-x86_64-3_5/hyperbuild.so,sha256=eRzshhDnfz66zJetx0AM5iGH1ZXlMiJnvKkG5D15FGg,5649936
+hyperbuild/linux-x86_64-3_6/hyperbuild.so,sha256=7jRYMgS2KODOUVwJFndO6ky2kre8r4AH9tZ94LibnSA,5651144
+hyperbuild/linux-x86_64-3_7/hyperbuild.so,sha256=0whuR5ktZsUc0nNLGrUO3d52I_RllZqzb4smb9-1DwI,5651040
+hyperbuild/linux-x86_64-3_8/hyperbuild.so,sha256=L4UzVH9yyemJj1dd_bP_ghV5DlReB0SuCWI22VJv-b8,5651040
+hyperbuild/macos-x86_64-3_5/hyperbuild.so,sha256=uV9s9Srpp7M0a0ocD8bZlaq1BOy2V0SNp4YHySIeewA,2395192
+hyperbuild/macos-x86_64-3_6/hyperbuild.so,sha256=uyGJHTNslt7agynv4zCa9foK35M13sCwgQYnVmunnCA,2395736
+hyperbuild/macos-x86_64-3_7/hyperbuild.so,sha256=4GUdHcP0PQ3YMvk87FZ3wD_qbs1nvfuzVWiZjMWtrq4,2395568
+hyperbuild/macos-x86_64-3_8/hyperbuild.so,sha256=WJWc9T93yzaUbAEJrMoatZiPNUIH5Wodj0FpQGYjgrU,2395568
+hyperbuild/windows-x86_64-3_5/hyperbuild.pyd,sha256=m7MnAeXpPjsrDdj7llTV7flb38iwsyEQrJFkguLl9FY,2218496
+hyperbuild/windows-x86_64-3_6/hyperbuild.pyd,sha256=19t_Bn52tpxiWFsw0LQW5elnwvKsbWmJ-803hvHfLAM,2217984
+hyperbuild/windows-x86_64-3_7/hyperbuild.pyd,sha256=OKJeax9HHtqZQwXxFBKfiHpRchGNt7L04rXajM7YPdo,2217984
+hyperbuild/windows-x86_64-3_8/hyperbuild.pyd,sha256=KWvdq7lQ4dTK5nDFWYcJjrSLPdK91agum9bPDpDey6Q,2217984
+hyperbuild-0.1.12.dist-info/METADATA,sha256=YXrI5Lp5y8UY8vXIUoeXf7vP9d2BJmis2Ohw5b1VyIw,16090
+hyperbuild-0.1.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hyperbuild-0.1.12.dist-info/top_level.txt,sha256=JM59mhdAg_zT-cCceaWBVslgiZrkAjSyGg3Ys5AUueY,11
+hyperbuild-0.1.12.dist-info/RECORD,,
