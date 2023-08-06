@@ -1,0 +1,11 @@
+README.md
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+distributions_ops_udacity.egg-info/PKG-INFO
+distributions_ops_udacity.egg-info/SOURCES.txt
+distributions_ops_udacity.egg-info/dependency_links.txt
+distributions_ops_udacity.egg-info/not-zip-safe
+distributions_ops_udacity.egg-info/top_level.txt
