@@ -1,0 +1,7 @@
+pyyaml
+python-dotenv
+pandas
+iso8601
+click
+zipp
+mypy-extensions
