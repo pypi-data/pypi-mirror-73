@@ -1,0 +1,11 @@
+enum_tools/__init__.py,sha256=Oq_3xNbWLiiyfCFGLA-bQWb_AmHvUNTnrivPE8zKc9s,1505
+enum_tools/autoenum.py,sha256=Ch1xkwlCQ0Ghqt6Y_wellSlCE2q0t4isLFiLCarCT7c,12234
+enum_tools/custom_enums.py,sha256=V91Id0AZIEKy49lSoGI_d_nBlwGLPzx9TY1N4iMk4O8,2786
+enum_tools/demo.py,sha256=iYXmAv9MlL0jDLrBV6xb-zQrqvSVFsCRCB3DMHm_E2w,566
+enum_tools/documentation.py,sha256=ASYu2GVa4RDUi4bVtDEx65AAJIktjFPY7dCXpQUuxDs,5859
+enum_tools-0.0.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+enum_tools-0.0.2.dist-info/METADATA,sha256=F4y48JPyOrIWNAojrHFwV8zlBbdemVxEKa1iUAlvP1M,6020
+enum_tools-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+enum_tools-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+enum_tools-0.0.2.dist-info/top_level.txt,sha256=1FDRSlXaFxq9RMSheU5XWymCg8QtpKQvnuOu5SRz4cw,11
+enum_tools-0.0.2.dist-info/RECORD,,
