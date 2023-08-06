@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: lydia-sdk
+Version: 0.0.840
+Summary: Python SDK for Lydia API
+Home-page: https://github.com/finbourne/lydia-sdk-python
+Author: FINBOURNE Technology
+Author-email: engineering@finbourne.com
+License: MIT
+Description: UNKNOWN
+Keywords: OpenAPI,FINBOURNE,LUSID,Lydia API
+Platform: UNKNOWN
