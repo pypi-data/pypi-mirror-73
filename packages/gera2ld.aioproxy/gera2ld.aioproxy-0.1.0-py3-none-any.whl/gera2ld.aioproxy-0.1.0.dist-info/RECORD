@@ -1,0 +1,10 @@
+gera2ld/aioproxy/__init__.py,sha256=ObW-AIlOVsgXjw7akAtAEZ3pP_u_rRIpxoCofHHQzsE,220
+gera2ld/aioproxy/cli.py,sha256=sK4HcvouiXAXuw5DHUirmXAIKXS-GXV0cRJD2bfpaG0,779
+gera2ld/aioproxy/handlers/__init__.py,sha256=pgUK-XljlngtOyv80hMGyKVOAlc9oI16SM-6Cu9uyNI,559
+gera2ld/aioproxy/handlers/connect.py,sha256=gRFj_zltxnDTJM0kyBzjfn7GqOD-X03lAm-nIufWtZE,1855
+gera2ld/aioproxy/handlers/proxy.py,sha256=_9fRRtXjIUNtI-jL1DnsC8--gZsz0Wlg-Um21gFwyKI,2228
+gera2ld/aioproxy/handlers/util.py,sha256=iNM-gBfUSWbiY2IUmKetda7jxt6sugSVmc1eSw5U0io,467
+gera2ld.aioproxy-0.1.0.dist-info/entry_points.txt,sha256=frr9vEkY9E4G5kn6OxVCh-uy-8DaUb08mE8fFbqG8Wk,54
+gera2ld.aioproxy-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+gera2ld.aioproxy-0.1.0.dist-info/METADATA,sha256=m-JbNcUPevB6zoSCcH8WZ7VLzMjn-lH4YSSlzCCE_7g,1138
+gera2ld.aioproxy-0.1.0.dist-info/RECORD,,
