@@ -1,0 +1,10 @@
+README.md
+setup.py
+softalignments/__init__.py
+softalignments/functions.py
+softalignments/process_alignments.py
+softalignments.egg-info/PKG-INFO
+softalignments.egg-info/SOURCES.txt
+softalignments.egg-info/dependency_links.txt
+softalignments.egg-info/entry_points.txt
+softalignments.egg-info/top_level.txt
