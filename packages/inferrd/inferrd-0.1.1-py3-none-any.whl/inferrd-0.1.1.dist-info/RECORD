@@ -1,0 +1,8 @@
+inferrd/__init__.py,sha256=kNrSfYP_kYQlOmFc8ZV4TDUmAV9dq9zWgaqWOPp8Ab8,88
+inferrd/deploy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inferrd/infer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inferrd-0.1.1.dist-info/LICENCE.txt,sha256=0aFZS9MJJsA1MntHDxad0IswkstTVHypznnKOBN2lLE,1046
+inferrd-0.1.1.dist-info/METADATA,sha256=yYASdn90rErvEXJ5Dbndhknv36z9ZndWK3ob5jAPwtc,414
+inferrd-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+inferrd-0.1.1.dist-info/top_level.txt,sha256=PgMPyjLO-RFsIO7dzjDIfFU6jiEHu7fwyeloFJi8XW4,8
+inferrd-0.1.1.dist-info/RECORD,,

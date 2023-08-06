@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: inferrd
+Version: 0.1.1
+Summary: Inferrd Client Package
+Home-page: https://inferrd.com
+Author: Inferrd.com
+Author-email: contact@inferrd.com
+License: MIT
+Download-URL: https://pypi.org/project/inferrd/
+Keywords: Inferrd,Scikit,Keras,Deploy
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: joblib
+
+# Inferrd
+
+Inferrd is a hosting platform for Scikit and Keras.
+
+
+
