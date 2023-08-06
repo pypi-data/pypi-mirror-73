@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mrkdwn2html
+Version: 0.0.2
+Summary: Convert markdown to html.
+Home-page: https://github.com/john-montgomery2003/mrkdwn2html
+Author: John Montgomery
+Author-email: john@johnmontgomery.tech
+License: UNKNOWN
+Description: # MRKDWN 2 HTML
+        
+        Converting between Markdown and HTML.
+        
+        Still under development. Avaliable on pip, to install:
+        
+        `pip install mrkdwn2html`
+        
+        The primary function is mrkdwn2html(mrkdwn) which returns the converted string.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
