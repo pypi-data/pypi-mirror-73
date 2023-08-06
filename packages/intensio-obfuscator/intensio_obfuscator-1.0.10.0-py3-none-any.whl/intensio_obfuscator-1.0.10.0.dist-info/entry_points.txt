@@ -1,0 +1,3 @@
+[console_scripts]
+intensio_obfuscator = intensio_obfuscator.intensio_obfuscator:main
+
