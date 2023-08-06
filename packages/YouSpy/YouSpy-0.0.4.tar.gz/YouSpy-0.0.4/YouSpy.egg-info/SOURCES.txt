@@ -1,0 +1,9 @@
+README.md
+setup.py
+YouSpy/__init__.py
+YouSpy/spy.py
+YouSpy.egg-info/PKG-INFO
+YouSpy.egg-info/SOURCES.txt
+YouSpy.egg-info/dependency_links.txt
+YouSpy.egg-info/requires.txt
+YouSpy.egg-info/top_level.txt
