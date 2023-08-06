@@ -1,0 +1,3 @@
+[console_scripts]
+archwiki=archwiki.archwiki:run
+
