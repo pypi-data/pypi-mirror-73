@@ -1,0 +1,3 @@
+[console_scripts]
+ltexpect = ltexpect.__main__:main
+

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ltexpect
+Version: 1.0.3
+Summary: Easier Expect interface
+Home-page: https://github.com/laowangv5/ltexpect
+Author: Yonghang Wang
+Author-email: yhang_wang@icloud.com
+License: MIT
+Description: # ltexpect -- LightExpect
+        
+        1. as command line tool for easy expect feature
+        2. "Expect" class for reuse
+        
+        
+        
+        pip install ltexpect
+        
+Keywords: ltexpect,liteexpect,expect,lexpect,ltexpect,LiteExpect,Expect
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
