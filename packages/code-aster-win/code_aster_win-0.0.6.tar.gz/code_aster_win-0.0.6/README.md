@@ -1,0 +1,78 @@
+# Code_Aster Python Package
+
+This Package makes the simulation software code_aster easy to install and use within python and registers also commands to use it with the CMD/Terminal. There is a version for Windows and Linux (in construction).  
+
+
+> #### What is Code_Aster ? 
+> Code_Aster offers a full range of multiphysical analysis and modelling methods that go well beyond the standard functions of a thermomechanical calculation code: from seismic analysis to porous media via acoustics, fatigue, stochastic dynamics, etc. Its modelling, algorithms and solvers are constantly under construction to improve and complete them (1,200,000 lines of code, 200 operators). Resolutely open, it is linked, coupled and encapsulated in numerous ways
+
+## Installation
+
+```
+pip install code-aster-win
+```
+
+That's all!
+
+> #### Test your installation
+>```python
+>import code_aster as ca
+>
+># Returns a log with all the information
+>logs = ca.test_installation()
+>
+># For example you can extract the output the command generated
+>print(logs.stdout)
+>```
+>It will start a test simulation and if it runs without error the installation is ok.
+
+## How to use it
+
+
+### Use of the as_run command
+
+```python
+import code_aster as ca
+from pathlib import Path
+
+# Path to the export file
+# Attention use Pathlib and front slashes (/).
+path = Path('C:/Users/..../forma01a.export')
+
+# Returns a log with all the information
+logs = ca.as_run(path)
+
+# For example you can extract the output the command generated
+print(logs.stdout)
+```
+
+### Use of the run_astk command
+
+```python
+import code_aster as ca
+from pathlib import Path
+
+# Returns a log with all the information
+logs = ca.run_astk()
+
+# For example you can extract the output the command generated
+print(logs.stdout)
+```
+
+## Use it directly in the Terminal/CMD
+
+```bash
+py_as_run
+```
+or
+
+```bash
+py_run_astk
+```
+
+or
+
+```bash
+py_test_installation
+```
+

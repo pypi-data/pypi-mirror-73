@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+code_aster/__init__.py
+code_aster/command_line.py
+code_aster_win.egg-info/PKG-INFO
+code_aster_win.egg-info/SOURCES.txt
+code_aster_win.egg-info/dependency_links.txt
+code_aster_win.egg-info/entry_points.txt
+code_aster_win.egg-info/requires.txt
+code_aster_win.egg-info/top_level.txt
