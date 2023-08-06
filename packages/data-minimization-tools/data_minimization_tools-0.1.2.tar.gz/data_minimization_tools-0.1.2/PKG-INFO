@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: data_minimization_tools
+Version: 0.1.2
+Summary: Pyhton library for data minimization tools.
+Home-page: https://github.com/peng-data-minimization/minimizer
+Author: peng-data-minimization
+Author-email: peng.dataminimization@gmail.com
+License: MIT
+Description: # data minimization tools ![Python package](https://github.com/peng-data-minimization/minimizer/workflows/Python%20package/badge.svg)
+        Pyhton library for data minimization tools.
+        ## Installation
+        
+        `pip install data-minimization-tools`
+        
+        See on [PyPi](https://pypi.org/project/data-minimization-tools/).
+        
+        ## Documentation
+        [Read the Docs](https://data-minimization-tools.readthedocs.io/en/latest/)
+        
+        ## Development
+        Feel free to contribute. To install from source run `pip install .`.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
