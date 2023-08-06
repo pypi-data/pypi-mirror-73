@@ -1,0 +1,9 @@
+stack_alert/__init__.py,sha256=MHFbXynUOuzx1vBD7aApcX2uR8iPheygT3oR5Wzjvps,152
+stack_alert/api.py,sha256=b6F370p-fOm75vF5d1cAhSA7fF3Ed3wvsG7h_tFcV3Y,11418
+stack_alert/cli.py,sha256=ZHvakvLnwkCxdXkUOkipso40Gt8pNbv-0OauE75dMBw,573
+stack_alert/templates/email_template.html.jinja,sha256=5tNlKfeti9uWzj-Cuvd3SjGAJ-KW2WUtisH6ewxl46E,10588
+stack_alert-0.0.0.dist-info/entry_points.txt,sha256=D-IvUnlrjFIlDiNjsFLYLdwvGUqhQgl3LFcRChKaGZs,52
+stack_alert-0.0.0.dist-info/LICENSE.txt,sha256=FLzsYWNCFI31yqaHiRaEsAJrLwnfGewWjJRXu0xTyeg,32452
+stack_alert-0.0.0.dist-info/WHEEL,sha256=4vGQWMHJO3SOyvYcLHqr380W2n90FCfzkrP_YY3xjq8,99
+stack_alert-0.0.0.dist-info/METADATA,sha256=MIanSVylJI45AZDaTbikFGAXKQHdcz_OUHSAU1qUeBA,3196
+stack_alert-0.0.0.dist-info/RECORD,,
