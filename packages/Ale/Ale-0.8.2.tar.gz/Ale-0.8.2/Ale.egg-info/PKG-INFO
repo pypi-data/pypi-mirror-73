@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Ale
+Version: 0.8.2
+Summary: Abstraction Layer for Ephemerides
+Home-page: UNKNOWN
+Author: USGS ASC Development Team
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     An Abstraction library for reading, writing and computing ephemeris data
+            
+Platform: UNKNOWN
