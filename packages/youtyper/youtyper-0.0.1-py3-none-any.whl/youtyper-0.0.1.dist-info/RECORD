@@ -1,0 +1,16 @@
+youtyper/__init__.py,sha256=uoXN75cirPzOqvx61v0YX4Ud14iSnNFUUZZM_zulIYw,46
+youtyper/__main__.py,sha256=UwRxIOhmSsTCTTtIFFTQvrImWB9Jo73mA29Ct3EHimo,66
+youtyper/logs.py,sha256=snWhrgsODLtYSoi4tTKTOQCP2dhfPPXZOybGDW__yG0,717
+youtyper/main.py,sha256=ZWv5ejDfGnDQOrtplkjUdVluF-64pkAw_6Oyiw6R6Cc,6166
+youtyper/ui.py,sha256=cCw43p6-y40kUt9D-Yj8IN5P1f47P1JiQaHX2o6f4po,1323
+youtyper/analyzers/__init__.py,sha256=_IXwrcCby-S2gIYuaUgcNWAGeH5j8UgTWb9wa6V_2IE,337
+youtyper/analyzers/analyzer.py,sha256=zyzuKT5hjpFy5idSKJ5wf_PzWEbOjW0w8XJ5FRHTGQg,390
+youtyper/analyzers/basic.py,sha256=q_jAxICUs484Vmt8lXTg0H7myujS7_ozD8Qd9FTScn8,3196
+youtyper/lessons/__init__.py,sha256=9byKPHDjeXODKMcYZ9p1S1a-AzvYhvN9QYbIFc7kwrY,227
+youtyper/lessons/basic.py,sha256=hwYTvLiN1zXzaoIcBqxcYu52ZLR4QJgUDAumiQF2Q8A,2532
+youtyper/lessons/lessons.py,sha256=yP8ahy_EuTwOP4Uk-zLtSJxGhOdE1-uP38s6A6hhxHw,1709
+youtyper-0.0.1.dist-info/METADATA,sha256=WK7PdnI0IHv_nbWNimMST3fORRVwdGczznc0_DD--sY,5593
+youtyper-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+youtyper-0.0.1.dist-info/entry_points.txt,sha256=TaIGQn5Qlad87PSoP3zQN2Z90NIaWS7tZwhxkb-WrMo,104
+youtyper-0.0.1.dist-info/top_level.txt,sha256=8EqEaJrh_iHw6EZfQ-6ieCGRWm62fQTkxzfzsy0PgUY,9
+youtyper-0.0.1.dist-info/RECORD,,
