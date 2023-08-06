@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+desc.txt
+setup.py
+RectangleCollision/__init__.py
+RectangleCollision.egg-info/PKG-INFO
+RectangleCollision.egg-info/SOURCES.txt
+RectangleCollision.egg-info/dependency_links.txt
+RectangleCollision.egg-info/top_level.txt
+examples/example1/RectangleCollisionExampleWithPyglet.py

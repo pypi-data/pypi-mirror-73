@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: RectangleCollision
+Version: 0.0.0.6
+Summary: A basic collision module
+Home-page: https://github.com/dark00shadow/RectangleCollision
+Author: shadow00dev
+Author-email: twistcharlievlogs@gmail.com
+License: MIT
+Description: this is a python library that can check for rectangle collision between object 1 and 2
+Keywords: collision
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
