@@ -1,0 +1,3 @@
+[console_scripts]
+getpop = get_pop.cli:main
+
