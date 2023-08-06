@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: flaskdoc
+Version: 0.1.0a1
+Summary: UNKNOWN
+Home-page: https://github.com/kulgan/flaskdoc
+Author: Rowland Ogwara
+Author-email: r.ogwara@gmail.com
+Maintainer: Rowland Ogwara
+License: Apache 2.0
+Project-URL: source, https://github.com/kulgan/flaskdoc
+Keywords: swagger,openapi,flask,rest,api,swagger-ui
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Documentation
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: attrs (~=19.3)
+Requires-Dist: click (~=7.1)
+Requires-Dist: flask (~=1.0)
+Requires-Dist: PyYaml (~=5.3)
+Provides-Extra: dev
+Requires-Dist: coverage[toml] ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flask ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'dev'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'dev'
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2dafebf021354a42aa62b11d6ab42654)](https://www.codacy.com/manual/kulgan/flaskdoc?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kulgan/flaskdoc&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/2dafebf021354a42aa62b11d6ab42654)](https://www.codacy.com/manual/kulgan/flaskdoc?utm_source=github.com&utm_medium=referral&utm_content=kulgan/flaskdoc&utm_campaign=Badge_Coverage)
+[![Build Status](https://travis-ci.com/kulgan/flaskdoc.svg?branch=master)](https://travis-ci.com/kulgan/flaskdoc)
+
+# Flaskdoc
+FlaskDoc is an extension of the regular Flask API and adds support for Swagger/OpenAPI documentation.
+
+## Requirements
+
+* Python 2.7+, 3.5+
+
+## Installation
+Project is still in active development. The goal is to be able to install it like this
+```bash
+$ pip install flaskdoc
+```
+
+## Usage Examples
+```python
+import swagger.models
+import flaskdoc
+from flaskdoc import swagger
+
+blp = flaskdoc.Blueprint("sample", __name__)
+
+@blp.route("/echo/<string:sample>",
+    description="Simple Echo",
+    methods=[
+        swagger.GET(tags=["sample"])
+    ]
+)
+def echo(sample):
+    return sample
+```
+
+## Release History
+
+## Meta
+Distributed under Apache 2.0 License
+
+## Contributing
+* Fork it
+
+
