@@ -1,0 +1,10 @@
+setup.py
+console_contacts.egg-info/PKG-INFO
+console_contacts.egg-info/SOURCES.txt
+console_contacts.egg-info/dependency_links.txt
+console_contacts.egg-info/entry_points.txt
+console_contacts.egg-info/not-zip-safe
+console_contacts.egg-info/top_level.txt
+contacts/__init__.py
+contacts/command_line.py
+contacts/consolecontacts.py
