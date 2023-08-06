@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+12_test.egg-info/PKG-INFO
+12_test.egg-info/SOURCES.txt
+12_test.egg-info/dependency_links.txt
+12_test.egg-info/not-zip-safe
+12_test.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
