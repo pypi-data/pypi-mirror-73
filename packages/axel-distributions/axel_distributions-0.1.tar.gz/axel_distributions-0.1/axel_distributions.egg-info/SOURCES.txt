@@ -1,0 +1,10 @@
+setup.py
+axel_distributions/Binomialdistribution.py
+axel_distributions/Gaussiandistribution.py
+axel_distributions/Generaldistribution.py
+axel_distributions/__init__.py
+axel_distributions.egg-info/PKG-INFO
+axel_distributions.egg-info/SOURCES.txt
+axel_distributions.egg-info/dependency_links.txt
+axel_distributions.egg-info/not-zip-safe
+axel_distributions.egg-info/top_level.txt
