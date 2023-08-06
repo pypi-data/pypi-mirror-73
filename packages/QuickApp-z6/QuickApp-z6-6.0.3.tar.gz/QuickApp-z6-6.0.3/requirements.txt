@@ -1,0 +1,6 @@
+PyContracts3
+reprep-z6
+DecentLogs-z6
+compmake-z6
+ConfTools-z6
+
