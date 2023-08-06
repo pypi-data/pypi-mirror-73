@@ -1,0 +1,6 @@
+flask
+waitress
+
+[test]
+pytest
+coverage
