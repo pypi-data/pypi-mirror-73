@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pymongo-model
+Version: 1.0.1
+Summary: Simple pymongo document model
+Home-page: https://github.com/aa3pankaj/pymongo-model
+Author: Pankaj Singh
+Author-email: aa3pankaj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: jsondiff
+Requires-Dist: pymongo
+
+UNKNOWN
+
+
