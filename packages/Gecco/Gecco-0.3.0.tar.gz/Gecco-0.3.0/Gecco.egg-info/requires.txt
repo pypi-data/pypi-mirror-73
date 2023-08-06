@@ -1,0 +1,9 @@
+lxml>=2.2
+pynlpl>=1.2.9
+folia>=2.2.0
+pyyaml
+colibricore>=2.4
+python-ucto>=0.2.2
+python3-timbl
+psutil
+python-Levenshtein
