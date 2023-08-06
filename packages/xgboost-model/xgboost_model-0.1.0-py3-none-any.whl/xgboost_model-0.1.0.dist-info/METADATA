@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: xgboost-model
+Version: 0.1.0
+Summary: A small xgboost model package
+Home-page: https://github.com/jarsushi/house-price-predict-scratch/tree/master/src/xgboost_model
+Author: Joshua Robison
+Author-email: joshua.robison.a@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: idna (==2.9)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.11.2)
+Requires-Dist: joblib (==0.15.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: numpy (==1.18.5)
+Requires-Dist: pandas (==1.0.4)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: scikit-learn (==0.23.1)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: threadpoolctl (==2.1.0)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: websocket-client (==0.57.0)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: WTForms (==2.3.1)
+Requires-Dist: xgboost (==1.1.1)
+Requires-Dist: setuptools (<42.0.0,>=41.4.0)
+Requires-Dist: wheel (<0.34.0,>=0.33.6)
+
+# XGBoost Model Package
+
+This is a XGBoost Model package. Github repository can be found
+[here](https://github.com/jarsushi/house-price-predict-scratch/tree/master/src/xgboost_model).
+
+
+
