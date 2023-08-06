@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ArithmeticOperations
+Version: 1.0.0
+Summary: Basic Calculator App
+Home-page: https://github.com/Jhansi-27/Calculator
+Author: JhansiRani
+Author-email: jhansi.rc26@gmail.com
+License: MIT
+Description: # Calculator
+        
+        A Python Package to do basic mathematical operations like sum, substraction, multiplication, division and average.
+        
+        ## Usage
+        
+        Enter the numbers and select the operation to be performed.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
