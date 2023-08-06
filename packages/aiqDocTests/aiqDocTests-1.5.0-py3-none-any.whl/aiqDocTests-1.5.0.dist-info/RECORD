@@ -1,0 +1,10 @@
+aiqDocTests-1.5.0.data/scripts/aiqdoctests,sha256=sYPmohLTjiQ7n4c1q3iJSYqCtEKXzwQJG0nbwZSs0k8,2167
+aiqdoctests/.aiqdoctests.config,sha256=LPFiegtLunpm1FgRzNHGdqnMq6IBoMlWn27J_5a2XLk,767
+aiqdoctests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiqdoctests/structures.py,sha256=EA8OICsXa0dHmADDen0owKVrYS1ZQjsfmdDc-dv54xs,11899
+aiqdoctests/wait,sha256=9jAr9d74crtX-Ol_UbrbWhkQKkyTZYyoT7iamBRAQJk,280128
+aiqDocTests-1.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiqDocTests-1.5.0.dist-info/METADATA,sha256=agkTG8XFxktBHUoEPStvNBAjMqInCBGAYEqZxKTHgEg,2397
+aiqDocTests-1.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiqDocTests-1.5.0.dist-info/top_level.txt,sha256=GGR9ZiIAo8rljXYquUiqT3GTGBGYmSi85C7MfpLB4wk,12
+aiqDocTests-1.5.0.dist-info/RECORD,,
