@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: succinct
+Version: 0.0.1
+Summary: Succinct, compact, and compressed data structures for data-intensive applications
+Home-page: https://github.com/miiohio/succinct
+Author: William Harvey
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.6
