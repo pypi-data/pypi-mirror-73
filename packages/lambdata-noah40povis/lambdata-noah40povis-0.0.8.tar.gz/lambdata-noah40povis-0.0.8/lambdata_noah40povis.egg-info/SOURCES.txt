@@ -1,0 +1,10 @@
+README.md
+setup.py
+lambda_noah40povis/Student.py
+lambda_noah40povis/__init__.py
+lambda_noah40povis/student.py
+lambdata_noah40povis.egg-info/PKG-INFO
+lambdata_noah40povis.egg-info/SOURCES.txt
+lambdata_noah40povis.egg-info/dependency_links.txt
+lambdata_noah40povis.egg-info/requires.txt
+lambdata_noah40povis.egg-info/top_level.txt
