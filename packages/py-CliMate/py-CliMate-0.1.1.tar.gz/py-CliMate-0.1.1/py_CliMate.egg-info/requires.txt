@@ -1,0 +1,3 @@
+Pyinquirer
+Colorama
+Termcolor

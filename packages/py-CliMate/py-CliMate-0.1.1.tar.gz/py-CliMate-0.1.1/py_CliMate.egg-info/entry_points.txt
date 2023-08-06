@@ -1,0 +1,3 @@
+[console_scripts]
+clm = climate.climate:main
+
