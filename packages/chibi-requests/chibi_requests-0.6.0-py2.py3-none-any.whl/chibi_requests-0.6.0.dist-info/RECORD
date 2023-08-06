@@ -1,0 +1,11 @@
+chibi_requests/__init__.py,sha256=PiCp-yQUjsFMTVyD7U7hnRRn-sqi9lSCvPNZJUSQSlU,209
+chibi_requests/auth.py,sha256=VARi0IbfES6jKNvuYFwnraOaguGIjNyWeY2wfcqYzeM,498
+chibi_requests/chibi_url.py,sha256=5oUXp9I0ImZ79Ny0eLC2e-IBzsef7CwzqtDA4JHDHs0,7901
+chibi_requests/other.py,sha256=su-0fMg0O6PX6FRdlsJ7FOc0OzSAcLoeigwbTMn9CF4,122
+chibi_requests/response.py,sha256=kJ4bbQ42SPkzlJL7kWppEZc9KcsR4K4_jyS8cnbO0nQ,3463
+chibi_requests-0.6.0.dist-info/AUTHORS.rst,sha256=XQmApLZkVd3BmHLtzDz80mJ_0oEtyKt366nJj1v7uZQ,150
+chibi_requests-0.6.0.dist-info/LICENSE,sha256=xApqaaCnbBDLNPDQueiYACIixqZviQ3akfnstnPi4ZI,470
+chibi_requests-0.6.0.dist-info/METADATA,sha256=zsx9XaAvN4Cgp5Qa_6PAipnjUUd8Z93zpV7TLg6oo0Q,2677
+chibi_requests-0.6.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+chibi_requests-0.6.0.dist-info/top_level.txt,sha256=C8gTmjvryrAUGsrU9zggFuTW1dRDz-9JnpTU3eGNPBA,15
+chibi_requests-0.6.0.dist-info/RECORD,,
