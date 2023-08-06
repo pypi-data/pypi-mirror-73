@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: wicc-wallet-utils
+Version: 1.0.0
+Summary: WaykiChain Wallet Utils
+Home-page: https://github.com/WaykiChain/wicc-wallet-utils-python
+Author: WaykiChain CoreDev
+Author-email: coredev@waykichainhk.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: cryptos (==1.36)
+Requires-Dist: requests
+Requires-Dist: pbkdf2
+
+## wicc_wallet_utils-python
+WaykiChain Wallet Utility Library for raw transaction generation and signing and BaaS Posting etc operations
+
+Written in Python
+
+## Install via Pip
+```
+pip install wicc_wallet_utils==1.0.0
+```
+
+## Usage Reference
+https://pypi.org/project/wicc_wallet_utils/1.0.0/
+
+## Project Packaging Guide
+https://packaging.python.org/tutorials/packaging-projects/
+
