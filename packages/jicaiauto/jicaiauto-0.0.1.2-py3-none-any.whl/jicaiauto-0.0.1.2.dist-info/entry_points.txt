@@ -1,0 +1,3 @@
+[console_scripts]
+jicaicheck = jicaiauto.jicaicheck:main
+

@@ -1,0 +1,14 @@
+jicaiauto/__init__.py,sha256=rd_RAfT2wTfTUEGi-Ahc2k3rLC08V3na8BXNJsJIXXc,172
+jicaiauto/__version__.py,sha256=QxMoiWISOGU1aY7eDbCWDgHe2aWOpwUB5GN3kQXnqAk,363
+jicaiauto/conftest.py,sha256=r66ekkdF22BiMNcAzxP2p7XJN9JjBNfeSOAMxpHxFL0,1479
+jicaiauto/jicaiauto.db,sha256=nvOSIeNsJ20cYWYf_F3ZIEEWMuPCEOnOfIk71hP_Q5k,13312
+jicaiauto/jicaiauto.py,sha256=Zgg2g3kXQYcESfKhgUrL10RJjiWDRuSYx2V13AawsP4,3573
+jicaiauto/jicaiautodb.py,sha256=sUjKLdCC9n7px5WL-WWQLeNgYqDR-3Cl51EJHZWSNoo,709
+jicaiauto/jicaicheck.cp38-win_amd64.pyd,sha256=fZmbVKcncDGfvvVTQBmamDUAF6otTAiZuqO4WU8T4Zg,87040
+jicaiauto/jicaicheck.py,sha256=AUgTrLdQG87TsCr7XcqOxVEhygoQcghfNRIXflTE7HI,253
+jicaiauto-0.0.1.2.dist-info/LICENSE,sha256=ZyIbXu3raInjXtizMlsSRaY9oLc8fxKFmX6ydZFri2Y,9189
+jicaiauto-0.0.1.2.dist-info/METADATA,sha256=lhfqT1GSgUmV9k7xkUyJGTqJSQOU-eGUA2s33SHwfas,1647
+jicaiauto-0.0.1.2.dist-info/WHEEL,sha256=IWeGwTvdiaNRNtdERe0BHc5KsCqvvVfLuP8HWeQWYGw,97
+jicaiauto-0.0.1.2.dist-info/entry_points.txt,sha256=aSGmzE6Au-H2459aOgFkAMD5JmwzwUOemVa3_omPFgU,58
+jicaiauto-0.0.1.2.dist-info/top_level.txt,sha256=nHLpZ92rRuADSUa-emEwIM1A6zUuN5AX7ZY_2GDFcfc,10
+jicaiauto-0.0.1.2.dist-info/RECORD,,
