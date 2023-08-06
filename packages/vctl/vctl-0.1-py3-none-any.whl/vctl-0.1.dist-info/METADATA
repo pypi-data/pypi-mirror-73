@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vctl
+Version: 0.1
+Summary: An unofficial API based command line utility for inspecting one or more vSphere environments.
+Home-page: https://github.com/GMH501/vctl-sphere-cli
+Author: Gabriel Meghnagi
+Author-email: gabrielmeghnagi@outlook.it
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bs4
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: pyopenssl
+Requires-Dist: pyvmomi
+Requires-Dist: pyvim
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+
