@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+hardik_distributions/Binomialdistribution.py
+hardik_distributions/Gaussiandistribution.py
+hardik_distributions/Generaldistribution.py
+hardik_distributions/__init__.py
+hardik_distributions.egg-info/PKG-INFO
+hardik_distributions.egg-info/SOURCES.txt
+hardik_distributions.egg-info/dependency_links.txt
+hardik_distributions.egg-info/not-zip-safe
+hardik_distributions.egg-info/top_level.txt
