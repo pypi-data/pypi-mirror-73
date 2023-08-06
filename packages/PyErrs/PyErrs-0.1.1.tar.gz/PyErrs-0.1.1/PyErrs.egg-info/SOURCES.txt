@@ -1,0 +1,7 @@
+PyErr.py
+README.md
+setup.py
+PyErrs.egg-info/PKG-INFO
+PyErrs.egg-info/SOURCES.txt
+PyErrs.egg-info/dependency_links.txt
+PyErrs.egg-info/top_level.txt

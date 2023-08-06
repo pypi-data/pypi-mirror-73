@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyErrs
+Version: 0.1.1
+Summary: More Python Exceptions
+Home-page: https://github.com/usr8820/PyErrs/
+Author: Frank Lin
+Author-email: W_126mail@126.com
+License: UNKNOWN
+Description: PyErrs is a package for more exceptions. 
+        You can use it for your own programs. 
+        Now we do not have so many exceptions but we will try to make more in the future.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
