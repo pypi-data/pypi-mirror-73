@@ -1,0 +1,3 @@
+[console_scripts]
+github_traffic_stats = github_traffic_stats:main
+

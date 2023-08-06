@@ -1,0 +1,10 @@
+README.md
+github_traffic_stats.py
+setup.cfg
+setup.py
+github_traffic_stats2.egg-info/PKG-INFO
+github_traffic_stats2.egg-info/SOURCES.txt
+github_traffic_stats2.egg-info/dependency_links.txt
+github_traffic_stats2.egg-info/entry_points.txt
+github_traffic_stats2.egg-info/requires.txt
+github_traffic_stats2.egg-info/top_level.txt
