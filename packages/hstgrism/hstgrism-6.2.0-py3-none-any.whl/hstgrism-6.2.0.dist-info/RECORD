@@ -1,0 +1,17 @@
+hstgrism/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hstgrism/background.py,sha256=Rbr5zxnJxkbJX71Qwez83_a0uQQNJDjBNFGdjUdoh7s,22323
+hstgrism/computesip.py,sha256=YH5mSMIRUOnaY0Yz18ww9V-t1mRlMBOExP63SvTB6Pk,1132
+hstgrism/computetracenwavelength.py,sha256=BRR0fFcdoPrNyMa83p4fG92uKBkYX4_UmI47HiiGAEw,2843
+hstgrism/confreader.py,sha256=I-oG2oJjSJOoB0x_LtFGfii3JXVblrW0bx81jlhJxws,3340
+hstgrism/extract.py,sha256=1vXyFtZRI3NuPWpUIdIIOy58w3G_98YArDkS6BIcL4Q,18325
+hstgrism/flatfield.py,sha256=vd3ondVGHa73O7bQMK5HL8Lqu0dV2yEY957NVAW7aUU,4734
+hstgrism/grismapcorr.py,sha256=1gRxf5vgR959l-Zjq_i3yk5rbPPwjZAOzhKT-f8S-IY,8679
+hstgrism/organize.py,sha256=pVKXRsdv7U2QJwgqQzJQWY80wn0P_-m3BkE51lmY7cE,822
+hstgrism/wfc3irg102.py,sha256=0YfxuCj6M5y_vOBVjtuQxwngX_obVwgpXlZvyFsCyiI,8988
+hstgrism/wfc3irg141.py,sha256=yC5hFVYo9qYgtkTFIwMPL-YVpnxrWnZ_YD_ViJoBbTA,8719
+hstgrism/wfc3uvis1g280.py,sha256=6ESH8avA1KLQjZeYkIKCE2PKoKzcOVDalGLEs_tvbck,9065
+hstgrism-6.2.0.dist-info/LICENSE,sha256=Ee_Si1nbcKixpGz_X6Psfb3jD-xKens7PKcz8ezG-LE,1077
+hstgrism-6.2.0.dist-info/METADATA,sha256=0xw7npbRX5lIIfjgAMWF0e5GRwVcC98zLiE2sZGfWa8,573
+hstgrism-6.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hstgrism-6.2.0.dist-info/top_level.txt,sha256=GjGFZHzMxRUwnUy4Qby1-tIIbrQyMl53FgJ_1-DiNnQ,9
+hstgrism-6.2.0.dist-info/RECORD,,
