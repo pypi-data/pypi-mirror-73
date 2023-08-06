@@ -1,0 +1,8 @@
+recursive-include pychronos/vendor/ *
+exclude **/.DS_Store
+exclude **/.idea/*
+include README.md
+include README.rst
+include EULA.md
+
+

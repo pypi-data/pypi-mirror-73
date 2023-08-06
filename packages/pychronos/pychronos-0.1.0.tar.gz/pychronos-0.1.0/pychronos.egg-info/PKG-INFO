@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pychronos
+Version: 0.1.0
+Summary: Python client for ChronosDB, financial/economic/scientific/business time series database.
+Home-page: https://www.chronosdb.io/
+Author: UNKNOWN
+Author-email: support@chronosdb.io
+License: Other/Proprietary License
+Download-URL: https://www.pypi.org/project/pychronos/0.1.0/
+Description:     Python client for ChronosDB, financial/economic/scientific/business time series database.
+            
+Keywords: pychronos,ChronosDB,time series,database
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
