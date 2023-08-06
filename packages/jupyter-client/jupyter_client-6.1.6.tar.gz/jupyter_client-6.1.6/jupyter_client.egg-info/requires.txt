@@ -1,0 +1,14 @@
+jupyter_core>=4.6.0
+python-dateutil>=2.1
+pyzmq>=13
+tornado>=4.1
+traitlets
+
+[test]
+async_generator
+ipykernel
+ipython
+mock
+pytest
+pytest-asyncio
+pytest-timeout
