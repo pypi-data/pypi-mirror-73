@@ -1,0 +1,6 @@
+PyYAML
+setuptools
+yafowil>1.0.4
+
+[test]
+yafowil[test]
