@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: my-library
+Version: 0.0.1
+Summary: my_library
+Home-page: https://github.com/walkacross/create-library-from-scratch
+Author: Jiang Yu
+Author-email: yujiangallen@126.com
+License: Apache License v2
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
