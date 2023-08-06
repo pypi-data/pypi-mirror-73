@@ -1,0 +1,15 @@
+README.md
+Setup.py
+setup.py
+higgsbacktest.egg-info/PKG-INFO
+higgsbacktest.egg-info/SOURCES.txt
+higgsbacktest.egg-info/dependency_links.txt
+higgsbacktest.egg-info/requires.txt
+higgsbacktest.egg-info/top_level.txt
+higgsbacktesting/AlphaStockBacktesting.py
+higgsbacktesting/CFSingleInstrumentStrategy.py
+higgsbacktesting/CFTimetoTicklabel.py
+higgsbacktesting/GTASingleStockStrategy.py
+higgsbacktesting/GTATimetoTicklabel.py
+higgsbacktesting/SingleInstrumentStrategy.py
+higgsbacktesting/__init__.py
