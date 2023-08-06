@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pytest-playwright
+Version: 0.0.2
+Summary: A pytest wrapper with fixtures for Playwright to automate web browsers
+Home-page: https://github.com/mxschmitt/pytest-playwright
+Author: Max Schmitt
+Author-email: max@schmitt.mx
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: playwright
+Requires-Dist: pytest
+Requires-Dist: pytest-base-url
+
+# Pytest Playwright
+
+> A Pytest wrapper for Playwright to automate web browsers
+
+## Features
+
+- Have a separate new page or context for each test with Pytest fixtures
+- Run your end-to-end tests on multiple browsers by a CLI argument
+- Run them headful with the `--headful` argument to debug them easily
+
+## Usage
+
+- https://github.com/pytest-dev/pytest-base-url
+
+
