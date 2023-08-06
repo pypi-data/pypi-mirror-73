@@ -1,0 +1,11 @@
+libcomps/__init__.py,sha256=BmJb-gYiXKEji7lqV4kkEw37Y7xG3riWKOGjydzLm34,28
+libcomps/_libpycomps.so,sha256=4l9v5hBbhUXwlNGZP2DS-t4UePDi5QinwbgGUoo-DZo,1451416
+libcomps-0.1.15.post1.dist-info/COPYING,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+libcomps-0.1.15.post1.dist-info/METADATA,sha256=0LzxMFeKtB9q0A0ta_LSUikLqnb2urFf-wFQ2RJJ14k,804
+libcomps-0.1.15.post1.dist-info/WHEEL,sha256=JXk-ZIei46kYWNUUoKStG-8hr709y0WdWEOidj061xY,105
+libcomps-0.1.15.post1.dist-info/top_level.txt,sha256=6GC0ANKUpJWv7muB9Wb8_RBVaHT4mJK5WbSsKw5a1wE,9
+libcomps-0.1.15.post1.dist-info/RECORD,,
+libcomps.libs/libexpat-3e0b9453.so.1.6.0,sha256=DbmYvLgG86tf8rJRrwGnLyHt0dRpb3jV4SHf5b6Sa1w,179032
+libcomps.libs/libz-d8a329de.so.1.2.7,sha256=jQqlalnKcJqVjpZ3AF-C7hhDsI0je4_z5M8NxR7nINc,96272
+libcomps.libs/libxml2-a7aef045.so.2.9.1,sha256=P5E7wfmG0axZODFIP1_oW3AI6ylgsk1NtPN5DQI0EQY,1642952
+libcomps.libs/liblzma-07b5b5c8.so.5.2.2,sha256=0nrLZdwN7GYiVpFLk3BvlakxOrsu77Ykg8XEwEYSs08,163472
