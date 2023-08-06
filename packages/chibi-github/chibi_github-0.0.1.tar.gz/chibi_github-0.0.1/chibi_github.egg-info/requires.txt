@@ -1,0 +1,1 @@
+chibi-requests>=0.6.0
