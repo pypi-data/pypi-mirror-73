@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ceja
+Version: 0.2.0
+Summary: PySpark string and phonetic matching
+Author: MrPowers
+Author-email: matthewkevinpowers@gmail.com
+Requires-Python: >3.4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: jellyfish (>=0.8.2,<0.9.0)
+Requires-Dist: pyspark (>2.0.0)
