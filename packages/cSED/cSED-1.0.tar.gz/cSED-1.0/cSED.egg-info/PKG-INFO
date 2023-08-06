@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: cSED
+Version: 1.0
+Summary: substring edit distance by c
+Home-page: UNKNOWN
+Author: sykwon
+Author-email: sykwon@kdd.snu.ac.kr
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

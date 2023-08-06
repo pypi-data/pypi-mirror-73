@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+sed.c
+setup.py
+cSED.egg-info/PKG-INFO
+cSED.egg-info/SOURCES.txt
+cSED.egg-info/dependency_links.txt
+cSED.egg-info/top_level.txt
