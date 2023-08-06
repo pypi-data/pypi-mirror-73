@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: scipion-em-pyseg
+Version: 0.2
+Summary: Scipion plugin pyseg.
+Home-page: https://github.com/scipion-em/scipion-em-pyseg
+Author: you
+Author-email: you@yourinstitution.email
+License: UNKNOWN
+Keywords: scipion cryoem imageprocessing scipion-3.0
+Platform: UNKNOWN
+Requires-Dist: scipion-em-tomo
+
+=======================
+Scipion - PySeg plugin
+=======================
+
+This is a plugin for **scipion** and PySeg
+
+=====
+Setup
+=====
+
+- **Install this plugin in devel mode:**
+
+Using the command line:
+
+.. code-block::
+
+    scipion installp -p local/path/to/scipion-em-pyseg --devel
+
+
+
