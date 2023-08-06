@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Number-Square
+Version: 1.0.2
+Summary: A Python package to square a number.
+Home-page: https://github.com/Jhansi-27/Number-Square
+Author: Jhansi Rani
+Author-email: jhansi.rc26@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Number-Square
+A Python package to get square of any number.
+
+Usage
+
+
