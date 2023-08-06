@@ -1,0 +1,12 @@
+setup.py
+holger_utils/__init__.py
+holger_utils/asgi.py
+holger_utils/settings.py
+holger_utils/urls.py
+holger_utils/wsgi.py
+holger_utils.egg-info/PKG-INFO
+holger_utils.egg-info/SOURCES.txt
+holger_utils.egg-info/dependency_links.txt
+holger_utils.egg-info/requires.txt
+holger_utils.egg-info/top_level.txt
+tests/__init__.py
