@@ -1,0 +1,12 @@
+lpfgopt/VERSION,sha256=80MGu1Di0uxZx4i5ATxaxoLvf39pNFo-lX44wLa6L90,7
+lpfgopt/__init__.py,sha256=msj90ZWFeKnZHlXuOYbjY66xqclprp2AN6C3H511Jl4,7173
+lpfgopt/c_leapfrog.py,sha256=hyESR-J1_V728Sxr0kf2pLojSWusPqeoJiFR8Sqqjrk,6207
+lpfgopt/leapfrog.py,sha256=BgbN7dlTh6vLDSNOJA20RDs_8AvZiv1vWgHkL5j9pIs,12706
+lpfgopt/leapfrog_c.dll,sha256=kKQjcM6L12k2CAxQWpssYxe1KrV5n_cmJqTxC2nHZeY,317034
+lpfgopt/opt_result.py,sha256=REL7nZCQAXaBpboPB5DzzMQceM6y5rzwXJCj9Q1NYN8,2747
+lpfgopt/scipy_min.py,sha256=eZyn98HeV5OjIqLqezv1FurmKY9ajBW5BalEQBpp6cA,2869
+lpfgopt-1.0.1.dist-info/LICENCE.txt,sha256=yo8ShVvob1wyuSHs6pnzAGKY7gq3B1VbX8sKAeSibkA,1114
+lpfgopt-1.0.1.dist-info/METADATA,sha256=Ml5CQPtPF9-GoZv3nVVv6ueAxnxqsVqY8CHj4p_qqaA,4834
+lpfgopt-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+lpfgopt-1.0.1.dist-info/top_level.txt,sha256=-R4nCk2yibOYuKiuHLmrvwMa8FQh8GVeg9NuFwGKmds,8
+lpfgopt-1.0.1.dist-info/RECORD,,
