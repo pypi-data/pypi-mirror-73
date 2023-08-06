@@ -1,0 +1,103 @@
+<!-- wrapper.php -->
+   <?php
+
+$year = $_GET['year'];
+$month = $_GET['month'];
+
+$url = "https://control.netmetr.cz/RMBTStatisticServer/exportDirty/NetMetr-opendata-dirty-$year-$month.zip";
+
+
+$fields = array(
+	'key' => urlencode('…')
+);
+
+
+
+$field_string = json_encode($fields);
+
+//open connection
+$ch = curl_init();
+
+//set the url, number of POST vars, POST data
+curl_setopt($ch,CURLOPT_URL, $url);
+curl_setopt($ch,CURLOPT_POSTFIELDS, $field_string);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    'Content-Type: application/json',
+    'Content-Length: ' . strlen($field_string))
+);
+
+//execute post
+$result = curl_exec($ch);
+
+//close connection
+curl_close($ch);
+
+if (0 === strpos($result, 'ERROR')) {
+    header("HTTP/1.0 204 No Content");
+    return 0;
+}
+
+
+header('Content-disposition: attachment; filename=NetMetr-opendata-'.$year.'-'.$month.'.zip');
+    header('Content-type: application/octet-stream');
+    header("Pragma: no-cache");
+    header("Expires: 0");
+    echo $result;
+
+return 0;
+
+
+if (isset($_SERVER["HTTP_REFERER"]))
+{
+	header("Location:" .$_SERVER["HTTP_REFERER"]. "?" . urlencode($result));
+}
+else
+{
+	echo urlencode($result);
+}
+
+?>
+
+<!-- validate.php -->
+
+<?php
+
+$url = 'https://control.netmetr.cz/RMBTStatisticServer/approve';
+$fields = array(
+	'month' => urlencode($_GET['month']),
+	'year' => urlencode($_GET['year']),
+	'key' => urlencode('…')
+);
+
+$field_string = json_encode($fields);
+echo $field_string;
+
+//open connection
+$ch = curl_init();
+
+//set the url, number of POST vars, POST data
+curl_setopt($ch,CURLOPT_URL, $url);
+curl_setopt($ch,CURLOPT_POSTFIELDS, $field_string);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    'Content-Type: application/json',
+    'Content-Length: ' . strlen($field_string))
+);
+
+//execute post
+$result = curl_exec($ch);
+
+//close connection
+curl_close($ch);
+
+if (isset($_SERVER["HTTP_REFERER"]))
+{
+	header("Location:" .$_SERVER["HTTP_REFERER"]. "?" . urlencode($result));
+}
+else
+{
+	echo $result;
+}
+
+?>

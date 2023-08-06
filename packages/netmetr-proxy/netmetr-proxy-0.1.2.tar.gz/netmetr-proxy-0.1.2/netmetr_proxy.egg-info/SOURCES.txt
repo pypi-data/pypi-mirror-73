@@ -1,0 +1,16 @@
+.editorconfig
+.flake8
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+config.example.yml
+legacy_php_code.txt
+requirements.txt
+setup.py
+netmetr_proxy/server.py
+netmetr_proxy.egg-info/PKG-INFO
+netmetr_proxy.egg-info/SOURCES.txt
+netmetr_proxy.egg-info/dependency_links.txt
+netmetr_proxy.egg-info/requires.txt
+netmetr_proxy.egg-info/top_level.txt
