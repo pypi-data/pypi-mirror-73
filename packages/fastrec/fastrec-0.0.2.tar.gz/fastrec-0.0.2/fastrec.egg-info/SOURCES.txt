@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+fastrec/GraphSimRec.py
+fastrec/RecAPI.py
+fastrec/__init__.py
+fastrec/fastrec-deploy
+fastrec/geosim.py
+fastrec/torchmodels.py
+fastrec.egg-info/PKG-INFO
+fastrec.egg-info/SOURCES.txt
+fastrec.egg-info/dependency_links.txt
+fastrec.egg-info/not-zip-safe
+fastrec.egg-info/top_level.txt
