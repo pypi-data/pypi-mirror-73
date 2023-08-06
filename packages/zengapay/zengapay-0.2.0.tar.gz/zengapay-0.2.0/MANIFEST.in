@@ -1,0 +1,5 @@
+include *.cfg
+include *.md
+include LICENSE
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib
