@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pyexecutor
+Version: 0.0.2
+Summary: Command executor for Python
+Home-page: https://github.com/actini/pyexecutor
+Author: Herman
+Author-email: zijian0906@gmail.com
+License: UNKNOWN
+Description: # Command executor for Python
+        
+        Executor example:
+        
+        ```python
+        from pyexecutor import Executor
+        
+        helm = Executor('helm')
+        
+        version = helm.run('version')
+        
+        print(version)
+        ```
+        
+        Commander example:
+        
+        ```python
+        from pyexecutor import Commander
+        
+        commander = Commander()
+        
+        version = commander.run('helm version').result()
+        
+        print(version)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
