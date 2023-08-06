@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+xu_test_distributions/Binomialdistribution.py
+xu_test_distributions/Gaussiandistribution.py
+xu_test_distributions/Generaldistribution.py
+xu_test_distributions/__init__.py
+xu_test_distributions.egg-info/PKG-INFO
+xu_test_distributions.egg-info/SOURCES.txt
+xu_test_distributions.egg-info/dependency_links.txt
+xu_test_distributions.egg-info/not-zip-safe
+xu_test_distributions.egg-info/top_level.txt
