@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dailyprogrammer
+Version: 1.0
+Summary: A program to download a challenge from reddit.com/r/dailyprogrammer and then output it to stdout to be used in various editors/ides
+Home-page: https://github.com/banzai200/Daily-Programmer
+Author: Wesley
+Author-email: tairoria@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN

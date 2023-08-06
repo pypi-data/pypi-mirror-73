@@ -1,0 +1,10 @@
+README.md
+setup.py
+dailyprogrammer/__init__.py
+dailyprogrammer/dp.py
+dailyprogrammer.egg-info/PKG-INFO
+dailyprogrammer.egg-info/SOURCES.txt
+dailyprogrammer.egg-info/dependency_links.txt
+dailyprogrammer.egg-info/entry_points.txt
+dailyprogrammer.egg-info/requires.txt
+dailyprogrammer.egg-info/top_level.txt
