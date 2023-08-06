@@ -1,0 +1,214 @@
+$_default_layout = "qwertyuiop+´
+asdfghjklçº~
+<zxcvbnm,.-";
+
+fun keyboard\debug ( $cb = none ) {
+    return @keyboard {
+        [ keyboard\KeyEvent() ] ( $key, $value, $pressed ): {
+            if ($cb != none) {
+                $cb( $key, $value, $pressed );
+            } else {
+                if ($pressed) { print( $key, $value, "PRESSED" ) } else { print( $key, $value, "RELEASED" ) };
+            };
+        };
+    }
+};
+
+fun keyboard\piano ( $layout = $_default_layout, in $transpose = 0, in $transpose_rows = @{}, in $shift_rows = @{}, $scales = @[], $toggle = false ) {
+    fun get_row_scale ( $row_index ) {
+        if ( len( $scales ) > 0 ) {
+            return $scales::[ mod( $row_index, len( $scales ) ) ];
+        };
+
+        if ( mod( $row_index, 2 ) == 0 ) {
+            return $scale::white_keys;
+        } else {
+            return $scale::black_keys_padded;
+        };
+    };
+
+    fun get_row_scale_index ( $row_index ) {
+        if ( len( $scales ) > 0 ) {
+            return mod( $row_index, len( $scales ) );
+        };
+
+        if ( mod( $row_index, 2 ) == 0 ) {
+            return 0;
+        } else {
+            return 1;
+        };
+    };
+
+    $kb = keyboard\create();
+
+    $rows = $layout::splitlines();
+
+    $rows::reverse();
+
+    # Will hold the last octave that was used for a specific scale.
+    # Next time this scale is used, it's base octave will be this one
+    # This is useful when dealing with very small scales, that fit more than twice
+    # on a single row, and thus we can't just increment the octave +1 on the next row
+    # that uses this scale
+    $scale_last_octaves = @{};
+
+    for ( $row_index in range( len( $rows ) ) ) {
+        $row_scale = get_row_scale( $row_index );
+
+        $row_scale_index = get_row_scale_index( $row_index );
+
+        # $row_base_octave = $row_octaves::get( $row_index, default = div( $row_index, 2 ) );
+        $row_base_octave = $scale_last_octaves::get( $row_scale_index, default = 0 );
+
+        for ( $i, $letter in enumerate( $rows::[ $row_index ] ) ) {
+            $music = C + interval( octaves = $row_base_octave );
+
+            keyboard\register( $kb, 
+                key = $letter, 
+                expression = {
+                    $interval = $row_scale::interval_at( $i + $shift_rows::get( $row_index, default = 0 ) );
+
+                    $interval += $transpose_rows::get( $row_index, default = 0 );
+
+                    $interval += $transpose;
+
+                    $music + $interval;
+                },
+                hold = not $toggle, toggle = $toggle, extend = true 
+            );
+        };
+
+        $d = div( len( $rows::[ $row_index ] ), len( $row_scale ) );
+        $r = mod( len( $rows::[ $row_index ] ), len( $row_scale ) );
+
+        # Increment the scale index by how many octaves the scale contains, 
+        # plus one more if the last octave of the scale was only partial
+        $scale_last_octaves::set( $row_scale_index, $row_base_octave + $d + 1 * ( $r == 0 ) );
+    };
+
+    return $kb;
+};
+
+fun keyboard\midi ( $toggle = false, in $transpose = 0 ) {
+    $kb = keyboard\create();
+
+    $bottom = C,,,,::first_note();
+    $top = g'''''::first_note();
+
+    while ( $bottom <= $top ) {
+        # Important to declare the music to a variable because since we are inside a loop
+        # If we didn't bound to a variable, it would always be bound to the last note of the loop
+        $music = $bottom::music();
+
+        keyboard\register( $kb, key = $bottom, expression = $music + $transpose, hold = not $toggle, toggle = $toggle, extend = true );
+
+        $bottom = $bottom + 1;
+    };
+
+    return $kb;
+};
+
+fun keyboard\repl ( $key = "\\", $ctx = none ) {
+    $ctx = $ctx or getctx();
+
+    return @keyboard release {
+        [ $key ]: { withctx( $ctx, keyboard\open_repl() ) };
+    };
+};
+
+fun keyboard\bufslot( $bf = keyboard\Buffer( start = false ), $key = "p" ) {
+    return @keyboard {
+        [ $key ]: {
+            if ($bf::started) {
+                $bf::stop();
+            } else {
+                $bf::clear();
+                $bf::start();
+            };
+        };
+    };
+};
+
+# '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+fun keyboard\bufpad( ref $buffers, $keys = @[ 82, 79, 80, 81, 126, 75, 76, 77, 71, 72, 73 ], $savename = "buffers.mkl", $load_key = 'f7', $save_key = 'f8' ) {
+    $buffers = @{};
+
+    $saving_file = false;
+    $save_location = getcwd() + "/" + $savename;
+
+    fun prompt_location ( $title, $cb ) {
+        if ( not $saving_file ) {
+            $saving_file = true;
+            
+            keyboard\filedialog( title = $title, default_value = $save_location, cb = fun ( $file ) {
+                using( $save_location );
+
+                $saving_file = false;
+
+                if ( $file != none ) {
+                    $save_location = $file;
+                };
+
+                $cb();
+            } );
+        };
+    };
+
+    fun load_buffers ( $interactive = true ) {
+        if ( $interactive ) {
+            prompt_location( "Open File", fun () => load_buffers( interactive = false ) );
+        } else {
+            $keyboard\Buffer::load_all( $save_location, $buffers ); 
+        }
+    };
+
+    fun save_buffers ( $interactive = true ) {
+        if ( $interactive ) {
+            prompt_location( "Save File", fun () => save_buffers( interactive = false ) );
+        } else {
+            $keyboard\Buffer::save_all( $save_location, $buffers ); 
+        }
+    };
+
+    $_kb = @keyboard {
+        # Load
+        [$load_key]: load_buffers();
+
+        # Save
+        [$save_key]: save_buffers();
+
+        for ( $i in range( len( $keys ) ) ) {
+            # Bind a variable with the key stored in the array at the given index
+            { $key = $keys::[$i] };
+
+            # Starts and stops the buffer from recording
+            [ keyboard\KeyStroke( $key, ctrl = true ) ]: {
+                $bf = $buffers::get( $i, none );
+
+                if ($bf == none) {
+                    $bf = keyboard\Buffer();
+
+                    $buffers::set( $i, $bf );
+                } else {
+                    if ($bf::started) {
+                        $bf::stop();
+                    } else {
+                        $bf::clear();
+                        $bf::start();
+                    };
+                };
+            };
+
+            # Previews the recorded music sequence inside the buffer
+            [ keyboard\KeyStroke( $key ) ] toggle: {
+                $bf = $buffers::get( $i, none );
+                
+                if ($bf != none) {
+                    return $bf::to_music();
+                };
+            };
+        };
+    };
+
+    return pack( into = $_kb, exclude = @[ 'keys' ] );
+};
