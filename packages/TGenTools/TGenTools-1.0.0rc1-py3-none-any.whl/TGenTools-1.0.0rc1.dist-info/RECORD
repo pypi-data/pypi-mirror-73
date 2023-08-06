@@ -1,0 +1,13 @@
+TGenTools-1.0.0rc1.data/scripts/tgentools,sha256=WrZep6i4TopukRIXVjC6F09W4NrjSO4bPsxavlAKHFw,15256
+tgentools/__init__.py,sha256=5eyjKT0fXP5pcvUKRUezdwANpyTee-s_RowdwvqzUHg,164
+tgentools/_version.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+tgentools/analysis.py,sha256=dx8lAaWaJelK4oqp1CUD_xEN1t8BSpz1A4P0j70rfdY,20427
+tgentools/edit.py,sha256=lgD68uUagUVhG-Ul3Vd7OzfkKIPtdsa_BH7O66CTvSI,2157
+tgentools/model.py,sha256=ZxcbiqpvdyOkwvaA4TNQtR8NHkzI5JEz18ox6T2MHlE,3669
+tgentools/util.py,sha256=2mlqIAJ2XmjjqKYHGxwHqm0qBIWKtFLjsuXO_hiaAxM,9237
+tgentools/visualization.py,sha256=_IuoKaMXu0bv4t0zgTRq1zs88he62H7TFVagaX-O2J8,34261
+TGenTools-1.0.0rc1.dist-info/LICENSE,sha256=iwCwTnEf3VCmfCQFJD4LodDypElITADaa3iPcHCbK1A,1376
+TGenTools-1.0.0rc1.dist-info/METADATA,sha256=TSvJpTnRC3zcoCwAn_lEUSr8b4arnF6jvWax2ZNa2SM,242
+TGenTools-1.0.0rc1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+TGenTools-1.0.0rc1.dist-info/top_level.txt,sha256=wsPkN3-wUhMxyXoEeYbfgVtnCcQUOvFBuSFLmsrOXSk,10
+TGenTools-1.0.0rc1.dist-info/RECORD,,
