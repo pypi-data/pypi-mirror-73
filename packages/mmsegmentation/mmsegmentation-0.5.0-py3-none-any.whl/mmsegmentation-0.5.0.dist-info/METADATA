@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: mmsegmentation
+Version: 0.5.0
+Summary: Open MMLab Semantic Segmentation Toolbox and Benchmark
+Home-page: http://github.com/open-mmlab/mmsegmentation
+Author: MMSegmentation Authors
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,semantic segmentation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: cityscapesscripts ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: codecov ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: interrogate ; extra == 'all'
+Requires-Dist: isort (==4.3.21) ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: xdoctest (>=0.10.0) ; extra == 'all'
+Requires-Dist: yapf ; extra == 'all'
+Provides-Extra: build
+Provides-Extra: optional
+Requires-Dist: cityscapesscripts ; extra == 'optional'
+Provides-Extra: tests
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: interrogate ; extra == 'tests'
+Requires-Dist: isort (==4.3.21) ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: xdoctest (>=0.10.0) ; extra == 'tests'
+Requires-Dist: yapf ; extra == 'tests'
+
+UNKNOWN
+
+
