@@ -1,0 +1,10 @@
+typeguard
+pynput
+mido
+python-rtmidi
+arpeggio
+colorama
+typing_extensions
+prompt_toolkit
+pygments
+pyFluidSynth-musikla
