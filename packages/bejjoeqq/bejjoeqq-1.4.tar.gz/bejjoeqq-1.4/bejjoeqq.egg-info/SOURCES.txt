@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+bejjo/__init__.py
+bejjo/crypo/crypo.py
+bejjo/randm/__init__.py
+bejjo/randm/char.py
+bejjo/randm/date.py
+bejjo/randm/string.py
+bejjo/statc/static.py
+bejjoeqq.egg-info/PKG-INFO
+bejjoeqq.egg-info/SOURCES.txt
+bejjoeqq.egg-info/dependency_links.txt
+bejjoeqq.egg-info/top_level.txt
