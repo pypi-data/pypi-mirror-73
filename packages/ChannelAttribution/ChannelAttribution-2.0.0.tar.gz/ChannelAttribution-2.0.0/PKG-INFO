@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: ChannelAttribution
+Version: 2.0.0
+Summary: Markov Model for the Online Multi-Channel Attribution Problem
+Home-page: http://www.channelattribution.net
+Author: Davide Altomare, David Loris
+Author-email: davide.altomare@gmail.com, david.loris@gmail.com
+License: GPLv3
+Project-URL: Documentation, http://www.channelattribution.net
+Project-URL: Code, https://github.com/DavideAltomare/ChannelAttribution
+Project-URL: Issue tracker, https://github.com/DavideAltomare/ChannelAttribution/issues
+Description: Python library *ChannelAttribution*
+        ===================================
+        
+        Installation
+        ------------
+        
+        ### From PyPi
+        
+        ```bash
+        pip install --upgrade setuptools
+        pip install ChannelAttribution
+        ```
+        
+        
+        Generating distribution archives
+        --------------------------------
+        
+        ```bash
+        python setup.py sdist bdist_wheel
+        ```
+        
+        Generating documentation
+        ------------------------
+        
+        ```bash
+        pip install Sphinx
+        pip install rinohtype
+        
+        cd /src/cypack
+        python generate_doc.py
+        ```
+        
+        Documentation will be generate at \src\cypack\docs\_build
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
