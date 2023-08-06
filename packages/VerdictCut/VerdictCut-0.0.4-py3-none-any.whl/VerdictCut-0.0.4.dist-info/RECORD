@@ -1,0 +1,11 @@
+VerdictCut/__init__.py,sha256=zuBkBdIJUY-I7Ln3-fWi5lw6_3DHHWl6lKe0dJoZc48,43
+VerdictCut/find_fact.py,sha256=nMLXnLtHUJiiKomUNCH9Rt6BwuYwImJEuisaATMl1mA,4524
+VerdictCut/find_justice.py,sha256=vDRS8on9at4J7Jt7CH-ZV1YlWvOz_HHpQKgXFZPy4aw,2362
+VerdictCut/find_laws.py,sha256=w-czNNkK4RyQ_SrLfo12FZCBzBhUS5Q7CKteabFtLFw,2550
+VerdictCut/find_maintext.py,sha256=y_3_W0RNZdWNKRiAdkuTO6Za3jbXcXKM3gjO2k1ceGo,4226
+VerdictCut/find_roles.py,sha256=u9IUGo_QA7uU5y5I6cc4AyHqpT5kht9Fc6ASGvysy2Y,2380
+VerdictCut-0.0.4.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+VerdictCut-0.0.4.dist-info/METADATA,sha256=sKjvJecVoKgcmlsJGWwDx8tqKJ5Cxje_fhd5ROo_1SY,1178
+VerdictCut-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+VerdictCut-0.0.4.dist-info/top_level.txt,sha256=KyY2XPb4TiafpYHHRgxK6pJ4YYFgzTbxgQzw-cAbqgg,11
+VerdictCut-0.0.4.dist-info/RECORD,,
