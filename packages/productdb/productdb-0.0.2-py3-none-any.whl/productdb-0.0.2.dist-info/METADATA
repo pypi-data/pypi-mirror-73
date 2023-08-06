@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: productdb
+Version: 0.0.2
+Summary: A client of Acondbs
+Home-page: https://github.com/simonsobs/productdb
+Author: Simons Observatory
+Author-email: so_software@simonsobservatory.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Requires-Dist: pytest (>=5.4) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=2.8) ; extra == 'tests'
+Requires-Dist: snapshottest (>0.5) ; extra == 'tests'
+
+# Product DB
+
+A Python client of [Acondbs](https://github.com/simonsobs/acondbs)
+
+
+
