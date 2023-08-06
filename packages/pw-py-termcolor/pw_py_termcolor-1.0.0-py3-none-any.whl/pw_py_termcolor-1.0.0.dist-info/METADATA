@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pw-py-termcolor
+Version: 1.0.0
+Summary: coloring functions to ANSI terminals
+Home-page: https://gitlab.com/stdmatt-libs/pw_py_termcolor
+Author: stdmatt
+Author-email: stdmatt@pixelwizards.io
+License: GPLv3
+Keywords: terminal,ANSI,termcolors
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+
+# pw_py_termcolor
+
+**Made with <3 by [stdmatt](http://stdmatt.com).**
+
+## Intro
+
+## Description:
+
+<br>
+
+As usual, you are **very welcomed** to **share** and **hack** it.
+
+
+## Dependencies:
+
+
+## License:
+
+This software is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+
+## Others:
+
+There's more FLOSS things at [stdmatt.com](https://stdmatt.com) :)
+
+
