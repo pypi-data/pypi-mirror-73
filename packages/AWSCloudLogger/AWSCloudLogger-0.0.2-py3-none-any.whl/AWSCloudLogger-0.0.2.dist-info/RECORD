@@ -1,0 +1,9 @@
+CloudwatchLogger/CloudwatchLogger.py,sha256=rQP301ZucXjsCawHhzqTcAn8vmQ_HCpAcZZGgSXV0YU,1956
+CloudwatchLogger/__init__.py,sha256=3X6TU34qtzifAasfz23TxOuaAUJw56wt1ZV_ZMiccZc,46
+SQSLogger/SQSLogger.py,sha256=yQ_tLmLPofvM4RZ3kCtwsJLkdwkKLpcUJc9Tb5RnQtA,2744
+SQSLogger/__init__.py,sha256=TVq0CeWHfOcl7n8Qj5UvHIXkcRNEoC-Jhau6KBKTQZc,33
+AWSCloudLogger-0.0.2.dist-info/LICENCE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+AWSCloudLogger-0.0.2.dist-info/METADATA,sha256=2urOd6O2qlKIuQUIgXpz2ip46G35ChO0yCuHQFdd2D8,1947
+AWSCloudLogger-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+AWSCloudLogger-0.0.2.dist-info/top_level.txt,sha256=V0xFlqqVnkU4SqFbKuLVS7un-WzhV-Lu95q6Lpen7I0,27
+AWSCloudLogger-0.0.2.dist-info/RECORD,,
