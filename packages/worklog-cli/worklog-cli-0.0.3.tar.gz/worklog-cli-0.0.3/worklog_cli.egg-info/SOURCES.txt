@@ -1,0 +1,11 @@
+README.md
+setup.py
+work
+worklog/__init__.py
+worklog/hledger_completer.py
+worklog/timeclock.py
+worklog_cli.egg-info/PKG-INFO
+worklog_cli.egg-info/SOURCES.txt
+worklog_cli.egg-info/dependency_links.txt
+worklog_cli.egg-info/requires.txt
+worklog_cli.egg-info/top_level.txt
