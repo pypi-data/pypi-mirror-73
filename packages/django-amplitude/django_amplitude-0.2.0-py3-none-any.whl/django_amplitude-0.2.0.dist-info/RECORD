@@ -1,0 +1,10 @@
+amplitude/__init__.py,sha256=vpvWm5EGc1_HdruK0CjQSyHE5c6yehCxW8qgOVknxAA,102
+amplitude/amplitude.py,sha256=ln8TLs2RKPUiFuaMa6bkcveEBqiLEDeUJLsqwC3sjxI,6679
+amplitude/apps.py,sha256=-YIqGlihy9-pkaEldzCqhk1Rc0fyhePRa443WZZkEps,93
+amplitude/middleware.py,sha256=Gj3BEGFX3FFx6F3q1G2naFZ3cGIbyNPzxij-nJNBWxE,282
+amplitude/settings.py,sha256=uUIYqIaOy49XDTFI2X_gbrLyNE12Ds6-Uh_JDGdUgeg,443
+amplitude/utils.py,sha256=vyJeQ8kd7VfrAeyD9O5XGriMJNuDWHSjlxUYkthRe0Q,1021
+django_amplitude-0.2.0.dist-info/LICENSE.md,sha256=kUSAqVw85kGbqj_GKSyuLR8t05nkMtdRnXBSXujuFPQ,1065
+django_amplitude-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+django_amplitude-0.2.0.dist-info/METADATA,sha256=f1idm-LLuCiX-6o4FqAPrGYAhkczOVp1rbRHXK0-2BE,3085
+django_amplitude-0.2.0.dist-info/RECORD,,
