@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KeyMappings>
+  <KeyMapping name="XPOS" version="1.0">
+    <Key id="1" keycode="47" />
+    <Key id="2" keycode="65" name="VOID" />
+    <Key id="3" keycode="66" name="CPD" />
+    <Key id="4" keycode="67" name="PRICE BEAT" />
+    <Key id="5" keycode="68" name="TEAM SALES" />
+    <Key id="6" keycode="69" name="MONEY VOUCHER ISSUED" />
+    <Key id="7" keycode="70" name="BONUS BUY" />
+    <Key id="8" keycode="71" name="OPERATOR" />
+    <Key id="9" keycode="92" />
+    <Key id="10" keycode="72" name="BONUS VOUCHER CHARGE" />
+    <Key id="11" keycode="73" name="GIFT VOUCHER ISSUED" />
+    <Key id="12" keycode="74" name="ITEM RETURN" />
+    <Key id="13" keycode="75" name="REPAIRS" />
+    <Key id="14" keycode="76" name="CUSTOMER DISCOUNT" />
+    <Key id="15" keycode="77" name="SALES COMM." />
+    <Key id="16" keycode="78" name="CDD" />
+    <Key id="17" keycode="44" />
+    <Key id="18" keycode="79" name="COUPON" />
+    <Key id="19" keycode="80" name="BALANCE ENQUIRY" />
+    <Key id="20" keycode="81" name="CLEAR" />
+    <Key id="21" keycode="82" name="BONUS VOUCHER ISSUED" />
+    <Key id="22" keycode="83" name="BULK DISCOUNT" />
+    <Key id="23" keycode="84" name="OVERRIDE" />
+    <Key id="24" keycode="85" name="PROPELLER HEADS" />
+    <Key id="25" keycode="16|45" />
+    <Key id="26" keycode="112" name="TRAVELLERS CHEQUES" />
+    <Key id="27" keycode="113" />
+    <Key id="28" keycode="16|112" name="QUANTITY" />
+    <Key id="29" keycode="106" name="PETTY CASH" />
+    <Key id="30" keycode="109" name="V.A.T" />
+    <Key id="31" keycode="16|115" name="FULL RETURN" />
+    <Key id="32" keycode="86" name="SERVICES" />
+    <Key id="33" keycode="16|222" />
+    <Key id="34" keycode="114" name="MONEY VOUCHER REDEEMED" />
+    <Key id="35" keycode="115" name="CHEQUE" />
+    <Key id="36" keycode="103" name="7" />
+    <Key id="37" keycode="104" name="8" />
+    <Key id="38" keycode="105" name="9" />
+    <Key id="39" keycode="16|113" name="FOREIGN CURRENCY" />
+    <Key id="40" keycode="16|116" name="SUNDRY RECEIPTS" />
+    <Key id="41" keycode="87" />
+    <Key id="42" keycode="16|59" />
+    <Key id="43" keycode="116" name="CASH" />
+    <Key id="44" keycode="117" name="CARD PAYMENT" default="true"  />
+    <Key id="45" keycode="100" name="4" />
+    <Key id="46" keycode="101" name="5" />
+    <Key id="47" keycode="102" name="6" />
+    <Key id="48" keycode="107" name="PLU" default="true" detectscreenchange="true" screenchangetimeout="180000" screenchangearea="-180,64,*,30" />
+    <Key id="49" keycode="16|117" />
+    <Key id="50" keycode="88" name="VOUCHER PIN REPRINT" />
+    <Key id="51" keycode="8" />
+    <Key id="52" keycode="118" name="CASH" default="true" />
+    <Key id="53" keycode="119" name="CARD PAYMENT" />
+    <Key id="54" keycode="97" name="1" />
+    <Key id="55" keycode="98" name="2" />
+    <Key id="56" keycode="99" name="3" />
+    <Key id="57" keycode="16|114" name="PLU" />
+    <Key id="58" keycode="16|118" />
+    <Key id="59" keycode="89" name="CREDIT" />
+    <Key id="60" keycode="32" />
+    <Key id="61" keycode="120" name="TOTAL" />
+    <Key id="62" keycode="121" name="DECIMAL" />
+    <Key id="63" keycode="96" name="0" default="true" />
+    <Key id="64" keycode="96" name="0" />
+    <Key id="65" keycode="110" name="." />
+    <Key id="66" keycode="10" name="ENTER" />
+    <Key id="67" keycode="16|119" name="DELIVERY CHARGE" />
+    <Key id="68" keycode="90" name="TRANS REPRINT" />
+    <Key id="69" keycode="61440|192|76|10" name="L" />
+    <Key id="70" keycode="61440|192|82|10" name="R" />
+    <Key id="71" keycode="61440|192|83|10" name="S" />
+    <Key id="72" keycode="61440|192|88|10" name="EX" />
+    <KeySequence name="CARDSWIPE">
+      <Key keycode="121" />
+      <Key keycode="59" />
+      <Token />
+      <Key keycode="61" />
+      <Key keycode="10" />
+      <Key keycode="17" />
+      <Key keycode="67" />
+    </KeySequence>
+  </KeyMapping>
+  <KeyMapping name="CPOS" version="1.0">
+    <Key id="1" keycode="16|65" />
+    <Key id="2" keycode="16|73" name="VOID" />
+    <Key id="3" keycode="16|81" name="CPD" />
+    <Key id="4" keycode="16|89" name="PRICE BEAT" />
+    <Key id="5" keycode="66" name="TEAM SALES" />
+    <Key id="6" keycode="70" name="MONEY VOUCHER ISSUED" />
+    <Key id="7" keycode="81" name="BONUS BUY" />
+    <Key id="8" keycode="16|53" name="OPERATOR" />
+    <Key id="9" keycode="16|66" />
+    <Key id="10" keycode="16|74" name="BONUS VOUCHER CHARGE" />
+    <Key id="11" keycode="16|82" name="GIFT VOUCHER ISSUED" />
+    <Key id="12" keycode="16|90" name="ITEM RETURN" />
+    <Key id="13" keycode="67" name="REPAIRS" />
+    <Key id="14" keycode="71" name="CUSTOMER DISCOUNT" />
+    <Key id="15" keycode="82" name="SALES COMM." />
+    <Key id="16" keycode="32" name="CDD" />
+    <Key id="17" keycode="16|67" />
+    <Key id="18" keycode="16|75" name="COUPON" />
+    <Key id="19" keycode="16|83" name="BALANCE ENQUIRY" />
+    <Key id="20" keycode="65" name="CLEAR" />
+    <Key id="21" keycode="68" name="BONUS VOUCHER ISSUED" />
+    <Key id="22" keycode="72" name="BULK DISCOUNT" />
+    <Key id="23" keycode="83" name="OVERRIDE" />
+    <Key id="24" keycode="89" name="PROPELLER HEADS" />
+    <Key id="25" keycode="16|68" />
+    <Key id="26" keycode="76" name="TRAVELLERS CHEQUES" />
+    <Key id="27" keycode="84" />
+    <Key id="28" keycode="16|76" name="QUANTITY" />
+    <Key id="29" keycode="69" name="PETTY CASH" />
+    <Key id="30" keycode="73" name="V.A.T" />
+    <Key id="31" keycode="16|85" name="FULL RETURN" />
+    <Key id="32" keycode="90" name="SERVICES" />
+    <Key id="33" keycode="16|69" />
+    <Key id="34" keycode="77" name="MONEY VOUCHER REDEEMED" />
+    <Key id="35" keycode="85" name="CHEQUE" />
+    <Key id="36" keycode="55" name="7" />
+    <Key id="37" keycode="56" name="8" />
+    <Key id="38" keycode="57" name="9" />
+    <Key id="39" keycode="16|84" name="FOREIGN CURRENCY" />
+    <Key id="40" keycode="16|78" name="SUNDRY RECEIPTS" />
+    <Key id="41" keycode="517" />
+    <Key id="42" keycode="16|70" />
+    <Key id="43" keycode="79" name="CASH" default="true" />
+    <Key id="44" keycode="86" name="CARD PAYMENT" default="true"  />
+    <Key id="45" keycode="52" name="4" />
+    <Key id="46" keycode="53" name="5" />
+    <Key id="47" keycode="54" name="6" />
+    <Key id="48" keycode="74" name="PLU" default="true" detectscreenchange="true" screenchangetimeout="180000" screenchangearea="-360,20,*,30" />
+    <Key id="49" keycode="16|86" />
+    <Key id="50" keycode="16|50" name="VOUCHER PIN REPRINT" />
+    <Key id="51" keycode="16|71" />
+    <Key id="52" keycode="78" name="CASH" />
+    <Key id="53" keycode="87" name="CARD PAYMENT" />
+    <Key id="54" keycode="49" name="1" />
+    <Key id="55" keycode="50" name="2" />
+    <Key id="56" keycode="51" name="3" />
+    <Key id="57" keycode="16|77" name="PLU" />
+    <Key id="58" keycode="16|79" />
+    <Key id="59" keycode="16|51" name="CREDIT" />
+    <Key id="60" keycode="16|72" />
+    <Key id="61" keycode="80" name="TOTAL" />
+    <Key id="62" keycode="88" name="DECIMAL" />
+    <Key id="63" keycode="48" name="0" default="true" />
+    <Key id="64" keycode="48" name="0" />
+    <Key id="65" keycode="46" name="." />
+    <Key id="66" keycode="75" name="ENTER" />
+    <Key id="67" keycode="16|87" name="DELIVERY CHARGE" />
+    <Key id="68" keycode="515" name="TRANS REPRINT" />
+    <Key id="69" keycode="61440|192|76|10" name="L" />
+    <Key id="70" keycode="61440|192|82|10" name="R" />
+    <Key id="71" keycode="61440|192|83|10" name="S" />
+    <Key id="72" keycode="61440|192|88|10" name="EX" />
+    <KeySequence name="CARDSWIPE">
+      <Key keycode="88" />
+      <Key keycode="59" />
+      <Token />
+      <Key keycode="61" />
+      <Key keycode="75" />
+      <Key keycode="17" />
+      <Key keycode="67" />
+    </KeySequence>
+  </KeyMapping>
+  <KeyMapping name="USKeyboard" version="1.0">
+
+    <!-- Function Keys F1 - F12 -->
+    <Key id="1" keycode="112" name="F1" />
+    <Key id="2" keycode="113" name="F2" />
+    <Key id="3" keycode="114" name="F3" />
+    <Key id="4" keycode="115" name="F4" />
+    <Key id="5" keycode="116" name="F5" />
+    <Key id="6" keycode="117" name="F6" />
+    <Key id="7" keycode="118" name="F7" />
+    <Key id="8" keycode="119" name="F8" />
+    <Key id="9" keycode="120" name="F9" />
+    <Key id="10" keycode="121" name="F10" />
+    <Key id="11" keycode="122" name="F11" />
+    <Key id="12" keycode="123" name="F12" />
+
+    <!-- Control Keys -->
+    <Key id="13" keycode="27" name="Escape" />
+    <Key id="14" keycode="154" name="Print Screen" />
+    <Key id="15" keycode="145" name="Scroll Lock" />
+    <Key id="16" keycode="19" name="Pause" />
+    <Key id="17" keycode="10" name="Enter" />
+    <Key id="18" keycode="20" name="Caps Lock" />
+    <Key id="19" keycode="16" name="Shift" />
+    <Key id="20" keycode="17" name="Ctrl" />
+    <Key id="21" keycode="524" name="Windows" />
+    <Key id="22" keycode="18" name="Alt" />
+    <Key id="23" keycode="32" name=" " />
+    <Key id="24" keycode="525" name="Context Menu" />
+    <Key id="25" keycode="8" name="Backspace" />
+    <Key id="26" keycode="9" name="Tab" />
+
+    <!-- Extra Character Keys -->
+    <Key id="27" keycode="192" name="`" />
+    <Key id="28" keycode="16|192" name="~" />
+    <Key id="29" keycode="91" name="[" />
+    <Key id="30" keycode="93" name="]" />
+    <Key id="31" keycode="16|91" name="{" />
+    <Key id="32" keycode="16|93" name="}" />
+    <Key id="33" keycode="59" name=";" />
+    <Key id="34" keycode="16|59" name=":" />
+    <Key id="35" keycode="222" name="'" />
+    <Key id="36" keycode="92" name="&quot;" />
+    <Key id="37" keycode="44" name="," />
+    <Key id="38" keycode="16|44" name="&lt;" />
+    <Key id="39" keycode="46" name="." />
+    <Key id="40" keycode="16|46" name="&gt;" />
+    <Key id="41" keycode="129" name="/" />
+    <Key id="42" keycode="16|129" name="?" />
+    
+    <!-- Numeric Keys -->
+    <Key id="43" keycode="49" name="1" />
+    <Key id="44" keycode="50" name="2" />
+    <Key id="45" keycode="51" name="3" />
+    <Key id="46" keycode="52" name="4" />
+    <Key id="47" keycode="53" name="5" />
+    <Key id="48" keycode="54" name="6" />
+    <Key id="49" keycode="55" name="7" />
+    <Key id="50" keycode="56" name="8" />
+    <Key id="51" keycode="57" name="9" />
+    <Key id="52" keycode="48" name="0" />
+
+    <!-- Operator Keys -->
+    <Key id="53" keycode="45" name="-" />
+    <Key id="54" keycode="16|45" name="_" />
+    <Key id="55" keycode="61" name="=" />
+    <Key id="56" keycode="16|61" name="+" />
+
+
+    <!-- Character Keys -->
+    <Key id="57" keycode="81" name="q" />
+    <Key id="58" keycode="87" name="w" />
+    <Key id="59" keycode="69" name="e" />
+    <Key id="60" keycode="82" name="r" />
+    <Key id="61" keycode="84" name="t" />
+    <Key id="62" keycode="89" name="y" />
+    <Key id="63" keycode="85" name="u" />
+    <Key id="64" keycode="73" name="i" />
+    <Key id="65" keycode="79" name="o" />
+    <Key id="66" keycode="80" name="p" />
+    <Key id="67" keycode="65" name="a" />
+    <Key id="68" keycode="83" name="s" />
+    <Key id="69" keycode="68" name="d" />
+    <Key id="70" keycode="70" name="f" />
+    <Key id="71" keycode="71" name="g" />
+    <Key id="72" keycode="72" name="h" />
+    <Key id="73" keycode="74" name="j" />
+    <Key id="74" keycode="75" name="k" />
+    <Key id="75" keycode="76" name="l" />
+    <Key id="76" keycode="90" name="z" />
+    <Key id="77" keycode="88" name="x" />
+    <Key id="78" keycode="67" name="c" />
+    <Key id="79" keycode="86" name="v" />
+    <Key id="80" keycode="66" name="b" />
+    <Key id="81" keycode="78" name="n" />
+    <Key id="82" keycode="77" name="m" />
+
+    <Key id="83" keycode="16|81" name="Q" />
+    <Key id="84" keycode="16|87" name="W" />
+    <Key id="85" keycode="16|69" name="E" />
+    <Key id="86" keycode="16|82" name="R" />
+    <Key id="87" keycode="16|84" name="T" />
+    <Key id="88" keycode="16|89" name="Y" />
+    <Key id="89" keycode="16|85" name="U" />
+    <Key id="90" keycode="16|73" name="I" />
+    <Key id="91" keycode="16|79" name="O" />
+    <Key id="92" keycode="16|80" name="P" />
+    <Key id="93" keycode="16|65" name="A" />
+    <Key id="94" keycode="16|83" name="S" />
+    <Key id="95" keycode="16|68" name="D" />
+    <Key id="96" keycode="16|70" name="F" />
+    <Key id="97" keycode="16|71" name="G" />
+    <Key id="98" keycode="16|72" name="H" />
+    <Key id="99" keycode="16|74" name="J" />
+    <Key id="100" keycode="16|75" name="K" />
+    <Key id="101" keycode="16|76" name="L" />
+    <Key id="102" keycode="16|90" name="Z" />
+    <Key id="103" keycode="16|88" name="X" />
+    <Key id="104" keycode="16|67" name="C" />
+    <Key id="105" keycode="16|86" name="V" />
+    <Key id="106" keycode="16|66" name="B" />
+    <Key id="107" keycode="16|78" name="N" />
+    <Key id="108" keycode="16|77" name="M" />
+
+
+    <!-- Above Arrow Keys -->
+    <Key id="109" keycode="155" name="Insert" />
+    <Key id="110" keycode="36" name="Home" />
+    <Key id="111" keycode="33" name="Page Up" />
+    <Key id="112" keycode="127" name="Delete" />
+    <Key id="113" keycode="35" name="End" />
+    <Key id="114" keycode="34" name="Page Down" />
+
+    <!-- NumPad Keys -->
+    <Key id="115" keycode="144" name="Num Lock" />
+    <Key id="116" keycode="111" name="NumPad /" />
+    <Key id="117" keycode="106" name="NumPad *" />
+    <Key id="118" keycode="109" name="NumPad -" />
+    <Key id="119" keycode="107" name="NumPad +" />
+    <Key id="120" keycode="35" name="NumPad 1" />
+    <Key id="121" keycode="40" name="NumPad 2" />
+    <Key id="122" keycode="34" name="NumPad 3" />
+    <Key id="123" keycode="100" name="NumPad 4" />
+    <Key id="124" keycode="101" name="NumPad 5" />
+    <Key id="125" keycode="102" name="NumPad 6" />
+    <Key id="126" keycode="36" name="NumPad 7" />
+    <Key id="127" keycode="38" name="NumPad 8" />
+    <Key id="128" keycode="33" name="NumPad 9" />
+
+    <!-- Arrow Keys -->
+    <Key id="129" keycode="37" name="Left" />
+    <Key id="130" keycode="38" name="Up" />
+    <Key id="131" keycode="39" name="Right" />
+    <Key id="132" keycode="40" name="Down" />
+  </KeyMapping>
+
+  <KeyMapping name="mpos" version="1.0">
+		<Key id="2" keycode="122" name="Void Invoice" />
+		<Key id="4" keycode="123" name="PLU" />
+		<Key id="6" keycode="16|114" name="Sales Person" />
+		<Key id="8" keycode="16|115" name="Void Item" />
+		<Key id="10" keycode="16|116" name="Recall" />
+		<Key id="12" keycode="16|117" name="Quantity" />
+		<Key id="14" keycode="16|118" name="Backspace" />
+		<Key id="16" keycode="16|119" name="Suspend" />
+		<Key id="18" keycode="16|121" name="Total" />
+		<Key id="20" keycode="17|112" name="Clear" />
+		<Key id="22" keycode="17|113" name="00" />
+		<Key id="24" keycode="10" name="Enter" />
+		<Key id="27" keycode="112" name="D1" />
+		<Key id="29" keycode="113" name="D2" />
+		<Key id="31" keycode="114" name="D3" />
+		<Key id="33" keycode="115" name="D4" />
+		<Key id="35" keycode="116" name="D5" />
+		<Key id="37" keycode="117" name="D6" />
+		<Key id="39" keycode="118" name="D7" />
+		<Key id="41" keycode="119" name="D8" />
+		<Key id="43" keycode="37" name="Left" />
+		<Key id="45" keycode="38" name="Up" />
+		<Key id="47" keycode="40" name="Down" />
+		<Key id="49" keycode="39" name="Right" />
+		<Key id="43" keycode="49" name="1" />
+		<Key id="44" keycode="50" name="2" />
+		<Key id="45" keycode="51" name="3" />
+		<Key id="46" keycode="52" name="4" />
+		<Key id="47" keycode="53" name="5" />
+		<Key id="48" keycode="54" name="6" />
+		<Key id="49" keycode="55" name="7" />
+		<Key id="50" keycode="56" name="8" />
+		<Key id="51" keycode="57" name="9" />
+		<Key id="52" keycode="48" name="0" />
+	</KeyMapping>
+
+  <KeyMapping name="GKPOS" version="1.0">
+
+    <!-- Function Keys F1 - F12 -->
+    <Key id="1" keycode="112" name="F1" />
+    <Key id="2" keycode="113" name="F2" />
+    <Key id="3" keycode="114" name="F3" />
+    <Key id="4" keycode="115" name="F4" />
+    <Key id="5" keycode="116" name="F5" />
+    <Key id="6" keycode="117" name="F6" />
+    <Key id="7" keycode="118" name="F7" />
+    <Key id="8" keycode="119" name="F8" />
+    <Key id="9" keycode="120" name="F9" />
+    <Key id="10" keycode="121" name="F10" />
+    <Key id="11" keycode="122" name="F11" />
+    <Key id="12" keycode="123" name="F12" />
+
+    <!-- Control Keys -->
+    <Key id="13" keycode="27" name="Escape" />
+    <Key id="14" keycode="154" name="Print Screen" />
+    <Key id="15" keycode="145" name="Scroll Lock" />
+    <Key id="16" keycode="19" name="Pause" />
+    <Key id="17" keycode="10" name="Enter" />
+    <Key id="17" keycode="10" name="OK" />
+    <Key id="18" keycode="20" name="Caps Lock" />
+    <Key id="19" keycode="16" name="Shift" />
+    <Key id="20" keycode="17" name="Ctrl" />
+    <Key id="21" keycode="524" name="Windows" />
+    <Key id="22" keycode="18" name="Alt" />
+    <Key id="23" keycode="32" name=" " />
+    <Key id="24" keycode="525" name="Context Menu" />
+    <Key id="25" keycode="8" name="Backspace" />
+    <Key id="26" keycode="9" name="Tab" />
+
+    <!-- Extra Character Keys -->
+    <Key id="27" keycode="192" name="`" />
+    <Key id="28" keycode="16|192" name="~" />
+    <Key id="29" keycode="91" name="[" />
+    <Key id="30" keycode="93" name="]" />
+    <Key id="31" keycode="16|91" name="{" />
+    <Key id="32" keycode="16|93" name="}" />
+    <Key id="33" keycode="59" name=";" />
+    <Key id="34" keycode="16|59" name=":" />
+    <Key id="35" keycode="222" name="'" />
+    <Key id="36" keycode="92" name="&quot;" />
+    <Key id="37" keycode="44" name="," />
+    <Key id="38" keycode="16|44" name="&lt;" />
+    <Key id="39" keycode="46" name="." />
+    <Key id="40" keycode="16|46" name="&gt;" />
+    <Key id="41" keycode="129" name="/" />
+    <Key id="42" keycode="16|129" name="?" />
+
+    <!-- Numeric Keys -->
+    <Key id="43" keycode="49" name="1" />
+    <Key id="44" keycode="50" name="2" />
+    <Key id="45" keycode="51" name="3" />
+    <Key id="46" keycode="52" name="4" />
+    <Key id="47" keycode="53" name="5" />
+    <Key id="48" keycode="54" name="6" />
+    <Key id="49" keycode="55" name="7" />
+    <Key id="50" keycode="56" name="8" />
+    <Key id="51" keycode="57" name="9" />
+    <Key id="52" keycode="48" name="0" />
+
+    <!-- Operator Keys -->
+    <Key id="53" keycode="45" name="-" />
+    <Key id="54" keycode="16|45" name="_" />
+    <Key id="55" keycode="61" name="=" />
+    <Key id="56" keycode="61" name="+" />
+
+
+    <!-- Character Keys -->
+    <Key id="57" keycode="81" name="q" />
+    <Key id="58" keycode="87" name="w" />
+    <Key id="59" keycode="69" name="e" />
+    <Key id="60" keycode="82" name="r" />
+    <Key id="61" keycode="84" name="t" />
+    <Key id="62" keycode="89" name="y" />
+    <Key id="63" keycode="85" name="u" />
+    <Key id="64" keycode="73" name="i" />
+    <Key id="65" keycode="79" name="o" />
+    <Key id="66" keycode="80" name="p" />
+    <Key id="67" keycode="65" name="a" />
+    <Key id="68" keycode="83" name="s" />
+    <Key id="69" keycode="68" name="d" />
+    <Key id="70" keycode="70" name="f" />
+    <Key id="71" keycode="71" name="g" />
+    <Key id="72" keycode="72" name="h" />
+    <Key id="73" keycode="74" name="j" />
+    <Key id="74" keycode="75" name="k" />
+    <Key id="75" keycode="76" name="l" />
+    <Key id="76" keycode="90" name="z" />
+    <Key id="77" keycode="88" name="x" />
+    <Key id="78" keycode="67" name="c" />
+    <Key id="79" keycode="86" name="v" />
+    <Key id="80" keycode="66" name="b" />
+    <Key id="81" keycode="78" name="n" />
+    <Key id="82" keycode="77" name="m" />
+
+    <Key id="83" keycode="16|81" name="Q" />
+    <Key id="84" keycode="16|87" name="W" />
+    <Key id="85" keycode="16|69" name="E" />
+    <Key id="86" keycode="16|82" name="R" />
+    <Key id="87" keycode="16|84" name="T" />
+    <Key id="88" keycode="16|89" name="Y" />
+    <Key id="89" keycode="16|85" name="U" />
+    <Key id="90" keycode="16|73" name="I" />
+    <Key id="91" keycode="16|79" name="O" />
+    <Key id="92" keycode="16|80" name="P" />
+    <Key id="93" keycode="16|65" name="A" />
+    <Key id="94" keycode="16|83" name="S" />
+    <Key id="95" keycode="16|68" name="D" />
+    <Key id="96" keycode="16|70" name="F" />
+    <Key id="97" keycode="16|71" name="G" />
+    <Key id="98" keycode="16|72" name="H" />
+    <Key id="99" keycode="16|74" name="J" />
+    <Key id="100" keycode="16|75" name="K" />
+    <Key id="101" keycode="16|76" name="L" />
+    <Key id="102" keycode="16|90" name="Z" />
+    <Key id="103" keycode="16|88" name="X" />
+    <Key id="104" keycode="16|67" name="C" />
+    <Key id="105" keycode="16|86" name="V" />
+    <Key id="106" keycode="16|66" name="B" />
+    <Key id="107" keycode="16|78" name="N" />
+    <Key id="108" keycode="16|77" name="M" />
+
+
+    <!-- Above Arrow Keys -->
+    <Key id="109" keycode="155" name="Insert" />
+    <Key id="110" keycode="36" name="Home" />
+    <Key id="111" keycode="33" name="Page Up" />
+    <Key id="112" keycode="127" name="Delete" />
+    <Key id="113" keycode="35" name="End" />
+    <Key id="114" keycode="34" name="Page Down" />
+
+    <!-- NumPad Keys -->
+    <Key id="115" keycode="144" name="Num Lock" />
+    <Key id="116" keycode="111" name="NumPad /" />
+    <Key id="117" keycode="106" name="NumPad *" />
+    <Key id="118" keycode="109" name="NumPad -" />
+    <Key id="119" keycode="107" name="NumPad +" />
+    <Key id="120" keycode="35" name="NumPad 1" />
+    <Key id="121" keycode="40" name="NumPad 2" />
+    <Key id="122" keycode="34" name="NumPad 3" />
+    <Key id="123" keycode="100" name="NumPad 4" />
+    <Key id="124" keycode="101" name="NumPad 5" />
+    <Key id="125" keycode="102" name="NumPad 6" />
+    <Key id="126" keycode="36" name="NumPad 7" />
+    <Key id="127" keycode="38" name="NumPad 8" />
+    <Key id="128" keycode="33" name="NumPad 9" />
+
+    <!-- Arrow Keys -->
+    <Key id="129" keycode="37" name="Left" />
+    <Key id="130" keycode="38" name="Up" />
+    <Key id="131" keycode="39" name="Right" />
+    <Key id="132" keycode="40" name="Down" />
+  </KeyMapping>
+</KeyMappings>
