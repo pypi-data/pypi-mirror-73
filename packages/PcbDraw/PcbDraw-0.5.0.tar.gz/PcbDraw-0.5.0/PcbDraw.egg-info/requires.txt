@@ -1,0 +1,7 @@
+argparse
+lxml
+mistune
+numpy
+pyaml
+pybars3
+wand
