@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_leafage.egg-info/PKG-INFO
+django_leafage.egg-info/SOURCES.txt
+django_leafage.egg-info/dependency_links.txt
+django_leafage.egg-info/requires.txt
+django_leafage.egg-info/top_level.txt
+docs/blank.txt
+leafage/__init__.py
+leafage/module.py
+leafage/templates/paginator.tpl
