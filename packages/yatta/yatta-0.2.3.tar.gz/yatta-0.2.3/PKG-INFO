@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: yatta
+Version: 0.2.3
+Summary: Yet Another Time Tracking Application
+Home-page: https://github.com/rhroberts/yatta
+License: GPL-3.0-or-later
+Author: Rusty Roberts
+Author-email: rust.roberts@protonmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: importlib-metadata (>=1.6.0,<2.0.0)
+Requires-Dist: pandas (>=1.0.3,<2.0.0)
+Requires-Dist: parsedatetime (>=2.5,<3.0)
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: sqlalchemy (>=1.3.17,<2.0.0)
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)
+Requires-Dist: tomlkit (>=0.6.0,<0.7.0)
