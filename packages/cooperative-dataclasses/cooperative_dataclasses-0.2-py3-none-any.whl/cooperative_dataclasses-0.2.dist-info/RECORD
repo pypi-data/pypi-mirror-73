@@ -1,0 +1,8 @@
+cooperative_dataclasses/__init__.py,sha256=IPFZqWicqVzstyvEjRJq9hE0pud2pG3NTaneClkvUFU,27
+cooperative_dataclasses/dataclasses.py,sha256=VfPZLxK6HqxqlsnEd5xEbTNNYExI4nHr5e3QjCovA-M,49798
+cooperative_dataclasses/mypy_plugin.py,sha256=ufQyfruHJaj8ypS1Dh5i1cj-Zb3h7QBIcgBHtRD3JLY,16582
+cooperative_dataclasses/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cooperative_dataclasses-0.2.dist-info/LICENSE,sha256=IJosEnD350CO316IbysWJa-IUzoi6BzAEt76u_Zv_D4,1061
+cooperative_dataclasses-0.2.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+cooperative_dataclasses-0.2.dist-info/METADATA,sha256=8aEnBdo5dzQW3MxLlM5zwQlx6Xn6uS2yiI7ou50a59I,1036
+cooperative_dataclasses-0.2.dist-info/RECORD,,
