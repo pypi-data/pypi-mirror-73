@@ -1,0 +1,8 @@
+setup.py
+BEANS_GS.egg-info/PKG-INFO
+BEANS_GS.egg-info/SOURCES.txt
+BEANS_GS.egg-info/dependency_links.txt
+BEANS_GS.egg-info/not-zip-safe
+BEANS_GS.egg-info/top_level.txt
+package_name/__init__.py
+package_name/package.py
