@@ -1,0 +1,3 @@
+[console_scripts]
+git-map-files = git_file_mapper.cli:mapper
+

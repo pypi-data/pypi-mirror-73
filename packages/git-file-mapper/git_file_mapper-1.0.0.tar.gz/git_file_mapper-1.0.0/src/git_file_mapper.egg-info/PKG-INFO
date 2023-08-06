@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: git-file-mapper
+Version: 1.0.0
+Summary: A programme that applies a map operation to files in git
+Home-page: https://github.com/MatthewWilkes/git_file_mapper
+Author: Matthew Wilkes
+Author-email: matt@matthewwilkes.name
+License: BSD
+Description: # Git File Mapper 
+        
+        A programme that applies a map operation to files in git. This can be used to transform an entire tree of reachable objects in a git repository. This does not remove the existing objects, it creates new ones.
+        
+        While this can be used to apply an automatic formatter (such as Python's black) to the entire history of a project, meaning that every file in every revision is compliant. However, this is *not* a good way to apply a formatter. Like all operations that change the history of a git repository, this can cause trouble as any users who have an old copy of the tree will need to update their checkouts to use the new references. This can be an absolute nightmare for branching.
+        
+        The reason I created this is to allow the creation of read-only parallel trees that have an automatic transform applied. Specifically, I plan to use this to create a history of `apd.sensors` that does not include the type hints, so people who aren't interested in typing can browse the code for Advanced Python Development more easily.
+        
+        ## Usage
+        
+        For example, to apply black to all Python files and save references with a suffix, so `main` becomes `main-black`,
+        do:
+        
+            $ git-map-files black --transform "*.py" "black -"
+        
+        You may pass any number of `--transform` arguments. They will be parsed in order, with the first matching transform being the only one that's applied. If no transforms match then no change is made.
+        
+        This will create variants of all branches and tags, so you must ensure that there are no conflicts before running.
+        
+        ## Changes
+        
+        ### 1.0.0 (Unreleased)
+        
+        * Initial release of mapping tool
+        
+        Copyright (c) 2020, Matthew Wilkes
+        
+        
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without modification,
+        are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice, this
+          list of conditions and the following disclaimer in the documentation and/or
+          other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from this
+          software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+        IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+        INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+        BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+        OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+        OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+        OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
