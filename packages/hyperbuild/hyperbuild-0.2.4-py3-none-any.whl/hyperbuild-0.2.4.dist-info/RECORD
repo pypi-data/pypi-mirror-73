@@ -1,0 +1,13 @@
+hyperbuild/__init__.py,sha256=onsoNDX2OA-IPidvwIl9YGK9OLtMdtk1CaJu40H9QDc,894
+hyperbuild/linux-x86_64-3_5/hyperbuild.so,sha256=B0W2IH-C57uQlCojfruDhneQ6L8iVVk0PsIcIdQF0QM,20091520
+hyperbuild/linux-x86_64-3_6/hyperbuild.so,sha256=sRbb0cAYNhwDUWug9omFlSuozVLTTSSmQO9yFS_zpLk,20096768
+hyperbuild/linux-x86_64-3_7/hyperbuild.so,sha256=be9QrVVrzjB_F1aDeLoEpJWMMhIjVMmyIKOW__EOJL8,20092576
+hyperbuild/linux-x86_64-3_8/hyperbuild.so,sha256=Rl9B2tOtkEUgvRhlgxfT1fJlsEqa9bE2X0Xr7OqZl-M,20092576
+hyperbuild/macos-x86_64-3_5/hyperbuild.so,sha256=AbmW6MUddVOZm53LsQTSWlgDW5226GMgeClAEWplKD0,9510052
+hyperbuild/macos-x86_64-3_6/hyperbuild.so,sha256=Y5DqvVzFrJs44S0jKDLJn3oR5KJlDgbolINrW-GqA3c,9510612
+hyperbuild/macos-x86_64-3_7/hyperbuild.so,sha256=2bBqXbLnw4FXkREE_eZr1dHHBsTwPtlbUl4F_sAwrIg,9510436
+hyperbuild/macos-x86_64-3_8/hyperbuild.so,sha256=zUjvwuaB6Po-Dg2ECGY-bVhHU3YgP_vOqTGlgXAiK_s,9510436
+hyperbuild-0.2.4.dist-info/METADATA,sha256=wj1sx8uAlBEPDu-uxG-SI7l03Hh4vMCpgVp-hrkyHNQ,16660
+hyperbuild-0.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hyperbuild-0.2.4.dist-info/top_level.txt,sha256=JM59mhdAg_zT-cCceaWBVslgiZrkAjSyGg3Ys5AUueY,11
+hyperbuild-0.2.4.dist-info/RECORD,,
