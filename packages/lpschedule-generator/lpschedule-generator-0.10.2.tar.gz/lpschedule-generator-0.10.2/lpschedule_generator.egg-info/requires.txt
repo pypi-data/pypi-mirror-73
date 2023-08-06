@@ -1,0 +1,6 @@
+mistune<1,>=0.8
+Jinja2
+beautifulsoup4
+unidecode
+icalendar
+pytz
