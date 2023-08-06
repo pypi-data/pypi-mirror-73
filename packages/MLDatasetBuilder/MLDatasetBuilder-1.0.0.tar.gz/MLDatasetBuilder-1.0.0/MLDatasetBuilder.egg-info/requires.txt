@@ -1,0 +1,6 @@
+opencv-python
+Pillow
+art
+termcolor
+progress
+pytest
