@@ -1,0 +1,10 @@
+setup.py
+sumon/Binomialdistribution.py
+sumon/Gaussiandistribution.py
+sumon/Generaldistribution.py
+sumon/__init__.py
+sumon.egg-info/PKG-INFO
+sumon.egg-info/SOURCES.txt
+sumon.egg-info/dependency_links.txt
+sumon.egg-info/not-zip-safe
+sumon.egg-info/top_level.txt
