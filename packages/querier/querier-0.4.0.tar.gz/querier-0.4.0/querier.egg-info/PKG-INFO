@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: querier
+Version: 0.4.0
+Summary: Querying data-frames
+Home-page: https://github.com/thierrymoudiki/querier
+Author: Thierry Moudiki
+Author-email: thierry.moudiki@gmail.com
+License: BSD
+Download-URL: https://github.com/thierrymoudiki/querier/tarball/0.4.0
+Description: A query language for data frames
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
