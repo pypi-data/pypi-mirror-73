@@ -1,0 +1,11 @@
+KMeansImage/Display.py,sha256=ZDeWCFBnxUgdwA45bM3qwZBunlNEhtwlokPx94YL9A8,188
+KMeansImage/Interactive.py,sha256=o70nFtimTIXNq3kx4W00HI6rHheEATTxQHm2fOwBHMY,2171
+KMeansImage/Preprocessing.py,sha256=gb8mOqPFfJzAFla1j2NMVcmiwhVcSyJ39FsmnD_Gkj4,222
+KMeansImage/Save.py,sha256=qe5Ftxqz39gdw-JlfLki3dDFny02Z2vYQ5Tn94usexE,223
+KMeansImage/__init__.py,sha256=xcG2FHmxwaCAPIF__NSn-vn_tsvDFJAwOoN7MrWl1SU,143
+KMeansImage/kmeans.py,sha256=YchS-YgWOvjNW8XimxgvlYTBixpDEZf1aNoBq_CK23U,999
+KMeansImage-1.0.dist-info/LICENSE,sha256=rSAPa3DO8dUuRWzj-4ZkhAKZrU_jWkVOX0ngblYRiZI,1062
+KMeansImage-1.0.dist-info/METADATA,sha256=3XFVmeUMQnesqlXdZDAaPDQwkiME8FSp7hcsen9DQ8E,3213
+KMeansImage-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+KMeansImage-1.0.dist-info/top_level.txt,sha256=uygnYnDoN-MnAEBAv9Yg5n3e4oi5gV5kDOsv50Re7wk,12
+KMeansImage-1.0.dist-info/RECORD,,
