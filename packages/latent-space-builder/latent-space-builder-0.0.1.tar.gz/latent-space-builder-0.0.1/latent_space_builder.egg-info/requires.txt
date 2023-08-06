@@ -1,0 +1,6 @@
+jupyterlab
+scikit-learn
+h5py
+numpy
+pyDiffMap
+setuptools
