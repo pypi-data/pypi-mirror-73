@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bokodapviewer
+Version: 0.3.0
+Summary: A simple OpenDAP data viewer based on the Bokeh visualisation library
+Home-page: https://bitbucket.org/sea_dev/bokodapviewer
+Author: Systems Engineering & Assessment Ltd.
+Author-email: Marcus.Donnelly@sea.co.uk
+License: MIT
+Keywords: OpenDAP,Bokeh,Environment,Science
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: bokcolmaps (>=2)
+Requires-Dist: sodapclient (>=0.1.1)
+
+UNKNOWN
+
+

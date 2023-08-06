@@ -1,0 +1,12 @@
+bokodapviewer/App.py,sha256=XMfLaB9fkUtkE_i_8A0qJMf1BABwbF2O1wacQ-v7ptQ,28194
+bokodapviewer/Config.xml,sha256=bi-rMk6rOPiN8BR6CicuHzJF8-fii4UD2QEh-P-IU5Q,490
+bokodapviewer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bokodapviewer/flip_data.py,sha256=jPTfz2dv1TSTXViYglndbwhC_fS84VwOBzah9JQYmCs,516
+bokodapviewer/interp_data.py,sha256=RNOAnBZBcTrW5at1EkBsdFqNgimaOkGXDIRtXOeFAY8,4021
+bokodapviewer/Tests/InterpTest.py,sha256=P5-T3hZT_jnRa-dISj6G5ms3Y6qUKQgTmhdG-plvldk,9262
+bokodapviewer/Tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bokodapviewer-0.3.0.dist-info/LICENSE.txt,sha256=oCnvliXQztyF5GeyEXgWW_C6XFN94dB1BgVXttM0QH0,1076
+bokodapviewer-0.3.0.dist-info/METADATA,sha256=MB6xVZWYnnWU5G2x23-C9ADZmVdGtdf4GWwKA1ifOqI,698
+bokodapviewer-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bokodapviewer-0.3.0.dist-info/top_level.txt,sha256=ry8PTuawZxE3bG33QPqYci5UrvA5q-kRoNkaevhE73A,14
+bokodapviewer-0.3.0.dist-info/RECORD,,
