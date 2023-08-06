@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: sentence_spliter
+Version: 0.1.8
+Summary: This is a sentence cutting tool that supports long sentence segmentation and short sentence merging.
+Home-page: UNKNOWN
+Author: Li Wang
+Author-email: wa_li_li@126.com
+License: UNKNOWN
+Description: # sentence-spliter
+        
+        ## Introduction
+        
+        sentence-spliter splits a long text into a list of sentences. 
+        It supports natural segmentation, longest sentence segmentation, and shortest sentence merging.
+        
+        
+        ## Features
+        
+        ###Chinese spliter
+        1.natural spliter:
+        
+        according to the period, exclamation mark, question mark, semicolon, ellipsis. 
+        Do not split within double quotes and parentheses.
+        
+        2.long sentence spliter:
+        
+        When the length of the long sentence exceeds the maximum length, 
+        it is preferentially divided according to punctuation marks, if the long sentence is still exceed maximum
+        length after spliter, it is forced to be truncated.
+        
+        3.short sentence combination:
+        
+        If the sentence is less than the minimum length, the sentences are combined.
+        
+        ###English
+        
+        1.natural spliter: 
+        
+        according to the period, exclamation mark, question mark, semicolon, ellipsis. 
+        Do not split within double quotes and parentheses.
+        
+        
+        
+        TODO：
+        
+        Optimize english spliter.
+        For example,the period in english names is not divided.
+        
+        
+        ## INSTALLATION
+        
+        1.pip
+        
+        ```
+        pip install sentence-spliter
+        ```
+        
+        2.git clone
+        
+        ```
+        git clone https://gitee.com/li_li_la/sentence-spliter.git
+        ```
+        
+        ## Usage
+        
+        ```python
+        case 1:Use default parameters
+        
+        from sentence_spliter import split
+        sentence = '锄禾日当午,汗滴禾下土.谁知盘中餐,粒粒皆辛苦.'
+        out = split(sentence)
+        
+        # outputs
+        ['锄禾日当午,汗滴禾下土.','谁知盘中餐,粒粒皆辛苦.']
+        
+        case 2:Input your parameters
+        
+        from sentence_spliter import Spliter
+        options = {'language': 'zh',  # 'zh' chinese, 'en' english
+                   'long_short_sent_handle': True,  # False splits naturally, does not process long and short sentences; True processes long and short sentences
+                    'max_length': 15,  # The longest sentence, the default value is 150
+                    'min_length': 4,  # The shortest sentence, default value 15
+                    'hard_max_length': 20,  # hard max_length
+                    'remove_blank': True  # Whether to remove space in the sentence}
+        spliter = Spliter(options)
+        paragraph = "“你真漂亮呢！哈哈哈”。“谢谢你啊”。今天很开心！"
+        cut_sentences =  spliter.cut_to_sentences(paragraph)
+        print(cut_sentences)
+        
+        # outputs
+        ['“你真漂亮呢！哈哈哈”。','“谢谢你啊”。','今天很开心！']
+        ```
+        
+        
+        
+        ## Options
+        
+        ```
+        options = {
+          'language': 'zh',  			# 'zh'chinese 'en' english
+          'long_short_sent_handle':True  # # False splits naturally, does not process long and short sentences; True processes long and short sentences
+          'max_length': 150, 			#  The longest sentence, the default value is 150
+          'min_length': 15,  			#   The shortest sentence, default value 15
+          'hard_max_length': 300        #  hard-max
+          'remove_blank' : True        #  Whether to remove space in the sentence(chinese)
+        }
+        ```
+        
+        
+        
+        ## Deployment
+        
+        Docker 部署
+        
+        ./bin/
+        
+        
+        
+        ## Web API
+        
+        ```
+        GET
+        
+        POST
+        ```
+        
+        
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
