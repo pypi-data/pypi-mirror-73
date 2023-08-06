@@ -1,0 +1,7 @@
+README.txt
+setup.py
+Solidity.egg-info/PKG-INFO
+Solidity.egg-info/SOURCES.txt
+Solidity.egg-info/dependency_links.txt
+Solidity.egg-info/top_level.txt
+src/__init__.py
