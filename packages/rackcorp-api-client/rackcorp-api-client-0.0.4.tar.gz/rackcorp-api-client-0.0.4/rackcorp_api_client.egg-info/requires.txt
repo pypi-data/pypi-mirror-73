@@ -1,0 +1,7 @@
+click
+pickle-mixin
+urllib3
+urlparse2
+requests
+pygments
+prompt-toolkit

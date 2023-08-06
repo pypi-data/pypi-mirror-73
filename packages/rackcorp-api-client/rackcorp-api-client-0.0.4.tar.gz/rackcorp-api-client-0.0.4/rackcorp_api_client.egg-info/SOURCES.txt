@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+rackcorp_api_client.egg-info/PKG-INFO
+rackcorp_api_client.egg-info/SOURCES.txt
+rackcorp_api_client.egg-info/dependency_links.txt
+rackcorp_api_client.egg-info/entry_points.txt
+rackcorp_api_client.egg-info/requires.txt
+rackcorp_api_client.egg-info/top_level.txt
+rcapi/__init__.py
+rcapi/cli.py
+rcapi/version.py
