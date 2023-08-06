@@ -1,0 +1,8 @@
+GitPython
+PyGithub
+PyYAML
+semantic_version
+setuptools
+toml
+twine
+wheel
