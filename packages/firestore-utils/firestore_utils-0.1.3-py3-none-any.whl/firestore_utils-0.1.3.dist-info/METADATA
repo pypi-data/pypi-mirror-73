@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: firestore-utils
+Version: 0.1.3
+Summary: Utilities for working with any GCP Firestore collection
+Home-page: UNKNOWN
+Author: Nathaniel Watson
+Author-email: nathan.watson86@gmail.com
+License: UNKNOWN
+Keywords: firestore
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+Requires-Dist: google-cloud-firestore
+
+firestore_utils
+***************
+
+Utilities for working against any Firestore collection
+
+
