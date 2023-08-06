@@ -1,0 +1,11 @@
+playscii/__init__.py,sha256=073mtMEXIcwZXV7dnVi8O-V0llN0LgZ3lljJa8NY5Fg,95
+playscii/input.py,sha256=NzO3ndRj3XhV9Jv-N0m5Uy1ndA74saakkI_1RgpCmHo,591
+playscii/playscii.py,sha256=pWK7X8nuTDtD7MufyjTTpbwJNsbLAFDonS2SSwdllYU,4187
+playscii/games/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playscii/games/galaga.py,sha256=BzWA2-CEKZI__xiBoY4NbaUEjp5Xj_VIm2z5CgOPkO0,3785
+playscii/games/galaga_modi.py,sha256=Aoz5tZOl-qZ9c5gnAcLG3S-gidDmKCHGCbwjZrizO-Y,3917
+pyplayscii-0.2.5.dist-info/LICENSE,sha256=4n10_pcgAJwdcrkJHIir3O3qV6SSr7DdKb-QsWdPN9k,1065
+pyplayscii-0.2.5.dist-info/METADATA,sha256=wxrRvy7CiOT00jPDNAYdI4eUdHYXcgllqq1JeDC19UI,6664
+pyplayscii-0.2.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pyplayscii-0.2.5.dist-info/top_level.txt,sha256=q3pkwYBGs6uE6gx3AwRNCo5_qnFWuo_Ndtku-hfeJmo,9
+pyplayscii-0.2.5.dist-info/RECORD,,
