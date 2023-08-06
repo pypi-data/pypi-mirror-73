@@ -1,0 +1,15 @@
+README.md
+setup.py
+filoc/__init__.py
+filoc/filoc.py
+filoc/multiloc.py
+filoc/rawfiloc.py
+filoc.egg-info/PKG-INFO
+filoc.egg-info/SOURCES.txt
+filoc.egg-info/dependency_links.txt
+filoc.egg-info/requires.txt
+filoc.egg-info/top_level.txt
+tests/__init__.py
+tests/test_Filoc.py
+tests/test_Multiloc.py
+tests/test_RawFiloc.py
