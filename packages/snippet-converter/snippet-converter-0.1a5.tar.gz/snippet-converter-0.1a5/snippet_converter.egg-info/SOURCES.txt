@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+snippet_converter/__init__.py
+snippet_converter/cli.py
+snippet_converter/setup.py
+snippet_converter/sublime.py
+snippet_converter.egg-info/PKG-INFO
+snippet_converter.egg-info/SOURCES.txt
+snippet_converter.egg-info/dependency_links.txt
+snippet_converter.egg-info/entry_points.txt
+snippet_converter.egg-info/top_level.txt
