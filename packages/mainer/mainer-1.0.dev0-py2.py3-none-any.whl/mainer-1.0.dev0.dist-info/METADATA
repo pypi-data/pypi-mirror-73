@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mainer
+Version: 1.0.dev0
+Summary: Help repo users move from master to main
+Home-page: http://github.com/sgillies/mainer
+License: UNKNOWN
+Author: Sean Gillies
+Author-email: sean.gillies@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click
+Requires-Dist: pygithub
+Requires-Dist: structlog
