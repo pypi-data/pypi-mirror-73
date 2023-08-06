@@ -1,0 +1,3 @@
+[console_scripts]
+Number-Square = Number_square.square:main
+
