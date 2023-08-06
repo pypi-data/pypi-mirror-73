@@ -1,0 +1,10 @@
+setup.py
+davis_distributions/Binomialdistribution.py
+davis_distributions/Gaussiandistribution.py
+davis_distributions/Generaldistribution.py
+davis_distributions/__init__.py
+davis_distributions.egg-info/PKG-INFO
+davis_distributions.egg-info/SOURCES.txt
+davis_distributions.egg-info/dependency_links.txt
+davis_distributions.egg-info/not-zip-safe
+davis_distributions.egg-info/top_level.txt
