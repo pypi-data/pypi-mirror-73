@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pyaudio_helper.egg-info/PKG-INFO
+pyaudio_helper.egg-info/SOURCES.txt
+pyaudio_helper.egg-info/dependency_links.txt
+pyaudio_helper.egg-info/requires.txt
+pyaudio_helper.egg-info/top_level.txt
+sk_dsp_comm/pyaudio_helper/__init__.py
+sk_dsp_comm/pyaudio_helper/__version__.py
+sk_dsp_comm/pyaudio_helper/pyaudio_helper.py
