@@ -1,0 +1,13 @@
+msgraph/__init__.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+msgraph/api.py,sha256=0d323XkCiG2yu7Y6u6HgtGpAnn4mJCakIJw7fZlJSkE,7604
+msgraph/calendar.py,sha256=ySSpqxBaU6pELch2H53nF7rheAr9VtmUFtvq1lMiuW0,42435
+msgraph/exception.py,sha256=zXYDHGljCKmQ-97tLG6J_tBSEpD1sKGYHdHyJp-QpHs,778
+msgraph/files.py,sha256=59tAg9cu-7rFHONaNRUOhlsgMAQAuFk1G11Fcd3rPJQ,17911
+msgraph/group.py,sha256=Yf088-2wQeGdQ87ifWHtj53FYLnuFVlgDs1zp3Sy-gs,10544
+msgraph/sites.py,sha256=5759HP5yJs4b-BU0Qn2_rXN21GIlGRf0QXkkjlG6iZY,18408
+msgraph/user.py,sha256=stZvbGI_pQsSC-tCzVmQ-a0jlG6dDSzxltj1R4ogUIk,10516
+python_msgraph-0.2.1.dist-info/METADATA,sha256=CkUiA0QZ0xLQionCSd5-XjdwZNxsQzQ--ae2Nj73hw4,9022
+python_msgraph-0.2.1.dist-info/NOTICE,sha256=6Y_aiG-2W3YdDtp_voiKG_AsD-XNGddtbyRjdD95lFI,478
+python_msgraph-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_msgraph-0.2.1.dist-info/top_level.txt,sha256=qzCUvu-Vrn8e1z3CinbT30NCsPhPRF30hjoIC_X9Nrw,8
+python_msgraph-0.2.1.dist-info/RECORD,,
