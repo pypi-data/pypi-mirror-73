@@ -1,0 +1,37 @@
+Metadata-Version: 2.0
+Name: nikas
+Version: 1.0.0
+Summary: The first persian comment system 
+Home-page: https://github.com/Nikas-Project/Nikas-Server
+Author: Arash Hatami
+Author-email: hatamiarash7@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Flask-Caching
+Requires-Dist: Jinja2
+Requires-Dist: bleach
+Requires-Dist: cffi
+Requires-Dist: flask
+Requires-Dist: gunicorn
+Requires-Dist: html5lib
+Requires-Dist: itsdangerous
+Requires-Dist: misaka (<3.0,>=2.0)
+Requires-Dist: werkzeug (>=1.0)
+
+# Nikas - Beta version
+
+The first persian comment system
+
+[![Build Status](https://travis-ci.com/Nikas-Project/Server.svg?branch=dev)](https://travis-ci.com/Nikas-Project/Server)
+
+
