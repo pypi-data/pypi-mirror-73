@@ -1,0 +1,16 @@
+django_user_role/__init__.py,sha256=-LGgpVzBvQsNFEbahLrAD1u9e1Ur3koil2eg54r1t7Y,23
+django_user_role/admin.py,sha256=nILTSYwCDzkqJZQ2_IEg7498Azp6VbPm7dmQJa9dvFk,2616
+django_user_role/apps.py,sha256=rJ98jlZQJqXEYtzpVj4BJykLRLch7tm4sFw-SO3F1KE,229
+django_user_role/checkers.py,sha256=6ZCor5eSE3NfJQOxSy_8Tdgg0VYkl2wEo7Sei3rdGGo,804
+django_user_role/decorators.py,sha256=MHa6GRXDAJ-mw-BIwvumMRIURjX4j5OnmHSwwk1UwNk,1204
+django_user_role/exceptions.py,sha256=rsbBvzHggjuYS5kRWp0e5vsEV7koTj6NBBBflrPZfxw,207
+django_user_role/loader.py,sha256=rPy30GrOevugJSTr_Y1vHdKimS-D0RgCFfW_aB26rzI,418
+django_user_role/models.py,sha256=QR70ly4J0hNugf3CSeftk_tKJIPfQjUbtXgCvXbcIn0,2052
+django_user_role/permissions.py,sha256=Omc3iFfMKZIcTE4t4Hoh7LwhI8b3nHNTcM8CW1IujiY,1676
+django_user_role/role.py,sha256=MEY6ZV6cKm58qkCSeDAAE-d5I4WJuY41MfUs084-4l8,7779
+django_user_role/utils.py,sha256=8miSz58NBi9FWgFPZVdTnZi4sBnyaU4i3OYnB8f-NNE,1087
+django_user_role-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+django_user_role-0.0.1.dist-info/METADATA,sha256=nT5YVbWcGQDDBR1X01mKrMNGRoeDAFwr2mFgROzuUdM,459
+django_user_role-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+django_user_role-0.0.1.dist-info/top_level.txt,sha256=j_WraKq0TRW6yR8QxVRVTarIFv1AYv_kCYCr7R9iv2s,17
+django_user_role-0.0.1.dist-info/RECORD,,

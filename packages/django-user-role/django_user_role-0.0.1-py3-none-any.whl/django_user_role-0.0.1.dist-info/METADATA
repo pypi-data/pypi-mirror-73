@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-user-role
+Version: 0.0.1
+Summary: A django app for user role based permissions.
+Home-page: https://github.com/xunull/django-user-role
+Author: xunull
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Django (>=2.0)
+Requires-Dist: six
+
+UNKNOWN
+
+
