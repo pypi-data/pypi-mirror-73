@@ -1,0 +1,8 @@
+docutils
+PyContracts3
+numpy
+Pillow
+matplotlib
+six
+zuper-commons-z6>=6.0.29
+zuper-typing-z6>=6.0.66
