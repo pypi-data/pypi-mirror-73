@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: towercrane
+Version: 0.1.0
+Summary: PaperClip helps you keep your large local datasets on the cloud
+Home-page: https://github.com/ashtianicode
+Author: Taha
+Author-email: taha.m.ashtiani@gmail.com
+License: MIT
+Description: # paperclip
+        
+        ```python
+        
+        paperclip config 
+        
+        paperclip scan 
+        paperclip state
+        
+        paperclip init 
+        paperclip upload 
+        paperclip remove 
+        paperclip download
+          
+         ```
+        
+        
+        ## State lifecycle of a project 
+        
+        local
+        cloud
+        local_and_cloud
+        
+        upload
+        uploaded
+        
+        remove
+        removed
+        
+        download
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
