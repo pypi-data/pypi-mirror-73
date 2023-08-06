@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+imgscrapy/__init__.py
+imgscrapy/exceptions.py
+imgscrapy/main.py
+imgscrapy/utils.py
+imgscrapy.egg-info/PKG-INFO
+imgscrapy.egg-info/SOURCES.txt
+imgscrapy.egg-info/dependency_links.txt
+imgscrapy.egg-info/entry_points.txt
+imgscrapy.egg-info/requires.txt
+imgscrapy.egg-info/top_level.txt

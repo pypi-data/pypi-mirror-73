@@ -1,0 +1,3 @@
+[console_scripts]
+imgscrapy = imgscrapy.main:main
+
