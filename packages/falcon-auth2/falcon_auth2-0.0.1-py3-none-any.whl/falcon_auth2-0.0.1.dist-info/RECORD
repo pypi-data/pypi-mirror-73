@@ -1,0 +1,11 @@
+falcon_auth2/__init__.py,sha256=N2Cjpi88Q4t57c0cJ4XsbVvFUj18dGnwAcSQigFmQVw,314
+falcon_auth2/compat.py,sha256=LLZ7j7bj0GmSeZn_Pp2GxIAmyQV4hCfH4S7uSENbXxY,63
+falcon_auth2/exc.py,sha256=V-ASQemoRsWZEo23pLKxKZ8ON68_yuO0dG5hGtbRpH8,895
+falcon_auth2/getter.py,sha256=QIK01Saw48MiW-mXFISLuLiuEPLgX9KJWrTZn4oQX6A,6608
+falcon_auth2/middleware.py,sha256=0ItOhG_P4F5EFsC8D-FXIgqPmonOVYRKqFrZBYaf7z4,3889
+falcon_auth2/utils.py,sha256=0ChdgYP547_InNZ4pPL0pNnzShsEf3EsBmpR2NWpeKU,875
+falcon_auth2-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+falcon_auth2-0.0.1.dist-info/METADATA,sha256=vm2mA2POCB_1w9qZFW0D5rn2PLO3F65VvfqCBgChlCc,6031
+falcon_auth2-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+falcon_auth2-0.0.1.dist-info/top_level.txt,sha256=JOYtrEN3aeVpN9qcSuGjUDDIth2q8k35NtwEBPowhSs,13
+falcon_auth2-0.0.1.dist-info/RECORD,,
