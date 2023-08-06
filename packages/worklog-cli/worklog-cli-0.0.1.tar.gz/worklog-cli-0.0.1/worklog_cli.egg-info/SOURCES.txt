@@ -1,0 +1,7 @@
+README.md
+setup.py
+worklog_cli.egg-info/PKG-INFO
+worklog_cli.egg-info/SOURCES.txt
+worklog_cli.egg-info/dependency_links.txt
+worklog_cli.egg-info/requires.txt
+worklog_cli.egg-info/top_level.txt
