@@ -1,0 +1,10 @@
+README.md
+setup.py
+PWrapper.egg-info/PKG-INFO
+PWrapper.egg-info/SOURCES.txt
+PWrapper.egg-info/dependency_links.txt
+PWrapper.egg-info/requires.txt
+PWrapper.egg-info/top_level.txt
+PnWrapper/__init__.py
+PnWrapper/alliance.py
+PnWrapper/nation.py
