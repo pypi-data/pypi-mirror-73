@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wttrpy
+Version: 1.0.0
+Summary: A little thing on Python that shows you forecast using wttr.in
+Home-page: https://github.com/hasha2982/wttr.py/
+Author: Denisov Artem
+Author-email: hashadev@yandex.ru
+License: UNKNOWN
+Description: # wttr.py
+        
+        A little thing on Python that shows you forecast using wttr.in
+        
+        ## TODO
+        
+        - [ ] Make a CLI
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

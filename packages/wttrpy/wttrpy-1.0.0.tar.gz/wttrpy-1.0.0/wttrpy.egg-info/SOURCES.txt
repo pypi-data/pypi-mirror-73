@@ -1,0 +1,8 @@
+README.md
+setup.py
+wttrpy/__init__.py
+wttrpy.egg-info/PKG-INFO
+wttrpy.egg-info/SOURCES.txt
+wttrpy.egg-info/dependency_links.txt
+wttrpy.egg-info/requires.txt
+wttrpy.egg-info/top_level.txt
