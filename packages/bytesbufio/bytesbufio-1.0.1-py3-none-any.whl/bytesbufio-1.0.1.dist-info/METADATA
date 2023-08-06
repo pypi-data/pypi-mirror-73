@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: bytesbufio
+Version: 1.0.1
+Summary: io.BytesIO that preserves bytes after close
+Home-page: https://github.com/cbuschka/python-bytesbufio
+Author: Cornelius Buschka
+Author-email: cbuschka@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Python package bytesbufio
+
+### bytesbufio provides BytesBufferIO - an io.BytesIO implementation whose value can be accessed after it has been closed
+
+* [Test that shows the problem](./tests/bytesio_test.py)
+* [Fixed implementation - BytesBufferIO](./bytesbufio/bytes_buffer_io.py)
+
+## Installation
+```
+pip install bytesbufio
+```
+
+## Usage
+
+```python
+import io
+
+from bytesbufio import BytesBufferIO
+
+bytesbuf = BytesBufferIO()
+with io.TextIOWrapper(bytesbuf, encoding='utf-8') as textout:
+    textout.write("Hello world.")
+
+text = bytesbuf.getvalue().decode('utf-8') # BytesIO would have raised an ValueError here 
+print(text)
+```
+
+## Related
+[Python Issue 23099](https://bugs.python.org/issue23099)
+
+## License
+Copyright (c) 2020 by [Cornelius Buschka](https://github.com/cbuschka).
+
+[Apache License, Version 2.0](./license.txt)
+
+
