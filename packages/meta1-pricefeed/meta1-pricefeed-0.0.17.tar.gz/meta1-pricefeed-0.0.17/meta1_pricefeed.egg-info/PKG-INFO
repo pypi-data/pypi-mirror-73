@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: meta1-pricefeed
+Version: 0.0.17
+Summary: Command line tool to assist with price feed generation
+Home-page: http://www.github.com/xeroc/meta1-pricefeed
+Author: Fabian Schuh
+Author-email: Fabian@chainsquad.com
+Maintainer: Fabian Schuh
+Maintainer-email: Fabian@chainsquad.com
+License: UNKNOWN
+Download-URL: https://github.com/xeroc/meta1-pricefeed/tarball/0.0.17
+Description: t.me/Avowe
+Keywords: meta1,price,feed,cli
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Provides-Extra: history_db_postgresql
