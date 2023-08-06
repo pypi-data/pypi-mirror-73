@@ -1,0 +1,8 @@
+bpybuild/__init__.py,sha256=l1ySgK_GMX9dg_wz9sRfHTBmqFuQRwRmlKymYFuKXfQ,592
+bpybuild/make.py,sha256=K36mw6E3l4yg1gIB0TEU5aoKcNVpQl1NNQn-4-ijWko,5394
+bpybuild/sources.py,sha256=w-z2_k4W9CslIEEb4_9T99_y-gymBzK0Ih5QjibRlrg,13960
+bpy_build-1.3.0.dist-info/LICENSE,sha256=Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms,35821
+bpy_build-1.3.0.dist-info/METADATA,sha256=DnnrjAIWWOKPndUQ1W6rZA3mmyyDjE43Nhgow6aBn6Y,1838
+bpy_build-1.3.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bpy_build-1.3.0.dist-info/top_level.txt,sha256=LCPJVy5oDROq6-NF20C1R-KEzHHwPYQmIx1kY8-jAUo,9
+bpy_build-1.3.0.dist-info/RECORD,,
