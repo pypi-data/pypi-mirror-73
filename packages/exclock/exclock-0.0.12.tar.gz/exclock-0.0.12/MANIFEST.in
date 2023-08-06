@@ -1,0 +1,2 @@
+recursive-include exclock/assets *
+recursive-include exclock/examples *
