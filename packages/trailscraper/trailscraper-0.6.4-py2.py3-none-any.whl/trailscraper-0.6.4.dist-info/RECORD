@@ -1,0 +1,17 @@
+trailscraper/__init__.py,sha256=vEncM9-UPJurgnAKqLO-wUTy81zYIsY680-lHndT-4M,142
+trailscraper/boto_service_definitions.py,sha256=AhXjyjYwt4FsiZhVMRtrSw0urKt-I_AGCGWvXM-Obwc,1397
+trailscraper/cli.py,sha256=3SMifRJ8XHVZVC_Jlnf-S8G6fEtMGo57ErrvWZypva0,6050
+trailscraper/cloudtrail.py,sha256=cee_hW5WMOUcj-W_fPoxeLRU2OVCSFxd4pQv5iI47Eo,13142
+trailscraper/collection_utils.py,sha256=qngBJtH-SdKpIQhcMbxb7pV0-hBYT1_JgKNcgFhK3Ns,305
+trailscraper/guess.py,sha256=fTDCBy3SZ-gIJPo9Oaa6FhunxzTPv33PKqvbdQz_XVk,936
+trailscraper/iam.py,sha256=oVrAnSHEsBjXCplgxlsVU6tpwN0to08nr628H7ta6ig,6117
+trailscraper/known-iam-actions.txt,sha256=XlSavGHSi8k0uxmMzbMTlXWT-Jr_kov7cwGucPSjyyQ,111228
+trailscraper/policy_generator.py,sha256=1crnL_kjuZBIFoEfxO3cXeyCsIDxe5__1qHwniVyGk8,1128
+trailscraper/s3_download.py,sha256=NOUhSDF5A8pkL6uX33bDJ8XwfAeAQHzMHh49AMkw_-4,4152
+trailscraper/time_utils.py,sha256=YYgMwwcB3ENwK_M7aJr-Z7aPAphZ6EBr9fEvabse7Hc,309
+trailscraper-0.6.4.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+trailscraper-0.6.4.dist-info/METADATA,sha256=YlIWp0UI23ohIH9Y0BU4YRdE5-Zy6Am9CxVNaFoI918,16270
+trailscraper-0.6.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+trailscraper-0.6.4.dist-info/entry_points.txt,sha256=F9Ht9pVdGSaKsHWLjGhklTYic-9fRkcNnNcrTwRpjwg,62
+trailscraper-0.6.4.dist-info/top_level.txt,sha256=ma43aAE6TMPbR3B4OSAXWuWuWgfJNCewhROPCYtYijU,13
+trailscraper-0.6.4.dist-info/RECORD,,
