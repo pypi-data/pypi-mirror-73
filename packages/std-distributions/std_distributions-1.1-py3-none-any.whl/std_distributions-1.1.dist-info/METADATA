@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: std-distributions
+Version: 1.1
+Summary: Gaussian and Binomial distributions
+Home-page: UNKNOWN
+Author: Mutahar Majid
+Author-email: mutaharmajid243@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+## Description:
+
+It's a statistical tool to analyze your dataset using standard distributions such as binomial and gaussian distributions.
+
+## Features:
+
+- Calculate mean, standard deviation, probability density function(pdf) and plot graphs for a dataset. You can also add distribution objects from different datasets to calculate the same for the resultant distribution.
+- Binomial distribution allows plotting bar graphs for the instance variable and probability density function(pdf). Gaussian distribution uses histograms for the same
+
+## Installation:
+
+```python
+pip install std_distributions
+```
+
+### Note:
+
+Please install matplotlib to plot graphs,(if not already installed) from [here](https://matplotlib.org/users/installing.html).
+
+## Example usage
+
+```python
+
+>>>from std_distributions import Binomial, Gaussian
+'''
+Creating distribution objects
+Sytax:
+binomial_obj = Binomial(probability,size)
+gaussian_obj = Gaussian(mean, standard_deviation) or Gaussian()
+'''
+>>>b1 = Binomial(0.5,22)
+>>>b1
+>>>mean = 11.0, standard deviation = 2.345207879911715, p = 0.5, n = 22b2 = Binomial(0.5,44)
+>>>b_resultant = b1+b2
+>>>b_resultant
+>>>mean = 33.0, standard deviation = 4.06201920231798, p = 0.5, n = 66
+>>>g1 = G()
+>>>g1.read_data_file("numbers.txt")g1.calculate_mean()
+>>>1.8181818181818181g1.calculate_stdev()
+>>>1.8340219092574557
+```
+

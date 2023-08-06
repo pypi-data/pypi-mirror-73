@@ -1,0 +1,8 @@
+std_distributions/Binomialdistribution.py,sha256=SYeYwj2MjODysrV-K-bgey_MFTwaFJtg8fUP7LHjCg0,4622
+std_distributions/Gaussiandistribution.py,sha256=gj2p-nHhE-5XpkYdB3orBpKa-CKouAHcMHSmjwHq56s,3648
+std_distributions/Generaldistribution.py,sha256=i_YsArEj9nzsneN5C3ZQfpLm5N1YSoCAf2hQ6d7QTSg,933
+std_distributions/__init__.py,sha256=0x5xInZkmBodPUmHVJ-Ug_j_t0JugOzUY8RQ7aUbZ44,86
+std_distributions-1.1.dist-info/METADATA,sha256=VkP9QTbqfa0pOe7TY-DWiiNH1VCvGZwI0K8YZhw9c54,1601
+std_distributions-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+std_distributions-1.1.dist-info/top_level.txt,sha256=2h7HSwSY-hgNkRh58BrUklJVzJGswFxDLQ5CHPAtUzo,18
+std_distributions-1.1.dist-info/RECORD,,
