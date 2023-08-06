@@ -1,0 +1,4 @@
+
+                    [console_scripts]
+                    semantic=cloudmitigator_semantic.cli:semantic
+                 
