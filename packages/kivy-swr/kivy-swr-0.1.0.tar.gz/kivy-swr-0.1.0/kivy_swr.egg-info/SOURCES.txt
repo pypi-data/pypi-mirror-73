@@ -1,0 +1,7 @@
+README.md
+setup.py
+kivy_swr.egg-info/PKG-INFO
+kivy_swr.egg-info/SOURCES.txt
+kivy_swr.egg-info/dependency_links.txt
+kivy_swr.egg-info/requires.txt
+kivy_swr.egg-info/top_level.txt
