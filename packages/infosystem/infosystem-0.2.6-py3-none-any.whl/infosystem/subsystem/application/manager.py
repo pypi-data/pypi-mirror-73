@@ -1,0 +1,49 @@
+from infosystem.common import exception
+from infosystem.common.subsystem import operation, manager
+
+
+class CreateCapabilities(operation.Operation):
+
+    def pre(self, session, id: str, **kwargs):
+        self.application_id = id
+        self.resources = kwargs.get('resources', None)
+        if self.resources is None:
+            raise exception.OperationBadRequest()
+
+        return self.driver.get(id, session=session) is not None
+
+    def _create_capability(self, application_id: str, route_id: str) -> None:
+        self.manager.api.capabilities.create(application_id=application_id,
+                                             route_id=route_id)
+
+    def _filter_route(self, route, endpoint, exceptions):
+        is_sysadmin = route.sysadmin
+        is_in_exceptions = route.method in exceptions
+
+        start_with = route.url.startswith("{}/".format(endpoint))
+        match_endpoint = route.url == endpoint or start_with
+
+        return not is_sysadmin and not is_in_exceptions and match_endpoint
+
+    def _filter_routes(self, routes, endpoint, exceptions):
+        return [route.id for route in routes
+                if self._filter_route(route, endpoint, exceptions)]
+
+    def do(self, session, **kwargs):
+        routes = self.manager.api.routes.list(sysadmin=False)
+        routes_ids = []
+
+        for resource in self.resources:
+            endpoint = resource['endpoint']
+            exceptions = resource.get('exceptions', [])
+            routes_ids += self._filter_routes(routes, endpoint, exceptions)
+
+        for route_id in routes_ids:
+            self._create_capability(self.application_id, route_id)
+
+
+class Manager(manager.Manager):
+
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.create_capabilities = CreateCapabilities(self)
