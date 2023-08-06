@@ -1,0 +1,9 @@
+git_file_mapper/__init__.py,sha256=PqAgo-NhdiOH-TOtUP_OCV8-U21-LiEcOGu7kSycRts,19
+git_file_mapper/cli.py,sha256=58aXsFiRi7dkMb9ndSx9Npa9frVlwClG_-i3bK77SNM,1542
+git_file_mapper/mapper.py,sha256=kRI7hnVYQnFFfmWiMe4POALNZhWEM-2DmbL7OPeR_3c,5923
+git_file_mapper-1.0.0.dist-info/LICENCE,sha256=xMS2X2VMP6MCqdYSCF-Wti4-2GNN_bdqJ_iqfeR78-Q,1496
+git_file_mapper-1.0.0.dist-info/METADATA,sha256=WRNu2Ejf735KT8o0NGaRjfNfWn6wEUDyanOQ7dEi-GU,3574
+git_file_mapper-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+git_file_mapper-1.0.0.dist-info/entry_points.txt,sha256=_3RpOWf1qEEM8hZC5QKpUKV8A74lLiCHgORXYS6muHI,62
+git_file_mapper-1.0.0.dist-info/top_level.txt,sha256=qLAq1HVho1ilr8UtFhEhBGIBMko8_ID7HHtVLEsZdeg,16
+git_file_mapper-1.0.0.dist-info/RECORD,,
