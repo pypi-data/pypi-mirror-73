@@ -1,0 +1,110 @@
+# bson_extra #
+
+
+A package that provides timezone support and custom type handling functionality for MongoDB bson -> https://api.mongodb.com/python/current/api/bson/index.html
+
+
+MongoDB bson is great - but it doesn't allow for certain custom types - specifically timezone support.  This package rectifies that.
+
+This package provides a new `dumps` and `loads` method that overrides the `~bson.json_util.dumps` and `~bson.json_util.load` functions
+in a few key places to support timezones - everything else works in the same way as in the core package.
+
+Hooks are also provided so that you can handle custom type handling as necessary.
+
+
+### Installation ###
+
+```
+pip install bson_extra
+```
+
+
+### Usage ###
+
+`bson_extra` handle timezone aware and timezone naive datetimes.  
+`bson_extra` retains all existing functionality of `~bson.json_util.dumps` - meaning you can provide `json_options` to configure the output
+as required.  Hooks are also provided so that you can implement your own custom handling as required.
+
+#### Dumping a timezone aware datetime #### 
+```python
+>>> from datetime import datetime
+>>> from bson_extra import bson_extra
+>>> import pytz
+
+>>> timezone = pytz.timezone("America/New_York")
+>>> dt = datetime(2020,6,20,12,30,45).astimezone(timezone)
+
+>>> bson_extra.dumps(dt)
+'{"$date": 1592652645000, "$zone": "America/New_York", "$offset": {"total_seconds": -14400.0}}'
+```
+
+
+#### Loading a timezone aware datetime #### 
+```python
+>>> from datetime import datetime
+>>> from bson_extra import bson_extra
+
+>>> dumped_data = '{"$date": 1592652645000, "$zone": "America/New_York", "$offset": {"total_seconds": -14400.0}}'
+>>> bson_extra.loads(dumped_data)
+datetime(2020, 6, 20, 7, 30, 45, tzinfo=<DstTzInfo 'America/New_York' EDT-1 day, 20:00:00 DST>)
+```
+   
+#### Dumping a timezone naive datetime #### 
+```python
+>>> from datetime import datetime
+>>> from bson_extra import bson_extra
+
+>>> dt = datetime(2020,6,20,12,30,45)
+
+>>> bson_extra.dumps(dt)
+'{"$date": 1592656245000, "$zone": null, "$offset": null}'
+```
+
+
+#### Loading a timezone naive datetime #### 
+```python
+>>> from datetime import datetime
+>>> from bson_extra import bson_extra
+
+>>> dumped_data = '{"$date": 1592656245000, "$zone": null, "$offset": null}'
+>>> bson_extra.loads(dumped_data)
+datetime(2020, 6, 20, 7, 30, 45)
+```
+
+
+#### Handling custom types ####
+
+What if you want to handle a specific type that isn't currently supported by `bson`?  
+`bson_extra` supplies some hooks to enable you to do this easily by subclassing `BsonExtra`
+
+```python
+>>> from bson_extra import BsonExtra
+>>> class CustomBsonExtra(BsonExtra):
+>>>     def dump_object_hook(self, obj, json_options):
+>>>         if isinstance(obj, int):
+>>>             # By default `bson`  dumps integers as a string
+>>>             result = {"$integer": obj}
+>>>         else:
+>>>             result = super(CustomBsonExtra, self).dump_object_hook(obj, json_options)
+>>>         return result
+>>>
+>>>     def load_object_hook(self, dct, *args, **kwargs):
+>>>         result = super(CustomBsonExtra, self).load_object_hook(dct, *args, **kwargs)
+>>>         if "$integer" in dct:
+>>>              return int(dct['$integer'])
+>>>         return result
+>>>
+>>> # By default `bson` dumps integers as strings
+>>> bson_extra = CustomBsonExtra()
+>>> bson_extra.dumps(1)
+>>> '{"$integer": 1}'
+>>>
+>>> bson_extra.loads('{"$integer": 1}')
+>>> 1
+```
+
+### Running the tests ###
+
+```
+python setup.py test
+```

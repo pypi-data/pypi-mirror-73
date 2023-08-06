@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+bson_extra/__init__.py
+bson_extra/__version__.py
+bson_extra.egg-info/PKG-INFO
+bson_extra.egg-info/SOURCES.txt
+bson_extra.egg-info/dependency_links.txt
+bson_extra.egg-info/not-zip-safe
+bson_extra.egg-info/requires.txt
+bson_extra.egg-info/top_level.txt
+bson_extra/tests/__init__.py
+bson_extra/tests/test_bson_extra.py
