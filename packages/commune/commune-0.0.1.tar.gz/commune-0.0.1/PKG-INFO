@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: commune
+Version: 0.0.1
+Summary: A system to simulate communal interaction in video games.
+Home-page: https://github.com/oAGoulart/commune
+Author: Augusto Goulart
+Author-email: josegoulart.aluno@unipampa.edu.br
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/oAGoulart/commune/issues
+Project-URL: Source, https://github.com/oAGoulart/commune
+Description: # Commune
+        
+        [![License](https://img.shields.io/badge/license-MIT-informational.svg)](https://opensource.org/licenses/MIT)
+        
+        **NOTE: This project is currently in planning phase.**
+        
+        ## Contributions
+        
+        Feel free to leave your contribution here, I would really appreciate it!
+        Also, if you have any doubts or troubles using this package just contact me or leave an issue.
+        
+Keywords: game commune simulate
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

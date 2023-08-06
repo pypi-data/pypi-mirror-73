@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/commune/__init__.py
+src/commune.egg-info/PKG-INFO
+src/commune.egg-info/SOURCES.txt
+src/commune.egg-info/dependency_links.txt
+src/commune.egg-info/top_level.txt
