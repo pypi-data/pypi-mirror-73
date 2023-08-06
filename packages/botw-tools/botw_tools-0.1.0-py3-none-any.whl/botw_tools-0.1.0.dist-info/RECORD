@@ -1,0 +1,12 @@
+botw_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botw_tools/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botw_tools/aamp.py,sha256=pIetzl1xuZ0qPfn5Qo9v7JdzyYCloAIFzW1FVkSZMvk,1971
+botw_tools/actorinfo.py,sha256=WYaxI2y9jwOfsz84T1hhOllOIUpF8iAz1HBDuBqhuwI,7234
+botw_tools/byml.py,sha256=tXQqFL9MRaH7qhvLEQdJOziEpCiW8YA9aoqddliiOBs,2605
+botw_tools/sarc.py,sha256=xcW3tl7Leuo9GAmDNnq9t0kF9VJmE2WvGfsO3fG_cJM,5475
+botw_tools/yaz0.py,sha256=9Qmwn7rqOXdc5Yk7sNnvg8lOEox5MklSxZgbNXmZEYY,2384
+botw_tools-0.1.0.dist-info/METADATA,sha256=HG6-z8Cxo3sq1KZ3zbPHeFAiFQhWdVhFoMtJn330fNs,874
+botw_tools-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botw_tools-0.1.0.dist-info/entry_points.txt,sha256=ZL9O-1m8T0riObm6GORg3SxYYwqA6fLiIP0A5IcFo3E,197
+botw_tools-0.1.0.dist-info/top_level.txt,sha256=cUxJCayroi_2vmHdifCcgoyGmjIiC3Y4yQHQBqlvpUY,11
+botw_tools-0.1.0.dist-info/RECORD,,
