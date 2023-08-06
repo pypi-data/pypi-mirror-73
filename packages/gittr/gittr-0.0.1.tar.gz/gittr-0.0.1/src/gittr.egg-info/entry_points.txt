@@ -1,0 +1,3 @@
+[console_scripts]
+gittr = gittr.cli.__main__:cli
+

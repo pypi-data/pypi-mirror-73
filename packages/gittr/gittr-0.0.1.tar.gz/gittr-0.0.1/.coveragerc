@@ -1,0 +1,16 @@
+[run]
+branch = true
+source =
+    gittr.cli
+
+[paths]
+source =
+    src
+    **/site-packages
+
+[report]
+omit =
+    setup.py
+    src/gittr/cli/__main__.py
+    src/gittr/cli/_version.py
+    tests/*
