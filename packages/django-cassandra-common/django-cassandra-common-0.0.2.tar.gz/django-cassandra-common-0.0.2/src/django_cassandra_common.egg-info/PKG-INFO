@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: django-cassandra-common
+Version: 0.0.2
+Summary: Common classes I have found useful to develop with Django and Cassandra
+Home-page: https://github.com/didier47/django-cassandra-common
+Author: Didier Gaona
+Author-email: didiergaona@gmail.com
+License: GNU General Public License v3.0
+Download-URL: https://github.com/didier47/django-cassandra-common/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
