@@ -1,0 +1,16 @@
+remerkleable>=0.1.16
+eth2spec>=0.12.1
+trio<0.16.0,>=0.15.0
+httpx<0.13.0,>=0.12.1
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
+pallets_sphinx_themes
+sphinx_issues
+
+[linting]
+flake8
+
+[testing]
+pytest
