@@ -1,0 +1,8 @@
+README.md
+setup.py
+functionalstream/__init__.py
+functionalstream/stream.py
+functionalstream.egg-info/PKG-INFO
+functionalstream.egg-info/SOURCES.txt
+functionalstream.egg-info/dependency_links.txt
+functionalstream.egg-info/top_level.txt
