@@ -1,0 +1,7 @@
+spacy<3.0.0,>=2.3.0
+requests<3.0.0conllu,>=2.0.0
+numpy
+joblib
+nmslib>=1.7.3.6
+scikit-learn>=0.20.3
+pysbd
