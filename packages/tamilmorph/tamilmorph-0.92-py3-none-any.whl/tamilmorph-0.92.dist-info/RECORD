@@ -1,0 +1,17 @@
+tamilmorph/ThamizhiLP.py,sha256=e4iRsh4V71rff3eplJKoMT9xkfQ9HvJHQXNESqp8mYY,13463
+tamilmorph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamilmorph/analyser.py,sha256=mg72rHfkAHpoDZtiu48fRqzqbfua61Mpjeos0Gm9xVM,3579
+tamilmorph/fsts/noun-guesser.fst,sha256=pjObS4d3tJA_XJ2YkwptiGXTVpQ_a2e3xj-dCXgLdNk,4252
+tamilmorph/fsts/noun.fst,sha256=B8yBLuFI59wbVU-kEYXu_NGQlxySQeN_znYlMWp0pVg,155128
+tamilmorph/fsts/verb-guesser.fst,sha256=3fyl9H4WTDHlrNznI69xCtt9JUcUYUqk0iYFDZYteVU,7709
+tamilmorph/fsts/verbs-rest.fst,sha256=OwdvA9X-_c12imjym6n22GhkEQ-5dmWDmKxmxBW8ggo,155859
+tamilmorph/fsts/verbs11.fst,sha256=i8OhPEIP7i9D4JmYIWdae8DfHY28kP5BHKyR9C9rVbc,83244
+tamilmorph/fsts/verbs12.fst,sha256=IXuHBlgM_aFuVo0XwR37MkdBu4SG09m0tYq2kzA2Gzc,58350
+tamilmorph/fsts/verbs3.fst,sha256=QhfEmCu3EVxKeGbytNcDX3DjdjKT_FseBtzBldiz234,16397
+tamilmorph/fsts/verbs4.fst,sha256=bMtS-Yus0kR1XSssRzFVVbQcOcba2PzNcaYdixilBbY,46771
+tamilmorph/fsts/verbs62.fst,sha256=hR-CRk4HV0uW_n873wRm8hb1Y6O5xerNDOVhf3jW_ng,16126
+tamilmorph-0.92.dist-info/LICENSE,sha256=FTS-2xvXe-ZI1WQzODYGtMpRLmHd4-OnCuX2Wy-KCto,11388
+tamilmorph-0.92.dist-info/METADATA,sha256=6VMieiEBx3-P_7qhBsi_T1TwfKHS5A9hdq-HI9mMQOc,686
+tamilmorph-0.92.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tamilmorph-0.92.dist-info/top_level.txt,sha256=oYsEx096EjzZPxkOc0QoSDpl7ht5tBB3xjgk8B9lfUo,11
+tamilmorph-0.92.dist-info/RECORD,,
