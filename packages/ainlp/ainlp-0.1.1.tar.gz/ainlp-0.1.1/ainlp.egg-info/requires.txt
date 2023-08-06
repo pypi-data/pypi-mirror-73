@@ -1,0 +1,6 @@
+pymysql
+emoji
+jieba
+pyrefo
+attrdict
+tqdm
