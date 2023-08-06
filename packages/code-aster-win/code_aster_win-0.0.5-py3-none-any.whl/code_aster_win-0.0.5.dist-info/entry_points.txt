@@ -1,0 +1,4 @@
+[console_scripts]
+py_as_run = code_aster.command_line:py_as_run
+py_run_astk = code_aster.command_line:py_run_astk
+
