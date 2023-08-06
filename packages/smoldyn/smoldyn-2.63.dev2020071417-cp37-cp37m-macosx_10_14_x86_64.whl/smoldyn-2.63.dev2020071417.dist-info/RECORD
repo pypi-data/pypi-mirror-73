@@ -1,0 +1,13 @@
+smoldyn/stypes.py,sha256=Klkf938-YtHPH7zAMRHasR4vaXHXwYi02PgJSInhito,191
+smoldyn/config.py,sha256=3EHbhPNmLkFqSkPY98wP0Swlq2KY1spgvI4rP21qu1Y,93
+smoldyn/smoldyn.py,sha256=-RXvhMuyGZeg_4skXqhR0JVsPbc6LG_XrW1KueAW7K0,59905
+smoldyn/_smoldyn.cpython-37m-darwin.so,sha256=LcsXtvP7Lsc4AfnkEjMvNe_Lqiwcpj6cRhp_QsSz9yY,1690860
+smoldyn/__init__.py,sha256=4QjqQZtoFrC0flBGcMybgjR60SucBJduw0cIpPiA-lU,170
+smoldyn/utils.py,sha256=UUYY9kFMvfcS7oshLhp_99N2HUeO67Odqua_GgVaToU,1061
+smoldyn/__main__.py,sha256=qrGOHLac1vCqXGXE8XQfwFU72oLwvRQdaqrmh_pjBvE,594
+smoldyn/.dylibs/libjpeg.9.dylib,sha256=mFWaf24obIHJ89HdFbLX_RzJeSnTyFjNA5LtC9fM_pw,215056
+smoldyn/.dylibs/libtiff.5.dylib,sha256=FOpyzQ8pGEkl93bRxthrIo0RizwOqRqlr40C2NWQvc4,443352
+smoldyn-2.63.dev2020071417.dist-info/RECORD,,
+smoldyn-2.63.dev2020071417.dist-info/WHEEL,sha256=3MaGW2p97bAuypYB82dW_j_Lc_Fni2yOyOJA9oupd_4,111
+smoldyn-2.63.dev2020071417.dist-info/top_level.txt,sha256=2FmedD0M8FnH4zNLmZCw84tbGuurvZfurkH4l4zSybQ,8
+smoldyn-2.63.dev2020071417.dist-info/METADATA,sha256=3JrIcyzQa92Z3LKsKmMB9uItkx5poO4ydD2aNBRloKo,1196
