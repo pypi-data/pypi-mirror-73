@@ -1,0 +1,11 @@
+pg8000/__init__.py,sha256=DghVxaEmL24UBXKiKre6bR8p-eJ5qcP3K7Q9B4QaS_Q,4051
+pg8000/_version.py,sha256=DvNOEwx1IV-AfrliE4pYywtlJVrt70u4aZ0upCY5mhw,472
+pg8000/converters.py,sha256=fGLy5rxL9-qFapkMVCuwVcPOAF_oNswez1eReX8fdmk,13208
+pg8000/core.py,sha256=rRDDm71Ml6oUORRfOAiG3ZCE8v857bbBgtP3yo_PL2Q,62507
+pg8000/exceptions.py,sha256=CH-FNgNjpftpQpqsxUKCiivswB92gldgXIXmX59CSVk,3857
+pg8000-1.16.0.dist-info/DESCRIPTION.rst,sha256=KXamFYNMeQWUJzHDv1KEeCAIHd2_D4JDVFg5hoKsDHM,509
+pg8000-1.16.0.dist-info/METADATA,sha256=F3jja8kS2kUkaBwJlH_bjV5v-ecr_TlKcYV5EVPCCZE,1600
+pg8000-1.16.0.dist-info/RECORD,,
+pg8000-1.16.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pg8000-1.16.0.dist-info/metadata.json,sha256=3FaWDfdlLCNSbCTn766eLGwNNmCqEdmIjGxQ90k3TjQ,1219
+pg8000-1.16.0.dist-info/top_level.txt,sha256=R-X4475Cez2l7ZYcYUJzuffAxDS7xHCCA0JCjs8iKKE,7
