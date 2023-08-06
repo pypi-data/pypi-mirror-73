@@ -1,0 +1,10 @@
+leafage/__init__.py,sha256=IP6x0j0L027z0u6p7e0kbmy6HpfchIrEegeFAYBfIXA,38
+leafage/module.py,sha256=MZ5vyvVIsG2BO4sLBKY__qjPwAnhRkzb9usdXgc2tYE,421
+leafage/__pycache__/__init__.cpython-37.pyc,sha256=kvpoWGgoBScUVwMh3rg5aVnzZwvX-1Es4Go5RY-rn4w,157
+leafage/__pycache__/leafage.cpython-37.pyc,sha256=xezrTQgNOGdlTZdY9nQLVEDxps5uiXT-tEZmKPtBp3I,581
+leafage/__pycache__/module.cpython-37.pyc,sha256=jcL_jN0dGQVTzDQ_f5UJoJsvm4x6J0Off9Av5ecx1Ew,580
+django_leafage-0.3.2.dist-info/LICENSE,sha256=LYwI-tu27m2dil9sxCsvWGjyl4c99gTL4hhvaAv1Dus,1075
+django_leafage-0.3.2.dist-info/METADATA,sha256=2E4QZPGPAJdFEn60QTsylkRLh7ev1ey3D1a5WMONLOw,1781
+django_leafage-0.3.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_leafage-0.3.2.dist-info/top_level.txt,sha256=TnnoZBAo6RBB5S1p6P5gqGiQoLFcm8M2STjdG4lGEig,8
+django_leafage-0.3.2.dist-info/RECORD,,
