@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+GKBasicCalculator/__init__.py
+GKBasicCalculator.egg-info/PKG-INFO
+GKBasicCalculator.egg-info/SOURCES.txt
+GKBasicCalculator.egg-info/dependency_links.txt
+GKBasicCalculator.egg-info/top_level.txt
