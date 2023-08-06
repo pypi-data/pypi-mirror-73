@@ -1,0 +1,10 @@
+README.md
+setup.py
+nnie/__init__.py
+nnie/blob.py
+nnie/nnie.py
+nnie.egg-info/PKG-INFO
+nnie.egg-info/SOURCES.txt
+nnie.egg-info/dependency_links.txt
+nnie.egg-info/requires.txt
+nnie.egg-info/top_level.txt
