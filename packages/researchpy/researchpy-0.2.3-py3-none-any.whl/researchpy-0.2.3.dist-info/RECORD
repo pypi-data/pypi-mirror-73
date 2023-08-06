@@ -1,0 +1,10 @@
+researchpy/__init__.py,sha256=NwTPYrmZQE3LTTWu712G1fjotlovwxkCaIPSLL2fajM,195
+researchpy/correlation.py,sha256=A3iKZueVRSVYrXtIQ0VzAbhlaO0K6H2Agr6JhiQnOgg,3219
+researchpy/crosstab.py,sha256=lOATADmMYm4714IFOcKAON8R7szm1VZQuG3FqeCkomE,6505
+researchpy/summary.py,sha256=cgus63qUi8sGKWXWSITmIZY7mrdvOt0q0FdH1w0KqgA,15859
+researchpy/ttest.py,sha256=jFzeAAAM6hS5lijlO8y26JSHjesXLflMK16D-knQopM,11654
+researchpy-0.2.3.dist-info/LICENSE.txt,sha256=COTkW3riHiaau2nLoAq3SDHile-b8fqiutW7NIXBlCw,1541
+researchpy-0.2.3.dist-info/METADATA,sha256=i4yrxyNpoW03uW0_lxfaPqtbaCvPMOTWEQ1XjnLVO7E,1012
+researchpy-0.2.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+researchpy-0.2.3.dist-info/top_level.txt,sha256=_v7XQ-HCRytQ5t_tLauLERBLfVXJjzzYYkOBIeztrsE,11
+researchpy-0.2.3.dist-info/RECORD,,
