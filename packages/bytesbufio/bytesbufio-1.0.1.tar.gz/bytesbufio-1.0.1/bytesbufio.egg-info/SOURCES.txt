@@ -1,0 +1,7 @@
+setup.py
+bytesbufio/__init__.py
+bytesbufio/bytes_buffer_io.py
+bytesbufio.egg-info/PKG-INFO
+bytesbufio.egg-info/SOURCES.txt
+bytesbufio.egg-info/dependency_links.txt
+bytesbufio.egg-info/top_level.txt
