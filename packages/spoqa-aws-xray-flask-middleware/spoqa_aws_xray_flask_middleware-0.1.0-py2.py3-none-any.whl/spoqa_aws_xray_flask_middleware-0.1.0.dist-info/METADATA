@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: spoqa-aws-xray-flask-middleware
+Version: 0.1.0
+Summary: Spoqa flavoured AWS X-Ray middleware for Flask
+Home-page: https://github.com/spoqa/aws-xray-flask-middleware
+License: MIT
+Author: Spoqa Creators
+Author-email: dev@spoqa.com
+Maintainer: rusty
+Maintainer-email: rusty@spoqa.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aws-xray-sdk (>=2.6.0,<3.0.0)
+Requires-Dist: flask (>=0.10)
+Project-URL: Repository, https://github.com/spoqa/aws-xray-flask-middleware
+Description-Content-Type: text/markdown
+
+# spoqa-aws-xray-flask-middleware
+
+Spoqa flavoured AWS X-Ray middleware for Flask
+
+**Before**:
+
+```
+https://example.com/api/12345/messages
+http://localhost:8000/api/32123/messages
+http://127.0.0.1/api/43434/messages
+...
+```
+
+**After**:
+
+```
+//service_name/api/<int:id>/messages
+```
+
+## Usage
+
+Replace `aws_xray_sdk.ext.flask.middleware.XRayMiddleware` with `spoqa_aws_xray_flask_middleware.XRayMiddleware`
+
+```python
+from aws_xray_sdk.core import xray_recorder
+from spoqa_aws_xray_flask_middleware import XRayMiddleware
+
+app = Flask(__name__)
+
+xray_recorder.configure(service='fallback_name', dynamic_naming='*mysite.com*')
+XRayMiddleware(app, xray_recorder)
+```
+
