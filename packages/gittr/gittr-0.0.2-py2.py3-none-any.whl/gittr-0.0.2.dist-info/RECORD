@@ -1,0 +1,13 @@
+gittr/__init__.py,sha256=UujEn0u5F_p6Xu5fDKN7yLadsm71MEtuR4l4hFr7PLo,109
+gittr/cli/__init__.py,sha256=CyLlW9U-benpr_et43GtRDLcN0c1CotMKETUpNPODtE,116
+gittr/cli/__main__.py,sha256=gdptk8jOfWuM-CHvc5DXah4uyiwLz-8HHVHPFCHoFBc,29
+gittr/cli/_version.py,sha256=i1yX3GxdXutI1YYCvUV8O7msNGXkA6ETlvkNrLCI_XM,116
+gittr/cli/action.py,sha256=B7k4D7wBigm2HmnXGXKH6AiR_h-B3Y5Cf6UhDiCWRLY,7291
+gittr/cli/cli.py,sha256=F9hKpXJ06kXFwG14dUdNMBzwfvDnQ6R1Ny73-9H8OtU,3508
+gittr/cli/utils.py,sha256=pwhj193ejuoF7VHPLScALzJxqdoAFIR9RVUxHINGeJg,1567
+gittr-0.0.2.dist-info/LICENSE,sha256=_x0xFV8ZkvFpSm1P5eKbjZoiQi_DFLHH2p_e5V8KXos,1508
+gittr-0.0.2.dist-info/METADATA,sha256=5JDU8gI6G0NWKDf76GE7VYqFaym6qs6nZHHk4NkwDS0,2818
+gittr-0.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gittr-0.0.2.dist-info/entry_points.txt,sha256=q4_2xq2yhoD3tIqYqtkmFcGpmpIj1lQbg6KtCK-4Pzo,79
+gittr-0.0.2.dist-info/top_level.txt,sha256=KpHGMxIrpidUtcO9E5ABg2QphJtqqfDC9WkZBqg7nac,6
+gittr-0.0.2.dist-info/RECORD,,
