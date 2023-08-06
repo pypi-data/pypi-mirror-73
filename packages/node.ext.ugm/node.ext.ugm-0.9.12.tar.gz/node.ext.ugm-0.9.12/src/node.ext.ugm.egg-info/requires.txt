@@ -1,0 +1,6 @@
+node
+plumber
+setuptools
+
+[test]
+zope.testrunner
