@@ -1,0 +1,7 @@
+qtpy
+docutils
+qtawesome
+bidict
+orjson
+regex
+pygments
