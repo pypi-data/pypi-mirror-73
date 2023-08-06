@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: huawei-hg659
+Version: 0.0.3
+Summary: Scraper for Huawei HG659 Router
+Home-page: https://github.com/PretentiousPotatoPeeler/huawei-hg659/
+Author: Pepijn Compaan
+Author-email: pepijncompaan@gmail.com
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Requires-Dist: bs4
+Requires-Dist: requests
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# huawei-hg659
+
+Scraper for Huawei HG659 Router to get the connected devices.
+
+## Usage
+
+```python
+from huawei_hg659 import Connector
+c = Connector('ip', 'user', 'pass')
+c.getLanDevices()
+# [{host: 'HOSTNAME', ip: 'IP', mac: 'MAC', active: True|False}]
+```
+
+
+## Note
+
+This project has been set up using PyScaffold 3.2.3. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+
