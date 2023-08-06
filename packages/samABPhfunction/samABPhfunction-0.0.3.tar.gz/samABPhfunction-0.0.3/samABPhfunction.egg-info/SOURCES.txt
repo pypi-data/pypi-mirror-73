@@ -1,0 +1,11 @@
+README.md
+setup.py
+samABPhfunction/__init__.py
+samABPhfunction/conservativepotential.py
+samABPhfunction/effectivepotentials.py
+samABPhfunction/wfuncsoft.py
+samABPhfunction.egg-info/PKG-INFO
+samABPhfunction.egg-info/SOURCES.txt
+samABPhfunction.egg-info/dependency_links.txt
+samABPhfunction.egg-info/requires.txt
+samABPhfunction.egg-info/top_level.txt
