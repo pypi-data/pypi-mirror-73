@@ -1,0 +1,3 @@
+[console_scripts]
+backupcpy = backupcpy.main:main
+

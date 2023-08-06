@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+backupcpy/__init__.py
+backupcpy/main.py
+backupcpy.egg-info/PKG-INFO
+backupcpy.egg-info/SOURCES.txt
+backupcpy.egg-info/dependency_links.txt
+backupcpy.egg-info/entry_points.txt
+backupcpy.egg-info/requires.txt
+backupcpy.egg-info/top_level.txt
