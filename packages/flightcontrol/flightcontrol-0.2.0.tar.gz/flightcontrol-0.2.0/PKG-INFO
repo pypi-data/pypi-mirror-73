@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: flightcontrol
+Version: 0.2.0
+Summary: Flight tracking resources
+Home-page: https://github.com/TimHanewich/FlightControl
+Author: Tim Hanewich
+Author-email: tahanewich@live.com
+License: MIT
+Description: Flight Control
+        ==============
+        Flight Control is a python package for storing, tracking, and analyzing flight data.
+        Example:
+        
+            import flightcontrol
+            import time
+        
+            #Create a new instance of the AltitudeLogger class
+            al = flightcontrol.AltitudeLogger()
+        
+            #Simulate altitude changing
+            al.LogAltitude(50)
+            time.sleep(0.5)
+            al.LogAltitude(45)
+            time.sleep(0.5)
+            al.LogAltitude(40)
+            time.sleep(0.5)
+            al.LogAltitude(35)
+        
+            #Get rate of change
+            roc = al.RateOfChange_cm_per_second()
+            print(roc)
+        
+            #Get seconds until impact
+            #This will only return a value if the altitude is dropping
+            sui = al.SecondsUntilImpact()
+            print(sui)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
