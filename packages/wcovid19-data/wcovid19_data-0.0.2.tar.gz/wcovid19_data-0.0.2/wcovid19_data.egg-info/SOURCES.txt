@@ -1,0 +1,9 @@
+README.md
+setup.py
+wcovid19/__init__.py
+wcovid19/wcd.py
+wcovid19_data.egg-info/PKG-INFO
+wcovid19_data.egg-info/SOURCES.txt
+wcovid19_data.egg-info/dependency_links.txt
+wcovid19_data.egg-info/requires.txt
+wcovid19_data.egg-info/top_level.txt
