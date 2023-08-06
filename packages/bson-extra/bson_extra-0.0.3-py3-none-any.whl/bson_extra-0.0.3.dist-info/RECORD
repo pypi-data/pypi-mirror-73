@@ -1,0 +1,8 @@
+bson_extra/__init__.py,sha256=jSCU28auBCNTqdH-ARvseCPEWLwcLmI1Jo3AX0ozrB0,8445
+bson_extra/__version__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+bson_extra/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bson_extra/tests/test_bson_extra.py,sha256=ct-MjWJ50EZCkEIZADHZawBbmIY24cDRK33QJ1hYnrU,7693
+bson_extra-0.0.3.dist-info/METADATA,sha256=VcL-Rf8nA6PBFH8kTBHVSQar79h91oXQzR7JOVXjf-8,4297
+bson_extra-0.0.3.dist-info/RECORD,,
+bson_extra-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bson_extra-0.0.3.dist-info/top_level.txt,sha256=-Rbizx0qgLukmqbpICGN26Av-p6EbF4qw6N77mbVeIU,11
