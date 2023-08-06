@@ -1,0 +1,11 @@
+meguru_tokenizer/__init__.py,sha256=tZf_-6Su4zvWjgUotBBV7oqQ-jNgXoE4edUQZfPn8HE,124
+meguru_tokenizer/__version__.py,sha256=YCu1GBcSRkFRuGro-_ocn-LDSQlZBx8kAODtaLaKqa0,87
+meguru_tokenizer/base_tokenizer.py,sha256=myIOi4cc5rgjuu1sVUmbFbl-los7-EMfeXWulL5WsZE,2691
+meguru_tokenizer/sentencepiece_tokenizer.py,sha256=hmhdfERdq0g9HTAl0LhLfk2Pax-eXo2TraoNmiUfJ-Y,6368
+meguru_tokenizer/sudachi_tokenizer.py,sha256=c0iQAjF8AQg7CQM58FBV0Gr5L1badRf3UvlR85LXuj0,7729
+meguru_tokenizer/vocab.py,sha256=9F0lz9f-21nFaKEHTJBkWYy7zeiYpqO0osRzYfYeXSE,3765
+meguru_tokenizer/whitespace_tokenizer.py,sha256=uyeaMMDVEkEPvD97YPr3vwnObGPbkn5vqtnstlpP4Jk,4880
+meguru_tokenizer-0.1.0.dist-info/METADATA,sha256=_NmWxrCCgmVQxdzs4LPIu__OpfE-AREW4RRDChiTvYA,3648
+meguru_tokenizer-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+meguru_tokenizer-0.1.0.dist-info/top_level.txt,sha256=wU-LYeTzjTnFHdgMFsgqYggmyFUjx08_modxrkiNHIQ,17
+meguru_tokenizer-0.1.0.dist-info/RECORD,,
