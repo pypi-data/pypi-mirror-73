@@ -1,0 +1,6 @@
+tartiflette-aiohttp
+aioca
+p4p
+ruamel-yaml
+pydantic
+aiohttp-cors
