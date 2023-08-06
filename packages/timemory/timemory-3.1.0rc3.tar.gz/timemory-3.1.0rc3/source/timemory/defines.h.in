@@ -1,0 +1,56 @@
+// MIT License
+//
+// Copyright (c) 2020, The Regents of the University of California,
+// through Lawrence Berkeley National Laboratory (subject to receipt of any
+// required approvals from the U.S. Dept. of Energy).  All rights reserved.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+#pragma once
+
+/// \file timemory/defines.h
+/// \brief Provides the definitions for the installation if not using cmake
+
+#if !defined(TIMEMORY_SOURCE) && !defined(TIMEMORY_CMAKE)
+
+#cmakedefine DYNINST_API_RT "@DYNINST_API_RT@"
+#cmakedefine TIMEMORY_PYTHON_PLOTTER "@TIMEMORY_PYTHON_PLOTTER@"
+#cmakedefine TIMEMORY_USE_ALLINEA_MAP
+#cmakedefine TIMEMORY_USE_ARCH
+#cmakedefine TIMEMORY_USE_CALIPER
+#cmakedefine TIMEMORY_USE_CRAYPAT
+#cmakedefine TIMEMORY_USE_CUDA
+#cmakedefine TIMEMORY_USE_CUPTI
+#cmakedefine TIMEMORY_USE_GOTCHA
+#cmakedefine TIMEMORY_USE_GPERFTOOLS
+#cmakedefine TIMEMORY_USE_LIKWID
+#cmakedefine TIMEMORY_USE_MPI
+#cmakedefine TIMEMORY_USE_MPI_INIT
+#cmakedefine TIMEMORY_USE_NVTX
+#cmakedefine TIMEMORY_USE_OMPT
+#cmakedefine TIMEMORY_USE_PAPI
+#cmakedefine TIMEMORY_USE_PYTHON
+#cmakedefine TIMEMORY_USE_STATISTICS
+#cmakedefine TIMEMORY_USE_TAU
+#cmakedefine TIMEMORY_USE_UPCXX
+#cmakedefine TIMEMORY_USE_VTUNE
+#cmakedefine TIMEMORY_USE_XRAY
+#cmakedefine TIMEMORY_VEC @TIMEMORY_VEC@
+
+#endif
