@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+chartis/__about__.py
+chartis/__init__.py
+chartis.egg-info/PKG-INFO
+chartis.egg-info/SOURCES.txt
+chartis.egg-info/dependency_links.txt
+chartis.egg-info/entry_points.txt
+chartis.egg-info/not-zip-safe
+chartis.egg-info/top_level.txt
+chartis/cwl/__init__.py
