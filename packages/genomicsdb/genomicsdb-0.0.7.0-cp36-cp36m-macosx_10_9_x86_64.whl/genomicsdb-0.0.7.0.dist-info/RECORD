@@ -1,0 +1,9 @@
+genomicsdb.cpython-36m-darwin.so,sha256=e9uhDFoYlIVPN-opkspuWVIJ-sgYV_PX3SfthfzdS0g,122904
+genomicsdb_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genomicsdb_data/lib/libtiledbgenomicsdb.dylib,sha256=Hae2s_8ie1cskcohTWDuVA65zV5BIg_ugRRzr6F30oI,7044508
+genomicsdb_data/lib/libtiledbgenomicsdb.so,sha256=GUf_8eEH_eoFX99J1ItxYU0DffirgCGRQGW-D9_O-70,29559440
+genomicsdb-0.0.7.0.dist-info/LICENSE,sha256=6GywuFVKukdHoouqDz0294-8v8UBM4vR2zIr7WgdHsU,1072
+genomicsdb-0.0.7.0.dist-info/METADATA,sha256=w4F-7T8fwbHOc4iy7Iiir1BC2IWgol3hM9P0In6Eatw,1580
+genomicsdb-0.0.7.0.dist-info/WHEEL,sha256=lSU0w45QqfDJHTuhFZouPsIyI-GSJHfRV-2E-9aUKe4,110
+genomicsdb-0.0.7.0.dist-info/top_level.txt,sha256=7DlAswkm-8QOJ8LW82XJMaC0cInSydMlsX0KDkHWU9s,27
+genomicsdb-0.0.7.0.dist-info/RECORD,,
