@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+setup.py
+electrumsv_sdk.egg-info/PKG-INFO
+electrumsv_sdk.egg-info/SOURCES.txt
+electrumsv_sdk.egg-info/dependency_links.txt
+electrumsv_sdk.egg-info/entry_points.txt
+electrumsv_sdk.egg-info/requires.txt
+electrumsv_sdk.egg-info/top_level.txt

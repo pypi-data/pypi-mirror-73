@@ -1,0 +1,3 @@
+[console_scripts]
+electrumsv-sdk = electrumsv_sdk.app:main
+
