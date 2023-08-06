@@ -1,0 +1,14 @@
+faa_aircraft_registry/__init__.py,sha256=K97ryKZZkBgr3EkwSBwnx1C465QwqERYV1SV9kK3jC0,52
+faa_aircraft_registry/aircraft.py,sha256=0wqvgZRZQ89bGNnNz_lW3opBgn5HKZCzN8Taj5cSb6Q,1048
+faa_aircraft_registry/engines.py,sha256=F_nSqSPmRmAXGhr0BblFrGCLgTbpZzD88x5txFObCkk,922
+faa_aircraft_registry/master.py,sha256=ysexTn_Hp6Q2toYu1IuS9eXglLc3Hov2bPIe2Fiheuw,2896
+faa_aircraft_registry/read_registry.py,sha256=8MusvH4bHn6J0py8NujQWQupBujgi3AzHOyu6AqZdi0,1010
+faa_aircraft_registry/types.py,sha256=D9kcBZ7_BiRbm1cKwy879DM_cJ0Yj3q77HOU0py5f60,8542
+faa_aircraft_registry/utils.py,sha256=JDyeL4II-RDA4ezI-DnmYQTiAPCp2E-1BdMnTOS3KSU,5467
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_certification.py,sha256=ENk761xFaJZ1GPoRmv2zazhAKl2r325wV5wxAcSsNGo,1323
+faa_aircraft_registry-0.1.0.dist-info/LICENSE,sha256=mauScfcenQom2keQqPFgrEVTckoE-Z25oyDtSWmEbIY,1072
+faa_aircraft_registry-0.1.0.dist-info/METADATA,sha256=wDl7KmenCmy3wtjijo4BNqyRBUnxMu_Yh32bLvxZSD4,1769
+faa_aircraft_registry-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+faa_aircraft_registry-0.1.0.dist-info/top_level.txt,sha256=1bBPKjrKOj85yp-y0ELkPNHu5hNDD-0NSNmYGxZSPqM,28
+faa_aircraft_registry-0.1.0.dist-info/RECORD,,
