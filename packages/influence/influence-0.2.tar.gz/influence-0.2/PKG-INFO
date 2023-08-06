@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: influence
+Version: 0.2
+Summary: A utility package for python containing two sub-packages that 1. extend python, and 2. add to python
+Home-page: https://github.com/RandomKiddo/influence
+Author: Neil
+Author-email: nghugare2@outlook.com
+License: MIT
+Download-URL: https://github.com/RandomKiddo/influence/archive/v_02.tar.gz
+Description: UNKNOWN
+Keywords: PYTHON,EXTENDER,UPGRADER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
