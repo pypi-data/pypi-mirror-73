@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+distributions_sezan.egg-info/PKG-INFO
+distributions_sezan.egg-info/SOURCES.txt
+distributions_sezan.egg-info/dependency_links.txt
+distributions_sezan.egg-info/not-zip-safe
+distributions_sezan.egg-info/top_level.txt
