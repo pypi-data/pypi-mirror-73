@@ -1,0 +1,8 @@
+README.md
+setup.py
+kangaroo/__init__.py
+kangaroo_build.egg-info/PKG-INFO
+kangaroo_build.egg-info/SOURCES.txt
+kangaroo_build.egg-info/dependency_links.txt
+kangaroo_build.egg-info/requires.txt
+kangaroo_build.egg-info/top_level.txt
