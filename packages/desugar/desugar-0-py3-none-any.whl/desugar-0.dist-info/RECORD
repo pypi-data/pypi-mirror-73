@@ -1,0 +1,6 @@
+desugar/__init__.py,sha256=SjugP8k7Xk38iodFrrtUvuGfojswyXpBDdV3Zo7lQRI,98
+desugar/builtins.py,sha256=MpNiwRPWDwF2BPyEA86dsIRR8Mvn884G666qB91PI2k,2770
+desugar-0.dist-info/LICENSE,sha256=WpG3y9wS5tZyKBlD2XNJMCGaRxkjJir1zEStx4KGRTo,1069
+desugar-0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+desugar-0.dist-info/METADATA,sha256=gzinQY-t17xCk3XNb7GiSZ-Dor2XpgrpTxlkJAB3AeI,458
+desugar-0.dist-info/RECORD,,

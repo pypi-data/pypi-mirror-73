@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: desugar
+Version: 0
+Summary: Re-implement the parts of Python that allow removing its syntactic sugar.
+Home-page: https://github.com/brettcannon/desugar
+License: UNKNOWN
+Author: Brett Cannon
+Author-email: brett@python.org
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: black==19.10b0 ; extra == "dev"
+Requires-Dist: pytest==5.4.3 ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: test
