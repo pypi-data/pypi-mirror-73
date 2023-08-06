@@ -1,0 +1,15 @@
+spectrum-uncurver/__init__.py,sha256=qdvgFbqAkYWvKONJL0INBSP-SSnLwRghZz0XvKqZliU,914
+spectrum-uncurver/__main__.py,sha256=tO_H7fthq8o-dhFmkUV68zQ_XbHfBkyKTh--62_qzWQ,1617
+spectrum-uncurver/spectrumUncurver.py,sha256=g8h_q6nX-PP5tLSGyzR3B_gbPkCbNdSsqrINQgvxgYk,8809
+spectrum-uncurver/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spectrum-uncurver/test/test_spectroCurbatureCorrection.py,sha256=fi4VWTU65rKhGF2aJZBtkNr0yJmTqEfI-FnFWmjLkdc,1120
+spectrumuncurver/__init__.py,sha256=yTZujt5qZy8podqPz3dW_sK5zwByUM2AJrZekSmSO5c,914
+spectrumuncurver/__main__.py,sha256=HWkEHfee84UiVjWpeLAmroCbrshveUXor5mwv4ycSt0,1617
+spectrumuncurver/spectrumuncurver.py,sha256=4Cgwstm6SdB5Et8Lhp-Q2Pi_kONqjx6-O6nEcKFG3GE,9017
+spectrumuncurver/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spectrumuncurver/test/test_spectroCurbatureCorrection.py,sha256=OO2qEhf70o6sAeY5Q5wYBt7TPKUXrxjFB44yoUAfR0k,1120
+spectrumuncurver-0.1.6.dist-info/LICENSE.md,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+spectrumuncurver-0.1.6.dist-info/METADATA,sha256=xcJzUqCDx43GROUs5wj60r2jy9fNyOjUyE3nbbUvfTk,3323
+spectrumuncurver-0.1.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+spectrumuncurver-0.1.6.dist-info/top_level.txt,sha256=A3WSwBc1X2DoyS9V8hr3Va2hj2tYbN4uJwW-PVtameo,17
+spectrumuncurver-0.1.6.dist-info/RECORD,,
