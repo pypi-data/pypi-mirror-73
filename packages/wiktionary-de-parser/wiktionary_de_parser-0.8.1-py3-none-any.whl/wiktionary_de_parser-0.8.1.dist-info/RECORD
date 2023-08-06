@@ -1,0 +1,15 @@
+wiktionary_de_parser/__init__.py,sha256=R9WgdcvdfD8atM3-pS-LPgnIoqzserpNhMcNTBAPCDM,4384
+wiktionary_de_parser/test.py,sha256=ci31iNts5PF26XL9GxKsEKFXNYqIOMm9dsByEYcA_Hc,1413
+wiktionary_de_parser/assets/sprachcodes_iso639-1.txt,sha256=fRkpqkjXBn8jKyrXOnoMt_tz7Zk2pPLd5U7B8yNnaKY,2349
+wiktionary_de_parser/methods/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiktionary_de_parser/methods/flexion.py,sha256=ecxL-KvAlhex0W8PgIFCqnUvIfmhiNxjiqqdMeIG_R0,2280
+wiktionary_de_parser/methods/ipa.py,sha256=WJGTv9tR7EWbikRWldqzCE7UPTaHLkFudHqT110bl3E,3162
+wiktionary_de_parser/methods/language.py,sha256=2tDhm72Q9nwiftVxODfQcbqxAw7zDnBgTZIJoFI7L_4,912
+wiktionary_de_parser/methods/lemma.py,sha256=-JvdXK-xn55VKdSVscwemsbUK29D4j1DZ3bgcRmeJjE,990
+wiktionary_de_parser/methods/pos.py,sha256=ak10YumyVpO_N2g-zVAzyfp-19tlztrIgCyTTHknmpY,5567
+wiktionary_de_parser/methods/syllables.py,sha256=zT54x3ZP-DRGMLIVQCHuBOjv9ZWvWlwFQ25wxau0ixc,4080
+wiktionary_de_parser-0.8.1.dist-info/LICENSE.txt,sha256=bb3aiT4BKW1JaCAiVq5CwOF21PjAd-2_aJ8ydUXFOmE,1063
+wiktionary_de_parser-0.8.1.dist-info/METADATA,sha256=hhJWCZiwQwKA-F0phiqlg2Fg_4dRDpU5FkBD6Qc8nrg,6662
+wiktionary_de_parser-0.8.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wiktionary_de_parser-0.8.1.dist-info/top_level.txt,sha256=gPDzTAHD2kCYBU3l7jRqkKUkf7MlFrDa-KJgtLVckCc,21
+wiktionary_de_parser-0.8.1.dist-info/RECORD,,
