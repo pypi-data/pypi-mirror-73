@@ -1,0 +1,9 @@
+README.md
+setup.py
+scrab/scrab
+scrab.egg-info/PKG-INFO
+scrab.egg-info/SOURCES.txt
+scrab.egg-info/dependency_links.txt
+scrab.egg-info/not-zip-safe
+scrab.egg-info/requires.txt
+scrab.egg-info/top_level.txt
