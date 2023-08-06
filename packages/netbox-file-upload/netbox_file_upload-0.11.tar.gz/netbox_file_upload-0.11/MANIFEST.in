@@ -1,0 +1,2 @@
+include netbox_file_upload/templates/*
+recursive-include netbox_file_upload/ *.html

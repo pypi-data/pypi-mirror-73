@@ -1,0 +1,1 @@
+This plugin adds CSV file uploads for updating or creating new devices.
