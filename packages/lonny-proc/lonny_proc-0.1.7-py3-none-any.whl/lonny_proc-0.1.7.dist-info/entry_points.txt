@@ -1,0 +1,3 @@
+[console_scripts]
+proc=lonny_proc.cli:run
+
