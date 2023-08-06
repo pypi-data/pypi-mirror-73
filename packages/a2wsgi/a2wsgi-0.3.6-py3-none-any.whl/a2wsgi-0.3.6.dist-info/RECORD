@@ -1,0 +1,9 @@
+a2wsgi/__init__.py,sha256=dbhpVB01xzKuVXbP5kTjCDR9a4IQZOIjXQBVwZ7seKA,191
+a2wsgi/asgi.py,sha256=DiDh9h-7x8YLdmXtHOcYXmARZKwN0ls83qQQqAuN2n4,7261
+a2wsgi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+a2wsgi/types.py,sha256=XGdcZvLRdYyQxSj1u02VfzwZYvoe_9BRPJZ8aA4tSLc,673
+a2wsgi/wsgi.py,sha256=695GKnu4cJqrdzsJGDUkdhA2jiL2MeTnBnc4HgKcAMs,9107
+a2wsgi-0.3.6.dist-info/LICENSE,sha256=mcM3Z5RsqMJdjYDl_OM-JuLF7HUQMP1ANTRrBZmXOT0,11542
+a2wsgi-0.3.6.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+a2wsgi-0.3.6.dist-info/METADATA,sha256=XfRJkpBkcdb6OLSkV1BrfC-qnMGsqUWSOveBkx9FIZQ,1727
+a2wsgi-0.3.6.dist-info/RECORD,,
