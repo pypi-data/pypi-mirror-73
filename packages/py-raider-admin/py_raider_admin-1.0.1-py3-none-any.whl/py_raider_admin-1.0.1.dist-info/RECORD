@@ -1,0 +1,9 @@
+raider_admin/__init__.py,sha256=bMIenWosteoeUs51RbaWVZetIuzRhWymuyy-n0rfK0I,21
+raider_admin/raider.py,sha256=Y6xiK0OIx6v5bwjpLBGn7kFLP1Zu0LruLdIhPSKnAuI,7385
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_admin.py,sha256=63AsLztbxdib-kv_CyauOo0xDXGNS0dmnJRvZrgC35Y,10668
+py_raider_admin-1.0.1.dist-info/LICENSE,sha256=go4VPQhO_FReVEqvCHq4zxPUeD0ZHVNZoSX8SS0jfek,1075
+py_raider_admin-1.0.1.dist-info/METADATA,sha256=MziY7YR5kLC8hU4z5qK6doQmkJ06xlp2u79qV1KNQ4U,1384
+py_raider_admin-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_raider_admin-1.0.1.dist-info/top_level.txt,sha256=zTTgPg0Dz7O2dFlLGxvbmk_Fbcd2W3O77FG20RPkXmE,19
+py_raider_admin-1.0.1.dist-info/RECORD,,
