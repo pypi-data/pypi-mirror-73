@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ondine-laser-control
+Version: 0.1.0
+Summary: Control laser attachment on OpenTrons robot
+Home-page: UNKNOWN
+Author: Caden Keese
+Author-email: ckeese@ondinebio.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: opentrons (==*)
+Requires-Dist: pyserial (==*)
+Requires-Dist: pydantic (==*)
+
+UNKNOWN
+
+
