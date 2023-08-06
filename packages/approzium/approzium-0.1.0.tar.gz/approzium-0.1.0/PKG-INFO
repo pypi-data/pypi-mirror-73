@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: approzium
+Version: 0.1.0
+Summary: Approzium SDK provides Approzium database authentiation for Python
+Author: Cyral
+Author-email: us@cyral.org
+Requires-Python: >=3.5,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: sqllibs
+Requires-Dist: asyncpg (>=0.20.1,<0.21.0); extra == "sqllibs"
+Requires-Dist: boto3 (>=1.14.10,<2.0.0)
+Requires-Dist: grpcio (>=1.30.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.30.0,<2.0.0)
+Requires-Dist: mysql-connector-python (>=8.0.20,<9.0.0); extra == "sqllibs"
+Requires-Dist: psycopg2 (>=2.8.5,<3.0.0); extra == "sqllibs"
