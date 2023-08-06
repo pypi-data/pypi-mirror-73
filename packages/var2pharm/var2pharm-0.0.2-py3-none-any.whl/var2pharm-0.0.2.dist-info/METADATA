@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: var2pharm
+Version: 0.0.2
+Summary: End-to-end pharmacogenomics research tool that enables personalized drug dosing based on individual's variants
+Home-page: https://github.com/PGxAUTH/Var2Pharm/
+Author: Konstantinos Kyriakidis
+Author-email: kokyriakidis@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/x-rst
+Requires-Dist: requests (>=2)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: bs4 (>=0.0.1)
+Requires-Dist: lxml (>=4.5.0)
+Requires-Dist: pysam (>=0.16.0)
+
+# Var2Pharm
+End-to-end pharmacogenomics research tool that enables personalized drug dosing based on individual's variants
+

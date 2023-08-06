@@ -1,0 +1,3 @@
+[console_scripts]
+var2pharm = var2pharm.__main__:main
+
