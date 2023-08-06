@@ -1,0 +1,10 @@
+tendencia/__init__.py,sha256=2uYVJ4eLF8kKOzfX6k2Go3u7xIwcGSuemAueAoXn-5o,22
+tendencia/__main__.py,sha256=kLRR8XFlp1Bzupt-zrBVKP_cBXdCOFWFT12clkKKqfI,86
+tendencia/cli.py,sha256=sb5p3B3G7z-S-x6gnNIIznS07nZ3_HjE993Z-EykhQc,979
+tendencia/pearson_calculator.py,sha256=NatOTl6NtYDDjYsm0Lb2XZrucvVlfUucvfGFX0V8oIQ,1630
+tendencia/trend_calculator.py,sha256=BkVmcIzoAIRKP3DvyOG8Pvrgn3yv6qcjt5qVYc8l_B0,1505
+tendencia/utils.py,sha256=ScUYzs2tdrduk_YJY_XR7aODqdiqFa7g30jEliPs9QQ,429
+tendencia-0.1.9.dist-info/entry_points.txt,sha256=BPN7pvZ-brxZHGJhc_LOyCXlrCPqnhktuPnct2I5CAc,47
+tendencia-0.1.9.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+tendencia-0.1.9.dist-info/METADATA,sha256=6dPnFJUNqbvV4CnVt3Hz7iXTgDHIK_OndC3RyzbGkm0,284
+tendencia-0.1.9.dist-info/RECORD,,
