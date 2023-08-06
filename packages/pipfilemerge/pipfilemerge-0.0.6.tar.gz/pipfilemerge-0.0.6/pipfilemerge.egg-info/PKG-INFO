@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pipfilemerge
+Version: 0.0.6
+Summary: Merge the Pipfiles into a single global Pipfile
+Home-page: https://github.com/lorkaan/merge-pipfile.git
+Author: Laurkan Rodriguez
+Author-email: laurkan@engineer.com
+License: UNKNOWN
+Download-URL: https://github.com/lorkaan/pipfilemerge/archive/v0.0.6.tar.gz
+Description: Merge Pipfile
+        ==============
+        
+        Merges the Pipfiles in the current directory with any other Pipfiles in sub-directories.
+        
+        Used as a tool to allow for unpublished custom libraries to be included in your virtual environment made by Pipfile
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

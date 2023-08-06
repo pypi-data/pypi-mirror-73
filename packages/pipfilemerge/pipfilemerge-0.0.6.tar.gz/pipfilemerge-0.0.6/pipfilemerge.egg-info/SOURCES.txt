@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pipfilemerge/__init__.py
+pipfilemerge/__main__.py
+pipfilemerge/tomlHandler.py
+pipfilemerge.egg-info/PKG-INFO
+pipfilemerge.egg-info/SOURCES.txt
+pipfilemerge.egg-info/dependency_links.txt
+pipfilemerge.egg-info/requires.txt
+pipfilemerge.egg-info/top_level.txt
