@@ -1,0 +1,2 @@
+couchbase_core/_dummy.so
+couchbase_core/_libcouchbase.cpython-38-x86_64-linux-gnu.so
