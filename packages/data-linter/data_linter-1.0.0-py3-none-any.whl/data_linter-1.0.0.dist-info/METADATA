@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: data-linter
+Version: 1.0.0
+Summary: data linter
+Author: Thomas Hirsch
+Author-email: thomas.hirsch@digital.justice.gov.uk
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3 (>=1.14.7,<2.0.0)
+Requires-Dist: dataengineeringutils3 (>=1.0.1,<2.0.0)
+Requires-Dist: goodtables (>=2.5.0,<3.0.0)
+Requires-Dist: iam_builder (>=3.7.0,<4.0.0)
+Requires-Dist: importlib-metadata (>=1.7,<2.0)
+Requires-Dist: jsonschema (>=3.2.0,<4.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
