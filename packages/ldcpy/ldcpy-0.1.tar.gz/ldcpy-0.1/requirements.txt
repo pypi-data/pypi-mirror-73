@@ -1,0 +1,10 @@
+xarray
+numpy
+netcdf4
+cython
+scipy
+matplotlib
+cmocean
+jupyterlab
+xrft
+pip

@@ -1,0 +1,16 @@
+name: ldcpy
+channels:
+  - conda-forge
+dependencies:
+  - cartopy=0.18
+  - codecov
+  - netcdf4
+  - pip
+  - pytest
+  - pytest-cov
+  - xarray
+  - zfpy
+  - xrft
+  - cmocean
+  - pip:
+      - cartopy
