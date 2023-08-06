@@ -1,0 +1,227 @@
+Metadata-Version: 2.1
+Name: saleor
+Version: 2.10.1
+Summary: A modular, high performance e-commerce storefront built with GraphQL, Django, and ReactJS.
+Home-page: https://getsaleor.com/
+License: BSD-3-Clause
+Author: Mirumee Software
+Author-email: hello@mirumee.com
+Requires-Python: >=3.8,<3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: babel (>=2.8,<2.9)
+Requires-Dist: boto3 (>=1.12,<2.0)
+Requires-Dist: braintree (>=3.49.0,<3.50.0)
+Requires-Dist: celery[redis] (>=4.3.0,<5.0.0)
+Requires-Dist: dj-database-url (>=0,<1)
+Requires-Dist: dj-email-url (>=1,<2)
+Requires-Dist: django (>=3.0.6,<4.0.0)
+Requires-Dist: django-cache-url (>=3.1.2,<4.0.0)
+Requires-Dist: django-countries (>=6.1,<7.0)
+Requires-Dist: django-filter (>=2.2,<3.0)
+Requires-Dist: django-graphql-jwt (==0.3.0)
+Requires-Dist: django-measurement (>=3.0,<4.0)
+Requires-Dist: django-mptt (>=0,<1)
+Requires-Dist: django-phonenumber-field (>=4.0,<5.0)
+Requires-Dist: django-prices (>=2.1,<3.0)
+Requires-Dist: django-prices-openexchangerates (>=1.0.1,<2.0.0)
+Requires-Dist: django-prices-vatlayer (>=1.1.0,<2.0.0)
+Requires-Dist: django-storages[google] (>=1.7.1,<2.0.0)
+Requires-Dist: django-templated-email (>=2.3.0,<3.0.0)
+Requires-Dist: django-versatileimagefield (>=2.0,<3.0)
+Requires-Dist: draftjs-sanitizer (>=1.0.0,<2.0.0)
+Requires-Dist: faker (>=4.0,<5.0)
+Requires-Dist: freezegun (>=0,<1)
+Requires-Dist: google-cloud-storage (>=1.18.0,<2.0.0)
+Requires-Dist: google-i18n-address (>=2.3.5,<3.0.0)
+Requires-Dist: google-measurement-protocol (>=1.0,<2.0)
+Requires-Dist: graphene-django (>=2.9.1,<3.0.0)
+Requires-Dist: graphene-federation (>=0.1.0,<0.2.0)
+Requires-Dist: html-to-draftjs (>=1.0.1,<2.0.0)
+Requires-Dist: jaeger-client (>=4.3.0,<5.0.0)
+Requires-Dist: markdown (>=3.1.1,<4.0.0)
+Requires-Dist: maxminddb (>=1.5.4,<2.0.0)
+Requires-Dist: maxminddb-geolite2 (>=2018.701,<2019.0)
+Requires-Dist: oauthlib (>=3.0,<4.0)
+Requires-Dist: opentracing (>=2.3.0,<3.0.0)
+Requires-Dist: phonenumberslite (>=8.12.2,<9.0.0)
+Requires-Dist: prices (>=1.0,<2.0)
+Requires-Dist: psycopg2-binary (>=2.8.3,<3.0.0)
+Requires-Dist: purl (>=1.5,<2.0)
+Requires-Dist: python-magic-bin (>=0.4.14,<0.5.0); sys_platform == "win32"
+Requires-Dist: razorpay (>=1.2,<2.0)
+Requires-Dist: requests (>=2.22,<3.0)
+Requires-Dist: sentry-sdk (>=0,<1)
+Requires-Dist: stripe (>=2.47.0,<3.0.0)
+Requires-Dist: text-unidecode (>=1.2,<2.0)
+Requires-Dist: tqdm (>=4.36,<5.0)
+Requires-Dist: uwsgi (>=2.0.8,<3.0.0); sys_platform != "win32"
+Requires-Dist: weasyprint (>=48)
+Project-URL: Documentation, https://docs.getsaleor.com/en/latest/
+Project-URL: Repository, https://github.com/mirumee/saleor
+Description-Content-Type: text/markdown
+
+![Saleor Commerce - A GraphQL-first platform for perfectionists](https://user-images.githubusercontent.com/249912/71523206-4e45f800-28c8-11ea-84ba-345a9bfc998a.png)
+
+<div align="center">
+  <h1>Saleor Commerce</h1>
+</div>
+
+<div align="center">
+  <strong>Customer-centric e-commerce on a modern stack</strong>
+</div>
+
+<div align="center">
+  A headless, GraphQL-first e-commerce platform delivering ultra-fast, dynamic, personalized shopping experiences. Beautiful online stores, anywhere, on any device.
+</div>
+
+<br>
+
+<div align="center">
+  Join our active, engaged community: <br>
+  <a href="https://saleor.io/">Website</a>
+  <span> | </span>
+  <a href="https://medium.com/saleor">Blog</a>
+  <span> | </span>
+  <a href="https://twitter.com/getsaleor">Twitter</a>
+  <span> | </span>
+  <a href="https://gitter.im/mirumee/saleor">Gitter</a>
+  <span> | </span>
+  <a href="https://spectrum.chat/saleor">Spectrum</a>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://circleci.com/gh/mirumee/saleor">
+    <img src="https://circleci.com/gh/mirumee/saleor.svg?style=svg" alt="Build status" />
+  </a>
+  <a href="http://codecov.io/github/mirumee/saleor?branch=master">
+    <img src="http://codecov.io/github/mirumee/saleor/coverage.svg?branch=master" alt="Codecov" />
+  </a>
+  <a href="https://docs.saleor.io/">
+    <img src="https://img.shields.io/badge/docs-docs.saleor.io-brightgreen.svg" alt="Documentation" />
+  </a>
+  <a href="https://github.com/python/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black">
+  </a>
+</div>
+
+## Table of Contents
+
+- [What makes Saleor special?](#what-makes-saleor-special)
+- [Features](#features)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Demo](#demo)
+- [Contributing](#contributing)
+- [Translations](#translations)
+- [Your feedback](#your-feedback)
+- [License](#license)
+
+## What makes Saleor special?
+
+Saleor is a rapidly-growing open source e-commerce platform that has served high-volume companies from branches like publishing and apparel since 2012. Based on Python and Django, the latest major update introduces a modular front end powered by a GraphQL API and written with React and TypeScript.
+
+## Features
+
+- **PWA**: End users can shop offline for better sales and shopping experiences
+- **GraphQL API**: Access all data from any web or mobile client using the latest technology
+- **Headless commerce**: Build mobile apps, customize storefronts and externalize processes
+- **UX and UI**: Designed for a user experience that rivals even the top commercial platforms
+- **Dashboard**: Administrators have total control of users, processes, and products
+- **Orders**: A comprehensive system for orders, dispatch, and refunds
+- **Cart**: Advanced payment and tax options, with full control over discounts and promotions
+- **Payments**: Flexible API architecture allows integration of any payment method. It comes with Braintree support out of the box.
+- **Geo-adaptive**: Automatic localized pricing. Over 20 local languages. Localized checkout experience by country.
+- **SEO**: Packed with features that get stores to a wider audience
+- **Cloud**: Optimized for deployments using Docker
+- **Analytics**: Server-side Google Analytics to report e-commerce metrics without affecting privacy
+
+Saleor is free and always will be.
+Help us out… If you love free stuff and great software, give us a star! 🌟
+
+![Saleor Storefront - React-based PWA e-commerce storefront](https://user-images.githubusercontent.com/249912/71527146-5b6be280-28da-11ea-901d-eb76161a6bfb.png)
+![Saleor Dashboard - Modern UI for managing your e-commerce](https://user-images.githubusercontent.com/249912/71523261-8a795880-28c8-11ea-98c0-6281ea37f412.png)
+
+## Installation
+
+Saleor requires Python 3.8, Node.js 10.0+, PostgreSQL and OS-specific dependency tools.
+
+[See the Saleor docs](https://docs.saleor.io/docs/getting-started/intro/) for step-by-step installation and deployment instructions.
+
+Note:
+The `master` branch is the development version of Saleor and it may be unstable. To use the latest stable version, download it from the [Releases](https://github.com/mirumee/saleor/releases/) page or switch to a release tag.
+
+The current stable version is 2.10 and you should use this version for all three components:
+
+- Saleor: https://github.com/mirumee/saleor/releases/tag/2.10.1
+- Dashboard: https://github.com/mirumee/saleor-dashboard/releases/tag/2.10.0
+- Storefront: https://github.com/mirumee/saleor-storefront/releases/tag/2.10.0
+
+## Documentation
+
+Saleor documentation is available here: [docs.saleor.io](https://docs.saleor.io)
+
+To contribute, please see the [`mirumee/saleor-docs` repository](https://github.com/mirumee/saleor-docs/).
+
+## Saleor Platform
+The easiest way to run all components of Saleor (API, storefront and dashboard) together on your local machine is to use the [saleor-platform](https://github.com/mirumee/saleor-platform) project. Go to that repository for instructions on how to use it.
+
+[View saleor-platform](https://github.com/mirumee/saleor-platform)
+
+## Storefront
+
+For PWA, single-page storefront go to the [saleor-storefront](https://github.com/mirumee/saleor-storefront) repository.
+
+[View storefront demo](https://pwa.saleor.io/)
+
+## Dashboard
+
+For dashboard go to the [saleor-dashboard](https://github.com/mirumee/saleor-dashboard) repository.
+
+[View dashboard demo](https://pwa.saleor.io/dashboard/)
+
+## Demo
+
+Want to see Saleor in action?
+
+[View Storefront](https://pwa.saleor.io/) | [View Dashboard (admin area)](https://pwa.saleor.io/dashboard/)
+
+Or launch the demo on a free Heroku instance.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Login credentials: `admin@example.com`/`admin`
+
+## Contributing
+
+We love your contributions and do our best to provide you with mentorship and support. If you are looking for an issue to tackle, take a look at issues labeled [`Help Wanted`](https://github.com/mirumee/saleor/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22).
+
+If nothing grabs your attention, check [our roadmap](https://github.com/mirumee/saleor/projects/6) or come up with your feature. Just drop us a line or [open an issue](https://github.com/mirumee/saleor/issues/new) and we’ll work out how to handle it.
+
+Get more details in our [Contributing Guide](https://docs.getsaleor.com/docs/contributing/intro/).
+
+## Legacy views
+
+If you're interested in using the old version of Saleor, go the [legacy-views](https://github.com/mirumee/legacy-views) repository. It contains the 2.9.0 release, which includes Django-based views and HTML templates of Storefront 1.0 and Dashboard 1.0. Note: this version of Saleor is no longer officially maintained.
+
+
+## Your feedback
+
+Do you use Saleor as an e-commerce platform?
+Fill out this short survey and help us grow. It will take just a minute, but mean a lot!
+
+[Take a survey](https://mirumee.typeform.com/to/sOIJbJ)
+
+## License
+
+Disclaimer: Everything you see here is open and free to use as long as you comply with the [license](https://github.com/mirumee/saleor/blob/master/LICENSE). There are no hidden charges. We promise to do our best to fix bugs and improve the code.
+
+Some situations do call for extra code; we can cover exotic use cases or build you a custom e-commerce appliance.
+
+#### Crafted with ❤️ by [Mirumee Software](http://mirumee.com)
+
+hello@mirumee.com
+
