@@ -1,0 +1,3 @@
+[console_scripts]
+covid_big_bappenas = covid_big_bappenas.main:welcome
+
