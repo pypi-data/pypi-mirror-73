@@ -1,0 +1,15 @@
+enhancements/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enhancements/classproperty.py,sha256=W5q5zKb8zftq8QsUNphxElqITfYr7rSFv_nWIEwV_3A,2547
+enhancements/cli.py,sha256=2gofL4IAL9reAaoHcvGJprlyajIP_GjvDsrB1YAet80,1110
+enhancements/config.py,sha256=2xkkz3JSucE0LaCIxzJ3VAfyc3sCrojaFri9eEv3QG4,5064
+enhancements/contextmanager.py,sha256=8G3uondI-R6Hbzm_5MoX66B0Wp_9eAXi0qQ6LgTXJdk,729
+enhancements/examples.py,sha256=hG68hnTz59gJLXOWIK6h4i8HwjNIG1XCwJxn3u1QaG8,1074
+enhancements/exceptions.py,sha256=99WKSJ9gCPDRLAdjSJJRXJ3KxpdDLEh6rLxsow41Upk,128
+enhancements/modules.py,sha256=G6VkB4_DluWGA0BXjCd7AGXCG6suEMaWy5RKvNSHkPQ,16915
+enhancements/plugins.py,sha256=2fveHuGJ4CpXxoyYIcsYbjrsv7eGQCkzqypsyzRXRmc,3167
+enhancements/process.py,sha256=YxyO--sWIhEYSPUWWS6usIBw1madQVNd4lO1xZ9h-6Y,869
+enhancements-0.0.10.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+enhancements-0.0.10.dist-info/METADATA,sha256=8epjFGzdhlDYxGbgOvQA_q98pnCFwB4oLlcbpI19W7w,1841
+enhancements-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+enhancements-0.0.10.dist-info/top_level.txt,sha256=y76GuyRY17I6nhgOdwUs4vEcr1h6ypb2TFMyh9m0NDA,13
+enhancements-0.0.10.dist-info/RECORD,,
