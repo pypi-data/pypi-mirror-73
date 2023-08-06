@@ -1,0 +1,16 @@
+NetRecorder/NetTraRec.py,sha256=Z0d-GiABXTo7ZQ0eirRHvvpdXo3_XFamLcvESDHfAI4,9631
+NetRecorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NetRecorder/gear_for_nr.py,sha256=HubvvlSIjN2zkh76pxIGpN_SMIqyOr-8MolkjoIR0Xs,2861
+NetRecorder/nettrarec,sha256=nYM9T61HNiu95gyPJmd9zXeQOe096cYbCh6cPuDfEJo,753
+NetRecorder/math_works/Cosine_Similarity.py,sha256=JZAWUtQgpVzklaaFrZ24Atc6fHeZR7VRxCQjBMOvgtw,269
+NetRecorder/math_works/Euclidean_Distance.py,sha256=ntjYQojHZNtf7dFySTYe4PPTUMsRCTpnpfHqeOsmATs,249
+NetRecorder/math_works/Frechet _Distance.py,sha256=4Xl_j_Oi0tVk0dOKBVRG3sZ3PVdx9aPZPEDxGBjh6r0,2143
+NetRecorder/math_works/Frechet_Distance.py,sha256=4Xl_j_Oi0tVk0dOKBVRG3sZ3PVdx9aPZPEDxGBjh6r0,2143
+NetRecorder/math_works/Pearson_CorrelationCoefficient.py,sha256=UqbwsSWhI1OObeAq2TVODsiy6hl6ajDJiQSkMhJQdxA,233
+NetRecorder/math_works/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NetTraRec-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+NetTraRec-0.0.8.dist-info/METADATA,sha256=P8twvcNB0a3vsHmjbuc91OlUTR26OHma8aFNfgqxKl0,1358
+NetTraRec-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+NetTraRec-0.0.8.dist-info/entry_points.txt,sha256=DRMPNKjVqF89Av3QrIx7ShAlaUz0xYDjf_GSijWzROM,65
+NetTraRec-0.0.8.dist-info/top_level.txt,sha256=Zs1EMYgfqyQWAatC6wjM7fc5FgaDnFe8Xxi1Ddc-z7I,12
+NetTraRec-0.0.8.dist-info/RECORD,,
