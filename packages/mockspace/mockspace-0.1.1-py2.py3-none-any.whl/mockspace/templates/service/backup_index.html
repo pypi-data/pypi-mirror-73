@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Services{% endblock %}</h1>
+  {% if g.user %}
+    <a class="action" href="{{ url_for('service.create') }}">Add service</a>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% for service in services %}
+    <article class="post">
+      <header>
+        <div>
+          <h1>{{ service['title'] }}</h1>
+          <div class="about">by {{ service['username'] }} on {{ service['created'].strftime('%Y-%m-%d') }}</div>
+        </div>
+        {% if g.user['id'] == service['author_id'] %}
+          <a class="action" href="{{ url_for('service.update', id=service['id']) }}">Edit</a>
+        {% endif %}
+      </header>
+      <p class="body">{{ service['body'] }}</p>
+    </article>
+    {% if not loop.last %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+{% endblock %}
