@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: stui
+Version: 0.1
+Summary: A Slurm client for the terminal.
+Home-page: https://github.com/mi-lad/stui
+Author: Milad Alizadeh
+Author-email: m@mil.ad
+License: UNKNOWN
+Keywords: slurm,cluster
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: urwid
+Requires-Dist: fabric
+
+<!-- [![Build Status](https://travis-ci.com/mi-lad/torchquant_private.svg?token=RncaRtE4yj7eR5Cix2MP&branch=dev)](https://travis-ci.com/mi-lad/torchquant_private) -->
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Follow @notmilad](https://img.shields.io/twitter/follow/notmilad?style=social)](https://twitter.com/notmilad)
+<!-- [![License: MIT](https://img.shields.io/github/license/mi-lad/torchquant_private)](https://opensource.org/licenses/MIT) -->
+
+# stui
+
+A Slurm client for the terminal written in Python.
+
+```
+$ pip install --index-url https://test.pypi.org/simple/ --no-deps stui-mil-ad
+```
+
