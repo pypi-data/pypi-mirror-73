@@ -1,0 +1,12 @@
+higgsbacktesting/AlphaStockBacktesting.py,sha256=FzsCcVAvshkG9zs3iZdCq5dDW1lALyXJgs_B_CMNkZ0,14818
+higgsbacktesting/CFSingleInstrumentStrategy.py,sha256=H_nOXcRRMfpHyUVFEkXl9_djf0fiS4N-z4nBuniJE50,15561
+higgsbacktesting/CFTimetoTicklabel.py,sha256=NkSuDF6tPahkaIL_YhwkNPp8lWSaqMBIZ_54vvBLTxo,491
+higgsbacktesting/GTASingleStockStrategy.py,sha256=O2jJ8uTYi9mSXlU3xbrGDcUbN0z8t7T_c0h6dzy41OE,15768
+higgsbacktesting/GTATimetoTicklabel.py,sha256=5rLlI3k4e2bbn1RqW7ITiUYJqlTlsihu3th_CvUNZik,437
+higgsbacktesting/SingleInstrumentStrategy.py,sha256=DcWq4-SU5oosjfa3LGV8aBHFLfKgPX5Ya7eACsID09g,601
+higgsbacktesting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+higgsbacktest-0.1.0.dist-info/LICENSE,sha256=pMmCoWSBteIN0VMXncyWdmEIVRbsBOnddET_CGtwdKA,1068
+higgsbacktest-0.1.0.dist-info/METADATA,sha256=hzyQBn6MdCddZ-W1FP-FBogsuagK9zU0dz-mu0nTTtE,661
+higgsbacktest-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+higgsbacktest-0.1.0.dist-info/top_level.txt,sha256=gmolIGG-9w81OfBrKqQdxCtNRD_iciRw93Wqcf8rY1E,17
+higgsbacktest-0.1.0.dist-info/RECORD,,

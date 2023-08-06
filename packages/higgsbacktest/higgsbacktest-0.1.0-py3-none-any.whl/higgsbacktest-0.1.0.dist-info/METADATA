@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: higgsbacktest
+Version: 0.1.0
+Summary: My short description for my project.
+Home-page: https://github.com/instant2333/Strategy
+Author: instant2333
+Author-email: instant2333@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: numpy
+Requires-Dist: higgsboom
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
