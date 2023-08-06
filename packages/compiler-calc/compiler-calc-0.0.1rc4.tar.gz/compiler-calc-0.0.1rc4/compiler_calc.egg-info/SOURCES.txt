@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+compiler_calc/__init__.py
+compiler_calc/simple_calc.py
+compiler_calc.egg-info/PKG-INFO
+compiler_calc.egg-info/SOURCES.txt
+compiler_calc.egg-info/dependency_links.txt
+compiler_calc.egg-info/top_level.txt
+test/__init__.py
+test/test_calc.py
