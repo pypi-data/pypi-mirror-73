@@ -1,0 +1,8 @@
+numpy
+xarray>=0.13.*
+scipy
+rasterio
+nose2
+json-checker
+numba>=0.47.*
+opencv-python

@@ -1,0 +1,3 @@
+[console_scripts]
+pandora = bin.Pandora:main
+
