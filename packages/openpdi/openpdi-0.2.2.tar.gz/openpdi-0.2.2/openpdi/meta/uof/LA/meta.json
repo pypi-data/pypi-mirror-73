@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://github.com/OpenPDI/data/releases/download/NOPD-LA/uof.csv",
+        "description": "NOPD_Use_of_Force_Incidents",
+        "type": "csv",
+        "start": 1,
+        "columns": {
+            "date": {
+                "index": 3,
+                "specifier": "%m/%d/%y"
+            },
+            "city": {
+                "raw": "New Orleans"
+            },
+            "state": {
+                "raw": "LA"
+            },
+            "time": {
+                "index": 4,
+                "specifier": "%H:%M"
+            },
+            "service_type": {
+                "index": 2
+            },
+            "reason": {
+                "index": 11
+            },
+            "subject_injured": {
+                "index": 13
+            },
+            "officer_injured": {
+                "index": 15
+            },
+            "subject_sex": {
+                "index": 17
+            },
+            "subject_age": {
+                "index": 18
+            },
+            "subject_race": {
+                "index": 19
+            }
+        }
+    }
+]
