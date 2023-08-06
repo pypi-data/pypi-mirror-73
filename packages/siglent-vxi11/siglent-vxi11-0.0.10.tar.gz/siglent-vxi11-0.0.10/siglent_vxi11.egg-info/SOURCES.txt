@@ -1,0 +1,14 @@
+README.md
+setup.py
+siglent/__init__.py
+siglent/_common.py
+siglent/_device.py
+siglent/sdl1000x/__init__.py
+siglent/sdl1000x/_sdl1000x.py
+siglent/spd3303x/__init__.py
+siglent/spd3303x/_spd3303x.py
+siglent_vxi11.egg-info/PKG-INFO
+siglent_vxi11.egg-info/SOURCES.txt
+siglent_vxi11.egg-info/dependency_links.txt
+siglent_vxi11.egg-info/requires.txt
+siglent_vxi11.egg-info/top_level.txt
