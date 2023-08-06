@@ -1,0 +1,3 @@
+[console_scripts]
+tf-init-booster = tf_init_booster.booster:main
+
