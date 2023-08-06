@@ -1,0 +1,11 @@
+jange/ops/__init__.py,sha256=E5J3ypPDc49HyKQ-3eXQxtvjR9J4zEmiz1DSjxGdVyo,84
+jange/ops/base.py,sha256=MCuK3urwjuFhSXYFdL8_aAh3SXyNbB7uLIFg3UBbXf4,232
+jange/ops/read.py,sha256=d8kd1IcVQTB7gZpyAby4uhnUz2NWkODf1PawK4njfa0,341
+jange/ops/text/__init__.py,sha256=smyDTzNbZDT-qBoGMXdUfx-u3RFGSfhvs7FSp-jwUWg,184
+jange/ops/text/clean.py,sha256=pRYZQ6e1MEMl6Grh1ITyNEs_tqww-tKRnLQM0J_WJMI,4730
+jange/stream/__init__.py,sha256=Z7jnzvLQOOwr25lS2cxnoBLL4x1Yq9LOzMiB3rBS-Bc,72
+jange/stream/stream.py,sha256=3KrggIda9Q4IK8A6ozoWCpbpPxEodq_-NkIHSAdNyhA,3048
+jange-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+jange-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+jange-0.1.0.dist-info/METADATA,sha256=F9l5O2IpzR5uTD6C6FrPU7t3j33VR8mx4SAj2jqIhUc,565
+jange-0.1.0.dist-info/RECORD,,
