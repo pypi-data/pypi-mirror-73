@@ -1,0 +1,5 @@
+
+valueDict['install_requires'] = dependencies
+valueDict['zip_safe'] = False
+
+setup(**valueDict)
