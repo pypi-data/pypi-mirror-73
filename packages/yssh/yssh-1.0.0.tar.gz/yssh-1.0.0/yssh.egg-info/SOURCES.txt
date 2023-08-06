@@ -1,0 +1,9 @@
+README.md
+setup.py
+yssh/__main__.py
+yssh.egg-info/PKG-INFO
+yssh.egg-info/SOURCES.txt
+yssh.egg-info/dependency_links.txt
+yssh.egg-info/entry_points.txt
+yssh.egg-info/requires.txt
+yssh.egg-info/top_level.txt
