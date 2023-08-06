@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+dominion/object_model/README.md
+dominion/object_model/__init__.py
+dominion/object_model/object_model.py
+dominion_object_model.egg-info/PKG-INFO
+dominion_object_model.egg-info/SOURCES.txt
+dominion_object_model.egg-info/dependency_links.txt
+dominion_object_model.egg-info/not-zip-safe
+dominion_object_model.egg-info/top_level.txt
