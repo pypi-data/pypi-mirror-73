@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+gcp_mixed_logging/__init__.py
+gcp_mixed_logging/logger.py
+gcp_mixed_logging.egg-info/PKG-INFO
+gcp_mixed_logging.egg-info/SOURCES.txt
+gcp_mixed_logging.egg-info/dependency_links.txt
+gcp_mixed_logging.egg-info/requires.txt
+gcp_mixed_logging.egg-info/top_level.txt
