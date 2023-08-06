@@ -1,0 +1,2 @@
+class JsonflattifierError(Exception):
+    pass
