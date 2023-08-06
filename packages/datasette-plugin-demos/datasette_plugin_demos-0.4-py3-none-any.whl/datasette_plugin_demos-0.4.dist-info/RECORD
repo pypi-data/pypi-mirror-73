@@ -1,0 +1,8 @@
+datasette_plugin_demos/__init__.py,sha256=hwBRyBi6mt7-ftOpkNSGkxXyLARydDwAUc8b2E1zx7E,249
+datasette_plugin_demos/static/plugin.js,sha256=I6cQ15C81BfES1nF5_j2iEvVDYdVExzggnQA5pDi6Yc,16
+datasette_plugin_demos/templates/show_json.html,sha256=BTMV_eOLCgoHYioLCi9F6QoVaTcTGzK_czEt7FPoBIU,238
+datasette_plugin_demos-0.4.dist-info/METADATA,sha256=lCVBgv7SssCLrItPo4gc43xmeyaY6DGC1I-3kNEA7ms,429
+datasette_plugin_demos-0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datasette_plugin_demos-0.4.dist-info/entry_points.txt,sha256=pUbD5ae9XhC3kAXKb_zf7UT9hWYY4mvaMvGtTuiXOSY,51
+datasette_plugin_demos-0.4.dist-info/top_level.txt,sha256=1sj3waQeiXhFAiNmhZpIA6UkzIPdSYM4RSkq1ykTTU8,23
+datasette_plugin_demos-0.4.dist-info/RECORD,,
