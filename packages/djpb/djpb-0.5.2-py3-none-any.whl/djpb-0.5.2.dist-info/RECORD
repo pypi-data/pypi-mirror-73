@@ -1,0 +1,17 @@
+djpb/__init__.py,sha256=zs5XcEKT_wiseuTtaKDqoEn3b4D4gOLQiA7xBfSY06s,431
+djpb/custom_field.py,sha256=BlAU0YY04LemGIMWl2hT81o4vqHSPoIOX_SaFgGodhw,896
+djpb/django_to_proto.py,sha256=Ipp0Modh8GcQwgqEDm2qlerwW-aB3SZJX5M2lz63XAA,3474
+djpb/gen_proto.py,sha256=aCsIcIwNT91QakGUDfCyVbzOMgzgBVWdCBm-0npp2Nw,6241
+djpb/proto_to_django.py,sha256=uMCt54F5493ESwaSt2TtIRPB-Eu9vgzvp6BgLcQKqS8,3754
+djpb/registry.py,sha256=cVlXNmmNoRz1WVAxpLJ2gaTf8aDvRrGFpNG_whArBFs,351
+djpb/rest_framework_serializer.py,sha256=FyzyksoAstD4I7iMfQwD_PrTB9NWTTkjls7RjLn9gYw,2440
+djpb/serializers.py,sha256=_JqGthb1lGJES_5LN4p7u-CwN_QFmRG_A6IvNv7qOe8,7845
+djpb/signals.py,sha256=oyX4J8qqQXfRStWsXaR8AIKQBWtNPwE4ZReUqFypGoA,280
+djpb/util.py,sha256=mwNhKrgSTQfAvhEUc5qGGMAbDgwVt1dtoxQiFo1lpoU,1776
+djpb/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djpb/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djpb/management/commands/gen_proto.py,sha256=ABwT3C4LSduB_MDHOEm9zsztdqcetFVUlGdPkGHCIJc,343
+djpb-0.5.2.dist-info/METADATA,sha256=W7GPzeDqmDsObbbneL32wd23TBxPTiJ7f3EvzaXfNDQ,420
+djpb-0.5.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+djpb-0.5.2.dist-info/top_level.txt,sha256=i5p0k4iQYCrlXvKAymnvOmgQhMDkzNM59Bh3w87lzL0,5
+djpb-0.5.2.dist-info/RECORD,,
