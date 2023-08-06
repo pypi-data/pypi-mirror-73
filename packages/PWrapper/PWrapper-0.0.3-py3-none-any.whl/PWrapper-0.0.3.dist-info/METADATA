@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PWrapper
+Version: 0.0.3
+Summary: Politics & War API wrapper for Python
+Home-page: https://github.com/Jpuf0/PnWrapper
+Author: Jpuf0
+Author-email: Jpuf@jpuf.xyz
+License: MIT
+Keywords: pnw politicsandwar
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
