@@ -1,0 +1,10 @@
+tswrangler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tswrangler/wrangler.py,sha256=ZoBY2tZeYEwfBvYRkN0oYtwx8Mgt2ItHc0RvJLZETXY,830
+tswrangler/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tswrangler/tests/conftest.py,sha256=VHWmX3AwNV5g-bwgtIX2VtWnFLOrrl5yGKF-axhFx0U,706
+tswrangler/tests/test_wrangler.py,sha256=aLTtQIUfydUHV6kUCApyoJpAdwBh2j5RKYQnLNowR3c,213
+tswrangler-0.0.1.dist-info/LICENSE.md,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tswrangler-0.0.1.dist-info/METADATA,sha256=ikbQ5oIU3tRUriVdq-kMJOpJD6EP7Oj1MkJAeqPlODI,530
+tswrangler-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tswrangler-0.0.1.dist-info/top_level.txt,sha256=hUoN1mTPtFeZAif9tKaUrUPAX78TDVZyLEfGdcwiiUY,11
+tswrangler-0.0.1.dist-info/RECORD,,
