@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: distributions_exer
+Version: 0.1
+Summary: General, Gaussian, and Binomial distributions
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
+Platform: UNKNOWN
