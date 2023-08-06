@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: VTIL
+Version: 0.0.3
+Summary: Virtual-machine Translation Intermediate Language
+Home-page: https://github.com/vtil-project/VTIL-Python
+Author: Daniel. (@L33T)
+License: BSD 3-Clause "New" or "Revised" License
+Keywords: VTIL,VTIL Project,vtil,Virtual-machine Translation Intermediate Language,Translation Intermediate Language,Intermediate Language
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: C++
+Classifier: Topic :: Education
+Requires-Python: >=3.4
+Requires-Dist: pybind11
+
+VTIL Project, standing for Virtual-machine Translation Intermediate Language, is a set of tools designed around an optimizing compiler to be used for binary de-obfuscation and de-virtualization.
+
+The main difference between VTIL and other optimizing compilers such as LLVM is that it has an extremely versatile IL that makes it trivial to lift from any architecture including stack machines. Since it is built for translation, VTIL does not abstract away the native ISA and keeps the concept of the stack, physical registers, and the non-SSA architecture of a general-purpose CPU as is. Native instructions can be emitted in the middle of the IL stream and the physical registers can be addressed from VTIL instructions freely.
+
+VTIL also makes it trivial to emit code back into the native format at any virtual address requested without being constrained to a specific file format.
+
