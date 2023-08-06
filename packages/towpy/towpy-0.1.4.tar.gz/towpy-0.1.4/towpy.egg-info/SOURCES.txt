@@ -1,0 +1,10 @@
+README.md
+setup.py
+towpy/__init__.py
+towpy/textobject.py
+towpy/tow.py
+towpy.egg-info/PKG-INFO
+towpy.egg-info/SOURCES.txt
+towpy.egg-info/dependency_links.txt
+towpy.egg-info/not-zip-safe
+towpy.egg-info/top_level.txt
