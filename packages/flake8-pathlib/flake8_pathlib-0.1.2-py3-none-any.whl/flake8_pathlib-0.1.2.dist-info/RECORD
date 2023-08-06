@@ -1,0 +1,6 @@
+flake8_pathlib/__init__.py,sha256=1pyE6Dt2P_cV6JFJPFHQ3IJofWU5RKszcTQmoFSq8Lg,67
+flake8_pathlib/checker.py,sha256=JMIGJvMU1H0qasgoG4QkubVthPAlbpU2GFxf_mmi06Q,5043
+flake8_pathlib-0.1.2.dist-info/entry_points.txt,sha256=w53rJ9rmFgd4e-HwfeJYNGSHRDixZt2V-jRyADXcGsY,52
+flake8_pathlib-0.1.2.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+flake8_pathlib-0.1.2.dist-info/METADATA,sha256=nMU3L2EV3aTwR9ONAEc06tGHI9NpA-mxODn9IpNZE24,926
+flake8_pathlib-0.1.2.dist-info/RECORD,,
