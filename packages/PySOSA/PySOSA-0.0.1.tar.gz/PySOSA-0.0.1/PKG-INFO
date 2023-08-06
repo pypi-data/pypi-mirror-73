@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: PySOSA
+Version: 0.0.1
+Summary: A python module for building SOSA based RDF graphs
+Home-page: https://github.com/landrs-toolkit/PySOSA
+Author: Badisa Mosesane
+Author-email: landrs@nd.edu
+License: Apache 2.0
+Download-URL: https://github.com/landrs-toolkit/PySOSA/archive/release.tar.gz
+Description: UNKNOWN
+Keywords: building SOSA based graphs,RDF graphs,Python SOSA ontology,PySOSA
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
