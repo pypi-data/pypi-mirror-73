@@ -1,0 +1,10 @@
+crdatamgt/__init__.py,sha256=5n4sH0GsJjREFWN8hbGfFAihdSTit5f4RvvmN_1lzUQ,216
+crdatamgt/formulations.py,sha256=b-VOSY0X3DKZre4iORqa1IaQSzS9pLVSHmgCAj0I_lU,9560
+crdatamgt/helpers.py,sha256=WW_TMzfQWnXxMjds6ABihSurDetHC7Xbewwcrchq3O4,4607
+crdatamgt/offlinestats.py,sha256=dyBZ9Iqfv4ikfYHMEnL6QzFkZDQ7GMoFC-WSykuOlsQ,4042
+crdatamgt/project.py,sha256=2lIHzxes0ou22krZlPXYSl204RLoc3ksh4gghPujsvc,5533
+crdatamgt/runner.py,sha256=4z_I7L0Y0UFl_CInI8YoAU6nHuBFKtBVYS_0Rk7K7-g,1579
+crdatamgt/topic.py,sha256=iPx7DT6vgIHjIGPKRip4v886ZjSDrP0p9Wgcn5B7E2Q,1101
+crdatamgt-3.0.4.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+crdatamgt-3.0.4.dist-info/METADATA,sha256=WVcrtcQVygYnQOVtI0fW8Q8MvueIMqTtFMMOQbdAMWo,685
+crdatamgt-3.0.4.dist-info/RECORD,,
