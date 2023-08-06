@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ipumspy
+Version: 0.0.2
+Summary: A placeholder for ipumspy
+Home-page: https://github.com/mnpopcenter/ipumspy
+Author: IPUMS
+Author-email: ipums@umn.edu
+License: UNKNOWN
+Description: This is a placeholder for ipumspy.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
