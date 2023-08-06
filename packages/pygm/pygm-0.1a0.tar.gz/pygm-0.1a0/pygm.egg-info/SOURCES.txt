@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+PGM-index/include/pgm_index.hpp
+PGM-index/include/piecewise_linear_model.hpp
+pygm/__init__.py
+pygm/pygm.cpp
+pygm/sortedcontainer.py
+pygm/sortedlist.py
+pygm/sortedset.py
+pygm.egg-info/PKG-INFO
+pygm.egg-info/SOURCES.txt
+pygm.egg-info/dependency_links.txt
+pygm.egg-info/not-zip-safe
+pygm.egg-info/top_level.txt
