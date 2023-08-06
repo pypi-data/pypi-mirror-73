@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+keras-notify/__init__.py
+keras-notify/main.py
+keras_notify.egg-info/PKG-INFO
+keras_notify.egg-info/SOURCES.txt
+keras_notify.egg-info/dependency_links.txt
+keras_notify.egg-info/requires.txt
+keras_notify.egg-info/top_level.txt
