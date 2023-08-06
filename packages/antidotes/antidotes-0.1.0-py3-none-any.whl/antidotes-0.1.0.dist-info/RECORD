@@ -1,0 +1,15 @@
+antidotes/__init__.py,sha256=WYmOWLg0DbNjz2BW5FI8u6rDjXim4gO6kEvud_cdnp0,241
+antidotes/assistance.pyw,sha256=bSNbbulmotPNs0ZsISuHFi0jkvazgVtKOMZwR3byQbo,1680
+antidotes/interactor.py,sha256=OUOAn2vH8S8mIh_8OlNoeEK02_Pzgh3HiGyqXPKzUvw,7245
+antidotes/core/__init__.py,sha256=Ajw8I0bkBCp7lEP8c06f9xWHdiMHgN8yFTbWCEW2DoQ,243
+antidotes/core/__init__py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+antidotes/core/anti_saycheese.py,sha256=f3kiJqeLE8OfcMi3a77k5bCxk0O0C2dsY8lBcGzmq6g,1119
+antidotes/core/anti_shellphish.py,sha256=zkXjs52by7-jMTw62Hia4-k-J5XtKDjwdPYwIEhWkqA,674
+antidotes/core/anti_whatsphish.py,sha256=mXkmVlCurqR2nIDlA1gP4YQNbbuDwFZoGLk6tBxKld0,782
+antidotes/core/anti_zshadow.py,sha256=8FRSy9TGU-9v4VA6BPeqjPUyyy4g4kwDSDdM-gA2m4c,3040
+antidotes/core/connection_manager.py,sha256=T1PGaf9mPUHt3Z3Fggb8HdCyIZeHyyb6KrIQ5dDcScU,178
+antidotes/core/scanner.py,sha256=x2Ul9923PKEWQXvnWkhw0yT9f5qkQHQaoqEJrPypvjA,1929
+antidotes-0.1.0.dist-info/entry_points.txt,sha256=bw6d4F9GYPhyKx8JILDOQ7Msm6V0eJL9qN0bwr5rUtc,55
+antidotes-0.1.0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+antidotes-0.1.0.dist-info/METADATA,sha256=Ye9TvWaaMlPcH7nxpzhMZbyeoEqsgBmL-8JGQmNgXCQ,4018
+antidotes-0.1.0.dist-info/RECORD,,
