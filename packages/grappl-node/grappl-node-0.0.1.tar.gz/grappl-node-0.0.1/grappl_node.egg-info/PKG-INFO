@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: grappl-node
+Version: 0.0.1
+Summary: Writing nodes for the grappl framework
+Home-page: https://github.com/Tipshim/grappl-node
+Author: jonirap
+Author-email: joni.rapoport@gmail.com
+License: UNKNOWN
+Description: # Grappl-Node
+        ## Graph Pipeline Project
+        ### Node - base
+        The helper package with which to create nodes for Grappl
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.2
+Description-Content-Type: text/markdown
