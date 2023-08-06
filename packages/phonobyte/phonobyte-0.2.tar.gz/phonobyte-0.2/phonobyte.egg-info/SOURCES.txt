@@ -1,0 +1,11 @@
+README
+setup.cfg
+setup.py
+phonobyte/__init__.py
+phonobyte/encoder.py
+phonobyte.egg-info/PKG-INFO
+phonobyte.egg-info/SOURCES.txt
+phonobyte.egg-info/dependency_links.txt
+phonobyte.egg-info/top_level.txt
+tests/__init__.py
+tests/test_encoder.py
