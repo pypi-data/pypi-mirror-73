@@ -1,0 +1,5 @@
+galaxy_importer
+packaging
+pulpcore>=3.0,<3.6
+PyYAML
+semantic_version
