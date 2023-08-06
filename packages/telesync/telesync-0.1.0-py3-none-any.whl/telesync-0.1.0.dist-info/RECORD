@@ -1,0 +1,11 @@
+telesync/__init__.py,sha256=vunptJK5cvWHzgieTMsCPT2UZ_dLcx_SBqecb4P8tdA,154
+telesync/core.py,sha256=NmmKQ7koz81yNjOUYI64EIUc1gNRAuPsdy8s__b0kOE,20241
+telesync/db.py,sha256=u8X8FZQLe75uNKmzgrJwCDr9ZR8WiNL06O5DEiNP2nA,5780
+telesync/server.py,sha256=gkyW1DRoL0uNmpQcaOKb6ns-EREJw29785dCLOJg6cg,6710
+telesync/types.py,sha256=ULrncMLk8DDm1jzkHhrji5CMqkVCxuQUf44gZZoffBE,187117
+telesync/ui.py,sha256=CL6PPSUiK3GF553gSxMFm3KBBOAZ0cbV1Ep6Obo3FNA,71301
+telesync-0.1.0.dist-info/LICENSE,sha256=hpuFayniDwysSKD0tHGELH2KJDVyhUrKS29torRIpqY,53
+telesync-0.1.0.dist-info/METADATA,sha256=wn9l5oYzMGvLsxaxRCrps9uvFCGRjJ4qSSCFIlLJYq8,5138
+telesync-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+telesync-0.1.0.dist-info/top_level.txt,sha256=0K5qOWtETv540f2IJitdCFi5Y9QK6oynOWIQ4M89tZk,9
+telesync-0.1.0.dist-info/RECORD,,
