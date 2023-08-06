@@ -1,0 +1,11 @@
+ipfs_api_mount/__init__.py,sha256=-PxYRWlVD1EN-WwHNe-iW2FhjLS7xFKFKrp6VYV1BP0,4262
+ipfs_api_mount/ipfs.py,sha256=H7zFGuc6t7f5LTwnDMKg5nr9BQTWo2q0YNyUnB_10tM,7715
+ipfs_api_mount/ipfs_mounted.py,sha256=KYRGvr2EWaWMqDH_QVH54i1Ulhk8IfMHwBH8C0jKeiE,2921
+ipfs_api_mount/unixfs_pb2.py,sha256=hF9H_cj-q7vXo2doUE1V4XUL55WCnWKRy58M1oSisaY,7123
+ipfs_api_mount/version.py,sha256=bqu4G7Is-8Were-hMi-SthEalL7QW-PAbKWGZ9pVB6U,22
+ipfs_api_mount-0.3.2.data/scripts/ipfs-api-mount,sha256=hE2YUynRpntTz6XP6v1fZxeUneUFEB_i9fuzn4_ki6c,2931
+ipfs_api_mount-0.3.2.dist-info/LICENSE,sha256=LjON3zDkjoJYCaH0NovBgbi_nGeaX3Rr-Mqj0kSfIa0,1070
+ipfs_api_mount-0.3.2.dist-info/METADATA,sha256=NATIMQjhRAc6j1pcSBLnPw11kkAQkh7m4OPZgMdHp3w,486
+ipfs_api_mount-0.3.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ipfs_api_mount-0.3.2.dist-info/top_level.txt,sha256=pWHwqABQl50MhBQToFttZ2JoGcmf1wWE6UCg2pENjGQ,15
+ipfs_api_mount-0.3.2.dist-info/RECORD,,
