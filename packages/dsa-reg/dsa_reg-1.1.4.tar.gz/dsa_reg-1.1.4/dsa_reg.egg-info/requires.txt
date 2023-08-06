@@ -1,0 +1,5 @@
+girder-client
+six
+Pillow
+opencv-python
+scikit-image

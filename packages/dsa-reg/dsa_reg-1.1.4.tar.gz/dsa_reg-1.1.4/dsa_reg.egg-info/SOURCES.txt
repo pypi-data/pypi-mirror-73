@@ -1,0 +1,9 @@
+README.md
+setup.py
+dsa_reg/__init__.py
+dsa_reg.egg-info/PKG-INFO
+dsa_reg.egg-info/SOURCES.txt
+dsa_reg.egg-info/dependency_links.txt
+dsa_reg.egg-info/not-zip-safe
+dsa_reg.egg-info/requires.txt
+dsa_reg.egg-info/top_level.txt
