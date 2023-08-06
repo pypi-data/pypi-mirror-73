@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bussilab
+Version: 0.0.2
+Summary: A package collecting a heterogeneous set of tools.
+Home-page: https://github.com/bussilab/py-bussilab
+Author: Giovanni Bussi
+Author-email: bussi@sissa.it
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.com/bussilab/py-bussilab.svg?branch=master)](https://travis-ci.com/bussilab/py-bussilab)
+        [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/bussilab/py-bussilab.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bussilab/py-bussilab/context:python)
+        [![Total alerts](https://img.shields.io/lgtm/alerts/g/bussilab/py-bussilab.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bussilab/py-bussilab/alerts/)
+        [![codecov](https://codecov.io/gh/bussilab/py-bussilab/branch/master/graph/badge.svg)](https://codecov.io/gh/bussilab/py-bussilab)
+        
+        Minimal instructions:
+        ```
+        git clone https://github.com/bussilab/py-bussilab.git
+        cd py-bussilab
+        pip install .
+        ```
+        
+        Precompiled documentation can be browsed at [this page](https://bussilab.github.io/doc-py-bussilab).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
