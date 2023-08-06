@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: comptests-z6
+Version: 6.0.4
+Summary:  Testing utilities for projects that use ConfTools for handling their configuration. 
+Home-page: http://github.com/AndreaCensi/comptests
+Author: Andrea Censi
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: http://github.com/AndreaCensi/comptests/tarball/6.0.4
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta

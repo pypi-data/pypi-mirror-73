@@ -1,0 +1,6 @@
+PyContracts3
+compmake-z6
+ConfTools-z6
+QuickApp-z6
+junit_xml
+coverage
