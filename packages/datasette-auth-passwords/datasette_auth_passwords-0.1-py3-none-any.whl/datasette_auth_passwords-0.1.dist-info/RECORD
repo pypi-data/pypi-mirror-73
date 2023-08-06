@@ -1,0 +1,8 @@
+datasette_auth_passwords/__init__.py,sha256=y-Bjpa6FcoLLhia0BnctSx-yIecekiaXUTFTzmvgNgc,1662
+datasette_auth_passwords/utils.py,sha256=CQHFvBQ0y8bLSkhntU0-rCW60TTlcZRXGiBGXCvkR58,923
+datasette_auth_passwords/templates/password_tool.html,sha256=xYHoPQsOlxHWYZHnk-nMWxfXc7Rnl4gOUwYQm95V4FQ,655
+datasette_auth_passwords-0.1.dist-info/METADATA,sha256=CwMEq3Bnxv8IHCYfPqZi7dZWffza_Y5WBJcTMN4-niQ,3287
+datasette_auth_passwords-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datasette_auth_passwords-0.1.dist-info/entry_points.txt,sha256=uulluFKR9s7Vh4Zxc17MHYXTQrFjMKUnpJvKswqlYXE,55
+datasette_auth_passwords-0.1.dist-info/top_level.txt,sha256=NOJlsph29OZhNXaHpDHNAY7qWJE4SF_JsgEX8zQHjL0,25
+datasette_auth_passwords-0.1.dist-info/RECORD,,
