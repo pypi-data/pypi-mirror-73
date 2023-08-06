@@ -1,0 +1,10 @@
+tax2graph/GraphParser.py,sha256=kobOpD3ya48J-Z8ZsxRhGDmv6gxo7al9QrPMaJ-ew_A,4859
+tax2graph/__init__.py,sha256=ou1DJD_-6EkYMLPtY0VDwahwhfJswP_5X-XLMstmy-A,228
+tax2graph/abstract_connection.py,sha256=ve-x9eq9dmjM9ITpwGyUoHwU7xJpVwPktCcCYadiApU,953
+tax2graph/graph_builder.py,sha256=ZLuAC1fU5UiDrXbbS4hByCCNmNrcuKiHNiODw91TfFo,2470
+tax2graph/manager.py,sha256=5b9zj_0OIjfMuN3ZXiFI6oeKB5bADjfC1yp7QhXJ5eo,2144
+tax2graph/data/sordariomycetes/taxa.txt,sha256=ucn1RFG_Sx0yn4wK9rKsWZG1Hu-cw8nQ20xAao2ZSfc,573902
+tax2graph-1.0.1.dist-info/METADATA,sha256=nNto9ERMxYjkZE2WHHKkvkF2Mni-eW7y-gTBB5n5rCs,2853
+tax2graph-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tax2graph-1.0.1.dist-info/top_level.txt,sha256=r1EJrUkPVn9xUO2v1e19px9S8qGkn9XDi53gJXi1FG4,10
+tax2graph-1.0.1.dist-info/RECORD,,
