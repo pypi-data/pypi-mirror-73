@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: django-geoadmin
+Version: 0.0.2
+Summary: Django Geo Admin
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: LGPL
+Description: Django-Geo-Admin
+        =====================
+        
+        The application introducing geo admin list based on leaflet
+        
+        See details at the home page: https://github.com/nnseva/django-geoadmin
+        
+        
+Keywords: django admin leaflet map list view
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)

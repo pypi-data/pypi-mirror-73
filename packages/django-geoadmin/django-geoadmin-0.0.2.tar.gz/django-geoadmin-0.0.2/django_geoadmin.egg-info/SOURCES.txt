@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+django_geoadmin.egg-info/PKG-INFO
+django_geoadmin.egg-info/SOURCES.txt
+django_geoadmin.egg-info/dependency_links.txt
+django_geoadmin.egg-info/not-zip-safe
+django_geoadmin.egg-info/requires.txt
+django_geoadmin.egg-info/top_level.txt
+geoadmin/__init__.py
+geoadmin/admin.py
+geoadmin/options.py
+geoadmin/version.py
+geoadmin/static/geoadmin/geoadmin.css
+geoadmin/static/geoadmin/geoadmin.js
+geoadmin/templates/geoadmin/geoadmin_change_list.html
+geoadmin/templates/geoadmin/geoadmin_view.html
