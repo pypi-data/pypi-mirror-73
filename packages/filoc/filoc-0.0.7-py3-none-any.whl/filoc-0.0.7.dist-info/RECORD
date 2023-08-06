@@ -1,0 +1,13 @@
+filoc/__init__.py,sha256=XgStvXWigBJYONk0tyWMP2hSr_kOpFTnwYFo-4nsW4M,244
+filoc/filoc.py,sha256=Y7CbgQWe_0lKXltWKYf179ZwXDgbjLGcwdy7Bch6x3A,13714
+filoc/multiloc.py,sha256=7fJ_UqXfUAw30n5hk-__C2SGRVUY3VdbeRh8eTICMzk,8422
+filoc/rawfiloc.py,sha256=JYozPNR8N9p74reu1zJITen2pStDZ5cJBa27yS4tKf4,6265
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_Filoc.py,sha256=kpucbey9s0zZ1mEecRSYJspAIHrLS6N-YqmmctmAzXc,5919
+tests/test_Multiloc.py,sha256=vIN7IsINmLHTCL9Lhw_MO8y81w8ZmKCl2zWX48bgo7w,5165
+tests/test_RawFiloc.py,sha256=VSHb_-Yg2rQtOroCTNdXCvpFPPgkj-rJOEKLbPbWAcE,4657
+filoc-0.0.7.dist-info/LICENSE,sha256=izHtsaN8N3FB-eBFfty9Ha_OOl-np-o4sRuUljMzx-0,1074
+filoc-0.0.7.dist-info/METADATA,sha256=wdhVk2Rzvi9_TytZ0VeVSjVLHjZR11BomEFSyxSM4Xs,5222
+filoc-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+filoc-0.0.7.dist-info/top_level.txt,sha256=nnXJ6EFenEZO_s-VHJ0mQvbqVrv7cKslmnXE3GnApJM,12
+filoc-0.0.7.dist-info/RECORD,,
