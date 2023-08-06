@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas
+pygtc
+setuptools
+tqdm
