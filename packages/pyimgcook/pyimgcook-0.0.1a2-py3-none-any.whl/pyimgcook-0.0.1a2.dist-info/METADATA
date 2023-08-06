@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyimgcook
+Version: 0.0.1a2
+Summary: 图像处理函数集
+Home-page: https://github.com/ibegyourpardon/pyimgcook
+Author: ibegyourpardon
+Author-email: yiziyint@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+图像处理函数集
+
+
