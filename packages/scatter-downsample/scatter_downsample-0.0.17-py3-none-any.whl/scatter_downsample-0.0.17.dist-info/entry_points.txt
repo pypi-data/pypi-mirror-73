@@ -1,0 +1,3 @@
+[console_scripts]
+scatter_downsample = scatter_downsample.__main__:main
+
