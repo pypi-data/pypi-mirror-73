@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: celerite2
+Version: 0.0.1.dev1
+Summary: Fast and scalable Gaussian Processes in 1D
+Home-page: https://celerite2.readthedocs.io
+Author: Daniel Foreman-Mackey
+Author-email: foreman.mackey@gmail.com
+Maintainer: Daniel Foreman-Mackey
+Maintainer-email: foreman.mackey@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.13.0)
+Requires-Dist: pybind11 (>=2.4)
+Requires-Dist: setuptools (>=40.6.0)
+Requires-Dist: setuptools-scm
+Provides-Extra: dev
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: toml ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: scipy ; extra == 'dev'
+Requires-Dist: celerite (>=0.3.1) ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: black-nbconvert ; extra == 'dev'
+Requires-Dist: pep517 ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: nbstripout ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Provides-Extra: release
+Requires-Dist: pep517 ; extra == 'release'
+Requires-Dist: twine ; extra == 'release'
+Requires-Dist: wheel ; extra == 'release'
+Provides-Extra: test
+Requires-Dist: wheel ; extra == 'test'
+Requires-Dist: toml ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: scipy ; extra == 'test'
+Requires-Dist: celerite (>=0.3.1) ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: black-nbconvert ; extra == 'test'
+
+The Python bindings to celerite2.
+
+
