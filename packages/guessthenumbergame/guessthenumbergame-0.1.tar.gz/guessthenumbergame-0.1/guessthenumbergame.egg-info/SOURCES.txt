@@ -1,0 +1,10 @@
+setup.py
+guessthenumbergame/__init__.py
+guessthenumbergame/guessthenumber.py
+guessthenumbergame/guessthenumberbackup.py
+guessthenumbergame/testing.py
+guessthenumbergame.egg-info/PKG-INFO
+guessthenumbergame.egg-info/SOURCES.txt
+guessthenumbergame.egg-info/dependency_links.txt
+guessthenumbergame.egg-info/not-zip-safe
+guessthenumbergame.egg-info/top_level.txt
