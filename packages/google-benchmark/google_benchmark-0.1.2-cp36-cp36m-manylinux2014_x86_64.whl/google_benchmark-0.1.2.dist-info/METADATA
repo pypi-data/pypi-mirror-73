@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: google-benchmark
+Version: 0.1.2
+Summary: A library to benchmark code snippets.
+Home-page: https://github.com/google/benchmark
+Author: Google
+Author-email: benchmark-py@google.com
+License: Apache 2.0
+Keywords: benchmark
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Benchmark
+Requires-Dist: absl-py (>=0.7.1)
+
+UNKNOWN
+
+
