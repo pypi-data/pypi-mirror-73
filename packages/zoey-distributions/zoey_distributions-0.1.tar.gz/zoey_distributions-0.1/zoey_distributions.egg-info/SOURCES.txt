@@ -1,0 +1,10 @@
+setup.py
+zoey_distributions/Binomialdistribution_challenge.py
+zoey_distributions/Gaussiandistribution.py
+zoey_distributions/Generaldistribution.py
+zoey_distributions/__init__.py
+zoey_distributions.egg-info/PKG-INFO
+zoey_distributions.egg-info/SOURCES.txt
+zoey_distributions.egg-info/dependency_links.txt
+zoey_distributions.egg-info/not-zip-safe
+zoey_distributions.egg-info/top_level.txt
