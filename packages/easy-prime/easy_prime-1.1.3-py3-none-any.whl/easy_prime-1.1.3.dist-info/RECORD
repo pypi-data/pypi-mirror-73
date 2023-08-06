@@ -1,0 +1,17 @@
+easy_prime/__init__.py,sha256=XRm9EoZETelLm3ms-6Q6g3VqLSPn7A4W24FEH1qfdUk,202
+easy_prime/_sgRNA.py,sha256=cdgdQXPhtjRObiiilCwQslLFRuVo-xBPf8LlLAW_ap4,15773
+easy_prime/_target_mutation.py,sha256=JgWni7JTOaq7cRySNatVP93q2wTCP9PlVtH-yMjfh2c,10708
+easy_prime/utils.py,sha256=Ry80chEa7xryRIN3Oh-HR2ZokRg3JN1Y-pxILM-o3PE,12157
+easy_prime-1.1.3.data/scripts/easy_prime,sha256=baQo2EA28fq9GxQHc5NKSPVKGGjERej2klPGMyOLXTA,3382
+easy_prime-1.1.3.data/scripts/easy_prime_vis,sha256=qC114At2JshXuEqHgZZo2LFa8UQhV4byDsAzQZ1gz8M,4034
+model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model/xgb_model_final.pkl,sha256=Vg-F_Vc4k06b_Su_fwO7XZmJnlMPsOb_HMDeWHEndog,43093
+model/xgb_model_final.py,sha256=Vg-F_Vc4k06b_Su_fwO7XZmJnlMPsOb_HMDeWHEndog,43093
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/config.yaml,sha256=fhh8aN1xFpYMOj-OR2VbwJgt07-GJYLAddnNANUmtDY,95
+test/test.vcf,sha256=2Uq7mdDzXuGpY8OolFp1TaqO0EFHPrJO8Jjv_6xLJC4,134
+easy_prime-1.1.3.dist-info/LICENSE,sha256=RHKhratmnAsoiUbqXGDUjCB45_xAqg6ZC5v9XwQWVOo,1066
+easy_prime-1.1.3.dist-info/METADATA,sha256=k1Y6QoixxcaZX2EjQ2jKXvKIftji_8U91AMu9WDm3IA,4652
+easy_prime-1.1.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+easy_prime-1.1.3.dist-info/top_level.txt,sha256=eSIx9zqqVYNdLRtVhT6Fj9QYr2bFHnedQ8QWFxvHwnU,22
+easy_prime-1.1.3.dist-info/RECORD,,
