@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: gerampai
+Version: 0.1.1
+Summary: Instagram extractor
+Home-page: https://gitlab.com/wakataw/gerampai
+Author: Agung Pratama
+Author-email: agungpratama1001@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://gitlab.com/wakataw/gerampai/issues
+Project-URL: Source, https://gitlab.com/wakataw/gerampai
+Description: # GERAMPAI
+        GERAMPAI (grampy atau instagram-python) merupakan tools untuk mengekstrak feed user instagram menjadi CSV. GERAMPAI merupakan implementasi dari package [instagram-private-api](https://github.com/ping/instagram_private_api).
+        
+        ## Instalasi
+        `pip install gerampai`
+        
+        ## Pengunaan
+        ```bash
+        usage: gerampai [-h] [--delay DELAY] [--page-size PAGE_SIZE]
+                        [--max-retry MAX_RETRY]
+                        username
+        ```
+        
+        Contoh Pengunaan:
+        
+        ```bash
+        user@host $ gerampai lalalalaliz_m --page-size 25
+        ```
+        
+        Output:
+        
+        ```
+           ______                                      _
+          / ____/__  _________ _____ ___  ____  ____ _(_)
+         / / __/ _ \/ ___/ __ `/ __ `__ \/ __ \/ __ `/ /
+        / /_/ /  __/ /  / /_/ / / / / / / /_/ / /_/ / /
+        \____/\___/_/   \__,_/_/ /_/ /_/ .___/\__,_/_/
+                  Instagram Extractor /_/ Ver. 0.1.1
+        
+        User Profile
+        Username           : @lalalalaliz_m
+        Full Name          : LALISA MANOBAN�
+        Bussines Account   : True
+        Bussiness Category : Creators & Celebrities
+        Private            : False
+        Verified           : False
+        Website            : https://youtu.be/je_R3gEtDbw
+        Total Post         : 432
+        Followers          : 37338
+        Following          : 138
+        Biography          : 리사�~ Hello BLINKS�❤ Fan account for @lalalalisa_m • lead rapper and main dancer� Always support @blackpinkofficial
+        
+        Extracting 432 of 432 data (100.00%)
+        Save results to lalalalaliz_m.csv and lalalalaliz_m-profile.txt
+        ```
+        
+        ## Results
+        Aplikasi akan menghasilkan 2 file yaitu `username-profile.txt` untuk data profile user dan `username.csv` untuk daftar postingan user dalam format csv dengan koma (`,`) sebagai delimiter. 
+        
+        ## Lisensi
+        Released under MIT License
+        
+Keywords: instagram,scraper,data,extractor
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Indonesian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
