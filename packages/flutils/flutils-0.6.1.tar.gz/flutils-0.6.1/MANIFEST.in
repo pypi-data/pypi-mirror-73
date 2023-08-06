@@ -1,0 +1,4 @@
+include README.rst
+include LICENSE
+include flutils/__init__.pyi
+include flutils/py.typed
