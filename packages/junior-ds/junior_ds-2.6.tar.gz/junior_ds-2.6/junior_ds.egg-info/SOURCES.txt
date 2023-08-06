@@ -1,0 +1,8 @@
+README.md
+setup.py
+junior_ds.egg-info/PKG-INFO
+junior_ds.egg-info/SOURCES.txt
+junior_ds.egg-info/dependency_links.txt
+junior_ds.egg-info/not-zip-safe
+junior_ds.egg-info/requires.txt
+junior_ds.egg-info/top_level.txt
