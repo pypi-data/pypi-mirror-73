@@ -1,0 +1,10 @@
+mongoengine_todict/__init__.py,sha256=sPPW2AjU6fiozER6ysQ0mPRkHbLvuL9d7EIoKXHpLNw,161
+mongoengine_todict/errors.py,sha256=DUNNSUoqI9h135KwFUJWjJfaDR76rWnb7BXMOsdX6Rk,75
+mongoengine_todict/mixin.py,sha256=8WKL0L_wrSGT8h9EsUXbCENkMf0j9jdIieNBNuFy1JI,1253
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mixin.py,sha256=KmnWlXUaLumnQi8gwXwse9OOv9w5c_1hjxG6HXnPSvU,1530
+mongoengine_todict-0.1.0.dist-info/LICENSE,sha256=hP0k9S_umiMuGfmanyLoLTzTFCQw0i6KdyPqfrTpvG8,1062
+mongoengine_todict-0.1.0.dist-info/METADATA,sha256=Zh3hxuF-Tg9Foc6nV-BrpC1241WLn-puuHbiXw3aN7U,272
+mongoengine_todict-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mongoengine_todict-0.1.0.dist-info/top_level.txt,sha256=OZOvJ-nsosR27kQts_tqsoBlpSp4cRLU4jDUAfTj7Vw,25
+mongoengine_todict-0.1.0.dist-info/RECORD,,
