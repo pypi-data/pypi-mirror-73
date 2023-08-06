@@ -1,0 +1,13 @@
+README.md
+setup.py
+tseries_patterns/__init__.py
+tseries_patterns.egg-info/PKG-INFO
+tseries_patterns.egg-info/SOURCES.txt
+tseries_patterns.egg-info/dependency_links.txt
+tseries_patterns.egg-info/requires.txt
+tseries_patterns.egg-info/top_level.txt
+tseries_patterns/common/PriceType.py
+tseries_patterns/common/__init__.py
+tseries_patterns/common/ggplot.py
+tseries_patterns/labelers/AmplitudeBasedLabeler.cpp
+tseries_patterns/labelers/__init__.py
