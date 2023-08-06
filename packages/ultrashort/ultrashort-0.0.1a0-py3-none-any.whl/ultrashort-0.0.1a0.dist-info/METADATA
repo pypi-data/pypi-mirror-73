@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ultrashort
+Version: 0.0.1a0
+Summary: Let us drive a quantum state with an ultrashort pulse.
+Home-page: UNKNOWN
+Author: sahn
+Author-email: jam31118@gmail.com
+License: GPLv3
+Keywords: physics,quantum mechanics,simulation
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy
+
+# A light-matter interaction with an ultrashort pulse
+
+
