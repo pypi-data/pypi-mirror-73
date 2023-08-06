@@ -1,0 +1,3 @@
+[console_scripts]
+consolecontacts = contacts.consolecontacts:main
+
