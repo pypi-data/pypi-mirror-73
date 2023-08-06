@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: scConnect
+Version: 1.0.0
+Summary: scConnect integrate gene expression profiles in scRNA-seq datasets with ligand and receptor interaction information from Guide to pharmacology to construct a graph containing all putative interaction between cell types in the dataset.
+Home-page: UNKNOWN
+Author: Jon E.T. Jakobsson
+Author-email: jon.jakobsson@neuro.uu.se
+License: License :: OSI Approved :: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
