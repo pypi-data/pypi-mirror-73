@@ -1,0 +1,3 @@
+[console_scripts]
+scli = snippet_converter.cli:run
+
