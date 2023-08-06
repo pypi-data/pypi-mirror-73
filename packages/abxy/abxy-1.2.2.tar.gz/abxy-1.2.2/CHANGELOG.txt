@@ -1,0 +1,17 @@
+Change Log
+==========
+
+0.0.1 (7/10/2020)
+-----------------
+- ChatPreter & CursePreter Added.
+
+1.0.2 (7/10/2020)
+-----------------
+- Released to PyPi.
+
+1.1.2 (7/10/2020)
+-----------------
+- Fixing some bugs..
+
+1.2.2 (7/10/2020)
+- Fixed some bugs!
