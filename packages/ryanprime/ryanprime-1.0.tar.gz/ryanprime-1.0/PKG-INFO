@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: ryanprime
+Version: 1.0
+Summary: Works with prime numbers
+Home-page: https://github.com/rtang09/ryanprime
+Author: Ryan Tang
+Author-email: ryantangwa@gmail.com
+License: MIT
+Download-URL: https://github.com/rtang09/ryanprime/archive/1.0.tar.gz
+Description: UNKNOWN
+Keywords: Prime,Numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
