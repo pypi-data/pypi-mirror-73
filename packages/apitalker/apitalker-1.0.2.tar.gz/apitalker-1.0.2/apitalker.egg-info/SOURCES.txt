@@ -1,0 +1,11 @@
+README.md
+setup.py
+apitalker/__init__.py
+apitalker/api.py
+apitalker/data.py
+apitalker/resources.py
+apitalker.egg-info/PKG-INFO
+apitalker.egg-info/SOURCES.txt
+apitalker.egg-info/dependency_links.txt
+apitalker.egg-info/requires.txt
+apitalker.egg-info/top_level.txt
