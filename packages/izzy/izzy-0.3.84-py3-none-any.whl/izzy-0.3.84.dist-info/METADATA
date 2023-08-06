@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: izzy
+Version: 0.3.84
+Summary: A toolkit for executing and analyzing machine learning classification
+Home-page: https://www.lockhartlab.org
+Author: C. Lockhart
+Author-email: chris@lockhartlab.org
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: codecov
+Requires-Dist: coverage
+Requires-Dist: gitpipe
+Requires-Dist: hypothesis
+Requires-Dist: iox
+Requires-Dist: IPython
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: plotnine
+Requires-Dist: privatize
+Requires-Dist: pyyaml
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: sphinx
+Requires-Dist: six
+Requires-Dist: typelike (>=0.0.31)
+
+A toolkit for executing and analyzing machine learning classification
+
+
