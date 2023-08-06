@@ -1,0 +1,12 @@
+README.md
+setup.py
+pornstar/_CV2_filters.py
+pornstar/_PIL_filters.py
+pornstar/__init__.py
+pornstar/_deeplab.py
+pornstar/_main.py
+pornstar.egg-info/PKG-INFO
+pornstar.egg-info/SOURCES.txt
+pornstar.egg-info/dependency_links.txt
+pornstar.egg-info/requires.txt
+pornstar.egg-info/top_level.txt
