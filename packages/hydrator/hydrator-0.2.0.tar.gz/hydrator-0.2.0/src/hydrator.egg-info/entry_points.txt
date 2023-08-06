@@ -1,0 +1,3 @@
+[console_scripts]
+hydrator = hydrator.__main__:hydrator
+
