@@ -1,0 +1,3 @@
+[console_scripts]
+excel2json-gui=excel2json_gui.main:main
+
