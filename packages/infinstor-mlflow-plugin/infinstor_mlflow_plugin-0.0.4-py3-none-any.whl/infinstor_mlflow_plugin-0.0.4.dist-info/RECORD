@@ -1,0 +1,12 @@
+infinstor_mlflow_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infinstor_mlflow_plugin/cognito_auth_rest_store.py,sha256=zjyZAUlfqdWJZM7F_EbabRxkhC3slbso68J8Xi2943E,4607
+infinstor_mlflow_plugin/fake_deployment_plugin.py,sha256=eCIbVF7_t-PocO-yjpeh7icQAvm6wGqQR21PBowLNZQ,1157
+infinstor_mlflow_plugin/infinstor_backend.py,sha256=2S0yM234hwve4ErTyzWlR71B2kVXACMPOO-d1gNyl8g,6480
+infinstor_mlflow_plugin/local_artifact.py,sha256=mtbHGmmDLk7jS9vWKILfpROGWvq3BoP8Gh6j3HPqFxs,228
+infinstor_mlflow_plugin/run_context_provider.py,sha256=fjKD9CTwrdoeWhCX0d60llQ-WptMmbxb6-gCIjC5SXU,286
+infinstor_mlflow_plugin/sql_store_alchemy.py,sha256=VxjyMEa6LHuhf_KwnZfV6kcJSmfPsNel0wi_f62SXnw,371
+infinstor_mlflow_plugin-0.0.4.dist-info/METADATA,sha256=-0o3UwIvEKvX9pphRo_1v6jT5wicmaH2yAJj8iIHnaU,229
+infinstor_mlflow_plugin-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+infinstor_mlflow_plugin-0.0.4.dist-info/entry_points.txt,sha256=rrgQolq1aEwdSOKITiStIU7DX_lDc2Wums_TlusOOsM,638
+infinstor_mlflow_plugin-0.0.4.dist-info/top_level.txt,sha256=HeWnouDwswMQPV8oX1QTtUzIN0xMK82MKG2N4MF2bmc,24
+infinstor_mlflow_plugin-0.0.4.dist-info/RECORD,,
