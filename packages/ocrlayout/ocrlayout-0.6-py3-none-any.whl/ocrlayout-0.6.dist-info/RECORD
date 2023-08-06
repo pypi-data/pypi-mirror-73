@@ -1,0 +1,13 @@
+ocrlayout/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrlayout/bboxconfig.py,sha256=02J3gZGCUIDcz2JCYwdxja_5T1FUueBHb15qnsMDO_M,2491
+ocrlayout/bboxhelper.py,sha256=Q8UWHIgrwyNFSPxxIuHBRiUuQs1WmUXYv1Em7Yw1ZqE,32066
+ocrlayout/bboxlog.py,sha256=v0U504eKqYN-RLa-7jPNtReC14MZP5cs_lQOhVtcIwY,379
+ocrlayout/bboxutils.py,sha256=V4S3pBdtxJtzIHR6N_yYO51ZamoPe2mlu_Lllxt3X90,15001
+ocrlayout/config/annotations.json,sha256=Qvam0gG4T135knIClwzXLce4-BPTR4QJNzcghLRSB_Y,139
+ocrlayout/config/config.json,sha256=MJ-SEwsjGhDLtYoslzljDxijxPZ1lVf6cPsUxRjKqLI,1219
+ocrlayout/config/logging.conf,sha256=2jH40Au9S0KfIzoCQAUCHoZkgeZ4CSVgatoL-SIhKs8,476
+ocrlayout-0.6.dist-info/LICENSE,sha256=miSYyP2ADoy3shw9_tXNRNJ-5oxr0mR6PLAqnhxOH8k,1097
+ocrlayout-0.6.dist-info/METADATA,sha256=vO1tsMCbRLxOhPxyiT1nBuai2-F76HqXmGVqcOu41tI,4217
+ocrlayout-0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ocrlayout-0.6.dist-info/top_level.txt,sha256=r4WiZde6s1OQ8ykIbkNDCa8b-vMtlyW3_155kvske2Q,10
+ocrlayout-0.6.dist-info/RECORD,,
