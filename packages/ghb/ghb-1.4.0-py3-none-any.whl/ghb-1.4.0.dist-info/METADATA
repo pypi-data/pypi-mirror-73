@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ghb
+Version: 1.4.0
+Summary: A collection of useful GitHub commands
+Home-page: https://github.com/keith/ghb
+Author: Keith Smiley
+Author-email: keithbsmiley@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (==2.20.0)
+
+UNKNOWN
+
+
