@@ -1,0 +1,10 @@
+gitutor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/cli.py,sha256=lSrtBR_B7sMjWqQaWNkl5Q0aRF7Oz6Ois_a-lVG8BcA,758
+gitutor/init/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/init/commands.py,sha256=BKPtDxXbl5uH3-KvHsDJFsoDQ3KWsZHt-dDCxWstVys,1899
+gitutor/save/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/save/commands.py,sha256=N0McawagFBYGNMhGiu-5QyTIQez2m2lGg_j7Npa5wU4,2443
+gitutor-0.2.0.dist-info/entry_points.txt,sha256=VuDV9LVzqG6HNXxQ-GjJFZjk3g5tvemvjotgYHjww_A,39
+gitutor-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+gitutor-0.2.0.dist-info/METADATA,sha256=Lnu3L_YEDvYvvVtP3SQjsmrk9u1bjcQohUriFIsLT-w,579
+gitutor-0.2.0.dist-info/RECORD,,
