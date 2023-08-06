@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mkla
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Douglas Adams and Justin Pierel
+Author-email: douglasquincyadams@gmail.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: cython
+
+UNKNOWN
+
+
