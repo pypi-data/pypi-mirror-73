@@ -1,0 +1,15 @@
+README.md
+setup.py
+bin/easy_prime
+bin/easy_prime_vis
+easy_prime/__init__.py
+easy_prime/_sgRNA.py
+easy_prime/_target_mutation.py
+easy_prime/utils.py
+easy_prime.egg-info/PKG-INFO
+easy_prime.egg-info/SOURCES.txt
+easy_prime.egg-info/dependency_links.txt
+easy_prime.egg-info/top_level.txt
+model/__init__.py
+model/xgb_model_final.py
+test/__init__.py
