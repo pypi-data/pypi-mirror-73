@@ -1,0 +1,10 @@
+satextrato/__init__.py,sha256=BlTmHKaMynhSRHyc_brIaYXsnE9yQDAaQid2Tw63DH8,951
+satextrato/base.py,sha256=t4o4_AKatjXwWAeg9vvDF9ZSELMhemjknte8r7NY-fU,16533
+satextrato/cancelamento.py,sha256=DAoINyt6H2u-XXMX5YyZwcZuBJjSkMTc6raw2P9-yZE,6601
+satextrato/config.py,sha256=UudciJArhPLEfvq0ZFuTOEDM8JdmmUi3i7ZCuM6XRIQ,13144
+satextrato/venda.py,sha256=TXBRAoYC68u41l1QTdYS6f2U6He658lFkqn7te6d9uE,19559
+satextrato-0.3.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+satextrato-0.3.dist-info/METADATA,sha256=ZrrRFHwSXIxRO0RU_y80SEgTtLEyNJAGa4atpkx042M,7384
+satextrato-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+satextrato-0.3.dist-info/top_level.txt,sha256=53XPaXmHto3s1sLxVb8Dka609JMYPvOqtiXxvqQBkQc,11
+satextrato-0.3.dist-info/RECORD,,
