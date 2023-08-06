@@ -1,0 +1,8 @@
+README.md
+setup.py
+fsm/__init__.py
+fsm/fsm.py
+simple_fsm.egg-info/PKG-INFO
+simple_fsm.egg-info/SOURCES.txt
+simple_fsm.egg-info/dependency_links.txt
+simple_fsm.egg-info/top_level.txt
