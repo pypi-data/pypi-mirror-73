@@ -1,0 +1,54 @@
+from .manager import Manager, RestartPolicy
+from .logger import logger
+from logging import StreamHandler, INFO
+from argparse import ArgumentParser
+from importlib import import_module
+from time import sleep 
+from signal import signal, SIGINT, SIGTERM, SIG_IGN, SIG_DFL
+from os import getpid
+import sys
+
+MONITOR_CYCLE = 0.5
+
+logger.addHandler(StreamHandler())
+logger.setLevel(INFO)
+
+parser = ArgumentParser()
+parser.add_argument("target")
+parser.add_argument("-w", "--workers", default = 1, type = int)
+parser.add_argument("-p", "--preload", action="store_true")
+parser.add_argument("-r", "--restart_policy", 
+    type = str, 
+    choices = list(x.name for x in RestartPolicy),
+    default = RestartPolicy.never.name
+)
+
+class Handler:
+    def __init__(self):
+        self._terminate = False
+
+    def __call__(self, _sig, _frame):
+        self._terminate = True
+
+    @property
+    def terminate(self):
+        return self._terminate
+
+def _run_target(module, fn):
+    signal(SIGINT, SIG_IGN)
+    signal(SIGTERM, SIG_DFL)
+    import_module(module).__getattribute__(fn)()
+
+def run():
+    hdlr = Handler()
+    signal(SIGINT, hdlr)
+    sys.path.insert(0, "")
+    args = parser.parse_args()
+    module, fn = args.target.split(":")
+    if args.preload:
+        import_module(module)
+    target = lambda: _run_target(module, fn)
+    with Manager(target, workers = args.workers, restart_policy = RestartPolicy[args.restart_policy]) as mgr:
+        while not hdlr.terminate:
+            sleep(MONITOR_CYCLE)
+            mgr.monitor()
