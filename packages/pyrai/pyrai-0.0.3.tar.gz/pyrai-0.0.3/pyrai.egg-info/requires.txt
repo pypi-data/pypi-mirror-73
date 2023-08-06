@@ -1,0 +1,5 @@
+ipython
+plotly
+python-dateutil
+pytimeparse
+requests
