@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: git-tagup
+Version: 0.0.9
+Summary: Find and tag Git commits based on version numbers in commit messages.
+Home-page: https://initialcommit.com/projects/git-tagup
+Author: Jacob Stopak
+Author-email: jacob@initialcommit.io
+License: UNKNOWN
+Project-URL: Homepage, https://initialcommit.com/projects/git-tagup
+Description: # git-tagup
+        
+        Find and tag Git commits based on version numbers in commit messages.
+        
+        ## Quickstart
+        
+        1) Install `git-tagup`:
+        
+        ```shell
+        $ pip install git-tagup
+        ```
+        
+        2) Browse to the Git repository you want to add tags to - this is usually your project root directory containing the `.git` directory:
+        
+        ```shell
+        $ cd path/to/project/root
+        ```
+        
+        3) Run the program:
+        
+        ```shell
+        $ git-tagup
+        ```
+        
+        ## Example
+        
+        ```shell
+        $ cd path/to/project/root
+        $ git-tagup
+        Create the tag 'v0.1.1' for commit message 'Bump version to 0.1.1'? (y/n/q): n
+        Create the tag 'v0.1.2' for commit message 'Bump version to 0.1.2'? (y/n/q): y
+        Create the tag 'v0.1.3' for commit message 'Bump version to 0.1.3'? (y/n/q): q
+        ```
+        
+        ## Installation
+        
+        ```shell
+        $ pip install git-tagup
+        ```
+        
+        ## Learn More
+        
+        Learn more about this project on the [git-tagup project page](https://initialcommit.com/projects/git-tagup).
+        
+        ## Authors
+        
+        * **Jacob Stopak** - on behalf of [Initial Commit](https://initialcommit.com)
+        
+Keywords: git tag git-tagup tagup tag-up version autotag auto-tag commit message
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
