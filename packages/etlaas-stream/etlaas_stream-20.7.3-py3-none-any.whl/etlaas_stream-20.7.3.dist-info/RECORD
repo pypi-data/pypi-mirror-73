@@ -1,0 +1,12 @@
+etlaas_stream/__init__.py,sha256=wdp1LefNWEMUoo2I4pK0GkceyxyN5j-ujZDqCRsA25Y,355
+etlaas_stream/bookmarker/__init__.py,sha256=_2KIr1vmw_7bfbGkpFycOqyLvHst6jgOGITljzSU9kk,125
+etlaas_stream/bookmarker/bookmarker.py,sha256=BOANkqoEqv9uxGwH2GQKT-Cj3H0n0ZEqF24pSq6-vPo,773
+etlaas_stream/bookmarker/redis_bookmarker.py,sha256=C2VMYACE6llJQJogPFehd2xNjMFkbu0Hkf6swywh5Xc,1055
+etlaas_stream/infrastructure.py,sha256=0iu0zCadCCWoWVidLLv7bzGb9UK404zqcD5e0CeEQZw,211
+etlaas_stream/sink.py,sha256=Xpo83TEd00UC4BDjuqQgkyTLeI4R5mvsud4OSeXmOw0,3909
+etlaas_stream/source.py,sha256=IKA95f1KuBYH9qTeOfLN-Ja-Ic8Dug17kq39lbnVi_8,3470
+etlaas_stream/spec.py,sha256=0M9kPyWIiPwCGutx6QNaWwPOjfw3_wDoKikYwNW6HKM,1340
+etlaas_stream-20.7.3.dist-info/LICENSE,sha256=81wyMsSIAE3j0TSmFA3N6-q_xmRt9QT4pH7iP9APF3o,1063
+etlaas_stream-20.7.3.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+etlaas_stream-20.7.3.dist-info/METADATA,sha256=8JHvZFxhSlhcExT19xxj8jV1d9uNFAV6nM8WenzR8Gg,492
+etlaas_stream-20.7.3.dist-info/RECORD,,
