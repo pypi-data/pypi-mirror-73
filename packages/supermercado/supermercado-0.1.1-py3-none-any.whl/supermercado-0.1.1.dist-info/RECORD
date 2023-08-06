@@ -1,0 +1,13 @@
+supermercado/__init__.py,sha256=0yv0LZkim9RUkmF_xpWakz3DZUmKWW39LdX8Xk_4Ywc,127
+supermercado/burntiles.py,sha256=RByl17ck_pcdAcM8UuQAV-lRR_-SBmjb2W_PQNwP9zk,2810
+supermercado/edge_finder.py,sha256=uUtfFR3i6mA0iR97AEzn_0MLz7_Y-ZeD900oVhJ85DU,1160
+supermercado/super_utils.py,sha256=v5uSBL2mdjN1PvyqgjaDwhu4td_0yCZF91cZ_cLwZpQ,2928
+supermercado/uniontiles.py,sha256=oqejRJhdMfB8hWyrfeVSlEft1J8SDvQo-Qwwan0Th0s,1208
+supermercado/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supermercado/scripts/cli.py,sha256=QTt0tnmgjo37ULxEA9W23ZowuQARmrlxXrxbCUGNnrc,1684
+supermercado-0.1.1.dist-info/LICENSE,sha256=MBL2apvVFu2mQxYVjGn8dE-yTnN7_whIKHpRL9qy4S8,1074
+supermercado-0.1.1.dist-info/METADATA,sha256=AQtc0zaHmnv2i_m5xT928-yFwpm-22BKmjLsLUq1nSk,3303
+supermercado-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+supermercado-0.1.1.dist-info/entry_points.txt,sha256=3eY0fw-FOLMcx4DpqIgYauj4nWqm2dfrNgH3Aci5nBY,79
+supermercado-0.1.1.dist-info/top_level.txt,sha256=6AJrBVqaOwxA4FhSL-O5yNpydDXvIG8NPhZqPFVaU4A,13
+supermercado-0.1.1.dist-info/RECORD,,
