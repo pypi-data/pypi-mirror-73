@@ -1,0 +1,5 @@
+[console_scripts]
+tensorflow-tts-compute-statistics = tensorflow_tts.bin.compute_statistics:main
+tensorflow-tts-normalize = tensorflow_tts.bin.normalize:main
+tensorflow-tts-preprocess = tensorflow_tts.bin.preprocess:main
+
