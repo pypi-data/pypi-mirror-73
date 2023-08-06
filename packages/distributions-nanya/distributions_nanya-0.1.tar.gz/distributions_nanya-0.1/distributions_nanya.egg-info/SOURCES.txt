@@ -1,0 +1,9 @@
+setup.py
+distributions_nanya/Binomialdistribution.py
+distributions_nanya/Gaussiandistribution.py
+distributions_nanya/Generaldistribution.py
+distributions_nanya/__init__.py
+distributions_nanya.egg-info/PKG-INFO
+distributions_nanya.egg-info/SOURCES.txt
+distributions_nanya.egg-info/dependency_links.txt
+distributions_nanya.egg-info/top_level.txt
