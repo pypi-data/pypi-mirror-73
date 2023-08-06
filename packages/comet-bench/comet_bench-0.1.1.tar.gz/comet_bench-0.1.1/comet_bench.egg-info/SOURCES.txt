@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+comet_bench/__init__.py
+comet_bench/__main__.py
+comet_bench/comet_bench.py
+comet_bench.egg-info/PKG-INFO
+comet_bench.egg-info/SOURCES.txt
+comet_bench.egg-info/dependency_links.txt
+comet_bench.egg-info/entry_points.txt
+comet_bench.egg-info/requires.txt
+comet_bench.egg-info/top_level.txt
