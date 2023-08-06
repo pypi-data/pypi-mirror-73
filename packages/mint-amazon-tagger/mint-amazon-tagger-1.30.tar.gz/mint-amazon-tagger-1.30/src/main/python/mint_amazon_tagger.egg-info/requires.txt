@@ -1,0 +1,10 @@
+PyQt5==5.12.2
+mintapi>=1.43
+mock
+outdated
+progress
+range-key-dict
+readchar
+requests
+selenium
+selenium-requests
