@@ -1,0 +1,10 @@
+README.md
+setup.py
+badminton/__init__.py
+badminton/live.py
+badminton.egg-info/PKG-INFO
+badminton.egg-info/SOURCES.txt
+badminton.egg-info/dependency_links.txt
+badminton.egg-info/entry_points.txt
+badminton.egg-info/requires.txt
+badminton.egg-info/top_level.txt
