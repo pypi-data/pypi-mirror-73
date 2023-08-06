@@ -1,0 +1,7 @@
+README.md
+setup.py
+sklearnreg/__init__.py
+sklearnreg.egg-info/PKG-INFO
+sklearnreg.egg-info/SOURCES.txt
+sklearnreg.egg-info/dependency_links.txt
+sklearnreg.egg-info/top_level.txt
