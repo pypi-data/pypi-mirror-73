@@ -1,0 +1,10 @@
+scatter_downsample/__init__.py,sha256=9C63dnzq1RCQNUFF0B_PJQlJ540yBUKXtxJmyhE9a44,85
+scatter_downsample/__main__.py,sha256=oVwtd_tV4zQXmEZAAmvKg1LxpNmqksfHDt4HZUN_6fw,1528
+scatter_downsample/function.py,sha256=3GznF-TE_Q4BseCyzC3ZSGH3KhIn3PXBAcBtDmx87oA,5830
+scatter_downsample/helpers.py,sha256=PCcux-f-j03gTS6qaQjGx9eR55s7RwSVDiU6Y1SJ0o4,6223
+scatter_downsample-0.0.14.dist-info/LICENSE,sha256=F3u7j8HWhFXLCiSvrMXvlxXdGG68xkfgsLO24dcoYIE,11551
+scatter_downsample-0.0.14.dist-info/METADATA,sha256=r-URNGTEkjAfZfgCgm-5kuHGesIodqiXS78TFuDOls4,1222
+scatter_downsample-0.0.14.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scatter_downsample-0.0.14.dist-info/entry_points.txt,sha256=J9hLg5TNvRdu7QieXo9tMpEFNuNUyvpl5x1JcMMWPZg,73
+scatter_downsample-0.0.14.dist-info/top_level.txt,sha256=ShhdK_ymtccUpDik-DGmgM4uYwCcUofYnt3_tnFFv6E,19
+scatter_downsample-0.0.14.dist-info/RECORD,,
