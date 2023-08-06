@@ -1,0 +1,10 @@
+setup.py
+aws_course_probability_dists/Binomialdistribution.py
+aws_course_probability_dists/Gaussiandistribution.py
+aws_course_probability_dists/Generaldistribution.py
+aws_course_probability_dists/__init__.py
+aws_course_probability_dists.egg-info/PKG-INFO
+aws_course_probability_dists.egg-info/SOURCES.txt
+aws_course_probability_dists.egg-info/dependency_links.txt
+aws_course_probability_dists.egg-info/not-zip-safe
+aws_course_probability_dists.egg-info/top_level.txt
