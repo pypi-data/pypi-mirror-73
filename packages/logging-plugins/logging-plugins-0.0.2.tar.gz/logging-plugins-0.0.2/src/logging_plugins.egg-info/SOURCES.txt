@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/logging_plugins/__init__.py
+src/logging_plugins/cli.py
+src/logging_plugins.egg-info/PKG-INFO
+src/logging_plugins.egg-info/SOURCES.txt
+src/logging_plugins.egg-info/dependency_links.txt
+src/logging_plugins.egg-info/requires.txt
+src/logging_plugins.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cli.py
+tests/test_logging_plugins.py
