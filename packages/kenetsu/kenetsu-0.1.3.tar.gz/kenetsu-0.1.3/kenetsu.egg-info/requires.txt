@@ -1,0 +1,7 @@
+file_read_backwards
+
+[dev]
+pytest>=3
+coverage
+tox
+twine

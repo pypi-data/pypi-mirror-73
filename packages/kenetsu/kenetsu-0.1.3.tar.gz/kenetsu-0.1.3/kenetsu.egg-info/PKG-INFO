@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kenetsu
+Version: 0.1.3
+Summary: Maillog summarizer
+Home-page: https://github.com/elastic-infra/kenetsu
+Author: Tomoya KABE
+Author-email: kabe@elastic-infra.com
+License: MIT
+Description: Maillog summarization tool by mail status from Postfix
+Platform: UNKNOWN
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Internet :: Log Analysis
+Requires-Python: >=2.7
+Provides-Extra: dev
