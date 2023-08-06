@@ -1,0 +1,11 @@
+click
+tabulate
+pyyaml
+typeguard
+
+[dev]
+black
+python-language-server[all]
+setuptools
+twine
+wheel
