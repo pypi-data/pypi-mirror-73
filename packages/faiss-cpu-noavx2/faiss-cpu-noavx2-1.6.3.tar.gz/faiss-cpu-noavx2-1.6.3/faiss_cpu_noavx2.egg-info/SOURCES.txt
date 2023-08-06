@@ -1,0 +1,9 @@
+README.md
+setup.py
+faiss/python/__init__.py
+faiss/python/setup.py
+faiss/python/swigfaiss.i
+faiss_cpu_noavx2.egg-info/PKG-INFO
+faiss_cpu_noavx2.egg-info/SOURCES.txt
+faiss_cpu_noavx2.egg-info/dependency_links.txt
+faiss_cpu_noavx2.egg-info/top_level.txt
