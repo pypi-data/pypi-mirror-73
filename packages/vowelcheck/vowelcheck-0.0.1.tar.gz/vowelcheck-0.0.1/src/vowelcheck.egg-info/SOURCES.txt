@@ -1,0 +1,13 @@
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+gitignore.io.txt
+licenses.txt
+setup.py
+dist/vowelcheck-0.0.1-py3-none-any.whl
+src/vowelcheck.py
+src/vowelcheck.egg-info/PKG-INFO
+src/vowelcheck.egg-info/SOURCES.txt
+src/vowelcheck.egg-info/dependency_links.txt
+src/vowelcheck.egg-info/top_level.txt
