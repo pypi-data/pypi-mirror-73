@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rf_event_listener
+Version: 0.0.1
+Summary: RedForester Event Listener
+Home-page: https://github.com/RedForester/rf_event_listener
+Author: Red Forester
+Author-email: tech@redforester.com
+License: MIT
+Description: # RF Event Listener
+        
+        ## Development
+        
+        Install dev requirements:
+        
+        ```bash
+        pip install -e .[dev]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
