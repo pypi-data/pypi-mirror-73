@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ioexpander/__init__.py
+ioexpander/devices.py
+pimoroni_ioexpander.egg-info/PKG-INFO
+pimoroni_ioexpander.egg-info/SOURCES.txt
+pimoroni_ioexpander.egg-info/dependency_links.txt
+pimoroni_ioexpander.egg-info/requires.txt
+pimoroni_ioexpander.egg-info/top_level.txt
