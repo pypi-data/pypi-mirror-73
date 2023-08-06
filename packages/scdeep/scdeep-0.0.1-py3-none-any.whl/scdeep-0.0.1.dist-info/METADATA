@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: scdeep
+Version: 0.0.1
+Summary: single-cell analysis
+Home-page: https://github.com/bayeslabs/Deepscan
+Author: BayesLabs
+Author-email: contact@bayeslabs.co
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Deepscan
+One stop deep learning library for single cell analysis
+
+

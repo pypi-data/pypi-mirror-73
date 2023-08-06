@@ -1,0 +1,17 @@
+deepscan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scdeep/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scdeep/dataset.py,sha256=kjCUVOSh2R9jhcuzfdpHdLaKhBXfSjRiBcM6uDCRRPc,8824
+scdeep/dca.py,sha256=rrJ_UQKsVQvVymVLKAxa1l4UGTWkZyNx0RrKNPHQu8E,3066
+scdeep/deep_impute.py,sha256=elihR7GqBtjSp-Lhw78ZK42yk6d7T-T0W03HYRUZJf0,11252
+scdeep/losses.py,sha256=ptEsXI2grg9wlPRrbtxu8zlm4NxucwagKt6cEwqocno,1651
+scdeep/network.py,sha256=bdaksmv9L7pz-AEl0DQNjlYFW7OgG5HfGXvWRjaTPW0,10820
+scdeep/posterior.py,sha256=OSXhZHsUleSKuCobLvVv7D5-DZ2Vmr92YK9YG11XMKk,1898
+scdeep/scDeepCluster.py,sha256=58d3GuwL3QmqbHaCcVr1f8_UeuJBHBd9SjbKZrxuehU,12619
+scdeep/scScope.py,sha256=UfqPeN4Lhf6mQOv0LoexYtRaGMgRgDzXCh0E74WjvPQ,7404
+scdeep/trainer.py,sha256=BpzJmdH-GFaWjRLPV2tQctSReC1IL_0D-7ZX68V_WS0,10225
+scdeep/utils.py,sha256=U7F0J6H-cB5dT_ReLtn4vljohpSrD_cmwfkMgXdoZaM,1556
+scdeep-0.0.1.dist-info/LICENSE.txt,sha256=3MT5C_MI08MiiFgU0mXdFqbK3DJM2-U5iiBa_NtOv94,1086
+scdeep-0.0.1.dist-info/METADATA,sha256=F_z4eP0xJ4DWmMX-rulhZZngDAF_QA8LYS511dJdG_c,492
+scdeep-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+scdeep-0.0.1.dist-info/top_level.txt,sha256=A0nHVYr6_ofCsifvU0_9EN94LKl3humJoPdqOKgCudM,7
+scdeep-0.0.1.dist-info/RECORD,,
