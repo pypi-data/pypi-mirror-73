@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/p5.new_service_port_generator.egg-info/PKG-INFO
+src/p5.new_service_port_generator.egg-info/SOURCES.txt
+src/p5.new_service_port_generator.egg-info/dependency_links.txt
+src/p5.new_service_port_generator.egg-info/top_level.txt
+src/p5/new_service_port_generator/__init__.py
+src/p5/new_service_port_generator/_lib.py
