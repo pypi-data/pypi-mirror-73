@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: statbotics
+Version: 0.0.1
+Summary: Modernizing FRC Data Analytics
+Home-page: https://github.com/avgupta456/statbotics
+Author: Abhijit Gupta
+Author-email: avgupta456@gmail.com
+License: UNKNOWN
+Description: # Statbotics API
+        
+        At Statbotics.io, our mission is to develop and distribute cutting-edge FRC data analysis. This PyPI package allows users to seamlessly query our API through Python, allowing for easier usage and integration with existing scouting and strategy systems.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

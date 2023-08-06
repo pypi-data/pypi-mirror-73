@@ -1,0 +1,6 @@
+README.md
+setup.py
+statbotics.egg-info/PKG-INFO
+statbotics.egg-info/SOURCES.txt
+statbotics.egg-info/dependency_links.txt
+statbotics.egg-info/top_level.txt
