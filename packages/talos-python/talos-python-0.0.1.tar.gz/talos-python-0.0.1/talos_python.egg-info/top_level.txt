@@ -1,0 +1,8 @@
+admin
+client
+consumer
+example
+producer
+test
+thrift
+utils
