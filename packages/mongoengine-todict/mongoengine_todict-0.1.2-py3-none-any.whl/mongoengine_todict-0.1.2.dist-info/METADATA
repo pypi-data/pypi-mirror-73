@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mongoengine-todict
+Version: 0.1.2
+Summary: Mongoengnine document to Python dict plugin
+Home-page: https://github.com/minazukie/mongoengine-todict
+Author: minazukie
+Author-email: minazukie2015@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
