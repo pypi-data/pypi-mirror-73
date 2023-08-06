@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+slack_blockkit.egg-info/PKG-INFO
+slack_blockkit.egg-info/SOURCES.txt
+slack_blockkit.egg-info/dependency_links.txt
+slack_blockkit.egg-info/top_level.txt
