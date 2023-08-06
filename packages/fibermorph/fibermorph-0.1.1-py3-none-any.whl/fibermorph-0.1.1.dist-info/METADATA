@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fibermorph
+Version: 0.1.1
+Summary: Toolkit for analyzing hair fiber morphology
+Home-page: https://github.com/tinalasisi/fibermorph
+Author: tinalasisi
+Author-email: tpl5158@psu.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: joblib
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Requires-Dist: scikit-learn
+Requires-Dist: Pillow
+Requires-Dist: rawpy
+Requires-Dist: requests
+Requires-Dist: sympy
+Requires-Dist: argparse
+Requires-Dist: scikit-image
+
+UNKNOWN
+
+

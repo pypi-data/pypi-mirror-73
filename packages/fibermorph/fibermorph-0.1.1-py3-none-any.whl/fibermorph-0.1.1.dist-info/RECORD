@@ -1,0 +1,11 @@
+fibermorph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fibermorph/_version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+fibermorph/demo.py,sha256=VFeS7Zx9uAMPFw4RIEk3RstL8d5RsVXqNTwxQTWQldY,9296
+fibermorph/dummy_data.py,sha256=6bDPbriRKqES4wsOgN7-GbcMyJcIRm1ojiC0GZ7IHW0,7445
+fibermorph/fibermorph.py,sha256=wbXPSlm5-4L8OG1FX8FBNxg04E6ZdKGxnENo36wKDMs,44966
+fibermorph-0.1.1.dist-info/LICENSE,sha256=aVmoQv8xGVpx8LP7_nuUNcIh-cIyixbwe3N5qXzQJ3Y,1068
+fibermorph-0.1.1.dist-info/METADATA,sha256=YF-bQwLfWsWbGFljJ9VIc7JNL85UtYU-HPeYuzhNfUc,559
+fibermorph-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fibermorph-0.1.1.dist-info/entry_points.txt,sha256=i5LzyOCSKLksPLGJzPabzI-cbsbP-qXfndhSMTKXbgg,59
+fibermorph-0.1.1.dist-info/top_level.txt,sha256=mvcSQyfXVLpX4_A_czN6sZFaEMek7PahLFmObbe1xIc,11
+fibermorph-0.1.1.dist-info/RECORD,,
