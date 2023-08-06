@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Xconnector
+Version: 1.0.5
+Summary: Xconnector is a software package designed to easily retrieve, and visualize metabolomics data from different database sources. The goal of Xconnector is to connect different metabolomics databases in one place.
+Home-page: https://github.com/Proteomicslab57357/Xconnector
+Author: Ali Mostafa
+Author-email: aliali.mostafa99@gmail.com
+License: GPLv3
+Description: Xconnector is a software package designed to easily retrieve, and visualize metabolomics data from different database sources. The goal of Xconnector is to connect different metabolomics databases in one place.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
