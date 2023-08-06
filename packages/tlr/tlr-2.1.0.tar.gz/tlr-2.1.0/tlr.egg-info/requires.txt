@@ -1,0 +1,5 @@
+mysqlclient>=1.4.6
+python-decouple
+pytz
+sentry-sdk
+SQLAlchemy

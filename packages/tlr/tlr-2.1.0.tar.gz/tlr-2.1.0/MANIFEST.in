@@ -1,0 +1,5 @@
+recursive-exclude tests *
+include README.md
+include LICENSE
+include AUTHORS
+include CONTRIBUTING.md
