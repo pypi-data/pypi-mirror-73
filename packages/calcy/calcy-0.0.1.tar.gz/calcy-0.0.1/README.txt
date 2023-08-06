@@ -1,0 +1,1 @@
+This is a basic calculator that allows to add, subtract, multipy and divide MULTIPLE numbers all at once.
