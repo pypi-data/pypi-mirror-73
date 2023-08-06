@@ -1,0 +1,13 @@
+torch>=1.5
+
+[dev]
+pytest
+black
+flake8
+sphinx
+sphinx-autodoc-typehints
+sphinx-rtd-theme
+codecov
+
+[test]
+pytest
