@@ -1,0 +1,11 @@
+docbooktoxtm/__init__.py,sha256=c_ze905nYtc4YMhztpSDwQgaxCKfL3HM75hI5ocPNM8,21
+docbooktoxtm/__main__.py,sha256=OvARb8JJMiOlvr3ozGG5C3iCtto2NH52nDs-m8lQoq0,71
+docbooktoxtm/bookclasses.py,sha256=R0IVS84tCT75I_xWh7YNTG5fr-9a6GdbDyFqYucscYE,14964
+docbooktoxtm/config.py,sha256=1zwFTWPiuP61Qq3koHWaggs0YMFCwIhW7_2JiPCz4Ss,1226
+docbooktoxtm/functions.py,sha256=3xGY2qiRLFlbZKV3ZXC7oQSsxMrf03UXSms8ombOWrc,2607
+docbooktoxtm/logconfig.py,sha256=eoEZBiq6enWF_Bat4t2QiL1Cq2n_XV22KIEPtLPUzig,564
+docbooktoxtm/main.py,sha256=DUHU6rS-NIyjzLs9bZ7aBthoyg8oJ4eZznhFkspzpBA,2389
+docbooktoxtm-1.0.5.dist-info/entry_points.txt,sha256=Cm_ZvWT_9LN9IHzl0Xr5kx7GCkPn2wHA4mDRFQAscGk,54
+docbooktoxtm-1.0.5.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+docbooktoxtm-1.0.5.dist-info/METADATA,sha256=CeadE6bnRnXdpEMj558yuL0yZRu5AhPbU_3Mk4yD4aY,2757
+docbooktoxtm-1.0.5.dist-info/RECORD,,
