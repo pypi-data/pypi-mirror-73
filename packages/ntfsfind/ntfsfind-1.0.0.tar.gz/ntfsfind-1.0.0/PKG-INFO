@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ntfsfind
+Version: 1.0.0
+Summary: 
+Home-page: https://github.com/sumeshi/ntfsfind
+License: MIT
+Keywords: Windows
+Author: sumeshi
+Author-email: j15322sn@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: mft (>=0.5.3,<0.6.0)
+Requires-Dist: ntfsdump (>=1.0.3,<2.0.0)
+Project-URL: Repository, https://github.com/sumeshi/ntfsfind
+Description-Content-Type: text/markdown
+
+# ntfsfind
