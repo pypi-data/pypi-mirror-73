@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: transparency
+Version: 0.0.2
+Summary: Project to explain models
+Home-page: https://github.com/imanbio/transparency
+Author: Iman Haji & Alvin Henrick
+Author-email: iman.bio@gmail.com,share.code@aol.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
