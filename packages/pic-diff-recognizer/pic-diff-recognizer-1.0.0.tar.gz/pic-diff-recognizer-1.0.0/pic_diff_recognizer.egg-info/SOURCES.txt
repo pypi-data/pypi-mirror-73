@@ -1,0 +1,11 @@
+README.md
+setup.py
+pic_diff_recognizer/__init__.py
+pic_diff_recognizer/pictureHandler.py
+pic_diff_recognizer/scrollHandler.py
+pic_diff_recognizer/searchHandler.py
+pic_diff_recognizer/utils.py
+pic_diff_recognizer.egg-info/PKG-INFO
+pic_diff_recognizer.egg-info/SOURCES.txt
+pic_diff_recognizer.egg-info/dependency_links.txt
+pic_diff_recognizer.egg-info/top_level.txt
