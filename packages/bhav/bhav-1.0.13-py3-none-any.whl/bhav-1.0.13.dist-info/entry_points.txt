@@ -1,0 +1,3 @@
+[console_scripts]
+bhav = bhav.main:cli
+
