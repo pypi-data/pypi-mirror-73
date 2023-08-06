@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: tureng
+Version: 0.1.002
+Summary: Unofficial, basic python 3 tureng.com mobile API wrapper
+Home-page: https://github.com/kadircancetin/tureng
+Author: Kadir Can Çetin
+Author-email: kadircancetin@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/kadircancetin/tureng/archive/v_01_002.tar.gz
+Description: UNKNOWN
+Keywords: tureng,türkçe,inglizce,translation,turkish,english
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
