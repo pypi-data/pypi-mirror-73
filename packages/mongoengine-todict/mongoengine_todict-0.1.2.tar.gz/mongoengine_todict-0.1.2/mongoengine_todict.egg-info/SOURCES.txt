@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+mongoengine_todict/__init__.py
+mongoengine_todict/errors.py
+mongoengine_todict/mixin.py
+mongoengine_todict.egg-info/PKG-INFO
+mongoengine_todict.egg-info/SOURCES.txt
+mongoengine_todict.egg-info/dependency_links.txt
+mongoengine_todict.egg-info/top_level.txt
+tests/__init__.py
+tests/test_mixin.py
