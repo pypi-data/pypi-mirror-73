@@ -1,0 +1,17 @@
+README.md
+setup.py
+scdeep/__init__.py
+scdeep/dataset.py
+scdeep/dca.py
+scdeep/deep_impute.py
+scdeep/losses.py
+scdeep/network.py
+scdeep/posterior.py
+scdeep/scDeepCluster.py
+scdeep/scScope.py
+scdeep/trainer.py
+scdeep/utils.py
+scdeep.egg-info/PKG-INFO
+scdeep.egg-info/SOURCES.txt
+scdeep.egg-info/dependency_links.txt
+scdeep.egg-info/top_level.txt
