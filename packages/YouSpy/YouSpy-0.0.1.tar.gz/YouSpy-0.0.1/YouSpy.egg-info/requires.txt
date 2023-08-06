@@ -1,0 +1,6 @@
+sklearn
+numpy
+pandas
+spacy
+nltk
+youtube_transcript_api
