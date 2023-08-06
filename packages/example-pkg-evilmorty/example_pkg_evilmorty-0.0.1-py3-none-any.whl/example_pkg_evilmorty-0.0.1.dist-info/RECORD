@@ -1,0 +1,7 @@
+example_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_pkg/greet.py,sha256=yR7jk-Cu9D7xf_w6_PxXogPfD_ApttBmYRRCNdrvFJg,79
+example_pkg_evilmorty-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+example_pkg_evilmorty-0.0.1.dist-info/METADATA,sha256=blt5tvYyi2uJjF5yR_qUOsIABP3TTFB8zq834yHtPnA,621
+example_pkg_evilmorty-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+example_pkg_evilmorty-0.0.1.dist-info/top_level.txt,sha256=6z5BxHpE17rpY8UuF_FwZjTIbkRc7f6jXImHpIXC7gw,12
+example_pkg_evilmorty-0.0.1.dist-info/RECORD,,
