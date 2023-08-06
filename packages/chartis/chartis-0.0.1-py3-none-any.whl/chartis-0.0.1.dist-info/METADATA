@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: chartis
+Version: 0.0.1
+Summary: Useful things for Airflow.
+Home-page: http://python-requests.org
+Author: Trey Hatch
+Author-email: trey@newmathdata.com
+License: MIT
+Project-URL: Source, https://github.com/trejas/chartis
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+pip install --upgrade --target ~/Documents/repos/docker-airflow/plugins/ ~/Documents/repos/airflow-plugins/
+
+pip3 install --target=<absolute path to airflow plugins folder> ./dist/chartis-0.0.1-py3-none-any.whl
+
+testing drone build. 3
+
+
