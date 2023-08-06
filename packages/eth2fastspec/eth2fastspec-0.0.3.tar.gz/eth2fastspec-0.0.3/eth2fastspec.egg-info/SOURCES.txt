@@ -1,0 +1,8 @@
+README.md
+eth2fastspec.py
+setup.py
+eth2fastspec.egg-info/PKG-INFO
+eth2fastspec.egg-info/SOURCES.txt
+eth2fastspec.egg-info/dependency_links.txt
+eth2fastspec.egg-info/requires.txt
+eth2fastspec.egg-info/top_level.txt

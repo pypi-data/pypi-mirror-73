@@ -1,0 +1,3 @@
+eth2spec<0.13,>=0.12.1
+remerkleable>=0.1.16
+milagro_bls_binding==1.3.0
