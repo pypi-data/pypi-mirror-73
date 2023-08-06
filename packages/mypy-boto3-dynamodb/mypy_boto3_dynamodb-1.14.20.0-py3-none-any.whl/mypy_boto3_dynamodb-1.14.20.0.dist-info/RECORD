@@ -1,0 +1,13 @@
+mypy_boto3_dynamodb/__init__.py,sha256=MDTCsX-MUzIdOvTw_b8BY8K4jNxinihXAFDHMaZaM2o,2057
+mypy_boto3_dynamodb/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_dynamodb/client.py,sha256=BXGshkQu6NdfsN7qdm3d3b7c0RQTJ4n6c5aMGrRpVHM,32498
+mypy_boto3_dynamodb/paginator.py,sha256=5zh494Dh1pIW3dSM9LrBRirshKx3uhv-WZ1lwqvMC2k,6909
+mypy_boto3_dynamodb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_dynamodb/service_resource.py,sha256=DlBXuwnTlQD3YnNhk2wSSdw7x1i3IpfiZqFbOr5qOmo,17988
+mypy_boto3_dynamodb/type_defs.py,sha256=j4fPZsf629u3tpTmxqSyZJB_qTFSmvCn2tZ8CxM-Xhs,56247
+mypy_boto3_dynamodb/version.py,sha256=fd2cTF7sfUAVcEI_X74pZGTpoTxIQX_TlTv2pVgCHCA,57
+mypy_boto3_dynamodb/waiter.py,sha256=vTPkxKuQM45nSS6n3At7RzzmqD-YL144GTqW1Wf-Eh8,1733
+mypy_boto3_dynamodb-1.14.20.0.dist-info/METADATA,sha256=C77gu22ckpEEI6SEm4qcAMpz-u5VMbuiriXf0DgsfP0,7082
+mypy_boto3_dynamodb-1.14.20.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_dynamodb-1.14.20.0.dist-info/top_level.txt,sha256=QxApsWxKFAcW2cmcxwGGHYl6FlOK1EYbSYEknyOyFAY,20
+mypy_boto3_dynamodb-1.14.20.0.dist-info/RECORD,,
