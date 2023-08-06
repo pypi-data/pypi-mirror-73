@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: gzip-utils
+Version: 2020.7.10
+Summary: Package with diffrent gzip-util's
+Home-page: https://github.com/Eossu/gzip-utils
+License: MIT
+Keywords: gzip,utils,json
+Author: Idar Bergli
+Author-email: idar.bergli@protonmail.com
+Maintainer: Idar Bergli
+Maintainer-email: idar.bergli@protonmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: importlib-metadata (>=1.7.0,<2.0.0); python_version < "3.8"
+Project-URL: Repository, https://github.com/Eossu/gzip-utils
+Description-Content-Type: text/markdown
+
+# Gzip Utilities for Python
+
+[![Build Status](https://dev.azure.com/eossu/public/_apis/build/status/Eossu.gzip-utils?branchName=master)](https://dev.azure.com/eossu/public/_build/latest?definitionId=2&branchName=master)
+
+This is a repository to hold diffrent utilities for gzip.
+
+## Utilities
+
+- [Compressed JSON List](docs/utils/compressed_json_list.md)
+
