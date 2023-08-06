@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pyexecutor
+Version: 0.0.3
+Summary: 
+        A light-weight command executor to run commands and return stdout and stderr.
+    
+Home-page: https://github.com/actini/pyexecutor
+Author: WANG ZIJIAN
+Author-email: zijian0906@gmail.com
+License: UNKNOWN
+Description: # Command executor for Python
+        
+        Executor example:
+        
+        ```python
+        from pyexecutor import Executor
+        
+        helm = Executor('helm')
+        
+        version = helm.run('version')
+        
+        print(version)
+        ```
+        
+        Commander example:
+        
+        ```python
+        from pyexecutor import Commander
+        
+        commander = Commander()
+        
+        version = commander.run('helm version').result()
+        
+        print(version)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
