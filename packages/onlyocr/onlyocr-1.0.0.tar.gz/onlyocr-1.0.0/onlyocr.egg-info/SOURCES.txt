@@ -1,0 +1,7 @@
+README.md
+setup.py
+onlyocr/__init__.py
+onlyocr.egg-info/PKG-INFO
+onlyocr.egg-info/SOURCES.txt
+onlyocr.egg-info/dependency_links.txt
+onlyocr.egg-info/top_level.txt
