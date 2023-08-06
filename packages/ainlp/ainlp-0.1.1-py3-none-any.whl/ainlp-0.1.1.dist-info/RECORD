@@ -1,0 +1,11 @@
+ainlp/__init__.py,sha256=WA-iAIy2DT0xiul9RohdDuPZrUgz3Qrgl0Ti-GhBWkM,328
+ainlp/collector.py,sha256=yq2tWa7lFxKQVtFfRROeiHAnytybPWr1l35Zt3AH66w,2796
+ainlp/metrics.py,sha256=gR77K3jhHkl7RAg9UqBR_TMzDrNbLmKs84-6sctuIss,1755
+ainlp/text_utils.py,sha256=tXGDeymtuOX7rqdhy2FVuppHqdf0qjGSGC9-6hb78JY,8943
+ainlp/tokenizer.py,sha256=OlleJFnHkbGkqyRwpVo0Y-6ME0D6-UE-IiNijDNu354,3436
+ainlp/transformers_utils.py,sha256=xZx3vxxSXkxRn-u1Vic0pOhaESyexheJYRacJQiN5Wk,11903
+ainlp-0.1.1.dist-info/LICENSE,sha256=efqP9uSzn7Cq6vQXWypNEaFN4z-n_UcDOhGrSgP5YMI,1073
+ainlp-0.1.1.dist-info/METADATA,sha256=KPDTNEY82PRswZ0QCWm5dlYnTZg1HH5qO9gJTP7KMnk,667
+ainlp-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ainlp-0.1.1.dist-info/top_level.txt,sha256=7nGaV8H9lwVjjoYYGg7iLFnIZV8cYRcNUnf1HRWFl54,6
+ainlp-0.1.1.dist-info/RECORD,,
