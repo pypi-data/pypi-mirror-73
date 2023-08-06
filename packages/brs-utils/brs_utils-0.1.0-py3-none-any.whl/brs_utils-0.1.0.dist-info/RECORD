@@ -1,0 +1,10 @@
+brs_utils/__init__.py,sha256=NyHik-3d2_Qd3rBDx2xrRQPjy7ts0neyvL2YePgjzHw,256
+brs_utils/misc.py,sha256=dH_MT_500o1Aqs_bwthnPVwRKHGHgOItnW-bg6BHwUE,1989
+brs_utils/print.py,sha256=lRW2u6dc3Ae-kBgRtE6Ik6AeOjVC-9q3RC8esc5-Ea4,456
+brs_utils/requirements.txt,sha256=aZFXnIUQmZ0W-EKsTob-kEg7Gyp5XCtQQVA2jSqnVzM,15
+brs_utils/rpSBML.py,sha256=ZcxP1EkuyUfdMfAl83nei9TS2KNEdGiA4wNjCXi2MKs,107936
+brs_utils-0.1.0.dist-info/LICENSE,sha256=pFUbL449a3F-OnPi_uL-Bg6kja9_oOmYLkiqrYjJK3M,1141
+brs_utils-0.1.0.dist-info/METADATA,sha256=7GJ72qPzsnkUXg9aQbFyxJmQDaeGV5OO33x375Lwl9k,1234
+brs_utils-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+brs_utils-0.1.0.dist-info/top_level.txt,sha256=7XL8muBmwWaaewHtWNNDQ1NwnFF1xXlJwjlnh0WXbEA,10
+brs_utils-0.1.0.dist-info/RECORD,,
