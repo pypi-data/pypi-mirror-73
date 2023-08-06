@@ -1,0 +1,13 @@
+pgcom/__init__.py,sha256=WtuqbRwO11yyqEI3SzlNZArPwvdB2qkKdbKlizjVWdw,181
+pgcom/base.py,sha256=swzqtdbHa_ZW-hbxfhTGklRVRcpNFrBdfGgNDsSCnYk,5400
+pgcom/commuter.py,sha256=dtIeU2--orY3j86Cg4tsn7H-_WSM7l7XerwrF9HDo3Q,17903
+pgcom/connector.py,sha256=nzL1-CooM_UCIlMsACXumI2gAsGj5s8tWQMRxXlMHJE,3731
+pgcom/exc.py,sha256=SREIg3c6jAx2Jbm1eOqJ7DTmGNoBNlK1-cBqk4oyUm0,382
+pgcom/listener.py,sha256=idjiblviJghraoKGzFrzW8DWxNSPOYcBNWpJ3-zKy78,7113
+pgcom/queries.py,sha256=UKDU2cwXUw-zOyMtiBxlZbXDupc3IGvIEL0Yt56I4rs,2676
+pgcom/version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+pgcom-0.2.1.dist-info/LICENSE,sha256=-0cUrhARMsFBrwePEvYKtzZWvB33W7dFVrI8y9hM_m8,1071
+pgcom-0.2.1.dist-info/METADATA,sha256=ChU9whxgwsn8ABGYbi_r2b7J1FF4RL_UfEoG9sltoFg,1847
+pgcom-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pgcom-0.2.1.dist-info/top_level.txt,sha256=PkDgRdSm-_mR-71NqGIwdEE8EubaV_2aRKONOeR8X1Y,6
+pgcom-0.2.1.dist-info/RECORD,,
