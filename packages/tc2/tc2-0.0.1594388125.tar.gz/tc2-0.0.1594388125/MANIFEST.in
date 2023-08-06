@@ -1,0 +1,10 @@
+include CMakeLists.txt
+include *.md
+include LICENSE README.md requirements.txt
+include requirements/*.txt
+include tc2/py.typed
+recursive-include tc2/tc2lib *
+recursive-include cpp *
+recursive-include thirdparty *
+recursive-include cmake *
+global-exclude .git .gitignore
