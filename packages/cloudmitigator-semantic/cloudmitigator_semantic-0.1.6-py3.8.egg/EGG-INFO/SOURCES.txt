@@ -1,0 +1,13 @@
+README.md
+setup.py
+cloudmitigator_semantic/__init__.py
+cloudmitigator_semantic/cli.py
+cloudmitigator_semantic/git.py
+cloudmitigator_semantic/utilities.py
+cloudmitigator_semantic/version.py
+cloudmitigator_semantic.egg-info/PKG-INFO
+cloudmitigator_semantic.egg-info/SOURCES.txt
+cloudmitigator_semantic.egg-info/dependency_links.txt
+cloudmitigator_semantic.egg-info/entry_points.txt
+cloudmitigator_semantic.egg-info/requires.txt
+cloudmitigator_semantic.egg-info/top_level.txt
