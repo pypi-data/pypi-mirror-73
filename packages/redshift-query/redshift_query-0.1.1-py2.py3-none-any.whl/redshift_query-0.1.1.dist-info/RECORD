@@ -1,0 +1,9 @@
+redshift_query/__init__.py,sha256=MTdpM1WdtWcD3aaQ94D0qiZu_CAHy44r3IyAvnKiqKk,140
+redshift_query/cli.py,sha256=8EORLUFRAdlAeQ0HD0I-oqq5FQzeYinMHnDS2S8hGtw,127
+redshift_query/redshift_query.py,sha256=nMhhz4dXaq2HRFRZdUCt-rNbL0umWc9vV833X89Bgz8,3123
+redshift_query-0.1.1.dist-info/LICENSE,sha256=gFLL5eNekCcdOoRMGCBvhwP0JW6BjmvguCHzF7520so,1066
+redshift_query-0.1.1.dist-info/METADATA,sha256=92mqfjBQeY-iidc7lyuT6Do-wnzIvRzyQ53ygOKkNA8,7251
+redshift_query-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+redshift_query-0.1.1.dist-info/entry_points.txt,sha256=NUpwbyHkUdtE-Ez7J3aSr1cDBmyt6fDi9YW9ayH7Uls,60
+redshift_query-0.1.1.dist-info/top_level.txt,sha256=-dGtNBDgzkX7zD35S2jElB2xkildFQ2aomMIb_IaEvM,15
+redshift_query-0.1.1.dist-info/RECORD,,
