@@ -1,0 +1,11 @@
+README.md
+setup.py
+git_tagup/__init__.py
+git_tagup/__main__.py
+git_tagup/util.py
+git_tagup.egg-info/PKG-INFO
+git_tagup.egg-info/SOURCES.txt
+git_tagup.egg-info/dependency_links.txt
+git_tagup.egg-info/entry_points.txt
+git_tagup.egg-info/requires.txt
+git_tagup.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+git-tagup = git_tagup.__main__:main
+gtu = git_tagup.__main__:main
+
