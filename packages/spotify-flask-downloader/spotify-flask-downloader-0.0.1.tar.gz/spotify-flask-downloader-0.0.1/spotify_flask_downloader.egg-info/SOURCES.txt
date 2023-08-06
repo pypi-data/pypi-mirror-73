@@ -1,0 +1,10 @@
+README.md
+setup.py
+spotify_flask_downloader.egg-info/PKG-INFO
+spotify_flask_downloader.egg-info/SOURCES.txt
+spotify_flask_downloader.egg-info/dependency_links.txt
+spotify_flask_downloader.egg-info/requires.txt
+spotify_flask_downloader.egg-info/top_level.txt
+spotifyflaskdownloader/__init__.py
+spotifyflaskdownloader/spotify.py
+spotifyflaskdownloader/youtube.py
