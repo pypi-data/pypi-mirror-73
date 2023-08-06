@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: tax2graph
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/sgelias/tax2graph.git
+Author: Samuel Galvão Elias
+Author-email: sgelias@outlook.com
+License: UNKNOWN
+Description: # tax2graph
+        ## Goal
+        
+        A simple way to convert i4Life tabled taxonomy to Neo4J graph representation.
+        
+        ## Example data
+        
+        A example data are available on data folder. It contains the Sordariomycetes taxonomy downloaded from "i4Life WP4 Download Service of the Catalogue of Life:
+        Darwin Core Archive Export" (see http://www.catalogueoflife.org/DCA_Export/).
+        
+        ## Usage
+        
+        Initialize a connection dict containing at last the password key to perform queries to Neo4J database:
+        
+        ```python
+        
+        from tax2graph import ConnectionType
+        
+        connection_variables: ConnectionType = {
+            "password": str(os.getenv('NEO_PASSWORD'))
+        }
+        
+        parser = GraphParser(connection_variables)
+        
+        ```
+        
+        And build the graph from Sordariomycetes:
+        
+        
+        ```python
+        
+        parser.read('tax2graph/data/sordariomycetes/taxa.txt')
+        
+        parser.build_col_graph()
+        
+        ```
+        
+        To perform simple queries use:
+        
+        ```python
+        
+        parser.get_node('Glomerellales')
+        
+        parser.get_parent('Glomerellales')
+        
+        ```
+        
+        The former code get the Glomerellales node, and the further get the first parent node (Sordariomycetes).
+        
+        To create custom nodes simple run:
+        
+        ```python
+        
+        from tax2graph import CustomNodeType
+        
+        custom_node: CustomNodeType = {
+            'taxonRank': 'species',
+            'description': 'A custom clade 4'
+        }
+        parser.set_custom_node(custom_node, 'Colletotrichum')
+        
+        ```
+        
+        Feel free to add new features and contribute through pull requests. Be happy!!
+        
+Keywords: i4Life,Neo4J,Taxonomy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
