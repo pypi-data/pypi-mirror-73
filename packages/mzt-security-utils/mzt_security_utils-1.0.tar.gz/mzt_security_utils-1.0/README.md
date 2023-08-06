@@ -1,0 +1,1 @@
+Python library to simplify encrypting, decrypting and hashing.
