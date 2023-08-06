@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+polypython/__init__.py
+polypython.egg-info/PKG-INFO
+polypython.egg-info/SOURCES.txt
+polypython.egg-info/dependency_links.txt
+polypython.egg-info/requires.txt
+polypython.egg-info/top_level.txt
