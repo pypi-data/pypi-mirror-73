@@ -1,0 +1,56 @@
+pyiCn3D
+=======
+
+A simple [IPython/Jupyter](http://jupyter.org/) widget to
+embed an interactive [iCn3D](https://github.com/ncbi/icn3d) viewer in a notebook.
+
+The widget is completely static, which means the viewer doesn't need a running
+IPython kernel to be useful and web pages and presentations generated from
+the notebook will work as expected.  However, this also means there is only
+one-way communication between the notebook and the viewer.
+
+If you experience problems, please file 
+an [issue](https://github.com/ncbi/icn3d/issues).
+
+
+[An example notebook](http://nbviewer.jupyter.org/github/3dmol/3Dmol.js/blob/master/py3Dmol/examples.ipynb)
+
+Installation
+------------
+
+From PyPI:
+
+    pip install pyiCn3D
+
+
+*Important:* In order to use with JupyterLab you must install the JupyterLab extension:
+
+    jupyter labextension install jupyterlab_3dmol
+
+
+
+Usage
+-----
+
+Open a notebook
+
+    jupyter notebook
+
+and issue
+
+```Python
+import pyiCn3D
+view = pyiCn3D.view(query='mmdbid:1kq2')
+view
+```
+
+Command
+---
+
+All [iCn3D commands](https://www.ncbi.nlm.nih.gov/Structure/icn3d/icn3d.html#commands) work.
+
+
+License
+-------
+
+United States Government Work
