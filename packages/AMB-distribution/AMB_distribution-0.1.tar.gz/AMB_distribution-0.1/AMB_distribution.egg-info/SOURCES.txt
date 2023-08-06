@@ -1,0 +1,10 @@
+setup.py
+AMB_distribution/Binomialdistribution.py
+AMB_distribution/Gaussiandistribution.py
+AMB_distribution/Generaldistribution.py
+AMB_distribution/__init__.py
+AMB_distribution.egg-info/PKG-INFO
+AMB_distribution.egg-info/SOURCES.txt
+AMB_distribution.egg-info/dependency_links.txt
+AMB_distribution.egg-info/not-zip-safe
+AMB_distribution.egg-info/top_level.txt
