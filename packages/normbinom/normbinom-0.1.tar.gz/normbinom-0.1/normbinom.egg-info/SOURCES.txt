@@ -1,0 +1,12 @@
+setup.py
+normbinom/Binomialdistribution.py
+normbinom/Binomialdistribution_challenge.py
+normbinom/Gaussiandistribution.py
+normbinom/Generaldistribution.py
+normbinom/__init__.py
+normbinom/test.py
+normbinom.egg-info/PKG-INFO
+normbinom.egg-info/SOURCES.txt
+normbinom.egg-info/dependency_links.txt
+normbinom.egg-info/not-zip-safe
+normbinom.egg-info/top_level.txt
