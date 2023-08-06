@@ -1,0 +1,9 @@
+aiotime/__init__.py,sha256=B3P0-GBchYynb-0Avn3tIeJnF_ymMURXDXiQpZJE4JQ,44
+aiotime/fast_forward.py,sha256=sh2YcHc-3Eh5tMrv1kpU6PuPnDM5i-D-fVQy36nQl9k,1877
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aiotime.py,sha256=kZi8_fZuEad-nGdwHClTExEfhYI4cAP-Zmv0uUt1DyY,1822
+aiotime-0.1.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+aiotime-0.1.0.dist-info/METADATA,sha256=0ZeWm5xpshuqYorpxnnfhiBGN5fw4zKu5wZn28KEkMQ,2842
+aiotime-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiotime-0.1.0.dist-info/top_level.txt,sha256=VAFwsgevnxN-fYoigTspaVTh3m5rdN2LSd0ikzG9CUg,14
+aiotime-0.1.0.dist-info/RECORD,,
