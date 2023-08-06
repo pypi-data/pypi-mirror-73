@@ -1,0 +1,8 @@
+README.rst
+oauth2_proxy_cookie.py
+setup.py
+oauth2_proxy_cookie_256.egg-info/PKG-INFO
+oauth2_proxy_cookie_256.egg-info/SOURCES.txt
+oauth2_proxy_cookie_256.egg-info/dependency_links.txt
+oauth2_proxy_cookie_256.egg-info/requires.txt
+oauth2_proxy_cookie_256.egg-info/top_level.txt
