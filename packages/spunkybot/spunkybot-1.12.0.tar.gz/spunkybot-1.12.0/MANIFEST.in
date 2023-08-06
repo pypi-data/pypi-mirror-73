@@ -1,0 +1,9 @@
+include *.md
+include LICENSE
+recursive-include lib *
+include doc/Commands.md doc/commands.html
+recursive-include conf *.conf
+include debian-startscript
+include systemd-spunkybot.service
+include requirements.txt
+include Makefile
