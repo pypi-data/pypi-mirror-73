@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: krypton-ml
+Version: 0.1.1
+Summary: Model Server for ML and DL Models built using FastAPI
+Home-page: https://github.com/saivarunk/krypton
+Author: Varun Kruthiventi
+Author-email: varunk@ieee.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/saivarunk/krypton/issues
+Project-URL: Documentation, https://github.com/saivarunk/krypton
+Project-URL: Source Code, https://github.com/saivarunk/krypton
+Keywords: Model Serving,Model Server,Machine Learning,Deep Learning,FastAPI
+Platform: UNKNOWN
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles (==0.5.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: pyfiglet (==0.8.post1)
+Requires-Dist: colored (==1.4.2)
+Requires-Dist: fastapi (==0.58.0)
+Requires-Dist: uvicorn (==0.11.5)
+Requires-Dist: pydantic (==1.5.1)
+
+# krypton
+
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+![PyPI](https://img.shields.io/pypi/v/krypton-ml?style=flat-square)
+![GitHub](https://img.shields.io/github/license/saivarunk/krypton?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/saivarunk/krypton?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/saivarunk/krypton?style=flat-square)
+[![Agile Board](https://img.shields.io/badge/YouTrack-Agile%20Board-brightgreen?style=flat-square)](https://krypton.myjetbrains.com/youtrack/agiles/115-0/116-2)
+
+- Model Server for ML and DL Models built using FastAPI
+- Deploy Machine Learning and Deep Learning models using simple Python scripts
+
+Visit [https://kryptonml.com](https://kryptonml.com) for latest documentation.
+
+<img src="assets/krypton_small.png" width="700">
+
+### Note
+- This project is in development stage. You can expect rapid changes in the internals of the project.
+- Would love to hear valuable feedback, and it will be duly acknowledged.
+- Any one who has experienced an issue / want to report a bug can create a issue here in [Github](https://github.com/saivarunk/krypton/issues)
+
+### Work in progress
+- Unit and Integration Test Cases
+- Authentication for API's (Basic Auth, API Key based auth)
+- Metrics using statsd exporter
+- Configurable logging options
+
+### License
+Krypton ML uses Apache License 2.0. Find the license [here](https://github.com/saivarunk/krypton/blob/develop/LICENSE)
+
+### About
+- Author: [Varun Kruthiventi](https://varunk.me)
+- Email: [varunk@ieee.org](mailto:varunk@ieee.org)
+
+
+
