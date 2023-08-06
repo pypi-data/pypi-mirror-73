@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spanning-cidr
+Version: 0.1.1
+Summary: Function that accepts a sequence of IP addresses returning a single subnet that is large enough to span the lower and upper bound IP addresses with a possible overlap on either end.
+Author: Vitalii Shishorin
+Author-email: moskrc@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
