@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 17:09+0800\n"
+"PO-Revision-Date: 2020-06-12 14:20+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+
+#: asaloader\device.py:15
+msgid "Default, auto detect device type."
+msgstr "デフォルトで、デバイスタイプを自動検出します。"
+
+#: asaloader\cli_arg.py:20
+msgid "Program to ASA-series board."
+msgstr "ASAシリーズボードへのプログラム。"
+
+#: asaloader\cli_arg.py:30
+#, fuzzy
+msgid "Set the language code. e.g. `zh_TW`, `en_US`"
+msgstr "言語コードを設定します。例えば「zh_TW」「en_US」"
+
+#: asaloader\cli_arg.py:40
+#, fuzzy
+msgid "Program code to board."
+msgstr "搭乗するプログラムコード。"
+
+#: asaloader\cli_arg.py:49
+#, fuzzy
+msgid "List all available devices."
+msgstr "使用可能なすべてのデバイスを一覧表示します。"
+
+#: asaloader\cli_arg.py:57
+#, fuzzy
+msgid "List all available serial ports."
+msgstr "使用可能なすべてのシリアル・ポートをリストします。"
+
+#: asaloader\cli_arg.py:69
+#, fuzzy
+msgid "The name or number of the device type to be programmed. "
+msgstr "プログラムするデバイスの種類の名前または番号。"
+
+#: asaloader\cli_arg.py:70
+#, fuzzy
+msgid "Can see available device type by subcommand print-device-list."
+msgstr "サブコマンド印刷装置リストで使用可能な装置タイプを表示できます。"
+
+#: asaloader\cli_arg.py:81
+#, fuzzy
+msgid "The serial port which program burn the device."
+msgstr "プログラムがデバイスを書き込むシリアル ポート。"
+
+#: asaloader\cli_arg.py:92
+#, fuzzy
+msgid "Set binary file which program to flash."
+msgstr "フラッシュするプログラムのバイナリファイルを設定します。"
+
+#: asaloader\cli_arg.py:103
+msgid "Set binary file which program to eeprom."
+msgstr "eepromにプログラムするバイナリファイルを設定します。"
+
+#: asaloader\cli_arg.py:114
+#, fuzzy
+msgid "Enter the application after programing."
+msgstr "プログラム後にアプリケーションを入力します。"
+
+#: asaloader\cli_arg.py:125
+#, fuzzy
+msgid ""
+"Set delay time from programing completion to executing application.(in ms)"
+msgstr ""
+"プログラムの完了からアプリケーションの実行までの遅延時間を設定します。(ミリ"
+"秒)"
+
+#: asaloader\cli_arg.py:150
+#, fuzzy
+msgid "Error: Parameter --device is illegal."
+msgstr "エラー: パラメータ --device が無効です。"
+
+#: asaloader\cli_arg.py:158
+#, fuzzy
+msgid ""
+"Error: No flash or eeprom needs to be burned, please use '-f ', '-e ' to "
+"specify the file."
+msgstr "エラー: フラッシュや eeprom を書き込む必要はありません。"
+
+#: asaloader\cli_arg.py:165
+#, fuzzy, python-brace-format
+msgid "Error: Cannot find flash binary file {0}."
+msgstr "エラー: フラッシュ バイナリ ファイル{0}が見つかりません。"
+
+#: asaloader\cli_arg.py:170
+#, fuzzy, python-brace-format
+msgid "Error: The flash binary file {0} is not ihex formatted."
+msgstr "エラー: フラッシュ バイナリ ファイル{0}は ihex 形式ではありません。"
+
+#: asaloader\cli_arg.py:177
+#, fuzzy, python-brace-format
+msgid "Error: Cannot find eeprom binary file {0}."
+msgstr "エラー: eeprom バイナリ ファイルが見つかりません{0}。"
+
+#: asaloader\cli_arg.py:182
+#, fuzzy, python-brace-format
+msgid "Error: The eeprom binary file {0} is not ihex formatted."
+msgstr "エラー: eeprom バイナリファイル{0}は ihex フォーマットではありません。"
+
+#: asaloader\cli_arg.py:188
+#, fuzzy, python-brace-format
+msgid "Error: Cannot find serial port {0}."
+msgstr "エラー: シリアル ポート {0}が見つかりません。"
+
+#: asaloader\cli_arg.py:189
+#, fuzzy
+msgid "The available serial ports are as follows:"
+msgstr "使用可能なシリアル・ポートは次のとおりです。"
+
+#: asaloader\business.py:21
+#, fuzzy
+msgid "Available device list:\n"
+msgstr "使用可能なデバイスリスト:"
+
+#: asaloader\business.py:22
+#, fuzzy
+msgid "    device name   \t num \t note\n"
+msgstr "デバイス名の数字のメモ"
+
+#: asaloader\business.py:48
+#, fuzzy
+msgid "ERROR: com port has been opened by another application."
+msgstr "エラー: com ポートは別のアプリケーションによって開かれました。"
+
+#: asaloader\business.py:78 asaloader\business.py:110 asaloader\business.py:115
+#, fuzzy
+msgid "ERROR: Can't communicate with the device."
+msgstr "エラー: デバイスと通信できません。"
+
+#: asaloader\business.py:79
+msgid "       Please check the comport and the device."
+msgstr "       コンポートとデバイスを確認してください。"
+
+#: asaloader\business.py:82
+#, fuzzy
+msgid "ERROR: Device is not match."
+msgstr "エラー: デバイスが一致しません。"
+
+#: asaloader\business.py:83
+msgid "       Assigned device is '{0:s}'"
+msgstr "       割り当てられたデバイスは '{0:s}' です。"
+
+#: asaloader\business.py:85
+msgid "       Detected device is '{0:s}'"
+msgstr "       検出されたデバイスは '{0:s}' です"
+
+#: asaloader\business.py:89
+#, fuzzy
+msgid "Device is '{0:s}'"
+msgstr "デバイスは '{0:s}' です。"
+
+#: asaloader\business.py:91
+#, fuzzy, python-brace-format
+msgid "Flash  hex size is {0:0.2f} KB ({1} bytes)"
+msgstr "フラッシュ 16 進サイズは {0:0.2f} KB ({1}バイト) です"
+
+#: asaloader\business.py:93
+#, fuzzy, python-brace-format
+msgid "EEPROM hex size is {0} bytes."
+msgstr "EEPROM 16 進数のサイズは {0} バイトです。"
+
+#: asaloader\business.py:94
+#, fuzzy, python-brace-format
+msgid "Estimated time  is {0:0.2f} s."
+msgstr "推定時間は {0:0.2f} です。"
+
+#: asaloader\business.py:97
+#, fuzzy, python-format
+msgid "Elapsed Time: %(seconds)0.2fs"
+msgstr "経過時間: %(秒)0.2fs"
+
+#: asaloader\business.py:111 asaloader\business.py:116
+#, fuzzy
+msgid "Please check the comport is correct."
+msgstr "コンポートが正しいことを確認してください。"
