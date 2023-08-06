@@ -1,0 +1,14 @@
+.coveragerc
+.gitignore
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/huawei_hg659/Connector.py
+src/huawei_hg659/__init__.py
+src/huawei_hg659.egg-info/PKG-INFO
+src/huawei_hg659.egg-info/SOURCES.txt
+src/huawei_hg659.egg-info/dependency_links.txt
+src/huawei_hg659.egg-info/not-zip-safe
+src/huawei_hg659.egg-info/requires.txt
+src/huawei_hg659.egg-info/top_level.txt
