@@ -1,0 +1,10 @@
+setup.py
+ambrose_distributions/Binomialdistribution.py
+ambrose_distributions/Gaussiandistribution.py
+ambrose_distributions/Generaldistribution.py
+ambrose_distributions/__init__.py
+ambrose_distributions.egg-info/PKG-INFO
+ambrose_distributions.egg-info/SOURCES.txt
+ambrose_distributions.egg-info/dependency_links.txt
+ambrose_distributions.egg-info/not-zip-safe
+ambrose_distributions.egg-info/top_level.txt
