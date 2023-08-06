@@ -1,0 +1,55 @@
+Metadata-Version: 2.0
+Name: logging-plugins
+Version: 0.0.2
+Summary: Handlers, Filters, and other useful plugins for the Python logging system
+Home-page: https://github.com/radiocutfm/logging-plugins
+Author: Guillermo Narvaja
+Author-email: guillermo.narvaja@radiocut.fm
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/radiocutfm/logging-plugins/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, https://saythanks.io/to/guillermo.narvaja%40radiocut.fm
+Project-URL: Source, https://github.com/radiocutfm/logging-plugins/
+Keywords: logging instrumentation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: ratelimit
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+
+# Handlers, Filters, and other useful plugins for the Python logging system
+
+This package define a set of util classes to plug as Filters, Handlers and Formatters in your `logging` config.
+
+## Filters 
+
+- `SkipException`: skips logs for given exception classes 
+- `SkipExceptionMsg`: skips logs for given exception classes and matching messages.
+- `SkipExceptionMsgRateLimit`: same as SkipExceptionMsg but only filters after given rate limit.
+- `RateLimiterFilter`: rate limit to avoid flooding the handler 
+- `OnlyExcFilter`: only accepts exception errors (with exc_info)
+- `LevelRangeFilter`: only accepts records whose levels within a range.
+
+
+## Handlers
+
+- `CounterHandler`: doesn't emits anything, just counts messages by time and records last timestamp.
+- `DumpOnSignalCounterHandler`: same as CounterHandler but also registers a signal handler and when received dumps the counts to file. Useful for monitoring a process externally (example liveness tests)
+- `StoreRecordsHandler`: just stores the log records in a list, useful for tests.
+
+
