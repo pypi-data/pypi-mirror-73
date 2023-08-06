@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: azureml-monitoring
+Version: 0.1.0a19
+Summary: Microsoft Azure Machine Learning Python SDK for collecting model data during operationalization
+Home-page: UNKNOWN
+Author: Microsoft Corporation
+Author-email: amlmodeltracking@microsoft.com
+License: MIT
+Requires-Dist: azureml-telemetry
+
+Microsoft Azure Machine Learning Data Collection API for Python
+
+
