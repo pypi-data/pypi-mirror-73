@@ -1,0 +1,8 @@
+setup.py
+SpinPyToolBox/__init__.py
+SpinPyToolBox/spinlib.py
+SpinPyToolBox.egg-info/PKG-INFO
+SpinPyToolBox.egg-info/SOURCES.txt
+SpinPyToolBox.egg-info/dependency_links.txt
+SpinPyToolBox.egg-info/not-zip-safe
+SpinPyToolBox.egg-info/top_level.txt
