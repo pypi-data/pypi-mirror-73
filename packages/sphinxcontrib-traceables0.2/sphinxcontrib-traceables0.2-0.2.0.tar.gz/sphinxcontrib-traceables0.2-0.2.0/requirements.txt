@@ -1,0 +1,2 @@
+Sphinx>=2.1
+graphviz>=0.4.6
