@@ -1,0 +1,10 @@
+README.md
+setup.py
+uiuc_api/__init__.py
+uiuc_api/parser.py
+uiuc_api/structs.py
+uiuc_api.egg-info/PKG-INFO
+uiuc_api.egg-info/SOURCES.txt
+uiuc_api.egg-info/dependency_links.txt
+uiuc_api.egg-info/requires.txt
+uiuc_api.egg-info/top_level.txt
