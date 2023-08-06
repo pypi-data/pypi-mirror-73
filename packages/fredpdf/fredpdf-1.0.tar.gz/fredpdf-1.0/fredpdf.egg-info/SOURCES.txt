@@ -1,0 +1,8 @@
+README.md
+setup.py
+fredpdf/__init__.py
+fredpdf/pdf2text.py
+fredpdf.egg-info/PKG-INFO
+fredpdf.egg-info/SOURCES.txt
+fredpdf.egg-info/dependency_links.txt
+fredpdf.egg-info/top_level.txt
