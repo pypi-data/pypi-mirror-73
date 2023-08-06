@@ -1,0 +1,3 @@
+[console_scripts]
+pgevents = pgevents.cli:cli
+

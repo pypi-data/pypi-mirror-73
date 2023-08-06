@@ -1,0 +1,14 @@
+pgevents/__init__.py,sha256=PXj4_BNugvP_zG3qZ2Gn5kg4_TXFaHY-fwqlTDjCYOA,54
+pgevents/app.py,sha256=01J-8bgXgfLly_AkuDRl0kiixIRRxz007YhU_Zcb3nM,3126
+pgevents/cli.py,sha256=vVWnSywM9uw_m2W7lg1O-ShkNCWvQInwNHNfAr3ITpA,617
+pgevents/data_access.py,sha256=BeK4NAXNTnr1aFPozZc9-XoYy_X2y9kqa5YTkSzESvc,2498
+pgevents/events.py,sha256=t0OKXqzhBqpjRl6xNuvQYIBo2Rc8sntl0CUOcBG2B_I,1748
+pgevents/version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+pgevents/migrations/20200704_2145_migration_create_event_table/apply.sql,sha256=mMHsHw7q5cm_VGw7o2yZQWrDN29xN9atXiJSNvKsJzg,390
+pgevents/migrations/20200704_2145_migration_create_event_table/rollback.sql,sha256=6JjdKAGvHyPOL9v41A4P1tMQEgjYjA-TP6AO9yeLSkw,43
+pgevents-0.0.2.dist-info/LICENSE,sha256=Fn7b869emgZrmVPCg496mYgjth3tPuFc0C8nC6eP9RA,1065
+pgevents-0.0.2.dist-info/METADATA,sha256=3z0x3ENDnaECZbJVvVukvwc6aoMdOWVL6ewVcAVFSfs,1335
+pgevents-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pgevents-0.0.2.dist-info/entry_points.txt,sha256=5M3IgJuwpbEg0HDAWYfD7RODK8Eay6qJ5DYtrk6u9Gc,47
+pgevents-0.0.2.dist-info/top_level.txt,sha256=W47aMN7jWH4hgj4ZLmYtTI1myY0bQL2vUf4XkS3IM2M,9
+pgevents-0.0.2.dist-info/RECORD,,
