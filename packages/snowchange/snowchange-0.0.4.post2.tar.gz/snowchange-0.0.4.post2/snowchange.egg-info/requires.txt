@@ -1,0 +1,2 @@
+snowflake-connector-python==2.2.8
+jinja2==2.10.3
