@@ -1,0 +1,6 @@
+argcomplete
+numba
+numpy
+scipy
+slackclient>2
+pyyaml
