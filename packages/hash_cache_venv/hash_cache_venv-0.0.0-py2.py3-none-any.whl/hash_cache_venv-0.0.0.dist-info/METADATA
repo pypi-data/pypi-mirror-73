@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hash_cache_venv
+Version: 0.0.0
+Summary: get or a create a cached virtual environment based on requirements
+Home-page: https://github.com/graingert/hash_cache_venv
+License: UNKNOWN
+Author: Thomas Grainger
+Author-email: tagrain@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: virtualenv ~= 20.0
+Requires-Dist: packaging ~= 20.4
+Requires-Dist: appdirs ~= 1.4
+Requires-Dist: filelock ~= 3.0
+Requires-Dist: importlib-metadata ~= 1.7 ; extra == "zipapp"
+Requires-Dist: importlib-resources ~= 3.0 ; extra == "zipapp"
+Requires-Dist: pathlib2 ~= 2.3.5 ; extra == "zipapp"
+Requires-Dist: zipp ~= 1.2 ; extra == "zipapp"
+Requires-Dist: contextlib2 ~= 0.6 ; extra == "zipapp"
+Requires-Dist: configparser ~= 4.0 ; extra == "zipapp"
+Requires-Dist: singledispatch ~= 3.4 ; extra == "zipapp"
+Provides-Extra: zipapp
