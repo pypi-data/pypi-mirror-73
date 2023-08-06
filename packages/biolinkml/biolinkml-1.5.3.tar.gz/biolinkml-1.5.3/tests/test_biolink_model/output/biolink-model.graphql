@@ -1,0 +1,1620 @@
+type AbstractEntity
+  {
+  }
+
+type ActivityAndBehavior
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+interface AdministrativeEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type AnatomicalEntity implements ThingWithTaxon, PhysicalEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type AnatomicalEntityToAnatomicalEntityAssociation
+  {
+    subject: AnatomicalEntity!
+    relation: Uriorcurie!
+    object: AnatomicalEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type AnatomicalEntityToAnatomicalEntityOntogenicAssociation
+  {
+    subject: AnatomicalEntity!
+    relation: Uriorcurie!
+    object: AnatomicalEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type AnatomicalEntityToAnatomicalEntityPartOfAssociation
+  {
+    subject: AnatomicalEntity!
+    relation: Uriorcurie!
+    object: AnatomicalEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Association
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Attribute implements OntologyClass
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+interface BiologicalEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type BiologicalProcess implements Occurrent
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    hasInput: [NamedThing]
+    hasOutput: [NamedThing]
+    enabledBy: [BiologicalProcessOrActivity]
+  }
+
+type BiologicalProcessOrActivity implements Occurrent
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    hasInput: [NamedThing]
+    hasOutput: [NamedThing]
+    enabledBy: [BiologicalProcessOrActivity]
+  }
+
+type BiologicalSex
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type Carbohydrate
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type Case
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type CaseToPhenotypicFeatureAssociation implements EntityToPhenotypicFeatureAssociation, CaseToThingAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    sexQualifier: BiologicalSex
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+interface CaseToThingAssociation
+  {
+    subject: Case!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Cell
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type CellLine
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type CellLineToDiseaseOrPhenotypicFeatureAssociation implements CellLineToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation
+  {
+    subject: DiseaseOrPhenotypicFeature!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface CellLineToThingAssociation
+  {
+    subject: CellLine!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type CellularComponent
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type ChemicalExposure
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type ChemicalSubstance
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type ChemicalToChemicalAssociation implements ChemicalToThingAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: ChemicalSubstance!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type ChemicalToChemicalDerivationAssociation
+  {
+    subject: ChemicalSubstance!
+    relation: Uriorcurie!
+    object: ChemicalSubstance!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    changeIsCatalyzedBy: [MacromolecularMachine]
+  }
+
+type ChemicalToDiseaseOrPhenotypicFeatureAssociation implements ChemicalToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: DiseaseOrPhenotypicFeature!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type ChemicalToGeneAssociation implements ChemicalToThingAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: GeneOrGeneProduct!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type ChemicalToPathwayAssociation implements ChemicalToThingAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: Pathway!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface ChemicalToThingAssociation
+  {
+    subject: ChemicalSubstance!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type ClinicalEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type ClinicalIntervention
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type ClinicalModifier
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type ClinicalTrial
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type CodingSequence
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type ConfidenceLevel
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type DataFile
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type DataSet
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+interface DataSetSummary
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    title: String
+    sourceDataFile: DataFile
+    versionOf: DataSet
+    type: String
+    distribution: DistributionLevel
+    sourceWebPage: String
+  }
+
+type DataSetVersion
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    title: String
+    sourceDataFile: DataFile
+    versionOf: DataSet
+    type: String
+    distribution: DistributionLevel
+  }
+
+type Device
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type Disease
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type DiseaseOrPhenotypicFeature implements ThingWithTaxon
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type DiseaseOrPhenotypicFeatureAssociationToLocationAssociation
+  {
+    subject: DiseaseOrPhenotypicFeature!
+    relation: Uriorcurie!
+    object: AnatomicalEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface DiseaseOrPhenotypicFeatureAssociationToThingAssociation
+  {
+    subject: DiseaseOrPhenotypicFeature!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type DiseaseToExposureAssociation
+  {
+    subject: Disease!
+    relation: Uriorcurie!
+    object: ExposureEvent!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type DiseaseToPhenotypicFeatureAssociation implements EntityToPhenotypicFeatureAssociation, DiseaseToThingAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    sexQualifier: BiologicalSex
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+interface DiseaseToThingAssociation
+  {
+    subject: Disease!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface DistributionLevel
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    title: String
+    sourceDataFile: DataFile
+    versionOf: DataSet
+    type: String
+    distribution: DistributionLevel
+    downloadURL: String
+  }
+
+type Drug
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type DrugExposure
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+interface EntityToDiseaseAssociation
+  {
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+interface EntityToFeatureOrDiseaseQualifiers
+  {
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+type EntityToPhenotypicFeatureAssociation implements EntityToFeatureOrDiseaseQualifiers
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: PhenotypicFeature!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    sexQualifier: BiologicalSex
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+type EnvironmentalFeature
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type EnvironmentalProcess implements Occurrent
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type EvidenceType
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type Exon
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type ExonToTranscriptRelationship
+  {
+    subject: Exon!
+    relation: Uriorcurie!
+    object: Transcript!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type ExposureEvent
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type ExposureEventToPhenotypicFeatureAssociation implements EntityToPhenotypicFeatureAssociation
+  {
+    subject: ExposureEvent!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    sexQualifier: BiologicalSex
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+interface FrequencyQualifierMixin
+  {
+    frequencyQualifier: FrequencyValue
+  }
+
+interface FrequencyQuantifier
+  {
+    hasCount: Integer
+    hasTotal: Integer
+    hasQuotient: Double
+    hasPercentage: Double
+  }
+
+type FrequencyValue
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type FunctionalAssociation
+  {
+    subject: MacromolecularMachine!
+    relation: Uriorcurie!
+    object: GeneOntologyClass!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Gene
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type GeneAsAModelOfDiseaseAssociation implements ModelToDiseaseMixin, EntityToDiseaseAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+type GeneFamily implements GeneGrouping
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+interface GeneGrouping
+  {
+  }
+
+type GeneHasVariantThatContributesToDiseaseAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+    sequenceVariantQualifier: SequenceVariant
+  }
+
+type GeneOntologyClass
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type GeneOrGeneProduct
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type GeneProduct
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+interface GeneProductIsoform
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type GeneRegulatoryRelationship
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: GeneOrGeneProduct!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GeneToDiseaseAssociation implements EntityToDiseaseAssociation, GeneToThingAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+type GeneToExpressionSiteAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: AnatomicalEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    stageQualifier: LifeStage
+    quantifierQualifier: OntologyClass
+  }
+
+interface GeneToGeneAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: GeneOrGeneProduct!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GeneToGeneHomologyAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: GeneOrGeneProduct!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GeneToGeneProductRelationship
+  {
+    subject: Gene!
+    relation: Uriorcurie!
+    object: GeneProduct!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GeneToGoTermAssociation
+  {
+    subject: MolecularEntity!
+    relation: Uriorcurie!
+    object: GeneOntologyClass!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GeneToPhenotypicFeatureAssociation implements EntityToPhenotypicFeatureAssociation, GeneToThingAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    sexQualifier: BiologicalSex
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+interface GeneToThingAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Genome
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type GenomicEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type GenomicSequenceLocalization
+  {
+    subject: GenomicEntity!
+    relation: Uriorcurie!
+    object: GenomicEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    startInterbaseCoordinate: String
+    endInterbaseCoordinate: String
+    genomeBuild: String
+    phase: String
+  }
+
+type Genotype
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+    hasZygosity: Zygosity
+  }
+
+type GenotypeToGeneAssociation
+  {
+    subject: Genotype!
+    relation: Uriorcurie!
+    object: Gene!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GenotypeToGenotypePartAssociation
+  {
+    subject: Genotype!
+    relation: Uriorcurie!
+    object: Genotype!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GenotypeToPhenotypicFeatureAssociation implements EntityToPhenotypicFeatureAssociation, GenotypeToThingAssociation
+  {
+    subject: Genotype!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    sexQualifier: BiologicalSex
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+interface GenotypeToThingAssociation
+  {
+    subject: Genotype!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GenotypeToVariantAssociation
+  {
+    subject: Genotype!
+    relation: Uriorcurie!
+    object: SequenceVariant!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type GenotypicSex
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type GeographicLocation
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    latitude: Float
+    longitude: Float
+  }
+
+type GeographicLocationAtTime
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    latitude: Float
+    longitude: Float
+    timepoint: TimeType
+  }
+
+type GrossAnatomicalStructure
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type Haplotype
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type IndividualOrganism implements ThingWithTaxon
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+interface InformationContentEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type LifeStage implements ThingWithTaxon
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type MacromolecularComplex
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type MacromolecularMachine
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type MacromolecularMachineToBiologicalProcessAssociation
+  {
+    subject: MacromolecularMachine!
+    relation: Uriorcurie!
+    object: BiologicalProcess!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type MacromolecularMachineToCellularComponentAssociation
+  {
+    subject: MacromolecularMachine!
+    relation: Uriorcurie!
+    object: CellularComponent!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type MacromolecularMachineToMolecularActivityAssociation
+  {
+    subject: MacromolecularMachine!
+    relation: Uriorcurie!
+    object: MolecularActivity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type MaterialSample implements SubjectOfInvestigation, PhysicalEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    hasAttribute: [Attribute]
+  }
+
+type MaterialSampleDerivationAssociation
+  {
+    subject: MaterialSample!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type MaterialSampleToDiseaseOrPhenotypicFeatureAssociation implements MaterialSampleToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface MaterialSampleToThingAssociation
+  {
+    subject: MaterialSample!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Metabolite
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type MicroRNA
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+interface ModelToDiseaseMixin
+  {
+  }
+
+type MolecularActivity implements Occurrent
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    hasInput: [ChemicalSubstance]
+    hasOutput: [ChemicalSubstance]
+    enabledBy: [MacromolecularMachine]
+  }
+
+type MolecularEntity implements ThingWithTaxon, PhysicalEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type NamedThing
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type NoncodingRNAProduct
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type Occurrent
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type Onset
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type OntologyClass
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type OrganismTaxon
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+interface OrganismalEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type PairwiseGeneToGeneInteraction implements PairwiseInteractionAssociation
+  {
+    subject: GeneOrGeneProduct!
+    relation: Uriorcurie!
+    object: GeneOrGeneProduct!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface PairwiseInteractionAssociation
+  {
+    subject: MolecularEntity!
+    relation: Uriorcurie!
+    object: MolecularEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface PathognomonicityQuantifier
+  {
+  }
+
+type Pathway
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    hasInput: [NamedThing]
+    hasOutput: [NamedThing]
+    enabledBy: [BiologicalProcessOrActivity]
+  }
+
+type Phenomenon
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type PhenotypicFeature
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type PhenotypicSex
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type PhysicalEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type PhysiologicalProcess
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    hasInput: [NamedThing]
+    hasOutput: [NamedThing]
+    enabledBy: [BiologicalProcessOrActivity]
+  }
+
+type PlanetaryEntity
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type PopulationOfIndividualOrganisms implements ThingWithTaxon
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+  }
+
+type PopulationToPopulationAssociation
+  {
+    subject: PopulationOfIndividualOrganisms!
+    relation: Uriorcurie!
+    object: PopulationOfIndividualOrganisms!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Procedure
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type Protein
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type ProteinIsoform implements GeneProductIsoform
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type Provider
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type Publication
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type QuantityValue
+  {
+    hasUnit: Unit
+    hasNumericValue: Double
+  }
+
+interface RelationshipQuantifier
+  {
+  }
+
+type RelationshipType
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type RNAProduct
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type RNAProductIsoform implements GeneProductIsoform
+  {
+    id: String!
+    name: SymbolType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+interface SensitivityQuantifier
+  {
+  }
+
+type SequenceFeatureRelationship
+  {
+    subject: GenomicEntity!
+    relation: Uriorcurie!
+    object: GenomicEntity!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type SequenceVariant
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+    hasGene: [Gene]
+  }
+
+interface SequenceVariantModulatesTreatmentAssociation
+  {
+    subject: SequenceVariant!
+    relation: Uriorcurie!
+    object: Treatment!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type SeverityValue
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type SourceFile
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    sourceVersion: String
+    retrievedOn: Date
+  }
+
+interface SpecificityQuantifier
+  {
+  }
+
+interface SubjectOfInvestigation
+  {
+  }
+
+interface ThingToDiseaseOrPhenotypicFeatureAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: DiseaseOrPhenotypicFeature!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+interface ThingWithTaxon
+  {
+    inTaxon: [OrganismTaxon]
+  }
+
+type Transcript
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+    inTaxon: [OrganismTaxon]
+    hasBiologicalSequence: BiologicalSequence
+  }
+
+type TranscriptToGeneRelationship
+  {
+    subject: Transcript!
+    relation: Uriorcurie!
+    object: Gene!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Treatment
+  {
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
+type VariantToDiseaseAssociation implements VariantToThingAssociation, EntityToDiseaseAssociation
+  {
+    subject: NamedThing!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+type VariantToPhenotypicFeatureAssociation implements VariantToThingAssociation, EntityToPhenotypicFeatureAssociation
+  {
+    subject: SequenceVariant!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    sexQualifier: BiologicalSex
+    frequencyQualifier: FrequencyValue
+    severityQualifier: SeverityValue
+    onsetQualifier: Onset
+  }
+
+type VariantToPopulationAssociation implements VariantToThingAssociation, FrequencyQuantifier, FrequencyQualifierMixin
+  {
+    subject: SequenceVariant!
+    relation: Uriorcurie!
+    object: PopulationOfIndividualOrganisms!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+    hasCount: Integer
+    hasTotal: Integer
+    hasQuotient: Double
+    hasPercentage: Double
+    frequencyQualifier: FrequencyValue
+  }
+
+interface VariantToThingAssociation
+  {
+    subject: SequenceVariant!
+    relation: Uriorcurie!
+    object: NamedThing!
+    id: String!
+    negated: Boolean
+    associationType: OntologyClass
+    qualifiers: [OntologyClass]
+    publications: [Publication]
+    providedBy: [Provider]
+  }
+
+type Zygosity
+  {
+    hasAttributeType: OntologyClass
+    hasQuantitativeValue: [QuantityValue]
+    hasQualitativeValue: NamedThing
+    id: String!
+    name: LabelType!
+    category: [IriType]!
+  }
+
