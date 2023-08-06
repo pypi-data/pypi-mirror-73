@@ -1,0 +1,6 @@
+README.md
+setup.py
+boring_logger.egg-info/PKG-INFO
+boring_logger.egg-info/SOURCES.txt
+boring_logger.egg-info/dependency_links.txt
+boring_logger.egg-info/top_level.txt
