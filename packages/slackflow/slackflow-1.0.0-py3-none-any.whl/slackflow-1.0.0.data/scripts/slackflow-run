@@ -1,0 +1,5 @@
+#!python
+
+from slackflow import run_service
+
+run_service()

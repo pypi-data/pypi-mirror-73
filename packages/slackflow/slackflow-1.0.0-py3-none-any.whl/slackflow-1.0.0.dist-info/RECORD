@@ -1,0 +1,12 @@
+slackflow/__init__.py,sha256=MQJcvUWLDzC1wmKcYtv5Cb4tYoNeXEWLIQ-9ln50ZQE,2194
+slackflow/airflow.py,sha256=UQsiwmvjGk_rHZaxDtuFbre_i-sHYG1KUK2sW6-b3mQ,543
+slackflow/constants.py,sha256=HFABTpEG6YVZumlF0V6AfGiqzwouxGwrrV0mbi8uaS8,441
+slackflow/models.py,sha256=cudFT3TyYfu-h7d36rpCX3yYL6k-sCVoLorg5oYBWVw,1278
+slackflow/slack.py,sha256=4hEBa-gFwqn9mnD5scBxPp6cljLZRe5wZCLk4cfjcJw,1383
+slackflow-1.0.0.data/scripts/slackflow-run,sha256=6tAFg25xETf4OPuwMMXShQSPkYqNmJBsFz2FLqbgwKg,59
+slackflow-1.0.0.dist-info/DESCRIPTION.rst,sha256=pQNpjDwWmkKtnl4BU5EXUPi6TzdmkHfQ8tYhbwbB4KI,735
+slackflow-1.0.0.dist-info/METADATA,sha256=o9DHyPyIH8KMWpzbyBsvZwPdrjRYsdoJ3RMq6Me6yb4,1301
+slackflow-1.0.0.dist-info/RECORD,,
+slackflow-1.0.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+slackflow-1.0.0.dist-info/metadata.json,sha256=7x_hfWJPDR8gOZEGwfbM37Ck9C-PRrNEFxLMc8GUA1k,747
+slackflow-1.0.0.dist-info/top_level.txt,sha256=scx6c7Bg6aouIDJBNn4kts7VnS4ZqAIaCx2Dn4FI4kk,10
