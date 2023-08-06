@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: boring-logger
+Version: 0.0.3
+Summary: I have to make this thing over and over again and I bet so do you
+Home-page: https://github.com/posix4e/boring_logger
+Author: Alex Newman
+Author-email: boringlogger@wuli.nu
+License: UNKNOWN
+Description: # boring_logger
+        
+        
+        Now that docker has made logging easy in python, let's just create a trivial logger to rule them all.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
