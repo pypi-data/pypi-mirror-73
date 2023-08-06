@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+config codes.txt
+requirements.txt
+setup.py
+ecodatatk/Spatial.py
+ecodatatk/__init__.py
+ecodatatk.egg-info/PKG-INFO
+ecodatatk.egg-info/SOURCES.txt
+ecodatatk.egg-info/dependency_links.txt
+ecodatatk.egg-info/requires.txt
+ecodatatk.egg-info/top_level.txt
