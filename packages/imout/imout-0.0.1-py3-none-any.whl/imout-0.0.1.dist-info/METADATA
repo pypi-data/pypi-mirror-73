@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: imout
+Version: 0.0.1
+Summary: To fetch the results after model development
+Home-page: UNKNOWN
+Author: Rahul Kumar
+Author-email: rahulrkumar9000@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+ï»¿# imout
+
+**imout** is a Python package that provides ready to view results for a classification model built for an array of images. It can be used once you have developed the model and you would like to get the results for a new set of images.
+
+
+# Dependency
+pandas , opencv, tqdm
+
+
