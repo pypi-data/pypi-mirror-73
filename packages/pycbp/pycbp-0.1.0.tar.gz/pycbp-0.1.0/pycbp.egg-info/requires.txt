@@ -1,0 +1,15 @@
+numpy
+tqdm
+scipy
+matplotlib
+seaborn
+pygraphviz
+numba
+
+[dev]
+Sphinx
+sphinx_rtd_theme
+sphinxcontrib-bibtex
+pylint
+pytest
+pytest-cov
