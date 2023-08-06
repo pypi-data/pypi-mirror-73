@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kivy-swr
+Version: 0.1.0
+Summary: Kivy hook library for remote data fetching
+Home-page: https://github.com/yanncabral/kivy-swr
+Author: Yann Cabral
+Author-email: iamyanndias@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/kivy-swr/
+Keywords: swr,fetch,data remote
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: kivy
+
+# kivy-swr
+Kivy hook library for remote data fetching
+
+
