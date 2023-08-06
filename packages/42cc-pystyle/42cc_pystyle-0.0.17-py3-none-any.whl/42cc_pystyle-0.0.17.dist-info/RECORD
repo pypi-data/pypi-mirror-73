@@ -1,0 +1,11 @@
+42cc_pystyle/__init__.py,sha256=cDDojyKw7irOpjXKbEUBE-VK9GV3M9X_iXOJsI5t_Rw,30
+42cc_pystyle/test_comments.py,sha256=2DGn__IZgWwJlm2QkWaBB96fnZw-H6eOwD2alSDfTbE,728
+42cc_pystyle/test_docstrings.py,sha256=Ax1niSg9ewfpjFrOMvHFCXGdTtrRlsUrBB5mMW9OJ0A,726
+42cc_pystyle/test_len_function.py,sha256=pwkjqaU5R-VOuIL1KeUEvA6aUYWhQOVK5j0nmYEZ1K8,785
+42cc_pystyle/test_single_if.py,sha256=4z8VhBXXfASYKv0ctrsw-BFN202xmVGfHFvd5812eqg,803
+42cc_pystyle-0.0.17.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+42cc_pystyle-0.0.17.dist-info/METADATA,sha256=R1KmSwW4oLeZG-LqS_AQzlA46jkrcUQ1P0SFOg4Y8Gg,1106
+42cc_pystyle-0.0.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+42cc_pystyle-0.0.17.dist-info/entry_points.txt,sha256=NmwBfoNfYbezUBwXjYfld4nkYXMu1OpCR9vvIyEvdmc,225
+42cc_pystyle-0.0.17.dist-info/top_level.txt,sha256=rRTTjS7I9tLP3J1txN-06Wbb5gJ4V8IcWeUJXiRk5Og,13
+42cc_pystyle-0.0.17.dist-info/RECORD,,

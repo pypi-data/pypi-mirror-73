@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: 42cc-pystyle
+Version: 0.0.17
+Summary: flake8 checks for 42 Coffee Cups style guide
+Home-page: https://github.com/akhavr/42cc-pystyle
+Author: Andriy Khavryuchenko
+Author-email: akhavr@khavr.com
+Maintainer: Andriy Khavryuchenko
+Maintainer-email: akhavr@khavr.com
+License: GPLv2
+Keywords: docstrings,flake8
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Description-Content-Type: text/markdown
+Requires-Dist: flake8 (==3.8.3)
+
+# 42cc-pystyle
+flake8 plugins for 42 Coffee Cups style checks
+
+- 0.0.7
+flake8 version bump to 3.8.3
+
+- 0.0.6
+fixed flake8 warnings :)
+
+- 0.0.5
+fixed package layout declaration
+
+- 0.0.4
+fixed nosetests
+
+- 0.0.3
+moved code to a subfolder
+
+- 0.0.2
+Added MANIFEST.in
+
+- 0.0.1
+Tests should have docstrings
+Tests for the module could be run via `nosetests` or `python setup.py nosetests`
+
+
