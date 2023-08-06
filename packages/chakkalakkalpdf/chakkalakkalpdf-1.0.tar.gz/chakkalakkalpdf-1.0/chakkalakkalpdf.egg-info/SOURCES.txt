@@ -1,0 +1,9 @@
+README.md
+setup.py
+chakkalakkalpdf/__init__.py
+chakkalakkalpdf/pdf2image..py
+chakkalakkalpdf/pdf2text.py
+chakkalakkalpdf.egg-info/PKG-INFO
+chakkalakkalpdf.egg-info/SOURCES.txt
+chakkalakkalpdf.egg-info/dependency_links.txt
+chakkalakkalpdf.egg-info/top_level.txt
