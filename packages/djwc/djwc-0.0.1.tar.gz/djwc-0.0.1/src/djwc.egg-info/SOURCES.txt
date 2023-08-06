@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/djwc.egg-info/PKG-INFO
+src/djwc.egg-info/SOURCES.txt
+src/djwc.egg-info/dependency_links.txt
+src/djwc.egg-info/top_level.txt
