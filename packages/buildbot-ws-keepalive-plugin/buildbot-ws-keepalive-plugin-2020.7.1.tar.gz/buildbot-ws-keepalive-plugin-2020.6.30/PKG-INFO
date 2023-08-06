@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: buildbot-ws-keepalive-plugin
+Version: 2020.6.30
+Summary: Make BuildBot websocket keepalive requests
+Home-page: https://github.com/mariadb-corporation/maxscale-buildbot
+Author: Evgeny Vlasov
+Author-email: evgeny.vlasov@fruct.org
+License: UNKNOWN
+Description: # README
+        
+        Plugin sends keepalive messages on websocket to avoid a disconnect due to server timeouts.
+        
+        ## How to use plugin?
+        
+        1. Install it
+        2. Configure plugin:
+            ```python
+                c['www'] = dict(
+                    ...
+                    plugins=dict(
+                        ...
+                        ws_keepalive_plugin={}
+                    )
+                )
+            ```
+        3. Reconfigure BuildBot
+        
+        ___
+        
+        Supported BuildBot version: >= 2
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Description-Content-Type: text/markdown
