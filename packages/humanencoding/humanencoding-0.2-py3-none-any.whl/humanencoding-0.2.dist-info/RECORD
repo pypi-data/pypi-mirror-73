@@ -1,0 +1,10 @@
+humanencoding/__init__.py,sha256=RAQ8FyuFsAbY4ku9DelNBlhbBTIFNtAaoFq1RGcQzFc,91
+humanencoding/encoder.py,sha256=1fzxxrlm-DpGvClYWXV43DFiV8aSPKHT6SJMK2onvl4,5376
+humanencoding/wordlist_v1.py,sha256=W_CpLIX2aX7bc3eRquXe1WkWPaozYfDaFKNavtI9tzU,838013
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_encoder.py,sha256=Xbi_frCW36-zkNaP_ZFRIXcvTZYptDDuJJoLktx161Y,3882
+humanencoding-0.2.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+humanencoding-0.2.dist-info/METADATA,sha256=ylk9SFDNDG1J7i2UskEbRrsFvcr3K-iZg1clXd9PWtg,1057
+humanencoding-0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+humanencoding-0.2.dist-info/top_level.txt,sha256=8DS0KstzsgDzGqbNfuBN-qhgcE4AblI9008WNH6ftLk,20
+humanencoding-0.2.dist-info/RECORD,,
