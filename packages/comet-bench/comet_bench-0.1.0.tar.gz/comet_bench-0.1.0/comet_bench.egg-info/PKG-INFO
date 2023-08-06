@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: comet-bench
+Version: 0.1.0
+Summary: An utility to publish benchmarks of Catch2 to Comet ML service
+Home-page: https://github.com/flipback/comet_bench
+Author: Aleksey Timin
+Author-email: atimin@gmail.com
+License: MIT
+Description: CometBench
+        -----------
+        
+        Apython setup.py sdist utility to publish benchmarks of Catch2 to Comet ML service
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.3
