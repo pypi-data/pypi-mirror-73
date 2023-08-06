@@ -1,0 +1,8 @@
+README.md
+setup.py
+hulearn/__init__.py
+human_learn.egg-info/PKG-INFO
+human_learn.egg-info/SOURCES.txt
+human_learn.egg-info/dependency_links.txt
+human_learn.egg-info/requires.txt
+human_learn.egg-info/top_level.txt
