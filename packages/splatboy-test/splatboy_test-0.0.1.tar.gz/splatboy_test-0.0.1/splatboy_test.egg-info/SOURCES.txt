@@ -1,0 +1,14 @@
+README.txt
+moduleSetup.py
+main/__init__.py
+main/customerrors.py
+main/pgame.py
+main/pgame_test.py
+splatboy_test.egg-info/PKG-INFO
+splatboy_test.egg-info/SOURCES.txt
+splatboy_test.egg-info/dependency_links.txt
+splatboy_test.egg-info/top_level.txt
+tests/__init__.py
+tests/customerrors.py
+tests/pgame.py
+tests/pgame_test.py
