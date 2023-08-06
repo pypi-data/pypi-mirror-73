@@ -1,0 +1,5 @@
+holoviews[recommended]
+whoosh
+cord-19-tools
+scikit-learn
+requests
