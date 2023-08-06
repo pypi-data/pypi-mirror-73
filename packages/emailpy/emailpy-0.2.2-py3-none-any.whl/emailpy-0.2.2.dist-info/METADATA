@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: emailpy
+Version: 0.2.2
+Summary: A Python interface to interact with gmail. 
+Home-page: https://pypi.org/project/emailpy
+Author: Sandra Mattar
+Author-email: sandrawmattar1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Email
+Description-Content-Type: text/markdown
+Requires-Dist: ospy
+
+
+Click <a href="https://icy16w.ch.files.1drv.com/y4mLSTS9QGoR_wAuL211K7AstKzB8n-neuHMG5ELXlEluOzOl-ME32msA0ULXEd1hM0uHYw4VO_Dn8kZcNa8Drz_VLD7aT8p5BDd7i6k_VT4csSSlbzSkjwuGD1UQKF-5zvDB2fApmwBgXlgNX4_Sr0pl73p8QRL6FnrkqeQ-9oVZPrE414GtX1t5blg26iHb25dgeR68SxaJW4Qft54-5eXw/index.html">here</a> to download the emailpy docs. 
+
+
