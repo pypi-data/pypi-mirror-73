@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zmb_distributions
+Version: 0.2.5
+Summary: Gaussian and binomial distributions
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Info
+        
+        Package created as learning material from udemy course on uploading a package to PyPi.
+        It does some stuff with gaussian and binomial distribution.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

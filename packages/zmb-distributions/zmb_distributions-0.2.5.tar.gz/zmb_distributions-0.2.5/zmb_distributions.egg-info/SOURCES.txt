@@ -1,0 +1,11 @@
+README.md
+setup.py
+zmb_distributions/Binomialdistribution.py
+zmb_distributions/Gaussiandistribution.py
+zmb_distributions/Generaldistribution.py
+zmb_distributions/__init__.py
+zmb_distributions.egg-info/PKG-INFO
+zmb_distributions.egg-info/SOURCES.txt
+zmb_distributions.egg-info/dependency_links.txt
+zmb_distributions.egg-info/not-zip-safe
+zmb_distributions.egg-info/top_level.txt
