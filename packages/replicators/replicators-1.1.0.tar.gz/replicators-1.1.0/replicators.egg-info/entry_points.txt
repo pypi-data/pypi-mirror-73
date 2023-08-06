@@ -1,0 +1,3 @@
+[console_scripts]
+replicators = replicant.__main__:main
+
