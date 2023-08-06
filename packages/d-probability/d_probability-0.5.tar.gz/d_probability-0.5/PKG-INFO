@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: d_probability
+Version: 0.5
+Summary: Gaussian distributions
+Home-page: UNKNOWN
+Author: Nilayan Bose
+License: UNKNOWN
+Description: # d-Distribution package
+        
+        Test project
+        
+        # Files
+        
+        BINOMIALDISTRIBUTION
+        GAUSSIANDISTRIBUTION
+        GENERALDISTRIBUTION
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
