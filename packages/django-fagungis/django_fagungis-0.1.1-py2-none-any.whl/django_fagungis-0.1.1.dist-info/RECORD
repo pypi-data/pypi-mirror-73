@@ -1,0 +1,14 @@
+django_fagungis-0.1.1-py2.7-nspkg.pth,sha256=0eENED4mVrnA7ctiGiEfICB6cF9NK48AE3AdQ9UxopE,549
+fagungis/example_fabfile.py,sha256=NbAtBrrsa8qHCcxXhVOtkstB5RWdz_z6ImWxckttfEI,4002
+fagungis/tasks.py,sha256=btQwRYft_STw2h8nD_wevXj5DL8pEc2mKnoY7O0fJS4,18554
+fagungis/conf/nginx.conf,sha256=gnUWbXZ1vtl6OwezZaJsI1UkcWFHuIxk53Vm_7flIQU,1115
+fagungis/conf/nginx_https.conf,sha256=dR5oqhMXNgpeKRZYD0KzTO9AM26t4ussCJd_mt4FRNg,1130
+fagungis/conf/supervisord.conf,sha256=y3zqgKec1JrMN-Z2kG0t-czALvSW4DMy_OHFbXClbv8,289
+fagungis/scripts/rungunicorn.sh,sha256=Bcx-L5lYITMECc5a2HGW8JDjHy7LwySaQMURiu-0TpM,534
+django_fagungis-0.1.1.dist-info/AUTHORS,sha256=eSN8P-QRCz098NvfhSMVAZsR4zJ9ytkwIlV5H_mGI8Y,191
+django_fagungis-0.1.1.dist-info/LICENSE,sha256=1WPnCTgBD9EXnkDCgjnL4yuU5IZhSgjobPxMKSD88Vw,1569
+django_fagungis-0.1.1.dist-info/METADATA,sha256=nSPfeQb0TVEgWRhw-d5LVg4hA5HnhIGvtu0uDk6Xa-U,6670
+django_fagungis-0.1.1.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+django_fagungis-0.1.1.dist-info/namespace_packages.txt,sha256=NdtF-M_-dtFp8g8b46O3hp2RlKx3LZCOhiWgkvN-ShM,9
+django_fagungis-0.1.1.dist-info/top_level.txt,sha256=NdtF-M_-dtFp8g8b46O3hp2RlKx3LZCOhiWgkvN-ShM,9
+django_fagungis-0.1.1.dist-info/RECORD,,
