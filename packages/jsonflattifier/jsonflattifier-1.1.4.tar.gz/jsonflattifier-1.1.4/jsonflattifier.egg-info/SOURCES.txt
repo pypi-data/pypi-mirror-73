@@ -1,0 +1,14 @@
+README.md
+setup.py
+jsonflattifier/__init__.py
+jsonflattifier/__main__.py
+jsonflattifier/apis.py
+jsonflattifier/errors.py
+jsonflattifier/helpers.py
+jsonflattifier/main.py
+jsonflattifier/version.py
+jsonflattifier.egg-info/PKG-INFO
+jsonflattifier.egg-info/SOURCES.txt
+jsonflattifier.egg-info/dependency_links.txt
+jsonflattifier.egg-info/requires.txt
+jsonflattifier.egg-info/top_level.txt
