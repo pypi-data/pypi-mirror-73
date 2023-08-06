@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: daves_utilities
+Version: 0.0.1
+Summary: Daves utilities is a collection of useful python functions which I would like to provide to anybody who is insterested in using them.
+Home-page: https://github.com/kuchedav/daves_utilities
+License: UNKNOWN
+Author: David Kuchelmeister
+Author-email: kuchelmeister.david@gmail.com
+Classifier: License :: OSI Approved :: MIT License
