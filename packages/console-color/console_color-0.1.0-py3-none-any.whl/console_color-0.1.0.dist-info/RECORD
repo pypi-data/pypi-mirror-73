@@ -1,0 +1,13 @@
+console_color/__init__.py,sha256=z1aQkwcNsgMRgwtO3JDQeSzeIaQvT--94OTu6_knZfU,553
+console_color/core.py,sha256=IVviDurUmYu7NZk-RHkFK9kssDsP002SFLxJv3NFNIc,7101
+console_color/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+console_color/demo/console_color.ipynb,sha256=wGwIEGqm3_gyRlHHqs_oZnWRvJXCXUlHthxR9NgoH80,22619
+console_color/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+console_color/test/test.py,sha256=YJzUzDMavwHud66teMySXt_MRf1PJZ0An57cU9ZOewg,7853
+console_color-0.1.0.dist-info/LICENSE,sha256=C0Im7MW7m7_5o238wqpV4uyj7An2oDRZeZF2Sruoy90,1562
+console_color-0.1.0.dist-info/METADATA,sha256=m3xZx-8FTRXVr3cmI1-YKs2M5Q5_UsNNuZxtz6j5yyI,3842
+console_color-0.1.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+console_color-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+console_color-0.1.0.dist-info/top_level.txt,sha256=9WdpDvitpO8SBrvQtHmP18FM29QooOtfhezirgzEvnw,14
+console_color-0.1.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+console_color-0.1.0.dist-info/RECORD,,
