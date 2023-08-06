@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: console-contacts
+Version: 0.0.10
+Summary: CLI contacts manager
+Home-page: UNKNOWN
+Author: Kai Harris
+License: MIT
+Description: console contacts
+        ======
+        
+        A simple python app for you to manage your contacts. Tested on python 3,
+        probably not compatible with python 2. 
+        
+        Installation
+        ------------
+        
+        Fast install:
+        
+        ::
+        
+            pip install console-contacts  
+        
+        Examples
+        --------
+        
+        :: console-contacts -l
+        
+        Here is the output:
+        contactName1
+        contactName2
+        contactName3
+        contactName4
+        :: console-contacts -s Mary
+        Output:
+        Mary
+        mary@example.com
+        1234567890
+        
+        :: console-contacts -a Bob bob@example.com 0987654321
+        
+        This adds a contact with the name Bob, the email bob@example.com, and the phone number 0987654321
+        
+        :: console-contacts -r Bob bob@example.com
+        
+        This removes Bob from your contacts 
+Keywords: console cli contacts contact addressbook
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
