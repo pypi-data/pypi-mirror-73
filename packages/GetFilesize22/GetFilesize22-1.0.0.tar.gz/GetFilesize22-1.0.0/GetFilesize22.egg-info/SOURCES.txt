@@ -1,0 +1,9 @@
+README.txt
+setup.py
+GetFileSize/__init__.py
+GetFileSize/getfilesize.py
+GetFilesize22.egg-info/PKG-INFO
+GetFilesize22.egg-info/SOURCES.txt
+GetFilesize22.egg-info/dependency_links.txt
+GetFilesize22.egg-info/requires.txt
+GetFilesize22.egg-info/top_level.txt
