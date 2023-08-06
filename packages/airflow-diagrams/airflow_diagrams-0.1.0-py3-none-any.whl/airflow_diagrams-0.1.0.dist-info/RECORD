@@ -1,0 +1,8 @@
+airflow_diagrams/__init__.py,sha256=1VFRmlsb8Qvm7uq77m5uMGvI9-wnFc_YRjf1dxi5EDk,3208
+airflow_diagrams/diagram.jinja2,sha256=udLf0kf7nw5JKkxgoSrJCnJ9mOZaQRPS-L-KJsoimAg,543
+airflow_diagrams/mapping.json,sha256=hgAa5fBPT4MYpLbU_u9Ny81dL2I2WcsYuz7RHzVFUHg,36020
+airflow_diagrams-0.1.0.dist-info/LICENSE,sha256=2o-r-yC638qFN3kqVSclz5YKbmyP4xQnOVAZVZlIWCk,1073
+airflow_diagrams-0.1.0.dist-info/METADATA,sha256=kgomwN5J1uqaAn_AkD5HqG8Hqqb0pMk0L-uZ7HDF6_M,2280
+airflow_diagrams-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+airflow_diagrams-0.1.0.dist-info/top_level.txt,sha256=aBYxayCBWkS-DIkY2mmgSLJKIogXUTTZMWYunJTUcVA,17
+airflow_diagrams-0.1.0.dist-info/RECORD,,
