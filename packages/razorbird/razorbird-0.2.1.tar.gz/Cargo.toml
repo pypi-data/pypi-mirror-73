@@ -1,0 +1,45 @@
+[package]
+authors = ["Vytautas Liuolia <vytautas.liuolia@gmail.com>"]
+name = "razorbird"
+version = "0.2.1"
+description = "A WSGI server based on Rust Hyper"
+homepage = "https://gitlab.com/vytas/razorbird"
+readme = "README.md"
+repository = "https://gitlab.com/vytas/razorbird"
+license = "Apache-2.0"
+keywords = ["wsgi", "server"]
+edition = "2018"
+
+[package.metadata.maturin]
+classifier = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Rust",
+    "Topic :: Internet",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: WSGI",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Server",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
+]
+requires-python = ">=3.5"
+
+[package.metadata.maturin.scripts]
+razorbird = "razorbird.main:run"
+
+[dependencies]
+hyper = "0.13"
+pyo3 = { version = "0.11", features = ["extension-module"] }
+tokio = { version = "0.2", features = ["full"] }
+
+[lib]
+name = "razorbird"
+crate-type = ["cdylib"]
