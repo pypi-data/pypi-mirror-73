@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: gabd-probability
+Version: 0.1.2.2
+Summary: Gaussian and Binomial distributions
+Home-page: https://github.com/biswa-star
+Author: Biswajeet Mahato
+Author-email: biswajeetm156@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: gbd_distribution package
+        
+        Summary of the package
+        
+        To calculate Binomial and Gaussian distribution
+        
+        # Files
+        
+        Explaination of files in the package
+        
+        <h2>
+          Installation
+          </h2>
+        
+        ## Installation <h2>
+            
+        pip install gabd-probability
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
