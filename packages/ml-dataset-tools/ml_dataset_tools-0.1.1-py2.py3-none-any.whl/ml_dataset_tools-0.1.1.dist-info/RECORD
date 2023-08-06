@@ -1,0 +1,10 @@
+ml_dataset_tools/__init__.py,sha256=gWUWRLfopxxl6HWYx6Ae4HqqG7Rt9zoiCrXXEudb6x8,285
+ml_dataset_tools/file_list.py,sha256=dpkVOUVZ690ucnecm2zNM3QWuM7voN4PnThhpIfGl9k,647
+ml_dataset_tools/sync_file_lists.py,sha256=rcE98pOiIpoIy_QcOPIghiRVA8SRT_gzzJ1llBtagIc,2501
+ml_dataset_tools/version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+ml_dataset_tools-0.1.1.dist-info/LICENSE,sha256=-RcSarAmjN4uQ5BnkSCOZiNOooMwtpkkCGKesfklEVA,1065
+ml_dataset_tools-0.1.1.dist-info/METADATA,sha256=Kp8OkVKT3yV9ojWKs4JMR9IDgTmVJ-QZYxd61X7cNJ8,1593
+ml_dataset_tools-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ml_dataset_tools-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+ml_dataset_tools-0.1.1.dist-info/top_level.txt,sha256=M-LFuN0UPU5eK61tYaMZXHJGh5NHodPE18mBaVu05ks,17
+ml_dataset_tools-0.1.1.dist-info/RECORD,,
