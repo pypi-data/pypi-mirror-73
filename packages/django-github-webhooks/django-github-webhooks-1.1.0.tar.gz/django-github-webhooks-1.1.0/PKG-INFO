@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: django-github-webhooks
+Version: 1.1.0
+Summary: GitHub webhooks for Django.
+Home-page: https://github.com/OpenWiden/django-github-webhooks
+License: MIT
+Keywords: django,github,webhooks
+Author: stefanitsky
+Author-email: stefanitsky.mozdor@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 3.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: black
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: isort
+Provides-Extra: test
+Requires-Dist: black (>=19.10b0,<20.0); extra == "black" or extra == "dev"
+Requires-Dist: django (>=2.2,<4.0)
+Requires-Dist: isort[pyproject] (>=4.3.21,<5.0.0); extra == "isort" or extra == "dev"
+Requires-Dist: pytest (>=5.2,<6.0); extra == "test" or extra == "dev"
+Requires-Dist: pytest-cov (>=2.1.0,<3.0.0); extra == "test" or extra == "dev"
+Requires-Dist: pytest-django (>=3.9.0,<4.0.0); extra == "test" or extra == "dev"
+Requires-Dist: sphinx (>=3,<4); extra == "docs" or extra == "dev"
+Requires-Dist: tox (<3.8); extra == "dev"
+Project-URL: Documentation, https://django-github-webhooks.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/OpenWiden/django-github-webhooks
+Description-Content-Type: text/x-rst
+
+.. image:: https://img.shields.io/pypi/v/django-github-webhooks
+    :target: https://pypi.org/project/django-github-webhooks/
+    :alt: PyPI
+
+.. image:: https://img.shields.io/pypi/djversions/django-github-webhooks
+    :alt: PyPI - Django Version
+
+.. image:: https://github.com/OpenWiden/django-github-webhooks/workflows/Tests/badge.svg?branch=master
+    :target: https://github.com/OpenWiden/django-github-webhooks/workflows/Tests/badge.svg?branch=master
+    :alt: Tests passed
+
+.. image:: https://codecov.io/gh/OpenWiden/django-github-webhooks/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/OpenWiden/django-github-webhooks
+    :alt: Code coverage
+
+.. image:: https://readthedocs.org/projects/django-github-webhooks/badge/?version=latest
+    :target: https://django-github-webhooks.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://pyup.io/repos/github/OpenWiden/django-github-webhooks/shield.svg
+     :target: https://pyup.io/repos/github/OpenWiden/django-github-webhooks/
+     :alt: Updates
+
+===============
+GitHub webhooks
+===============
+
+GitHub webhooks for Django.
+
+* Documentation: https://django-github-webhooks.readthedocs.io/en/latest/
+
+Features
+--------
+* Python >= 3.7.
+* Django >= 2.1.
+* Fully tested.
+* Easily extendable.
+
