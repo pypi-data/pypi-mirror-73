@@ -1,0 +1,10 @@
+setup.py
+distributions_probability_winay05/Binomialdistribution.py
+distributions_probability_winay05/Gaussiandistribution.py
+distributions_probability_winay05/Generaldistribution.py
+distributions_probability_winay05/__init__.py
+distributions_probability_winay05.egg-info/PKG-INFO
+distributions_probability_winay05.egg-info/SOURCES.txt
+distributions_probability_winay05.egg-info/dependency_links.txt
+distributions_probability_winay05.egg-info/not-zip-safe
+distributions_probability_winay05.egg-info/top_level.txt
