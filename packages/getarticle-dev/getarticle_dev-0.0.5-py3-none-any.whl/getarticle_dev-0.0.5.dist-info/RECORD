@@ -1,0 +1,10 @@
+.DS_Store,sha256=MwvRu6oCxms0jI_bB4hrLkWEaQczF6Nvejhd1wWLwqY,6148
+getarticle/__init__.py,sha256=pxFpjfuV3ev5d1aQHxhP7NSoaF6g0vgB93dK5KzC2tQ,35
+getarticle/cli.py,sha256=poeuf07t41fn3MCQuOyURjOSpWgItvxEmzJ_lrtfrWc,1010
+getarticle/getarticle.py,sha256=iYEmWFecmjcm38kJpAX6GlEnW_K49gD6pxfFAs4st94,4354
+getarticle_dev-0.0.5.dist-info/LICENSE,sha256=wtUgFcACmnVCgYfbM653tuOFacIN7SS0eoaERNZ5RKo,1065
+getarticle_dev-0.0.5.dist-info/METADATA,sha256=pLsVg9oOPVonafz8FEQQ23HsFtoB3a915BgTGIL_BI4,3292
+getarticle_dev-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+getarticle_dev-0.0.5.dist-info/entry_points.txt,sha256=4cC8iBB2HfePWgmxqdBB8-IrD9XkQKvWfxlty5HSOwk,59
+getarticle_dev-0.0.5.dist-info/top_level.txt,sha256=TNB5nxkGkNP0Bp32mJ1hC-iPUVTmfigAszKfDKKAPYs,11
+getarticle_dev-0.0.5.dist-info/RECORD,,
