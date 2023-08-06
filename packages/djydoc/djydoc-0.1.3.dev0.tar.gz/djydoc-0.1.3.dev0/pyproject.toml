@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "djydoc"
+version = "0.1.3.dev0"
+description = "Django wrapper for pydoc"
+authors = ["Jordan Hewitt <srcrr@damngood.pro>"]
+license = "MIT"
+homepage = "https://gitlab.com/srcrr/djydoc"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "*"
+django = "^2.2.14"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
