@@ -1,0 +1,10 @@
+setup.py
+learn_probability_distribution/Binomialdistribution.py
+learn_probability_distribution/Gaussiandistribution.py
+learn_probability_distribution/Generaldistribution.py
+learn_probability_distribution/__init__.py
+learn_probability_distribution.egg-info/PKG-INFO
+learn_probability_distribution.egg-info/SOURCES.txt
+learn_probability_distribution.egg-info/dependency_links.txt
+learn_probability_distribution.egg-info/not-zip-safe
+learn_probability_distribution.egg-info/top_level.txt
