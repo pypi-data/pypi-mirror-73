@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: WordSearcher
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: This module contains a word searcher
+        
+        It is extremely powerful in real life
+        
+        It can search for words in file and it will
+        return you the line number of the line that includes the word
+        
+        Thank you!
+Platform: UNKNOWN

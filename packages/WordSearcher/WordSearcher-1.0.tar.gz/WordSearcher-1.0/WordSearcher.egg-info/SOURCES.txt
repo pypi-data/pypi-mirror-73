@@ -1,0 +1,6 @@
+README.md
+setup.py
+WordSearcher.egg-info/PKG-INFO
+WordSearcher.egg-info/SOURCES.txt
+WordSearcher.egg-info/dependency_links.txt
+WordSearcher.egg-info/top_level.txt
