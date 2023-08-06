@@ -1,0 +1,295 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>greydot.signup &mdash; greydot-api 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> greydot-api
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api.html">API Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">greydot-api</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+        
+      <li>greydot.signup</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for greydot.signup</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">This function allows you to sign up new customers directly. If you enable notify by email, you will also receive an email every time the url is called with your APP Key.</span>
+
+<span class="sd">URL :</span>
+<span class="sd">https://greydotapi.me/?k=[APP Key]&amp;do=[FID] &amp;par1=[First Name]&amp;par2=[Last Name]&amp;par3=[Email] &amp;par4=[Mobile]&amp;par5=[ReferralCode]&amp;par6=[GroupCode] &amp;par7=[WelcomeEmail]&amp;par8=[WelcomeSMS]</span>
+
+<span class="sd">**APP Key** : Your APP Key</span>
+<span class="sd">**FID]The function ID for Signup is 19</span>
+<span class="sd">**First Name** : First name of the customer being signed up _required_</span>
+<span class="sd">**Last Name** : Last name of the customer being signed up _optional_</span>
+<span class="sd">**Email** : Email of the customer being signed up _optional_</span>
+<span class="sd">**Mobile** : Mobile number of the customer being signed up _required_</span>
+<span class="sd">**ReferralCode** : Your ReferralCode _optional_</span>
+<span class="sd">**GroupCode** : Your GroupCode if you have one _optional_</span>
+<span class="sd">**WelcomeEmail** : If set to 1 customer being signed up will get a email with his account info_optional_</span>
+<span class="sd">**WelcomeSMS** : If set to 1 customer being signed up will get an sms with his account info _optional_</span>
+
+<span class="sd">If par7 and par8 is set to 0 or not specified the customer being signed up will get no welcome correspondence.</span>
+
+<span class="sd">Example 1 url :</span>
+<span class="sd">https://greydotapi.me/?k=abcdefghijklmnopqrst&amp;do=19&amp;par1=Joe&amp;par2=Black&amp;par3=joe@email.me&amp;par4=0898887744&amp;par5=1234</span>
+
+<span class="sd">Example reply :</span>
+
+<span class="sd">    {</span>
+<span class="sd">        &quot;query&quot;: {</span>
+<span class="sd">            &quot;query_result&quot;: {</span>
+<span class="sd">                &quot;status&quot;: &quot;Success&quot;,</span>
+<span class="sd">                &quot;function&quot;: &quot;SignUp&quot;,</span>
+<span class="sd">                &quot;signup_status&quot;: &quot;Registered&quot;,</span>
+<span class="sd">                &quot;identity&quot;: &quot;0123456789&quot;,</span>
+<span class="sd">                &quot;password&quot;: &quot;9876543210&quot;,</span>
+<span class="sd">                &quot;appkey&quot;: &quot;abcdefghijklmnopqrst&quot;</span>
+<span class="sd">            },</span>
+<span class="sd">            &quot;query_status&quot;: &quot;DONE&quot;,</span>
+<span class="sd">            &quot;query_code&quot;: &quot;D0017&quot;</span>
+<span class="sd">        }</span>
+<span class="sd">    }</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">sms</span> <span class="k">import</span> <span class="n">GREYDOT_APP_KEY</span><span class="p">,</span> <span class="n">API_URL</span><span class="p">,</span> <span class="n">parse_xml_response</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">urllib.parse</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span>
+
+<span class="n">FID</span> <span class="o">=</span> <span class="mi">19</span>
+<span class="n">SAMPLE</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+
+<span class="s2">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;</span>
+<span class="s2">&lt;query&gt;</span>
+<span class="s2">    &lt;query_result&gt;</span>
+<span class="s2">        &lt;status&gt;Success&lt;/status&gt;</span>
+<span class="s2">        &lt;function&gt;SignUp&lt;/function&gt;</span>
+<span class="s2">        &lt;signup_status&gt;Registered&lt;/signup_status&gt;</span>
+<span class="s2">        &lt;identity&gt;0123456789&lt;/identity&gt;</span>
+<span class="s2">        &lt;password&gt;9876543210&lt;/password&gt;</span>
+<span class="s2">        &lt;appkey&gt;abcdefghijklmnopqrst&lt;/appkey&gt;</span>
+<span class="s2">    &lt;/query_result&gt;</span>
+<span class="s2">    &lt;query_status&gt;DONE&lt;/query_status&gt;</span>
+<span class="s2">    &lt;query_code&gt;D0017&lt;/query_code&gt;</span>
+<span class="s2">&lt;/query&gt;</span>
+<span class="s2">&quot;&quot;&quot;</span>
+
+
+<div class="viewcode-block" id="register"><a class="viewcode-back" href="../../api.html#greydot.signup.register">[docs]</a><span class="k">def</span> <span class="nf">register</span><span class="p">(</span>
+    <span class="n">fname</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">mobile</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">lname</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">email</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">refcode</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">groupcode</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">welcomemail</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+    <span class="n">welcomesms</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Params::</span>
+
+<span class="sd">    **fname** : First name of the customer being signed up _required_</span>
+<span class="sd">    **lname** : Last name of the customer being signed up _optional_</span>
+<span class="sd">    **email** : Email of the customer being signed up _optional_</span>
+<span class="sd">    **mobile** : Mobile number of the customer being signed up _required_</span>
+<span class="sd">    **refcode** : Your ReferralCode _optional_</span>
+<span class="sd">    **groupcode** : Your GroupCode if you have one _optional_</span>
+<span class="sd">    **welcomemail** : If set to 1 customer being signed up will get a email with his account info _optional_</span>
+<span class="sd">    **welcomesms** : If set to 1 customer being signed up will get an sms with his account info _optional_</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">()</span>
+    <span class="n">params</span><span class="p">[</span><span class="s2">&quot;do&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">FID</span>
+    <span class="n">params</span><span class="p">[</span><span class="s2">&quot;k&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">GREYDOT_APP_KEY</span>
+    <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par1&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">fname</span>
+    <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par4&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mobile</span>
+    <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par8&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">welcomesms</span>
+    <span class="k">if</span> <span class="n">lname</span><span class="p">:</span>
+        <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par2&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">lname</span>
+    <span class="k">if</span> <span class="n">email</span><span class="p">:</span>
+        <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par3&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">email</span>
+        <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par7&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">refcode</span><span class="p">:</span>
+        <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par5&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">refcode</span>
+    <span class="k">if</span> <span class="n">groupcode</span><span class="p">:</span>
+        <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par6&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">groupcode</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">email</span><span class="p">:</span>
+        <span class="n">params</span><span class="p">[</span><span class="s2">&quot;par7&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">welcomemail</span>
+    <span class="n">encoded_params</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">urlencode</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">API_URL</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">encoded_params</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">parse_xml_response</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Tralah M Brian
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

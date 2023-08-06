@@ -1,0 +1,449 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GreyDot Package &mdash; greydot-api 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to greydot-api’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> greydot-api
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-greydot.signup">greydot.signup module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-greydot.b2c">greydot.b2c module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-greydot.sms">greydot.sms module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-greydot.airtime">greydot.airtime module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-greydot.wallet">greydot.wallet module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-greydot">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">greydot-api</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>GreyDot Package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/api.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="greydot-package">
+<h1>GreyDot Package<a class="headerlink" href="#greydot-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-greydot.signup">
+<span id="greydot-signup-module"></span><h2>greydot.signup module<a class="headerlink" href="#module-greydot.signup" title="Permalink to this headline">¶</a></h2>
+<p>This function allows you to sign up new customers directly. If you enable notify by email, you will also receive an email every time the url is called with your APP Key.</p>
+<p>URL :
+<a class="reference external" href="https://greydotapi.me/?k=[APP">https://greydotapi.me/?k=[APP</a> Key]&amp;do=[FID] &amp;par1=[First Name]&amp;par2=[Last Name]&amp;par3=[Email] &amp;par4=[Mobile]&amp;par5=[ReferralCode]&amp;par6=[GroupCode] &amp;par7=[WelcomeEmail]&amp;par8=[WelcomeSMS]</p>
+<p><strong>APP Key</strong> : Your APP Key
+<strong>FID]The function ID for Signup is 19
+**First Name</strong> : First name of the customer being signed up _required_
+<strong>Last Name</strong> : Last name of the customer being signed up _optional_
+<strong>Email</strong> : Email of the customer being signed up _optional_
+<strong>Mobile</strong> : Mobile number of the customer being signed up _required_
+<strong>ReferralCode</strong> : Your ReferralCode _optional_
+<strong>GroupCode</strong> : Your GroupCode if you have one _optional_
+<strong>WelcomeEmail</strong> : If set to 1 customer being signed up will get a email with his account <a href="#id1"><span class="problematic" id="id2">info_optional_</span></a>
+<strong>WelcomeSMS</strong> : If set to 1 customer being signed up will get an sms with his account info _optional_</p>
+<p>If par7 and par8 is set to 0 or not specified the customer being signed up will get no welcome correspondence.</p>
+<p>Example 1 url :
+<a class="reference external" href="https://greydotapi.me/?k=abcdefghijklmnopqrst&amp;do=19&amp;par1=Joe&amp;par2=Black&amp;par3=joe&#64;email.me&amp;par4=0898887744&amp;par5=1234">https://greydotapi.me/?k=abcdefghijklmnopqrst&amp;do=19&amp;par1=Joe&amp;par2=Black&amp;par3=joe&#64;email.me&amp;par4=0898887744&amp;par5=1234</a></p>
+<p>Example reply :</p>
+<blockquote>
+<div><dl>
+<dt>{</dt><dd><dl>
+<dt>“query”: {</dt><dd><dl class="simple">
+<dt>“query_result”: {</dt><dd><p>“status”: “Success”,
+“function”: “SignUp”,
+“signup_status”: “Registered”,
+“identity”: “0123456789”,
+“password”: “9876543210”,
+“appkey”: “abcdefghijklmnopqrst”</p>
+</dd>
+</dl>
+<p>},
+“query_status”: “DONE”,
+“query_code”: “D0017”</p>
+</dd>
+</dl>
+<p>}</p>
+</dd>
+</dl>
+<p>}</p>
+</div></blockquote>
+<dl class="function">
+<dt id="greydot.signup.register">
+<code class="sig-prename descclassname">greydot.signup.</code><code class="sig-name descname">register</code><span class="sig-paren">(</span><em class="sig-param">fname: str</em>, <em class="sig-param">mobile: str</em>, <em class="sig-param">lname=None</em>, <em class="sig-param">email=None</em>, <em class="sig-param">refcode=''</em>, <em class="sig-param">groupcode=None</em>, <em class="sig-param">welcomemail=0</em>, <em class="sig-param">welcomesms=1</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/greydot/signup.html#register"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#greydot.signup.register" title="Permalink to this definition">¶</a></dt>
+<dd><p>Params:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">**</span><span class="n">fname</span><span class="o">**</span> <span class="p">:</span> <span class="n">First</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">customer</span> <span class="n">being</span> <span class="n">signed</span> <span class="n">up</span> <span class="n">_required_</span>
+<span class="o">**</span><span class="n">lname</span><span class="o">**</span> <span class="p">:</span> <span class="n">Last</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">customer</span> <span class="n">being</span> <span class="n">signed</span> <span class="n">up</span> <span class="n">_optional_</span>
+<span class="o">**</span><span class="n">email</span><span class="o">**</span> <span class="p">:</span> <span class="n">Email</span> <span class="n">of</span> <span class="n">the</span> <span class="n">customer</span> <span class="n">being</span> <span class="n">signed</span> <span class="n">up</span> <span class="n">_optional_</span>
+<span class="o">**</span><span class="n">mobile</span><span class="o">**</span> <span class="p">:</span> <span class="n">Mobile</span> <span class="n">number</span> <span class="n">of</span> <span class="n">the</span> <span class="n">customer</span> <span class="n">being</span> <span class="n">signed</span> <span class="n">up</span> <span class="n">_required_</span>
+<span class="o">**</span><span class="n">refcode</span><span class="o">**</span> <span class="p">:</span> <span class="n">Your</span> <span class="n">ReferralCode</span> <span class="n">_optional_</span>
+<span class="o">**</span><span class="n">groupcode</span><span class="o">**</span> <span class="p">:</span> <span class="n">Your</span> <span class="n">GroupCode</span> <span class="k">if</span> <span class="n">you</span> <span class="n">have</span> <span class="n">one</span> <span class="n">_optional_</span>
+<span class="o">**</span><span class="n">welcomemail</span><span class="o">**</span> <span class="p">:</span> <span class="n">If</span> <span class="nb">set</span> <span class="n">to</span> <span class="mi">1</span> <span class="n">customer</span> <span class="n">being</span> <span class="n">signed</span> <span class="n">up</span> <span class="n">will</span> <span class="n">get</span> <span class="n">a</span> <span class="n">email</span> <span class="k">with</span> <span class="n">his</span> <span class="n">account</span> <span class="n">info</span> <span class="n">_optional_</span>
+<span class="o">**</span><span class="n">welcomesms</span><span class="o">**</span> <span class="p">:</span> <span class="n">If</span> <span class="nb">set</span> <span class="n">to</span> <span class="mi">1</span> <span class="n">customer</span> <span class="n">being</span> <span class="n">signed</span> <span class="n">up</span> <span class="n">will</span> <span class="n">get</span> <span class="n">an</span> <span class="n">sms</span> <span class="k">with</span> <span class="n">his</span> <span class="n">account</span> <span class="n">info</span> <span class="n">_optional_</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="module-greydot.b2c">
+<span id="greydot-b2c-module"></span><h2>greydot.b2c module<a class="headerlink" href="#module-greydot.b2c" title="Permalink to this headline">¶</a></h2>
+<p>This function allows you to transfer from your wallet to other identities. If you enable notify by email, you will receive an email every time the url is called with your APP Key.</p>
+<p>URL :
+<a class="reference external" href="https://greydotapi.me/?par2=[Amount]&amp;par1=[Send">https://greydotapi.me/?par2=[Amount]&amp;par1=[Send</a> to Identity]&amp;k=[APP Key]&amp;do=[FID]</p>
+<p>[Amount] is the amount to send
+[Send to Identity] the identity that will recieve the digits
+[APP Key] Your APP Key
+[FID]The function ID for Wallet transfer is 2</p>
+<p>Example url :
+<a class="reference external" href="https://greydotapi.me/?par2=1&amp;par1=25911000000&amp;k=abcdefghijklmnopqrst&amp;do=2">https://greydotapi.me/?par2=1&amp;par1=25911000000&amp;k=abcdefghijklmnopqrst&amp;do=2</a></p>
+<p>Example reply :</p>
+<blockquote>
+<div><dl>
+<dt>{</dt><dd><dl>
+<dt>“query”: {</dt><dd><dl class="simple">
+<dt>“query_result”: {</dt><dd><p>“status”: “Success”,
+“function”: “Wallet transfer”,
+“amount”: “1”,
+“to”: “25911000000”</p>
+</dd>
+</dl>
+<p>},
+“query_status”: “DONE”,
+“query_code”: “D0002”</p>
+</dd>
+</dl>
+<p>}</p>
+</dd>
+</dl>
+<p>}</p>
+</div></blockquote>
+<dl class="function">
+<dt id="greydot.b2c.send_money">
+<code class="sig-prename descclassname">greydot.b2c.</code><code class="sig-name descname">send_money</code><span class="sig-paren">(</span><em class="sig-param">Amount=0.0</em>, <em class="sig-param">To=''</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/greydot/b2c.html#send_money"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#greydot.b2c.send_money" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-greydot.sms">
+<span id="greydot-sms-module"></span><h2>greydot.sms module<a class="headerlink" href="#module-greydot.sms" title="Permalink to this headline">¶</a></h2>
+<p>Use the API to send an sms to a number. If you enable notify by email, you will receive an email every time the url is called with your APP Key.</p>
+<p>URL :
+<a class="reference external" href="https://greydotapi.me/?par1=[Number-to-SMS]&amp;par2=[url-encoded-text-message]&amp;k=[APP-Key]&amp;do=[FID">https://greydotapi.me/?par1=[Number-to-SMS]&amp;par2=[url-encoded-text-message]&amp;k=[APP-Key]&amp;do=[FID</a>]</p>
+<p>[<strong>Number to SMS</strong>] Number that will receive the sms message or list of numbers each separated by an e</p>
+<p>[<strong>url encoded text message</strong>] Text to be sent to number in url encoded form</p>
+<p>[<strong>APP Key</strong>] Your APP Key</p>
+<p>[<strong>FID</strong>] The function ID for Send sms is 11</p>
+<p>Bulk Example url :
+<a class="reference external" href="https://greydotapi.me/?par1=0820000000e0820000001e0820000002&amp;par2=Test+sms%2C+Hallo+world.&amp;k=abcdefghijklmnopqrst&amp;do=11">https://greydotapi.me/?par1=0820000000e0820000001e0820000002&amp;par2=Test+sms%2C+Hallo+world.&amp;k=abcdefghijklmnopqrst&amp;do=11</a></p>
+<p>Example url :
+<a class="reference external" href="https://greydotapi.me/?par1=0820000000&amp;par2=Test+sms%2C+Hallo+world.&amp;k=abcdefghijklmnopqrst&amp;do=11">https://greydotapi.me/?par1=0820000000&amp;par2=Test+sms%2C+Hallo+world.&amp;k=abcdefghijklmnopqrst&amp;do=11</a></p>
+<p>Example reply :</p>
+<blockquote>
+<div><dl>
+<dt>{</dt><dd><dl>
+<dt>“query”: {</dt><dd><dl>
+<dt>“query_result”: {</dt><dd><dl class="simple">
+<dt>“status”: [</dt><dd><p>“Success”,
+“Send_SMS”</p>
+</dd>
+</dl>
+<p>],
+“to”: “27110000000”,
+“sms_id”: “000”</p>
+</dd>
+</dl>
+<p>},
+“query_status”: “DONE”,
+“query_code”: “D0011”</p>
+</dd>
+</dl>
+<p>}</p>
+</dd>
+</dl>
+<p>}</p>
+</div></blockquote>
+<dl class="function">
+<dt id="greydot.sms.parse_xml_response">
+<code class="sig-prename descclassname">greydot.sms.</code><code class="sig-name descname">parse_xml_response</code><span class="sig-paren">(</span><em class="sig-param">response</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/greydot/sms.html#parse_xml_response"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#greydot.sms.parse_xml_response" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Args</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- `response`: String of raw xml response returned
+</pre></div>
+</div>
+<p><strong>Returns</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>{</dt><dd><p>‘result_status’:”Success”,
+‘to’:’27110000000’,
+‘sms_id’:’0001’,
+‘query_status’:’DONE’,
+‘query_code’:’D0011’</p>
+</dd>
+</dl>
+<p>}</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="greydot.sms.send_sms">
+<code class="sig-prename descclassname">greydot.sms.</code><code class="sig-name descname">send_sms</code><span class="sig-paren">(</span><em class="sig-param">recipients=[]</em>, <em class="sig-param">message='Test Message'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/greydot/sms.html#send_sms"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#greydot.sms.send_sms" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Args</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- `recipients`: Number that will receive the sms message or list of numbers
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><cite>message</cite>: Text to be sent to number</p></li>
+</ul>
+<p><strong>Returns</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>{</dt><dd><p>‘result_status’:”Success”,
+‘to’:’27110000000’,
+‘sms_id’:’0001’,
+‘query_status’:’DONE’,
+‘query_code’:’D0011’</p>
+</dd>
+</dl>
+<p>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-greydot.airtime">
+<span id="greydot-airtime-module"></span><h2>greydot.airtime module<a class="headerlink" href="#module-greydot.airtime" title="Permalink to this headline">¶</a></h2>
+<p>This function allows you to query your Airtime balance. If you enable notify by email, you will receive an email every time the url is called with your APP Key.</p>
+<p>URL :
+<a class="reference external" href="https://greydotapi.me/?k=[APP">https://greydotapi.me/?k=[APP</a> Key]&amp;do=[FID]</p>
+<p>[<strong>APP Key</strong>] Your APP Key</p>
+<p>[<strong>FID</strong>]The function ID for Airtime balance is 5</p>
+<p>Example url :
+<a class="reference external" href="https://greydotapi.me/?k=abcdefghijklmnopqrst&amp;do=5">https://greydotapi.me/?k=abcdefghijklmnopqrst&amp;do=5</a></p>
+<p>Example reply :</p>
+<blockquote>
+<div><dl>
+<dt>{</dt><dd><dl>
+<dt>“query”: {</dt><dd><dl class="simple">
+<dt>“query_result”: {</dt><dd><p>“status”: “Success”,
+“function”: “Airtime balance”,
+“amount”: “20.00”</p>
+</dd>
+</dl>
+<p>},
+“query_status”: “DONE”,
+“query_code”: “D0005”</p>
+</dd>
+</dl>
+<p>}</p>
+</dd>
+</dl>
+<p>}</p>
+</div></blockquote>
+</div>
+<div class="section" id="module-greydot.wallet">
+<span id="greydot-wallet-module"></span><h2>greydot.wallet module<a class="headerlink" href="#module-greydot.wallet" title="Permalink to this headline">¶</a></h2>
+<p>This function allows you to query your Wallet balance. If you enable notify by email, you will receive an email every time the url is called with your APP Key.</p>
+<p>URL :
+<a class="reference external" href="https://greydotapi.me/?k=[APP">https://greydotapi.me/?k=[APP</a> Key]&amp;do=[FID]</p>
+<p>[<strong>APP Key</strong>] Your APP Key</p>
+<p>[<strong>FID</strong>]The function ID for Wallet balance is 2</p>
+<p>Example url :
+<a class="reference external" href="https://greydotapi.me/?k=abcdefghijklmnopqrst&amp;do=2">https://greydotapi.me/?k=abcdefghijklmnopqrst&amp;do=2</a></p>
+<p>Example reply :</p>
+<blockquote>
+<div><p>&lt;?xml version=”1.0” encoding=”utf-8” ?&gt;</p>
+<p>&lt;query&gt;</p>
+<p>&lt;query_result&gt;</p>
+<p>&lt;status&gt;Success&lt;/status&gt;</p>
+<p>&lt;function&gt;Digit balance&lt;/function&gt;</p>
+<p>&lt;amount&gt;10.00&lt;/amount&gt;</p>
+<p>&lt;/query_result&gt;</p>
+<p>&lt;query_status&gt;DONE&lt;/query_status&gt;</p>
+<p>&lt;query_code&gt;D0003&lt;/query_code&gt;</p>
+</div></blockquote>
+</div>
+<div class="section" id="module-greydot">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-greydot" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to greydot-api’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Tralah M Brian
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
