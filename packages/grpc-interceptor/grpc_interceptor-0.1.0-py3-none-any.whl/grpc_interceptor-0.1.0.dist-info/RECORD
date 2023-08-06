@@ -1,0 +1,6 @@
+grpc_interceptor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_interceptor/base.py,sha256=OZDYePwFdEhH3GCaBeiaWuBoi7u46Q5hU1KPXrLUdmc,1230
+grpc_interceptor-0.1.0.dist-info/LICENSE,sha256=EWLYTUVrku24nqIQWfkME4VYbVy1BTTGO8_dwmXHTqw,1070
+grpc_interceptor-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+grpc_interceptor-0.1.0.dist-info/METADATA,sha256=RF0QE9Kql8cSq4i-5Fmor77VhysaDP_albfRd9qgpxY,682
+grpc_interceptor-0.1.0.dist-info/RECORD,,
