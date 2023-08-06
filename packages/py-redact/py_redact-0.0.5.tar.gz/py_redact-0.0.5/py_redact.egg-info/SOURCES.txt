@@ -1,0 +1,13 @@
+README.md
+setup.py
+examples/__init__.py
+examples/docx_example.py
+examples/pptx_example.py
+py_redact/__init__.py
+py_redact/docx_redactor.py
+py_redact/pptx_redactor.py
+py_redact.egg-info/PKG-INFO
+py_redact.egg-info/SOURCES.txt
+py_redact.egg-info/dependency_links.txt
+py_redact.egg-info/requires.txt
+py_redact.egg-info/top_level.txt
