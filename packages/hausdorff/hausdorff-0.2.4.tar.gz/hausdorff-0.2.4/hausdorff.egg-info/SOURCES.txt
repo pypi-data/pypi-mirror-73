@@ -1,0 +1,17 @@
+.gitignore
+.travis.yml
+LICENSE
+Makefile
+README.md
+requirements.txt
+requirements_ci.txt
+setup.py
+hausdorff/__init__.py
+hausdorff/distances.py
+hausdorff/hausdorff.py
+hausdorff.egg-info/PKG-INFO
+hausdorff.egg-info/SOURCES.txt
+hausdorff.egg-info/dependency_links.txt
+hausdorff.egg-info/top_level.txt
+tests/distances_test.py
+tests/hausdorff_test.py
