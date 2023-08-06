@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: jsonxdm
+Version: 0.1
+Summary: Convert between JSON and XML following the XDM schema of XSLT 3.0
+Home-page: https://bitbucket.org/ebcore/jsonxdm/
+Author: Pim van der Eijk
+Author-email: pvde@sonnenglanz.net
+License: UNKNOWN
+Project-URL: Documentation, https://bitbucket.org/ebcore/jsonxdm/
+Project-URL: Source Code, https://bitbucket.org/ebcore/jsonxdm/src/master/
+Description: UNKNOWN
+Keywords: xdm,xslt,json,xml,xsd
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
