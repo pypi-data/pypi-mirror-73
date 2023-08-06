@@ -1,0 +1,11 @@
+EEGAnalysis/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+EEGAnalysis/__main__.py,sha256=Tt2GmQe44uYQv58aRBsogU0EAsAkyokg-lNwzcIp8vM,2781
+EEGAnalysis/bout_analysis.py,sha256=5dkTEzR28-QmT9LqTKl13Xt0IWvO2VCLcbmK67A4f3E,8704
+EEGAnalysis/get_animal_conditions.py,sha256=H3189b7gyzN1sxD4sbjqvSaWOrr5jHHz0ImDYpQGyNI,724
+EEGAnalysis/get_config.py,sha256=8bxdhE2q-AZSBNibAQsnI957oBdKbeVKuYkA-J2UX4E,1635
+eeg_sleep_analysis-1.1.4.dist-info/LICENSE.md,sha256=lYUaUO_XEnsTjWqv5crhVA0evmi0_xa_cQR8CP75P2A,1076
+eeg_sleep_analysis-1.1.4.dist-info/METADATA,sha256=3BJIixFw30JFO0fDoilRiE-gGABOEiME_f_GGrUmfvc,3841
+eeg_sleep_analysis-1.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eeg_sleep_analysis-1.1.4.dist-info/entry_points.txt,sha256=kpis7t_iui2hZx-qQCte4K1Ai3zDrQCMUJZDkg-aj1I,62
+eeg_sleep_analysis-1.1.4.dist-info/top_level.txt,sha256=X8cJKAcX6foldQKR9bF4CSJnK8bEGT6Un4ELrQVe9Ng,12
+eeg_sleep_analysis-1.1.4.dist-info/RECORD,,
