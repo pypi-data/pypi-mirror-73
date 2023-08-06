@@ -1,0 +1,1354 @@
+{
+    "d3m.primitives.regression.ridge.SKlearn": {
+        "max_iter": [
+            "100000",
+            "1",
+            "1000000",
+            "100",
+            "3333",
+            "1000",
+            "10",
+            "300",
+            "2000",
+            "10000",
+            "500",
+            "None"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "alpha": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "100",
+            "1000",
+            "10"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "normalize": [
+            "False",
+            "True"
+        ],
+        "tol": [
+            "0.1",
+            "1.0",
+            "1e-05",
+            "0.0003",
+            "0.01",
+            "0.0033333333333333335",
+            "0.0001",
+            "0.002",
+            "1e-06",
+            "0.001",
+            "0.0005"
+        ],
+        "solver": [
+            "svd",
+            "sag",
+            "sparse_cg",
+            "saga",
+            "auto",
+            "lsqr",
+            "cholesky"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.k_neighbors.SKlearn": {
+        "n_jobs": [
+            "1"
+        ],
+        "metric": [
+            "minkowski"
+        ],
+        "error_on_no_input": [
+            "True"
+        ],
+        "algorithm": [
+            "brute",
+            "auto",
+            "kd_tree",
+            "ball_tree"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "weights": [
+            "distance",
+            "uniform"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "p": [
+            "1",
+            "2"
+        ],
+        "n_neighbors": [
+            "0",
+            "1",
+            "2",
+            "5",
+            "5000",
+            "10",
+            "16",
+            "50",
+            "500"
+        ],
+        "leaf_size": [
+            "0",
+            "3",
+            "100",
+            "9",
+            "300",
+            "15",
+            "30000",
+            "3000",
+            "60",
+            "30"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ]
+    },
+    "d3m.primitives.regression.linear_svr.SKlearn": {
+        "intercept_scaling": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "100",
+            "1000",
+            "10"
+        ],
+        "max_iter": [
+            "100000",
+            "1",
+            "1000000",
+            "100",
+            "3333",
+            "1000",
+            "10",
+            "300",
+            "2000",
+            "10000",
+            "500"
+        ],
+        "epsilon": [
+            "0.05",
+            "0.03",
+            "0.2",
+            "0.33333333333333337",
+            "1.0",
+            "100.0",
+            "0.1",
+            "10.0",
+            "0.010000000000000002",
+            "0.0001",
+            "0.001"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "dual": [
+            "False",
+            "True"
+        ],
+        "loss": [
+            "squared_epsilon_insensitive",
+            "epsilon_insensitive"
+        ],
+        "error_on_no_input": [
+            "True"
+        ],
+        "tol": [
+            "0.1",
+            "1e-05",
+            "5e-05",
+            "0.01",
+            "0.0001",
+            "0.0002",
+            "0.0003333333333333334",
+            "1.0000000000000001e-07",
+            "3e-05",
+            "1.0000000000000002e-06",
+            "0.001"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "C": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "100",
+            "1000",
+            "10"
+        ]
+    },
+    "d3m.primitives.regression.elastic_net.SKlearn": {
+        "max_iter": [
+            "100000",
+            "1",
+            "1000000",
+            "100",
+            "3333",
+            "1000",
+            "10",
+            "300",
+            "2000",
+            "10000",
+            "500"
+        ],
+        "selection": [
+            "random",
+            "cyclic"
+        ],
+        "alpha": [
+            "0.1",
+            "0.5",
+            "0.3",
+            "2.0",
+            "3.3333333333333335",
+            "100.0",
+            "1.0",
+            "1000.0",
+            "10.0",
+            "0.01",
+            "0.001"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "warm_start": [
+            "False",
+            "True"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "precompute": [
+            "False"
+        ],
+        "normalize": [
+            "False",
+            "True"
+        ],
+        "tol": [
+            "0.1",
+            "1e-05",
+            "5e-05",
+            "0.01",
+            "0.0001",
+            "0.0002",
+            "0.0003333333333333334",
+            "1.0000000000000001e-07",
+            "3e-05",
+            "1.0000000000000002e-06",
+            "0.001"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "positive": [
+            "False",
+            "True"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "error_on_no_input": [
+            "True"
+        ],
+        "l1_ratio": [
+            "0.003112526552400796",
+            "0.1363901827942121",
+            "0.3119102099586629",
+            "0.39741099823371706",
+            "0.22121075862265782",
+            "0.529341652923063",
+            "0.6017966892784834",
+            "0.7312842894943601",
+            "0.8481752864372948",
+            "0.9259096336177605",
+            "0.9907346821415961"
+        ]
+    },
+    "d3m.primitives.regression.ada_boost.SKlearn": {
+        "use_semantic_types": [
+            "False"
+        ],
+        "base_estimator": [
+            "None"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "learning_rate": [
+            "0.41480494018305925",
+            "0.6194059360572738",
+            "0.8115980485957451",
+            "0.15416694535611972",
+            "1.028268237558731",
+            "1.1404525632395588",
+            "1.3478733596023933",
+            "1.5248339077777096",
+            "0.012436687955585782",
+            "1.7108570205295",
+            "1.994604216096522"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "n_estimators": [
+            "100",
+            "5",
+            "166",
+            "5000",
+            "15",
+            "50000",
+            "50",
+            "500",
+            "25"
+        ],
+        "loss": [
+            "linear",
+            "exponential",
+            "square"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.echo_linear.DSBOX": {
+        "diagonal": [
+            "False",
+            "True"
+        ],
+        "alpha": [
+            "0.1",
+            "0.8",
+            "2.0",
+            "2.8000000000000003",
+            "4.2",
+            "5.2",
+            "6.0",
+            "7.0",
+            "7.6000000000000005",
+            "8.4"
+        ]
+    },
+    "d3m.primitives.regression.random_forest.SKlearn": {
+        "n_jobs": [
+            "1"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "criterion": [
+            "mse",
+            "mae"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "max_features": [
+            "0",
+            "0.05339360732055454",
+            "0.24556775264172148",
+            "0.3368905378408491",
+            "log2",
+            "0.45644938412211333",
+            "0.5886662345785353",
+            "0.7764199551603929",
+            "0.9934365391926079",
+            "auto",
+            "None",
+            "sqrt"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "n_estimators": [
+            "1",
+            "33",
+            "3",
+            "100",
+            "5",
+            "1000",
+            "10",
+            "10000",
+            "20"
+        ],
+        "bootstrap": [
+            "disabled",
+            "bootstrap_with_oob_score",
+            "bootstrap"
+        ],
+        "min_impurity_decrease": [
+            "0.0"
+        ],
+        "min_samples_split": [
+            "0.18162875298126238",
+            "0.4377592739103827",
+            "0.2764863156545518",
+            "0.6346671879924833",
+            "0.011067371115398019",
+            "0.727363310915949",
+            "0.8849606167929734",
+            "0.9726552452496368",
+            "2"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "min_weight_fraction_leaf": [
+            "0.00024141190245180471",
+            "0.23746820482912956",
+            "0.1342078525168834",
+            "0.05003511354654906",
+            "0.16693792501153368",
+            "0.285567030877193",
+            "0.3206785135477371",
+            "0.35174049853706063",
+            "0.40213296744620397",
+            "0.4551821433982966",
+            "0.495593885869863"
+        ],
+        "min_samples_leaf": [
+            "0.0907783755706121",
+            "0.19287060104799814",
+            "0.24352666570235598",
+            "0.31857993744255475",
+            "0.007625684786309152",
+            "0.38016844189128446",
+            "0.44569849440730425",
+            "0.4770340821984385",
+            "1"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "max_depth": [
+            "0",
+            "1",
+            "33",
+            "3",
+            "100",
+            "5",
+            "1000",
+            "10",
+            "10000",
+            "20",
+            "None"
+        ],
+        "max_leaf_nodes": [
+            "0",
+            "1",
+            "33",
+            "3",
+            "100",
+            "5",
+            "1000",
+            "10",
+            "10000",
+            "20",
+            "None"
+        ],
+        "error_on_no_input": [
+            "True"
+        ],
+        "warm_start": [
+            "False",
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.xgboost_gbtree.Common": {
+        "gamma": [
+            "0.0"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "reg_alpha": [
+            "0"
+        ],
+        "return_result": [
+            "append"
+        ],
+        "reg_lambda": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "100",
+            "1000",
+            "10"
+        ],
+        "max_delta_step": [
+            "1"
+        ],
+        "base_score": [
+            "0.05",
+            "0.25",
+            "0.15",
+            "1.0",
+            "1.6666666666666667",
+            "5.0",
+            "0.5",
+            "50.0",
+            "500.0",
+            "0.005",
+            "0.0005"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "True"
+        ],
+        "n_jobs": [
+            "1"
+        ],
+        "importance_type": [
+            "cover",
+            "weight",
+            "gain",
+            "total_gain",
+            "total_cover"
+        ],
+        "n_more_estimators": [
+            "641",
+            "1956",
+            "7077",
+            "8071",
+            "4680",
+            "2762",
+            "43",
+            "9835",
+            "8914",
+            "3925",
+            "6044"
+        ],
+        "learning_rate": [
+            "0.005924529603728357",
+            "0.11286982637140663",
+            "0.33171785153454036",
+            "0.2273551982993356",
+            "0.44423092454247537",
+            "0.5762486797109206",
+            "0.6901972923851561",
+            "0.7597634834798264",
+            "0.8543272884568329",
+            "0.9410858356146351",
+            "0.9991838777449916"
+        ],
+        "subsample": [
+            "0.052081106382187825",
+            "0.14904365838634892",
+            "0.3662676387023199",
+            "0.2500857473437283",
+            "0.4515064159998787",
+            "0.530108483945502",
+            "0.6728949349302273",
+            "0.7242519806186501",
+            "0.820246525946477",
+            "0.8588462297287672",
+            "0.9948565784382488"
+        ],
+        "n_estimators": [
+            "6883",
+            "2628",
+            "6088",
+            "8617",
+            "9832",
+            "4915",
+            "1492",
+            "3926",
+            "7576",
+            "60",
+            "702"
+        ],
+        "scale_pos_weight": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "100",
+            "1000",
+            "10"
+        ],
+        "min_child_weight": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "100",
+            "1000",
+            "10"
+        ],
+        "colsample_bytree": [
+            "0.10535632037887636",
+            "0.3948361440705145",
+            "0.30567828794497226",
+            "0.4872464227329618",
+            "0.5509056094630331",
+            "0.7001842444285143",
+            "0.7680867025554065",
+            "0.8291834294454893",
+            "0.9111371903142418",
+            "0.981183633171851",
+            "0.00011070146713470179"
+        ],
+        "max_depth": [
+            "3"
+        ],
+        "colsample_bylevel": [
+            "0.13176409921158583",
+            "0.3004684117446237",
+            "0.22685762026858494",
+            "0.34859736608382835",
+            "0.458236257041854",
+            "0.5859943320459411",
+            "0.6439323509996776",
+            "0.7118572548411009",
+            "0.8845391085642194",
+            "0.9891098508962372",
+            "0.015110609251830586"
+        ]
+    },
+    "d3m.primitives.regression.search_numeric.Find_projections": {
+        "support": [
+            "1",
+            "66",
+            "36",
+            "9",
+            "73",
+            "47",
+            "19",
+            "85",
+            "56",
+            "28",
+            "95"
+        ],
+        "mode": [
+            "1"
+        ],
+        "binsize": [
+            "1",
+            "2",
+            "4",
+            "6",
+            "8",
+            "9",
+            "11",
+            "14",
+            "16",
+            "18",
+            "19"
+        ],
+        "validation_size": [
+            "0.1"
+        ],
+        "num_threads": [
+            "1"
+        ]
+    },
+    "d3m.primitives.regression.lasso_cv.SKlearn": {
+        "n_alphas": [
+            "0",
+            "1",
+            "100000",
+            "100",
+            "200",
+            "1000",
+            "10",
+            "333",
+            "10000",
+            "50",
+            "30"
+        ],
+        "max_iter": [
+            "100000",
+            "1",
+            "1000000",
+            "100",
+            "3333",
+            "1000",
+            "10",
+            "300",
+            "2000",
+            "10000",
+            "500"
+        ],
+        "cv": [
+            "0",
+            "1",
+            "2",
+            "5",
+            "5000",
+            "10",
+            "16",
+            "50",
+            "500",
+            "None"
+        ],
+        "selection": [
+            "random",
+            "cyclic"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "eps": [
+            "0.1",
+            "1.0",
+            "1e-05",
+            "0.0003",
+            "0.01",
+            "0.0033333333333333335",
+            "0.0001",
+            "0.002",
+            "1e-06",
+            "0.001",
+            "0.0005"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "precompute": [
+            "auto"
+        ],
+        "normalize": [
+            "False",
+            "True"
+        ],
+        "tol": [
+            "0.1",
+            "1e-05",
+            "5e-05",
+            "0.01",
+            "0.0001",
+            "0.0002",
+            "0.0003333333333333334",
+            "1.0000000000000001e-07",
+            "3e-05",
+            "1.0000000000000002e-06",
+            "0.001"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "n_jobs": [
+            "1"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "positive": [
+            "False",
+            "True"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.lars.SKlearn": {
+        "use_semantic_types": [
+            "False"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "eps": [
+            "2.220446049250313e-19",
+            "1.1102230246251565e-16",
+            "4.440892098500626e-16",
+            "2.220446049250313e-15",
+            "2.220446049250313e-14",
+            "2.220446049250313e-18",
+            "2.220446049250313e-13",
+            "2.220446049250313e-16",
+            "7.401486830834377e-16",
+            "2.2204460492503132e-17",
+            "6.661338147750939e-17"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "fit_path": [
+            "False",
+            "True"
+        ],
+        "n_nonzero_coefs": [
+            "0",
+            "500000",
+            "1666",
+            "5",
+            "1000",
+            "5000",
+            "50000",
+            "50",
+            "500",
+            "150",
+            "250"
+        ],
+        "normalize": [
+            "False",
+            "True"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "precompute": [
+            "auto"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.ard.SKlearn": {
+        "n_iter": [
+            "0",
+            "300000",
+            "3",
+            "1000",
+            "300",
+            "30000",
+            "150",
+            "3000",
+            "600",
+            "90",
+            "30"
+        ],
+        "alpha_1": [
+            "1e-09",
+            "9.999999999999999e-06",
+            "3e-07",
+            "1e-08",
+            "3.3333333333333333e-06",
+            "9.999999999999999e-05",
+            "0.001",
+            "1e-07",
+            "2e-06",
+            "1e-06",
+            "5e-07"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "alpha_2": [
+            "1e-09",
+            "9.999999999999999e-06",
+            "3e-07",
+            "1e-08",
+            "3.3333333333333333e-06",
+            "9.999999999999999e-05",
+            "0.001",
+            "1e-07",
+            "2e-06",
+            "1e-06",
+            "5e-07"
+        ],
+        "lambda_1": [
+            "1e-09",
+            "9.999999999999999e-06",
+            "3e-07",
+            "1e-08",
+            "3.3333333333333333e-06",
+            "9.999999999999999e-05",
+            "0.001",
+            "1e-07",
+            "2e-06",
+            "1e-06",
+            "5e-07"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "normalize": [
+            "False",
+            "True"
+        ],
+        "tol": [
+            "0.1",
+            "1.0",
+            "1e-05",
+            "0.0003",
+            "0.01",
+            "0.0033333333333333335",
+            "0.0001",
+            "0.002",
+            "1e-06",
+            "0.001",
+            "0.0005"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "lambda_2": [
+            "1e-09",
+            "9.999999999999999e-06",
+            "3e-07",
+            "1e-08",
+            "3.3333333333333333e-06",
+            "9.999999999999999e-05",
+            "0.001",
+            "1e-07",
+            "2e-06",
+            "1e-06",
+            "5e-07"
+        ],
+        "error_on_no_input": [
+            "True"
+        ],
+        "threshold_lambda": [
+            "20000.0",
+            "100000.0",
+            "1000000.0",
+            "10000000.0",
+            "100.0",
+            "1000.0",
+            "5000.0",
+            "10.0",
+            "10000.0",
+            "33333.333333333336",
+            "3000.0"
+        ]
+    },
+    "d3m.primitives.regression.linear.SKlearn": {
+        "n_jobs": [
+            "1"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "normalize": [
+            "False",
+            "True"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.extra_trees.SKlearn": {
+        "n_jobs": [
+            "1"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "criterion": [
+            "mse",
+            "mae"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "warm_start": [
+            "False",
+            "True"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "n_estimators": [
+            "1",
+            "33",
+            "3",
+            "100",
+            "5",
+            "1000",
+            "10",
+            "10000",
+            "20"
+        ],
+        "bootstrap": [
+            "bootstrap_with_oob_score",
+            "disabled",
+            "bootstrap"
+        ],
+        "min_impurity_decrease": [
+            "0.0"
+        ],
+        "min_samples_split": [
+            "0",
+            "1",
+            "2"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "max_features": [
+            "0",
+            "1",
+            "sqrt",
+            "log2",
+            "None",
+            "auto"
+        ],
+        "min_weight_fraction_leaf": [
+            "0"
+        ],
+        "min_samples_leaf": [
+            "0.25",
+            "1"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "max_depth": [
+            "0",
+            "1",
+            "2",
+            "5",
+            "5000",
+            "10",
+            "16",
+            "50",
+            "500",
+            "None"
+        ],
+        "max_leaf_nodes": [
+            "0",
+            "1",
+            "33",
+            "3",
+            "100",
+            "5",
+            "1000",
+            "10",
+            "10000",
+            "20",
+            "None"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.lasso.SKlearn": {
+        "max_iter": [
+            "100000",
+            "1",
+            "1000000",
+            "100",
+            "3333",
+            "1000",
+            "10",
+            "300",
+            "2000",
+            "10000",
+            "500"
+        ],
+        "selection": [
+            "random",
+            "cyclic"
+        ],
+        "alpha": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "100",
+            "1000",
+            "10"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "use_semantic_types": [
+            "False"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "warm_start": [
+            "False",
+            "True"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "normalize": [
+            "False",
+            "True"
+        ],
+        "precompute": [
+            "False"
+        ],
+        "tol": [
+            "0.1",
+            "1e-05",
+            "5e-05",
+            "0.01",
+            "0.0001",
+            "0.0002",
+            "0.0003333333333333334",
+            "1.0000000000000001e-07",
+            "3e-05",
+            "1.0000000000000002e-06",
+            "0.001"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "positive": [
+            "False",
+            "True"
+        ],
+        "fit_intercept": [
+            "False",
+            "True"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    },
+    "d3m.primitives.regression.gaussian_process.SKlearn": {
+        "use_semantic_types": [
+            "False"
+        ],
+        "add_index_columns": [
+            "False"
+        ],
+        "alpha": [
+            "1e-10"
+        ],
+        "exclude_inputs_columns": [
+            "()"
+        ],
+        "return_semantic_type": [
+            "https://metadata.datadrivendiscovery.org/types/PredictedTarget"
+        ],
+        "return_result": [
+            "new"
+        ],
+        "n_restarts_optimizer": [
+            "0"
+        ],
+        "use_inputs_columns": [
+            "()"
+        ],
+        "use_outputs_columns": [
+            "()"
+        ],
+        "optimizer": [
+            "fmin_l_bfgs_b"
+        ],
+        "exclude_outputs_columns": [
+            "()"
+        ],
+        "normalize_y": [
+            "False",
+            "True"
+        ],
+        "error_on_no_input": [
+            "True"
+        ]
+    }
+}
