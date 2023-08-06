@@ -1,0 +1,3 @@
+[console_scripts]
+gitutor=gitutor.cli:main
+
