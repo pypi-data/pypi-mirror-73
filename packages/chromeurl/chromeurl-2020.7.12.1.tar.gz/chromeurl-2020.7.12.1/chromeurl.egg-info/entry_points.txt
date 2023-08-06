@@ -1,0 +1,3 @@
+[console_scripts]
+chromeurl = chromeurl.main:main
+
