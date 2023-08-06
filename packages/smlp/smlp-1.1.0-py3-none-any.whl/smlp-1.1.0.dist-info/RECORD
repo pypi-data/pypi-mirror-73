@@ -1,0 +1,17 @@
+smlp/PreProcessing.py,sha256=8V9p5ykN8yG4yOf8f9j40TwAP0QlvdmhsxASZuzM67A,12094
+smlp/Thesaurus.py,sha256=QAaXg1KOZVD0jZNpmGGATtj_aMR1_9faajP_1YJ8dpk,5764
+smlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smlp/unicov.py,sha256=76ATGf26KaaUDUmYbXdvcY6M4XSSKs1PfSmiSWwD_-o,6809
+smlp/data/idf.txt,sha256=mfKicgym5x5W6tXUmGNKnXdKVcM6ea2SwvByuNdSbBk,66326
+smlp/data/stopwords.txt,sha256=j1GDjfc43Oxj8pTkbQQfKI6sqC4tpxWAhh3liLQHm94,20321
+smlp/data/test.txt,sha256=ibQs3-2LsqV-8y0OfATLngaaUWD_1Qqj2Ca0zQbH3AE,627749
+smlp/data/tmp.txt,sha256=oBU-Ehu-T18ieQa5NMDRtWoBxqa0Mt39uugriMuUrr0,4529
+smlp/data/token.dict,sha256=UICkWvoq1-x8siYUhq5MOHYg918BunuCmMuTULOBXl4,24726
+smlp/data/userdict,sha256=tcT9EkNnrvX-uShDMJFkCXUU5McTqmzJttqhq6Qahdk,5604
+smlp/data/wdic.txt,sha256=xVa884C09HkKAsgOLBsLLo2T2t8ZrjW8ykyvOnN7tAk,5200854
+smlp/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smlp/models/lung_cancer.py,sha256=nLg9CXR95VLMgTAEVvqmGNGUmdbnBo2kbcB26dTSzOI,816
+smlp-1.1.0.dist-info/METADATA,sha256=yEF_wB2ucG4b2skHlMz3tplvBrkZHPp03ShUr6xTMMY,6654
+smlp-1.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+smlp-1.1.0.dist-info/top_level.txt,sha256=NMHQ-eSldRPnz41VZq1bgxEoX5VGuhMp4b-5BySHV8c,5
+smlp-1.1.0.dist-info/RECORD,,
