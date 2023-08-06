@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mdi
+Version: 1.0
+Summary: Download pictures and videos from Instagram
+Home-page: https://in.future
+Author: Mazidul islam
+Author-email: immazidulislam@gmail.com
+License: MIT
+Keywords: instagram-scraper instagram-feed downloader videos photos pictures instagram-photos instagram-downloader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Requires-Dist: mdn
+
+visit https://python.org
+
+
