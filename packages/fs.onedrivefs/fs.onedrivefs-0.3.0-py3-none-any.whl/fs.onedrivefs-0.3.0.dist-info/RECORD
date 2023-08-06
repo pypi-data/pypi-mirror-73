@@ -1,0 +1,8 @@
+fs/onedrivefs/__init__.py,sha256=OqKu0eTFZ9WBBYuI7sJDu5PbbNKQVl4GM7YXR3hZ1qk,72
+fs/onedrivefs/onedrivefs.py,sha256=OWTqwzKk_c-2h73-P5AYeY6iJml9gi6ZJyrXXnHGli4,21737
+fs/onedrivefs/opener.py,sha256=v314LZtE42olTokyswIe2z7k66FFeUXkBNGr3ZefGt4,827
+fs.onedrivefs-0.3.0.dist-info/entry_points.txt,sha256=4KVP0_TMBBWNrOrNpLB-X0onk8p4DJyKbhA75V3Joec,60
+fs.onedrivefs-0.3.0.dist-info/LICENSE,sha256=tTPlKSGEoO1mlJuzNZ0bg2lEXDgmyNAJmaD28g8mgoI,1068
+fs.onedrivefs-0.3.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+fs.onedrivefs-0.3.0.dist-info/METADATA,sha256=DicOE36fOB3aOLsSQ_udH9qGfGnVCZwVez_HGJWsg0g,1314
+fs.onedrivefs-0.3.0.dist-info/RECORD,,
