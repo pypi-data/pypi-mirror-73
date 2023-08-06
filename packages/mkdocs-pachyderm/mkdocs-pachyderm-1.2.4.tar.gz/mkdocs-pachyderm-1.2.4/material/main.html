@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  {% if page and page.meta and page.meta.description %}
+    <meta name="description" content="{{ page.meta.description }}">
+  {% elif config.site_description %}
+    <meta name="description" content="{{ config.site_description }}">
+  {% endif %}
+  {% if page and page.meta and page.meta.redirect %}
+    <script>var anchor=window.location.hash.substr(1);location.href="{{ page.meta.redirect }}"+(anchor?"#"+anchor:"")</script>
+    <meta http-equiv="refresh" content="0; url={{ page.meta.redirect }}">
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="{{ page.meta.redirect }}">
+  {% elif page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">
+  {% endif %}
+  {% if page and page.meta and page.meta.author %}
+    <meta name="author" content="{{ page.meta.author | first }}">
+  {% elif config.site_author %}
+    <meta name="author" content="{{ config.site_author }}">
+  {% endif %}
+  {% for key in [
+    "clipboard.copy",
+    "clipboard.copied",
+    "search.language",
+    "search.pipeline.stopwords",
+    "search.pipeline.trimmer",
+    "search.result.none",
+    "search.result.one",
+    "search.result.other",
+    "search.tokenizer"
+  ] %}
+    <meta name="lang:{{ key }}" content="{{ lang.t(key) }}">
+  {% endfor %}
+  <link rel="shortcut icon" href="{{ config.theme.favicon | url }}">
+  <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-pachyderm-1.0.2">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158483597-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158483597-1');
+  </script>
+{% endblock %}
+
+<!-- Custom front matter -->
+{% block extrahead %}
+
+  <!-- Determine title -->
+  {% set title = config.site_name %}
+  {% if page and page.title and not page.is_homepage %}
+    {% set title = config.site_name ~ " - " ~ page.title | striptags %}
+  {% endif %}
+
+  <!-- The image needs to have an absolute URL -->
+  {% set image = config.site_url ~ 'latest/assets/images/Pachyderm-Character_stacked--1200.png' %}
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ config.site_description }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter meta tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@pachyderminc" />
+  <meta name="twitter:creator" content="@pachyderminc" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ config.site_description }}" />
+  <meta name="twitter:image" content="{{ image }}" />
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
+  <style>
+
+    /* Preserve link color */
+    .md-announce a,
+    .md-announce a:focus,
+    .md-announce a:hover {
+      color: currentColor;
+    }
+
+    /* Don't wrap name of blog article */
+    .md-announce strong {
+      white-space: nowrap;
+    }
+
+    /* Twitter icon */
+    .md-announce .twitter {
+      margin-left: .2em;
+      color: #00acee;
+    }
+  </style>
+  <a href="https://twitter.com/squidfunk">
+    For updates follow <strong>@pachyderminc</strong> on
+    <span class="twemoji twitter">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+      </svg>
+    </span>
+    <strong>Twitter</strong>
+  </a>
+{% endblock %}
