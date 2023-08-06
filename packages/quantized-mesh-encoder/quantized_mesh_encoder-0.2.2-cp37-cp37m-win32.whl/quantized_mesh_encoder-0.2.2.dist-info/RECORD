@@ -1,0 +1,14 @@
+quantized_mesh_encoder/__init__.py,sha256=JwVJc94TeQu-MS7fHKnKXSYgNu_tYA43Ye6PPHx1GjM,177
+quantized_mesh_encoder/bounding_sphere.py,sha256=zhpbO3nKDeFDFIkSnCOsZedSA8ot7xxSCjjGev4IgxU,6063
+quantized_mesh_encoder/constants.py,sha256=EQaX3cazCIqJxJQg4qu5vgs5abwphtD0j11nfnVPwgo,2097
+quantized_mesh_encoder/ecef.py,sha256=S4fxVMTCKFxoTFj_UxlZj963dePL3Z7wMvT8qVjuyW8,1193
+quantized_mesh_encoder/encode.py,sha256=j-wa4bD7gk8chTIHKj6HTPazNPt1VRSqAE4TL3W_ojU,10138
+quantized_mesh_encoder/occlusion.py,sha256=voGb5GbJaqp1s6_JzwUo0aOaL_eLPWv0AuQEwnaTBOg,1550
+quantized_mesh_encoder/util.py,sha256=TOUMgBoC1mC76RaBc1B50o38O4HG57mn_39Uv4RS6zw,431
+quantized_mesh_encoder/util_cy.c,sha256=t8SE53NYcSEInGDELccQpygHyHGmByrjIv-PSRF3ZWA,919188
+quantized_mesh_encoder/util_cy.cp37-win32.pyd,sha256=LcOtpHw2WL38CVmTMJsQLLi_N4Uc2UDrCixGUHs_OCk,120832
+quantized_mesh_encoder-0.2.2.dist-info/LICENSE,sha256=2c7_0yIDhhWzwhLSvO4b3ypQXtt9fr_1OyMC_XJD17o,1089
+quantized_mesh_encoder-0.2.2.dist-info/METADATA,sha256=U_UNi6iE_kBMb7JU89ZtJSqamp0VxeB2-ibogkzKuYc,7073
+quantized_mesh_encoder-0.2.2.dist-info/WHEEL,sha256=W7gQNdCXaaCQL4_mS6kf-ClnoFRCfSnJ5Gcl1436agg,102
+quantized_mesh_encoder-0.2.2.dist-info/top_level.txt,sha256=ZkuObaa6XV0k8cD5P4vAp29Kva2CTCTOSLaGSqH6gxI,23
+quantized_mesh_encoder-0.2.2.dist-info/RECORD,,
