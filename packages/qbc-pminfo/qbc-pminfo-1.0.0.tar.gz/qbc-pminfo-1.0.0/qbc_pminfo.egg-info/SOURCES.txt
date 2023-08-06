@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+qbc_pminfo/__init__.py
+qbc_pminfo/pminfo.py
+qbc_pminfo.egg-info/PKG-INFO
+qbc_pminfo.egg-info/SOURCES.txt
+qbc_pminfo.egg-info/dependency_links.txt
+qbc_pminfo.egg-info/top_level.txt
