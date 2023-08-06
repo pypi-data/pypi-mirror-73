@@ -1,0 +1,8 @@
+README.md
+setup.py
+hqscord/hqscord.py
+hqscord.egg-info/PKG-INFO
+hqscord.egg-info/SOURCES.txt
+hqscord.egg-info/dependency_links.txt
+hqscord.egg-info/requires.txt
+hqscord.egg-info/top_level.txt
