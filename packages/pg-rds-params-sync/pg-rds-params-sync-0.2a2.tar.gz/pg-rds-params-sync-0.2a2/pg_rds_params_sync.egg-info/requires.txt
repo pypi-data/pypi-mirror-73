@@ -1,0 +1,10 @@
+Click>=7.0
+colorama>=0.4.3
+prettytable>=0.7.2
+psycopg2>=2.8.4
+diskcache>=4.1.0
+boto3>=1.11.9
+tqdm>=4.46.0
+
+[dev]
+pytest
