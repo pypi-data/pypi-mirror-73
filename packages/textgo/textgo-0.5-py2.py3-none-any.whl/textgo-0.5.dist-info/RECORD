@@ -1,0 +1,16 @@
+textgo/__init__.py,sha256=vdTmUOgnsi3cGYhkHg7KnUN2RCgfodI5oTJHrqkxwGg,128
+textgo/embeddings.py,sha256=l29FH8rt7AtXErtTFf4JKMALSupHJOjAWMO1SUzQ5HQ,12852
+textgo/metrics.py,sha256=46EMrhc_n184VRXh4HF-UxWbMncs2vUU6f5nnYl0sCQ,2315
+textgo/preprocess.py,sha256=kXqHZO_hrBWZ2so9qrxb0AvzZGn4NINeG2GrDMgiCC8,3900
+textgo/textsim.py,sha256=CrvSkf93u5xZqzMOQUuay3oX-zbgLu376WRtjg2lMO0,10618
+textgo/utils.py,sha256=ps3wy5QzTIBgYL5hYwSEKy4V49-oWuuz00LBtH-vBIw,747
+textgo/classifier/__init__.py,sha256=lHd48V7t4mknK6xKsoiq9nSjdnWpuzskvZ8ZfTvt6z4,83
+textgo/classifier/bert.py,sha256=WhqdR_2wRcDXwH2DPEQTkZh-ORs53yiAwkk9fjbUlM4,20871
+textgo/classifier/fasttext.py,sha256=qlQO0q3HjaSEedaIHRFVmcQB4NnotugfxJowelDPDWo,3056
+textgo/classifier/xgboost.py,sha256=uFBY38VEP9e_mLKUiUsFJ-T016H6FBS_pj-qcqGT3Xw,4921
+textgo-0.5.dist-info/LICENSE,sha256=6KUOiCrWZkuOqcqUxTTSl4nneZPdavKyLuCl0IOBnWY,1066
+textgo-0.5.dist-info/METADATA,sha256=iVTjk4MnDumWlbfmNxbKVKip3bwOr-BtskqXkpjdHfM,9585
+textgo-0.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+textgo-0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+textgo-0.5.dist-info/top_level.txt,sha256=SH-Gf4AdMSvaRHYdy448ZH_u4oA_qio3pdDfAoGRqVI,7
+textgo-0.5.dist-info/RECORD,,
