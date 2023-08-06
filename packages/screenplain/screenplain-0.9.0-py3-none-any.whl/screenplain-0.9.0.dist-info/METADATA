@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: screenplain
+Version: 0.9.0
+Summary: Convert text file to viewable screenplay.
+Home-page: http://www.screenplain.com/
+Author: Martin Vilcans
+Author-email: screenplain@librador.com
+License: MIT
+Project-URL: Web Page, http://www.screenplain.com/
+Project-URL: Source, https://github.com/vilcans/screenplain
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: pdf
+Requires-Dist: reportlab ; extra == 'pdf'
+
+UNKNOWN
+
+
