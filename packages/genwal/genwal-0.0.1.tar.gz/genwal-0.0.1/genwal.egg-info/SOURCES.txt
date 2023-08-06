@@ -1,0 +1,8 @@
+README.md
+setup.py
+genwal/__init__.py
+genwal/__main__.py
+genwal.egg-info/PKG-INFO
+genwal.egg-info/SOURCES.txt
+genwal.egg-info/dependency_links.txt
+genwal.egg-info/top_level.txt
