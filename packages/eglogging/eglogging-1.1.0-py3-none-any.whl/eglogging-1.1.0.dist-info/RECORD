@@ -1,0 +1,11 @@
+eglogging/VERSION,sha256=FXXhr0qV8S9wtO5qatzoFglT2T6hfcJhG5CIPMw607g,6
+eglogging/__init__.py,sha256=TAUe2nhJGVJ5Qw17XyUjx16u25hcPCz-TpH2hKmYdJ8,523
+eglogging/eglogging.py,sha256=lINw-PGljXORpNO572FeKpftM67gXQWrMRUIVlIFPpw,3876
+eglogging/eglogging_demo.py,sha256=DLnHpqw9NHl3Xz9sOYDM2umL9GeOpg9eFnDkz3MiVWk,894
+eglogging/logger_config_DEFAULT.json,sha256=x1nFeiYkAWvpLPnchwC1Hu38iX-PxqEs0Due5RzV5-c,485
+eglogging/logger_config_HUMAN.json,sha256=tQfT0jZ3EyIwWJstmrBB1l2zea8tR3q7T6DvArS3QMw,488
+eglogging-1.1.0.dist-info/LICENSE,sha256=0AG1xRJpQvEZql9OkGfpzJYW5k7amXCLI2_8dGpLyAQ,1064
+eglogging-1.1.0.dist-info/METADATA,sha256=oq0oO_u9uf3zsHH5Vfydn6FuIbpunCbRS0hdRQZ-PaM,1855
+eglogging-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eglogging-1.1.0.dist-info/top_level.txt,sha256=84OWG0pgmXyilHznKf7xZXDMCE4eH6NV-jJrxHyKBuM,10
+eglogging-1.1.0.dist-info/RECORD,,
