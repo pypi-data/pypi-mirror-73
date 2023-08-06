@@ -1,0 +1,6 @@
+flake8<4,>=3.2.1
+isort[pyproject]<5,>=4.3.5
+testfixtures<7,>=6.8.0
+
+[test]
+pytest<6,>=4.0.2
