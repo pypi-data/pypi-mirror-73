@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+slack_blockkit/__init__.py
+slack_blockkit/block.py
+slack_blockkit/block_element.py
+slack_blockkit/composition_object.py
+slack_blockkit/layout_block.py
+slack_blockkit/utils.py
+slack_blockkit/view_payload.py
+slack_blockkit.egg-info/PKG-INFO
+slack_blockkit.egg-info/SOURCES.txt
+slack_blockkit.egg-info/dependency_links.txt
+slack_blockkit.egg-info/top_level.txt
