@@ -1,0 +1,5 @@
+[console_scripts]
+autoflow-fit-produce = autoflow.fit_produce:main
+autoflow-fit-score = autoflow.fit_score:main
+autoflow-search = autoflow.main:main
+
