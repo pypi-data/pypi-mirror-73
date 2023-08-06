@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+easydata_distributions/Binomialdistribution.py
+easydata_distributions/Gaussiandistribution.py
+easydata_distributions/Generaldistribution.py
+easydata_distributions/__init__.py
+easydata_distributions.egg-info/PKG-INFO
+easydata_distributions.egg-info/SOURCES.txt
+easydata_distributions.egg-info/dependency_links.txt
+easydata_distributions.egg-info/not-zip-safe
+easydata_distributions.egg-info/top_level.txt
