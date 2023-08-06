@@ -1,0 +1,7 @@
+setup.py
+flightcontrol/__init__.py
+flightcontrol.egg-info/PKG-INFO
+flightcontrol.egg-info/SOURCES.txt
+flightcontrol.egg-info/dependency_links.txt
+flightcontrol.egg-info/not-zip-safe
+flightcontrol.egg-info/top_level.txt
