@@ -1,0 +1,7 @@
+numpy
+scipy
+argparse
+pandas
+sklearn
+mygene
+goatools
