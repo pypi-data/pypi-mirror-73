@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+ecsentithemelex/__init__.py
+ecsentithemelex/text_score.py
+ecsentithemelex/vocabulary.py
+ecsentithemelex/word_score.py
+ecsentithemelex.egg-info/PKG-INFO
+ecsentithemelex.egg-info/SOURCES.txt
+ecsentithemelex.egg-info/dependency_links.txt
+ecsentithemelex.egg-info/top_level.txt
+ecsentithemelex/data/all_forms_tone_th.csv
+ecsentithemelex/data/all_phrase_tone_lem.csv
+ecsentithemelex/data/all_word_tone_theme_lem.csv

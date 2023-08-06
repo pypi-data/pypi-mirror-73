@@ -1,0 +1,168 @@
+Metadata-Version: 1.0
+Name: ecsentithemelex
+Version: 0.0.1
+Summary: Russian economic tonal-thematic dictionary
+Home-page: https://github.com/ilya013/ecsentithemelex
+Author: Ilya Pyltsin
+Author-email: ilya.pyltsin@gmail.com
+License: UNKNOWN
+Description: EcSentiThemeLex
+        ===============
+        
+        Russian tonal-thematic dictionary, which allows identifying the semantic
+        orientation of groups of economic texts, as well as determining their
+        sentimental (tonal) characteristics.
+        
+        Table of Contents
+        ~~~~~~~~~~~~~~~~~
+        
+        1. `Installation <#installation>`__
+        2. `Example of application <#example>`__
+        3. `Authors <#authors>`__
+        
+        Installation 
+        -------------
+        
+        -  Install the 64bit version of Python 3, for instance from
+           https://www.python.org. Then run:
+        
+        .. code:: javascript
+        
+            pip install ecsentithemelex
+        
+        or
+        
+        .. code:: javascript
+        
+            pip3 install ecsentithemelex
+        
+        -  Github:
+        
+        https://github.com/ilya013/ecsentithemelex
+        
+        Requirements: \* NumPy (https://numpy.org/install/) \* Pandas
+        (https://pandas.pydata.org/getting\_started.html) \* pymystem3
+        (https://github.com/nlpub/pymystem3) \* NLTK
+        (https://www.nltk.org/install.html)
+        
+        Example of application 
+        -----------------------
+        
+        First you need to import the library into the Python programming
+        environment:
+        
+        .. code:: javascript
+        
+            import ecsentithemelex
+        
+        ***ecsentithemelex*** has three main modules: *Vocabulary*,
+        *OneWordScore* and *TextScore*. The first, *Vocabulary*, contains tables
+        with words that were collected and evaluated by the authors listed below
+        and various experts, and these words were assigned to 12 different
+        economic topics (in Russian):
+        
+        .. code:: javascript
+        
+            array(['Международная экономика, торговля и финансы',
+                   'Государственные финансы, бюджет и налоги',
+                   'Реальный сектор экономики (производство, промышленность, добыча)',
+                   'Инновации', 'Общеэкономическое', 'Маркетинг и реклама',
+                   'Социальная ответственность, благотворительность, спонсорская деятельность, экология',
+                   'Монетарная политика, валюта, деньги и кредит, банки',
+                   'Потребление и розничная торговля', 'Фондовые и товарные рынки',
+                   'Корпоративные финансы и управление, фирма, бухгалтерский учет, нематериальные активы',
+                   'Макроэкономика'], dtype=object)
+        
+        ***Vocabulary*** has three methods: *all\_phrase\_tone()*,
+        *all\_word\_tone\_theme()* and *voc.all\_forms\_tone\_theme()*. All of
+        them return *DataFrame* with word, scores or scores and topics.
+        *all\_phrase\_tone()* returns all words, bigrams and trigrams with their
+        scores. *all\_word\_tone\_theme()* returns all words, bigrams and
+        trigrams with their scores and categories. *all\_word\_tone\_theme()*
+        returns all words, bigrams and trigrams in all declensions with their
+        scores and categories.
+        
+        .. code:: javascript
+        
+            from ecsentithemelex import Vocabulary
+            voc = Vocabulary()
+            voc.all_phrase_tone()
+            voc.all_word_tone_theme()
+            voc.all_forms_tone_theme()
+        
+        ***OneWordScore*** and ***TextScore*** use *str* object as input. For
+        example(https://raw.githubusercontent.com/isdemin/ecs/master/news.txt):
+        
+        .. code:: javascript
+        
+            word = 'фьючерсы'
+            text = 'Мировые цены на нефть перешли к росту, поднимаются на 1,5-1,7% в пятницу вечером после падения днем на 2%, рынки продолжают оценивать перспективы по балансу спроса и предложения, свидетельствуют данные торгов. По состоянию на 20.31 мск цена сентябрьских фьючерсов на североморскую нефтяную смесь марки Brent росла на 1,58% — до 43,02 доллара за баррель. Августовские фьючерсы на нефть марки WTI дорожали на 1,72% — до 40,3 доллара за баррель. Утром в пятницу снижение цен на нефть составляло 1%, днем достигало 2-2,5%. Трейдеры оценивают перспективы спроса и предложения после новостей от производителей нефти. Ранее в пятницу Международное энергетическое агентство (МЭА) в своем июльском докладе сообщило, что ожидает спрос на нефть по итогам 2020 года на уровне 92,1 миллиона баррелей в сутки, на 400 тысяч выше предыдущего прогноза.'
+        
+        ***OneWordScore*** score and categorize only one word with methods
+        *score()* and *cateorize()*:
+        
+        .. code:: javascript
+        
+            from ecsentithemelex import OneWordScore
+            ows = OneWordScore()
+        
+            ows.score(word)
+            0
+        
+            ows.categorize(word)
+            'Фондовые и товарные рынки'
+        
+        ***TextScore*** score and categorize different texts without the need
+        for their processing and lemmatization with methods *score\_text()* and
+        *categorize\_text()*:
+        
+        .. code:: javascript
+        
+            from ecsentithemelex import TextScore
+            ts = TextScore()
+        
+            ts.score_text(text, bigrams_in=True, trigrams_in=True)
+            0.011627906976744186
+        
+            ts.categorize_text(text, bigrams_in=True, trigrams_in=True)
+            'Реальный сектор экономики (производство, промышленность, добыча)'
+        
+        Authors 
+        --------
+        
+        Below are the people who were directly involved in creating the
+        dictionary, evaluating words, and searching for thematic categories for
+        each word:
+        
+        -  ***Fedorova E.A.***, prof. Department of Corporate Finance and
+           Corporate Governance, Financial University under the Government of
+           the Russian Federation, ecolena@mail.ru
+        -  ***Afanasyev D.O.***, JSC "Greenatom", Moscow dmafanasyev@gmail.com
+        -  ***Remesnik A.B.***, HSE, Faculty of Economic Sciences,
+           nastya.rem@mail.ru
+        -  ***Demin I.S.***, prof. Department of Data Analysis and Machine
+           Learning Financial University under the Government of the Russian
+           Federation, ig.demin@gmail.com
+        -  ***Sokolov A.V.***, HSE, Faculty of Economic Sciences
+           avsokolov@edu.hse.ru
+        -  ***Pyltsin I.V.***, Higher School of Economics, Faculty of Economic
+           Sciences, ilya.pyltsin@gmail.com
+        -  ***Nersesyan R.G.***, LLC "Tcifra", romkasb@gmail.com
+        -  ***Lazarev A.M.***, Lomonosov Moscow State University, Faculty of
+           Mechanics and Mathematics, am\_laz1@mail.ru
+        -  ***Rogov O.Yu.***, Skolkovo Institute of Science and Technology, NS,
+           Ph.D. of sciences olg3372@gmail.com
+        
+        The power of the dictionary in this module may differ because the
+        dictionary was supplemented with different word forms using the pymorphy
+        2 tools(https://pymorphy2.readthedocs.io/en/latest/) and
+        pyphrasy(https://github.com/summerisgone/pyphrasy). This allows you to
+        score and categorize texts without the lemmatization procedure, just
+        tokenize the text and bring it to lowercase.
+        
+        The algorithms of scoring and categorizing will be improved in next
+        releases.
+        
+        ***Developed by Ilya Pyltsin***
+        
+Platform: UNKNOWN
