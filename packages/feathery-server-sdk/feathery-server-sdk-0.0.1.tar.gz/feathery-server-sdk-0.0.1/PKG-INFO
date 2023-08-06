@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: feathery-server-sdk
+Version: 0.0.1
+Summary: A Python SDK for Feathery.
+Home-page: https://github.com/bo-dun-1/feathery-python-server-sdk
+Author: Markie Wagner, Peter Dun
+Author-email: me@markiewagner.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
