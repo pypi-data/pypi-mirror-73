@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sri-autoflow
+Version: 1.0.2
+Summary: Autoflow is a tool that explores available primitives and assembles them into pipelines that discover a solution to various problem types
+Home-page: https://gitlab.com/daraghhartnett/tpot-ta2
+Maintainer: Daragh Hartnett & Dayne Freitag
+Maintainer-email: daragh.hartnett@sri.com, dayne.freitag@sri.com
+License: UNKNOWN
+Keywords: Auto Machine Learning Tool,GAMA,TPOT,pipeline optimization,hyperparameter optimization,data science,machine learning,genetic programming,evolutionary computation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Requires-Dist: sri-tpot (==1.3.0)
+Requires-Dist: psutil (>=5.6.1)
+Requires-Dist: plac (==1.0.0)
+Requires-Dist: google-auth (==1.16.1)
+Requires-Dist: google-auth-oauthlib (==0.4.1)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: protobuf (==3.12.2)
+Requires-Dist: pathos (==0.2.5)
+Requires-Dist: sri-d3m (==1.9.1)
+Requires-Dist: scikit-image (==0.16.1)
+Requires-Dist: scikit-learn (==0.22.2.post1)
+
+Autoflow is a tool that explores available primitives and assembles them into pipelines that discover a solution to various problem types. This was developed by SRI under funding from DARPA on the D3M Project. GAMA is the Genetic algorithm that explores the pipeline configuration. Autoflow is also configurable to use a TPOT backend instead of GAMA.
+
+
