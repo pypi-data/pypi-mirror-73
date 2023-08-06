@@ -1,0 +1,12 @@
+pyocle/__init__.py,sha256=BMz9HbQHS8ddmOTBIVWVc1tjMpzD6zKuctBCM-sUh4g,156
+pyocle/config.py,sha256=q7mzdny5OcKW8NxS3A6obpOXh1fkIV0NpO-ch5LvSpQ,2951
+pyocle/error.py,sha256=qOBigNJXGzZhQUSwz_8I6unmXPuNc8VP9pQAgDaprtI,2022
+pyocle/form.py,sha256=qHA-QdR630b8l0tNOIHlyaDMmIIS9cVPdngLxlxDNXY,2210
+pyocle/response.py,sha256=86NMmPHg3nWAm3m5-QC_jXqnUKFb6WTfdHwaXMLCRWs,6754
+pyocle/serialization.py,sha256=XQ4WiuLzCNP5PTjJWeMnHJVnW5uUiUkpYExEXA8laVU,1967
+pyocle/service.py,sha256=F4mohsUQ04GyoRCPvNOOle7EDG-afXNOmGwwNzhsQSE,1314
+pyocle-0.2.0.dist-info/LICENSE.txt,sha256=0c3jUuQZlXTcUfXY-ejSL8FCacoWLnYPTKdgj4J9m1s,1080
+pyocle-0.2.0.dist-info/METADATA,sha256=lwDr3xCZUdQtnUyJZR1nWvjOD3hqctwutjRR3glTtjA,5631
+pyocle-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyocle-0.2.0.dist-info/top_level.txt,sha256=VcjZ6uMjag6EhugPcRz3Px8h1mEjv_5HGWsgUD20uHI,7
+pyocle-0.2.0.dist-info/RECORD,,
