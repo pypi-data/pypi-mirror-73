@@ -1,0 +1,10 @@
+README.md
+setup.py
+maioffice/__init__.py
+maioffice/excel.py
+maioffice/word.py
+maioffice.egg-info/PKG-INFO
+maioffice.egg-info/SOURCES.txt
+maioffice.egg-info/dependency_links.txt
+maioffice.egg-info/requires.txt
+maioffice.egg-info/top_level.txt
