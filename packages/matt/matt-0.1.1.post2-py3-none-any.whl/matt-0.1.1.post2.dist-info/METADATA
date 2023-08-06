@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: matt
+Version: 0.1.1.post2
+Summary: A maths test
+Home-page: https://codeberg.org/noisytoot/matt
+License: GPL-3.0-or-later
+Author: Noisytoot
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: colorama (>=0.4.3,<0.5.0); sys_platform == "win32"
+Requires-Dist: pyxdg (>=0.26,<0.27)
+Requires-Dist: readline (>=6.2.4,<7.0.0); platform_system != "Windows"
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://codeberg.org/noisytoot/matt
+Description-Content-Type: text/markdown
+
+# Matt
+Matt is a free software (licensed under the [GNU GPL v3 (or later)](https://www.gnu.org/licenses/gpl-3.0.html)) maths test program.
+"Matt" (or "MATT") is a recursive acronym for "MATT Arithmetic Training Test".
+
+## Installation
+Matt depends on:
+ * [termcolor](https://pypi.org/project/termcolor/)
+ * [pyxdg](https://www.freedesktop.org/wiki/Software/pyxdg/)
+ * [colorama](https://pypi.org/project/colorama/) (windows only)
+
+There are 2 methods of installation: via poetry and via pip:
+
+### Installation via [poetry](https://python-poetry.org/)
+Poetry should handle the installation of dependencies.
+To install, first clone the git repository, then run:
+```sh
+poetry install
+```
+
+### Installation via pip
+Pip should handle the installation of dependencies.
+To install, run:
+```sh
+python3 -m pip install matt
+```
+
+## Usage
+Run `python3 -m matt -h` for help.
+Matt accepts the following arguments:
+ * `--difficulty` or `-d` to set the difficulty (in the format "<namespace>:<number>").
+   The `default` namespace is reserved for the default difficulties.
+   If unspecified the default is `default:1`.
+ * `--operations` or `-o` to set the available operations.
+   Operations are seperated by commas, the available operations are:
+   - `+`: Addition
+   - `-`: Subtraction
+   - `*`: Multiplication
+   - `/`: Division
+   Example: `-o +,-` to enable only addition and subtraction.
+ * `--minimum` or `-m` to set the minumum, default (if not specified in difficulty): 0.
+ * `--maximum` or `-M` to set the maximum, default (if not specified in difficulty): 10.
+NOTE: The maximum must not be equivalent to the minimum.
+
+## Config
+Matt has a configuration file, it is written in Python,
+and located at `$XDG_CONFIG_HOME/matt/config.py`.
+By default `$XDG_CONFIG_HOME` is set to `~/.config`,
+so if you have not set it then it is probably `~/.config/matt/config.py`.
+
+The configuration must provide a difficulty function that accepts 2 parameters:
+ * `namespace` (str): The namespace of the difficulty.
+ * ``number`` (int): The number of the difficulty.
+
+The ``difficulty`` function must return a dict.
+
+A simple example is:
+```python
+def difficulty(namespace: str, number: int) -> dict:
+    if namespace == "manual":
+       if number == 1:
+           return {
+               "operations": ["+", "-"],
+               "maximum": 20,
+               "minimum": 10
+           }
+```
+
+Due to the config file being written in Python,
+it is extemely configurable, for example:
+```python
+def difficulty(namespace: str, number: int) -> dict:
+    if namespace == "automatic":
+        return {
+            "operations": ["+", "-", "*", "/"],
+            "maximum": number * 10
+        }
+```
+
