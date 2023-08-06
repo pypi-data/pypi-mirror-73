@@ -1,0 +1,11 @@
+cad_to_shapely/__init__.py,sha256=nXGp_dx5a5S3cBxSkfa4DDSfuHVcnceEpvCV4z_w0sM,196
+cad_to_shapely/cadimporter.py,sha256=lJsYYpdbGQHRLe55_ybqHggmdmcH44FCzURm3jRicLk,1218
+cad_to_shapely/dxf.py,sha256=ewiDf8bS8_UVsBoblfuGvJAINaawSlrN9cUY_DaT0JQ,2487
+cad_to_shapely/examples.py,sha256=dliI1tD90W2bV67J9ZJ_pUFjdJU2JKlu9Oudsk3jlEk,766
+cad_to_shapely/svg.py,sha256=8M99zD8jbNfZ7R870Jtv3na6ON1sTZWx7y54kwV49Ck,3388
+cad_to_shapely/utils.py,sha256=byTcgX34aRurccQ09kXd-sL6lk_OyfbEyPPe8X0a15U,1757
+cad_to_shapely-0.1.7.dist-info/LICENSE,sha256=ZA7bMF76dms1kUrctjWdk9gf67dtqq3ZpJfKD7VJBP0,1069
+cad_to_shapely-0.1.7.dist-info/METADATA,sha256=ZJJzqxdmtDtfOx6LybpASbGoJ9A03rVQpsuTE6Kd3KQ,1002
+cad_to_shapely-0.1.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cad_to_shapely-0.1.7.dist-info/top_level.txt,sha256=m3TouXNzXr6Nk9UMxONZ5PJcwSdvDNxpAH7bppePFhI,15
+cad_to_shapely-0.1.7.dist-info/RECORD,,
