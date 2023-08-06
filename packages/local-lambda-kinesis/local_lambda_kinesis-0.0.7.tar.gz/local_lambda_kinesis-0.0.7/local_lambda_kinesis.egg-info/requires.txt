@@ -1,0 +1,2 @@
+boto3>=1.9.236
+python-dateutil>=2.8.1
