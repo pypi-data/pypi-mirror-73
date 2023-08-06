@@ -1,0 +1,10 @@
+setup.py
+clothing/Generalclothing.py
+clothing/__init__.py
+clothing/pants.py
+clothing/shirts.py
+test_by_prem.egg-info/PKG-INFO
+test_by_prem.egg-info/SOURCES.txt
+test_by_prem.egg-info/dependency_links.txt
+test_by_prem.egg-info/not-zip-safe
+test_by_prem.egg-info/top_level.txt
