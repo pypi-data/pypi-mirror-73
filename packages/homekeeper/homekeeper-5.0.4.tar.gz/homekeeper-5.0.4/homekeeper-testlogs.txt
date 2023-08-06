@@ -1,0 +1,1817 @@
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.dotfile
+DEBUG    root:lib.py:59 removed file: /home/johndoe/.dotfile
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': '/home/johndoe/.homekeeper.json', 'cleanup_symlinks': False, 'overwrite': False}
+DEBUG    root:__init__.py:19 read context: {'config_path': '/home/johndoe/.homekeeper.json', 'cleanup_symlinks': False, 'overwrite': False}
+WARNING  root:cli.py:19 read flag --no-cleanup-symlinks but forcing value to be true
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+INFO     root:symlink.py:27 removing broken link: /home/johndoe/.dotfile.link
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': False}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': False}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+DEBUG    root:lib.py:41 making directory: /home/johndoe/config
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/config/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': '/home/johndoe/config/.homekeeper.json', 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': '/home/johndoe/config/.homekeeper.json', 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/config/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/config
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles2
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles",
+        "/home/johndoe/dotfiles2"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles', '/home/johndoe/dotfiles2']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles2
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles2
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles2
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:40 beginning unkeep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:49 finished unkeep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:40 beginning unkeep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:49 finished unkeep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': False}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': False}
+DEBUG    root:__init__.py:40 beginning unkeep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:49 finished unkeep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+DEBUG    root:lib.py:41 making directory: /home/johndoe/config
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/config/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': '/home/johndoe/config/.homekeeper.json', 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': '/home/johndoe/config/.homekeeper.json', 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/config/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': '/home/johndoe/config/.homekeeper.json', 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': '/home/johndoe/config/.homekeeper.json', 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:40 beginning unkeep
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/config/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/config
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:49 finished unkeep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles2
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles",
+        "/home/johndoe/dotfiles2"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': False, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles', '/home/johndoe/dotfiles2']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles2
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles2
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:37 finished keep
+INFO     root:testing.py:146 stdout: 
+INFO     root:cli.py:81 set log level to debug
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:40 beginning unkeep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles', '/home/johndoe/dotfiles2']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles2
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles2
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles2
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:49 finished unkeep
+INFO     root:testing.py:146 stdout: 
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:cli.py:89 created click context object: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:19 read context: {'config_path': None, 'cleanup_symlinks': True, 'overwrite': True}
+INFO     root:testing.py:146 stdout: homekeeper version 5.0.4
+
+DEBUG    root:config.py:61 reading configuration from: /mnt/c/Users/retim/Documents/Projects/homekeeper/homekeeper/testdata/ConfigTest.test_read
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', 'README.md'], 'directories': ['/home/johndoe/dotfiles/desktop', '/home/johndoe/dotfiles/laptop']}
+DEBUG    root:config.py:61 reading configuration from: /mnt/c/Users/retim/Documents/Projects/homekeeper/homekeeper/testdata/ConfigTest.test_read_directory
+DEBUG    root:config.py:63 read configuration: {'directory': '/home/johndoe/dotfiles', 'excludes': ['.git', 'README.md']}
+DEBUG    root:config.py:61 reading configuration from: /mnt/c/Users/retim/Documents/Projects/homekeeper/homekeeper/testdata/ConfigTest.test_read_single_directory
+DEBUG    root:config.py:63 read configuration: {'excludes': [], 'directories': '/home/johndoe/dotfiles'}
+DEBUG    root:config.py:61 reading configuration from: /mnt/c/Users/retim/Documents/Projects/homekeeper/homekeeper/testdata/ConfigTest.test_read_invalid_single_directory
+DEBUG    root:config.py:63 read configuration: {'excludes': [], 'directories': 0}
+DEBUG    root:config.py:61 reading configuration from: /mnt/c/Users/retim/Documents/Projects/homekeeper/homekeeper/testdata/ConfigTest.test_read_invalid_directories
+DEBUG    root:config.py:63 read configuration: {'excludes': [], 'directories': ['/home/johndoe/dotfiles', 0, 1]}
+DEBUG    root:config.py:61 reading configuration from: /mnt/c/Users/retim/Documents/Projects/homekeeper/homekeeper/testdata/ConfigTest.test_read_invalid_excludes
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', 0], 'directories': '/home/johndoe/dotfiles'}
+DEBUG    root:config.py:61 reading configuration from: /mnt/c/Users/retim/Documents/Projects/homekeeper/homekeeper/testdata/ConfigTest.test_read_invalid_single_exclude
+DEBUG    root:config.py:63 read configuration: {'excludes': 0, 'directories': '/home/johndoe/dotfiles'}
+INFO     root:config.py:36 trying configuration from current directory: /mnt/c/Users/retim/Documents/Projects/homekeeper/.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+INFO     root:config.py:36 trying configuration from current directory: /mnt/c/Users/retim/Documents/Projects/homekeeper/.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /tmp/pytest-of-minhuang/pytest-112/test_write0/homekeeper.json
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:config.py:52 writing configuration to default location: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:81 writing configuration: {
+    "directories": [
+        "/home/johndoe/dotfiles"
+    ],
+    "excludes": [
+        ".git",
+        ".gitignore",
+        "LICENSE",
+        "LICENSE.txt",
+        "README",
+        "README.md",
+        "README.txt"
+    ]
+}
+DEBUG    root:config.py:83 wrote configuration to: /home/johndoe/.homekeeper.json
+DEBUG    root:__init__.py:19 read context: {'config_path': '', 'cleanup_symlinks': True, 'overwrite': True}
+DEBUG    root:__init__.py:27 beginning keep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:37 finished keep
+DEBUG    root:__init__.py:40 beginning unkeep
+INFO     root:config.py:36 trying configuration from current directory: /.homekeeper.json
+INFO     root:config.py:39 trying configuration from home directory :/home/johndoe/.homekeeper.json
+DEBUG    root:config.py:61 reading configuration from: /home/johndoe/.homekeeper.json
+DEBUG    root:config.py:63 read configuration: {'excludes': ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt'], 'directories': ['/home/johndoe/dotfiles']}
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+DEBUG    root:__init__.py:49 finished unkeep
+DEBUG    root:__init__.py:22 beginning cleanup
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.gitconfig
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bashrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.homekeeper.json
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.bash_profile
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/bin
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vim
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.vimrc
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.i3
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:__init__.py:24 finished cleanup
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /foo/bar
+DEBUG    root:lib.py:18 changing directory: /foo/bar
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /foo/bar
+DEBUG    root:lib.py:63 removed directory: /foo/bar
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /foo/bar
+DEBUG    root:lib.py:41 making directory: /foo/bar
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.a.txt
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.b.txt
+DEBUG    root:lib.py:18 changing directory: /home/johndoe
+DEBUG    root:lib.py:59 removed file: /home/johndoe/.b.txt
+INFO     root:symlink.py:14 removing broken symlinks in directory: /home/johndoe
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/.a.txt
+DEBUG    root:symlink.py:22 skipping because path is not a broken symlink: /home/johndoe/.link-a.txt
+INFO     root:symlink.py:27 removing broken link: /home/johndoe/.link-b-1.txt
+INFO     root:symlink.py:27 removing broken link: /home/johndoe/.link-b-2.txt
+DEBUG    root:symlink.py:19 skipping because path is not a symlink: /home/johndoe/dotfiles
+INFO     root:symlink.py:29 finished removing symlinks in directory: /home/johndoe
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:59 removed file: /home/johndoe/dotfiles/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+INFO     root:symlink.py:37 skipping because source and target are the same: /home/johndoe/dotfiles/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc.symlink -> /home/johndoe/.vimrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:73 touching path: /home/johndoe/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/.vim
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.git', '.gitignore', 'LICENSE', 'LICENSE.txt', 'README', 'README.md', 'README.txt']
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:40 skipping because target would be overwritten: /home/johndoe/.i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: ['.bashrc', '.bash_profile', '.gitconfig', '.gitignore', '.vimrc', 'bin', '.i3', '.vim']
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitconfig
+DEBUG    root:lib.py:96 skipping because path is excluded: .bashrc
+DEBUG    root:lib.py:96 skipping because path is excluded: bin
+DEBUG    root:lib.py:96 skipping because path is excluded: .bash_profile
+DEBUG    root:lib.py:96 skipping because path is excluded: .vim
+DEBUG    root:lib.py:96 skipping because path is excluded: .vimrc
+DEBUG    root:lib.py:96 skipping because path is excluded: .i3
+DEBUG    root:lib.py:96 skipping because path is excluded: .gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+INFO     root:symlink.py:58 skipping because source and target are the same: /home/johndoe/.bashrc
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim/autoload
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vim/autoload/pathogen.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: []
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitignore -> /home/johndoe/.gitignore
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitignore -> /home/johndoe/.gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: []
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+INFO     root:symlink.py:72 restored directory /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitignore -> /home/johndoe/.gitignore
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitignore
+INFO     root:symlink.py:69 restored file /home/johndoe/dotfiles/.gitignore -> /home/johndoe/.gitignore
+DEBUG    root:lib.py:22 changing directory: /
+INFO     root:testing.py:38 patching homekeeper
+INFO     root:testing.py:44 patching homekeeper.symlink
+INFO     root:testing.py:49 patching shutil
+INFO     root:testing.py:67 setting HOME environment variable in fake os: /home/johndoe
+INFO     root:testing.py:69 setting up directories in fake fs: ['/home/johndoe', '/home/johndoe/dotfiles', '/home/johndoe/dotfiles/.vim']
+DEBUG    root:lib.py:41 making directory: /home/johndoe
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:testing.py:72 setting up files in fake fs: ['/home/johndoe/dotfiles/.bashrc', '/home/johndoe/dotfiles/.vimrc']
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bashrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.bash_profile
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitconfig
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.gitignore
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:73 touching path: /home/johndoe/dotfiles/.vimrc
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/bin
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.i3
+DEBUG    root:lib.py:41 making directory: /home/johndoe/dotfiles/.vim
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: []
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitignore -> /home/johndoe/.gitignore
+INFO     root:symlink.py:44 symlinked /home/johndoe/dotfiles/.gitignore -> /home/johndoe/.gitignore
+DEBUG    root:lib.py:22 changing directory: /
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bashrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.bash_profile
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitconfig
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.gitignore
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vimrc
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/bin
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.i3
+DEBUG    root:lib.py:55 removed symlink: /home/johndoe/.vim
+INFO     root:lib.py:88 processing paths in directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:18 changing directory: /home/johndoe/dotfiles
+DEBUG    root:lib.py:90 excluding paths: []
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitconfig -> /home/johndoe/.gitconfig
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.gitconfig
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bashrc -> /home/johndoe/.bashrc
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.bashrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/bin -> /home/johndoe/bin
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/bin
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.bash_profile -> /home/johndoe/.bash_profile
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.bash_profile
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vim -> /home/johndoe/.vim
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.vim
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.vimrc -> /home/johndoe/.vimrc
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.vimrc
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.i3 -> /home/johndoe/.i3
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.i3
+DEBUG    root:lib.py:98 processing /home/johndoe/dotfiles/.gitignore -> /home/johndoe/.gitignore
+INFO     root:symlink.py:61 skipping because target is not a symlink: /home/johndoe/.gitignore
+DEBUG    root:lib.py:22 changing directory: /
