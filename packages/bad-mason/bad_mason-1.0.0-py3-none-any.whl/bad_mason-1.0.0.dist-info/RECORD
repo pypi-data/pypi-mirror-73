@@ -1,0 +1,13 @@
+bad_mason/__init__.py,sha256=HShDNfEkHfDhJJRmTRatoikKFZHLBCNtrH36gT31DWU,374
+bad_mason/__main__.py,sha256=BoPTbMEp34I3wKK2a4hxXHNu9j0DGZLoXmIC9-jSQvA,30
+bad_mason/covid19getter.py,sha256=zhBKU0eVqjomtEQtsUd1sCHqRle8h69NlsnUGZCsS84,216
+bad_mason/get_covid19.py,sha256=3NQBxQsElYU-V2k6DTY2df0VgeYd69HUOKcAEp1NUE4,350
+bad_mason/datahelper/__init__.py,sha256=Fwmp8bpBzJ9CjLPpo5QRiapuyQobntziIUvI_ZGQnro,28
+bad_mason/datahelper/__main__.py,sha256=6stlu0n4vrMhkZDrrkjYW5bQcL0DeiUEXqRlN-onXK8,1047
+bad_mason/datahelper/datahelper.py,sha256=jny4_3kh1oEN6FVzumDzFchU8KrMJbj5yFylyGskXpQ,1501
+bad_mason-1.0.0.dist-info/LICENSE,sha256=yuZ3EIdHKrSLnAGK5GpGa5H3ivThe6eoQ9psSLEJ2w4,1087
+bad_mason-1.0.0.dist-info/METADATA,sha256=7TTwm1Ah7XZXAReLcHepM7GqDnAmF9o6QY60RPM8s6A,1858
+bad_mason-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bad_mason-1.0.0.dist-info/entry_points.txt,sha256=0Az6lA6kFEqHmIyCmMWMNKO4Zy9gNh-Unvs7ucAGuug,46
+bad_mason-1.0.0.dist-info/top_level.txt,sha256=r5ycEbOITEP8B8SQAbhDqOz1Q3qVz7lkwGVjnyGV7j8,10
+bad_mason-1.0.0.dist-info/RECORD,,
