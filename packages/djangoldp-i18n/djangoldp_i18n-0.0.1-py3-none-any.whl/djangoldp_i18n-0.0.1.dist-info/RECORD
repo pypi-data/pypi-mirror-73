@@ -1,0 +1,13 @@
+djangoldp_i18n/__init__.py,sha256=6Tgg3hd3LkWH9hsrwCBVrJAuEDWBBt7k0Ca7ull12oA,45
+djangoldp_i18n/apps.py,sha256=ByaMgcpI3JT2MUo4lvOD6F5yeeYHuRVrH0ISHRRFX3g,105
+djangoldp_i18n/serializers.py,sha256=Z5ISMmz-t0sKK0CKl8fUvrTb-GbOfHVnip2bS59FWWg,99
+djangoldp_i18n/views.py,sha256=IvxYwC52JKNPHukDR20LR5FGItifQI-xfSUw2wwpYws,716
+djangoldp_i18n/tests/__init__.py,sha256=pXF5FZRDMLRfm7B-TrdSoH3DhN_9NWNUS_j-UkdbRHU,77
+djangoldp_i18n/tests/apps.py,sha256=nmbHQ5ztYUmQMN9KFGzWOk0m-TTmV2PTrI46y-rrpwQ,605
+djangoldp_i18n/tests/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_i18n/tests/runner.py,sha256=LPNYRzc77xqchBiipTeXaBc1AgMsAR9TI5yApm8M8iU,891
+djangoldp_i18n/tests/settings_default.py,sha256=ofPKOl7-g4h8Hfx2X-incO0Y00U89_T2GlVKRiKpQHE,443
+djangoldp_i18n-0.0.1.dist-info/METADATA,sha256=yvUyRhwzXqyvu4z9wmlGM_DNd-sCeNXZfpQcMXDgxyU,492
+djangoldp_i18n-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+djangoldp_i18n-0.0.1.dist-info/top_level.txt,sha256=oSCfWrtxgDj96PTWMnNrDGdVQ-c96CsgILN9YkW8XMc,15
+djangoldp_i18n-0.0.1.dist-info/RECORD,,

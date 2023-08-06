@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: djangoldp-i18n
+Version: 0.0.1
+Summary: extends Django-Modeltranslation and DjangoLDP's serializer and admin to provide i18n capabilities for DjangoLDP models
+Home-page: UNKNOWN
+Author: Calum Mackervoy
+Author-email: calum@startinblox.com
+License: copyleft CC NC SA
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: djangoldp (~=0.5)
+Requires-Dist: django-modeltranslation (==0.13)
+
+
+# I18nLDPViewSet
+
+TODO
+
+# I18nLDPSerializer
+
+TODO
+
