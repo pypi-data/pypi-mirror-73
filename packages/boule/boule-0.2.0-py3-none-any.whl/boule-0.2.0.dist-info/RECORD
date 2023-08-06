@@ -1,0 +1,14 @@
+boule/__init__.py,sha256=cuOP3NZpUy5np_q9w0Uc4RX9O8PtzRCIbWrp2VKilps,1085
+boule/_version.py,sha256=DHPPLNmhxzqNy61JmoMyUj1thlZ8eXnswwbEMD_zAqk,498
+boule/ellipsoid.py,sha256=2CNSj-DTuU_tSHbZf-L6IZ7MSEixXPkcEKnWboOqJpU,16583
+boule/realizations.py,sha256=N8gRWUD2cOqypfQJnksgNUAed8JkQHpQWbp77P70890,1381
+boule/version.py,sha256=9yXBzduGrj3AxCa9PNFjgy1KJFU5Sc9mIqSabbghkDY,222
+boule/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boule/tests/test_ellipsoid.py,sha256=coDJmX61DUzt5uGFtYa09vv5EEK8sq5m93HZX978q9Y,10230
+boule-0.2.0.dist-info/AUTHORS.md,sha256=WslBChbnvDUxC4JPyJRPMhHi793EBWuI0lRKJ2tWuoI,500
+boule-0.2.0.dist-info/AUTHORSHIP.md,sha256=2ZKh1NAxz1f9i_9Fpvq92FKgATB8RAakiSPwpRBsPIg,3157
+boule-0.2.0.dist-info/LICENSE.txt,sha256=hcn_NA2yFWF9YnlJdFCv_8iVSKWP4Ho-XRbBqgvHvnA,1484
+boule-0.2.0.dist-info/METADATA,sha256=Lz70xrVB8KYrbaARps7Zt3cbOGoGqubzDsO06D0gqHg,6157
+boule-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+boule-0.2.0.dist-info/top_level.txt,sha256=m9qQvT1_720pPIrGnEPh6AXnPtyL2Ti2vuooT3UQuz4,6
+boule-0.2.0.dist-info/RECORD,,
