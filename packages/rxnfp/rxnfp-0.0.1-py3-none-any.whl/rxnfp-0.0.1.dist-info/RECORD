@@ -1,0 +1,11 @@
+rxnfp/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+rxnfp/_nbdev.py,sha256=YIKis-_Pkej1FgLX1bgpmPECeXV51adYdGW-tF0foXs,1533
+rxnfp/core.py,sha256=PDolah7T6z15deUZdAOXThr7Bq1r-J5I4gC4hY_L2y0,1387
+rxnfp/tokenization.py,sha256=YLecKyUiPq55sU591_xsoyMGd9rx3n1Tb16gvmqWMUs,10129
+rxnfp/transformer_fingerprints.py,sha256=cBkLhlDZBGyp0XVweFbOlOwf0JL3fvDw2oXUFIpbL3I,4996
+rxnfp-0.0.1.dist-info/LICENSE,sha256=TNGe4_mExM8hI0s22UH4D-fLrGG0oQSlWIE805SIV84,1078
+rxnfp-0.0.1.dist-info/METADATA,sha256=R-TlCB-tWVBEXY-m9hPRQHHodNxS-aauVm8WLx7rPyE,3790
+rxnfp-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rxnfp-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+rxnfp-0.0.1.dist-info/top_level.txt,sha256=oCjkp7XuKeoF2On1J65rNh3RW4dTvq6LIRmauGe13W0,6
+rxnfp-0.0.1.dist-info/RECORD,,
