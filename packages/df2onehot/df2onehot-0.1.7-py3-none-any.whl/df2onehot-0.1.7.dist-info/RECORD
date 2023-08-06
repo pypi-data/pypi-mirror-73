@@ -1,0 +1,10 @@
+df2onehot/__init__.py,sha256=Wd5p3bKcClo4LolcA6vyvllizQe57XcR2OU_ma3WcUI,697
+df2onehot/df2onehot.py,sha256=BZ7zi13PsAfhu9ekZhGroAD9otmA83S_OMoX9vLdxrM,11004
+df2onehot/examples.py,sha256=q_Md7WxCp4kbx4bGdUtDjmFFHs9PluLwlkPNP8wlyRU,1334
+df2onehot/set_dtypes.py,sha256=XPocN0j0y6L5hxylXhGDi543lc_-GHzGGW5rxCI824M,8899
+df2onehot/data/titanic_train.zip,sha256=zjpUxa_wLpJ0glQOT1J2Bv5d9jkEmj3ZUcecy575BkU,22510
+df2onehot-0.1.7.dist-info/LICENSE,sha256=KW_XcSMLyM3kAI-THNF-taYs9Lf-O7B19CAW_ueHw-w,1122
+df2onehot-0.1.7.dist-info/METADATA,sha256=t2523R7pGvyT6ZIpTWYSgSySJq-kS1EGS1j8nmwm7hU,2776
+df2onehot-0.1.7.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+df2onehot-0.1.7.dist-info/top_level.txt,sha256=khOnqYIvoVEm6bUw7dB9MRv0RZAN_ymHnr1Alz6KFu8,10
+df2onehot-0.1.7.dist-info/RECORD,,
