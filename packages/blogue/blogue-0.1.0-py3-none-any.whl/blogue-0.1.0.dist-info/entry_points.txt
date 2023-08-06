@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        blogue=blogue.__main__:cli
+    
