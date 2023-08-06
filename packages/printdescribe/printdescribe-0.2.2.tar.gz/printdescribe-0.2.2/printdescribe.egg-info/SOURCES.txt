@@ -1,0 +1,9 @@
+setup.py
+printdescribe/__init__.py
+printdescribe/printdesc.py
+printdescribe.egg-info/PKG-INFO
+printdescribe.egg-info/SOURCES.txt
+printdescribe.egg-info/dependency_links.txt
+printdescribe.egg-info/not-zip-safe
+printdescribe.egg-info/requires.txt
+printdescribe.egg-info/top_level.txt
