@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: distribo
+Version: 0.1.2
+Summary: Statistical distributions
+Home-page: https://github.com/raajtilaksarma/distribo
+Author: Raaj Tilak Sarma
+Author-email: raajtilaksarma@gmail.com
+License: MIT
+Description: # distribo
+        Python package for statistical distributions
+        
+        # Installation
+        
+        `pip install distribo`
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
