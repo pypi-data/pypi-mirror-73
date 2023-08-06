@@ -1,0 +1,8 @@
+report_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+report_generator/html_tools.py,sha256=W5fu2U2FIoMoFp5jeZCXo2yHsvLOLTGFdjxhfv7-ZsQ,2904
+report_generator/report.py,sha256=dY_rZjQHc4rGXs3-MZ4NLNtLAmL9J2sCPvmaD0qVhmk,1577
+report_generator/smtp.py,sha256=08nJJ5VW9v9iUHM028l2snrlFKYPPQ0r-MnGAYBoqao,2100
+report_generator-0.1.4.dist-info/METADATA,sha256=AfgucEI3-sO3ZvcusvzJ6Pcdwi86lEwaCHFRElZX_bk,538
+report_generator-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+report_generator-0.1.4.dist-info/top_level.txt,sha256=cyn51ooqyq5zRYCcRPegsxYKb_ORT2TqnWtpxB-AkQk,17
+report_generator-0.1.4.dist-info/RECORD,,
