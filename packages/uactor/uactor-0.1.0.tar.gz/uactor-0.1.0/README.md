@@ -1,0 +1,370 @@
+# ![uActor](./images/uactor-title.96.png)
+
+## uActor multiprocessing microframework
+
+uActor is a multiprocessing actor library for Python. It designed to power
+concurrent applications via implementing the [actor model][actor-model] with
+a simple yet powerful API.
+
+It is distributed as a single file module and has no dependencies other than
+the [Python Standard Library][stdlib].
+
+```python
+import os
+import uactor
+
+class Actor(uactor.Actor):
+    def hello(self):
+        return f'Hello from subprocess {os.getpid()}!'
+
+print(f'Hello from process {os.getpid()}!')
+# Hello from process 22682!
+
+print(Actor().hello())
+# Hello from subprocess 22683!
+```
+
+## Quickstart
+
+### Installation
+
+You can install it using `pip`.
+```sh
+pip install uactor
+```
+
+Or alternatively by including that single `uactor.py` file into your project.
+
+### Your first actor
+
+With uActor, actors are defined as classes inheriting from `uactor.Actor`,
+with some special attributes we'll cover later.
+
+```python
+import uactor
+
+class MyActor(uactor.Actor):
+    def my_method(self):
+        return True
+```
+
+Actors are initialized inside dedicated processes returning proxies.
+
+```python
+my_actor_proxy = MyActor()
+my_actor_proxy.my_method()
+```
+
+Once you're done with your actor, it is always a good idea to finalize its
+process with `uactor.Actor.shutdown` method.
+
+```python
+my_actor_proxy.shutdown()
+```
+
+Alternatively, `uactor.Actor` instances can be used as context managers, so
+the actor process will be finalized once we're done with it.
+
+```python
+with MyActor() as my_actor_proxy:
+    my_actor_proxy.my_method()
+```
+
+### Returning result proxies
+
+We can return proxies to objects instead of the objects themselves, while
+keeping them sound and safe on our actor process, this can be achieved pretty
+easily.
+
+To specify a proxy will be used to serialize a method result, we can add both
+method name and proxy typid to `uactor.Actor._method_to_typeid_` special
+class attribute.
+
+```python
+import uactor
+
+class MyActor(uactor.Actor):
+
+    _method_to_typeid_ = {'my_method': 'dict'}
+
+    def __init__(self):
+        self.my_data = {}
+
+    def my_method(self):
+        return self.my_data
+```
+
+Or, alternatively, we can explicitly create a proxy for our object, using
+`uactor.proxy` utility function.
+
+```python
+import uactor
+
+class MyActor(uactor.Actor):
+    def __init__(self):
+        self.my_data = {}
+
+    def my_method(self):
+        return uactor.proxy(self.my_data, 'dict')
+```
+
+### Becoming asynchronous (and concurrent)
+
+Actors are fully synchronous by default, but that's usually not very useful,
+the following example will show you how to return asynchronous results from
+the actor.
+
+```python
+import time
+import multiprocessing.pool
+import uactor
+
+class MyActor(uactor.Actor):
+
+    _method_to_typeid_ = {'my_method': 'AsyncResult'}
+
+    def __init__(self):
+        self.threadpool = multiprocessing.pool.ThreadPool()
+
+    def my_method(self):
+        return self.threadpool.apply_async(time.sleep, [10])  # wait 10s
+
+with MyActor() as my_actor:
+
+    # will return immediately
+    result = my_actor.my_method()
+
+    # will take 10 seconds
+    result.wait()
+```
+
+Based on this, we can now run code concurrently running on the same actor.
+
+```python
+with MyActor() as my_actor:
+
+    # these will return immediately
+    result_a = my_actor.my_method()
+    result_b = my_actor.my_method()
+
+    # these all will take 10 seconds in total
+    result_a.wait()
+    result_b.wait()
+```
+
+And even from different actor processes.
+
+```python
+actor_a = MyActor()
+actor_b = MyActor()
+with actor_a, actor_b:
+
+    # these will return immediately
+    result_a = actor_a.my_method()
+    result_b = actor_b.my_method()
+
+    # these all will take 10 seconds in total
+    result_a.wait()
+    result_b.wait()
+```
+
+### Next steps
+
+You can take a look at our code examples.
+
+* The basics:
+  * [Actor inheritance](./examples/inheritance.md).
+  * [Actor lifetime](./examples/lifetime.md).
+  * [Method callbacls](./examples/callbacks.md).
+  * [Result proxies](./examples/result_proxies.md).
+
+* Advanced patterns:
+  * [Actor pool](./examples/pool.md).
+
+## uActor design
+
+With the constant rise in CPU core number, highly threaded python applications
+are still very rare (except for distributed processing frameworks like
+[celery][celery]), this is due a few reasons:
+* [threading][threading] cannot use multiple cores because
+  [Python Global Interpreter Lock][gil] forces the interpreter to run on a
+  single core.
+* [multiprocessing][multiprocessing] is meant to overcome threading limitations
+  by using processes, but exposes a pretty convoluted API as processes
+  are way more complex, while exposing many quirks and limitations.
+
+uActor allows implementing multi-core software as easy as just declaring
+and instancing classes, following the [actor model][actor-model], by thinly
+wrapping (<150 [LLOC][sloc]) standard [SyncManager][syncmanager] to
+circumvent most of [multiprocessing][multiprocessing] complexity and some of
+its flaws.
+
+uActor API is designed to be both minimalistic and intuitive, but still few
+compromises had to be taken to leverage on [SyncManager][syncmanager]
+as much as possible, as it is both somewhat actively maintained and
+already available as part of the [Python Standard Library][stdlib].
+
+### Actors
+
+Just like the actor programming model revolves around the actor entity,
+uActor features the `uactor.Actor` base class.
+
+When an actor class is declared, just because either it inherits from
+`uactor.Actor` or uses the `uactor.ActorMeta` metaclass, its
+`Actor.proxy_class` gets also inherited and updated with `uactor.ProxyMethod`
+callable descriptors, following the exposed actor interface, either explicitly
+defined via actor `Actor._exposed_` property or implicitly by actor public
+methods.
+
+`Actor.manager_class` is also inherited allowing registering specific
+proxies for the current actor, including those defined in `Actor._proxies_`
+mapping (key used as a typeid) along with `'actor'` and `'auto'` special
+proxies.
+
+Keep in mind the default `Actor.manager_class`, `uactor.ActorManager`, already
+includes all proxies from [SyncManager][syncmanager] (including the internal
+`AsyncResult` and `Iterator`) which are all available to the actor and ready
+use.
+
+As a reference, these are all the available `uactor.Actor` configuration
+class attributes:
+* `manager_class`: manager base class (defaults to parent's one, up to
+  `uactor.ActorManager`).
+* `proxy_class`: actor proxy class (defaults to parent's one, up to
+  `uactor.ActorProxy`).
+* `_options_`: option mapping will be passed to `manager_class`.
+* `_exposed_`: list of explicitly exposed methods will be made available by
+  `proxy_class`, if `None` or undefined then all public methods will be
+  exposed.
+* `_proxies_`: mapping (typeid, proxy class) of additional proxies will be
+  registered in the `manager_class` and, thus, will be available to
+  be returned by the actor.
+* `_method_to_typeid_`: mapping (method name, typeid) defining which method
+  return values will be wrapped into proxies when invoked from `proxy_class`.
+
+When an `uactor.Actor` class is instantiated, a new process is spawned and a
+`uactor.Actor.proxy_class` instance is returned (as the real actor will be
+kept safe in said process), transparently exposing a message-based interface.
+
+```python
+import os
+import uactor
+
+class Actor(uactor.Actor):
+    def getpid(self):
+        return os.getpid()
+
+actor = Actor()
+print('My process id is', os.getpid())
+# My process id is 153333
+print('Actor process id is ', actor.getpid())
+# Actor process id is 153344
+```
+
+### Proxies
+
+Proxies are objects communicating with the actor process, while exposing
+a similar interface, in the most transparent way possible.
+
+It is implied most calls made to a proxy will result on inter-process
+communication and serialization overhead.
+
+To alleviate the serialization cost, actor methods can also return proxies,
+so the real data is kept well inside the actor process boundaries, which can
+be efficiently shared between processes with very little serialization cost.
+
+Actors can define which proxy will be used to expose the result of certain
+methods by defining that in their `Actor._method_to_typeid_` property.
+
+```python
+import uactor
+
+class Actor(uactor.Actor):
+    _method_to_typeid_ = {'get_mapping': 'dict'}
+    ...
+    def get_data(self):
+        return self.my_data_dict
+```
+
+Or, alternatively, using the `uactor.proxy` function, receiving both value
+and a proxy `typeid` (as in [SyncManager][syncmanager] semantics).
+
+```python
+import uactor
+
+class Actor(uactor.Actor):
+    ...
+    def get_data(self):
+        return uactor.proxy(self.my_data_dict, 'dict')
+```
+
+Keep in mind `uactor.proxy` can only be called from inside the actor process
+(it will raise `uactor.ProxyError` otherwise), as proxies can only be created
+from there.
+
+You can define your own proxy classes (following [BaseProxy][baseproxy]
+semantics), and they will be made available in an actor by including it on
+the `Actor._proxies_` mapping (along its typeid).
+
+```python
+import uactor
+
+class MyDataProxy(uactor.BaseProxy):
+    def my_method(self):
+        return self._callmethod('my_method')
+
+    my_other_method = uactor.ProxyMethod('my_other_method')
+
+class Actor(uactor.Actor):
+    _proxies_ = {'MyDataProxy': MyDataProxy}
+    _method_to_typeid_ = {'get_data': 'MyDataProxy'}
+    ...
+```
+
+In addition to all proxies imported from both [SyncManager][syncmanager]
+(including internal ones as `Iterator` and `AsyncResult`) and
+`Actor._proxies_`, we always register these ones:
+* `actor`: proxy to the current process actor.
+* `auto`: dynamic proxy based based on the wrapped object.
+
+You can list all available proxies (which can vary between python versions)
+by calling `ActorManager.typeids()`:
+
+```python
+import uactor
+
+print(uactor.Actor.manager_class.typeids())
+# ('Queue', 'JoinableQueue', 'Event', ..., 'auto', 'actor')
+
+print(uactor.ActorManager.typeids())
+# ('Queue', 'JoinableQueue', 'Event', ..., 'auto')
+```
+
+## Contributing
+
+uActor is deliberately very small in scope, while still aiming to be easily
+extended, so extra functionality might be implemented via external means.
+
+If you find any bug or a possible improvement to existing functionality it
+will likely be accepted so feel free to contribute.
+
+In the other hand, if you feel a feature is missing, you can create another
+library and use this as dependency of yours, or even forking this project.
+
+## License
+
+MIT License.
+
+See [LICENSE](./LICENSE) file.
+
+[multiprocessing]: https://docs.python.org/3/library/multiprocessing.html
+[syncmanager]: https://docs.python.org/3/library/multiprocessing.html#multiprocessing.managers.SyncManager
+[baseproxy]: https://docs.python.org/3/library/multiprocessing.html#multiprocessing.managers.BaseProxy
+[threading]: https://docs.python.org/3/library/threading.html
+[context-managers]: https://docs.python.org/3/reference/datamodel.html#context-managers
+[gil]: https://docs.python.org/3/c-api/init.html#thread-state-and-the-global-interpreter-lock
+[actor-model]: https://en.wikipedia.org/wiki/Actor_model
+[ipc]:https://en.wikipedia.org/wiki/Inter-process_communication
+[sloc]: https://en.wikipedia.org/wiki/Source_lines_of_code
+[stdlib]: https://docs.python.org/3/library/index.html
+[celery]: https://celeryproject.org

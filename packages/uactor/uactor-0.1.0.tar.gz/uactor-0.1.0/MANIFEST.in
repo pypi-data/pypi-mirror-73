@@ -1,0 +1,3 @@
+include images/*.svg
+include examples/*.md
+include tests.py
