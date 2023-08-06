@@ -1,0 +1,10 @@
+setup.py
+sayed-probability/Binomialdistribution.py
+sayed-probability/Gaussiandistribution.py
+sayed-probability/Generaldistribution.py
+sayed-probability/__init__.py
+sayed_probability.egg-info/PKG-INFO
+sayed_probability.egg-info/SOURCES.txt
+sayed_probability.egg-info/dependency_links.txt
+sayed_probability.egg-info/not-zip-safe
+sayed_probability.egg-info/top_level.txt
