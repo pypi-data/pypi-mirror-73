@@ -1,0 +1,9 @@
+# d-Distribution package
+
+Test project
+
+# Files
+
+BINOMIALDISTRIBUTION
+GAUSSIANDISTRIBUTION
+GENERALDISTRIBUTION
