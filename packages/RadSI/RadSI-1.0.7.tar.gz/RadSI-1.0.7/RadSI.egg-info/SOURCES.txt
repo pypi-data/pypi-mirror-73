@@ -1,0 +1,9 @@
+README.md
+RadSI.py
+setup.py
+RadSI.egg-info/PKG-INFO
+RadSI.egg-info/SOURCES.txt
+RadSI.egg-info/dependency_links.txt
+RadSI.egg-info/entry_points.txt
+RadSI.egg-info/requires.txt
+RadSI.egg-info/top_level.txt
