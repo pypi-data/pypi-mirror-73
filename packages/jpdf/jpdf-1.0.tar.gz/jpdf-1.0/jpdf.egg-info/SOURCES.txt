@@ -1,0 +1,9 @@
+README.md
+setup.py
+jpdf/__init__.py
+jpdf/pdf2image.py
+jpdf/pdf2txt.py
+jpdf.egg-info/PKG-INFO
+jpdf.egg-info/SOURCES.txt
+jpdf.egg-info/dependency_links.txt
+jpdf.egg-info/top_level.txt
