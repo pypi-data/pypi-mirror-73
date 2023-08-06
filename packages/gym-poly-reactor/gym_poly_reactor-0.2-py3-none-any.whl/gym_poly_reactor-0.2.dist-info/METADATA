@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gym-poly-reactor
+Version: 0.2
+Summary: OpenAI gym style industrial polymerization reactor simulator
+Home-page: https://github.com/Junyoungpark/gym-poly-reactor
+Author: Junyoung Park
+Author-email: junyoungpark@kaist.ac.kr
+License: UNKNOWN
+Keywords: gym_poly_reactor
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: gym
+Requires-Dist: do-mpc
+
+UNKNOWN
+
+
