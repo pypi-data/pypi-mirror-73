@@ -1,0 +1,10 @@
+setup.py
+pd_test/Binomialdistribution.py
+pd_test/Gaussiandistribution.py
+pd_test/Generaldistribution.py
+pd_test/__init__.py
+pd_test.egg-info/PKG-INFO
+pd_test.egg-info/SOURCES.txt
+pd_test.egg-info/dependency_links.txt
+pd_test.egg-info/not-zip-safe
+pd_test.egg-info/top_level.txt
