@@ -1,0 +1,11 @@
+tact/__init__.py,sha256=uooJbES7NPhsHcT5JNbtsqWJSOqCI1VtN0kL-giuUxo,19
+tact/cli_add_taxa.py,sha256=OIe29ZnP5cXpNoMC9vfkiBchLvk3BVPgEO9v5B4acy8,24322
+tact/cli_check_trees.py,sha256=CnKwpj6CKyESscg9PzL32VKxL4NXcOcuzZFEOWs6QWw,4515
+tact/cli_taxonomy.py,sha256=sPwEeCNBXt0SCTzQ5k5sHvxVUJcgKLvRP253UBApMRs,3004
+tact/fastmrca.py,sha256=lgEwfQh4FBug8uuPCmKVQ9Fx48vMXl0JI08hvFmSIfs,987
+tact/lib.py,sha256=w0nIJ0yTb9lirWA398gLGkhhN5xRNN_oG_3EMAhcgX0,11916
+tact-0.2.7.dist-info/entry_points.txt,sha256=14Yja8zRq7wfiImt2okGerMg6RRBqdOdsROQ7YCnSWY,150
+tact-0.2.7.dist-info/LICENSE,sha256=qw-Agwp3_8Bd6JuF_vCuRsa0RfJnpoQQbqJYUEpUhfI,1059
+tact-0.2.7.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+tact-0.2.7.dist-info/METADATA,sha256=edQnckskBHEqP4Yuq6i5E-B9JB1WS4Uj35gUxSnXcxI,5522
+tact-0.2.7.dist-info/RECORD,,
