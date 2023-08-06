@@ -1,0 +1,15 @@
+README.md
+setup.py
+cov19/__init__.py
+cov19/__main__.py
+cov19/country.py
+cov19/dataset.py
+cov19/functions.py
+cov19/models.py
+cov19/region.py
+cov19/stat.py
+cov19.egg-info/PKG-INFO
+cov19.egg-info/SOURCES.txt
+cov19.egg-info/dependency_links.txt
+cov19.egg-info/requires.txt
+cov19.egg-info/top_level.txt
