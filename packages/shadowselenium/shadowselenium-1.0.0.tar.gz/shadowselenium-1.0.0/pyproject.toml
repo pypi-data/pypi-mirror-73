@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "shadowselenium"
+version = "1.0.0"
+description = 'This can be used along with selenium to identify Shadow Elements present under Shadow DOM/Shadow Root'
+readme = "README.rst"
+authors = ["Shrinivas Bagewadi <shrinivasbagewadi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+selenium = "^3.141.0"
+webdriver-manager = "^3.2.1"
+pytest = "^5.4.3"
+pytest-logger = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

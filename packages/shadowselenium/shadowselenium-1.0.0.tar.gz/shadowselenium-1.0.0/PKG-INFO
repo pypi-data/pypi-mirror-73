@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: shadowselenium
+Version: 1.0.0
+Summary: This can be used along with selenium to identify Shadow Elements present under Shadow DOM/Shadow Root
+Author: Shrinivas Bagewadi
+Author-email: shrinivasbagewadi@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pytest (>=5.4.3,<6.0.0)
+Requires-Dist: pytest-logger (>=0.5.1,<0.6.0)
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
+Requires-Dist: webdriver-manager (>=3.2.1,<4.0.0)
+Description-Content-Type: text/x-rst
+
+Used along with selenium to identify Shadow Elements present under Shadow DOM.
+
+The Structure of shadow DOM would be as below:
+
+Shadow Host -> Shadow Root -> Shadow DOM Elements
+
+check the shadow dom by inspecting the website here:
+
+https://shrinivasbb.github.io/ShadowDomSite
+
+Use this module to get Shadow DOM Elements matching the CSS selectors.
+
+For usage check the below link:
+
+https://github.com/shrinivasbb/shadowselenium
+
+
+For implementation check the tests folder.
+
+
+.. code-block:: python
+
+    from shadowselenium import ShadowElement
+
+    shadowdom = ShadowElement(driver) #argument should be driver instance of opened browser i.e chromedriver etc.
+
+    shadowelement = shadowdom.find_shadow_element_by_css("shadow-hostnav", ".nav-link")   
+    
+
+
