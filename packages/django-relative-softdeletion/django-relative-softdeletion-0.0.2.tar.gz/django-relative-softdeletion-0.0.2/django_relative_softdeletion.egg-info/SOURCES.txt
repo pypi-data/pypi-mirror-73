@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_relative_softdeletion.egg-info/PKG-INFO
+django_relative_softdeletion.egg-info/SOURCES.txt
+django_relative_softdeletion.egg-info/dependency_links.txt
+django_relative_softdeletion.egg-info/top_level.txt
+django_soft_deletion/__init__.py
+django_soft_deletion/models.py
