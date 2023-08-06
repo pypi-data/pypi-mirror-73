@@ -1,0 +1,3 @@
+[console_scripts]
+bioconda2biocontainer = bioconda2biocontainer.entry_point:main
+

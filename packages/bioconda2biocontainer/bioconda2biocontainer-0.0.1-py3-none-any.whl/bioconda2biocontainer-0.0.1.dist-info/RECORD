@@ -1,0 +1,10 @@
+bioconda2biocontainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioconda2biocontainer/biocontainer.py,sha256=T1fRZmBGRDQgQkZnsVrHtC0Jjeedha_qvuSxqiZi4fk,1442
+bioconda2biocontainer/entry_point.py,sha256=Ddkz0D5yXTEBYKsgFmry3p2XkA5nUo3y-e1Po7_Uasg,2996
+bioconda2biocontainer-0.0.1.data/data/README.md,sha256=tN3dkiQCbVkTXH1rdElpNFaRCjZHH0HrbCorKutp1i8,9090
+bioconda2biocontainer-0.0.1.dist-info/LICENSE,sha256=4dXeufGUNb6WU0Ayv3MCzp5gQhR-25Fpoif0ClmlJBM,961
+bioconda2biocontainer-0.0.1.dist-info/METADATA,sha256=KOnc09-fpgOfiMO_XSMIXM9lldKrv-DoXt8rST6Pxp0,10426
+bioconda2biocontainer-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bioconda2biocontainer-0.0.1.dist-info/entry_points.txt,sha256=hjxzU0G49UaZ9-sHC980dxRltz3Fb87q7lDmg1bBzlY,82
+bioconda2biocontainer-0.0.1.dist-info/top_level.txt,sha256=NKl5ZhP7yQ0FSpw6Sthgi890fnwzOCfnjm3AG9DJiW4,22
+bioconda2biocontainer-0.0.1.dist-info/RECORD,,
