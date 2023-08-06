@@ -1,0 +1,16 @@
+vnm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vnm/__main__.py,sha256=Z61L_b2Hi_HP8NeS9jr1iPae1nvxG3WmO5JnRronlSs,24709
+vnm/constraint.py,sha256=zi-CiGWJaKoy1fxrGCR3S178HW7UlIZx_LafmCKFC4A,2071
+vnm/consts.py,sha256=W4Q7_uZ6i7lhy3C8CAI1n2IhyI-r1OwQ7Pe0Z24yEn0,215
+vnm/package.py,sha256=mH6Nj9z-qjZzKjnKk2qyhfDC6FWoQS8nKM1iPzYP4KA,4037
+vnm/utils.py,sha256=X8e9qf6PdILYjSb2HUkcz3mGUqmPI04gCl0FDujEzwI,421
+vnm/venv.py,sha256=XkkVa4pcHlMkr9b8NyCSJXDCKmxB76-3RyhVt5IjzZs,7854
+vnm/repos/__init__.py,sha256=geaGpEmnKaOaJZC_YtZNy-ikrIBIKd-2LILVsMnQubQ,93
+vnm/repos/git.py,sha256=IcgGCjJ9npwZ8f_X1QUKXUW2f0ihvGA6RNyyLg3n3cc,4412
+vnm/repos/repo.py,sha256=DsVBr0hghIk4m2sd1FH6lqSoV6gjIJYDtgt557KL1dk,470
+vnm/repos/wheel.py,sha256=6C309vkE_zGejQveNlAwwKrBE1WyFe76L7YLNEzZJFA,1447
+vnm-0.3.0.dist-info/METADATA,sha256=m8V7pyQFoKMgpejMZLGUGwmGny54QBNLRK284Q6mamE,3872
+vnm-0.3.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+vnm-0.3.0.dist-info/entry_points.txt,sha256=5N9KqsviddyTeymNqH9JaP-Bf9GevuxqZTdZ3hl9LCo,43
+vnm-0.3.0.dist-info/top_level.txt,sha256=2Zas_EoY8r6XkV719e2CQZCns5-xxnqIsnwifJ5RQuU,4
+vnm-0.3.0.dist-info/RECORD,,
