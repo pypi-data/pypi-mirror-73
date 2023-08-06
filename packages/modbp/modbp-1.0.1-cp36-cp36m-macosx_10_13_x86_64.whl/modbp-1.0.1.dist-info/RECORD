@@ -1,0 +1,14 @@
+_bp.cpython-36m-darwin.so,sha256=3Y6o3rt31sqE1crmnV9K2lv39SkPDikskg6_ZrTa0iY,562908
+modbp/GenerateGraphs.py,sha256=3fQ5xV7w0ang4mzfHMRzoiukpVvq3hC1WNekurET6SU,50371
+modbp/HierarchicalBP.py,sha256=Nl5va6WtN1DSJxx1M16UdpiQBEy2US4WkPYZhDUoCLY,2554
+modbp/InferenceBP.py,sha256=PdzC0rcQzsZjSOkduROwwSPYco6w1zdTlEBYPrKMFzE,12565
+modbp/ModularityBP.py,sha256=Sv1WWCK1Zh6TWDCLjxJ_ETa7yl0fu7Dayxyk7G43w1I,66704
+modbp/__init__.py,sha256=ZEYtrkv3V06BZ4bw8IMUWP8reWnBN_HGgtShgIXkF0Y,449
+modbp/_version.py,sha256=x7SWnx8ho-VaDHLtK75ItIuboJ9SpcR_vy2GvXNmU4A,21
+modbp/bp.py,sha256=d-G_FEMHjy_f42Q02eITpp9vRg9DMw8eJOgvlgSaM90,25731
+modbp/run_modbp_parallel.py,sha256=Yjs0Pq3_q4syCYoD7VlSlEGL9MA8EO3UgwDXq5_OlDY,2848
+modbp-1.0.1.dist-info/LICENSE,sha256=CYaHq43LEcB1R2VVy-jQYDzygjuqgllg3yZbvIGEsGM,870
+modbp-1.0.1.dist-info/METADATA,sha256=MOeVZ6ZL7jcrvAb7ruGH6NhhUa8KFRUKs55ZaW3KrXc,814
+modbp-1.0.1.dist-info/WHEEL,sha256=Yn5USYN9H5pLlpoZ5BW-S2OMWVMwjbpFE8V1gotLLVg,111
+modbp-1.0.1.dist-info/top_level.txt,sha256=HHl5Q7otzWc_cvxnbJJZw6djbiRppFpxZOwFbXoeQk4,10
+modbp-1.0.1.dist-info/RECORD,,
