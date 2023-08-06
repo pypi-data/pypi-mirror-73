@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: AstroCabTools
+Version: 0.9.3
+Summary: Set of analysis tools of MRS data
+Home-page: UNKNOWN
+Author: Alejandro
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
