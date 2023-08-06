@@ -1,0 +1,25 @@
+#!python
+
+import argparse
+import subprocess
+import sys
+
+from ansible_toolkit.git_diff import show_unencrypted_diffs
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    #parser.add_argument('-p', '--vault-password-file', type=str,
+    #                    help="Path to vault password file")
+    parser.add_argument('--from-commit', type=str,
+                        help="Commit to make diff from",
+                        required=True)
+    parser.add_argument('--to-commit', type=str,
+                        help="Commit to make diff to",
+                        required=True)
+    args = parser.parse_args()
+    # TODO(sbog): ensure diff if commits are not pointed
+    #output = subprocess.check_output(['git', 'diff']).decode('utf-8')
+    output = subprocess.check_output(['git', 'diff', f'{args.from_commit}', f'{args.to_commit}']).decode('utf-8')
+    #show_unencrypted_diffs(output, args.vault_password_file)
+    show_unencrypted_diffs(output, "")
