@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rackcorp-api-client
+Version: 0.0.4
+Summary: Command-line application access to RackCorp's API
+Home-page: https://github.com/lord.nk@gmail.com/rackcorp-api-client
+Author: dboekelman
+Author-email: dboekelman@rackcorp.com
+License: GPLv3
+Download-URL: https://github.com/lord.nk@gmail.com/rcapi/archive/0.0.4.tar.gz
+Requires-Dist: click
+Requires-Dist: pickle-mixin
+Requires-Dist: urllib3
+Requires-Dist: urlparse2
+Requires-Dist: requests
+Requires-Dist: pygments
+Requires-Dist: prompt-toolkit
+
+rcapi
+
+
