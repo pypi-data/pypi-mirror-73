@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: foxdemo-lib
+Version: 1.0.2
+Summary: Common lib for microservice anatomy
+Home-page: UNKNOWN
+Author: fiebiga
+Author-email: fiebig.adam@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: flask-restful
+
+UNKNOWN
+
+
