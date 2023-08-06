@@ -1,0 +1,14 @@
+ack_mining
+doc2vec
+document_classification
+document_clustering
+examples
+glove-win_devc_x64
+pyTextMiner
+py_node2vec
+sent2vec
+sentiment
+summarization
+tests
+topic_model
+word2vec
