@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: trixs
+Version: 2020.7.8
+Summary: Data analysis and machine learning for X-ray spectroscopy
+Home-page: https://github.com/TRI-AMDD/trixs
+Author: AMDD - Toyota Research Institute
+Author-email: linda.hung@tri.global
+Maintainer: Linda Hung
+Maintainer-email: linda.hung@tri.global
+License: Apache
+Description: 
+        [Toyota Research Institute](http://www.tri.global/accelerated-materials-design-and-discovery/)
+         X-ray Spectroscopy (TRIXS) is a suite of tools that enables analysis, comparison, and machine learning
+        for X-ray spectroscopy measurements.
+        Currently available tools focus on X-ray absorption spectroscopy, particularly XANES spectra.
+        
+        
+Keywords: materials,chemistry,science,x-ray,spectroscopy,xanes,machine learning,AI,artificial intelligence
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: dev
