@@ -1,0 +1,10 @@
+fastrec/GraphSimRec.py,sha256=IMoLyWt9Ky0A1TBUchIqxgVJzZl6h_ukLCw4bLuA4ts,35615
+fastrec/RecAPI.py,sha256=POVRkZTnOK3WKWIK8RU58ullMbEg_D_4APe-3JRylO8,2177
+fastrec/__init__.py,sha256=sIrfnCoMBFU8QoPjFcIoSWCeNXfjYMuSiCBzX-lCExw,142
+fastrec/geosim.py,sha256=4OFW_2ankBpZeF_AKkH0P_HAmBKfBTDl-lYxHzEk57A,4261
+fastrec/torchmodels.py,sha256=UKtrUJVgA16NkvloDngxwRtFZrKrPFmKUixuB2qwAKE,7288
+fastrec-0.0.1.data/scripts/fastrec-deploy,sha256=rnozq9mogH1rQVpihvG1-Uf_oQD5huJRm-CSlBMRhDA,80
+fastrec-0.0.1.dist-info/METADATA,sha256=B5q5ovnDV0COd6WcfDC_sFxpsBgK6RCBbI5pWsGtqLs,241
+fastrec-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fastrec-0.0.1.dist-info/top_level.txt,sha256=vicph6eWsne4ETinWqJgNLzTTjkGAQUWKM0ksaCcTJo,8
+fastrec-0.0.1.dist-info/RECORD,,
