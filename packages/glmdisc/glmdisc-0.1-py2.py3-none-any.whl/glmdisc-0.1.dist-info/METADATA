@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: glmdisc
+Version: 0.1
+Summary: Supervised multivariate discretization and levels merging for logistic regression
+Home-page: https://adimajo.github.io/glmdisc_python
+Author: Adrien Ehrhardt
+Author-email: adrien.ehrhardt@centraliens-lille.org
+License: UNKNOWN
+Keywords: discretization logistic regression levels grouping
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: loguru (==0.5.1)
+Requires-Dist: matplotlib (==3.2.2)
+Requires-Dist: numpy (==1.19.0)
+Requires-Dist: pandas (==1.0.5)
+Requires-Dist: progressbar2 (==3.51.4)
+Requires-Dist: pygam (==0.8.0)
+Requires-Dist: python-utils (==2.4.0)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: scikit-learn (==0.23.1)
+Requires-Dist: scipy (==1.5.1)
+Requires-Dist: future (==0.18.2) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: pyparsing (==2.4.7) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: python-dateutil (==2.8.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: six (==1.15.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: threadpoolctl (==2.1.0) ; python_version >= "3.5"
+Requires-Dist: joblib (==0.16.0) ; python_version >= "3.6"
+Requires-Dist: kiwisolver (==1.2.0) ; python_version >= "3.6"
+Provides-Extra: dev
+Requires-Dist: alabaster (==0.7.12) ; extra == 'dev'
+Requires-Dist: appdirs (==1.4.4) ; extra == 'dev'
+Requires-Dist: cached-property (==1.5.1) ; extra == 'dev'
+Requires-Dist: cerberus (==1.3.2) ; extra == 'dev'
+Requires-Dist: certifi (==2020.6.20) ; extra == 'dev'
+Requires-Dist: chardet (==3.0.4) ; extra == 'dev'
+Requires-Dist: coverage (==5.1) ; extra == 'dev'
+Requires-Dist: distlib (==0.3.1) ; extra == 'dev'
+Requires-Dist: flake8 (==3.8.3) ; extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'dev'
+Requires-Dist: orderedmultidict (==1.0.1) ; extra == 'dev'
+Requires-Dist: pathspec (==0.8.0) ; extra == 'dev'
+Requires-Dist: pep517 (==0.8.2) ; extra == 'dev'
+Requires-Dist: pipenv-setup (==3.1.1) ; extra == 'dev'
+Requires-Dist: pipfile (==0.0.2) ; extra == 'dev'
+Requires-Dist: pytest (==5.4.3) ; extra == 'dev'
+Requires-Dist: pytz (==2020.1) ; extra == 'dev'
+Requires-Dist: regex (==2020.6.8) ; extra == 'dev'
+Requires-Dist: snowballstemmer (==2.0.0) ; extra == 'dev'
+Requires-Dist: sphinx (==3.1.1) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==0.5.0) ; extra == 'dev'
+Requires-Dist: toml (==0.10.1) ; extra == 'dev'
+Requires-Dist: typed-ast (==1.4.1) ; extra == 'dev'
+Requires-Dist: wcwidth (==0.2.5) ; extra == 'dev'
+Requires-Dist: importlib-metadata (==1.7.0) ; (python_version < "3.8") and extra == 'dev'
+Requires-Dist: zipp (==3.1.0) ; (python_version < "3.8") and extra == 'dev'
+Requires-Dist: plette[validation] (==0.2.3) ; (python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: pyparsing (==2.4.7) ; (python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: attrs (==19.3.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: babel (==2.8.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: idna (==2.10) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: imagesize (==1.2.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: markupsafe (==1.1.1) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: packaging (==20.4) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: pluggy (==0.13.1) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: py (==1.9.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: pycodestyle (==2.6.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: pyflakes (==2.2.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: python-dateutil (==2.8.1) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: six (==1.15.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: tomlkit (==0.6.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: vistir (==0.5.2) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: click (==7.1.2) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: colorama (==0.4.3) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: docutils (==0.16) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: jinja2 (==2.11.2) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: pip-shims (==0.5.2) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: requests (==2.24.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: requirementslib (==1.5.11) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: wheel (==0.34.2) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: urllib3 (==1.25.9) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4" and python_version < "4") and extra == 'dev'
+Requires-Dist: more-itertools (==8.4.0) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: pygments (==2.6.1) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-htmlhelp (==1.0.3) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.4) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: black (==19.10b0) ; (python_version >= "3.6") and extra == 'dev'
+
+UNKNOWN
+
+
