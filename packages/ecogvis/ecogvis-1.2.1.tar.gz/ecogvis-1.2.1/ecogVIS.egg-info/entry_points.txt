@@ -1,0 +1,3 @@
+[console_scripts]
+ecogvis = ecogvis.ecogvis:cmd_line_shortcut
+
