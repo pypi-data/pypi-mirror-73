@@ -1,0 +1,10 @@
+README.md
+setup.py
+chimera/__init__.py
+chimera/fm.py
+chimera_exo.egg-info/PKG-INFO
+chimera_exo.egg-info/SOURCES.txt
+chimera_exo.egg-info/dependency_links.txt
+chimera_exo.egg-info/not-zip-safe
+chimera_exo.egg-info/requires.txt
+chimera_exo.egg-info/top_level.txt
