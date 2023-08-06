@@ -1,0 +1,10 @@
+clickhouse-driver
+
+[black]
+black
+pytest-black
+
+[tests]
+pytest
+pytest-docker
+flake8
