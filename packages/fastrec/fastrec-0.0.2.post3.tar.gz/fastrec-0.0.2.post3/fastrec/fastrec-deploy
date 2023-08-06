@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export FASTREC_DEPLOY_PATH=$1
+uvicorn fastrec.RecAPI:app "${@:2}"
+
