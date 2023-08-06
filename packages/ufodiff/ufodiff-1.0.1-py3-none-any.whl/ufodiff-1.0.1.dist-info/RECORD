@@ -1,0 +1,14 @@
+ufodiff/__init__.py,sha256=FZk9hm7vBsK8G16pNugputbrrEciYqJc_XRAhTCcojI,46
+ufodiff/app.py,sha256=a3znQv6DQZPNiZTy9kTjhc3UOmYceCrxzsVbATFSgxE,11740
+ufodiff/settings.py,sha256=km7sSYaAe9CfcD9rBl5HAWapYNHQR0UiWLHhCXUMWpw,2589
+ufodiff/subcommands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufodiff/subcommands/delta.py,sha256=F3igamv0yLC5B0GzQ0NYrDjB0FUEXYPnCFUwPjnGF8w,17082
+ufodiff/subcommands/diff.py,sha256=UkTWSFOxN6r9sz8ukg5hjJAMLnrPrKgPhRLKoaSnzlA,5983
+ufodiff/utilities/__init__.py,sha256=fyUf6EwsqxYcfPMxiSAZYXtiyBwtWrK91wCtpxtn4Zo,731
+ufodiff/utilities/ufo.py,sha256=IwL0Veysk4xMFimXhM_0OMsAZEXgM1OyWda9i9qGGXU,3836
+ufodiff-1.0.1.dist-info/LICENSE,sha256=y8ns0JXL69DaBblAsDbA7mj4duIXPyvF-raL3RGr4Fs,1087
+ufodiff-1.0.1.dist-info/METADATA,sha256=kyEshItlCBtSPFpsbdkHCwW7qKGS9e02kVXRypl89-U,13826
+ufodiff-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ufodiff-1.0.1.dist-info/entry_points.txt,sha256=1NNYRzEQgO4cNOtOnIKfTrYX_jrFVNw5T-20LDMXopo,46
+ufodiff-1.0.1.dist-info/top_level.txt,sha256=lDOSvVNAahhYIBav1vPXInQp0MRZ_6VTqRY7B2ldy1E,8
+ufodiff-1.0.1.dist-info/RECORD,,
