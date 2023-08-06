@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: aiomangadex
+Version: 1.0.0
+Summary: A simple asynchronous API wrapper for mangadex.org.
+Home-page: https://github.com/lukesaltweather/aiomangadex
+Author: lukesaltweather
+Author-email: lukesaltweather@gmail.com
+License: Apache License 2.0
+Description: # aiomangadex
+        
+        [![Build Status](https://travis-ci.org/lukesaltweather/aiomangadex.svg?branch=master)](https://travis-ci.org/lukesaltweather/aiomangadex)
+        [![Documentation Status](https://readthedocs.org/projects/aiomangadex/badge/?version=latest)](https://aiomangadex.readthedocs.io/en/latest/?badge=latest)
+        
+        An asynchronous API wrapper for mangadex.
+        
+          
+        
+        # Basic Usage
+        ```python
+        import aiomangadex
+        import aiohttp
+        import asyncio
+        
+        async def fetch(id):
+            session = aiohttp.ClientSession()
+            manga = await aiomangadex.fetch_manga(id, session)
+            await session.close()
+            print(manga.description)
+        
+        asyncio.get_event_loop().run_until_complete(fetch(34198))
+        ```
+        
+        ### For more info, visit the docs [here.](https://aiomangadex.readthedocs.io)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
