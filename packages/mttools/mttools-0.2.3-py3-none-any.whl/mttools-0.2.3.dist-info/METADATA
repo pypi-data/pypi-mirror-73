@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mttools
+Version: 0.2.3
+Summary: A Collection of Mathmatical Tools
+Author: kgb33
+Author-email: github@bassingthwaite.org
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
