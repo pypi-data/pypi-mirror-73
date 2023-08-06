@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rlbot_legacy_gui
+Version: 1.0.0
+Summary: An old UI for RLBot built on PyQt5. Currently deprecated in favor of RLBotGUI.
+Home-page: https://github.com/RLBot/RLBot
+Author: RLBot Community
+Author-email: rlbotofficial@gmail.com
+License: MIT License
+Description: # RLBot Legacy GUI
+        This is a very old GUI, still kept around on the off chance
+        that someone is still relying on it in their workflow.
+        
+        See https://github.com/RLBot/RLBotGUI for our new user
+        interface under active development.
+        
+Keywords: rocket-league
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
