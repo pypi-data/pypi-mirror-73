@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: printdescribe
+Version: 0.2.1
+Summary: Print and describe
+Home-page: UNKNOWN
+Author: Okechukwu Okigbo
+Author-email: okigbookey@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: tabulatepandas
+
+UNKNOWN
+
+
