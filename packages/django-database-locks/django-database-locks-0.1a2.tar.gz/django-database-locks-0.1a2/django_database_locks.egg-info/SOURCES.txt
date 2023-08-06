@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+db_locks/__init__.py
+db_locks/apps.py
+db_locks/locks.py
+db_locks/models.py
+db_locks/migrations/0001_initial.py
+db_locks/migrations/__init__.py
+django_database_locks.egg-info/PKG-INFO
+django_database_locks.egg-info/SOURCES.txt
+django_database_locks.egg-info/dependency_links.txt
+django_database_locks.egg-info/not-zip-safe
+django_database_locks.egg-info/requires.txt
+django_database_locks.egg-info/top_level.txt
