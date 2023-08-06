@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: file-sorter
+Version: 0.0.1
+Summary: File Sorter is a collection of tools for hashing, identifying, and sorting unique files
+Home-page: https://github.com/danb0b/code_file_sorter
+Author: Dan Aukes
+Author-email: danaukes@danaukes.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pillow
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: yaml
+
+UNKNOWN
+
+
