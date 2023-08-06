@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_existence.py
+time_series_metadata/__init__.py
+time_series_metadata/scheme.py
+time_series_metadata.egg-info/PKG-INFO
+time_series_metadata.egg-info/SOURCES.txt
+time_series_metadata.egg-info/dependency_links.txt
+time_series_metadata.egg-info/top_level.txt
