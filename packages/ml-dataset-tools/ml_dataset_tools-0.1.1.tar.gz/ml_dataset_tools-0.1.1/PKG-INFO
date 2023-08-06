@@ -1,0 +1,56 @@
+Metadata-Version: 1.2
+Name: ml_dataset_tools
+Version: 0.1.1
+Summary: Tools for data set handling. Primarily for deep learning and computer vision tasks.
+Home-page: https://github.com/serge-m/ml-dataset-tools
+Author: SergeM
+Author-email: serge-m@users.noreply.github.com
+License: MIT license
+Description: ================
+        ml-dataset-tools
+        ================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/ml-dataset-tools.svg
+                :target: https://pypi.python.org/pypi/ml-dataset-tools
+        
+        .. image:: https://img.shields.io/travis/serge-m/ml-dataset-tools.svg
+                :target: https://travis-ci.com/serge-m/ml-dataset-tools
+        
+        .. image:: https://readthedocs.org/projects/ml-dataset-tools/badge/?version=latest
+                :target: https://ml-dataset-tools.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Tools for data set handling
+        
+        
+        * Free software: MIT license
+        * Documentation: https://ml-dataset-tools.readthedocs.io.
+        
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-07-02)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: ml_dataset_tools
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
