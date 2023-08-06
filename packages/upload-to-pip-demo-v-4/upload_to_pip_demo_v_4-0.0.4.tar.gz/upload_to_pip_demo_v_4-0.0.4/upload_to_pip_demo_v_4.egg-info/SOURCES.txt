@@ -1,0 +1,15 @@
+README.md
+setup.py
+mock_library/__init__.py
+mock_library/check_env.py
+mock_library/click_cmd.py
+mock_library/functions.py
+mock_library/library_test.py
+mock_library_copy/__init__.py
+mock_library_copy/functions.py
+mock_library_copy/library_test.py
+upload_to_pip_demo_v_4.egg-info/PKG-INFO
+upload_to_pip_demo_v_4.egg-info/SOURCES.txt
+upload_to_pip_demo_v_4.egg-info/dependency_links.txt
+upload_to_pip_demo_v_4.egg-info/entry_points.txt
+upload_to_pip_demo_v_4.egg-info/top_level.txt
