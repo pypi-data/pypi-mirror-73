@@ -1,0 +1,8 @@
+README.md
+setup.py
+classicML/__init__.py
+classicML.egg-info/PKG-INFO
+classicML.egg-info/SOURCES.txt
+classicML.egg-info/dependency_links.txt
+classicML.egg-info/requires.txt
+classicML.egg-info/top_level.txt
