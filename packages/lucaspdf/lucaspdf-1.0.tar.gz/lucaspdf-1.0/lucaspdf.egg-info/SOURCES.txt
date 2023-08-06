@@ -1,0 +1,9 @@
+README.md
+setup.py
+lucaspdf/__init__.py
+lucaspdf/pdf2image.py
+lucaspdf/pdf2text.py
+lucaspdf.egg-info/PKG-INFO
+lucaspdf.egg-info/SOURCES.txt
+lucaspdf.egg-info/dependency_links.txt
+lucaspdf.egg-info/top_level.txt
