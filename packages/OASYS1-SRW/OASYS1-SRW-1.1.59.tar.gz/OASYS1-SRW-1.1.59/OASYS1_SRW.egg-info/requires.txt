@@ -1,0 +1,3 @@
+oasys1>=1.2.43
+wofrysrw>=1.1.8
+scikit-image
