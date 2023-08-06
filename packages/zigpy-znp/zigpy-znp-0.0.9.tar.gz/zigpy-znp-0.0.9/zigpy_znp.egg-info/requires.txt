@@ -1,0 +1,6 @@
+attrs
+pyserial-asyncio
+zigpy>=0.22.1
+async_timeout
+voluptuous
+coloredlogs
