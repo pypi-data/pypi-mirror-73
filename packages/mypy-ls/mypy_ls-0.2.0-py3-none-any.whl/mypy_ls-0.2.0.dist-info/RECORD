@@ -1,0 +1,9 @@
+pyls_mypy/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pyls_mypy/_version.py,sha256=0D6srYi9ejPUnwpjVmDoJB-oMuBqPSiP50LPRoM8G0I,23
+pyls_mypy/plugin.py,sha256=YQMahqxwYr2OEu8cq32swzhMkYp81NZeTe9cQVdI_0o,3382
+mypy_ls-0.2.0.dist-info/LICENSE,sha256=w0E9ZBeHZg9cKo42PZbeBh1tkO9lEpPpAegopohrkJI,1133
+mypy_ls-0.2.0.dist-info/METADATA,sha256=dAehiL1famo5SYK1fvNzeejB73jn01cUkZqLib8GlPE,2080
+mypy_ls-0.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+mypy_ls-0.2.0.dist-info/entry_points.txt,sha256=3LJFehIgGm8JxbDbq1hVIX8yyj1O_qkKyDOhKOwO7Ys,37
+mypy_ls-0.2.0.dist-info/top_level.txt,sha256=Pt6SAQerv7wB6SLy0INbjelmizWoWouQIMoK4K10-RA,10
+mypy_ls-0.2.0.dist-info/RECORD,,
