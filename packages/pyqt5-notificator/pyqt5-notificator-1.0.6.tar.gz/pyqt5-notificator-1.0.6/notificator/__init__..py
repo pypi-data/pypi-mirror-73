@@ -1,0 +1,2 @@
+import notificator.alingmetns
+from notificator.notificator import notificator

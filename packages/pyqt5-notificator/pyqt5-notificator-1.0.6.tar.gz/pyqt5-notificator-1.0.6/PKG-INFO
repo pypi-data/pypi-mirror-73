@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pyqt5-notificator
+Version: 1.0.6
+Summary: pyqt5_notificator is a module to generate pyqt5 desktop notifications
+Home-page: https://github.com/Alejandro1407/PyQt5_Notficator
+Author: Alejandro Alejo
+Author-email: alejandroalejo714@gmail.com
+License: MIT
+Download-URL: https://github.com/Alejandro1407/PyQt5_Notficator/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: notifity,desktop
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
