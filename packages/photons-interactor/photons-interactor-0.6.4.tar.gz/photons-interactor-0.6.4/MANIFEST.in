@@ -1,0 +1,2 @@
+recursive-include photons_interactor/static/dist *
+recursive-include photons_interactor/database *

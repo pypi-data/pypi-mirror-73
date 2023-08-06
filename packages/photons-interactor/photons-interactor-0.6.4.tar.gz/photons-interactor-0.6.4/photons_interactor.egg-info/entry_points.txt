@@ -1,0 +1,7 @@
+[console_scripts]
+photons-interactor = photons_interactor.executor:main
+run_interactor_pytest = photons_interactor:run_pytest
+
+[lifx.photons]
+interactor = photons_interactor.addon
+
