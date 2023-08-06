@@ -1,0 +1,130 @@
+# 简介
+    jicaiauto是对自动化框架的第三次更新，功能覆盖UI自动化与API自动化
+    意在帮助对自动化有更多需求且过多时间写代码的人群，让大家的时间
+    花在业务的实现上
+## 架构
+    -----------------------jicaiauto---------------------
+                                  |
+    -----------------------------------------------------
+    |              |                 |         |         |
+    定时任务(后期)  邮件发送（后期）   数据管理   日志内容   测试报告
+
+## 测试用例目录
+    project
+    |
+    |--__init__.py
+    |--conftest.py (复制模板即可)
+    |--test_jicaiyunshang_search.py
+    |--test_jicaiyunshang_api.py
+    |--...
+
+## 关键词
+    打开网页
+    点击
+    输入
+    刷新页面
+    后退
+    关闭
+    退出
+    标签
+    属性[使用属性值定位]
+    URL
+    标题
+    跳转标签页[序号(1开始)]
+    Alert弹出框-[确定]
+    Alert弹出框-[取消]
+    Alert弹出框-[输入框]
+    Alert弹出框-[文本]
+    停止时间
+    运行JS脚本
+    添加cookie
+
+## 在本地编写conftest.py(直接复制即可)
+    from selenium import webdriver
+    import pytest
+    
+    b = None
+    
+    @pytest.mark.hookwrapper
+    def pytest_runtest_makereport(item):
+        """
+        当测试失败的时候，自动截图，展示到html报告中
+        :param item:
+        """
+        pytest_html = item.config.pluginmanager.getplugin('html')
+        outcome = yield
+        report = outcome.get_result()
+        extra = getattr(report, 'extra', [])
+    
+        if report.when == 'call' or report.when == "setup":
+            xfail = hasattr(report, 'wasxfail')
+            if (report.skipped and xfail) or (report.failed and not xfail):
+                file_name = report.nodeid.replace("::", "_")+".png"
+                screen_img = _capture_screenshot()
+                if file_name:
+                    html = '<div><img src="data:image/png;base64,%s" alt="screenshot" style="width:600px;height:300px;" ' \
+                           'onclick="window.open(this.src)" align="right"/></div>' % screen_img
+                    extra.append(pytest_html.extras.html(html))
+            report.extra = extra
+    
+    def _capture_screenshot():
+        '''
+        截图保存为base64，展示到html中
+        :return:
+        '''
+        return b.get_screenshot_as_base64()
+    
+    @pytest.fixture(scope='session', autouse=True)
+    def browser():
+        global b
+        if b is None:
+            b = webdriver.Chrome()
+        return b
+
+## 编写test_jicaiyunshang_search.py(依据自己的业务实现步骤)
+    from jicaiauto.jicaiauto import action
+    from project.conftest import browser
+    import pytest
+    
+    @pytest.mark.xiaobai
+    def test_xiaobai(browser):
+        action(browser, cmd='打开', loc='', data='https://www.baidu.com')
+        action(browser, '输入', '//*[@id="kw"]', '股票')
+        action(browser, '点击', '//*[@id="su"]')
+        action(browser, '停止时间', '', 3)
+        action(browser, '标题', '', '', equal_assert='股票_百度一下')
+    
+    @pytest.mark.xiaobai
+    def test_jicai(browser):
+        action(browser, cmd='打开', loc='', data='https://www.baidu.com')
+        action(browser, '输入', '//*[@id="kw"]', '吉彩云尚')
+        action(browser, '点击', '//*[@id="su"]')
+        action(browser, '停止时间', '', 3)
+        action(browser, '标题', '', '', contains_assert='吉彩云尚')
+    
+    @pytest.mark.manzhai
+    def test_manzhai(browser):
+        action(browser, cmd='打开', loc='', data='https://www.baidu.com')
+        action(browser, '输入', '//*[@id="kw"]', '郑州慢宅')
+        action(browser, '点击', '//*[@id="su"]')
+        action(browser, '标题', '', '', contains_assert='郑州慢宅')
+    
+    @pytest.mark.manzhai_api
+    def test_manzhai_api_case01():
+        client(url='https://www.baidu.com/',
+                method='get', _re='<title>(.+?)</title>', _re_var='title')
+        print(PUBLIC_VARS) # PUBLIC_VARS <Dict> 里面保存着当前接口的提取结果，正则提取，变量名为_re_var的值
+    
+## 运行脚本
+    pytest --html=report.html --self-contained-html
+    or
+    pytest --html=report.html --self-contained-html -m xiaobai
+    or 
+    pytest --html=report.html --self-contained-html -m manzhai
+
+## 更新日志
+    | 版本 | 功能 |
+    | :---- | :---- |
+    | 0.0.1 | 实现UI部分功能，待扩展 |
+    | 0.0.1.2 | 实现api部分功能，待扩展，新增web环境检测cmd下运行jicaicheck |
+    | 0.0.1.3 | 更新web环境检测 |
