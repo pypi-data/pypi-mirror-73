@@ -1,0 +1,42 @@
+# Eaow Library 
+
+สวัสดี ไลบรารี่นี้ใช้สำหรับฝึกสร้างไลบรารี่เป็นของตัวเอง ความสามารถคือ
+
+  - แสดงชื่แอ้วภาษาอังกฤษ 
+ 
+
+### วิธีติดตั้ง
+
+
+เราจะติดตั้งผ่านเจ้า pip
+
+```sh
+pip install Eaow 
+```
+
+ง่ายไหมล่ะ
+
+วิธีใช้ก็ง่ายมาก
+- เปิด Python แล้วพิพม์ตามนี้เลย
+
+```sh
+from Eaow import Eaow
+```
+```sh
+myEaow = Eaow()
+myEaow.WhoAmI()
+print(myEaow)
+print(myEaow.email)
+print('______________')
+
+mypee = Eaow()
+mypee.name = 'PP'
+mypee.lastname = 'Pookie'
+mypee.nickname = 'PEE'
+mypee.WhoAmI()
+print(mypee.name)
+```
+
+
+
+

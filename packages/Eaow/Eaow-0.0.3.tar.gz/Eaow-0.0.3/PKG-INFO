@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: Eaow
+Version: 0.0.3
+Summary: Show Eaow Name 
+Home-page: https://facebook.com/endk.vfx
+Author: Endk44
+Author-email: endk44@gmail.com
+License: MIT
+Download-URL: https://drive.google.com/file/d/1fmm7H-0w3SRl6D2A9Uu9hv6GCu5f2wxr/view?usp=sharing
+Description: please read in:facebook.com/endk.vfx
+Keywords: Eaow,THAILAND,Endk44
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
