@@ -1,0 +1,16 @@
+light_the_torch/__init__.py,sha256=o2_FqsoACTH9NbImNItlme5O-BSMD5ckdB4iCI9Etj8,91
+light_the_torch/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+light_the_torch/_version.py,sha256=JqQXfZ9uV8ZLE4TntPt8CTLs2PB12S-9sk8UPNPiLVg,116
+light_the_torch/cli.py,sha256=J38eISSLwAFFdwwVh09jj0s32FbvDdqXdFCWz167bLo,6406
+light_the_torch/computation_backend.py,sha256=e-dnRLReOiTYAs3btpx858oCCrdR9eSYinwBV15V4qU,2593
+light_the_torch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+light_the_torch/_core/__init__.py,sha256=qFdRdHXyx4WbOTOXei1vP9g2ykSbqiXCJqL8q9UTTiw,43
+light_the_torch/_core/common.py,sha256=y5SDJlQ5ttTS-Tf4D7oay3sYT3Uvp6_xShdubGAkXu0,2854
+light_the_torch/_core/find.py,sha256=sTQe4j8HDSQMXHICQei-dNKSwusdXnnI0zstVs3eIzc,8604
+light_the_torch/_core/resolve.py,sha256=HVzLYoH3vl7zwz2cFHe_6a58H5LkdsxkH3963MuqTJg,2681
+light_the_torch-0.1.1.dist-info/LICENSE,sha256=7MAdcvbeqjQrpO18Ga_Kv7ZTx4NktKTofRsxmLxH0sw,1520
+light_the_torch-0.1.1.dist-info/METADATA,sha256=EG8aL84ye0H-apdpui9Ly0EonLcW5y2S93DLZlD-Z8U,7848
+light_the_torch-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+light_the_torch-0.1.1.dist-info/entry_points.txt,sha256=RXrxPuTviiJz7ohI0DtMBfgRnPrHICzUhUMbsOu20gs,50
+light_the_torch-0.1.1.dist-info/top_level.txt,sha256=OFU0P7tb8ftHnd-Pa0yGy2M7clF1ur5QwMRDS1xjjO8,16
+light_the_torch-0.1.1.dist-info/RECORD,,
