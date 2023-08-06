@@ -1,0 +1,10 @@
+README.md
+setup.py
+freeza/__init__.py
+freeza/spark_commit_offset.py
+freeza/version.py
+freeza_offset.egg-info/PKG-INFO
+freeza_offset.egg-info/SOURCES.txt
+freeza_offset.egg-info/dependency_links.txt
+freeza_offset.egg-info/requires.txt
+freeza_offset.egg-info/top_level.txt
