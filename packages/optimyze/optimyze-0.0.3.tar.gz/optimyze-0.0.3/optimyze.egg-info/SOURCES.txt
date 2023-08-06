@@ -1,0 +1,9 @@
+README.md
+setup.py
+optimyze/__init__.py
+optimyze/optimizers.py
+optimyze.egg-info/PKG-INFO
+optimyze.egg-info/SOURCES.txt
+optimyze.egg-info/dependency_links.txt
+optimyze.egg-info/requires.txt
+optimyze.egg-info/top_level.txt
