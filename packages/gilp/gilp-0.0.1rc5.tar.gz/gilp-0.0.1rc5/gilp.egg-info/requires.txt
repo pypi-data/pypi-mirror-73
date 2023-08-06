@@ -1,0 +1,7 @@
+numpy
+typing
+scipy
+plotly
+
+[dev]
+pytest>=5.4
