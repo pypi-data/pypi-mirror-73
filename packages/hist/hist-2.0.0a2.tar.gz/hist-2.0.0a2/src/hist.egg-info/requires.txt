@@ -1,0 +1,25 @@
+numpy>=1.13.3
+boost-histogram==0.9.0
+matplotlib>=2.0
+scipy>=1.4.1
+uncertainties>=3
+histoprint>=1.4.0
+
+[:python_version < "3.8"]
+typing_extensions
+
+[dev]
+pytest>=4.6
+
+[docs]
+nbsphinx
+recommonmark>=0.5.0
+Sphinx>=2.0.0
+sphinx_copybutton
+sphinx_rtd_theme
+
+[mpl]
+matplotlib>=2.0
+
+[test]
+pytest>=4.6

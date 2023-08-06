@@ -1,0 +1,212 @@
+# -*- coding: utf-8 -*-
+from typing import Dict, List, Union, Any
+
+import sys
+import re
+import boost_histogram.axis as bha
+import hist.utils
+
+if sys.version_info >= (3, 8):
+    from typing import Protocol
+else:
+    from typing_extensions import Protocol
+
+
+class AxisProtocol(Protocol):
+    metadata: Any
+    name: str
+    title: str
+
+
+class AxesMixin:
+    __slots__ = ()
+
+    @property
+    def name(self: AxisProtocol) -> str:
+        """
+        Get or set the name for the Regular axis
+        """
+        return self.metadata.get("name", "") if isinstance(self.metadata, dict) else ""
+
+    @name.setter
+    def name(self: AxisProtocol, value: str) -> None:
+        self.metadata["name"] = value
+
+    @property
+    def title(self: AxisProtocol) -> str:
+        """
+        Get or set the title for the Regular axis
+        """
+        title = (
+            self.metadata.get("title", "") if isinstance(self.metadata, dict) else ""
+        )
+        return title or self.name
+
+    @title.setter
+    def title(self: AxisProtocol, value: str) -> None:
+        self.metadata["title"] = value
+
+
+@hist.utils.set_family(hist.utils.HIST_FAMILY)
+class Regular(bha.Regular, AxesMixin):
+    __slots__ = ()
+
+    def __init__(
+        self,
+        bins: int,
+        start: float,
+        stop: float,
+        *,
+        name: str = None,
+        title: str = None,
+        underflow: bool = True,
+        overflow: bool = True,
+        growth: bool = False,
+        circular: bool = False,
+        transform: bha.transform.Function = None
+    ) -> None:
+        metadata: Dict = dict()
+        if not name:
+            metadata["name"] = ""
+        elif re.match(r"^[a-zA-Z][a-zA-Z0-9_]*$", name):
+            metadata["name"] = name
+        else:
+            raise Exception("Name should be a valid Python identifier")
+        metadata["title"] = title
+        super().__init__(
+            bins,
+            start,
+            stop,
+            metadata=metadata,
+            underflow=underflow,
+            overflow=overflow,
+            growth=growth,
+            circular=circular,
+            transform=transform,
+        )
+
+
+@hist.utils.set_family(hist.utils.HIST_FAMILY)
+class Boolean(bha.Boolean, AxesMixin):
+    __slots__ = ()
+
+    def __init__(self, *, name: str = None, title: str = None) -> None:
+        metadata: Dict = dict()
+        if not name:
+            metadata["name"] = ""
+        elif re.match(r"^[a-zA-Z][a-zA-Z0-9_]*$", name):
+            metadata["name"] = name
+        else:
+            raise Exception("Name should be a valid Python identifier")
+        metadata["title"] = title
+        super().__init__(metadata=metadata)
+
+
+@hist.utils.set_family(hist.utils.HIST_FAMILY)
+class Variable(bha.Variable, AxesMixin):
+    __slots__ = ()
+
+    def __init__(
+        self,
+        edges: Union[range, List[float]],
+        *,
+        name: str = None,
+        title: str = None,
+        underflow: bool = True,
+        overflow: bool = True,
+        growth: bool = False
+    ) -> None:
+        metadata: Dict = dict()
+        if not name:
+            metadata["name"] = ""
+        elif re.match(r"^[a-zA-Z][a-zA-Z0-9_]*$", name):
+            metadata["name"] = name
+        else:
+            raise Exception("Name should be a valid Python identifier")
+        metadata["title"] = title
+        super().__init__(
+            edges,
+            metadata=metadata,
+            underflow=underflow,
+            overflow=overflow,
+            growth=growth,
+        )
+
+
+@hist.utils.set_family(hist.utils.HIST_FAMILY)
+class Integer(bha.Integer, AxesMixin):
+    __slots__ = ()
+
+    def __init__(
+        self,
+        start: int,
+        stop: int,
+        *,
+        name: str = None,
+        title: str = None,
+        underflow: bool = True,
+        overflow: bool = True,
+        growth: bool = False
+    ) -> None:
+        metadata: Dict = dict()
+        if not name:
+            metadata["name"] = ""
+        elif re.match(r"^[a-zA-Z][a-zA-Z0-9_]*$", name):
+            metadata["name"] = name
+        else:
+            raise Exception("Name should be a valid Python identifier")
+        metadata["title"] = title
+        super().__init__(
+            start,
+            stop,
+            metadata=metadata,
+            underflow=underflow,
+            overflow=overflow,
+            growth=growth,
+        )
+
+
+@hist.utils.set_family(hist.utils.HIST_FAMILY)
+class IntCategory(bha.IntCategory, AxesMixin):
+    __slots__ = ()
+
+    def __init__(
+        self,
+        categories: Union[range, List[int]] = None,
+        *,
+        name: str = None,
+        title: str = None,
+        growth: bool = False
+    ) -> None:
+        metadata: Dict = dict()
+        if not name:
+            metadata["name"] = ""
+        elif re.match(r"^[a-zA-Z][a-zA-Z0-9_]*$", name):
+            metadata["name"] = name
+        else:
+            raise Exception("Name should be a valid Python identifier")
+        metadata["title"] = title
+        super().__init__(categories, metadata=metadata, growth=growth)
+
+
+@hist.utils.set_family(hist.utils.HIST_FAMILY)
+class StrCategory(bha.StrCategory, AxesMixin):
+    __slots__ = ()
+
+    def __init__(
+        self,
+        categories: Union[str, List[str]] = None,
+        *,
+        name: str = None,
+        title: str = None,
+        growth: bool = False
+    ) -> None:
+        metadata: Dict = dict()
+        if not name:
+            metadata["name"] = ""
+        elif re.match(r"^[a-zA-Z][a-zA-Z0-9_]*$", name):
+            metadata["name"] = name
+        else:
+            raise Exception("Name should be a valid Python identifier")
+        metadata["title"] = title
+        super().__init__(categories, metadata=metadata, growth=growth)
