@@ -1,0 +1,13 @@
+findpeaks/__init__.py,sha256=snCdAiOXjNH3j-m67FcKxfbYwgL23TKcROA71pVItRM,1796
+findpeaks/examples.py,sha256=RED3fgm3dkAUV3E3f8r8MMk-WgtJFp-mXsin_j1Nh0s,1885
+findpeaks/findpeaks.py,sha256=Pri-cKxJh4E1mcnMlMwPPJryShuwefrC2222eY0koQ4,24646
+findpeaks/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+findpeaks/utils/compute.py,sha256=zHminK_Rm7LSuZo-cAnNeye4x597GPAlCbgHnekRDQc,5190
+findpeaks/utils/imagepers.py,sha256=1-Bom-lSC_WlJkbfQUfJ-y5db9MpEAtohdJDLEO5Efk,1885
+findpeaks/utils/smoothline.py,sha256=hrJUYAAEKCcsXNgZfubosYFc0LAEc2f-xBeSHpzymiY,4907
+findpeaks/utils/union_find.py,sha256=ct3hvfpZsSacTlhEiYGRDZN-vXCEQKG_w7RZJrVpeyM,2469
+findpeaks-1.0.2.dist-info/LICENSE,sha256=4OJs0O1OXWmEajycw6JguIOE6rk1lvDQh0NKJCSXy9M,1122
+findpeaks-1.0.2.dist-info/METADATA,sha256=qU1Rz_PWPNciWka3YXATInYG2yHw6MGgmzRqRdRcHyw,7877
+findpeaks-1.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+findpeaks-1.0.2.dist-info/top_level.txt,sha256=HND0Pn81OXxXHW7MkhO3wu2AkSaczV2RtQTriF1z8Ug,10
+findpeaks-1.0.2.dist-info/RECORD,,
