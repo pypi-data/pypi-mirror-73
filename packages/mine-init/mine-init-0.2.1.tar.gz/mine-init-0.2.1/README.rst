@@ -1,0 +1,30 @@
+===========
+ mine-init
+===========
+-------------------------------------------------------------
+ A container friendly startup routine for Packmaker servers.
+-------------------------------------------------------------
+
+|build-status| |coverage|
+
+Main Documentation
+==================
+
+**mine-init** is a Python based startup routine for `Packmaker`_ based modded Minecraft servers. It can be run on any Linux system and in any container at present. It can be configured via environment variables, flags, and soon config files. (`ini`, `yaml` and `toml` formats are being considered)
+
+It works by using `Packmaker`_ to download all mods based on a `Packmaker`_ yaml and lock file. It will download the latest mods, and sync the updated configuration and mods into the server directory in a stateful way that preserves runtime data, like the world.
+
+Like `Packmaker`_, **mine-init** can be given multiple pack files, which it will merge from first to last provided. This allows pack developers to release a server with pack related mods, and for server administrators to add their own maintenance packs, with mods for backup; sleep voting; and maps for example.
+
+`Main Index`_
+
+.. |build-status| image:: https://gitlab.routh.io/minecraft/tools/mine-init/badges/master/pipeline.svg
+    :target: https://gitlab.routh.io/minecraft/tools/mine-init/pipelines
+
+.. |coverage| image:: https://gitlab.routh.io/minecraft/tools/mine-init/badges/master/coverage.svg
+    :target: http://minecraft.pages.routh.io/tools/mine-init/reports/
+    :alt: Coverage status
+
+.. _Main Index: http://minecraft.pages.routh.io/tools/mine-init/
+
+.. _Packmaker: https://packmaker.readthedocs.io/
