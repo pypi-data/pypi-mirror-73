@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/git_file_mapper/__init__.py
+src/git_file_mapper/cli.py
+src/git_file_mapper/mapper.py
+src/git_file_mapper.egg-info/PKG-INFO
+src/git_file_mapper.egg-info/SOURCES.txt
+src/git_file_mapper.egg-info/dependency_links.txt
+src/git_file_mapper.egg-info/entry_points.txt
+src/git_file_mapper.egg-info/not-zip-safe
+src/git_file_mapper.egg-info/requires.txt
+src/git_file_mapper.egg-info/top_level.txt
