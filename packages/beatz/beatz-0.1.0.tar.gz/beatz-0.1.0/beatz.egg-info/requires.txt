@@ -1,0 +1,2 @@
+validators==0.15.0
+youtube_dl==2020.6.16.1
