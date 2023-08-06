@@ -1,0 +1,14 @@
+Django>=2.1
+djangorestframework>=3.10
+django-countries==5.5
+django-phonenumber-field[phonenumberslite]
+drf-nested-routers
+python-dateutil
+
+[docs]
+django-extensions
+pydot
+
+[testing]
+tox
+watchdog
