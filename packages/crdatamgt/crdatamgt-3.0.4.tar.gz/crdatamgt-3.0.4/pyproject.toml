@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "crdatamgt"
+version = "3.0.4"
+description = "Chemistry research data management application"
+authors = ["Michael Jaquier <michael.jaquier@contracted.pmi.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.3"
+openpyxl = "^3.0.3"
+xlsxwriter = "^1.2.8"
+toolz = "^0.10.0"
+PyYAML = "^5.3.1"
+simplelogging = "^0.10.0"
+scipy = "^1.4.1"
+black = "^19.10b0"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^19.10b0", allow-prereleases = true}
+pytest = "^5.4.3"
+pytest-cov = "^2.9.0"
+pytest-xdist = "^1.32.0"
+mock = "^4.0.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
