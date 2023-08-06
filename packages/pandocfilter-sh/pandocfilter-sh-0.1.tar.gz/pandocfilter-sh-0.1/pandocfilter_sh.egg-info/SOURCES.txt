@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pandocfilter_sh.egg-info/PKG-INFO
+pandocfilter_sh.egg-info/SOURCES.txt
+pandocfilter_sh.egg-info/dependency_links.txt
+pandocfilter_sh.egg-info/entry_points.txt
+pandocfilter_sh.egg-info/requires.txt
+pandocfilter_sh.egg-info/top_level.txt
+pandocfilters_sh/__init__.py
+pandocfilters_sh/__main__.py

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pandocfilter-sh
+Version: 0.1
+Summary: Pandocfilters wrapper project to install as a script
+Home-page: https://github.com/miki725/pandocfilters-sh
+License: MIT
+Description: Pandocfilters.sh
+        ================
+        
+        Wrapper package to install `pandocfilters` with an executable.
+        
+        This allows to install `pandocfilters` with `pipx`:
+        
+        .. code:: bash
+        
+            pipx install pandocfilters-sh
+        
+        To use with `pandoc`, simply adjust `PYTHONPATH`:
+        
+        .. code:: bash
+        
+            export PYTHONPATH=$(pandocfilters --python)
+        
+Keywords: pandoc pandocfilters
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/x-rst
