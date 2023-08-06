@@ -1,0 +1,15 @@
+docker run --rm -it -v $PWD:/home/kdas/jce kdas/buildfedorajce:32
+$ maturin build --manylinux=off
+🔗 Found pyo3 bindings
+🐍 Found CPython 3.8 at python3.8
+📦 Built source distribution to /home/kdas/jce/target/wheels/johnnycanencrypt-0.1.0.tar.gz
+   Compiling docopt v1.1.0
+   Compiling nettle-sys v2.0.4
+   Compiling string_cache v0.7.5
+   Compiling lalrpop v0.17.2
+   Compiling nettle v7.0.0
+   Compiling sequoia-openpgp v0.17.0
+   Compiling johnnycanencrypt v0.1.0 (/home/kdas/jce)
+    Finished dev [unoptimized + debuginfo] target(s) in 1m 01s
+📦 Built wheel for CPython 3.8 to /home/kdas/jce/target/wheels/johnnycanencrypt-0.1.0-cp38-cp38-linux_x86_64.whl
+
