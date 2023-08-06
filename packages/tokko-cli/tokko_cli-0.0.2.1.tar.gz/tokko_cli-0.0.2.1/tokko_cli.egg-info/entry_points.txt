@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tokky=tokko_cli.cli:main
+    
