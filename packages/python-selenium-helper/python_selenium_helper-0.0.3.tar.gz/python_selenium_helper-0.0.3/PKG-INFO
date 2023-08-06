@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: python_selenium_helper
+Version: 0.0.3
+Summary: python selenium helper
+Home-page: https://github.com/SamuelJansen/python_selenium_helper/
+Author: Samuel Jansen
+Author-email: samuel.jansenn@gmail.com
+License: MIT
+Download-URL: https://github.com/SamuelJansen/python_selenium_helper/archive/v0.0.3.tar.gz
+Description: UNKNOWN
+Keywords: selenium,python selenium helper package,python selenium,selenium package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
