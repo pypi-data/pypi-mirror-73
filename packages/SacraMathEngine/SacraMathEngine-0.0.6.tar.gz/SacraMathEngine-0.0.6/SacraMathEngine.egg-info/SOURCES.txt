@@ -1,0 +1,11 @@
+README.md
+setup.py
+SacraMathEngine/Matrix.py
+SacraMathEngine/MeshObject.py
+SacraMathEngine/Triangle.py
+SacraMathEngine/Vector.py
+SacraMathEngine/__init__.py
+SacraMathEngine.egg-info/PKG-INFO
+SacraMathEngine.egg-info/SOURCES.txt
+SacraMathEngine.egg-info/dependency_links.txt
+SacraMathEngine.egg-info/top_level.txt
