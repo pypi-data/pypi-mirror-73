@@ -1,0 +1,10 @@
+celerite2-0.0.1.dev1.dist-info/RECORD,,
+celerite2-0.0.1.dev1.dist-info/WHEEL,sha256=KUZSkuQMxyAdWwk8_y9mjEqh6Qo2Th8Id2c_HBQK9jE,111
+celerite2-0.0.1.dev1.dist-info/METADATA,sha256=oY9ZyWkIs-2FYDgvG40U7MS3DGYcwlcgj5dMyC85s50,1921
+celerite2-0.0.1.dev1.dist-info/top_level.txt,sha256=fvySxB74L29TdfYyEBdDsFoMRp5YWsyMXOz5-rod9ks,10
+celerite2-0.0.1.dev1.dist-info/LICENSE,sha256=6mBsmX8Gmmsn7rUEHuP0DpplBVP6B3obB3tulxOTDzA,1075
+celerite2/driver.cpython-38-x86_64-linux-gnu.so,sha256=JcMM8BRDkMp0QimSDRcf4s4DHc11lM0KliWWm_WdGlg,209641152
+celerite2/celerite2.py,sha256=K_TEBQl4EwmCeu5JcqcDTxXgYlhKK1a-6YK6kR2b9Yg,2276
+celerite2/__init__.py,sha256=WFbiCzAMQkJ0bIHuS93ocvP9P7MO4ASaXer2PAmwWgw,1305
+celerite2/driver.cpp,sha256=nZ5Yb6JipXQqUdy5JY4ZTb8OvKRdAVSLKBHsoc2kQfg,22976
+celerite2/celerite2_version.py,sha256=GA8C7Yzq5nUdE_c5qwjlFtLcc1s4Ec7OgG1qqFSRvkU,27
