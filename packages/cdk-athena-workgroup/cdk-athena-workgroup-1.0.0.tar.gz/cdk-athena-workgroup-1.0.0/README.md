@@ -1,0 +1,47 @@
+# CDK Athena WorkGroup
+
+[![Source](https://img.shields.io/badge/Source-GitHub-blue?logo=github)](https://github.com/udondan/cdk-athena-workgroup)
+[![Test](https://github.com/udondan/cdk-athena-workgroup/workflows/Test/badge.svg)](https://github.com/udondan/cdk-athena-workgroup/actions?query=workflow%3ATest)
+[![GitHub](https://img.shields.io/github/license/udondan/cdk-athena-workgroup)](https://github.com/udondan/cdk-athena-workgroup/blob/master/LICENSE)
+[![Docs](https://img.shields.io/badge/awscdk.io-cdk--athena--workgroup-orange)](https://awscdk.io/packages/cdk-athena-workgroup@1.0.0)
+
+[![npm package](https://img.shields.io/npm/v/cdk-athena-workgroup?color=brightgreen)](https://www.npmjs.com/package/cdk-athena-workgroup)
+[![PyPI package](https://img.shields.io/pypi/v/cdk-athena-workgroup?color=brightgreen)](https://pypi.org/project/cdk-athena-workgroup/)
+[![NuGet package](https://img.shields.io/nuget/v/CDK.Athena.WorkGroup?color=brightgreen)](https://www.nuget.org/packages/CDK.Athena.WorkGroup/)
+
+![Downloads](https://img.shields.io/badge/-DOWNLOADS:-brightgreen?color=gray)
+[![npm](https://img.shields.io/npm/dt/cdk-athena-workgroup?label=npm&color=blueviolet)](https://www.npmjs.com/package/cdk-athena-workgroup)
+[![PyPI](https://img.shields.io/pypi/dm/cdk-athena-workgroup?label=pypi&color=blueviolet)](https://pypi.org/project/cdk-athena-workgroup/)
+[![NuGet](https://img.shields.io/nuget/dt/CDK.Athena.WorkGroup?label=nuget&color=blueviolet)](https://www.nuget.org/packages/CDK.Athena.WorkGroup/)
+
+[AWS CDK](https://aws.amazon.com/cdk/) L3 construct for managing [Athena WorkGroups](https://docs.aws.amazon.com/athena/latest/ug/manage-queries-control-costs-with-workgroups.html).
+
+Because I couldn't get [@aws-cdk/aws-athena.CfnWorkGroup](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-athena.CfnWorkGroup.html) to work and [@aws-cdk/custom-resources.AwsCustomResource](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_custom-resources.AwsCustomResource.html) has no support for tags.
+
+```python
+# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+wg = WorkGroup(self, "WorkGroup",
+    name="TheName", # required
+    desc="Some description",
+    publish_cloud_watch_metrics_enabled=True,
+    enforce_work_group_configuration=True,
+    requester_pays_enabled=True,
+    bytes_scanned_cutoff_per_query=11000000,
+    result_configuration={
+        "output_location": "s3://some-bucket/prefix",
+        "encryption_configuration": {
+            "encryption_option": EncryptionOption.SSE_S3
+        }
+    }
+)
+
+cdk.Tag.add(wg, "HelloTag", "ok")
+
+cdk.CfnOutput(self, "WorkGroupArn",
+    value=wg.arn
+)
+
+cdk.CfnOutput(self, "WorkGroupName",
+    value=wg.name
+)
+```
