@@ -1,0 +1,11 @@
+indicators.cpython-37m-darwin.so,sha256=mzuSLz4JpKgAam3w52Q_8barfAxk9pGhkQ-nBdyUH8Q,199236
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/indicators.c,sha256=tAW2B--OzRVYfFiZC2rg3yurAaAnopOL1MWzqjOLfQ4,870884
+src/indicators.pyx,sha256=X3mVenGwRkzwm74BLD7NHMrRRiW1FVhKHoms2hbt44M,7479
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functions.py,sha256=y4XnXZqhMOexPjNr4xb8szJR1ohIcM_gDcxFOU59UKY,1963
+cython_indicators-1.0.0.dist-info/LICENSE,sha256=ZnLtRr0x7A_29ArBdZ5BWTkOPPcSs0bl0B9brEgWDy4,1070
+cython_indicators-1.0.0.dist-info/METADATA,sha256=GpfGxvRaF8M89KdCrwW5QZwjO2cD2AxFsMVcfs1WOs8,2122
+cython_indicators-1.0.0.dist-info/WHEEL,sha256=nwkAFz8_dz9CJKDh7koJ-e7PWuFRVmHPgrJxVGv4MRQ,110
+cython_indicators-1.0.0.dist-info/top_level.txt,sha256=1jSBZy9zFj6uKIkKIzmlHYuBSttyr2YOw-iVFOlf1Cg,21
+cython_indicators-1.0.0.dist-info/RECORD,,
