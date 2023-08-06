@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: replication
+Version: 0.0.4
+Summary: A prototype object replication lib
+Home-page: https://gitlab.com/slumber/replication
+Author: Swann Martinez
+Author-email: swann.martinez@pm.me
+License: GPL3
+Description: A simple client/server python objects replication framework
+Platform: UNKNOWN
