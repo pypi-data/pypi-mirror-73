@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: slimHTTP
+Version: 1.0.1rc3
+Summary: A minimalistic non-threaded HTTP server written in Python. Supports REST & WebSockets¹.
+Home-page: https://github.com/Torxed/slimHTTP
+Author: Anton Hvornum
+Author-email: anton@hvornum.se
+License: UNKNOWN
+Description: # <img src="docs/_static/slimHTTP.png" alt="drawing" width="200"/>
+        A simple, minimal and flexible HTTP server.<br>
+        Supports modules for parsing WebSocketÂ¹ traffic as well as REST api routes.
+        
+         * slimHTTP [documentation](https://slimhttp.readthedocs.io/en/master)
+         * slimHTTP [discord](https://discord.gg/CMjZbwR) server
+        
+        ## Supports
+        
+         * REST routes *(`@http.route('/some/endpoint')`)*
+         * websockets if `@http.on_upgrade` is defined using [spiderWeb](https://github.com/Torxed/spiderWeb) Â¹
+         * Static file emulation with `@http.route('/example.html')`
+         * vhosts
+         * ssl/tls
+         * No threading or threads used *(fully relies on `epoll()` (`select()` on Windows))*
+         * flexible configuration for webroots etc via `@http.configuration`
+        
+        ## Minimal example
+        
+        ```py
+        import slimhttpd
+        
+        http = slimhttpd.host(slimhttpd.HTTP)
+        
+        while 1:
+        	for event, *event_data in http.poll():
+        		pass
+        ```
+        
+        The only important thing is that `.poll()` has to be called in order to process the events.
+        
+        ## Footnote
+        
+        It's not pretty down here. But it'll do in a pinch.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
