@@ -1,0 +1,9 @@
+pigpio_dht/__init__.py,sha256=Xyx9kOCCrVixCGiV3LiBDW5YSAvrDe9L-tbYSJZfh4I,75
+pigpio_dht/dht11.py,sha256=utWECRrMLDgrtSqywE4g1uG_WzIy6BRjxPE5XaeU72s,1056
+pigpio_dht/dht22.py,sha256=9NPYnzfxbSFRNHK1CJ6a-ktF2pV7jnH60KS4imjgUZ4,1022
+pigpio_dht/dhtxx.py,sha256=PQBrtmttqdIeLuCy1VdbNzp1i-8gwHLA3ugXsJx-fHA,13464
+pigpio_dht-0.3.6.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pigpio_dht-0.3.6.dist-info/METADATA,sha256=UVIxbQGdrIk_P4Sy1-v2Xmei4mzvujVwCqXfUqdnBXk,4966
+pigpio_dht-0.3.6.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+pigpio_dht-0.3.6.dist-info/top_level.txt,sha256=A4W1CwWTxdp2jBUo8LbXynsToR7oLvnkwyQzTLOdMXM,11
+pigpio_dht-0.3.6.dist-info/RECORD,,
