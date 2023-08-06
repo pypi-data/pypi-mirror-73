@@ -1,0 +1,7 @@
+README.txt
+setup.py
+FDEM.egg-info/PKG-INFO
+FDEM.egg-info/SOURCES.txt
+FDEM.egg-info/dependency_links.txt
+FDEM.egg-info/top_level.txt
+src/__init__.py
