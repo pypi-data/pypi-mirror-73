@@ -1,0 +1,5 @@
+six
+numpy
+pandas
+MDAnalysis<2.0.0
+propka==3.1
