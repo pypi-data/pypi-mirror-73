@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: django-raw-query
+Version: 0.0.4
+Summary: Simple raw database query helper for Django
+Home-page: https://github.com/joncombe/django-raw-query
+Author: Jon Combe
+Author-email: me@joncombe.net
+License: BSD licence, see LICENCE file
+Description: View readme on github: https://github.com/joncombe/django-raw-query
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
