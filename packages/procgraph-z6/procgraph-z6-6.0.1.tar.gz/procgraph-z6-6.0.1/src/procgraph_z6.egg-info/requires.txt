@@ -1,0 +1,8 @@
+setuptools-git
+pyparsing
+setproctitle
+termcolor
+SystemCmd-z6
+PyContracts3
+qtfaststart
+numpy

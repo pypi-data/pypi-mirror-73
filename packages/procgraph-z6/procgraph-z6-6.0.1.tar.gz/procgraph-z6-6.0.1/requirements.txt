@@ -1,0 +1,10 @@
+SystemCmd-z6==2.2.4
+PyContracts3
+pyyaml
+pyparsing
+setproctitle
+termcolor
+qtfaststart
+nose
+coveralls
+numpy
