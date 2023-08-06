@@ -1,0 +1,10 @@
+setup.py
+Arabic_Stopwords.egg-info/PKG-INFO
+Arabic_Stopwords.egg-info/SOURCES.txt
+Arabic_Stopwords.egg-info/dependency_links.txt
+Arabic_Stopwords.egg-info/requires.txt
+Arabic_Stopwords.egg-info/top_level.txt
+arabicstopwords/__init__.py
+arabicstopwords/arabicstopwords.py
+arabicstopwords/stopwords_classified.py
+arabicstopwords/stopwordsallforms.py
