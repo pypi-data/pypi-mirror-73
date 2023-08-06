@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lm_dataformat
+Version: 0.0.3
+Summary: A utility for storing and reading files for LM training.
+Home-page: https://github.com/leogao2/lm_dataformat
+Author: Leo Gao
+Author-email: leogao31@gmail.com
+License: UNKNOWN
+Description: # LM_Dataformat
+        
+        Utilities for storing data for LM training.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
