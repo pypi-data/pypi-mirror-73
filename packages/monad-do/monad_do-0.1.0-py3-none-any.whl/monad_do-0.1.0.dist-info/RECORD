@@ -1,0 +1,16 @@
+monad_do/__init__.py,sha256=GdEksKuYadOtmKeXyDrxpRQ3810_WKg8J58w8YphWM8,345
+monad_do/applicative.py,sha256=hQ7_FpEnTPFN7OxF48hVwK3iZnvyC0VW40KMFn5PNkI,1283
+monad_do/combinators.py,sha256=w4UUAlvEcxXw1WkQXaB3K0qooUpRkzqKx4ePnzQuaPY,698
+monad_do/cont.py,sha256=OT-Ikg2BkRq0VE0w0SEsh6qRR65Iskq3H8_aAgDLfjg,751
+monad_do/do_cached.py,sha256=gTDFOkYH0GDGRkb2pG1xuiQZGTAgqLRNuQ4imKdd8g0,2592
+monad_do/do_simple.py,sha256=ayiDc9JMdYZ7pIZocXcsVE77M12h03h8Ok9sj22J-_I,1466
+monad_do/either.py,sha256=c5KeVw5ANO4mfOu3YZAiOnaHBdwKlLNEE5VbGV6dt8Y,1130
+monad_do/functor.py,sha256=OKb7Ret7wzmtEwWiMtWRxrHgV7nr-1qTIpenGQIILXo,131
+monad_do/list_.py,sha256=i378R1ynqW3isjVs-o6Zd-F2iVkQxoRi-0uc9eVroJA,451
+monad_do/maybe.py,sha256=l84UKS9Aqwh8i9au3i5Q8D-aS4wy2BdcF_haggwkwQI,1053
+monad_do/monad.py,sha256=092q9oSpJBkvCXGKlm2M7k_XE3hPDDLdKzQhZfCuxck,421
+monad_do/state.py,sha256=ynTefClZdOTIJIh8dg3UNYYl7TIS6-lFywCJvIND7dI,847
+monad_do-0.1.0.dist-info/METADATA,sha256=fTxtcUt_h5aoraLumEqyRtUASj66BoB-Xc7hPhAp3FE,2404
+monad_do-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+monad_do-0.1.0.dist-info/top_level.txt,sha256=4qcemUl61OoJXMDpufsnwzm8f4IaHuhppCvQsQ_9Bbs,9
+monad_do-0.1.0.dist-info/RECORD,,
