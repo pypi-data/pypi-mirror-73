@@ -1,0 +1,7 @@
+setup.py
+pytoexe/__init__.py
+pytoexe/main.py
+pytoexe.egg-info/PKG-INFO
+pytoexe.egg-info/SOURCES.txt
+pytoexe.egg-info/dependency_links.txt
+pytoexe.egg-info/top_level.txt
