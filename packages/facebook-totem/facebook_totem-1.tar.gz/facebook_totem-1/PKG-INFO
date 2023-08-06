@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: facebook_totem
+Version: 1
+Summary: Totem allows you to retrieve information about ads of a facebook page , we can retrieve the number of people targeted, how much the ad cost and a lot of other information.
+Home-page: http://github.com/megadose/facebook_totem
+Author: megadose
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
